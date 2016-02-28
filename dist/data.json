@@ -1,0 +1,39 @@
+[
+   {
+    "name": "Iron Maiden",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "ironmaiden.com",
+    "logos": [{
+      "name": "oficial",
+      "svg": "ironmaiden.svg"
+    }]
+  },  {
+    "name": "Metallica",
+    "origin": "USA",
+    "style": "Thrash Metal",
+    "link": "metallica.com",
+    "logos": [{
+      "name": "Oficial",
+      "svg": "metallica.svg"
+    }]
+  },  {
+    "name": "AC⚡DC",
+    "origin": "Australian",
+    "style": "Hard Rock",
+    "link": "acdc.com",
+    "logos": [{
+      "name": "Oficial",
+      "svg": "acdc.svg"
+    }]
+  },  {
+    "name": "Rammstein",
+    "origin": "Germany",
+    "style": "Industrial Metal",
+    "link": "rammstein.com",
+    "logos": [{
+      "name": "Oficial",
+      "svg": "rammstein.svg"
+    }]
+  }
+]
