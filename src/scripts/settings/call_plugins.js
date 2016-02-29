@@ -13,5 +13,4 @@ function addLoadEvent(func) {
 addLoadEvent(
 	//call plugins after DOM ready
 
-
 );

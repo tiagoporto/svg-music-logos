@@ -9,9 +9,15 @@ angular
   .module('svgBandLogosApp', []);
 
 angular.module('svgBandLogosApp')
-	.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
-		$http.get("data.json")
-		.then(function(response) {
-			$scope.bands = response.data;
+	.controller('MainCtrl', ['$scope', '$http', '$timeout' , ($scope, $http, $timeout) => {
+		'use strict';
+
+
+		$timeout(() => {
+			$('.svg').svgToInline();
 		});
+
+
+		$http.get('data.json')
+			.then( response => $scope.bands = response.data );
 	}]);

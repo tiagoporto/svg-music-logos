@@ -52,7 +52,7 @@
 				</div>
 
 				<div class="row">
-					<div ng-repeat="band in bands | orderBy:'name' |  filter:search">
+					<div ng-repeat="band in bands | orderBy:'name' |  filter:search track by band.name" >
 						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" ng-repeat="logo in band.logos">
 							<div class="tile">
 								<a href="http://{{band.link}}"><h1 class="tile-title">{{band.name}}</h1></a>
@@ -60,7 +60,10 @@
 								<p>Origin: {{band.origin}}</p>
 
 								<p>{{logo.name}}</p>
-								<img ng-src="logos/{{logo.svg}}" class="tile-image big-illustration">
+
+								<div class="myImage">
+								<img ng-src="logos/{{logo.svg}}" class="{{logo.class}}svg">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -78,10 +81,11 @@
 
 		<!-- build:js js/scripts.combined.min.js -->
 		<script src="bower_components/angular/angular.js"></script>
-		<!-- <script src="bower_components/jquery/jquery.js"></script> -->
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/jquery-svg-to-inline/jquery-svg-to-inline.js"></script>
 		<script src="js/angular.js"></script>
-		<script src="js/vendors.js"></script>
-		<!-- <script src="js/scripts.js"></script> -->
+		<!-- <script src="js/vendors.js"></script> -->
+		<script src="js/scripts.js"></script>
 		<!-- endbuild -->
 	</body>
 </html>

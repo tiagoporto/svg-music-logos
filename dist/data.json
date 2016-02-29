@@ -6,7 +6,8 @@
     "link": "ironmaiden.com",
     "logos": [{
       "name": "oficial",
-      "svg": "ironmaiden.svg"
+      "svg": "ironmaiden.svg",
+      "class": ""
     }]
   },  {
     "name": "Metallica",
@@ -15,7 +16,8 @@
     "link": "metallica.com",
     "logos": [{
       "name": "Oficial",
-      "svg": "metallica.svg"
+      "svg": "metallica.svg",
+      "class": ""
     }]
   },  {
     "name": "AC⚡DC",
@@ -24,7 +26,8 @@
     "link": "acdc.com",
     "logos": [{
       "name": "Oficial",
-      "svg": "acdc.svg"
+      "svg": "acdc.svg",
+      "class": ""
     }]
   },  {
     "name": "Rammstein",
@@ -33,7 +36,8 @@
     "link": "rammstein.com",
     "logos": [{
       "name": "Oficial",
-      "svg": "rammstein.svg"
+      "svg": "rammstein.svg",
+      "class": ""
     }]
   }
 ]
