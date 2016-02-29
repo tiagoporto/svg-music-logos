@@ -5,9 +5,17 @@
     "style": "Heavy Metal",
     "link": "ironmaiden.com",
     "logos": [{
-      "name": "oficial",
+      "name": "classical",
       "svg": "ironmaiden.svg",
       "class": ""
+      }, {
+      "name": "sliced",
+      "svg": "ironmaiden-sliced.svg",
+      "class": "iron-maiden--sliced"
+      }, {
+      "name": "classical",
+      "svg": "ironmaiden.svg",
+      "class": "iron-maiden--classical"
     }]
   },  {
     "name": "Metallica",
