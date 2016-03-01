@@ -5,8 +5,17 @@
     "style": "Heavy Metal",
     "link": "ironmaiden.com",
     "logos": [{
-      "name": "oficial",
-      "svg": "ironmaiden.svg"
+      "name": "classical",
+      "svg": "ironmaiden.svg",
+      "class": ""
+      }, {
+      "name": "sliced",
+      "svg": "ironmaiden-sliced.svg",
+      "class": "iron-maiden--sliced"
+      }, {
+      "name": "classical",
+      "svg": "ironmaiden.svg",
+      "class": "iron-maiden--classical"
     }]
   },  {
     "name": "Metallica",
@@ -15,7 +24,8 @@
     "link": "metallica.com",
     "logos": [{
       "name": "Oficial",
-      "svg": "metallica.svg"
+      "svg": "metallica.svg",
+      "class": ""
     }]
   },  {
     "name": "AC⚡DC",
@@ -24,7 +34,24 @@
     "link": "acdc.com",
     "logos": [{
       "name": "Oficial",
-      "svg": "acdc.svg"
+      "svg": "acdc-classical.svg",
+      "class": "acdc--classical"
+      }, {
+      "name": "Oficial",
+      "svg": "acdc-classical.svg",
+      "class": "acdc--classical-color"
+      }, {
+      "name": "Oficial",
+      "svg": "acdc.svg",
+      "class": ""
+      }, {
+      "name": "stroke",
+      "svg": "acdc.svg",
+      "class": "acdc--stroke"
+      }, {
+      "name": "Inverse",
+      "svg": "acdc.svg",
+      "class": "acdc--inverse"
     }]
   },  {
     "name": "Rammstein",
@@ -33,7 +60,8 @@
     "link": "rammstein.com",
     "logos": [{
       "name": "Oficial",
-      "svg": "rammstein.svg"
+      "svg": "rammstein.svg",
+      "class": ""
     }]
   }
 ]
