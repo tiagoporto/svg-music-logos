@@ -251,13 +251,13 @@ gulp.task('scripts', function () {
 			.pipe(plugins.plumber())
 			.pipe(plugins.if(config.lintJS, plugins.eslint()))
 			.pipe(plugins.if(config.lintJS, plugins.eslint.format()))
+			.pipe(plugins.concat('angular.js'))
 			.pipe(plugins.if(
 			  config.es6,
 			  plugins.babel({
 				presets: ['es2015']
 			  })
 			))
-			.pipe(plugins.concat('angular.js'))
 			.pipe(plugins.wrapper({
 			  header: headerProject + '\n'
 			}))
@@ -277,13 +277,13 @@ gulp.task('scripts', function () {
 			.pipe(plugins.plumber())
 			.pipe(plugins.if(config.lintJS, plugins.eslint()))
 			.pipe(plugins.if(config.lintJS, plugins.eslint.format()))
+			.pipe(plugins.concat('scripts.js'))
 			.pipe(plugins.if(
 			  config.es6,
 			  plugins.babel({
 				presets: ['es2015']
 			  })
 			))
-			.pipe(plugins.concat('scripts.js'))
 			.pipe( plugins.if(
 			  config.jQuery,
 			  plugins.wrapper({
@@ -314,6 +314,12 @@ gulp.task('scripts', function () {
 			.pipe(plugins.wrapper({
 			  header: headerProject + '\n'
 			}))
+			.pipe(plugins.if(
+			  config.es6,
+			  plugins.babel({
+				presets: ['es2015']
+			  })
+			))
 			.pipe(gulp.dest(paths.scripts.dest))
 			.pipe(plugins.rename({suffix: '.min'}))
 			.pipe(plugins.uglify({

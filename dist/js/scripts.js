@@ -7,5 +7,5 @@
 jQuery(document).ready(function($) {
 
 // JS
-
+"use strict";
 });

@@ -4,20 +4,18 @@
 *	Released under the MIT license
 */
 
+'use strict';
 
-angular
-  .module('svgBandLogosApp', []);
+angular.module('svgBandLogosApp', []);
 
-angular.module('svgBandLogosApp')
-	.controller('MainCtrl', ['$scope', '$http', '$timeout' , ($scope, $http, $timeout) => {
-		'use strict';
+angular.module('svgBandLogosApp').controller('MainCtrl', ['$scope', '$http', '$timeout', function ($scope, $http, $timeout) {
+	'use strict';
 
+	$timeout(function () {
+		$('.svg').svgToInline();
+	});
 
-		$timeout(() => {
-			$('.svg').svgToInline();
-		});
-
-
-		$http.get('data.json')
-			.then( response => $scope.bands = response.data );
-	}]);
+	$http.get('data.json').then(function (response) {
+		return $scope.bands = response.data;
+	});
+}]);
