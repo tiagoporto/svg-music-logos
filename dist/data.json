@@ -34,8 +34,24 @@
     "link": "acdc.com",
     "logos": [{
       "name": "Oficial",
+      "svg": "acdc-classical.svg",
+      "class": "acdc--classical"
+      }, {
+      "name": "Oficial",
+      "svg": "acdc-classical.svg",
+      "class": "acdc--classical-color"
+      }, {
+      "name": "Oficial",
       "svg": "acdc.svg",
       "class": ""
+      }, {
+      "name": "stroke",
+      "svg": "acdc.svg",
+      "class": "acdc--stroke"
+      }, {
+      "name": "Inverse",
+      "svg": "acdc.svg",
+      "class": "acdc--inverse"
     }]
   },  {
     "name": "Rammstein",

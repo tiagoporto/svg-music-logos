@@ -3,4 +3,4 @@
 *	Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
 *	Released under the MIT license
 */
-.iron-maiden--classical{fill:red;stroke:#fff;stroke-width:1px}
+.acdc--classical #fill path,.acdc--classical #fill polygon{fill:#626262}.acdc--classical #shadow-one polygon{fill:#4a4a4a}.acdc--classical #shadow-two polygon{fill:#ededed}.acdc--classical #shadow-three polygon{fill:#c2c2c2}.acdc--classical #shadow-four polygon{fill:#4d4d4d}.acdc--classical-color #fill path,.acdc--classical-color #fill polygon{fill:#ef2334}.acdc--classical-color #shadow-one polygon{fill:#e3051b}.acdc--classical-color #shadow-two polygon{fill:#ffebcb}.acdc--classical-color #shadow-three polygon{fill:#f7b28a}.acdc--classical-color #shadow-four polygon{fill:#784500}.acdc--stroke{stroke-width:2px;stroke:#000;fill:rgba(255,255,255,0)}.acdc--inverse{fill:#fff}.iron-maiden--classical{fill:red;stroke:#fff;stroke-width:1px}
