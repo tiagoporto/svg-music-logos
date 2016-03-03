@@ -63,5 +63,33 @@
       "svg": "rammstein.svg",
       "class": ""
     }]
+  },  {
+    "name": "The Beatles",
+    "origin": "England",
+    "style": "Rock",
+    "link": "thebeatles.com",
+    "logos": [{
+      "name": "Oficial",
+      "svg": "beatles.svg",
+      "class": ""
+    }]
+  },  {
+    "name": "Led Zeppelin",
+    "origin": "England",
+    "style": "Rock",
+    "link": "ledzeppelin.com",
+    "logos": [{
+      "name": "Oficial",
+      "svg": "ledzeppelin.svg",
+      "class": ""
+      }, {
+      "name": "Oficial",
+      "svg": "ledzeppelin-serif.svg",
+      "class": ""
+      }, {
+      "name": "First",
+      "svg": "ledzeppelin-first.svg",
+      "class": ""
+    }]
   }
 ]
