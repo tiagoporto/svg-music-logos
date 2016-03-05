@@ -13,5 +13,27 @@ angular.module('svgBandLogosApp')
 
 
 		$http.get('data.json')
-			.then( response => $scope.bands = response.data );
+			.then( response => {
+
+				let newResponse = [];
+				let count = 0;
+
+				response.data.forEach( (band, bandIndex) => {
+
+					const getLogo = band.logos;
+
+					getLogo.forEach( (logo, logoIndex) => {
+						newResponse[count] = {};
+						newResponse[count].name = band.name;
+						newResponse[count].link = band.link;
+						newResponse[count].origin = band.origin;
+						newResponse[count].style = band.style;
+						newResponse[count].logo = logo;
+
+						++count;
+					});
+				});
+
+				$scope.bands = newResponse;
+			});
 	}]);

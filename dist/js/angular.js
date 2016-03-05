@@ -20,6 +20,26 @@ angular.module('svgBandLogosApp').controller('MainCtrl', ['$scope', '$http', '$t
 	};
 
 	$http.get('data.json').then(function (response) {
-		return $scope.bands = response.data;
+
+		var newResponse = [];
+		var count = 0;
+
+		response.data.forEach(function (band, bandIndex) {
+
+			var getLogo = band.logos;
+
+			getLogo.forEach(function (logo, logoIndex) {
+				newResponse[count] = {};
+				newResponse[count].name = band.name;
+				newResponse[count].link = band.link;
+				newResponse[count].origin = band.origin;
+				newResponse[count].style = band.style;
+				newResponse[count].logo = logo;
+
+				++count;
+			});
+		});
+
+		$scope.bands = newResponse;
 	});
 }]);
