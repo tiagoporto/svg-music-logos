@@ -26,6 +26,10 @@
       "title": "Oficial",
       "svg": "metallica.svg",
       "class": ""
+      }, {
+      "title": "Snake",
+      "svg": "metallica-snake.svg",
+      "class": ""
     }]
   },  {
     "name": "AC⚡DC",
@@ -118,6 +122,16 @@
     "logos": [{
       "title": "Original",
       "svg": "rush.svg",
+      "class": ""
+    }]
+    },  {
+    "name": "Cavalera Conspiracy",
+    "origin": "USA",
+    "style": "Groove Metal",
+    "link": "cavaleraconspiracy.com/",
+    "logos": [{
+      "title": "Original",
+      "svg": "cavaleraconspiracy.svg",
       "class": ""
     }]
   }
