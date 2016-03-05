@@ -62,6 +62,11 @@
       "title": "Oficial",
       "svg": "rammstein.svg",
       "class": ""
+      }, {
+
+        "title": "Symbol",
+        "svg": "rammstein-symbol.svg",
+        "class": ""
     }]
   },  {
     "name": "The Beatles",
@@ -103,6 +108,16 @@
     "logos": [{
       "title": "360°",
       "svg": "u2-360.svg",
+      "class": ""
+    }]
+    },  {
+    "name": "Rush",
+    "origin": "Canada",
+    "style": "Progressive rock",
+    "link": "rush.com",
+    "logos": [{
+      "title": "Original",
+      "svg": "rush.svg",
       "class": ""
     }]
   }
