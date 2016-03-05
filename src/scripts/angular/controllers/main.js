@@ -18,11 +18,11 @@ angular.module('svgBandLogosApp')
 				let newResponse = [];
 				let count = 0;
 
-				response.data.forEach( (band, bandIndex) => {
+				response.data.forEach( (band) => {
 
 					const getLogo = band.logos;
 
-					getLogo.forEach( (logo, logoIndex) => {
+					getLogo.forEach( (logo) => {
 						newResponse[count] = {};
 						newResponse[count].name = band.name;
 						newResponse[count].link = band.link;
@@ -30,7 +30,7 @@ angular.module('svgBandLogosApp')
 						newResponse[count].style = band.style;
 						newResponse[count].logo = logo;
 
-						++count;
+						count += 1;
 					});
 				});
 
