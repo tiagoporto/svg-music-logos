@@ -90,6 +90,20 @@
       "name": "First",
       "svg": "ledzeppelin-first.svg",
       "class": ""
+      }, {
+      "name": "First",
+      "svg": "ledzeppelin-symbols.svg",
+      "class": ""
+      }]
+    },  {
+    "name": "U2",
+    "origin": "Ireland",
+    "style": "Rock",
+    "link": "u2.com",
+    "logos": [{
+      "name": "360°",
+      "svg": "u2-360.svg",
+      "class": ""
     }]
   }
 ]

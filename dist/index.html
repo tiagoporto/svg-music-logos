@@ -53,9 +53,9 @@
 				</div>
 
 				<div class="row">
-					<div ng-repeat="band in bands | orderBy:'name' |  filter:search track by band.name" class="col-xs-12 col-md-4">
-						<div ng-repeat="logo in band.logos">
-							<div class="tile">
+					<div class="col-xs-12 col-md-4" ng-repeat="band in bands | orderBy:'name' |  filter:search track by band.name" ng-init="lastItem($last)">
+						<div  ng-repeat="logo in band.logos">
+							<div class="tile" >
 								<a href="http://{{band.link}}"><h1 class="tile-title">{{band.name}}</h1></a>
 								<p>Style: {{band.style}}</p>
 								<p>Origin: {{band.origin}}</p>
@@ -85,7 +85,7 @@
 		<script src="bower_components/jquery/dist/jquery.js"></script>
 		<script src="bower_components/jquery-svg-to-inline/jquery-svg-to-inline.js"></script>
 		<script src="js/angular.js"></script>
-		<!-- <script src="js/vendors.js"></script> -->
+		<script src="js/vendors.js"></script>
 		<script src="js/scripts.js"></script>
 		<!-- endbuild -->
 	</body>

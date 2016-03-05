@@ -8,19 +8,17 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
 ga('create', 'UA-32351360-4', 'auto');
 ga('send', 'pageview');
 
-//event listener: DOM ready
-function addLoadEvent(func) {
-	var oldonload = window.onload;
-	if (typeof window.onload !== 'function') {
-		window.onload = func;
-	} else {
-		window.onload = function() {
-			oldonload();
-			func();
-		};
-	}
-}
-addLoadEvent(
-	//call plugins after DOM ready
-
-);
+// function addLoadEvent(func) {
+// 	var oldonload = window.onload;
+// 	if (typeof window.onload !== 'function') {
+// 		window.onload = func;
+// 	} else {
+// 		window.onload = function() {
+// 			oldonload();
+// 			func();
+// 		};
+// 	}
+// }
+// addLoadEvent(
+//
+// );

@@ -3,9 +3,13 @@ angular.module('svgBandLogosApp')
 		'use strict';
 
 
-		$timeout(() => {
-			$('.svg').svgToInline();
-		});
+		$scope.lastItem = index => {
+			if(index){
+				$timeout(() => {
+					$('.svg').svgToInline();
+				});
+			}
+		};
 
 
 		$http.get('data.json')
