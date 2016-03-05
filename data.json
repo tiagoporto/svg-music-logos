@@ -5,15 +5,15 @@
     "style": "Heavy Metal",
     "link": "ironmaiden.com",
     "logos": [{
-      "name": "classical",
+      "title": "classical",
       "svg": "ironmaiden.svg",
       "class": ""
       }, {
-      "name": "sliced",
+      "title": "sliced",
       "svg": "ironmaiden-sliced.svg",
       "class": "iron-maiden--sliced"
       }, {
-      "name": "classical",
+      "title": "classical",
       "svg": "ironmaiden.svg",
       "class": "iron-maiden--classical"
     }]
@@ -23,7 +23,7 @@
     "style": "Thrash Metal",
     "link": "metallica.com",
     "logos": [{
-      "name": "Oficial",
+      "title": "Oficial",
       "svg": "metallica.svg",
       "class": ""
     }]
@@ -33,23 +33,23 @@
     "style": "Hard Rock",
     "link": "acdc.com",
     "logos": [{
-      "name": "Oficial",
+      "title": "Oficial",
       "svg": "acdc-classical.svg",
       "class": "acdc--classical"
       }, {
-      "name": "Oficial",
+      "title": "Oficial",
       "svg": "acdc-classical.svg",
       "class": "acdc--classical-color"
       }, {
-      "name": "Oficial",
+      "title": "Oficial",
       "svg": "acdc.svg",
       "class": ""
       }, {
-      "name": "stroke",
+      "title": "stroke",
       "svg": "acdc.svg",
       "class": "acdc--stroke"
       }, {
-      "name": "Inverse",
+      "title": "Inverse",
       "svg": "acdc.svg",
       "class": "acdc--inverse"
     }]
@@ -59,7 +59,7 @@
     "style": "Industrial Metal",
     "link": "rammstein.com",
     "logos": [{
-      "name": "Oficial",
+      "title": "Oficial",
       "svg": "rammstein.svg",
       "class": ""
     }]
@@ -69,7 +69,7 @@
     "style": "Rock",
     "link": "thebeatles.com",
     "logos": [{
-      "name": "Oficial",
+      "title": "Oficial",
       "svg": "beatles.svg",
       "class": ""
     }]
@@ -79,19 +79,19 @@
     "style": "Rock",
     "link": "ledzeppelin.com",
     "logos": [{
-      "name": "Oficial",
+      "title": "Oficial",
       "svg": "ledzeppelin.svg",
       "class": ""
       }, {
-      "name": "Oficial",
+      "title": "Oficial",
       "svg": "ledzeppelin-serif.svg",
       "class": ""
       }, {
-      "name": "First",
+      "title": "First",
       "svg": "ledzeppelin-first.svg",
       "class": ""
       }, {
-      "name": "First",
+      "title": "First",
       "svg": "ledzeppelin-symbols.svg",
       "class": ""
       }]
@@ -101,7 +101,7 @@
     "style": "Rock",
     "link": "u2.com",
     "logos": [{
-      "name": "360°",
+      "title": "360°",
       "svg": "u2-360.svg",
       "class": ""
     }]
