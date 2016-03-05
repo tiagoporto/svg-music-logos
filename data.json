@@ -26,6 +26,10 @@
       "title": "Oficial",
       "svg": "metallica.svg",
       "class": ""
+      }, {
+      "title": "Snake",
+      "svg": "metallica-snake.svg",
+      "class": ""
     }]
   },  {
     "name": "AC⚡DC",
@@ -62,6 +66,11 @@
       "title": "Oficial",
       "svg": "rammstein.svg",
       "class": ""
+      }, {
+
+        "title": "Symbol",
+        "svg": "rammstein-symbol.svg",
+        "class": ""
     }]
   },  {
     "name": "The Beatles",
@@ -103,6 +112,56 @@
     "logos": [{
       "title": "360°",
       "svg": "u2-360.svg",
+      "class": ""
+    }]
+    },  {
+    "name": "Rush",
+    "origin": "Canada",
+    "style": "Progressive rock",
+    "link": "rush.com",
+    "logos": [{
+      "title": "Original",
+      "svg": "rush.svg",
+      "class": ""
+    }]
+    },  {
+    "name": "Cavalera Conspiracy",
+    "origin": "USA",
+    "style": "Groove Metal",
+    "link": "cavaleraconspiracy.com",
+    "logos": [{
+      "title": "Original",
+      "svg": "cavaleraconspiracy.svg",
+      "class": ""
+    }]
+    },  {
+    "name": "Pink Floyd",
+    "origin": "England",
+    "style": "Progressive Rock",
+    "link": "pinkfloyd.com",
+    "logos": [{
+      "title": "The Wall",
+      "svg": "pinkfloyd-thewall.svg",
+      "class": ""
+    }]
+    },  {
+    "name": "Pantera",
+    "origin": "USA",
+    "style": "Groove Metal",
+    "link": "pantera.com",
+    "logos": [{
+      "title": "Official",
+      "svg": "pantera.svg",
+      "class": ""
+    }]
+    },  {
+    "name": "Sepultura",
+    "origin": "Brazil",
+    "style": "Groove Metal",
+    "link": "sepultura.com",
+    "logos": [{
+      "title": "Symbol",
+      "svg": "sepultura-symbol.svg",
       "class": ""
     }]
   }
