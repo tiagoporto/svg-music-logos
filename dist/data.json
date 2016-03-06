@@ -30,6 +30,18 @@
       "title": "Snake",
       "svg": "metallica-snake.svg",
       "class": ""
+      }, {
+      "title": "St. Anger",
+      "svg": "metallica-stanger.svg",
+      "class": ""
+      }, {
+      "title": "Throught The Never Symbol",
+      "svg": "metallica-throughtthenever.svg",
+      "class": ""
+      }, {
+      "title": "Garage",
+      "svg": "metallica-garage.svg",
+      "class": ""
     }]
   },  {
     "name": "AC⚡DC",
@@ -162,6 +174,16 @@
     "logos": [{
       "title": "Symbol",
       "svg": "sepultura-symbol.svg",
+      "class": ""
+    }]
+    },  {
+    "name": "Black Sabbath",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "blacksabbath.com",
+    "logos": [{
+      "title": "Demon",
+      "svg": "blacksabbath-demon.svg",
       "class": ""
     }]
   }
