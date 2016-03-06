@@ -24,11 +24,11 @@ angular.module('svgBandLogosApp').controller('MainCtrl', ['$scope', '$http', '$t
 		var newResponse = [];
 		var count = 0;
 
-		response.data.forEach(function (band, bandIndex) {
+		response.data.forEach(function (band) {
 
 			var getLogo = band.logos;
 
-			getLogo.forEach(function (logo, logoIndex) {
+			getLogo.forEach(function (logo) {
 				newResponse[count] = {};
 				newResponse[count].name = band.name;
 				newResponse[count].link = band.link;
@@ -36,7 +36,7 @@ angular.module('svgBandLogosApp').controller('MainCtrl', ['$scope', '$http', '$t
 				newResponse[count].style = band.style;
 				newResponse[count].logo = logo;
 
-				++count;
+				count += 1;
 			});
 		});
 
