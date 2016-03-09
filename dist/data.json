@@ -203,6 +203,30 @@
         "title": "Official",
         "svg": "kiss.svg",
         "class": ""
+        }, {
+        "title": "Ikons",
+        "svg": "kiss-ikons.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Bruce Dickinson",
+      "origin": "England",
+      "style": "Heavy Metal",
+      "link": "screamforme.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "brucedickinson.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Nirvana",
+      "origin": "USA",
+      "style": "Grunge",
+      "link": "nirvana.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "nirvana.svg",
+        "class": ""
       }]
   }
 ]
