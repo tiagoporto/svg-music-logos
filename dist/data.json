@@ -228,5 +228,25 @@
         "svg": "nirvana.svg",
         "class": ""
       }]
+    },  {
+      "name": "Manowar",
+      "origin": "USA",
+      "style": "Heavy Metal",
+      "link": "manowar.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "manowar.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Queen",
+      "origin": "England",
+      "style": "Rock",
+      "link": "queenonline.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "queen.svg",
+        "class": ""
+      }]
   }
 ]
