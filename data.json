@@ -117,74 +117,116 @@
       "class": ""
       }]
     },  {
-    "name": "U2",
-    "origin": "Ireland",
-    "style": "Rock",
-    "link": "u2.com",
-    "logos": [{
-      "title": "360°",
-      "svg": "u2-360.svg",
-      "class": ""
-    }]
+      "name": "U2",
+      "origin": "Ireland",
+      "style": "Rock",
+      "link": "u2.com",
+      "logos": [{
+        "title": "360°",
+        "svg": "u2-360.svg",
+        "class": ""
+        }, {
+        "title": "No Line On The Honrizon",
+        "svg": "u2-nolineonthehonrizon.svg",
+        "class": ""
+      }]
     },  {
-    "name": "Rush",
-    "origin": "Canada",
-    "style": "Progressive rock",
-    "link": "rush.com",
-    "logos": [{
-      "title": "Original",
-      "svg": "rush.svg",
-      "class": ""
-    }]
+      "name": "Rush",
+      "origin": "Canada",
+      "style": "Progressive rock",
+      "link": "rush.com",
+      "logos": [{
+        "title": "Original",
+        "svg": "rush.svg",
+        "class": ""
+      }]
     },  {
-    "name": "Cavalera Conspiracy",
-    "origin": "USA",
-    "style": "Groove Metal",
-    "link": "cavaleraconspiracy.com",
-    "logos": [{
-      "title": "Original",
-      "svg": "cavaleraconspiracy.svg",
-      "class": ""
-    }]
+      "name": "Cavalera Conspiracy",
+      "origin": "USA",
+      "style": "Groove Metal",
+      "link": "cavaleraconspiracy.com",
+      "logos": [{
+        "title": "Original",
+        "svg": "cavaleraconspiracy.svg",
+        "class": ""
+      }]
     },  {
-    "name": "Pink Floyd",
-    "origin": "England",
-    "style": "Progressive Rock",
-    "link": "pinkfloyd.com",
-    "logos": [{
-      "title": "The Wall",
-      "svg": "pinkfloyd-thewall.svg",
-      "class": ""
-    }]
+      "name": "Pink Floyd",
+      "origin": "England",
+      "style": "Progressive Rock",
+      "link": "pinkfloyd.com",
+      "logos": [{
+        "title": "The Wall",
+        "svg": "pinkfloyd-thewall.svg",
+        "class": ""
+        }, {
+        "title": "The Divison Bell",
+        "svg": "pinkfloyd-thedivisionbell.svg",
+        "class": ""
+      }]
     },  {
-    "name": "Pantera",
-    "origin": "USA",
-    "style": "Groove Metal",
-    "link": "pantera.com",
-    "logos": [{
-      "title": "Official",
-      "svg": "pantera.svg",
-      "class": ""
-    }]
+      "name": "Pantera",
+      "origin": "USA",
+      "style": "Groove Metal",
+      "link": "pantera.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "pantera.svg",
+        "class": ""
+      }]
     },  {
-    "name": "Sepultura",
-    "origin": "Brazil",
-    "style": "Groove Metal",
-    "link": "sepultura.com",
-    "logos": [{
-      "title": "Symbol",
-      "svg": "sepultura-symbol.svg",
-      "class": ""
-    }]
+      "name": "Sepultura",
+      "origin": "Brazil",
+      "style": "Groove Metal",
+      "link": "sepultura.com",
+      "logos": [{
+        "title": "Symbol",
+        "svg": "sepultura-symbol.svg",
+        "class": ""
+      }]
     },  {
-    "name": "Black Sabbath",
-    "origin": "England",
-    "style": "Heavy Metal",
-    "link": "blacksabbath.com",
-    "logos": [{
-      "title": "Demon",
-      "svg": "blacksabbath-demon.svg",
-      "class": ""
-    }]
+      "name": "Black Sabbath",
+      "origin": "England",
+      "style": "Heavy Metal",
+      "link": "blacksabbath.com",
+      "logos": [{
+        "title": "Demon",
+        "svg": "blacksabbath-demon.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "KISS",
+      "origin": "USA",
+      "style": "Hard Rock",
+      "link": "kissonline.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "kiss.svg",
+        "class": ""
+        }, {
+        "title": "Ikons",
+        "svg": "kiss-ikons.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Bruce Dickinson",
+      "origin": "England",
+      "style": "Heavy Metal",
+      "link": "screamforme.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "brucedickinson.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Nirvana",
+      "origin": "USA",
+      "style": "Grunge",
+      "link": "nirvana.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "nirvana.svg",
+        "class": ""
+      }]
   }
 ]
