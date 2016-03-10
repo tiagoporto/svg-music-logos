@@ -248,5 +248,15 @@
         "svg": "queen.svg",
         "class": ""
       }]
+    },  {
+      "name": "Blind Guardian",
+      "origin": "Germany",
+      "style": "Power Metal",
+      "link": "blind-guardian.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "blindguardian.svg",
+        "class": ""
+      }]
   }
 ]
