@@ -258,5 +258,25 @@
         "svg": "blindguardian.svg",
         "class": ""
       }]
+    },  {
+      "name": "Sex Pistols",
+      "origin": "England",
+      "style": "Punk Rock",
+      "link": "http://www.sexpistolsofficial.com/",
+      "logos": [{
+        "title": "Official",
+        "svg": "sexpistols.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "The Doors",
+      "origin": "England",
+      "style": "Hard Rock",
+      "link": "http://www.thedoors.com/",
+      "logos": [{
+        "title": "Official",
+        "svg": "thedoors.svg",
+        "class": ""
+      }]
   }
 ]
