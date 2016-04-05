@@ -269,6 +269,16 @@
         "class": ""
       }]
     },  {
+      "name": "Ghost",
+      "origin": "Sweden",
+      "style": "Heavy Rock",
+      "link": "http://ghost-official.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "ghost.svg",
+        "class": ""
+      }]
+    },  {
       "name": "The Doors",
       "origin": "England",
       "style": "Hard Rock",
