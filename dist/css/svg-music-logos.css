@@ -49,3 +49,7 @@
   stroke: #fff;
   stroke-width: 1px;
 }
+.judaspriest--symbol .judaspriest__lettering polygon,
+.judaspriest--symbol .judaspriest__lettering path {
+  fill: rgba(255,255,255,0);
+}
