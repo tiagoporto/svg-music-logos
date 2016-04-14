@@ -279,6 +279,20 @@
         "class": ""
       }]
     },  {
+      "name": "Judas Priest",
+      "origin": "England",
+      "style": "Heavy Metal",
+      "link": "http://www.judaspriest.com/",
+      "logos": [{
+        "title": "Official",
+        "svg": "judaspriest.svg",
+        "class": ""
+      },{
+        "title": "symbol",
+        "svg": "judaspriest.svg",
+        "class": "judaspriest--symbol"
+      }]
+    },  {
       "name": "The Doors",
       "origin": "England",
       "style": "Hard Rock",
