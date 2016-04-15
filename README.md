@@ -4,13 +4,10 @@ A collection of bands' and musicians' logos in SVG.
 
 ## Table of Contents
 
-* [Dependencies](#dependencies)
 * [Usage](#usage)
+* [Contributing](#contributing)
 * [License](license)
 
-## Dependencies
-
-TODO
 
 ## Installation
 
@@ -22,11 +19,20 @@ TODO
 
 ## Contributing
 
+> Don't have the logo that you are looking for?
+
 1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+1. Create the svg file.
+    1. TODO minification settings
+        2. Use [SVGOMG](https://jakearchibald.github.io/svgomg/)
+    2. Don't use id's
+    2. Use [BEM — Block Element Modifier](https://bem.info/) to naming classes
+1. Put on folder `dist/logos`.
+    1. TODO naming convention
+1. Add the logo on `dist/data.json` with all info.
+1. Commit your changes: `git commit -am 'Add some Logo'`
+1. Push to the branch: `git push origin master`
+1. Submit a pull request :D
 
 ## License
 
