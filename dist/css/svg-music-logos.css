@@ -4,36 +4,36 @@
 *	Released under the MIT license
 */
 
-.acdc--classical #fill path,
-.acdc--classical #fill polygon {
+.acdc--classical .acdc__fill path,
+.acdc--classical .acdc__fill polygon {
   fill: #626262;
 }
-.acdc--classical #shadow-one polygon {
+.acdc--classical .acdc__shadow-one polygon {
   fill: #4a4a4a;
 }
-.acdc--classical #shadow-two polygon {
+.acdc--classical .acdc__shadow-two polygon {
   fill: #ededed;
 }
-.acdc--classical #shadow-three polygon {
+.acdc--classical .acdc__shadow-three polygon {
   fill: #c2c2c2;
 }
-.acdc--classical #shadow-four polygon {
+.acdc--classical .acdc__shadow-four polygon {
   fill: #4d4d4d;
 }
-.acdc--classical-color #fill path,
-.acdc--classical-color #fill polygon {
+.acdc--classical-color .acdc__fill path,
+.acdc--classical-color .acdc__fill polygon {
   fill: #ef2334;
 }
-.acdc--classical-color #shadow-one polygon {
+.acdc--classical-color .acdc__shadow-one polygon {
   fill: #e3051b;
 }
-.acdc--classical-color #shadow-two polygon {
+.acdc--classical-color .acdc__shadow-two polygon {
   fill: #ffebcb;
 }
-.acdc--classical-color #shadow-three polygon {
+.acdc--classical-color .acdc__shadow-three polygon {
   fill: #f7b28a;
 }
-.acdc--classical-color #shadow-four polygon {
+.acdc--classical-color .acdc__shadow-four polygon {
   fill: #784500;
 }
 .acdc--stroke {
@@ -49,7 +49,7 @@
   stroke: #fff;
   stroke-width: 1px;
 }
-.judaspriest--symbol .judaspriest__lettering polygon,
-.judaspriest--symbol .judaspriest__lettering path {
+.judas-priest--symbol .judas-priest__lettering polygon,
+.judas-priest--symbol .judas-priest__lettering path {
   fill: rgba(255,255,255,0);
 }
