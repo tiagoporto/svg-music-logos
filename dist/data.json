@@ -91,7 +91,7 @@
     "link": "thebeatles.com",
     "logos": [{
       "title": "Oficial",
-      "svg": "beatles.svg",
+      "svg": "the-beatles.svg",
       "class": ""
     }]
   },  {
@@ -308,6 +308,26 @@
       "logos": [{
         "title": "Official",
         "svg": "the-doors.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Dio",
+      "origin": "England",
+      "style": "Heavy Metal",
+      "link": "http://www.ronniejamesdio.com/",
+      "logos": [{
+        "title": "Official",
+        "svg": "dio.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "KoRn",
+      "origin": "USA",
+      "style": "Nu Metal",
+      "link": "http://korn.com/",
+      "logos": [{
+        "title": "Official",
+        "svg": "korn.svg",
         "class": ""
       }]
   }
