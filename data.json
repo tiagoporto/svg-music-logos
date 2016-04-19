@@ -6,15 +6,15 @@
     "link": "ironmaiden.com",
     "logos": [{
       "title": "classical",
-      "svg": "ironmaiden.svg",
+      "svg": "iron-maiden.svg",
       "class": ""
       }, {
       "title": "sliced",
-      "svg": "ironmaiden-sliced.svg",
+      "svg": "iron-maiden_sliced.svg",
       "class": "iron-maiden--sliced"
       }, {
       "title": "classical",
-      "svg": "ironmaiden.svg",
+      "svg": "iron-maiden.svg",
       "class": "iron-maiden--classical"
     }]
   },  {
@@ -28,19 +28,19 @@
       "class": ""
       }, {
       "title": "Snake",
-      "svg": "metallica-snake.svg",
+      "svg": "metallica_snake.svg",
       "class": ""
       }, {
       "title": "St. Anger",
-      "svg": "metallica-stanger.svg",
+      "svg": "metallica_st-anger.svg",
       "class": ""
       }, {
       "title": "Throught The Never Symbol",
-      "svg": "metallica-throughtthenever.svg",
+      "svg": "metallica_throught-the-never.svg",
       "class": ""
       }, {
       "title": "Garage",
-      "svg": "metallica-garage.svg",
+      "svg": "metallica_garage-inc.svg",
       "class": ""
     }]
   },  {
@@ -50,11 +50,11 @@
     "link": "acdc.com",
     "logos": [{
       "title": "Oficial",
-      "svg": "acdc-classical.svg",
+      "svg": "acdc_classical.svg",
       "class": "acdc--classical"
       }, {
       "title": "Oficial",
-      "svg": "acdc-classical.svg",
+      "svg": "acdc_classical.svg",
       "class": "acdc--classical-color"
       }, {
       "title": "Oficial",
@@ -81,7 +81,7 @@
       }, {
 
         "title": "Symbol",
-        "svg": "rammstein-symbol.svg",
+        "svg": "rammstein_symbol.svg",
         "class": ""
     }]
   },  {
@@ -91,7 +91,7 @@
     "link": "thebeatles.com",
     "logos": [{
       "title": "Oficial",
-      "svg": "beatles.svg",
+      "svg": "the-beatles.svg",
       "class": ""
     }]
   },  {
@@ -101,19 +101,19 @@
     "link": "ledzeppelin.com",
     "logos": [{
       "title": "Oficial",
-      "svg": "ledzeppelin.svg",
+      "svg": "led-zeppelin.svg",
       "class": ""
       }, {
       "title": "Oficial",
-      "svg": "ledzeppelin-serif.svg",
+      "svg": "led-zeppelin_serif.svg",
       "class": ""
       }, {
       "title": "First",
-      "svg": "ledzeppelin-first.svg",
+      "svg": "led-zeppelin_first.svg",
       "class": ""
       }, {
       "title": "First",
-      "svg": "ledzeppelin-symbols.svg",
+      "svg": "led-zeppelin_symbols.svg",
       "class": ""
       }]
     },  {
@@ -123,15 +123,15 @@
       "link": "u2.com",
       "logos": [{
         "title": "360°",
-        "svg": "u2-360.svg",
+        "svg": "u2_360.svg",
         "class": ""
         }, {
         "title": "No Line On The Honrizon",
-        "svg": "u2-nolineonthehonrizon.svg",
+        "svg": "u2_no-line-on-the-honrizon.svg",
         "class": ""
       }, {
         "title": "How To Dismantle An Atomic Bomb",
-        "svg": "u2-howtodismantleanatomicbomb.svg",
+        "svg": "u2_how-to-dismantle-an-atomic-bomb.svg",
         "class": ""
       }]
     },  {
@@ -151,7 +151,7 @@
       "link": "cavaleraconspiracy.com",
       "logos": [{
         "title": "Original",
-        "svg": "cavaleraconspiracy.svg",
+        "svg": "cavalera-conspiracy.svg",
         "class": ""
       }]
     },  {
@@ -161,11 +161,11 @@
       "link": "pinkfloyd.com",
       "logos": [{
         "title": "The Wall",
-        "svg": "pinkfloyd-thewall.svg",
+        "svg": "pink-floyd_the-wall.svg",
         "class": ""
         }, {
         "title": "The Divison Bell",
-        "svg": "pinkfloyd-thedivisionbell.svg",
+        "svg": "pink-floyd_the-division-bell.svg",
         "class": ""
       }]
     },  {
@@ -185,7 +185,7 @@
       "link": "sepultura.com",
       "logos": [{
         "title": "Symbol",
-        "svg": "sepultura-symbol.svg",
+        "svg": "sepultura_symbol.svg",
         "class": ""
       }]
     },  {
@@ -195,7 +195,7 @@
       "link": "blacksabbath.com",
       "logos": [{
         "title": "Demon",
-        "svg": "blacksabbath-demon.svg",
+        "svg": "black-sabbath_demon.svg",
         "class": ""
       }]
     },  {
@@ -209,7 +209,7 @@
         "class": ""
         }, {
         "title": "Ikons",
-        "svg": "kiss-ikons.svg",
+        "svg": "kiss_ikons.svg",
         "class": ""
       }]
     },  {
@@ -219,7 +219,7 @@
       "link": "screamforme.com",
       "logos": [{
         "title": "Official",
-        "svg": "brucedickinson.svg",
+        "svg": "bruce-dickinson.svg",
         "class": ""
       }]
     },  {
@@ -243,7 +243,7 @@
         "class": ""
       },{
         "title": "Hammer",
-        "svg": "manowar-hammer.svg",
+        "svg": "manowar_hammer.svg",
         "class": ""
       }]
     },  {
@@ -263,7 +263,7 @@
       "link": "blind-guardian.com",
       "logos": [{
         "title": "Official",
-        "svg": "blindguardian.svg",
+        "svg": "blind-guardian.svg",
         "class": ""
       }]
     },  {
@@ -273,7 +273,7 @@
       "link": "http://www.sexpistolsofficial.com/",
       "logos": [{
         "title": "Official",
-        "svg": "sexpistols.svg",
+        "svg": "sex-pistols.svg",
         "class": ""
       }]
     },  {
@@ -293,12 +293,12 @@
       "link": "http://www.judaspriest.com/",
       "logos": [{
         "title": "Official",
-        "svg": "judaspriest.svg",
+        "svg": "judas-priest.svg",
         "class": ""
       },{
         "title": "symbol",
-        "svg": "judaspriest.svg",
-        "class": "judaspriest--symbol"
+        "svg": "judas-priest.svg",
+        "class": "judas-priest--symbol"
       }]
     },  {
       "name": "The Doors",
@@ -307,7 +307,27 @@
       "link": "http://www.thedoors.com/",
       "logos": [{
         "title": "Official",
-        "svg": "thedoors.svg",
+        "svg": "the-doors.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Dio",
+      "origin": "England",
+      "style": "Heavy Metal",
+      "link": "http://www.ronniejamesdio.com/",
+      "logos": [{
+        "title": "Official",
+        "svg": "dio.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "KoRn",
+      "origin": "USA",
+      "style": "Nu Metal",
+      "link": "http://korn.com/",
+      "logos": [{
+        "title": "Official",
+        "svg": "korn.svg",
         "class": ""
       }]
   }
