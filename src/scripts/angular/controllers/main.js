@@ -5,7 +5,7 @@ angular.module('svgBandLogosApp')
 		$scope.lastItem = index => {
 			if(index){
 				$timeout(() => {
-					$('.svg').svgToInline();
+					$('.logo').svgToInline({useTriggerClass: true});
 				});
 			}
 		};

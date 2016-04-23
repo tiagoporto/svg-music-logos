@@ -30,23 +30,20 @@
 
 
         <!-- build:css css/styles.combined.min.css -->
-        <!-- <link rel="stylesheet" href="bower_components/normalize.css/normalize.css"> -->
-        <link rel="stylesheet" href="bower_components/flat-ui/dist/css/vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="bower_components/flat-ui/dist/css/flat-ui.css">
+        <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/svg-music-logos.css">
         <!-- endbuild -->
     </head>
     <body>
 
-        <main class="container">
+        <main class="main" ng-app="svgBandLogosApp" ng-controller="MainCtrl">
             <h1>
                 <a href="{-}">
                     <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250"> -->
                     SVG Band Logos
                 </a>
             </h1>
-
 
             <a href="https://github.com/tiagoporto/svg-music-logos/" class="github-corner">
                 <svg width="80" viewBox="0 0 250 250" style="fill:#16a085; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
@@ -68,35 +65,31 @@
 
             <p>All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer.</p>
 
-            <div ng-app="svgBandLogosApp" ng-controller="MainCtrl">
-                <div class="form-group">
-                    <input type="search" ng-model="search" class="form-control" placeholder="Search for logos" />
-                </div>
+            <input type="search" ng-model="search" placeholder="Search for logos" class="search" />
 
-                <div class="row">
-                    <div class="col-xs-12 col-md-4" ng-repeat="band in bands | orderBy:'name' |  filter:search" ng-init="lastItem($last)">
-                        <div class="tile" >
-                            <a href="http://{{band.link}}"><h1 class="tile-title">{{band.name}}</h1></a>
-                            <p>Style: {{band.style}}</p>
-                            <p>Origin: {{band.origin}}</p>
+            <div class="card-box">
+                <div ng-repeat="band in bands | orderBy:'name' |  filter:search" ng-init="lastItem($last)" class="card__cols">
+                    <div class="card">
+                        <a href="http://{{band.link}}">
+                            <h1>{{band.name}}</h1>
+                        </a>
 
-                            <p>{{band.logo.title}}</p>
+                        <p>Style: {{band.style}}</p>
+                        <p>Origin: {{band.origin}}</p>
 
-                            <div class="myImage">
-                            <img ng-src="logos/{{band.logo.svg}}" class="svg {{band.logo.class}}">
-                            </div>
-                        </div>
+                        <p>{{band.logo.title}}</p>
+
+                        <img ng-src="logos/{{band.logo.svg}}" class="logo {{band.logo.class}}">
                     </div>
                 </div>
             </div>
-
-
-            <div class="footer">
-                <div class="container">
-                    <p>copyright 2016 </p>
-                </div>
-            </div>
         </main>
+
+        <footer class="footer">
+            <div class="footer__box">
+                <p>copyright 2016 </p>
+            </div>
+        </footer>
 
 
         <!-- build:js js/scripts.combined.min.js -->

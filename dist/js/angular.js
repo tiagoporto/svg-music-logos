@@ -14,7 +14,7 @@ angular.module('svgBandLogosApp').controller('MainCtrl', ['$scope', '$http', '$t
 	$scope.lastItem = function (index) {
 		if (index) {
 			$timeout(function () {
-				$('.svg').svgToInline();
+				$('.logo').svgToInline({ useTriggerClass: true });
 			});
 		}
 	};
