@@ -545,7 +545,10 @@ gulp.task('serve', function () {
 
     gulp.watch( paths.images.dest + 'vetor-sprite.svg', ['svg2png', browserSync.reload] );
 
-    gulp.watch( paths.scripts.src + '*.js', ['scripts', browserSync.reload] );
+    gulp.watch([
+                paths.scripts.src + 'angular/**/*.js',
+                paths.scripts.src + '*.js'
+               ], ['scripts', browserSync.reload] );
 
     gulp.watch([
                 paths.scripts.src + 'vendor/**/*.js',

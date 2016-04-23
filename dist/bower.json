@@ -7,7 +7,6 @@
   },
   "devDependencies": {
     "angular": "^1.5.0",
-    "flat-ui": "^2.2.2",
-    "jquery-svg-to-inline": "^0.1.2"
+    "jquery-svg-to-inline": "^0.1.3"
   }
 }

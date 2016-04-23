@@ -6,7 +6,7 @@ A collection of bands' and musicians' logos in SVG.
 
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [License](license)
+* [License](#license)
 
 
 ## Installation
