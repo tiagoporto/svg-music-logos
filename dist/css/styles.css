@@ -210,7 +210,8 @@
   justify-content: flex-start;
   text-align: start;
 }
-.center-xs {
+.center-xs,
+.card-box {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
