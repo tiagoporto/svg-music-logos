@@ -8,7 +8,6 @@
         <meta name="keywords" content="{-}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
         <!-- Add to homescreen for Chrome on Android -->
         <meta name="theme-color" content="{-}">
         <meta name="mobile-web-app-capable" content="yes">
@@ -28,7 +27,7 @@
         <meta name="msapplication-wide310x150logo" content="img/touch/tile-wide.png"/>
         <meta name="msapplication-square310x310logo" content="img/touch/tile.png"/>
 
-
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
         <!-- build:css css/styles.combined.min.css -->
         <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
@@ -39,7 +38,7 @@
 
         <main class="main" ng-app="svgBandLogosApp" ng-controller="MainCtrl">
             <h1>
-                <a href="{-}">
+                <a href="{-}" class="title">
                     <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250"> -->
                     SVG Band Logos
                 </a>
@@ -53,13 +52,15 @@
                 </svg>
             </a>
 
-            <a class="github-button" href="https://github.com/tiagoporto" data-count-href="/tiagoporto/followers" data-count-api="/users/tiagoporto#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @tiagoporto on GitHub">Follow @tiagoporto</a>
+            <div class="github-buttons">
+                <a class="github-button" href="https://github.com/tiagoporto" data-count-href="/tiagoporto/followers" data-count-api="/users/tiagoporto#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @tiagoporto on GitHub">Follow @tiagoporto</a>
 
-            <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/fork" data-icon="octicon-git-branch" data-count-href="/tiagoporto/svg-music-logos/network" data-count-api="/repos/tiagoporto/svg-music-logos#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork tiagoporto/svg-music-logos on GitHub">Fork</a>
+                <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/fork" data-icon="octicon-git-branch" data-count-href="/tiagoporto/svg-music-logos/network" data-count-api="/repos/tiagoporto/svg-music-logos#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork tiagoporto/svg-music-logos on GitHub">Fork</a>
 
-            <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/issues" data-icon="octicon-issue-opened" data-count-api="/repos/tiagoporto/svg-music-logos#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue tiagoporto/svg-music-logos on GitHub">Issue</a>
+                <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/issues" data-icon="octicon-issue-opened" data-count-api="/repos/tiagoporto/svg-music-logos#open_issues_count" data-count-aria-label="# issues on GitHub" aria-label="Issue tiagoporto/svg-music-logos on GitHub">Issue</a>
 
-            <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos" data-icon="octicon-star" data-count-href="/tiagoporto/svg-music-logos/stargazers" data-count-api="/repos/tiagoporto/svg-music-logos#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star tiagoporto/svg-music-logos on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos" data-icon="octicon-star" data-count-href="/tiagoporto/svg-music-logos/stargazers" data-count-api="/repos/tiagoporto/svg-music-logos#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star tiagoporto/svg-music-logos on GitHub">Star</a>
+            </div>
 
             <p>A collection of bands' and musicians' logos in SVG.</p>
 
