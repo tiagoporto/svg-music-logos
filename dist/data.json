@@ -28,6 +28,26 @@
       "class": ""
     }]
   },  {
+    "name": "David Gilmour",
+    "origin": "England",
+    "style": "Progressive Rock",
+    "link": "davidgilmour.com",
+    "logos": [{
+      "title": "classical",
+      "svg": "david-gilmour.svg",
+      "class": ""
+    }]
+  },  {
+    "name": "Savatage",
+    "origin": "U.S.A",
+    "style": "Heavy Metal",
+    "link": "savatage.com",
+    "logos": [{
+      "title": "classical",
+      "svg": "savatage.svg",
+      "class": ""
+    }]
+  },  {
     "name": "Kreator",
     "origin": "Germany",
     "style": "Thrash Metal",
