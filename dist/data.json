@@ -17,6 +17,26 @@
       "svg": "iron-maiden.svg",
       "class": "iron-maiden--classical"
     }]
+  }, {
+    "name": "Aerosmith",
+    "origin": "U.S.A",
+    "style": "Hard Rock",
+    "link": "aerosmith.com",
+    "logos": [{
+      "title": "classical",
+      "svg": "aerosmith.svg",
+      "class": ""
+    }]
+  },  {
+    "name": "Kreator",
+    "origin": "Germany",
+    "style": "Thrash Metal",
+    "link": "kreator-terrorzone.de",
+    "logos": [{
+      "title": "classical",
+      "svg": "kreator.svg",
+      "class": ""
+    }]
   },  {
     "name": "Metallica",
     "origin": "USA",
