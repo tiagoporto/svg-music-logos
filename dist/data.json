@@ -82,6 +82,10 @@
       "title": "Garage",
       "svg": "metallica_garage-inc.svg",
       "class": ""
+      }, {
+      "title": "Start",
+      "svg": "metallica_star.svg",
+      "class": ""
     }]
   },  {
     "name": "AC⚡DC",
@@ -228,6 +232,14 @@
       "style": "Groove Metal",
       "link": "sepultura.com",
       "logos": [{
+        "title": "Morbid Visions",
+        "svg": "sepultura_morbid-visions.svg",
+        "class": ""
+        }, {
+        "title": "Nation",
+        "svg": "sepultura_nation.svg",
+        "class": ""
+        }, {
         "title": "Symbol",
         "svg": "sepultura_symbol.svg",
         "class": ""
@@ -386,6 +398,16 @@
       "logos": [{
         "title": "Official",
         "svg": "nine-inch-nails.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "System Of A Down",
+      "origin": "USA",
+      "style": "Nu Metal",
+      "link": "systemofadown.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "system-of-a-down.svg",
         "class": ""
       }]
   }
