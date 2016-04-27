@@ -410,5 +410,25 @@
         "svg": "system-of-a-down.svg",
         "class": ""
       }]
+    },  {
+      "name": "Avenged Sevenfold",
+      "origin": "USA",
+      "style": "Heavy Metal",
+      "link": "avengedsevenfold.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "avenged-sevenfold.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Anthrax",
+      "origin": "USA",
+      "style": "Thrash Metal",
+      "link": "anthrax.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "anthrax_pentagram.svg",
+        "class": ""
+      }]
   }
 ]
