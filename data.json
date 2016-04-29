@@ -17,6 +17,46 @@
       "svg": "iron-maiden.svg",
       "class": "iron-maiden--classical"
     }]
+  }, {
+    "name": "Aerosmith",
+    "origin": "U.S.A",
+    "style": "Hard Rock",
+    "link": "aerosmith.com",
+    "logos": [{
+      "title": "classical",
+      "svg": "aerosmith.svg",
+      "class": ""
+    }]
+  },  {
+    "name": "David Gilmour",
+    "origin": "England",
+    "style": "Progressive Rock",
+    "link": "davidgilmour.com",
+    "logos": [{
+      "title": "classical",
+      "svg": "david-gilmour.svg",
+      "class": ""
+    }]
+  },  {
+    "name": "Savatage",
+    "origin": "U.S.A",
+    "style": "Heavy Metal",
+    "link": "savatage.com",
+    "logos": [{
+      "title": "classical",
+      "svg": "savatage.svg",
+      "class": ""
+    }]
+  },  {
+    "name": "Kreator",
+    "origin": "Germany",
+    "style": "Thrash Metal",
+    "link": "kreator-terrorzone.de",
+    "logos": [{
+      "title": "classical",
+      "svg": "kreator.svg",
+      "class": ""
+    }]
   },  {
     "name": "Metallica",
     "origin": "USA",
@@ -42,10 +82,14 @@
       "title": "Garage",
       "svg": "metallica_garage-inc.svg",
       "class": ""
+      }, {
+      "title": "Start",
+      "svg": "metallica_star.svg",
+      "class": ""
     }]
   },  {
     "name": "AC⚡DC",
-    "origin": "Australian",
+    "origin": "Australia",
     "style": "Hard Rock",
     "link": "acdc.com",
     "logos": [{
@@ -133,6 +177,10 @@
         "title": "How To Dismantle An Atomic Bomb",
         "svg": "u2_how-to-dismantle-an-atomic-bomb.svg",
         "class": ""
+      }, {
+        "title": "The Joshua Tree",
+        "svg": "u2_the-joshua-tree.svg",
+        "class": ""
       }]
     },  {
       "name": "Rush",
@@ -184,6 +232,14 @@
       "style": "Groove Metal",
       "link": "sepultura.com",
       "logos": [{
+        "title": "Morbid Visions",
+        "svg": "sepultura_morbid-visions.svg",
+        "class": ""
+        }, {
+        "title": "Nation",
+        "svg": "sepultura_nation.svg",
+        "class": ""
+        }, {
         "title": "Symbol",
         "svg": "sepultura_symbol.svg",
         "class": ""
@@ -231,6 +287,10 @@
         "title": "Official",
         "svg": "nirvana.svg",
         "class": ""
+      }, {
+        "title": "Smile",
+        "svg": "nirvana_smile.svg",
+        "class": ""
       }]
     },  {
       "name": "Manowar",
@@ -270,7 +330,7 @@
       "name": "Sex Pistols",
       "origin": "England",
       "style": "Punk Rock",
-      "link": "http://www.sexpistolsofficial.com/",
+      "link": "sexpistolsofficial.com/",
       "logos": [{
         "title": "Official",
         "svg": "sex-pistols.svg",
@@ -280,7 +340,7 @@
       "name": "Ghost",
       "origin": "Sweden",
       "style": "Heavy Rock",
-      "link": "http://ghost-official.com",
+      "link": "ghost-official.com",
       "logos": [{
         "title": "Official",
         "svg": "ghost.svg",
@@ -290,7 +350,7 @@
       "name": "Judas Priest",
       "origin": "England",
       "style": "Heavy Metal",
-      "link": "http://www.judaspriest.com/",
+      "link": "judaspriest.com",
       "logos": [{
         "title": "Official",
         "svg": "judas-priest.svg",
@@ -304,7 +364,7 @@
       "name": "The Doors",
       "origin": "England",
       "style": "Hard Rock",
-      "link": "http://www.thedoors.com/",
+      "link": "thedoors.com",
       "logos": [{
         "title": "Official",
         "svg": "the-doors.svg",
@@ -314,7 +374,7 @@
       "name": "Dio",
       "origin": "England",
       "style": "Heavy Metal",
-      "link": "http://www.ronniejamesdio.com/",
+      "link": "ronniejamesdio.com",
       "logos": [{
         "title": "Official",
         "svg": "dio.svg",
@@ -324,10 +384,50 @@
       "name": "KoRn",
       "origin": "USA",
       "style": "Nu Metal",
-      "link": "http://korn.com/",
+      "link": "korn.com",
       "logos": [{
         "title": "Official",
         "svg": "korn.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Nine Inch Nails",
+      "origin": "USA",
+      "style": "Alternative Rock",
+      "link": "nin.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "nine-inch-nails.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "System Of A Down",
+      "origin": "USA",
+      "style": "Nu Metal",
+      "link": "systemofadown.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "system-of-a-down.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Avenged Sevenfold",
+      "origin": "USA",
+      "style": "Heavy Metal",
+      "link": "avengedsevenfold.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "avenged-sevenfold.svg",
+        "class": ""
+      }]
+    },  {
+      "name": "Anthrax",
+      "origin": "USA",
+      "style": "Thrash Metal",
+      "link": "anthrax.com",
+      "logos": [{
+        "title": "Official",
+        "svg": "anthrax_pentagram.svg",
         "class": ""
       }]
   }
