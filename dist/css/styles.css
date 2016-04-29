@@ -980,6 +980,7 @@ body {
   background: #e6e6e6;
   border-radius: 10px;
   height: 100%;
+  padding: 1em;
 }
 .card__cols {
   margin-bottom: 1.5em;
@@ -996,6 +997,25 @@ body {
 .title {
   font-family: 'Montserrat', sans-serif;
   font-size: 72px;
+  text-decoration: none;
+  color: #16a085;
+}
+.search {
+  width: 100%;
+  border-color: #e6e6e6;
+  border-style: solid;
+  border-width: 0.125em;
+  padding: 0.625em;
+  border-radius: 5px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  margin-bottom: 1.5em;
+}
+.search:focus {
+  background: #ccc;
+  border-color: #ccc;
+  color: #fff;
+  outline: none;
 }
 /* ==================================================================
    Media Queries
