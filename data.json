@@ -1,175 +1,195 @@
 [
-   {
+  {
     "name": "Iron Maiden",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "ironmaiden.com",
-    "logos": [{
-      "title": "classical",
-      "svg": "iron-maiden.svg",
-      "class": ""
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "iron-maiden.svg",
+        "class": ""
       }, {
-      "title": "sliced",
-      "svg": "iron-maiden_sliced.svg",
-      "class": "iron-maiden--sliced"
+        "title": "sliced",
+        "svg": "iron-maiden_sliced.svg",
+        "class": "iron-maiden--sliced"
       }, {
-      "title": "classical",
-      "svg": "iron-maiden.svg",
-      "class": "iron-maiden--classical"
-    }]
+        "title": "classical",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--classical"
+      }
+    ]
   }, {
     "name": "Aerosmith",
     "origin": "U.S.A",
     "style": "Hard Rock",
     "link": "aerosmith.com",
-    "logos": [{
-      "title": "classical",
-      "svg": "aerosmith.svg",
-      "class": ""
-    }]
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "aerosmith.svg",
+        "class": ""
+      }
+    ]
   },  {
     "name": "David Gilmour",
     "origin": "England",
     "style": "Progressive Rock",
     "link": "davidgilmour.com",
-    "logos": [{
-      "title": "classical",
-      "svg": "david-gilmour.svg",
-      "class": ""
-    }]
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "david-gilmour.svg",
+        "class": ""
+      }
+    ]
   },  {
     "name": "Savatage",
     "origin": "U.S.A",
     "style": "Heavy Metal",
     "link": "savatage.com",
-    "logos": [{
-      "title": "classical",
-      "svg": "savatage.svg",
-      "class": ""
-    }]
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "savatage.svg",
+        "class": ""
+      }
+    ]
   },  {
     "name": "Kreator",
     "origin": "Germany",
     "style": "Thrash Metal",
     "link": "kreator-terrorzone.de",
-    "logos": [{
-      "title": "classical",
-      "svg": "kreator.svg",
-      "class": ""
-    }]
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "kreator.svg",
+        "class": ""
+      }
+    ]
   },  {
     "name": "Metallica",
     "origin": "USA",
     "style": "Thrash Metal",
     "link": "metallica.com",
-    "logos": [{
-      "title": "Oficial",
-      "svg": "metallica.svg",
-      "class": ""
+    "logos": [
+      {
+        "title": "Oficial",
+        "svg": "metallica.svg",
+        "class": ""
       }, {
-      "title": "Snake",
-      "svg": "metallica_snake.svg",
-      "class": ""
+        "title": "Snake",
+        "svg": "metallica_snake.svg",
+        "class": ""
       }, {
-      "title": "St. Anger",
-      "svg": "metallica_st-anger.svg",
-      "class": ""
+        "title": "St. Anger",
+        "svg": "metallica_st-anger.svg",
+        "class": ""
       }, {
-      "title": "Throught The Never Symbol",
-      "svg": "metallica_throught-the-never.svg",
-      "class": ""
+        "title": "Throught The Never Symbol",
+        "svg": "metallica_throught-the-never.svg",
+        "class": ""
       }, {
-      "title": "Garage",
-      "svg": "metallica_garage-inc.svg",
-      "class": ""
+        "title": "Garage",
+        "svg": "metallica_garage-inc.svg",
+        "class": ""
       }, {
-      "title": "Start",
-      "svg": "metallica_star.svg",
-      "class": ""
-    }]
+        "title": "Star",
+        "svg": "metallica_star.svg",
+        "class": ""
+      }
+    ]
   },  {
-    "name": "AC⚡DC",
-    "origin": "Australia",
-    "style": "Hard Rock",
-    "link": "acdc.com",
-    "logos": [{
+  "name": "AC⚡DC",
+  "origin": "Australia",
+  "style": "Hard Rock",
+  "link": "acdc.com",
+  "logos": [
+    {
       "title": "Oficial",
       "svg": "acdc_classical.svg",
       "class": "acdc--classical"
-      }, {
+    }, {
       "title": "Oficial",
       "svg": "acdc_classical.svg",
       "class": "acdc--classical-color"
-      }, {
+    }, {
       "title": "Oficial",
       "svg": "acdc.svg",
       "class": ""
-      }, {
+    }, {
       "title": "stroke",
       "svg": "acdc.svg",
       "class": "acdc--stroke"
-      }, {
+    }, {
       "title": "Inverse",
       "svg": "acdc.svg",
       "class": "acdc--inverse"
-    }]
+    }
+  ]
   },  {
     "name": "Rammstein",
     "origin": "Germany",
     "style": "Industrial Metal",
     "link": "rammstein.com",
-    "logos": [{
-      "title": "Oficial",
-      "svg": "rammstein.svg",
-      "class": ""
+    "logos": [
+      {
+        "title": "Oficial",
+        "svg": "rammstein.svg",
+        "class": ""
       }, {
-
         "title": "Symbol",
         "svg": "rammstein_symbol.svg",
         "class": ""
-    }]
+      }
+    ]
   },  {
     "name": "The Beatles",
     "origin": "England",
     "style": "Rock",
     "link": "thebeatles.com",
-    "logos": [{
-      "title": "Oficial",
-      "svg": "the-beatles.svg",
-      "class": ""
-    }]
+    "logos": [
+      {
+        "title": "Oficial",
+        "svg": "the-beatles.svg",
+        "class": ""
+      }
+    ]
   },  {
     "name": "Led Zeppelin",
     "origin": "England",
     "style": "Rock",
     "link": "ledzeppelin.com",
-    "logos": [{
-      "title": "Oficial",
-      "svg": "led-zeppelin.svg",
-      "class": ""
+    "logos": [
+      {
+        "title": "Oficial",
+        "svg": "led-zeppelin.svg",
+        "class": ""
       }, {
-      "title": "Oficial",
-      "svg": "led-zeppelin_serif.svg",
-      "class": ""
+        "title": "Oficial",
+        "svg": "led-zeppelin_serif.svg",
+        "class": ""
       }, {
-      "title": "First",
-      "svg": "led-zeppelin_first.svg",
-      "class": ""
+        "title": "First",
+        "svg": "led-zeppelin_first.svg",
+        "class": ""
       }, {
-      "title": "First",
-      "svg": "led-zeppelin_symbols.svg",
-      "class": ""
-      }]
-    },  {
-      "name": "U2",
-      "origin": "Ireland",
-      "style": "Rock",
-      "link": "u2.com",
-      "logos": [{
+        "title": "First",
+        "svg": "led-zeppelin_symbols.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "U2",
+    "origin": "Ireland",
+    "style": "Rock",
+    "link": "u2.com",
+    "logos": [
+      {
         "title": "360°",
         "svg": "u2_360.svg",
         "class": ""
-        }, {
+      }, {
         "title": "No Line On The Honrizon",
         "svg": "u2_no-line-on-the-honrizon.svg",
         "class": ""
@@ -181,109 +201,127 @@
         "title": "The Joshua Tree",
         "svg": "u2_the-joshua-tree.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Rush",
-      "origin": "Canada",
-      "style": "Progressive rock",
-      "link": "rush.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Rush",
+    "origin": "Canada",
+    "style": "Progressive rock",
+    "link": "rush.com",
+    "logos": [
+      {
         "title": "Original",
         "svg": "rush.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Cavalera Conspiracy",
-      "origin": "USA",
-      "style": "Groove Metal",
-      "link": "cavaleraconspiracy.com",
-      "logos": [{
-        "title": "Original",
-        "svg": "cavalera-conspiracy.svg",
-        "class": ""
-      }]
-    },  {
-      "name": "Pink Floyd",
-      "origin": "England",
-      "style": "Progressive Rock",
-      "link": "pinkfloyd.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Cavalera Conspiracy",
+    "origin": "USA",
+    "style": "Groove Metal",
+    "link": "cavaleraconspiracy.com",
+    "logos": [
+      {
+      "title": "Original",
+      "svg": "cavalera-conspiracy.svg",
+      "class": ""
+      }
+    ]
+  },  {
+    "name": "Pink Floyd",
+    "origin": "England",
+    "style": "Progressive Rock",
+    "link": "pinkfloyd.com",
+    "logos": [
+      {
         "title": "The Wall",
         "svg": "pink-floyd_the-wall.svg",
         "class": ""
-        }, {
+      }, {
         "title": "The Divison Bell",
         "svg": "pink-floyd_the-division-bell.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Pantera",
-      "origin": "USA",
-      "style": "Groove Metal",
-      "link": "pantera.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Pantera",
+    "origin": "USA",
+    "style": "Groove Metal",
+    "link": "pantera.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "pantera.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Sepultura",
-      "origin": "Brazil",
-      "style": "Groove Metal",
-      "link": "sepultura.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Sepultura",
+    "origin": "Brazil",
+    "style": "Groove Metal",
+    "link": "sepultura.com",
+    "logos": [
+      {
         "title": "Morbid Visions",
         "svg": "sepultura_morbid-visions.svg",
         "class": ""
-        }, {
+      }, {
         "title": "Nation",
         "svg": "sepultura_nation.svg",
         "class": ""
-        }, {
+      }, {
         "title": "Symbol",
         "svg": "sepultura_symbol.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Black Sabbath",
-      "origin": "England",
-      "style": "Heavy Metal",
-      "link": "blacksabbath.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Black Sabbath",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "blacksabbath.com",
+    "logos": [
+      {
         "title": "Demon",
         "svg": "black-sabbath_demon.svg",
         "class": ""
-      }]
-    },  {
-      "name": "KISS",
-      "origin": "USA",
-      "style": "Hard Rock",
-      "link": "kissonline.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "KISS",
+    "origin": "USA",
+    "style": "Hard Rock",
+    "link": "kissonline.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "kiss.svg",
         "class": ""
-        }, {
+      }, {
         "title": "Ikons",
         "svg": "kiss_ikons.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Bruce Dickinson",
-      "origin": "England",
-      "style": "Heavy Metal",
-      "link": "screamforme.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Bruce Dickinson",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "screamforme.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "bruce-dickinson.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Nirvana",
-      "origin": "USA",
-      "style": "Grunge",
-      "link": "nirvana.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Nirvana",
+    "origin": "USA",
+    "style": "Grunge",
+    "link": "nirvana.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "nirvana.svg",
         "class": ""
@@ -291,13 +329,15 @@
         "title": "Smile",
         "svg": "nirvana_smile.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Manowar",
-      "origin": "USA",
-      "style": "Heavy Metal",
-      "link": "manowar.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Manowar",
+    "origin": "USA",
+    "style": "Heavy Metal",
+    "link": "manowar.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "manowar.svg",
         "class": ""
@@ -305,53 +345,63 @@
         "title": "Hammer",
         "svg": "manowar_hammer.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Queen",
-      "origin": "England",
-      "style": "Rock",
-      "link": "queenonline.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Queen",
+    "origin": "England",
+    "style": "Rock",
+    "link": "queenonline.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "queen.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Blind Guardian",
-      "origin": "Germany",
-      "style": "Power Metal",
-      "link": "blind-guardian.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Blind Guardian",
+    "origin": "Germany",
+    "style": "Power Metal",
+    "link": "blind-guardian.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "blind-guardian.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Sex Pistols",
-      "origin": "England",
-      "style": "Punk Rock",
-      "link": "sexpistolsofficial.com/",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Sex Pistols",
+    "origin": "England",
+    "style": "Punk Rock",
+    "link": "sexpistolsofficial.com/",
+    "logos": [
+      {
         "title": "Official",
         "svg": "sex-pistols.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Ghost",
-      "origin": "Sweden",
-      "style": "Heavy Rock",
-      "link": "ghost-official.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Ghost",
+    "origin": "Sweden",
+    "style": "Heavy Rock",
+    "link": "ghost-official.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "ghost.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Judas Priest",
-      "origin": "England",
-      "style": "Heavy Metal",
-      "link": "judaspriest.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Judas Priest",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "judaspriest.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "judas-priest.svg",
         "class": ""
@@ -359,76 +409,103 @@
         "title": "symbol",
         "svg": "judas-priest.svg",
         "class": "judas-priest--symbol"
-      }]
-    },  {
-      "name": "The Doors",
-      "origin": "England",
-      "style": "Hard Rock",
-      "link": "thedoors.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "The Doors",
+    "origin": "England",
+    "style": "Hard Rock",
+    "link": "thedoors.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "the-doors.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Dio",
-      "origin": "England",
-      "style": "Heavy Metal",
-      "link": "ronniejamesdio.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Dio",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "ronniejamesdio.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "dio.svg",
         "class": ""
-      }]
-    },  {
-      "name": "KoRn",
-      "origin": "USA",
-      "style": "Nu Metal",
-      "link": "korn.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "KoRn",
+    "origin": "USA",
+    "style": "Nu Metal",
+    "link": "korn.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "korn.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Nine Inch Nails",
-      "origin": "USA",
-      "style": "Alternative Rock",
-      "link": "nin.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Nine Inch Nails",
+    "origin": "USA",
+    "style": "Alternative Rock",
+    "link": "nin.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "nine-inch-nails.svg",
         "class": ""
-      }]
-    },  {
-      "name": "System Of A Down",
-      "origin": "USA",
-      "style": "Nu Metal",
-      "link": "systemofadown.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "System Of A Down",
+    "origin": "USA",
+    "style": "Nu Metal",
+    "link": "systemofadown.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "system-of-a-down.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Avenged Sevenfold",
-      "origin": "USA",
-      "style": "Heavy Metal",
-      "link": "avengedsevenfold.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Avenged Sevenfold",
+    "origin": "USA",
+    "style": "Heavy Metal",
+    "link": "avengedsevenfold.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "avenged-sevenfold.svg",
         "class": ""
-      }]
-    },  {
-      "name": "Anthrax",
-      "origin": "USA",
-      "style": "Thrash Metal",
-      "link": "anthrax.com",
-      "logos": [{
+      }
+    ]
+  },  {
+    "name": "Anthrax",
+    "origin": "USA",
+    "style": "Thrash Metal",
+    "link": "anthrax.com",
+    "logos": [
+      {
         "title": "Official",
         "svg": "anthrax_pentagram.svg",
         "class": ""
-      }]
+      }
+    ]
+  },  {
+    "name": "King Diamond",
+    "origin": "Denmark",
+    "style": "Heavy Metal",
+    "link": "kingdiamondcoven.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "king-diamond.svg",
+        "class": ""
+      }
+    ]
   }
 ]
