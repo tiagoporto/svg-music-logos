@@ -273,6 +273,14 @@
         "title": "Symbol",
         "svg": "sepultura_symbol.svg",
         "class": ""
+      }, {
+        "title": "Triangle Symbol",
+        "svg": "sepultura_triangle.svg",
+        "class": ""
+      }, {
+        "title": "Star Symbol",
+        "svg": "sepultura_star.svg",
+        "class": ""
       }
     ]
   },  {
@@ -504,6 +512,34 @@
       {
         "title": "Official",
         "svg": "king-diamond.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Gojira",
+    "origin": "France",
+    "style": "Death Metal",
+    "link": "gojira-music.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "gojira.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Deep Purple",
+    "origin": "England",
+    "style": "Hard Rock",
+    "link": "deeppurple.com",
+    "logos": [
+      {
+        "title": "The Battle Rages On...",
+        "svg": "deep-purple_the-battle-rages-on.svg",
+        "class": ""
+      }, {
+        "title": "Classical",
+        "svg": "deep-purple.svg",
         "class": ""
       }
     ]
