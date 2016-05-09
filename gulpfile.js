@@ -98,7 +98,7 @@ gulp.task('styles-helpers', function(){
 gulp.task('styles', function(){
   return  gulp.src([
           paths.styles.src + '*.styl',
-          '!' + paths.styles.src + '_*.styl'
+          '!' + paths.styles.src + '{index,_*}.styl'
         ])
         .pipe(plugins.plumber())
         .pipe(plugins.stylus({

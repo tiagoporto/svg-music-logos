@@ -968,6 +968,17 @@ body {
      -moz-font-feature-settings: "liga", "kern";
           font-feature-settings: "liga", "kern";
 }
+/*
+*
+* Better Font Smoothing in Chrome & Safari
+* http://www.intridea.com/blog/2014/5/8/better-font-smoothing-in-chrome-on-mac-os-x
+*
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25), only screen and (-webkit-min-device-pixel-ratio: 2.0833333333333335), only screen and (min-resolution: 200dpi), only screen and (min-resolution: 1.25dppx) {
+  body {
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+}
 ::-moz-selection {
   background: #16a085;
   color: #fff;
@@ -975,6 +986,60 @@ body {
 ::selection {
   background: #16a085;
   color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.25em;
+  line-height: 1.333333333333333em;
+  margin-top: 0.666666666666667em;
+  margin-bottom: 0.666666666666667em;
+}
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+h3 {
+  font-size: 1.875em;
+  line-height: 1.6em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+h4 {
+  font-size: 1.75em;
+  line-height: 1.714285714285714em;
+  margin-top: 0.857142857142857em;
+  margin-bottom: 0.857142857142857em;
+}
+h5 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h6 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 .card {
   background: #e6e6e6;
@@ -994,12 +1059,6 @@ body {
   max-height: 200px;
   max-width: 100%;
 }
-.title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 72px;
-  text-decoration: none;
-  color: #16a085;
-}
 .search {
   width: 100%;
   border-color: #e6e6e6;
@@ -1016,6 +1075,12 @@ body {
   border-color: #ccc;
   color: #fff;
   outline: none;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
+  text-decoration: none;
+  color: #16a085;
 }
 /* ==================================================================
    Media Queries
@@ -1122,16 +1187,5 @@ body {
   tr,
   img {
     page-break-inside: avoid;
-  }
-}
-/*
-*
-* Better Font Smoothing in Chrome & Safari
-* http://www.intridea.com/blog/2014/5/8/better-font-smoothing-in-chrome-on-mac-os-x
-*
-*/
-@media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25), only screen and (-webkit-min-device-pixel-ratio: 2.0833333333333335), only screen and (min-resolution: 200dpi), only screen and (min-resolution: 1.25dppx) {
-  body {
-    -webkit-font-smoothing: subpixel-antialiased;
   }
 }
