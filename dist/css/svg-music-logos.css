@@ -53,3 +53,10 @@
 .judas-priest--symbol .judas-priest__lettering path {
   fill: rgba(255,255,255,0);
 }
+.the-who--text .the-who__symbol circle,
+.the-who--text .the-who__symbol path {
+  fill: rgba(255,255,255,0);
+}
+.the-who--symbol .the-who__text {
+  fill: rgba(255,255,255,0);
+}

@@ -543,5 +543,37 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "The Who",
+    "origin": "England",
+    "style": "Hard Rock",
+    "link": "thewho.com",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "the-who.svg",
+        "class": ""
+      }, {
+        "title": "classical text",
+        "svg": "the-who.svg",
+        "class": "the-who--text"
+      }, {
+        "title": "classical symbol",
+        "svg": "the-who.svg",
+        "class": "the-who--symbol"
+      }
+    ]
+  },  {
+    "name": "Death",
+    "origin": "U.S.A",
+    "style": "Death Metal",
+    "link": "emptywords.org",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "death.svg",
+        "class": ""
+      }
+    ]
   }
 ]
