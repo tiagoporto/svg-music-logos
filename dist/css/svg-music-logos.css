@@ -47,7 +47,27 @@
 .iron-maiden--classical {
   fill: #f00;
   stroke: #fff;
-  stroke-width: 1px;
+  stroke-width: 1.5;
+}
+.iron-maiden--classical-stroke {
+  fill: rgba(255,255,255,0);
+  stroke: #000;
+  stroke-width: 1.5;
+}
+.iron-maiden--powerslave {
+  fill: #e2be66;
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+.iron-maiden--somewhere-in-time {
+  fill: rgba(255,255,255,0);
+  stroke: #fc0;
+  stroke-width: 1.5;
+}
+.iron-maiden--sliced-stroke {
+  fill: rgba(255,255,255,0);
+  stroke: #000;
+  stroke-width: 1.5;
 }
 .judas-priest--symbol .judas-priest__lettering polygon,
 .judas-priest--symbol .judas-priest__lettering path {
