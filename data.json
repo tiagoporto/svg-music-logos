@@ -6,17 +6,37 @@
     "link": "ironmaiden.com",
     "logos": [
       {
-        "title": "classical",
+        "title": "Classical",
         "svg": "iron-maiden.svg",
         "class": ""
       }, {
-        "title": "sliced",
+        "title": "Classical",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--classical"
+      }, {
+        "title": "Classical Stroke",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--classical-stroke"
+      }, {
+        "title": "Powerslave",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--powerslave"
+      }, {
+        "title": "Somewhere In Time",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--somewhere-in-time"
+      }, {
+        "title": "Sliced",
         "svg": "iron-maiden_sliced.svg",
         "class": "iron-maiden--sliced"
       }, {
-        "title": "classical",
-        "svg": "iron-maiden.svg",
-        "class": "iron-maiden--classical"
+        "title": "Sliced Stroke",
+        "svg": "iron-maiden_sliced.svg",
+        "class": "iron-maiden--sliced-stroke"
+      }, {
+        "title": "The Book Of Souls",
+        "svg": "iron-maiden_the-book-of-souls.svg",
+        "class": ""
       }
     ]
   }, {
