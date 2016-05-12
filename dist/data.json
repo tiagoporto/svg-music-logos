@@ -585,13 +585,25 @@
     ]
   },  {
     "name": "Death",
-    "origin": "U.S.A",
+    "origin": "USA",
     "style": "Death Metal",
     "link": "emptywords.org",
     "logos": [
       {
         "title": "classical",
         "svg": "death.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Diamond Head",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "diamond-head.net",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "diamond-head.svg",
         "class": ""
       }
     ]
