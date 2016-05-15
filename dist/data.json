@@ -6,6 +6,10 @@
     "link": "ironmaiden.com",
     "logos": [
       {
+        "title": "The soundhouse Tapes",
+        "svg": "iron-maiden_the-soundhouse-tapes.svg",
+        "class": ""
+      }, {
         "title": "Classical",
         "svg": "iron-maiden.svg",
         "class": ""
@@ -33,6 +37,10 @@
         "title": "Sliced Stroke",
         "svg": "iron-maiden_sliced.svg",
         "class": "iron-maiden--sliced-stroke"
+      }, {
+        "title": "Live At Donington",
+        "svg": "iron-maiden_live-at-donington.svg",
+        "class": ""
       }, {
         "title": "The Book Of Souls",
         "svg": "iron-maiden_the-book-of-souls.svg",
