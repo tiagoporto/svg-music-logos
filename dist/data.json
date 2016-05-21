@@ -615,5 +615,21 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "Dream Theather",
+    "origin": "USA",
+    "style": "Progressive metal",
+    "link": "dreamtheater.net",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "dream-theater.svg",
+        "class": ""
+      }, {
+        "title": "icon",
+        "svg": "dream-theater_icon.svg",
+        "class": ""
+      }
+    ]
   }
 ]
