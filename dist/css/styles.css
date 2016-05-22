@@ -1050,6 +1050,13 @@ p {
 .card__cols {
   margin-bottom: 1.5em;
 }
+.card__link-title {
+  color: #16a085;
+  text-decoration: none;
+}
+.card__link-title:hover {
+  text-decoration: underline;
+}
 .footer {
   background: #16a085;
   height: 7.5em;

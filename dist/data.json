@@ -169,6 +169,18 @@
         "title": "Symbol",
         "svg": "rammstein_symbol.svg",
         "class": ""
+      }, {
+        "title": "Stroked Symbol",
+        "svg": "rammstein_symbol.svg",
+        "class": "rammstein__symbol--stroke"
+      }, {
+        "title": "Symbol Flat",
+        "svg": "rammstein_symbol--flat.svg",
+        "class": ""
+      }, {
+        "title": "DR",
+        "svg": "rammstein_dr.svg",
+        "class": ""
       }
     ]
   },  {
@@ -292,6 +304,10 @@
       {
         "title": "Morbid Visions",
         "svg": "sepultura_morbid-visions.svg",
+        "class": ""
+      }, {
+        "title": "Arise",
+        "svg": "sepultura_arise.svg",
         "class": ""
       }, {
         "title": "Nation",

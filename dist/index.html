@@ -71,9 +71,10 @@
             <div class="card-box">
                 <div ng-repeat="band in bands | orderBy:'name' |  filter:search" ng-init="lastItem($last)" class="card__cols">
                     <div class="card">
-                        <a href="http://{{band.link}}">
-                            <h1>{{band.name}}</h1>
-                        </a>
+
+                        <h2>
+                            <a class="card__link-title" href="http://{{band.link}}" title="{{band.name}} Website">{{band.name}}</a>
+                        </h2>
 
                         <p>Style: {{band.style}}</p>
                         <p>Origin: {{band.origin}}</p>
