@@ -427,7 +427,7 @@
     "name": "Sex Pistols",
     "origin": "England",
     "style": "Punk Rock",
-    "link": "sexpistolsofficial.com/",
+    "link": "sexpistolsofficial.com",
     "logos": [
       {
         "title": "Official",
@@ -644,6 +644,38 @@
       }, {
         "title": "icon",
         "svg": "dream-theater_icon.svg",
+        "class": ""
+      }
+    ]
+ },  {
+    "name": "Megadeth",
+    "origin": "USA",
+    "style": "Thrash Metal",
+    "link": "megadeth.com",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "megadeth.svg",
+        "class": ""
+      }, {
+        "title": "Cryptic Writing Symbol",
+        "svg": "megadeth_cryptic-writing-symbol.svg",
+        "class": ""
+      }
+    ]
+ },  {
+    "name": "Ramones",
+    "origin": "England",
+    "style": "Punk Rock",
+    "link": "ramones.com",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "ramones_symbol.svg",
+        "class": ""
+      }, {
+        "title": "classical",
+        "svg": "ramones.svg",
         "class": ""
       }
     ]
