@@ -337,6 +337,14 @@
         "title": "Demon",
         "svg": "black-sabbath_demon.svg",
         "class": ""
+      }, {
+        "title": "Vol 4",
+        "svg": "black-sabbath_vol4.svg",
+        "class": ""
+      }, {
+        "title": "Master Of Reality",
+        "svg": "black-sabbath_master-of-reality.svg",
+        "class": ""
       }
     ]
   },  {
@@ -352,6 +360,18 @@
       }, {
         "title": "Ikons",
         "svg": "kiss_ikons.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Faith No More",
+    "origin": "USA",
+    "style": "Alternative Metal",
+    "link": "fnm.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "faith-no-more.svg",
         "class": ""
       }
     ]
@@ -427,7 +447,7 @@
     "name": "Sex Pistols",
     "origin": "England",
     "style": "Punk Rock",
-    "link": "sexpistolsofficial.com/",
+    "link": "sexpistolsofficial.com",
     "logos": [
       {
         "title": "Official",
@@ -644,6 +664,38 @@
       }, {
         "title": "icon",
         "svg": "dream-theater_icon.svg",
+        "class": ""
+      }
+    ]
+ },  {
+    "name": "Megadeth",
+    "origin": "USA",
+    "style": "Thrash Metal",
+    "link": "megadeth.com",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "megadeth.svg",
+        "class": ""
+      }, {
+        "title": "Cryptic Writing Symbol",
+        "svg": "megadeth_cryptic-writing-symbol.svg",
+        "class": ""
+      }
+    ]
+ },  {
+    "name": "Ramones",
+    "origin": "England",
+    "style": "Punk Rock",
+    "link": "ramones.com",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "ramones_symbol.svg",
+        "class": ""
+      }, {
+        "title": "classical",
+        "svg": "ramones.svg",
         "class": ""
       }
     ]
