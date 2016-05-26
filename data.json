@@ -325,6 +325,14 @@
         "title": "Star Symbol",
         "svg": "sepultura_star.svg",
         "class": ""
+      }, {
+        "title": "Coat Of Arms",
+        "svg": "sepultura_coat-of-arms.svg",
+        "class": ""
+      }, {
+        "title": "Chaos Symbol",
+        "svg": "sepultura_chaos-symbol.svg",
+        "class": ""
       }
     ]
   },  {
