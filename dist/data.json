@@ -314,7 +314,7 @@
         "svg": "sepultura_nation.svg",
         "class": ""
       }, {
-        "title": "Symbol",
+        "title": "Tribal Symbol",
         "svg": "sepultura_symbol.svg",
         "class": ""
       }, {
@@ -342,7 +342,7 @@
     "link": "blacksabbath.com",
     "logos": [
       {
-        "title": "Demon",
+        "title": "Henry",
         "svg": "black-sabbath_demon.svg",
         "class": ""
       }, {
