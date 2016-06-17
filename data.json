@@ -153,6 +153,10 @@
       "title": "Inverse",
       "svg": "acdc.svg",
       "class": "acdc--inverse"
+    }, {
+      "title": "Powerage",
+      "svg": "acdc_powerage.svg",
+      "class": ""
     }
   ]
   },  {
@@ -314,7 +318,7 @@
         "svg": "sepultura_nation.svg",
         "class": ""
       }, {
-        "title": "Symbol",
+        "title": "Tribal Symbol",
         "svg": "sepultura_symbol.svg",
         "class": ""
       }, {
@@ -342,7 +346,7 @@
     "link": "blacksabbath.com",
     "logos": [
       {
-        "title": "Demon",
+        "title": "Henry",
         "svg": "black-sabbath_demon.svg",
         "class": ""
       }, {
@@ -704,6 +708,18 @@
       }, {
         "title": "classical",
         "svg": "ramones.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Almah",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "almah.com.br",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "almah.svg",
         "class": ""
       }
     ]
