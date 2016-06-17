@@ -153,6 +153,10 @@
       "title": "Inverse",
       "svg": "acdc.svg",
       "class": "acdc--inverse"
+    }, {
+      "title": "Powerage",
+      "svg": "acdc_powerage.svg",
+      "class": ""
     }
   ]
   },  {
@@ -704,6 +708,18 @@
       }, {
         "title": "classical",
         "svg": "ramones.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Almah",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "almah.com.br",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "almah.svg",
         "class": ""
       }
     ]
