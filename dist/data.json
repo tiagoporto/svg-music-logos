@@ -288,6 +288,30 @@
       }
     ]
   },  {
+    "name": "Wolfmother",
+    "origin": "Australia",
+    "style": "Hard Rock",
+    "link": "wolfmother.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "wolfmother.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Coldplay",
+    "origin": "England",
+    "style": "Alternative Rock",
+    "link": "coldplay.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "coldplay.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "Pantera",
     "origin": "USA",
     "style": "Groove Metal",
@@ -452,6 +476,18 @@
       {
         "title": "Official",
         "svg": "blind-guardian.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Johnny Cash",
+    "origin": "U.S.A.",
+    "style": "Country",
+    "link": "johnnycash.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "johnny-cash.svg",
         "class": ""
       }
     ]
