@@ -96,6 +96,54 @@
       }
     ]
   },  {
+    "name": "Rainbow",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "facebook.com/Rainbow-189246591087656/",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "rainbow.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Alice Cooper",
+    "origin": "U.S.A.",
+    "style": "Hard Rock",
+    "link": "alicecooper.com",
+    "logos": [
+      {
+        "title": "Constrictor",
+        "svg": "alice-cooper_constrictor.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Blur",
+    "origin": "England",
+    "style": "Alternative Rock",
+    "link": "blur.co.uk",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "blur.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Arctic Monkeys",
+    "origin": "England",
+    "style": "Indie Rock",
+    "link": "arcticmonkeys.com",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "arctic-monkeys.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "Metallica",
     "origin": "USA",
     "style": "Thrash Metal",
@@ -288,6 +336,30 @@
       }
     ]
   },  {
+    "name": "Wolfmother",
+    "origin": "Australia",
+    "style": "Hard Rock",
+    "link": "wolfmother.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "wolfmother.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Coldplay",
+    "origin": "England",
+    "style": "Alternative Rock",
+    "link": "coldplay.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "coldplay.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "Pantera",
     "origin": "USA",
     "style": "Groove Metal",
@@ -452,6 +524,18 @@
       {
         "title": "Official",
         "svg": "blind-guardian.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Johnny Cash",
+    "origin": "U.S.A.",
+    "style": "Country",
+    "link": "johnnycash.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "johnny-cash.svg",
         "class": ""
       }
     ]
