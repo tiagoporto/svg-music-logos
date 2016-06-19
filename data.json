@@ -45,6 +45,18 @@
         "title": "The Book Of Souls",
         "svg": "iron-maiden_the-book-of-souls.svg",
         "class": ""
+      }, {
+        "title": "Eddie - Brave New World",
+        "svg": "iron-maiden_eddie-brave-new-world.svg",
+        "class": ""
+      }, {
+        "title": "Eddie - A Matter of Life and Death",
+        "svg": "iron-maiden_eddie-a-matter-of-life-and-death.svg",
+        "class": ""
+      }, {
+        "title": "Eddie - The Final Frontier",
+        "svg": "iron-maiden_eddie-the-final-frontier.svg",
+        "class": ""
       }
     ]
   }, {
@@ -60,6 +72,30 @@
       }
     ]
   },  {
+    "name": "Marcelo D2",
+    "origin": "Brazil",
+    "style": "samba Rap",
+    "link": "marcelod2.com.br",
+    "logos": [
+      {
+        "title": "A procura da batida perfeita",
+        "svg": "marcelo-d2.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Gorillaz",
+    "origin": "England",
+    "style": "Alternative Rock",
+    "link": "gorillaz.com",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "gorillaz.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "David Gilmour",
     "origin": "England",
     "style": "Progressive Rock",
@@ -68,6 +104,30 @@
       {
         "title": "classical",
         "svg": "david-gilmour.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Roger Waters",
+    "origin": "England",
+    "style": "Progressive Rock",
+    "link": "rogerwaters.com",
+    "logos": [
+      {
+        "title": "The Wall Live",
+        "svg": "roger-waters_the-wall-live.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Chickenfoot",
+    "origin": "Mexico",
+    "style": "Hard Rock",
+    "link": "chickenfoot.us",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "chickenfoot.svg",
         "class": ""
       }
     ]
@@ -368,6 +428,22 @@
       {
         "title": "Official",
         "svg": "pantera.svg",
+        "class": ""
+      },{
+        "title": "CFH",
+        "svg": "pantera_cfh.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Daft Punk",
+    "origin": "France",
+    "style": "Eletronic",
+    "link": "daftpunk.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "daft-punk.svg",
         "class": ""
       }
     ]
