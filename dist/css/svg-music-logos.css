@@ -69,6 +69,14 @@
   stroke: #000;
   stroke-width: 1.5;
 }
+.iron-maiden--eddie-brave-new-world__circle {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1;
+}
+.iron-maiden--eddie-brave-new-world__face {
+  fill: #ff0;
+}
 .judas-priest--symbol .judas-priest__lettering polygon,
 .judas-priest--symbol .judas-priest__lettering path {
   fill: rgba(255,255,255,0);

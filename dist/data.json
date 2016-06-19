@@ -46,12 +46,16 @@
         "svg": "iron-maiden_the-book-of-souls.svg",
         "class": ""
       }, {
-        "title": "Eddie - The Final Frontier",
-        "svg": "iron-maiden_eddie-the-final-frontier.svg",
+        "title": "Eddie - Brave New World",
+        "svg": "iron-maiden_eddie-brave-new-world.svg",
         "class": ""
       }, {
         "title": "Eddie - A Matter of Life and Death",
         "svg": "iron-maiden_eddie-a-matter-of-life-and-death.svg",
+        "class": ""
+      }, {
+        "title": "Eddie - The Final Frontier",
+        "svg": "iron-maiden_eddie-the-final-frontier.svg",
         "class": ""
       }
     ]

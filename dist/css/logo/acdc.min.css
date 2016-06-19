@@ -1,0 +1,6 @@
+/*!	SVG Music Logos v0.1.0
+*	https://github.com/tiagoporto/svg-music-logos
+*	Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
+*	Released under the MIT license
+*/
+.acdc--classical .acdc__fill path,.acdc--classical .acdc__fill polygon{fill:#626262}.acdc--classical .acdc__shadow-one polygon{fill:#4a4a4a}.acdc--classical .acdc__shadow-two polygon{fill:#ededed}.acdc--classical .acdc__shadow-three polygon{fill:#c2c2c2}.acdc--classical .acdc__shadow-four polygon{fill:#4d4d4d}.acdc--classical-color .acdc__fill path,.acdc--classical-color .acdc__fill polygon{fill:#ef2334}.acdc--classical-color .acdc__shadow-one polygon{fill:#e3051b}.acdc--classical-color .acdc__shadow-two polygon{fill:#ffebcb}.acdc--classical-color .acdc__shadow-three polygon{fill:#f7b28a}.acdc--classical-color .acdc__shadow-four polygon{fill:#784500}.acdc--stroke{stroke-width:2px;stroke:#000;fill:rgba(255,255,255,0)}.acdc--inverse{fill:#fff}
