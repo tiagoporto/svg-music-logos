@@ -883,5 +883,29 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "Samael",
+    "origin": "Switzerland",
+    "style": "Black/Industrial Metal",
+    "link": "samael.info",
+    "logos": [
+      {
+        "title": "Ceremony of Opposites Tour",
+        "svg": "samael_ceremony-of-opposites-tour.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Whitesnake",
+    "origin": "England",
+    "style": "Hard Rock",
+    "link": "whitesnake.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "whitesnake.svg",
+        "class": ""
+      }
+    ]
   }
 ]
