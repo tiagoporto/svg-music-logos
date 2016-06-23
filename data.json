@@ -129,6 +129,14 @@
         "title": "Official",
         "svg": "chickenfoot.svg",
         "class": ""
+      }, {
+        "title": "III",
+        "svg": "chickenfoot_III.svg",
+        "class": ""
+      }, {
+        "title": "Dirty",
+        "svg": "chickenfoot_dirty.svg",
+        "class": ""
       }
     ]
   },  {
@@ -232,6 +240,10 @@
       }, {
         "title": "Star",
         "svg": "metallica_star.svg",
+        "class": ""
+      }, {
+        "title": "Beyond Magnet Symbol",
+        "svg": "metallica_beyond-magnetic.svg",
         "class": ""
       }
     ]
@@ -504,6 +516,10 @@
       }, {
         "title": "Master Of Reality",
         "svg": "black-sabbath_master-of-reality.svg",
+        "class": ""
+      }, {
+        "title": "The Rules of Hell",
+        "svg": "black-sabbath_the-rules-of-hell.svg",
         "class": ""
       }
     ]
@@ -880,6 +896,30 @@
       {
         "title": "classical",
         "svg": "almah.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Samael",
+    "origin": "Switzerland",
+    "style": "Black/Industrial Metal",
+    "link": "samael.info",
+    "logos": [
+      {
+        "title": "Ceremony of Opposites Tour",
+        "svg": "samael_ceremony-of-opposites-tour.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Whitesnake",
+    "origin": "England",
+    "style": "Hard Rock",
+    "link": "whitesnake.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "whitesnake.svg",
         "class": ""
       }
     ]
