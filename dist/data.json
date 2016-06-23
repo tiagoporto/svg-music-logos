@@ -129,6 +129,14 @@
         "title": "Official",
         "svg": "chickenfoot.svg",
         "class": ""
+      }, {
+        "title": "III",
+        "svg": "chickenfoot_III.svg",
+        "class": ""
+      }, {
+        "title": "Dirty",
+        "svg": "chickenfoot_dirty.svg",
+        "class": ""
       }
     ]
   },  {
