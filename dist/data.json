@@ -923,5 +923,29 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "Wu-Tang Clan",
+    "origin": "U.S.A.",
+    "style": "Hip Hop",
+    "link": "wutang-corp.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "wu-tang-clan.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Twisted Syster",
+    "origin": "U.S.A.",
+    "style": "Glam Metal",
+    "link": "twistedsister.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "twisted-syster.svg",
+        "class": ""
+      }
+    ]
   }
 ]
