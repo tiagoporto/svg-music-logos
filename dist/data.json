@@ -233,6 +233,10 @@
         "title": "Star",
         "svg": "metallica_star.svg",
         "class": ""
+      }, {
+        "title": "Beyond Magnet Symbol",
+        "svg": "metallica_beyond-magnetic.svg",
+        "class": ""
       }
     ]
   },  {
@@ -504,6 +508,10 @@
       }, {
         "title": "Master Of Reality",
         "svg": "black-sabbath_master-of-reality.svg",
+        "class": ""
+      }, {
+        "title": "The Rules of Hell",
+        "svg": "black-sabbath_the-rules-of-hell.svg",
         "class": ""
       }
     ]
