@@ -479,7 +479,7 @@
         "class": ""
       }, {
         "title": "Tribal Symbol",
-        "svg": "sepultura_symbol.svg",
+        "svg": "sepultura_tribal.svg",
         "class": ""
       }, {
         "title": "Triangle Symbol",
@@ -920,6 +920,118 @@
       {
         "title": "Classical",
         "svg": "whitesnake.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Wu-Tang Clan",
+    "origin": "U.S.A.",
+    "style": "Hip Hop",
+    "link": "wutang-corp.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "wu-tang-clan.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Twisted Syster",
+    "origin": "U.S.A.",
+    "style": "Glam Metal",
+    "link": "twistedsister.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "twisted-syster.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Yes",
+    "origin": "England",
+    "style": "Progressive Rock",
+    "link": "yesworld.com",
+    "logos": [
+      {
+        "title": "90125",
+        "svg": "yes_90125.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Van Halen",
+    "origin": "U.S.A.",
+    "style": "Hard Rock",
+    "link": "van-halen.com",
+    "logos": [
+      {
+        "title": "5150",
+        "svg": "van-halen_5150.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Trivium",
+    "origin": "U.S.A.",
+    "style": "Heavy Metal",
+    "link": "trivium.org",
+    "logos": [
+      {
+        "title": "classical",
+        "svg": "trivium.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Tianastácia",
+    "origin": "Brazil",
+    "style": "Hard Rock",
+    "link": "tianastacia.com.br",
+    "logos": [
+      {
+        "title": "Horizontal",
+        "svg": "tianastacia_horizontal.svg",
+        "class": ""
+      }, {
+        "title": "Vertical",
+        "svg": "tianastacia_vertical.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Thin Lizzy",
+    "origin": "Ireland",
+    "style": "Hard Rock",
+    "link": "thinlizzy.org",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "thin-lizzy.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Therion",
+    "origin": "Swedish",
+    "style": "Symphonic Metal",
+    "link": "therion.se",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "therion.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "X Japan",
+    "origin": "Japan",
+    "style": "Heavy Metal",
+    "link": "xjapanmusic.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "x-japan.svg",
         "class": ""
       }
     ]
