@@ -1035,5 +1035,29 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "14 Bis",
+    "origin": "Brazil",
+    "style": "MPB",
+    "link": "14bis.com.br",
+    "logos": [
+      {
+        "title": "Ao vivo",
+        "svg": "14-bis_ao-vivo.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Alice in Chains",
+    "origin": "U.S.A.",
+    "style": "Alternative Rock",
+    "link": "aliceinchains.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "alice-in-chains.svg",
+        "class": ""
+      }
+    ]
   }
 ]
