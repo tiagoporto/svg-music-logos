@@ -1059,5 +1059,53 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "Doro Pesch",
+    "origin": "Germany",
+    "style": "Heavy Metal",
+    "link": "doropesch.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "doro.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Dokken",
+    "origin": "U.S.A",
+    "style": "Heavy Metal",
+    "link": "dokken.net",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "dokken.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Dr. Sin",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "drsinofficial.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "dr-sin.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Drowned",
+    "origin": "Brazil",
+    "style": "Death Metal",
+    "link": "drowned.com.br",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "drowned.svg",
+        "class": ""
+      }
+    ]
   }
 ]
