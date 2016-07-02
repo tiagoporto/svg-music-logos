@@ -30,6 +30,10 @@
         "svg": "iron-maiden.svg",
         "class": "iron-maiden--somewhere-in-time"
       }, {
+        "title": "Live At Donington",
+        "svg": "iron-maiden_live-at-donington.svg",
+        "class": ""
+      }, {
         "title": "Sliced",
         "svg": "iron-maiden_sliced.svg",
         "class": "iron-maiden--sliced"
@@ -37,14 +41,6 @@
         "title": "Sliced Stroke",
         "svg": "iron-maiden_sliced.svg",
         "class": "iron-maiden--sliced-stroke"
-      }, {
-        "title": "Live At Donington",
-        "svg": "iron-maiden_live-at-donington.svg",
-        "class": ""
-      }, {
-        "title": "The Book Of Souls",
-        "svg": "iron-maiden_the-book-of-souls.svg",
-        "class": ""
       }, {
         "title": "Eddie - Brave New World",
         "svg": "iron-maiden_eddie-brave-new-world.svg",
@@ -56,6 +52,14 @@
       }, {
         "title": "Eddie - The Final Frontier",
         "svg": "iron-maiden_eddie-the-final-frontier.svg",
+        "class": ""
+      }, {
+        "title": "The Book Of Souls",
+        "svg": "iron-maiden_the-book-of-souls.svg",
+        "class": ""
+      }, {
+        "title": "Eddie - The Book Of Souls",
+        "svg": "iron-maiden_eddie-the-book-of-souls.svg",
         "class": ""
       }
     ]
@@ -245,6 +249,10 @@
         "title": "Beyond Magnet Symbol",
         "svg": "metallica_beyond-magnetic.svg",
         "class": ""
+      }, {
+        "title": "30 years",
+        "svg": "metallica_30-years.svg",
+        "class": ""
       }
     ]
   },  {
@@ -304,6 +312,10 @@
       }, {
         "title": "DR",
         "svg": "rammstein_dr.svg",
+        "class": ""
+      }, {
+        "title": "Wings",
+        "svg": "rammstein_wings.svg",
         "class": ""
       }
     ]
@@ -1104,6 +1116,102 @@
       {
         "title": "Classical",
         "svg": "drowned.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "50 Cent",
+    "origin": "U.S.A.",
+    "style": "Hip Hop",
+    "link": "50cent.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "50-cent.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Baby Metal",
+    "origin": "Japan",
+    "style": "Heavy Metal",
+    "link": "babymetal.jp",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "baby-metal.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Bon Jovi",
+    "origin": "U.S.A.",
+    "style": "Hard Rock",
+    "link": "bonjovi.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "bon-jovi_have-a-nice-day-smile.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Edguy",
+    "origin": "Germany",
+    "style": "Power Metal",
+    "link": "edguy.net",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "edguy.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Eddie Van Halen",
+    "origin": "U.S.A.",
+    "style": "Hard Rock",
+    "link": "evhgear.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "evh.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Gammaray",
+    "origin": "Germany",
+    "style": "Power Metal",
+    "link": "gammaray.org",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "gammaray.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "The Police",
+    "origin": "England",
+    "style": "Reggae Rock",
+    "link": "thepolice.com",
+    "logos": [
+      {
+        "title": "Ghost In The Machine",
+        "svg": "the-police_ghost-in-the-machine.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Rage",
+    "origin": "Germany",
+    "style": "Heavy Metal",
+    "link": "rage-official.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "rage.svg",
         "class": ""
       }
     ]
