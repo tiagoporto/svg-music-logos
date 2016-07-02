@@ -30,6 +30,10 @@
         "svg": "iron-maiden.svg",
         "class": "iron-maiden--somewhere-in-time"
       }, {
+        "title": "Live At Donington",
+        "svg": "iron-maiden_live-at-donington.svg",
+        "class": ""
+      }, {
         "title": "Sliced",
         "svg": "iron-maiden_sliced.svg",
         "class": "iron-maiden--sliced"
@@ -37,14 +41,6 @@
         "title": "Sliced Stroke",
         "svg": "iron-maiden_sliced.svg",
         "class": "iron-maiden--sliced-stroke"
-      }, {
-        "title": "Live At Donington",
-        "svg": "iron-maiden_live-at-donington.svg",
-        "class": ""
-      }, {
-        "title": "The Book Of Souls",
-        "svg": "iron-maiden_the-book-of-souls.svg",
-        "class": ""
       }, {
         "title": "Eddie - Brave New World",
         "svg": "iron-maiden_eddie-brave-new-world.svg",
@@ -56,6 +52,14 @@
       }, {
         "title": "Eddie - The Final Frontier",
         "svg": "iron-maiden_eddie-the-final-frontier.svg",
+        "class": ""
+      }, {
+        "title": "The Book Of Souls",
+        "svg": "iron-maiden_the-book-of-souls.svg",
+        "class": ""
+      }, {
+        "title": "Eddie - The Book Of Souls",
+        "svg": "iron-maiden_eddie-the-book-of-souls.svg",
         "class": ""
       }
     ]

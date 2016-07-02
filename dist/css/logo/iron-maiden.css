@@ -37,3 +37,7 @@
 .iron-maiden--eddie-brave-new-world__face {
   fill: #ff0;
 }
+.iron-maiden--eddie-the-book-of-souls .iron-maiden__background,
+.iron-maiden--eddie-the-book-of-souls .iron-maiden__face {
+  fill: #fff;
+}

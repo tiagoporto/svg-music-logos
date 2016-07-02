@@ -98,6 +98,10 @@
 .iron-maiden--eddie-brave-new-world__face {
   fill: #ff0;
 }
+.iron-maiden--eddie-the-book-of-souls .iron-maiden__background,
+.iron-maiden--eddie-the-book-of-souls .iron-maiden__face {
+  fill: #fff;
+}
 .judas-priest--symbol .judas-priest__lettering polygon,
 .judas-priest--symbol .judas-priest__lettering path {
   fill: rgba(255,255,255,0);
