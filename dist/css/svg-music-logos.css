@@ -10,6 +10,12 @@
 .quatorze-bis--ao-vivo .quatorze-bis__letters {
   fill: #008bd2;
 }
+.fifth-cent__background {
+  fill: #e42336;
+}
+.fifth-cent__text {
+  fill: #fff;
+}
 .acdc--classical .acdc__fill path,
 .acdc--classical .acdc__fill polygon {
   fill: #626262;
@@ -49,6 +55,9 @@
 }
 .acdc--inverse {
   fill: #fff;
+}
+.bon-jovi--have-a-nice-day-smile .bon-jovi__background {
+  fill: #d42423;
 }
 .chickenfoot--III__red {
   fill: #e91a11;
