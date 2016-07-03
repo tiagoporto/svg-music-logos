@@ -1215,5 +1215,65 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "Abba",
+    "origin": "Sweden",
+    "style": "Disco",
+    "link": "abbasite.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "abba.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Tiësto",
+    "origin": "Netherlands",
+    "style": "Eletronic",
+    "link": "tiesto.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "tiesto.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "The Cure",
+    "origin": "English",
+    "style": "Alternative Rock",
+    "link": "thecure.com",
+    "logos": [
+      {
+        "title": "4.13",
+        "svg": "the-cure_4.13.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Papa Roach",
+    "origin": "U.S.A.",
+    "style": "Alternative Rock",
+    "link": "paparoach.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "papa-roach.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Ozzy Osbourne",
+    "origin": "England",
+    "style": "Heavy Metal",
+    "link": "ozzy.com",
+    "logos": [
+      {
+        "title": "Blizzard Of Ozz",
+        "svg": "ozzy-osbourne_blizzard-of-ozz.svg",
+        "class": ""
+      }
+    ]
   }
 ]
