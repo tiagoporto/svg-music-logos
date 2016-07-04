@@ -1275,5 +1275,17 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "David Guetta",
+    "origin": "France",
+    "style": "Electro",
+    "link": "davidguetta.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "david-guetta.svg",
+        "class": ""
+      }
+    ]
   }
 ]
