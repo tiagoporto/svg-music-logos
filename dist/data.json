@@ -1287,5 +1287,29 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "Enya",
+    "origin": "Ireland",
+    "style": "New Age",
+    "link": "enya.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "enya.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Exciter",
+    "origin": "Canada",
+    "style": "Speed Metal",
+    "link": "excitermetal.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "exciter.svg",
+        "class": ""
+      }
+    ]
   }
 ]
