@@ -1311,5 +1311,29 @@
         "class": ""
       }
     ]
+  },  {
+    "name": "Oasis",
+    "origin": "England",
+    "style": "Alternative Rock",
+    "link": "oasisinet.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "oasis.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Muse",
+    "origin": "England",
+    "style": "Alternative Rock",
+    "link": "muse.mu",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "muse.svg",
+        "class": ""
+      }
+    ]
   }
 ]
