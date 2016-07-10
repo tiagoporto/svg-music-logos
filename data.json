@@ -1336,6 +1336,46 @@
       }
     ]
   },  {
+    "name": "The Big 4 - Metallica, Slayer, Megadeth, Anthrax",
+    "origin": "U.S.A.",
+    "style": "Thrash Metal",
+    "link": "en.wikipedia.org/wiki/The_Big_Four:_Live_from_Sofia,_Bulgaria",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "the-big-four.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Guns N' Roses",
+    "origin": "U.S.A.",
+    "style": "Hard Rock",
+    "link": "gunsnroses.com",
+    "logos": [
+      {
+        "title": "Live Era",
+        "svg": "guns-n-roses_live-era.svg",
+        "class": ""
+      }, {
+        "title": "Appetite For Destruction",
+        "svg": "guns-n-roses_appetite-for-destruction.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Grave Digger",
+    "origin": "Germany",
+    "style": "Heavy Metal",
+    "link": "grave-digger.de",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "grave-digger.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "Eminence",
     "origin": "Brazil",
     "style": "Brutal Metal",
