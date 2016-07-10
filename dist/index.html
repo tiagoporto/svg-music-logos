@@ -34,9 +34,9 @@
         <link rel="stylesheet" href="css/svg-music-logos.css">
         <!-- endbuild -->
     </head>
-    <body>
+    <body ng-app="svgMusicLogosApp">
 
-        <main class="main" ng-app="svgBandLogosApp" ng-controller="MainCtrl">
+        <main class="main">
             <h1>
                 <a href="{-}" class="title">
                     <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250"> -->
@@ -66,25 +66,7 @@
 
             <p>All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer.</p>
 
-            <input type="search" ng-model="search" placeholder="Search for logos" class="search" />
-
-            <div class="card-box">
-                <div ng-repeat="band in bands | orderBy:'name' |  filter:search" ng-init="lastItem($last)" class="card__cols">
-                    <div class="card">
-
-                        <h2>
-                            <a class="card__link-title" href="http://{{band.link}}" title="{{band.name}} Website">{{band.name}}</a>
-                        </h2>
-
-                        <p>Style: {{band.style}}</p>
-                        <p>Origin: {{band.origin}}</p>
-
-                        <p>{{band.logo.title}}</p>
-
-                        <img ng-src="logos/{{band.logo.svg}}" class="logo {{band.logo.class}}">
-                    </div>
-                </div>
-            </div>
+            <div ng-view></div>
         </main>
 
         <footer class="footer">
@@ -96,6 +78,7 @@
 
         <!-- build:js js/scripts.combined.min.js -->
         <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/jquery-svg-to-inline/dist/js/jquery-svg-to-inline.js"></script>
         <script src="js/angular.js"></script>

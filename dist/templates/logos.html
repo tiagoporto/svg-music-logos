@@ -1,0 +1,19 @@
+<input type="search" ng-model="search" placeholder="Search for logos" class="search" />
+
+<div class="card-box">
+    <div ng-repeat="band in bands | orderBy:'name' |  filter:search" ng-init="lastItem($last)" class="card__cols">
+        <div class="card">
+
+            <h2>
+                <a class="card__link-title" href="http://{{band.link}}" title="{{band.name}} Website">{{band.name}}</a>
+            </h2>
+
+            <p>Style: {{band.style}}</p>
+            <p>Origin: {{band.origin}}</p>
+
+            <p>{{band.logo.title}}</p>
+
+            <img ng-src="logos/{{band.logo.svg}}" class="logo {{band.logo.class}}">
+        </div>
+    </div>
+</div>

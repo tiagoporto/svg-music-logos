@@ -1,37 +1,38 @@
-angular.module('svgBandLogosApp')
-	.controller('MainCtrl', ['$scope', '$http', '$timeout' , ($scope, $http, $timeout) => {
-		'use strict';
+app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams' , ($scope, $http, $timeout, $routeParams) => {
+    'use strict';
 
-		$scope.lastItem = index => {
-			if(index){
-				$timeout(() => {
-					$('.logo').svgToInline({useTriggerClass: true});
-				});
-			}
-		};
+    $scope.search = $routeParams.search;
 
-		$http.get('data.json')
-			.then( response => {
+    $scope.lastItem = index => {
+        if(index){
+            $timeout(() => {
+                $('.logo').svgToInline({useTriggerClass: true});
+            });
+        }
+    };
 
-				let newResponse = [];
-				let count = 0;
+    $http.get('data.json')
+        .then( response => {
 
-				response.data.forEach( (band) => {
+            let newResponse = [];
+            let count = 0;
 
-					const getLogo = band.logos;
+            response.data.forEach( (band) => {
 
-					getLogo.forEach( (logo) => {
-						newResponse[count] = {};
-						newResponse[count].name = band.name;
-						newResponse[count].link = band.link;
-						newResponse[count].origin = band.origin;
-						newResponse[count].style = band.style;
-						newResponse[count].logo = logo;
+                const getLogo = band.logos;
 
-						count += 1;
-					});
-				});
+                getLogo.forEach( (logo) => {
+                    newResponse[count] = {};
+                    newResponse[count].name = band.name;
+                    newResponse[count].link = band.link;
+                    newResponse[count].origin = band.origin;
+                    newResponse[count].style = band.style;
+                    newResponse[count].logo = logo;
 
-				$scope.bands = newResponse;
-			});
-	}]);
+                    count += 1;
+                });
+            });
+
+            $scope.bands = newResponse;
+        });
+}]);
