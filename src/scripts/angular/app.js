@@ -1,6 +1,6 @@
 var app = angular.module('svgMusicLogosApp', ['ngRoute']);
 
-app.config(['$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) => {
+app.config(['$routeProvider', ($routeProvider) => {
     let url = window.location.href;
     url = url.replace(/\#\/.*/, '');
 
@@ -26,13 +26,4 @@ app.config(['$routeProvider', '$locationProvider', ($routeProvider, $locationPro
         })
 
         .otherwise ({ redirectTo: '/' });
-
-    // remove o # da url
-    if(window.history && window.history.pushState){
-        // to know more about setting base URL visit: https://docs.angularjs.org/error/$location/nobase
-        $locationProvider.html5Mode({
-            enabled: true,
-            requireBase: false
-        });
-    }
 }]);
