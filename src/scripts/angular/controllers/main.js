@@ -1,4 +1,4 @@
-app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams' , ($scope, $http, $timeout, $routeParams) => {
+app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location' , ($scope, $http, $timeout, $routeParams, $location) => {
     'use strict';
 
     $scope.search = $routeParams.search;
@@ -11,7 +11,10 @@ app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams' , ($sc
         }
     };
 
-    $http.get('data.json')
+    let url = $location.absUrl();
+    url = url.replace(/\#\/.*/, '');
+
+    $http.get(`${url}data.json`)
         .then( response => {
 
             let newResponse = [];

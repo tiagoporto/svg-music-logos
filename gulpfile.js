@@ -605,6 +605,7 @@ gulp.task('ghpages', function() {
 
 // Build Project and serve if pass the parameter --serve
 gulp.task('build', ['clean'], function () {
+    env = 'prod';
     sequence(['images', 'bitmap-sprite', 'vetor-sprite', 'styles-helpers', 'vendor-scripts'], 'svg2png', 'styles', 'scripts', 'copy', function(){
         if(args.serve === true){
             browserSync(config.browserSyncBuild);

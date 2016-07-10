@@ -8,30 +8,35 @@
 
 var app = angular.module('svgMusicLogosApp', ['ngRoute']);
 
-app.config(function ($routeProvider, $locationProvider) {
-    'use strict';
+app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+    var url = window.location.href;
+    url = url.replace(/\#\/.*/, '');
 
     $routeProvider.when('/', {
-        templateUrl: 'templates/logos.html',
+        templateUrl: url + 'templates/logos.html',
+        controller: 'MainCtrl'
+    }).when('/svg-music-logos', {
+        templateUrl: url + 'templates/logos.html',
+        controller: 'MainCtrl'
+    }).when('/svg-music-logos/:search', {
+        templateUrl: url + 'templates/logos.html',
         controller: 'MainCtrl'
     }).when('/:search', {
-        templateUrl: 'templates/logos.html',
+        templateUrl: url + 'templates/logos.html',
         controller: 'MainCtrl'
     }).otherwise({ redirectTo: '/' });
 
     // remove o # da url
     if (window.history && window.history.pushState) {
         // to know more about setting base URL visit: https://docs.angularjs.org/error/$location/nobase
-
-        // if you don't wish to set base URL then use this
         $locationProvider.html5Mode({
             enabled: true,
             requireBase: false
         });
     }
-});
+}]);
 
-app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', function ($scope, $http, $timeout, $routeParams) {
+app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', function ($scope, $http, $timeout, $routeParams, $location) {
     'use strict';
 
     $scope.search = $routeParams.search;
@@ -44,7 +49,10 @@ app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', funct
         }
     };
 
-    $http.get('data.json').then(function (response) {
+    var url = $location.absUrl();
+    url = url.replace(/\#\/.*/, '');
+
+    $http.get(url + 'data.json').then(function (response) {
 
         var newResponse = [];
         var count = 0;

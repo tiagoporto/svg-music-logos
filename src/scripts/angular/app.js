@@ -1,16 +1,27 @@
 var app = angular.module('svgMusicLogosApp', ['ngRoute']);
 
-app.config( function($routeProvider, $locationProvider) {
-    'use strict';
+app.config(['$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) => {
+    let url = window.location.href;
+    url = url.replace(/\#\/.*/, '');
 
     $routeProvider
         .when('/', {
-            templateUrl: 'templates/logos.html',
+            templateUrl: `${url}templates/logos.html`,
+            controller: 'MainCtrl'
+        })
+
+        .when('/svg-music-logos', {
+            templateUrl: `${url}templates/logos.html`,
+            controller: 'MainCtrl'
+        })
+
+        .when('/svg-music-logos/:search', {
+            templateUrl: `${url}templates/logos.html`,
             controller: 'MainCtrl'
         })
 
         .when('/:search', {
-            templateUrl: 'templates/logos.html',
+            templateUrl: `${url}templates/logos.html`,
             controller: 'MainCtrl'
         })
 
@@ -18,12 +29,10 @@ app.config( function($routeProvider, $locationProvider) {
 
     // remove o # da url
     if(window.history && window.history.pushState){
-     // to know more about setting base URL visit: https://docs.angularjs.org/error/$location/nobase
-
-     // if you don't wish to set base URL then use this
+        // to know more about setting base URL visit: https://docs.angularjs.org/error/$location/nobase
         $locationProvider.html5Mode({
             enabled: true,
             requireBase: false
         });
     }
-});
+}]);
