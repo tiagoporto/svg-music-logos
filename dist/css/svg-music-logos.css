@@ -109,6 +109,15 @@
 .judas-priest--symbol .judas-priest__lettering path {
   fill: rgba(255,255,255,0);
 }
+.overdose--addicted-to-reality .overdose__shadow {
+  fill: #666;
+}
+.overdose--seculo-xx .overdose__outer-stroke {
+  fill: #fff;
+}
+.overdose--seculo-xx .overdose__lettering {
+  fill: #b91500;
+}
 .rammstein__symbol--stroke polygon {
   stroke-width: 3px;
   stroke: #000;

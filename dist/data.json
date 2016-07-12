@@ -332,6 +332,30 @@
       }
     ]
   },  {
+    "name": "Overdose",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "facebook.com/overdosebrazil",
+    "logos": [
+      {
+        "title": "Século XX",
+        "svg": "overdose_seculo-xx.svg",
+        "class": ""
+      }, {
+        "title": "Conscience",
+        "svg": "overdose_conscience.svg",
+        "class": ""
+      }, {
+        "title": "Addicted to Reality",
+        "svg": "overdose_addicted-to-reality.svg",
+        "class": ""
+      }, {
+        "title": "Progress of Decadence",
+        "svg": "overdose_progress-of-decadence.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "Led Zeppelin",
     "origin": "England",
     "style": "Rock",
