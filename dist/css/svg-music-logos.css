@@ -1,4 +1,4 @@
-/*!	SVG Music Logos v0.1.0
+/*!	SVG Music Logos
 *	https://github.com/tiagoporto/svg-music-logos
 *	Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
 *	Released under the MIT license
@@ -129,4 +129,15 @@
 }
 .the-who--symbol .the-who__text {
   fill: rgba(255,255,255,0);
+}
+.yes--yes .yes__letters-shadow,
+.yes--yes .yes__ballon-shadow {
+  fill: #0742ab;
+}
+.yes--yes .yes__ballon,
+.yes--yes .yes__letters {
+  fill: #ff331c;
+}
+.yes--big-generator .yes__letters {
+  fill: #fff;
 }

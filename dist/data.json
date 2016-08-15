@@ -990,8 +990,16 @@
     "link": "yesworld.com",
     "logos": [
       {
+        "title": "1969",
+        "svg": "yes_yes.svg",
+        "class": ""
+      }, {
         "title": "90125",
         "svg": "yes_90125.svg",
+        "class": ""
+      }, {
+        "title": "Big Generator",
+        "svg": "yes_big-generator.svg",
         "class": ""
       }
     ]
