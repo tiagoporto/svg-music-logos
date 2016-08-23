@@ -105,6 +105,50 @@
 .iron-maiden--eddie-the-book-of-souls .iron-maiden__face {
   fill: #fff;
 }
+.iron-maiden--legacy-of-the-beast-loading .iron-maiden__eddie {
+  -webkit-animation: iron-maiden-rotate 5s linear 0s infinite normal;
+          animation: iron-maiden-rotate 5s linear 0s infinite normal;
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+.iron-maiden--legacy-of-the-beast-loading .iron-maiden__external {
+  -webkit-animation: iron-maiden-rotate 6s linear 0s infinite normal;
+          animation: iron-maiden-rotate 6s linear 0s infinite normal;
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+.iron-maiden--legacy-of-the-beast-loading .iron-maiden__ring {
+  -webkit-animation: iron-maiden-rotate 5s linear 0s infinite reverse;
+          animation: iron-maiden-rotate 5s linear 0s infinite reverse;
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+.iron-maiden--legacy-of-the-beast-loading .iron-maiden__ring-minor {
+  fill: #535d6a;
+}
+@-webkit-keyframes iron-maiden-rotate {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes iron-maiden-rotate {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
 .judas-priest--symbol .judas-priest__lettering polygon,
 .judas-priest--symbol .judas-priest__lettering path {
   fill: rgba(255,255,255,0);
