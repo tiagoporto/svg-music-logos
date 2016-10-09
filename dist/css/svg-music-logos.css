@@ -153,6 +153,12 @@
 .judas-priest--symbol .judas-priest__lettering path {
   fill: rgba(255,255,255,0);
 }
+.metal-church__stroke {
+  fill: #fff;
+}
+.metal-church__text {
+  fill: #f00;
+}
 .overdose--addicted-to-reality .overdose__shadow {
   fill: #666;
 }
