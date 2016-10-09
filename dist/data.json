@@ -1416,6 +1416,18 @@
       }
     ]
   },  {
+    "name": "Metal Church",
+    "origin": "U.S.A.",
+    "style": "Heavy Metal",
+    "link": "metalchurchofficial.com",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "metal-church.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "Eminence",
     "origin": "Brazil",
     "style": "Brutal Metal",
