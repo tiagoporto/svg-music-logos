@@ -1428,6 +1428,18 @@
       }
     ]
   },  {
+    "name": "Audioslave",
+    "origin": "U.S.A.",
+    "style": "Alternative Rock",
+    "link": "facebook.com/Audioslave-165985866829751/",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "audioslave.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "Eminence",
     "origin": "Brazil",
     "style": "Brutal Metal",
