@@ -1431,11 +1431,35 @@
     "name": "Audioslave",
     "origin": "U.S.A.",
     "style": "Alternative Rock",
-    "link": "facebook.com/Audioslave-165985866829751/",
+    "link": "facebook.com/Audioslave-165985866829751",
     "logos": [
       {
         "title": "Official",
         "svg": "audioslave.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Type O NEgative",
+    "origin": "U.S.A.",
+    "style": "Doom Metal",
+    "link": "typeonegative.net",
+    "logos": [
+      {
+        "title": "Official",
+        "svg": "type-o-negative.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Prince",
+    "origin": "U.S.A.",
+    "style": "Funk / pop / R&B / rock",
+    "link": "en.wikipedia.org/wiki/Prince_(musician)",
+    "logos": [
+      {
+        "title": "Love Symbol",
+        "svg": "prince_love-symbol.svg",
         "class": ""
       }
     ]
