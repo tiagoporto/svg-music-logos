@@ -230,7 +230,7 @@
         "svg": "metallica.svg",
         "class": ""
       }, {
-        "title": "Snake",
+        "title": "The Snake",
         "svg": "metallica_snake.svg",
         "class": ""
       }, {
@@ -256,6 +256,14 @@
       }, {
         "title": "30 years",
         "svg": "metallica_30-years.svg",
+        "class": ""
+      }, {
+        "title": "Scary Guy Skullhawk",
+        "svg": "metallica_scary-guy-skullhawk.svg",
+        "class": ""
+      }, {
+        "title": "dehann",
+        "svg": "dehaan.svg",
         "class": ""
       }, {
         "title": "Hardwired…To Self-Destruct",
@@ -634,6 +642,10 @@
         "svg": "manowar.svg",
         "class": ""
       },{
+        "title": "Sign Of The Hammer",
+        "svg": "manowar_sigh-of-the-hammer.svg",
+        "class": ""
+      }, {
         "title": "Hammer",
         "svg": "manowar_hammer.svg",
         "class": ""
