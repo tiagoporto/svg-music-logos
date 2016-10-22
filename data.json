@@ -92,6 +92,18 @@
       }
     ]
   },  {
+    "name": "Weezer",
+    "origin": "U.S.A",
+    "style": "Alternative rock",
+    "link": "weezer.com",
+    "logos": [
+      {
+        "title": "Classical",
+        "svg": "weezer.svg",
+        "class": ""
+      }
+    ]
+  },  {
     "name": "Gorillaz",
     "origin": "England",
     "style": "Alternative Rock",
@@ -1030,6 +1042,10 @@
     "link": "van-halen.com",
     "logos": [
       {
+        "title": "II",
+        "svg": "van-halen_II.svg",
+        "class": ""
+      }, {
         "title": "5150",
         "svg": "van-halen_5150.svg",
         "class": ""
