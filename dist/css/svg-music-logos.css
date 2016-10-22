@@ -183,6 +183,19 @@
 .the-who--symbol .the-who__text {
   fill: rgba(255,255,255,0);
 }
+.van-halen--II__letters {
+  fill: #ececec;
+  stroke: #1d1d1b;
+  stroke-width: 0.1336;
+  stroke-miterlimit: 2.6131;
+}
+.van-halen--II__shadow {
+  fill: #b1b1b1;
+  stroke: #1d1d1b;
+  stroke-width: 0.1336;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 2.6131;
+}
 .yes--yes .yes__letters-shadow,
 .yes--yes .yes__ballon-shadow {
   fill: #0742ab;

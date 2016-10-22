@@ -1,0 +1,19 @@
+/*!	SVG Music Logos
+*	https://github.com/tiagoporto/svg-music-logos
+*	Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
+*	Released under the MIT license
+*/
+
+.van-halen--II__letters {
+  fill: #ececec;
+  stroke: #1d1d1b;
+  stroke-width: 0.1336;
+  stroke-miterlimit: 2.6131;
+}
+.van-halen--II__shadow {
+  fill: #b1b1b1;
+  stroke: #1d1d1b;
+  stroke-width: 0.1336;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 2.6131;
+}
