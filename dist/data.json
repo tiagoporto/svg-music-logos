@@ -1495,7 +1495,7 @@
     "name": "Eminence",
     "origin": "Brazil",
     "style": "Brutal Metal",
-    "link": "http://www.eminence.com.br/",
+    "link": "eminence.com.br",
     "logos": [
       {
         "title": "Chaotic System",
@@ -1520,6 +1520,34 @@
       }, {
         "title": "The Stalker",
         "svg": "eminence_the-stalker.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Deep Forest",
+    "origin": "France",
+    "style": "Eletronic",
+    "link": "deep-forest.fr",
+    "logos": [
+      {
+        "title": "Chaotic System",
+        "svg": "deep-forest_boheme.svg",
+        "class": ""
+      }, {
+        "title": "Symbol",
+        "svg": "deep-forest_symbol.svg",
+        "class": ""
+      }
+    ]
+  },  {
+    "name": "Emerson, Lake & Palmer",
+    "origin": "England",
+    "style": "Progressive Rock",
+    "link": "emersonlakeandpalmer.com",
+    "logos": [
+      {
+        "title": "Symbol",
+        "svg": "elp-symbol.svg",
         "class": ""
       }
     ]
