@@ -1,7 +1,7 @@
 {
-  "name": "your-project",
+  "name": "svg-music-logos",
   "version": "0.1.0",
-  "description": "Description of your project",
+  "description": "",
   "keywords": [],
   "homepage": "",
   "author": {
@@ -13,9 +13,12 @@
     "url": ""
   },
   "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
     "babel-preset-es2015": "^6.3.13",
     "browser-sync": "^2.10.0",
     "del": "^2.1.0",
+    "flexboxgrid": "^6.3.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-babel": "^6.1.2",
@@ -47,11 +50,13 @@
     "gulp-wrapper": "^1.0.0",
     "gulp.spritesmith": "^6.0.0",
     "jasmine-core": "^2.4.1",
+    "jquery-svg-to-inline": "^0.1.4",
     "karma": "^0.13.16",
     "karma-chrome-launcher": "^0.2.2",
     "karma-coverage": "^0.5.3",
     "karma-jasmine": "^0.3.6",
     "merge-stream": "^1.0.0",
+    "normalize.css": "^5.0.0",
     "rf": "0.0.1",
     "run-sequence": "^1.1.5",
     "vinyl-buffer": "^1.0.0",

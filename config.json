@@ -52,18 +52,22 @@
     ],
 
     "browserSync": {
-            "notify": false,
-            "logPrefix": "BrowserSync",
-            "server": {
-                    "baseDir": ["dist/"]
-            }
+      "notify": false,
+      "logPrefix": "BrowserSync",
+      "server": {
+              "baseDir": ["dist/", "./"]
+      },
+      "routes": {
+          "/bower_components": "bower_components",
+          "/node_modules": "node_modules"
+      }
     },
 
     "browserSyncBuild": {
-            "notify": false,
-            "logPrefix": "BrowserSync",
-            "server": {
-                    "baseDir": ["build/"]
-            }
+      "notify": false,
+      "logPrefix": "BrowserSync",
+      "server": {
+              "baseDir": ["build/"]
+      }
     }
 }
