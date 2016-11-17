@@ -6,9 +6,9 @@
 
 'use strict';
 
-var app = angular.module('svgMusicLogosApp', ['ngRoute']);
+angular.module('svgMusicLogosApp', ['ngRoute', 'main.controller']).config(['$routeProvider', function ($routeProvider) {
+    'use strict';
 
-app.config(['$routeProvider', function ($routeProvider) {
     var url = window.location.href;
     url = url.replace(/\#\/.*/, '');
 
@@ -25,12 +25,31 @@ app.config(['$routeProvider', function ($routeProvider) {
         templateUrl: url + 'templates/logos.html',
         controller: 'MainCtrl'
     }).otherwise({ redirectTo: '/' });
+}]).config(['$compileProvider', function ($compileProvider) {
+    'use strict';
+
+    $compileProvider.aHrefSanitizationWhitelist(/^\s*(|blob|):/);
 }]);
 
-app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', function ($scope, $http, $timeout, $routeParams, $location) {
+angular.module('main.controller', []).controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', function ($scope, $http, $timeout, $routeParams, $location, $window) {
     'use strict';
 
     $scope.search = $routeParams.search;
+
+    $scope.download = function (event, css) {
+        var svg = new XMLSerializer().serializeToString(event.target.previousElementSibling);
+
+        $http.get('css/logo/' + css).then(function (response) {
+            var css = '<style>\r\n' + response.data + '\r</style>';
+
+            var content = svg.replace(/\>/, '>\r\n' + css);
+
+            var blob = new Blob([content], { type: 'text/plain' });
+            var downloadURL = $window.URL || $window.webkitURL;
+
+            $scope.linkDownload = downloadURL.createObjectURL(blob);
+        });
+    };
 
     $scope.lastItem = function (index) {
         if (index) {
@@ -44,7 +63,6 @@ app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$loc
     url = url.replace(/\#\/.*/, '');
 
     $http.get(url + 'data.json').then(function (response) {
-
         var newResponse = [];
         var count = 0;
 
@@ -58,6 +76,7 @@ app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$loc
                 newResponse[count].link = band.link;
                 newResponse[count].origin = band.origin;
                 newResponse[count].style = band.style;
+                newResponse[count].css = band.css;
                 newResponse[count].logo = logo;
 
                 count += 1;

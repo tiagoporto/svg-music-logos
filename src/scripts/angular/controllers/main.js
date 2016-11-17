@@ -1,7 +1,25 @@
-app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location' , ($scope, $http, $timeout, $routeParams, $location) => {
+angular.module('main.controller', [])
+
+.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', ($scope, $http, $timeout, $routeParams, $location, $window) => {
     'use strict';
 
     $scope.search = $routeParams.search;
+
+    $scope.download = (event, css) => {
+        const svg = (new XMLSerializer()).serializeToString(event.target.previousElementSibling);
+
+        $http.get(`css/logo/${css}`)
+            .then( (response) => {
+                const css = `<style>\r\n${response.data}\r</style>`;
+
+                const content = svg.replace(/\>/, `>\r\n${css}`);
+
+                const blob = new Blob([content], { type: 'text/plain' });
+                const downloadURL = $window.URL || $window.webkitURL;
+
+                $scope.linkDownload = downloadURL.createObjectURL(blob);
+            });
+    };
 
     $scope.lastItem = index => {
         if(index){
@@ -16,7 +34,6 @@ app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$loc
 
     $http.get(`${url}data.json`)
         .then( response => {
-
             let newResponse = [];
             let count = 0;
 
@@ -30,6 +47,7 @@ app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$loc
                     newResponse[count].link = band.link;
                     newResponse[count].origin = band.origin;
                     newResponse[count].style = band.style;
+                    newResponse[count].css = band.css;
                     newResponse[count].logo = logo;
 
                     count += 1;

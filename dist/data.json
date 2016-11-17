@@ -1,6 +1,7 @@
 [
   {
     "name": "Iron Maiden",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "ironmaiden.com",
@@ -69,6 +70,7 @@
     ]
   }, {
     "name": "Aerosmith",
+    "css": "14-bis.css",
     "origin": "U.S.A",
     "style": "Hard Rock",
     "link": "aerosmith.com",
@@ -81,6 +83,7 @@
     ]
   },  {
     "name": "Marcelo D2",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "samba Rap",
     "link": "marcelod2.com.br",
@@ -93,6 +96,7 @@
     ]
   },  {
     "name": "Weezer",
+    "css": "14-bis.css",
     "origin": "U.S.A",
     "style": "Alternative rock",
     "link": "weezer.com",
@@ -105,6 +109,7 @@
     ]
   },  {
     "name": "Gorillaz",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Alternative Rock",
     "link": "gorillaz.com",
@@ -117,6 +122,7 @@
     ]
   },  {
     "name": "David Gilmour",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Progressive Rock",
     "link": "davidgilmour.com",
@@ -129,6 +135,7 @@
     ]
   },  {
     "name": "Roger Waters",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Progressive Rock",
     "link": "rogerwaters.com",
@@ -141,6 +148,7 @@
     ]
   },  {
     "name": "Chickenfoot",
+    "css": "14-bis.css",
     "origin": "Mexico",
     "style": "Hard Rock",
     "link": "chickenfoot.us",
@@ -161,6 +169,7 @@
     ]
   },  {
     "name": "Savatage",
+    "css": "14-bis.css",
     "origin": "U.S.A",
     "style": "Heavy Metal",
     "link": "savatage.com",
@@ -173,6 +182,7 @@
     ]
   },  {
     "name": "Kreator",
+    "css": "14-bis.css",
     "origin": "Germany",
     "style": "Thrash Metal",
     "link": "kreator-terrorzone.de",
@@ -185,6 +195,7 @@
     ]
   },  {
     "name": "Rainbow",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "facebook.com/Rainbow-189246591087656/",
@@ -197,6 +208,7 @@
     ]
   },  {
     "name": "Alice Cooper",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Hard Rock",
     "link": "alicecooper.com",
@@ -209,6 +221,7 @@
     ]
   },  {
     "name": "Blur",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Alternative Rock",
     "link": "blur.co.uk",
@@ -221,6 +234,7 @@
     ]
   },  {
     "name": "Arctic Monkeys",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Indie Rock",
     "link": "arcticmonkeys.com",
@@ -233,6 +247,7 @@
     ]
   },  {
     "name": "Metallica",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Thrash Metal",
     "link": "metallica.com",
@@ -285,6 +300,7 @@
     ]
   },  {
   "name": "AC⚡DC",
+  "css": "14-bis.css",
   "origin": "Australia",
   "style": "Hard Rock",
   "link": "acdc.com",
@@ -317,6 +333,7 @@
   ]
   },  {
     "name": "Rammstein",
+    "css": "14-bis.css",
     "origin": "Germany",
     "style": "Industrial Metal",
     "link": "rammstein.com",
@@ -349,6 +366,7 @@
     ]
   },  {
     "name": "The Beatles",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Rock",
     "link": "thebeatles.com",
@@ -361,6 +379,7 @@
     ]
   },  {
     "name": "Overdose",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "Heavy Metal",
     "link": "facebook.com/overdosebrazil",
@@ -385,6 +404,7 @@
     ]
   },  {
     "name": "Led Zeppelin",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Rock",
     "link": "ledzeppelin.com",
@@ -409,6 +429,7 @@
     ]
   },  {
     "name": "U2",
+    "css": "14-bis.css",
     "origin": "Ireland",
     "style": "Rock",
     "link": "u2.com",
@@ -433,6 +454,7 @@
     ]
   },  {
     "name": "Rush",
+    "css": "14-bis.css",
     "origin": "Canada",
     "style": "Progressive rock",
     "link": "rush.com",
@@ -445,6 +467,7 @@
     ]
   },  {
     "name": "Cavalera Conspiracy",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Groove Metal",
     "link": "cavaleraconspiracy.com",
@@ -457,6 +480,7 @@
     ]
   },  {
     "name": "Pink Floyd",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Progressive Rock",
     "link": "pinkfloyd.com",
@@ -473,6 +497,7 @@
     ]
   },  {
     "name": "Wolfmother",
+    "css": "14-bis.css",
     "origin": "Australia",
     "style": "Hard Rock",
     "link": "wolfmother.com",
@@ -485,6 +510,7 @@
     ]
   },  {
     "name": "Coldplay",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Alternative Rock",
     "link": "coldplay.com",
@@ -497,6 +523,7 @@
     ]
   },  {
     "name": "Pantera",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Groove Metal",
     "link": "pantera.com",
@@ -513,6 +540,7 @@
     ]
   },  {
     "name": "Daft Punk",
+    "css": "14-bis.css",
     "origin": "France",
     "style": "Eletronic",
     "link": "daftpunk.com",
@@ -525,6 +553,7 @@
     ]
   },  {
     "name": "Sepultura",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "Groove Metal",
     "link": "sepultura.com",
@@ -565,6 +594,7 @@
     ]
   },  {
     "name": "Black Sabbath",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "blacksabbath.com",
@@ -589,6 +619,7 @@
     ]
   },  {
     "name": "KISS",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Hard Rock",
     "link": "kissonline.com",
@@ -605,6 +636,7 @@
     ]
   },  {
     "name": "Faith No More",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Alternative Metal",
     "link": "fnm.com",
@@ -617,6 +649,7 @@
     ]
   },  {
     "name": "Bruce Dickinson",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "screamforme.com",
@@ -629,6 +662,7 @@
     ]
   },  {
     "name": "Nirvana",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Grunge",
     "link": "nirvana.com",
@@ -645,6 +679,7 @@
     ]
   },  {
     "name": "Manowar",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Heavy Metal",
     "link": "manowar.com",
@@ -665,6 +700,7 @@
     ]
   },  {
     "name": "Queen",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Rock",
     "link": "queenonline.com",
@@ -677,6 +713,7 @@
     ]
   },  {
     "name": "Blind Guardian",
+    "css": "14-bis.css",
     "origin": "Germany",
     "style": "Power Metal",
     "link": "blind-guardian.com",
@@ -689,6 +726,7 @@
     ]
   },  {
     "name": "Johnny Cash",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Country",
     "link": "johnnycash.com",
@@ -701,6 +739,7 @@
     ]
   },  {
     "name": "Sex Pistols",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Punk Rock",
     "link": "sexpistolsofficial.com",
@@ -713,6 +752,7 @@
     ]
   },  {
     "name": "Ghost",
+    "css": "14-bis.css",
     "origin": "Sweden",
     "style": "Heavy Rock",
     "link": "ghost-official.com",
@@ -725,6 +765,7 @@
     ]
   },  {
     "name": "Judas Priest",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "judaspriest.com",
@@ -741,6 +782,7 @@
     ]
   },  {
     "name": "The Doors",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Hard Rock",
     "link": "thedoors.com",
@@ -753,6 +795,7 @@
     ]
   },  {
     "name": "Dio",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "ronniejamesdio.com",
@@ -765,6 +808,7 @@
     ]
   },  {
     "name": "KoRn",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Nu Metal",
     "link": "korn.com",
@@ -777,6 +821,7 @@
     ]
   },  {
     "name": "Nine Inch Nails",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Alternative Rock",
     "link": "nin.com",
@@ -789,6 +834,7 @@
     ]
   },  {
     "name": "System Of A Down",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Nu Metal",
     "link": "systemofadown.com",
@@ -801,6 +847,7 @@
     ]
   },  {
     "name": "Avenged Sevenfold",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Heavy Metal",
     "link": "avengedsevenfold.com",
@@ -813,6 +860,7 @@
     ]
   },  {
     "name": "Anthrax",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Thrash Metal",
     "link": "anthrax.com",
@@ -825,6 +873,7 @@
     ]
   },  {
     "name": "King Diamond",
+    "css": "14-bis.css",
     "origin": "Denmark",
     "style": "Heavy Metal",
     "link": "kingdiamondcoven.com",
@@ -837,6 +886,7 @@
     ]
   },  {
     "name": "Gojira",
+    "css": "14-bis.css",
     "origin": "France",
     "style": "Death Metal",
     "link": "gojira-music.com",
@@ -849,6 +899,7 @@
     ]
   },  {
     "name": "Deep Purple",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Hard Rock",
     "link": "deeppurple.com",
@@ -865,6 +916,7 @@
     ]
   },  {
     "name": "The Who",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Hard Rock",
     "link": "thewho.com",
@@ -885,6 +937,7 @@
     ]
   },  {
     "name": "Death",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Death Metal",
     "link": "emptywords.org",
@@ -897,6 +950,7 @@
     ]
   },  {
     "name": "Diamond Head",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "diamond-head.net",
@@ -909,6 +963,7 @@
     ]
   },  {
     "name": "Dream Theather",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Progressive metal",
     "link": "dreamtheater.net",
@@ -925,6 +980,7 @@
     ]
  },  {
     "name": "Megadeth",
+    "css": "14-bis.css",
     "origin": "USA",
     "style": "Thrash Metal",
     "link": "megadeth.com",
@@ -941,6 +997,7 @@
     ]
  },  {
     "name": "Ramones",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Punk Rock",
     "link": "ramones.com",
@@ -957,6 +1014,7 @@
     ]
   },  {
     "name": "Almah",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "Heavy Metal",
     "link": "almah.com.br",
@@ -969,6 +1027,7 @@
     ]
   },  {
     "name": "Samael",
+    "css": "14-bis.css",
     "origin": "Switzerland",
     "style": "Black/Industrial Metal",
     "link": "samael.info",
@@ -981,6 +1040,7 @@
     ]
   },  {
     "name": "Whitesnake",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Hard Rock",
     "link": "whitesnake.com",
@@ -993,6 +1053,7 @@
     ]
   },  {
     "name": "Wu-Tang Clan",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Hip Hop",
     "link": "wutang-corp.com",
@@ -1005,6 +1066,7 @@
     ]
   },  {
     "name": "Twisted Syster",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Glam Metal",
     "link": "twistedsister.com",
@@ -1017,6 +1079,7 @@
     ]
   },  {
     "name": "Yes",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Progressive Rock",
     "link": "yesworld.com",
@@ -1037,6 +1100,7 @@
     ]
   },  {
     "name": "Van Halen",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Hard Rock",
     "link": "van-halen.com",
@@ -1053,6 +1117,7 @@
     ]
   },  {
     "name": "Trivium",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Heavy Metal",
     "link": "trivium.org",
@@ -1065,6 +1130,7 @@
     ]
   },  {
     "name": "Tianastácia",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "Hard Rock",
     "link": "tianastacia.com.br",
@@ -1081,6 +1147,7 @@
     ]
   },  {
     "name": "Thin Lizzy",
+    "css": "14-bis.css",
     "origin": "Ireland",
     "style": "Hard Rock",
     "link": "thinlizzy.org",
@@ -1093,6 +1160,7 @@
     ]
   },  {
     "name": "Therion",
+    "css": "14-bis.css",
     "origin": "Swedish",
     "style": "Symphonic Metal",
     "link": "therion.se",
@@ -1105,6 +1173,7 @@
     ]
   },  {
     "name": "X Japan",
+    "css": "14-bis.css",
     "origin": "Japan",
     "style": "Heavy Metal",
     "link": "xjapanmusic.com",
@@ -1117,6 +1186,7 @@
     ]
   },  {
     "name": "14 Bis",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "MPB",
     "link": "14bis.com.br",
@@ -1129,6 +1199,7 @@
     ]
   },  {
     "name": "Alice in Chains",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Alternative Rock",
     "link": "aliceinchains.com",
@@ -1141,6 +1212,7 @@
     ]
   },  {
     "name": "Doro Pesch",
+    "css": "14-bis.css",
     "origin": "Germany",
     "style": "Heavy Metal",
     "link": "doropesch.com",
@@ -1153,6 +1225,7 @@
     ]
   },  {
     "name": "Dokken",
+    "css": "14-bis.css",
     "origin": "U.S.A",
     "style": "Heavy Metal",
     "link": "dokken.net",
@@ -1165,6 +1238,7 @@
     ]
   },  {
     "name": "Dr. Sin",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "Heavy Metal",
     "link": "drsinofficial.com",
@@ -1177,6 +1251,7 @@
     ]
   },  {
     "name": "Drowned",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "Death Metal",
     "link": "www.drowned.com.br",
@@ -1189,6 +1264,7 @@
     ]
   },  {
     "name": "50 Cent",
+    "css": "50-cent.css",
     "origin": "U.S.A.",
     "style": "Hip Hop",
     "link": "50cent.com",
@@ -1201,6 +1277,7 @@
     ]
   },  {
     "name": "Baby Metal",
+    "css": "14-bis.css",
     "origin": "Japan",
     "style": "Heavy Metal",
     "link": "babymetal.jp",
@@ -1213,6 +1290,7 @@
     ]
   },  {
     "name": "Bon Jovi",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Hard Rock",
     "link": "bonjovi.com",
@@ -1225,6 +1303,7 @@
     ]
   },  {
     "name": "Edguy",
+    "css": "14-bis.css",
     "origin": "Germany",
     "style": "Power Metal",
     "link": "edguy.net",
@@ -1237,6 +1316,7 @@
     ]
   },  {
     "name": "Eddie Van Halen",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Hard Rock",
     "link": "evhgear.com",
@@ -1249,6 +1329,7 @@
     ]
   },  {
     "name": "Gammaray",
+    "css": "14-bis.css",
     "origin": "Germany",
     "style": "Power Metal",
     "link": "gammaray.org",
@@ -1261,6 +1342,7 @@
     ]
   },  {
     "name": "The Police",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Reggae Rock",
     "link": "thepolice.com",
@@ -1273,6 +1355,7 @@
     ]
   },  {
     "name": "Rage",
+    "css": "14-bis.css",
     "origin": "Germany",
     "style": "Heavy Metal",
     "link": "rage-official.com",
@@ -1285,6 +1368,7 @@
     ]
   },  {
     "name": "Abba",
+    "css": "14-bis.css",
     "origin": "Sweden",
     "style": "Disco",
     "link": "abbasite.com",
@@ -1297,6 +1381,7 @@
     ]
   },  {
     "name": "Tiësto",
+    "css": "14-bis.css",
     "origin": "Netherlands",
     "style": "Eletronic",
     "link": "tiesto.com",
@@ -1309,6 +1394,7 @@
     ]
   },  {
     "name": "The Cure",
+    "css": "14-bis.css",
     "origin": "English",
     "style": "Alternative Rock",
     "link": "thecure.com",
@@ -1321,6 +1407,7 @@
     ]
   },  {
     "name": "Papa Roach",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Alternative Rock",
     "link": "paparoach.com",
@@ -1333,6 +1420,7 @@
     ]
   },  {
     "name": "Ozzy Osbourne",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "ozzy.com",
@@ -1345,6 +1433,7 @@
     ]
   },  {
     "name": "David Guetta",
+    "css": "14-bis.css",
     "origin": "France",
     "style": "Electro",
     "link": "davidguetta.com",
@@ -1357,6 +1446,7 @@
     ]
   },  {
     "name": "Enya",
+    "css": "14-bis.css",
     "origin": "Ireland",
     "style": "New Age",
     "link": "enya.com",
@@ -1369,6 +1459,7 @@
     ]
   },  {
     "name": "Exciter",
+    "css": "14-bis.css",
     "origin": "Canada",
     "style": "Speed Metal",
     "link": "excitermetal.com",
@@ -1381,6 +1472,7 @@
     ]
   },  {
     "name": "Oasis",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Alternative Rock",
     "link": "oasisinet.com",
@@ -1393,6 +1485,7 @@
     ]
   },  {
     "name": "Muse",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Alternative Rock",
     "link": "muse.mu",
@@ -1405,6 +1498,7 @@
     ]
   },  {
     "name": "The Big 4 - Metallica, Slayer, Megadeth, Anthrax",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Thrash Metal",
     "link": "en.wikipedia.org/wiki/The_Big_Four:_Live_from_Sofia,_Bulgaria",
@@ -1417,6 +1511,7 @@
     ]
   },  {
     "name": "Guns N' Roses",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Hard Rock",
     "link": "gunsnroses.com",
@@ -1433,6 +1528,7 @@
     ]
   },  {
     "name": "Grave Digger",
+    "css": "14-bis.css",
     "origin": "Germany",
     "style": "Heavy Metal",
     "link": "grave-digger.de",
@@ -1445,6 +1541,7 @@
     ]
   },  {
     "name": "Metal Church",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Heavy Metal",
     "link": "metalchurchofficial.com",
@@ -1457,6 +1554,7 @@
     ]
   },  {
     "name": "Audioslave",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Alternative Rock",
     "link": "facebook.com/Audioslave-165985866829751",
@@ -1469,6 +1567,7 @@
     ]
   },  {
     "name": "Type O NEgative",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Doom Metal",
     "link": "typeonegative.net",
@@ -1481,6 +1580,7 @@
     ]
   },  {
     "name": "Prince",
+    "css": "14-bis.css",
     "origin": "U.S.A.",
     "style": "Funk / pop / R&B / rock",
     "link": "en.wikipedia.org/wiki/Prince_(musician)",
@@ -1493,6 +1593,7 @@
     ]
   },  {
     "name": "Eminence",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "Brutal Metal",
     "link": "eminence.com.br",
@@ -1525,6 +1626,7 @@
     ]
   },  {
     "name": "Deep Forest",
+    "css": "14-bis.css",
     "origin": "France",
     "style": "Eletronic",
     "link": "deep-forest.fr",
@@ -1541,6 +1643,7 @@
     ]
   },  {
     "name": "Emerson, Lake & Palmer",
+    "css": "14-bis.css",
     "origin": "England",
     "style": "Progressive Rock",
     "link": "emersonlakeandpalmer.com",
