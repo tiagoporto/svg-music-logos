@@ -343,7 +343,6 @@ gulp.task('copy', function () {
     var allFiles = gulp.src([
                             '!' + basePaths.bower + '{,/**}',
                             basePaths.dest + '**/*',
-                            '!' + paths.styles.dest + '**/*',
                             '!' + paths.scripts.dest + '**/*',
                             '!' + basePaths.dest + '**/*.{html,php}'
                         ], {dot: true})

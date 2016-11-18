@@ -34,6 +34,8 @@ angular.module('svgMusicLogosApp', ['ngRoute', 'main.controller']).config(['$rou
 angular.module('main.controller', ['ngFileSaver']).controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', 'FileSaver', 'Blob', function ($scope, $http, $timeout, $routeParams, $location, $window, FileSaver, Blob) {
     'use strict';
 
+    var url = $location.absUrl();
+    url = url.replace(/\#\/.*/, '');
     $scope.search = $routeParams.search;
 
     $scope.download = function (event, css, fileName) {
@@ -48,7 +50,7 @@ angular.module('main.controller', ['ngFileSaver']).controller('MainCtrl', ['$sco
         };
 
         if (css) {
-            $http.get('css/logo/' + css).then(function (response) {
+            $http.get(url + 'css/logo/' + css).then(function (response) {
                 var cssResponse = '<style>\r\n' + response.data + '\r</style>';
                 var content = svg.replace(/\>/, '>\r\n' + cssResponse);
 
@@ -68,9 +70,6 @@ angular.module('main.controller', ['ngFileSaver']).controller('MainCtrl', ['$sco
             });
         }
     };
-
-    var url = $location.absUrl();
-    url = url.replace(/\#\/.*/, '');
 
     $http.get(url + 'data.json').then(function (response) {
         var newResponse = [];
