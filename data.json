@@ -1,6 +1,7 @@
 [
   {
     "name": "Iron Maiden",
+    "css": "iron-maiden.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "ironmaiden.com",
@@ -141,6 +142,7 @@
     ]
   },  {
     "name": "Chickenfoot",
+    "css": "chickenfoot.css",
     "origin": "Mexico",
     "style": "Hard Rock",
     "link": "chickenfoot.us",
@@ -285,6 +287,7 @@
     ]
   },  {
   "name": "AC⚡DC",
+  "css": "acdc.css",
   "origin": "Australia",
   "style": "Hard Rock",
   "link": "acdc.com",
@@ -317,6 +320,7 @@
   ]
   },  {
     "name": "Rammstein",
+    "css": "rammstein.css",
     "origin": "Germany",
     "style": "Industrial Metal",
     "link": "rammstein.com",
@@ -361,6 +365,7 @@
     ]
   },  {
     "name": "Overdose",
+    "css": "overdose.css",
     "origin": "Brazil",
     "style": "Heavy Metal",
     "link": "facebook.com/overdosebrazil",
@@ -525,6 +530,7 @@
     ]
   },  {
     "name": "Sepultura",
+    "css": "sepultura.css",
     "origin": "Brazil",
     "style": "Groove Metal",
     "link": "sepultura.com",
@@ -725,6 +731,7 @@
     ]
   },  {
     "name": "Judas Priest",
+    "css": "judas-priest.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "judaspriest.com",
@@ -1017,6 +1024,7 @@
     ]
   },  {
     "name": "Yes",
+    "css": "yes.css",
     "origin": "England",
     "style": "Progressive Rock",
     "link": "yesworld.com",
@@ -1037,6 +1045,7 @@
     ]
   },  {
     "name": "Van Halen",
+    "css": "van-halen.css",
     "origin": "U.S.A.",
     "style": "Hard Rock",
     "link": "van-halen.com",
@@ -1117,6 +1126,7 @@
     ]
   },  {
     "name": "14 Bis",
+    "css": "14-bis.css",
     "origin": "Brazil",
     "style": "MPB",
     "link": "14bis.com.br",
@@ -1189,6 +1199,7 @@
     ]
   },  {
     "name": "50 Cent",
+    "css": "50-cent.css",
     "origin": "U.S.A.",
     "style": "Hip Hop",
     "link": "50cent.com",
@@ -1213,6 +1224,7 @@
     ]
   },  {
     "name": "Bon Jovi",
+    "css": "bon-jovi.css",
     "origin": "U.S.A.",
     "style": "Hard Rock",
     "link": "bonjovi.com",
@@ -1417,6 +1429,7 @@
     ]
   },  {
     "name": "Guns N' Roses",
+    "css": "guns-n-roses.css",
     "origin": "U.S.A.",
     "style": "Hard Rock",
     "link": "gunsnroses.com",
@@ -1445,6 +1458,7 @@
     ]
   },  {
     "name": "Metal Church",
+    "css": "metal-church.css",
     "origin": "U.S.A.",
     "style": "Heavy Metal",
     "link": "metalchurchofficial.com",
@@ -1457,6 +1471,7 @@
     ]
   },  {
     "name": "Audioslave",
+    "css": "audioslave.css",
     "origin": "U.S.A.",
     "style": "Alternative Rock",
     "link": "facebook.com/Audioslave-165985866829751",
@@ -1468,7 +1483,7 @@
       }
     ]
   },  {
-    "name": "Type O NEgative",
+    "name": "Type O Negative",
     "origin": "U.S.A.",
     "style": "Doom Metal",
     "link": "typeonegative.net",
