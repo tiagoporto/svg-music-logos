@@ -57,6 +57,8 @@ angular.module('main.controller', ['ngFileSaver']).controller('MainCtrl', ['$sco
         } else {
             save(svg);
         }
+
+        typeof ga === 'function' && ga('send', 'event', 'download', 'click', fileName);
     };
 
     $scope.lastItem = function (index) {
