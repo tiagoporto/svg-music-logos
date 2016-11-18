@@ -1,0 +1,26 @@
+/*!	SVG Music Logos
+*	https://github.com/tiagoporto/svg-music-logos
+*	Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
+*	Released under the MIT license
+*/
+
+.sepultura--coat-of-arms .sepultura__title,
+.sepultura--coat-of-arms .sepultura__year,
+.sepultura--coat-of-arms .sepultura__gores {
+  fill: #f37220;
+}
+.sepultura--coat-of-arms .sepultura__background-shield {
+  stroke: #f37220;
+  stroke-width: 1.7204;
+  stroke-miterlimit: 10;
+}
+.sepultura--coat-of-arms .sepultura__shield {
+  fill: #c42026;
+}
+.sepultura--coat-of-arms .sepultura__symbol__front,
+.sepultura--coat-of-arms .sepultura__hands__light {
+  fill: #fff;
+}
+.sepultura--triangle .sepultura__field {
+  fill: #ff8e1e;
+}
