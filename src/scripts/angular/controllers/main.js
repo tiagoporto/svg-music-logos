@@ -1,24 +1,30 @@
-angular.module('main.controller', [])
+angular.module('main.controller', ['ngFileSaver'])
 
-.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', ($scope, $http, $timeout, $routeParams, $location, $window) => {
+.controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', 'FileSaver', 'Blob', ($scope, $http, $timeout, $routeParams, $location, $window, FileSaver, Blob) => {
     'use strict';
 
     $scope.search = $routeParams.search;
 
-    $scope.download = (event, css) => {
+    $scope.download = (event, css, fileName) => {
         const svg = (new XMLSerializer()).serializeToString(event.target.previousElementSibling);
 
-        $http.get(`css/logo/${css}`)
-            .then( (response) => {
-                const css = `<style>\r\n${response.data}\r</style>`;
+        const save = (content, file = fileName) => {
+            content = new Blob([content], { type: 'text/plain' });
 
-                const content = svg.replace(/\>/, `>\r\n${css}`);
+            FileSaver.saveAs(content, file);
+        };
 
-                const blob = new Blob([content], { type: 'text/plain' });
-                const downloadURL = $window.URL || $window.webkitURL;
+        if (css) {
+            $http.get(`css/logo/${css}`)
+                .then( (response) => {
+                    const cssResponse = `<style>\r\n${response.data}\r</style>`;
+                    const content = svg.replace(/\>/, `>\r\n${cssResponse}`);
 
-                $scope.linkDownload = downloadURL.createObjectURL(blob);
-            });
+                    save(content);
+                });
+        } else {
+            save(svg);
+        }
     };
 
     $scope.lastItem = index => {

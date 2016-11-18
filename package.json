@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "angular": "^1.5.8",
+    "angular-file-saver": "^1.1.2",
     "angular-route": "^1.5.8",
     "babel-preset-es2015": "^6.3.13",
     "browser-sync": "^2.10.0",

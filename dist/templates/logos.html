@@ -14,8 +14,7 @@
 
             <img ng-src="logos/{{band.logo.svg}}" class="logo {{band.logo.class}}">
 
-            <a ng-href="{{linkDownload}}" ng-click="download($event, band.css)" download="{{band.logo.svg}}">Download svg</a>
-            <!-- <a ng-click="download($event, band.css)">Download svg</a> -->
+            <button ng-click="download($event, band.css, band.logo.svg)">Download svg</butotn>
         </div>
     </div>
 </div>

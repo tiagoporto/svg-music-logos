@@ -31,24 +31,32 @@ angular.module('svgMusicLogosApp', ['ngRoute', 'main.controller']).config(['$rou
     $compileProvider.aHrefSanitizationWhitelist(/^\s*(|blob|):/);
 }]);
 
-angular.module('main.controller', []).controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', function ($scope, $http, $timeout, $routeParams, $location, $window) {
+angular.module('main.controller', ['ngFileSaver']).controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', 'FileSaver', 'Blob', function ($scope, $http, $timeout, $routeParams, $location, $window, FileSaver, Blob) {
     'use strict';
 
     $scope.search = $routeParams.search;
 
-    $scope.download = function (event, css) {
+    $scope.download = function (event, css, fileName) {
         var svg = new XMLSerializer().serializeToString(event.target.previousElementSibling);
 
-        $http.get('css/logo/' + css).then(function (response) {
-            var css = '<style>\r\n' + response.data + '\r</style>';
+        var save = function save(content) {
+            var file = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : fileName;
 
-            var content = svg.replace(/\>/, '>\r\n' + css);
+            content = new Blob([content], { type: 'text/plain' });
 
-            var blob = new Blob([content], { type: 'text/plain' });
-            var downloadURL = $window.URL || $window.webkitURL;
+            FileSaver.saveAs(content, file);
+        };
 
-            $scope.linkDownload = downloadURL.createObjectURL(blob);
-        });
+        if (css) {
+            $http.get('css/logo/' + css).then(function (response) {
+                var cssResponse = '<style>\r\n' + response.data + '\r</style>';
+                var content = svg.replace(/\>/, '>\r\n' + cssResponse);
+
+                save(content);
+            });
+        } else {
+            save(svg);
+        }
     };
 
     $scope.lastItem = function (index) {
