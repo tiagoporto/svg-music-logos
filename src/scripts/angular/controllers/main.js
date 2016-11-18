@@ -3,6 +3,8 @@ angular.module('main.controller', ['ngFileSaver'])
 .controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', 'FileSaver', 'Blob', ($scope, $http, $timeout, $routeParams, $location, $window, FileSaver, Blob) => {
     'use strict';
 
+    let url = $location.absUrl();
+    url = url.replace(/\#\/.*/, '');
     $scope.search = $routeParams.search;
 
     $scope.download = (event, css, fileName) => {
@@ -15,8 +17,8 @@ angular.module('main.controller', ['ngFileSaver'])
         };
 
         if (css) {
-            $http.get(`css/logo/${css}`)
-                .then( (response) => {
+            $http.get(`${url}css/logo/${css}`)
+                .then(response => {
                     const cssResponse = `<style>\r\n${response.data}\r</style>`;
                     const content = svg.replace(/\>/, `>\r\n${cssResponse}`);
 
@@ -37,8 +39,6 @@ angular.module('main.controller', ['ngFileSaver'])
         }
     };
 
-    let url = $location.absUrl();
-    url = url.replace(/\#\/.*/, '');
 
     $http.get(`${url}data.json`)
         .then( response => {
