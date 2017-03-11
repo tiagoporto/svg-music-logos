@@ -4,8 +4,9 @@
 *	Released under the MIT license
 */
 
-jQuery(document).ready(function($) {
-
-// JS
-"use strict";
-});
+.megadeth--rust-in-peace-nuclear-symbol__triangles {
+  fill: #faec02;
+}
+.megadeth--nuclear-symbol__symbol {
+  fill: #faec02;
+}
