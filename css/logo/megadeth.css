@@ -3,4 +3,10 @@
 *	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
 *	Released under the MIT license
 */
-.judas-priest--symbol .judas-priest__lettering path,.judas-priest--symbol .judas-priest__lettering polygon{fill:rgba(255,255,255,0)}
+
+.megadeth--rust-in-peace-nuclear-symbol__triangles {
+  fill: #faec02;
+}
+.megadeth--nuclear-symbol__symbol {
+  fill: #faec02;
+}
