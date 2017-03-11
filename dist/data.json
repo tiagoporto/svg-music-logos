@@ -8,12 +8,10 @@
     "logos": [
       {
         "title": "The soundhouse Tapes",
-        "svg": "iron-maiden_the-soundhouse-tapes.svg",
-        "class": ""
+        "svg": "iron-maiden_the-soundhouse-tapes.svg"
       }, {
         "title": "Classical",
-        "svg": "iron-maiden.svg",
-        "class": ""
+        "svg": "iron-maiden.svg"
       }, {
         "title": "Classical",
         "svg": "iron-maiden.svg",
@@ -32,8 +30,7 @@
         "class": "iron-maiden--somewhere-in-time"
       }, {
         "title": "Live At Donington",
-        "svg": "iron-maiden_live-at-donington.svg",
-        "class": ""
+        "svg": "iron-maiden_live-at-donington.svg"
       }, {
         "title": "Sliced",
         "svg": "iron-maiden_sliced.svg",
@@ -44,32 +41,25 @@
         "class": "iron-maiden--sliced-stroke"
       }, {
         "title": "Eddie - Brave New World",
-        "svg": "iron-maiden_eddie-brave-new-world.svg",
-        "class": ""
+        "svg": "iron-maiden_eddie-brave-new-world.svg"
       }, {
         "title": "Eddie - A Matter of Life and Death",
-        "svg": "iron-maiden_eddie-a-matter-of-life-and-death.svg",
-        "class": ""
+        "svg": "iron-maiden_eddie-a-matter-of-life-and-death.svg"
       }, {
         "title": "Eddie - Formula One",
-        "svg": "iron-maiden_eddie-formula-one.svg",
-        "class": ""
+        "svg": "iron-maiden_eddie-formula-one.svg"
       }, {
         "title": "Eddie - The Final Frontier",
-        "svg": "iron-maiden_eddie-the-final-frontier.svg",
-        "class": ""
+        "svg": "iron-maiden_eddie-the-final-frontier.svg"
       }, {
         "title": "The Book Of Souls",
-        "svg": "iron-maiden_the-book-of-souls.svg",
-        "class": ""
+        "svg": "iron-maiden_the-book-of-souls.svg"
       }, {
         "title": "Eddie - The Book Of Souls",
-        "svg": "iron-maiden_eddie-the-book-of-souls.svg",
-        "class": ""
+        "svg": "iron-maiden_eddie-the-book-of-souls.svg"
       }, {
         "title": "Legacy Of The Beast - Loading",
-        "svg": "iron-maiden_legacy-of-the-beast-loading.svg",
-        "class": ""
+        "svg": "iron-maiden_legacy-of-the-beast-loading.svg"
       }
     ]
   }, {
@@ -80,8 +70,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "aerosmith.svg",
-        "class": ""
+        "svg": "aerosmith.svg"
       }
     ]
   },  {
@@ -92,8 +81,7 @@
     "logos": [
       {
         "title": "A procura da batida perfeita",
-        "svg": "marcelo-d2.svg",
-        "class": ""
+        "svg": "marcelo-d2.svg"
       }
     ]
   },  {
@@ -104,8 +92,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "weezer.svg",
-        "class": ""
+        "svg": "weezer.svg"
       }
     ]
   },  {
@@ -116,8 +103,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "gorillaz.svg",
-        "class": ""
+        "svg": "gorillaz.svg"
       }
     ]
   },  {
@@ -128,8 +114,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "david-gilmour.svg",
-        "class": ""
+        "svg": "david-gilmour.svg"
       }
     ]
   },  {
@@ -140,8 +125,7 @@
     "logos": [
       {
         "title": "The Wall Live",
-        "svg": "roger-waters_the-wall-live.svg",
-        "class": ""
+        "svg": "roger-waters_the-wall-live.svg"
       }
     ]
   },  {
@@ -153,16 +137,13 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "chickenfoot.svg",
-        "class": ""
+        "svg": "chickenfoot.svg"
       }, {
         "title": "III",
-        "svg": "chickenfoot_III.svg",
-        "class": ""
+        "svg": "chickenfoot_III.svg"
       }, {
         "title": "Dirty",
-        "svg": "chickenfoot_dirty.svg",
-        "class": ""
+        "svg": "chickenfoot_dirty.svg"
       }
     ]
   },  {
@@ -173,8 +154,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "savatage.svg",
-        "class": ""
+        "svg": "savatage.svg"
       }
     ]
   },  {
@@ -185,8 +165,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "kreator.svg",
-        "class": ""
+        "svg": "kreator.svg"
       }
     ]
   },  {
@@ -197,8 +176,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "rainbow.svg",
-        "class": ""
+        "svg": "rainbow.svg"
       }
     ]
   },  {
@@ -209,8 +187,7 @@
     "logos": [
       {
         "title": "Constrictor",
-        "svg": "alice-cooper_constrictor.svg",
-        "class": ""
+        "svg": "alice-cooper_constrictor.svg"
       }
     ]
   },  {
@@ -221,8 +198,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "blur.svg",
-        "class": ""
+        "svg": "blur.svg"
       }
     ]
   },  {
@@ -233,8 +209,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "arctic-monkeys.svg",
-        "class": ""
+        "svg": "arctic-monkeys.svg"
       }
     ]
   },  {
@@ -245,48 +220,37 @@
     "logos": [
       {
         "title": "Oficial",
-        "svg": "metallica.svg",
-        "class": ""
+        "svg": "metallica.svg"
       }, {
         "title": "The Snake",
-        "svg": "metallica_snake.svg",
-        "class": ""
+        "svg": "metallica_snake.svg"
       }, {
         "title": "St. Anger",
-        "svg": "metallica_st-anger.svg",
-        "class": ""
+        "svg": "metallica_st-anger.svg"
       }, {
         "title": "Throught The Never Symbol",
-        "svg": "metallica_throught-the-never.svg",
-        "class": ""
+        "svg": "metallica_throught-the-never.svg"
       }, {
         "title": "Garage",
-        "svg": "metallica_garage-inc.svg",
-        "class": ""
+        "svg": "metallica_garage-inc.svg"
       }, {
         "title": "Star",
-        "svg": "metallica_star.svg",
-        "class": ""
+        "svg": "metallica_star.svg"
       }, {
         "title": "Beyond Magnet Symbol",
-        "svg": "metallica_beyond-magnetic.svg",
-        "class": ""
+        "svg": "metallica_beyond-magnetic.svg"
       }, {
         "title": "30 years",
-        "svg": "metallica_30-years.svg",
-        "class": ""
+        "svg": "metallica_30-years.svg"
       }, {
         "title": "Scary Guy Skullhawk",
-        "svg": "metallica_scary-guy-skullhawk.svg",
-        "class": ""
+        "svg": "metallica_scary-guy-skullhawk.svg"
       }, {
         "title": "dehann",
-        "svg": "dehaan.svg",
-        "class": ""
+        "svg": "dehaan.svg"
       }, {
         "title": "Hardwired…To Self-Destruct",
-        "svg": "metallica_hardwired-to-self-destruct.svg",
-        "class": ""
+        "svg": "metallica_hardwired-to-self-destruct.svg"
       }
     ]
   },  {
@@ -306,8 +270,7 @@
       "class": "acdc--classical-color"
     }, {
       "title": "Oficial",
-      "svg": "acdc.svg",
-      "class": ""
+      "svg": "acdc.svg"
     }, {
       "title": "stroke",
       "svg": "acdc.svg",
@@ -318,8 +281,7 @@
       "class": "acdc--inverse"
     }, {
       "title": "Powerage",
-      "svg": "acdc_powerage.svg",
-      "class": ""
+      "svg": "acdc_powerage.svg"
     }
   ]
   },  {
@@ -331,28 +293,23 @@
     "logos": [
       {
         "title": "Oficial",
-        "svg": "rammstein.svg",
-        "class": ""
+        "svg": "rammstein.svg"
       }, {
         "title": "Symbol",
-        "svg": "rammstein_symbol.svg",
-        "class": ""
+        "svg": "rammstein_symbol.svg"
       }, {
         "title": "Stroked Symbol",
         "svg": "rammstein_symbol.svg",
         "class": "rammstein__symbol--stroke"
       }, {
         "title": "Symbol Flat",
-        "svg": "rammstein_symbol--flat.svg",
-        "class": ""
+        "svg": "rammstein_symbol--flat.svg"
       }, {
         "title": "DR",
-        "svg": "rammstein_dr.svg",
-        "class": ""
+        "svg": "rammstein_dr.svg"
       }, {
         "title": "Wings",
-        "svg": "rammstein_wings.svg",
-        "class": ""
+        "svg": "rammstein_wings.svg"
       }
     ]
   },  {
@@ -363,8 +320,7 @@
     "logos": [
       {
         "title": "Oficial",
-        "svg": "the-beatles.svg",
-        "class": ""
+        "svg": "the-beatles.svg"
       }
     ]
   },  {
@@ -376,20 +332,16 @@
     "logos": [
       {
         "title": "Século XX",
-        "svg": "overdose_seculo-xx.svg",
-        "class": ""
+        "svg": "overdose_seculo-xx.svg"
       }, {
         "title": "Conscience",
-        "svg": "overdose_conscience.svg",
-        "class": ""
+        "svg": "overdose_conscience.svg"
       }, {
         "title": "Addicted to Reality",
-        "svg": "overdose_addicted-to-reality.svg",
-        "class": ""
+        "svg": "overdose_addicted-to-reality.svg"
       }, {
         "title": "Progress of Decadence",
-        "svg": "overdose_progress-of-decadence.svg",
-        "class": ""
+        "svg": "overdose_progress-of-decadence.svg"
       }
     ]
   },  {
@@ -399,21 +351,17 @@
     "link": "ledzeppelin.com",
     "logos": [
       {
-        "title": "Oficial",
-        "svg": "led-zeppelin.svg",
-        "class": ""
+        "title": "Led Zeppelin II",
+        "svg": "led-zeppelin_two.svg"
       }, {
-        "title": "Oficial",
-        "svg": "led-zeppelin_serif.svg",
-        "class": ""
+        "title": "Four Symbols",
+        "svg": "led-zeppelin_four-symbols.svg"
       }, {
-        "title": "First",
-        "svg": "led-zeppelin_first.svg",
-        "class": ""
+        "title": "The Song Remains the Same",
+        "svg": "led-zeppelin_the-song-remains-the-same.svg"
       }, {
-        "title": "First",
-        "svg": "led-zeppelin_symbols.svg",
-        "class": ""
+        "title": "Unofficial",
+        "svg": "led-zeppelin_unofficial.svg"
       }
     ]
   },  {
@@ -424,20 +372,16 @@
     "logos": [
       {
         "title": "360°",
-        "svg": "u2_360.svg",
-        "class": ""
+        "svg": "u2_360.svg"
       }, {
         "title": "No Line On The Honrizon",
-        "svg": "u2_no-line-on-the-honrizon.svg",
-        "class": ""
+        "svg": "u2_no-line-on-the-honrizon.svg"
       }, {
         "title": "How To Dismantle An Atomic Bomb",
-        "svg": "u2_how-to-dismantle-an-atomic-bomb.svg",
-        "class": ""
+        "svg": "u2_how-to-dismantle-an-atomic-bomb.svg"
       }, {
         "title": "The Joshua Tree",
-        "svg": "u2_the-joshua-tree.svg",
-        "class": ""
+        "svg": "u2_the-joshua-tree.svg"
       }
     ]
   },  {
@@ -448,8 +392,7 @@
     "logos": [
       {
         "title": "Original",
-        "svg": "rush.svg",
-        "class": ""
+        "svg": "rush.svg"
       }
     ]
   },  {
@@ -460,8 +403,7 @@
     "logos": [
       {
       "title": "Original",
-      "svg": "cavalera-conspiracy.svg",
-      "class": ""
+      "svg": "cavalera-conspiracy.svg"
       }
     ]
   },  {
@@ -472,12 +414,10 @@
     "logos": [
       {
         "title": "The Wall",
-        "svg": "pink-floyd_the-wall.svg",
-        "class": ""
+        "svg": "pink-floyd_the-wall.svg"
       }, {
         "title": "The Divison Bell",
-        "svg": "pink-floyd_the-division-bell.svg",
-        "class": ""
+        "svg": "pink-floyd_the-division-bell.svg"
       }
     ]
   },  {
@@ -488,8 +428,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "wolfmother.svg",
-        "class": ""
+        "svg": "wolfmother.svg"
       }
     ]
   },  {
@@ -500,8 +439,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "coldplay.svg",
-        "class": ""
+        "svg": "coldplay.svg"
       }
     ]
   },  {
@@ -512,12 +450,10 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "pantera.svg",
-        "class": ""
+        "svg": "pantera.svg"
       },{
         "title": "CFH",
-        "svg": "pantera_cfh.svg",
-        "class": ""
+        "svg": "pantera_cfh.svg"
       }
     ]
   },  {
@@ -528,8 +464,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "daft-punk.svg",
-        "class": ""
+        "svg": "daft-punk.svg"
       }
     ]
   },  {
@@ -541,36 +476,28 @@
     "logos": [
       {
         "title": "Morbid Visions",
-        "svg": "sepultura_morbid-visions.svg",
-        "class": ""
+        "svg": "sepultura_morbid-visions.svg"
       }, {
         "title": "Arise",
-        "svg": "sepultura_arise.svg",
-        "class": ""
+        "svg": "sepultura_arise.svg"
       }, {
         "title": "Nation",
-        "svg": "sepultura_nation.svg",
-        "class": ""
+        "svg": "sepultura_nation.svg"
       }, {
         "title": "Tribal Symbol",
-        "svg": "sepultura_tribal.svg",
-        "class": ""
+        "svg": "sepultura_tribal.svg"
       }, {
         "title": "Triangle Symbol",
-        "svg": "sepultura_triangle.svg",
-        "class": ""
+        "svg": "sepultura_triangle.svg"
       }, {
         "title": "Star Symbol",
-        "svg": "sepultura_star.svg",
-        "class": ""
+        "svg": "sepultura_star.svg"
       }, {
         "title": "Coat Of Arms",
-        "svg": "sepultura_coat-of-arms.svg",
-        "class": ""
+        "svg": "sepultura_coat-of-arms.svg"
       }, {
         "title": "Chaos Symbol",
-        "svg": "sepultura_chaos-symbol.svg",
-        "class": ""
+        "svg": "sepultura_chaos-symbol.svg"
       }
     ]
   },  {
@@ -581,20 +508,16 @@
     "logos": [
       {
         "title": "Henry",
-        "svg": "black-sabbath_demon.svg",
-        "class": ""
+        "svg": "black-sabbath_demon.svg"
       }, {
         "title": "Vol 4",
-        "svg": "black-sabbath_vol4.svg",
-        "class": ""
+        "svg": "black-sabbath_vol4.svg"
       }, {
         "title": "Master Of Reality",
-        "svg": "black-sabbath_master-of-reality.svg",
-        "class": ""
+        "svg": "black-sabbath_master-of-reality.svg"
       }, {
         "title": "The Rules of Hell",
-        "svg": "black-sabbath_the-rules-of-hell.svg",
-        "class": ""
+        "svg": "black-sabbath_the-rules-of-hell.svg"
       }
     ]
   },  {
@@ -605,12 +528,10 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "kiss.svg",
-        "class": ""
+        "svg": "kiss.svg"
       }, {
         "title": "Ikons",
-        "svg": "kiss_ikons.svg",
-        "class": ""
+        "svg": "kiss_ikons.svg"
       }
     ]
   },  {
@@ -621,8 +542,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "faith-no-more.svg",
-        "class": ""
+        "svg": "faith-no-more.svg"
       }
     ]
   },  {
@@ -633,8 +553,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "bruce-dickinson.svg",
-        "class": ""
+        "svg": "bruce-dickinson.svg"
       }
     ]
   },  {
@@ -645,12 +564,10 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "nirvana.svg",
-        "class": ""
+        "svg": "nirvana.svg"
       }, {
         "title": "Smile",
-        "svg": "nirvana_smile.svg",
-        "class": ""
+        "svg": "nirvana_smile.svg"
       }
     ]
   },  {
@@ -661,16 +578,13 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "manowar.svg",
-        "class": ""
+        "svg": "manowar.svg"
       },{
         "title": "Sign Of The Hammer",
-        "svg": "manowar_sigh-of-the-hammer.svg",
-        "class": ""
+        "svg": "manowar_sigh-of-the-hammer.svg"
       }, {
         "title": "Hammer",
-        "svg": "manowar_hammer.svg",
-        "class": ""
+        "svg": "manowar_hammer.svg"
       }
     ]
   },  {
@@ -681,8 +595,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "queen.svg",
-        "class": ""
+        "svg": "queen.svg"
       }
     ]
   },  {
@@ -693,8 +606,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "blind-guardian.svg",
-        "class": ""
+        "svg": "blind-guardian.svg"
       }
     ]
   },  {
@@ -705,8 +617,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "johnny-cash.svg",
-        "class": ""
+        "svg": "johnny-cash.svg"
       }
     ]
   },  {
@@ -717,8 +628,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "sex-pistols.svg",
-        "class": ""
+        "svg": "sex-pistols.svg"
       }
     ]
   },  {
@@ -729,8 +639,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "ghost.svg",
-        "class": ""
+        "svg": "ghost.svg"
       }
     ]
   },  {
@@ -742,8 +651,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "judas-priest.svg",
-        "class": ""
+        "svg": "judas-priest.svg"
       },{
         "title": "symbol",
         "svg": "judas-priest.svg",
@@ -758,8 +666,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "the-doors.svg",
-        "class": ""
+        "svg": "the-doors.svg"
       }
     ]
   },  {
@@ -770,8 +677,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "dio.svg",
-        "class": ""
+        "svg": "dio.svg"
       }
     ]
   },  {
@@ -782,8 +688,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "korn.svg",
-        "class": ""
+        "svg": "korn.svg"
       }
     ]
   },  {
@@ -794,8 +699,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "nine-inch-nails.svg",
-        "class": ""
+        "svg": "nine-inch-nails.svg"
       }
     ]
   },  {
@@ -806,8 +710,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "system-of-a-down.svg",
-        "class": ""
+        "svg": "system-of-a-down.svg"
       }
     ]
   },  {
@@ -818,8 +721,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "avenged-sevenfold.svg",
-        "class": ""
+        "svg": "avenged-sevenfold.svg"
       }
     ]
   },  {
@@ -830,8 +732,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "anthrax_pentagram.svg",
-        "class": ""
+        "svg": "anthrax_pentagram.svg"
       }
     ]
   },  {
@@ -842,8 +743,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "king-diamond.svg",
-        "class": ""
+        "svg": "king-diamond.svg"
       }
     ]
   },  {
@@ -854,8 +754,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "gojira.svg",
-        "class": ""
+        "svg": "gojira.svg"
       }
     ]
   },  {
@@ -866,12 +765,10 @@
     "logos": [
       {
         "title": "The Battle Rages On...",
-        "svg": "deep-purple_the-battle-rages-on.svg",
-        "class": ""
+        "svg": "deep-purple_the-battle-rages-on.svg"
       }, {
         "title": "Classical",
-        "svg": "deep-purple.svg",
-        "class": ""
+        "svg": "deep-purple.svg"
       }
     ]
   },  {
@@ -882,8 +779,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "the-who.svg",
-        "class": ""
+        "svg": "the-who.svg"
       }, {
         "title": "classical text",
         "svg": "the-who.svg",
@@ -902,8 +798,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "death.svg",
-        "class": ""
+        "svg": "death.svg"
       }
     ]
   },  {
@@ -914,8 +809,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "diamond-head.svg",
-        "class": ""
+        "svg": "diamond-head.svg"
       }
     ]
   },  {
@@ -926,12 +820,10 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "dream-theater.svg",
-        "class": ""
+        "svg": "dream-theater.svg"
       }, {
         "title": "icon",
-        "svg": "dream-theater_icon.svg",
-        "class": ""
+        "svg": "dream-theater_icon.svg"
       }
     ]
  },  {
@@ -942,20 +834,16 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "megadeth.svg",
-        "class": ""
+        "svg": "megadeth.svg"
       }, {
         "title": "Rust In Peace Nuclear Symbol",
-        "svg": "megadeth_rust-in-peace-nuclear-symbol.svg",
-        "class": ""
+        "svg": "megadeth_rust-in-peace-nuclear-symbol.svg"
       }, {
         "title": "Nuclear Symbol",
-        "svg": "megadeth_nuclear-symbol.svg",
-        "class": ""
+        "svg": "megadeth_nuclear-symbol.svg"
       }, {
         "title": "Cryptic Writing Symbol",
-        "svg": "megadeth_cryptic-writing-symbol.svg",
-        "class": ""
+        "svg": "megadeth_cryptic-writing-symbol.svg"
       }
     ]
  },  {
@@ -966,12 +854,10 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "ramones_symbol.svg",
-        "class": ""
+        "svg": "ramones_symbol.svg"
       }, {
         "title": "classical",
-        "svg": "ramones.svg",
-        "class": ""
+        "svg": "ramones.svg"
       }
     ]
   },  {
@@ -982,8 +868,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "almah.svg",
-        "class": ""
+        "svg": "almah.svg"
       }
     ]
   },  {
@@ -994,8 +879,7 @@
     "logos": [
       {
         "title": "Ceremony of Opposites Tour",
-        "svg": "samael_ceremony-of-opposites-tour.svg",
-        "class": ""
+        "svg": "samael_ceremony-of-opposites-tour.svg"
       }
     ]
   },  {
@@ -1006,8 +890,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "whitesnake.svg",
-        "class": ""
+        "svg": "whitesnake.svg"
       }
     ]
   },  {
@@ -1018,8 +901,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "wu-tang-clan.svg",
-        "class": ""
+        "svg": "wu-tang-clan.svg"
       }
     ]
   },  {
@@ -1030,8 +912,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "twisted-syster.svg",
-        "class": ""
+        "svg": "twisted-syster.svg"
       }
     ]
   },  {
@@ -1043,16 +924,13 @@
     "logos": [
       {
         "title": "1969",
-        "svg": "yes_yes.svg",
-        "class": ""
+        "svg": "yes_yes.svg"
       }, {
         "title": "90125",
-        "svg": "yes_90125.svg",
-        "class": ""
+        "svg": "yes_90125.svg"
       }, {
         "title": "Big Generator",
-        "svg": "yes_big-generator.svg",
-        "class": ""
+        "svg": "yes_big-generator.svg"
       }
     ]
   },  {
@@ -1064,12 +942,10 @@
     "logos": [
       {
         "title": "II",
-        "svg": "van-halen_II.svg",
-        "class": ""
+        "svg": "van-halen_II.svg"
       }, {
         "title": "5150",
-        "svg": "van-halen_5150.svg",
-        "class": ""
+        "svg": "van-halen_5150.svg"
       }
     ]
   },  {
@@ -1080,8 +956,7 @@
     "logos": [
       {
         "title": "classical",
-        "svg": "trivium.svg",
-        "class": ""
+        "svg": "trivium.svg"
       }
     ]
   },  {
@@ -1092,12 +967,10 @@
     "logos": [
       {
         "title": "Horizontal",
-        "svg": "tianastacia_horizontal.svg",
-        "class": ""
+        "svg": "tianastacia_horizontal.svg"
       }, {
         "title": "Vertical",
-        "svg": "tianastacia_vertical.svg",
-        "class": ""
+        "svg": "tianastacia_vertical.svg"
       }
     ]
   },  {
@@ -1108,8 +981,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "thin-lizzy.svg",
-        "class": ""
+        "svg": "thin-lizzy.svg"
       }
     ]
   },  {
@@ -1120,8 +992,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "therion.svg",
-        "class": ""
+        "svg": "therion.svg"
       }
     ]
   },  {
@@ -1132,8 +1003,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "x-japan.svg",
-        "class": ""
+        "svg": "x-japan.svg"
       }
     ]
   },  {
@@ -1145,8 +1015,7 @@
     "logos": [
       {
         "title": "Ao vivo",
-        "svg": "14-bis_ao-vivo.svg",
-        "class": ""
+        "svg": "14-bis_ao-vivo.svg"
       }
     ]
   },  {
@@ -1157,8 +1026,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "alice-in-chains.svg",
-        "class": ""
+        "svg": "alice-in-chains.svg"
       }
     ]
   },  {
@@ -1169,8 +1037,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "doro.svg",
-        "class": ""
+        "svg": "doro.svg"
       }
     ]
   },  {
@@ -1181,8 +1048,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "dokken.svg",
-        "class": ""
+        "svg": "dokken.svg"
       }
     ]
   },  {
@@ -1193,8 +1059,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "dr-sin.svg",
-        "class": ""
+        "svg": "dr-sin.svg"
       }
     ]
   },  {
@@ -1205,8 +1070,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "drowned.svg",
-        "class": ""
+        "svg": "drowned.svg"
       }
     ]
   },  {
@@ -1218,8 +1082,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "50-cent.svg",
-        "class": ""
+        "svg": "50-cent.svg"
       }
     ]
   },  {
@@ -1230,8 +1093,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "baby-metal.svg",
-        "class": ""
+        "svg": "baby-metal.svg"
       }
     ]
   },  {
@@ -1243,8 +1105,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "bon-jovi_have-a-nice-day-smile.svg",
-        "class": ""
+        "svg": "bon-jovi_have-a-nice-day-smile.svg"
       }
     ]
   },  {
@@ -1255,8 +1116,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "edguy.svg",
-        "class": ""
+        "svg": "edguy.svg"
       }
     ]
   },  {
@@ -1267,8 +1127,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "evh.svg",
-        "class": ""
+        "svg": "evh.svg"
       }
     ]
   },  {
@@ -1279,8 +1138,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "gammaray.svg",
-        "class": ""
+        "svg": "gammaray.svg"
       }
     ]
   },  {
@@ -1291,8 +1149,7 @@
     "logos": [
       {
         "title": "Ghost In The Machine",
-        "svg": "the-police_ghost-in-the-machine.svg",
-        "class": ""
+        "svg": "the-police_ghost-in-the-machine.svg"
       }
     ]
   },  {
@@ -1303,8 +1160,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "rage.svg",
-        "class": ""
+        "svg": "rage.svg"
       }
     ]
   },  {
@@ -1315,8 +1171,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "abba.svg",
-        "class": ""
+        "svg": "abba.svg"
       }
     ]
   },  {
@@ -1327,8 +1182,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "tiesto.svg",
-        "class": ""
+        "svg": "tiesto.svg"
       }
     ]
   },  {
@@ -1339,8 +1193,7 @@
     "logos": [
       {
         "title": "4.13",
-        "svg": "the-cure_4.13.svg",
-        "class": ""
+        "svg": "the-cure_4.13.svg"
       }
     ]
   },  {
@@ -1351,8 +1204,7 @@
     "logos": [
       {
         "title": "Classical",
-        "svg": "papa-roach.svg",
-        "class": ""
+        "svg": "papa-roach.svg"
       }
     ]
   },  {
@@ -1363,8 +1215,7 @@
     "logos": [
       {
         "title": "Blizzard Of Ozz",
-        "svg": "ozzy-osbourne_blizzard-of-ozz.svg",
-        "class": ""
+        "svg": "ozzy-osbourne_blizzard-of-ozz.svg"
       }
     ]
   },  {
@@ -1375,8 +1226,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "david-guetta.svg",
-        "class": ""
+        "svg": "david-guetta.svg"
       }
     ]
   },  {
@@ -1387,8 +1237,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "enya.svg",
-        "class": ""
+        "svg": "enya.svg"
       }
     ]
   },  {
@@ -1399,8 +1248,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "exciter.svg",
-        "class": ""
+        "svg": "exciter.svg"
       }
     ]
   },  {
@@ -1411,8 +1259,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "oasis.svg",
-        "class": ""
+        "svg": "oasis.svg"
       }
     ]
   },  {
@@ -1423,8 +1270,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "muse.svg",
-        "class": ""
+        "svg": "muse.svg"
       }
     ]
   },  {
@@ -1435,8 +1281,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "the-big-four.svg",
-        "class": ""
+        "svg": "the-big-four.svg"
       }
     ]
   },  {
@@ -1448,12 +1293,10 @@
     "logos": [
       {
         "title": "Live Era",
-        "svg": "guns-n-roses_live-era.svg",
-        "class": ""
+        "svg": "guns-n-roses_live-era.svg"
       }, {
         "title": "Appetite For Destruction",
-        "svg": "guns-n-roses_appetite-for-destruction.svg",
-        "class": ""
+        "svg": "guns-n-roses_appetite-for-destruction.svg"
       }
     ]
   },  {
@@ -1464,8 +1307,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "grave-digger.svg",
-        "class": ""
+        "svg": "grave-digger.svg"
       }
     ]
   },  {
@@ -1477,8 +1319,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "metal-church.svg",
-        "class": ""
+        "svg": "metal-church.svg"
       }
     ]
   },  {
@@ -1490,8 +1331,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "audioslave.svg",
-        "class": ""
+        "svg": "audioslave.svg"
       }
     ]
   },  {
@@ -1502,8 +1342,7 @@
     "logos": [
       {
         "title": "Official",
-        "svg": "type-o-negative.svg",
-        "class": ""
+        "svg": "type-o-negative.svg"
       }
     ]
   },  {
@@ -1514,8 +1353,7 @@
     "logos": [
       {
         "title": "Love Symbol",
-        "svg": "prince_love-symbol.svg",
-        "class": ""
+        "svg": "prince_love-symbol.svg"
       }
     ]
   },  {
@@ -1526,28 +1364,22 @@
     "logos": [
       {
         "title": "Chaotic System",
-        "svg": "eminence_chaotic-system.svg",
-        "class": ""
+        "svg": "eminence_chaotic-system.svg"
       }, {
         "title": "Humanology",
-        "svg": "eminence_humanology.svg",
-        "class": ""
+        "svg": "eminence_humanology.svg"
       }, {
         "title": "E Symbol",
-        "svg": "eminence_symbol.svg",
-        "class": ""
+        "svg": "eminence_symbol.svg"
       }, {
         "title": "The God Of All Mistakes",
-        "svg": "eminence_the-god-of-all-mistakes.svg",
-        "class": ""
+        "svg": "eminence_the-god-of-all-mistakes.svg"
       }, {
         "title": "The God Of All Mistakes Single",
-        "svg": "eminence_the-god-of-all-mistakes-single.svg",
-        "class": ""
+        "svg": "eminence_the-god-of-all-mistakes-single.svg"
       }, {
         "title": "The Stalker",
-        "svg": "eminence_the-stalker.svg",
-        "class": ""
+        "svg": "eminence_the-stalker.svg"
       }
     ]
   },  {
@@ -1558,12 +1390,10 @@
     "logos": [
       {
         "title": "Chaotic System",
-        "svg": "deep-forest_boheme.svg",
-        "class": ""
+        "svg": "deep-forest_boheme.svg"
       }, {
         "title": "Symbol",
-        "svg": "deep-forest_symbol.svg",
-        "class": ""
+        "svg": "deep-forest_symbol.svg"
       }
     ]
   },  {
@@ -1574,8 +1404,7 @@
     "logos": [
       {
         "title": "Symbol",
-        "svg": "elp-symbol.svg",
-        "class": ""
+        "svg": "elp-symbol.svg"
       }
     ]
   }
