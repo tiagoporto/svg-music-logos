@@ -113,8 +113,8 @@
     "link": "davidgilmour.com",
     "logos": [
       {
-        "title": "classical",
-        "svg": "david-gilmour.svg"
+        "title": "On an Island",
+        "svg": "david-gilmour_on_an_island.svg"
       }
     ]
   },  {
@@ -136,14 +136,14 @@
     "link": "chickenfoot.us",
     "logos": [
       {
-        "title": "Official",
+        "title": "Chickenfoot",
         "svg": "chickenfoot.svg"
       }, {
         "title": "III",
         "svg": "chickenfoot_III.svg"
       }, {
-        "title": "Dirty",
-        "svg": "chickenfoot_dirty.svg"
+        "title": "III Limited",
+        "svg": "chickenfoot_III-limited.svg"
       }
     ]
   },  {
@@ -219,23 +219,23 @@
     "link": "metallica.com",
     "logos": [
       {
-        "title": "Oficial",
-        "svg": "metallica.svg"
-      }, {
         "title": "The Snake",
         "svg": "metallica_snake.svg"
       }, {
-        "title": "St. Anger",
-        "svg": "metallica_st-anger.svg"
+        "title": "Star",
+        "svg": "metallica_star.svg"
       }, {
-        "title": "Throught The Never Symbol",
-        "svg": "metallica_throught-the-never.svg"
+        "title": "Scary Guy Skullhawk",
+        "svg": "metallica_scary-guy-skullhawk.svg"
       }, {
         "title": "Garage",
         "svg": "metallica_garage-inc.svg"
       }, {
-        "title": "Star",
-        "svg": "metallica_star.svg"
+        "title": "St. Anger",
+        "svg": "metallica_st-anger.svg"
+      }, {
+        "title": "Death Magnetic",
+        "svg": "metallica_death-magnetic.svg"
       }, {
         "title": "Beyond Magnet Symbol",
         "svg": "metallica_beyond-magnetic.svg"
@@ -243,8 +243,8 @@
         "title": "30 years",
         "svg": "metallica_30-years.svg"
       }, {
-        "title": "Scary Guy Skullhawk",
-        "svg": "metallica_scary-guy-skullhawk.svg"
+        "title": "Throught The Never Symbol",
+        "svg": "metallica_throught-the-never.svg"
       }, {
         "title": "dehann",
         "svg": "dehaan.svg"
@@ -261,15 +261,15 @@
   "link": "acdc.com",
   "logos": [
     {
-      "title": "Oficial",
-      "svg": "acdc_classical.svg",
-      "class": "acdc--classical"
-    }, {
-      "title": "Oficial",
+      "title": "Let There Be Rock",
       "svg": "acdc_classical.svg",
       "class": "acdc--classical-color"
     }, {
-      "title": "Oficial",
+      "title": "Let There Be Rock",
+      "svg": "acdc_classical.svg",
+      "class": "acdc--classical"
+    }, {
+      "title": "Let There Be Rock",
       "svg": "acdc.svg"
     }, {
       "title": "stroke",
@@ -292,7 +292,7 @@
     "link": "rammstein.com",
     "logos": [
       {
-        "title": "Oficial",
+        "title": "Official",
         "svg": "rammstein.svg"
       }, {
         "title": "Symbol",
@@ -319,7 +319,7 @@
     "link": "thebeatles.com",
     "logos": [
       {
-        "title": "Oficial",
+        "title": "Official",
         "svg": "the-beatles.svg"
       }
     ]
@@ -402,8 +402,8 @@
     "link": "cavaleraconspiracy.com",
     "logos": [
       {
-      "title": "Original",
-      "svg": "cavalera-conspiracy.svg"
+      "title": "Symbol",
+      "svg": "cavalera-conspiracy_symbol.svg"
       }
     ]
   },  {
@@ -463,8 +463,8 @@
     "link": "daftpunk.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "daft-punk.svg"
+        "title": "Homework",
+        "svg": "daft-punk_homework.svg"
       }
     ]
   },  {
@@ -552,8 +552,8 @@
     "link": "screamforme.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "bruce-dickinson.svg"
+        "title": "The Best of Bruce Dickinson",
+        "svg": "bruce-dickinson_the_best_of_bruce_dickinson.svg"
       }
     ]
   },  {
@@ -594,8 +594,8 @@
     "link": "queenonline.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "queen.svg"
+        "title": "Greatest Hits II",
+        "svg": "queen_greatest-hits-II.svg"
       }
     ]
   },  {
@@ -607,6 +607,17 @@
       {
         "title": "Official",
         "svg": "blind-guardian.svg"
+      }
+    ]
+  },  {
+    "name": "Blink-182",
+    "origin": "U.S.A.",
+    "style": "Pop Punk",
+    "link": "blink182.com",
+    "logos": [
+      {
+        "title": "The Mark, Tom and Travis Show",
+        "svg": "blink-182_the-mark-tom-and-travis-show.svg"
       }
     ]
   },  {
@@ -764,11 +775,11 @@
     "link": "deeppurple.com",
     "logos": [
       {
+        "title": "Stormbringer",
+        "svg": "deep-purple_stormbringer.svg"
+      }, {
         "title": "The Battle Rages On...",
         "svg": "deep-purple_the-battle-rages-on.svg"
-      }, {
-        "title": "Classical",
-        "svg": "deep-purple.svg"
       }
     ]
   },  {
@@ -822,7 +833,7 @@
         "title": "classical",
         "svg": "dream-theater.svg"
       }, {
-        "title": "icon",
+        "title": "Icon",
         "svg": "dream-theater_icon.svg"
       }
     ]
@@ -1028,8 +1039,8 @@
     "link": "aliceinchains.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "alice-in-chains.svg"
+        "title": "Facelift",
+        "svg": "alice-in-chains_facelift.svg"
       }
     ]
   },  {
@@ -1107,7 +1118,7 @@
     "link": "bonjovi.com",
     "logos": [
       {
-        "title": "Classical",
+        "title": "Have a Nice Day Smile",
         "svg": "bon-jovi_have-a-nice-day-smile.svg"
       }
     ]
@@ -1129,7 +1140,7 @@
     "link": "evhgear.com",
     "logos": [
       {
-        "title": "Classical",
+        "title": "Logo",
         "svg": "evh.svg"
       }
     ]
@@ -1239,8 +1250,8 @@
     "link": "enya.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "enya.svg"
+        "title": "Watermark",
+        "svg": "enya_watermark.svg"
       }
     ]
   },  {
@@ -1272,8 +1283,8 @@
     "link": "muse.mu",
     "logos": [
       {
-        "title": "Official",
-        "svg": "muse.svg"
+        "title": "Showbiz",
+        "svg": "muse_showbiz.svg"
       }
     ]
   },  {
@@ -1295,11 +1306,11 @@
     "link": "gunsnroses.com",
     "logos": [
       {
-        "title": "Live Era",
-        "svg": "guns-n-roses_live-era.svg"
-      }, {
         "title": "Appetite For Destruction",
         "svg": "guns-n-roses_appetite-for-destruction.svg"
+      }, {
+        "title": "Live Era",
+        "svg": "guns-n-roses_live-era.svg"
       }
     ]
   },  {
@@ -1344,8 +1355,8 @@
     "link": "typeonegative.net",
     "logos": [
       {
-        "title": "Official",
-        "svg": "type-o-negative.svg"
+        "title": "Symbol",
+        "svg": "type-o-negative_symbol.svg"
       }
     ]
   },  {
@@ -1392,7 +1403,7 @@
     "link": "deep-forest.fr",
     "logos": [
       {
-        "title": "Chaotic System",
+        "title": "Boheme",
         "svg": "deep-forest_boheme.svg"
       }, {
         "title": "Symbol",
