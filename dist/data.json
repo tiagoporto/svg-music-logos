@@ -610,6 +610,17 @@
       }
     ]
   },  {
+    "name": "Blink-182",
+    "origin": "U.S.A.",
+    "style": "Pop Punk",
+    "link": "blink182.com",
+    "logos": [
+      {
+        "title": "The Mark, Tom and Travis Show",
+        "svg": "blink-182_the-mark-tom-and-travis-show.svg"
+      }
+    ]
+  },  {
     "name": "Johnny Cash",
     "origin": "U.S.A.",
     "style": "Country",
