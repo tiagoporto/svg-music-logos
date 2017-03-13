@@ -2,8 +2,10 @@ angular.module('svgMusicLogosApp', [
     'ngRoute',
     'main.controller'
 ])
-.config(['$routeProvider', ($routeProvider) => {
+.config(['$routeProvider', '$compileProvider', ($routeProvider, $compileProvider) => {
     'use strict';
+
+    $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|blob):/);
 
     let url = window.location.href;
     url = url.replace(/\#\/.*/, '');
@@ -30,8 +32,4 @@ angular.module('svgMusicLogosApp', [
     })
 
     .otherwise ({ redirectTo: '/' });
-}])
-.config(['$compileProvider', function ($compileProvider) {
-    'use strict';
-    $compileProvider.aHrefSanitizationWhitelist(/^\s*(|blob|):/);
 }]);

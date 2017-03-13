@@ -6,8 +6,10 @@
 
 'use strict';
 
-angular.module('svgMusicLogosApp', ['ngRoute', 'main.controller']).config(['$routeProvider', function ($routeProvider) {
+angular.module('svgMusicLogosApp', ['ngRoute', 'main.controller']).config(['$routeProvider', '$compileProvider', function ($routeProvider, $compileProvider) {
     'use strict';
+
+    $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|blob):/);
 
     var url = window.location.href;
     url = url.replace(/\#\/.*/, '');
@@ -25,10 +27,6 @@ angular.module('svgMusicLogosApp', ['ngRoute', 'main.controller']).config(['$rou
         templateUrl: url + 'templates/logos.html',
         controller: 'MainCtrl'
     }).otherwise({ redirectTo: '/' });
-}]).config(['$compileProvider', function ($compileProvider) {
-    'use strict';
-
-    $compileProvider.aHrefSanitizationWhitelist(/^\s*(|blob|):/);
 }]);
 
 angular.module('main.controller', ['ngFileSaver']).controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', 'FileSaver', 'Blob', function ($scope, $http, $timeout, $routeParams, $location, $window, FileSaver, Blob) {
