@@ -266,25 +266,17 @@
     {
       "title": "Let There Be Rock",
       "svg": "acdc_classical.svg",
-      "class": "acdc--classical-color"
-    }, {
-      "title": "Let There Be Rock",
-      "svg": "acdc_classical.svg",
       "class": "acdc--classical"
     }, {
       "title": "Let There Be Rock",
       "svg": "acdc.svg"
     }, {
-      "title": "stroke",
-      "svg": "acdc.svg",
-      "class": "acdc--stroke"
-    }, {
-      "title": "Inverse",
-      "svg": "acdc.svg",
-      "class": "acdc--inverse"
-    }, {
       "title": "Powerage",
       "svg": "acdc_powerage.svg"
+    }, {
+      "title": "Back in Black",
+      "svg": "acdc.svg",
+      "class": "acdc--back-in-black"
     }
   ]
   },  {
@@ -493,7 +485,7 @@
         "title": "Triangle Symbol",
         "svg": "sepultura_triangle.svg"
       }, {
-        "title": "Star Symbol",
+        "title": "Star S - Live In São Paulo",
         "svg": "sepultura_star.svg"
       }, {
         "title": "Coat Of Arms",
