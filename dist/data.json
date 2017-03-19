@@ -60,6 +60,9 @@
       }, {
         "title": "Legacy Of The Beast - Loading",
         "svg": "iron-maiden_legacy-of-the-beast-loading.svg"
+      }, {
+        "title": "Legacy Of The Beast - 666 Flag",
+        "svg": "iron-maiden_666-flag.svg"
       }
     ]
   }, {
@@ -397,8 +400,11 @@
     "link": "cavaleraconspiracy.com",
     "logos": [
       {
-      "title": "Symbol",
-      "svg": "cavalera-conspiracy_symbol.svg"
+      "title": "Inflikted",
+      "svg": "cavalera-conspiracy_inflikted.svg"
+      }, {
+      "title": "CC",
+      "svg": "cavalera-conspiracy_cc.svg"
       }
     ]
   },  {
@@ -1414,6 +1420,64 @@
       {
         "title": "Symbol",
         "svg": "elp-symbol.svg"
+      }
+    ]
+  },  {
+    "name": "Bartucada",
+    "origin": "Brazil",
+    "style": "Brazilian Songs",
+    "link": "bartucada.com.br",
+    "logos": [
+      {
+        "title": "Logo",
+        "svg": "bartucada.svg"
+      }
+    ]
+  },  {
+    "name": "Beastie Boys",
+    "origin": "U.S.A.",
+    "style": "Hip Hop",
+    "link": "blog.beastieboys.com",
+    "logos": [
+      {
+        "title": "Check Your Head",
+        "svg": "beastie-boys_check-your-head.svg"
+      }, {
+        "title": "Body Movin",
+        "svg": "beastie-boys_body-movin.svg"
+      }
+    ]
+  },  {
+    "name": "Eminem",
+    "origin": "U.S.A.",
+    "style": "Hip Hop",
+    "link": "eminem.com",
+    "logos": [
+      {
+        "title": "The Marshall Mathers LP",
+        "svg": "eminem_the-marshall-mathers-lp.svg"
+      }
+    ]
+  },  {
+    "name": "Jota Quest",
+    "origin": "Brazil",
+    "style": "Pop",
+    "link": "jotaquest.com.br",
+    "logos": [
+      {
+        "title": "Discotecagem Pop Variada",
+        "svg": "jota-quest_discotecagem-pop-variada.svg"
+      }
+    ]
+  },  {
+    "name": "Steve Vai",
+    "origin": "U.S.A.",
+    "style": "Instrumental rock",
+    "link": "vai.com",
+    "logos": [
+      {
+        "title": "Vai Logo",
+        "svg": "steve-vai_vai-logo.svg"
       }
     ]
   }

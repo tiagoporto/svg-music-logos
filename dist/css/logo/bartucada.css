@@ -1,0 +1,17 @@
+/*!	SVG Music Logos
+*	https://github.com/tiagoporto/svg-music-logos
+*	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
+*	Released under the MIT license
+*/
+
+.bartucada__shadow {
+  fill: #fff;
+}
+.bartucada__letter-decoration,
+.bartucada__left-face {
+  fill: #e30613;
+}
+.bartucada__sunbeams,
+.bartucada__right-face {
+  fill: #ffed00;
+}
