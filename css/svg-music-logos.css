@@ -18,49 +18,41 @@
 }
 .acdc--classical .acdc__fill path,
 .acdc--classical .acdc__fill polygon {
-  fill: #626262;
-}
-.acdc--classical .acdc__shadow-one polygon {
-  fill: #4a4a4a;
-}
-.acdc--classical .acdc__shadow-two polygon {
-  fill: #ededed;
-}
-.acdc--classical .acdc__shadow-three polygon {
-  fill: #c2c2c2;
-}
-.acdc--classical .acdc__shadow-four polygon {
-  fill: #4d4d4d;
-}
-.acdc--classical-color .acdc__fill path,
-.acdc--classical-color .acdc__fill polygon {
   fill: #ef2334;
 }
-.acdc--classical-color .acdc__shadow-one polygon {
+.acdc--classical .acdc__shadow-one polygon {
   fill: #e3051b;
 }
-.acdc--classical-color .acdc__shadow-two polygon {
+.acdc--classical .acdc__shadow-two polygon {
   fill: #ffebcb;
 }
-.acdc--classical-color .acdc__shadow-three polygon {
+.acdc--classical .acdc__shadow-three polygon {
   fill: #f7b28a;
 }
-.acdc--classical-color .acdc__shadow-four polygon {
+.acdc--classical .acdc__shadow-four polygon {
   fill: #784500;
 }
-.acdc--stroke {
+.acdc--back-in-black {
   stroke-width: 2px;
   stroke: #000;
   fill: rgba(255,255,255,0);
-}
-.acdc--inverse {
-  fill: #fff;
 }
 .audioslave__flame {
   fill: #f00;
 }
 .bon-jovi--have-a-nice-day-smile .bon-jovi__background {
   fill: #d42423;
+}
+.bartucada__shadow {
+  fill: #fff;
+}
+.bartucada__letter-decoration,
+.bartucada__left-face {
+  fill: #e30613;
+}
+.bartucada__sunbeams,
+.bartucada__right-face {
+  fill: #ffed00;
 }
 .chickenfoot--III__red {
   fill: #e91a11;
@@ -132,6 +124,9 @@
 .iron-maiden--legacy-of-the-beast-loading .iron-maiden__ring-minor {
   fill: #535d6a;
 }
+.iron-maiden--six-six-six-flag .iron-maiden__polygon {
+  fill: #fff;
+}
 @-webkit-keyframes iron-maiden-rotate {
   from {
     -webkit-transform: rotate(0);
@@ -151,6 +146,10 @@
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+}
+.jota-quest--discotecagem-pop-variada .jota-quest__letter,
+.jota-quest--discotecagem-pop-variada .jota-quest__star {
+  fill: #fff;
 }
 .judas-priest--symbol .judas-priest__lettering polygon,
 .judas-priest--symbol .judas-priest__lettering path {

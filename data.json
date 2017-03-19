@@ -60,6 +60,9 @@
       }, {
         "title": "Legacy Of The Beast - Loading",
         "svg": "iron-maiden_legacy-of-the-beast-loading.svg"
+      }, {
+        "title": "Legacy Of The Beast - 666 Flag",
+        "svg": "iron-maiden_666-flag.svg"
       }
     ]
   }, {
@@ -266,25 +269,17 @@
     {
       "title": "Let There Be Rock",
       "svg": "acdc_classical.svg",
-      "class": "acdc--classical-color"
-    }, {
-      "title": "Let There Be Rock",
-      "svg": "acdc_classical.svg",
       "class": "acdc--classical"
     }, {
       "title": "Let There Be Rock",
       "svg": "acdc.svg"
     }, {
-      "title": "stroke",
-      "svg": "acdc.svg",
-      "class": "acdc--stroke"
-    }, {
-      "title": "Inverse",
-      "svg": "acdc.svg",
-      "class": "acdc--inverse"
-    }, {
       "title": "Powerage",
       "svg": "acdc_powerage.svg"
+    }, {
+      "title": "Back in Black",
+      "svg": "acdc.svg",
+      "class": "acdc--back-in-black"
     }
   ]
   },  {
@@ -405,8 +400,11 @@
     "link": "cavaleraconspiracy.com",
     "logos": [
       {
-      "title": "Symbol",
-      "svg": "cavalera-conspiracy_symbol.svg"
+      "title": "Inflikted",
+      "svg": "cavalera-conspiracy_inflikted.svg"
+      }, {
+      "title": "CC",
+      "svg": "cavalera-conspiracy_cc.svg"
       }
     ]
   },  {
@@ -493,7 +491,7 @@
         "title": "Triangle Symbol",
         "svg": "sepultura_triangle.svg"
       }, {
-        "title": "Star Symbol",
+        "title": "Star S - Live In São Paulo",
         "svg": "sepultura_star.svg"
       }, {
         "title": "Coat Of Arms",
@@ -1422,6 +1420,64 @@
       {
         "title": "Symbol",
         "svg": "elp-symbol.svg"
+      }
+    ]
+  },  {
+    "name": "Bartucada",
+    "origin": "Brazil",
+    "style": "Brazilian Songs",
+    "link": "bartucada.com.br",
+    "logos": [
+      {
+        "title": "Logo",
+        "svg": "bartucada.svg"
+      }
+    ]
+  },  {
+    "name": "Beastie Boys",
+    "origin": "U.S.A.",
+    "style": "Hip Hop",
+    "link": "blog.beastieboys.com",
+    "logos": [
+      {
+        "title": "Check Your Head",
+        "svg": "beastie-boys_check-your-head.svg"
+      }, {
+        "title": "Body Movin",
+        "svg": "beastie-boys_body-movin.svg"
+      }
+    ]
+  },  {
+    "name": "Eminem",
+    "origin": "U.S.A.",
+    "style": "Hip Hop",
+    "link": "eminem.com",
+    "logos": [
+      {
+        "title": "The Marshall Mathers LP",
+        "svg": "eminem_the-marshall-mathers-lp.svg"
+      }
+    ]
+  },  {
+    "name": "Jota Quest",
+    "origin": "Brazil",
+    "style": "Pop",
+    "link": "jotaquest.com.br",
+    "logos": [
+      {
+        "title": "Discotecagem Pop Variada",
+        "svg": "jota-quest_discotecagem-pop-variada.svg"
+      }
+    ]
+  },  {
+    "name": "Steve Vai",
+    "origin": "U.S.A.",
+    "style": "Instrumental rock",
+    "link": "vai.com",
+    "logos": [
+      {
+        "title": "Vai Logo",
+        "svg": "steve-vai_vai-logo.svg"
       }
     ]
   }

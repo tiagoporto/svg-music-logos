@@ -65,6 +65,9 @@
 .iron-maiden--legacy-of-the-beast-loading .iron-maiden__ring-minor {
   fill: #535d6a;
 }
+.iron-maiden--six-six-six-flag .iron-maiden__polygon {
+  fill: #fff;
+}
 @-webkit-keyframes iron-maiden-rotate {
   from {
     -webkit-transform: rotate(0);
