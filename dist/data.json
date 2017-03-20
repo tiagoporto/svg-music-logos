@@ -72,7 +72,7 @@
     "link": "aerosmith.com",
     "logos": [
       {
-        "title": "classical",
+        "title": "Rockin' the Joint",
         "svg": "aerosmith.svg"
       }
     ]
@@ -203,8 +203,8 @@
     "link": "blur.co.uk",
     "logos": [
       {
-        "title": "classical",
-        "svg": "blur.svg"
+        "title": "Leisure",
+        "svg": "blur_leisure.svg"
       }
     ]
   },  {
@@ -214,8 +214,8 @@
     "link": "arcticmonkeys.com",
     "logos": [
       {
-        "title": "classical",
-        "svg": "arctic-monkeys.svg"
+        "title": "AM",
+        "svg": "arctic-monkeys_am.svg"
       }
     ]
   },  {
@@ -379,7 +379,16 @@
         "svg": "u2_how-to-dismantle-an-atomic-bomb.svg"
       }, {
         "title": "The Joshua Tree",
-        "svg": "u2_the-joshua-tree.svg"
+        "svg": "u2_the-joshua-tree.svg",
+        "class": "u2--the-joshua-tree"
+      }, {
+        "title": "The Joshua Tree",
+        "svg": "u2_the-joshua-tree.svg",
+        "class": "u2--the-joshua-tree-text"
+      }, {
+        "title": "Joshua Tree",
+        "svg": "u2_the-joshua-tree.svg",
+        "class": "u2--joshua-tree"
       }
     ]
   },  {
@@ -428,7 +437,7 @@
     "link": "wolfmother.com",
     "logos": [
       {
-        "title": "Classical",
+        "title": "Wolfmother",
         "svg": "wolfmother.svg"
       }
     ]
@@ -439,8 +448,8 @@
     "link": "coldplay.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "coldplay.svg"
+        "title": "Parachutes",
+        "svg": "coldplay_parachutes.svg"
       }
     ]
   },  {
@@ -450,7 +459,7 @@
     "link": "pantera.com",
     "logos": [
       {
-        "title": "Official",
+        "title": "Far Beyond Driven",
         "svg": "pantera.svg"
       },{
         "title": "CFH",
@@ -564,7 +573,11 @@
     "link": "nirvana.com",
     "logos": [
       {
-        "title": "Official",
+        "title": "Bleach",
+        "svg": "nirvana.svg",
+        "class": "nirvana--bleach"
+      }, {
+        "title": "Nevermind",
         "svg": "nirvana.svg"
       }, {
         "title": "Smile",
@@ -578,8 +591,8 @@
     "link": "manowar.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "manowar.svg"
+        "title": "Battle Hymns",
+        "svg": "manowar_battle-hymns.svg"
       },{
         "title": "Sign Of The Hammer",
         "svg": "manowar_sigh-of-the-hammer.svg"
@@ -606,8 +619,8 @@
     "link": "blind-guardian.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "blind-guardian.svg"
+        "title": "Battalions of Fear",
+        "svg": "blind-guardian_battalions-of-fear.svg"
       }
     ]
   },  {
@@ -650,8 +663,8 @@
     "link": "ghost-official.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "ghost.svg"
+        "title": "Opus Eponymous",
+        "svg": "ghost_opus-eponymous.svg"
       }
     ]
   },  {
@@ -688,8 +701,8 @@
     "link": "ronniejamesdio.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "dio.svg"
+        "title": "Holy Diver",
+        "svg": "dio_holy-diver.svg"
       }
     ]
   },  {
@@ -710,8 +723,8 @@
     "link": "nin.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "nine-inch-nails.svg"
+        "title": "The Fragile",
+        "svg": "nine-inch-nails_the-fragile.svg"
       }
     ]
   },  {
@@ -743,7 +756,7 @@
     "link": "anthrax.com",
     "logos": [
       {
-        "title": "Official",
+        "title": "Pentagram",
         "svg": "anthrax_pentagram.svg"
       }
     ]
@@ -845,8 +858,8 @@
     "link": "megadeth.com",
     "logos": [
       {
-        "title": "classical",
-        "svg": "megadeth.svg"
+        "title": "Peace Sells... but Who's Buying?",
+        "svg": "megadeth_peace-sells.svg"
       }, {
         "title": "Rust In Peace Nuclear Symbol",
         "svg": "megadeth_rust-in-peace-nuclear-symbol.svg"
@@ -882,8 +895,8 @@
     "link": "almah.com.br",
     "logos": [
       {
-        "title": "classical",
-        "svg": "almah.svg"
+        "title": "Fragile Equality",
+        "svg": "almah_fragile-equality.svg"
       }
     ]
   },  {
@@ -1096,19 +1109,19 @@
     "link": "50cent.com",
     "logos": [
       {
-        "title": "Classical",
+        "title": "Power of the Dollar",
         "svg": "50-cent.svg"
       }
     ]
   },  {
-    "name": "Baby Metal",
+    "name": "Babymetal",
     "origin": "Japan",
     "style": "Heavy Metal",
     "link": "babymetal.jp",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "baby-metal.svg"
+        "title": "Babymetal",
+        "svg": "babymetal.svg"
       }
     ]
   },  {
@@ -1185,8 +1198,8 @@
     "link": "abbasite.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "abba.svg"
+        "title": "Arrival",
+        "svg": "abba_arrival.svg"
       }
     ]
   },  {
@@ -1240,8 +1253,8 @@
     "link": "davidguetta.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "david-guetta.svg"
+        "title": "One Love",
+        "svg": "david-guetta_one-love.svg"
       }
     ]
   },  {
@@ -1273,8 +1286,8 @@
     "link": "oasisinet.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "oasis.svg"
+        "title": "Definitely Maybe",
+        "svg": "oasis_definitely-maybe.svg"
       }
     ]
   },  {
@@ -1345,7 +1358,7 @@
     "link": "facebook.com/Audioslave-165985866829751",
     "logos": [
       {
-        "title": "Official",
+        "title": "Audioslave",
         "svg": "audioslave.svg"
       }
     ]
