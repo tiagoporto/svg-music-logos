@@ -167,6 +167,9 @@
 .metal-church__text {
   fill: #f00;
 }
+.nirvana--bleach .nirvana__underline {
+  display: none;
+}
 .overdose--addicted-to-reality .overdose__shadow {
   fill: #666;
 }
@@ -207,6 +210,18 @@
 }
 .the-who--symbol .the-who__text {
   fill: rgba(255,255,255,0);
+}
+.u2--joshua-tree .u2__shadow,
+.u2--joshua-tree .u2__text,
+.u2--the-joshua-tree-text .u2__tree {
+  display: none;
+}
+.u2--the-joshua-tree .u2__shadow,
+.u2--the-joshua-tree-text .u2__shadow {
+  fill: #808080;
+}
+.u2--the-joshua-tree .u2__tree {
+  fill: #ccc;
 }
 .van-halen--II__letters {
   fill: #ececec;
