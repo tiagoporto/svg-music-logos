@@ -1,3 +1,7 @@
+$stroke
+    stroke-width: 1.5
+
+
 @keyframes iron-maiden-rotate
     from
         transform: rotate(0);
@@ -7,33 +11,33 @@
 .iron-maiden
     &--classical
         fill: red
-        stroke: white
-        stroke-width: 1.5
-
-        &-stroke
-            fill: rgba(#FFF, 0)
-            stroke: #000
-            stroke-width: 1.5
+        stroke: #FFF
+        @extend $stroke
 
     &--powerslave
         fill: #E2BE66
         stroke: #FFF
-        stroke-width: 1.5
+        @extend $stroke
+
+    &--seventh-son-of-a-seventh-son
+        fill: #1A0780
+        stroke: #EFD432
+        @extend $stroke
 
     &--somewhere-in-time
         fill: rgba(#FFF, 0)
         stroke: #FFCC00
-        stroke-width: 1.5
+        @extend $stroke
 
-    &--sliced-stroke
+    &--brave-new-world
         fill: rgba(#FFF, 0)
         stroke: #000
-        stroke-width: 1.5
+        @extend $stroke
 
     &--eddie-brave-new-world
         &__circle
-            fill: #FFFFFF
-            stroke: #000000
+            fill: #FFF
+            stroke: #000
             stroke-width: 1
         &__face
             fill: #FFFF00
@@ -54,7 +58,7 @@
             animation: iron-maiden-rotate 5s linear 0s infinite reverse
             transform-origin: 50% 50%
         &__ring-minor
-            fill:#535D6A;
+            fill: #535D6A
 
     &--six-six-six-flag &
         &__polygon

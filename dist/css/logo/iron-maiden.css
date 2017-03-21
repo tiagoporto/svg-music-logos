@@ -4,30 +4,32 @@
 *	Released under the MIT license
 */
 
+.iron-maiden--classical,
+.iron-maiden--powerslave,
+.iron-maiden--seventh-son-of-a-seventh-son,
+.iron-maiden--somewhere-in-time,
+.iron-maiden--brave-new-world {
+  stroke-width: 1.5;
+}
 .iron-maiden--classical {
   fill: #f00;
   stroke: #fff;
-  stroke-width: 1.5;
-}
-.iron-maiden--classical-stroke {
-  fill: rgba(255,255,255,0);
-  stroke: #000;
-  stroke-width: 1.5;
 }
 .iron-maiden--powerslave {
   fill: #e2be66;
   stroke: #fff;
-  stroke-width: 1.5;
+}
+.iron-maiden--seventh-son-of-a-seventh-son {
+  fill: #1a0780;
+  stroke: #efd432;
 }
 .iron-maiden--somewhere-in-time {
   fill: rgba(255,255,255,0);
   stroke: #fc0;
-  stroke-width: 1.5;
 }
-.iron-maiden--sliced-stroke {
+.iron-maiden--brave-new-world {
   fill: rgba(255,255,255,0);
   stroke: #000;
-  stroke-width: 1.5;
 }
 .iron-maiden--eddie-brave-new-world__circle {
   fill: #fff;

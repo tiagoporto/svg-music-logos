@@ -10,16 +10,9 @@
         "title": "The soundhouse Tapes",
         "svg": "iron-maiden_the-soundhouse-tapes.svg"
       }, {
-        "title": "Classical",
-        "svg": "iron-maiden.svg"
-      }, {
-        "title": "Classical",
+        "title": "Iron Maiden",
         "svg": "iron-maiden.svg",
         "class": "iron-maiden--classical"
-      }, {
-        "title": "Classical Stroke",
-        "svg": "iron-maiden.svg",
-        "class": "iron-maiden--classical-stroke"
       }, {
         "title": "Powerslave",
         "svg": "iron-maiden.svg",
@@ -29,16 +22,20 @@
         "svg": "iron-maiden.svg",
         "class": "iron-maiden--somewhere-in-time"
       }, {
+        "title": "Seventh Son of a Seventh Son",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--seventh-son-of-a-seventh-son"
+      }, {
         "title": "Live At Donington",
         "svg": "iron-maiden_live-at-donington.svg"
       }, {
-        "title": "Sliced",
-        "svg": "iron-maiden_sliced.svg",
-        "class": "iron-maiden--sliced"
+        "title": "Virtual XI",
+        "svg": "iron-maiden_virtual-xi.svg",
+        "class": "iron-maiden--virtual-xi"
       }, {
-        "title": "Sliced Stroke",
-        "svg": "iron-maiden_sliced.svg",
-        "class": "iron-maiden--sliced-stroke"
+        "title": "Brave New World",
+        "svg": "iron-maiden_virtual-xi.svg",
+        "class": "iron-maiden--brave-new-world"
       }, {
         "title": "Eddie - Brave New World",
         "svg": "iron-maiden_eddie-brave-new-world.svg"
@@ -94,7 +91,7 @@
     "link": "weezer.com",
     "logos": [
       {
-        "title": "Classical",
+        "title": "Weezer",
         "svg": "weezer.svg"
       }
     ]
@@ -105,7 +102,7 @@
     "link": "gorillaz.com",
     "logos": [
       {
-        "title": "classical",
+        "title": "Gorillaz",
         "svg": "gorillaz.svg"
       }
     ]
@@ -159,8 +156,8 @@
     "link": "savatage.com",
     "logos": [
       {
-        "title": "classical",
-        "svg": "savatage.svg"
+        "title": "Power of the Night",
+        "svg": "savatage_power-of-the-night.svg"
       }
     ]
   },  {
@@ -170,8 +167,12 @@
     "link": "kreator-terrorzone.de",
     "logos": [
       {
-        "title": "classical",
+        "title": "Flag of Hate",
         "svg": "kreator.svg"
+      }, {
+        "title": "Endless Pain",
+        "svg": "kreator.svg",
+        "class": "kreator--endless-pain"
       }
     ]
   },  {
@@ -181,8 +182,8 @@
     "link": "facebook.com/Rainbow-189246591087656/",
     "logos": [
       {
-        "title": "classical",
-        "svg": "rainbow.svg"
+        "title": "Rising",
+        "svg": "rainbow_rising.svg"
       }
     ]
   },  {
@@ -881,11 +882,11 @@
     "link": "ramones.com",
     "logos": [
       {
-        "title": "classical",
-        "svg": "ramones_symbol.svg"
-      }, {
-        "title": "classical",
+        "title": "Ramones",
         "svg": "ramones.svg"
+      }, {
+        "title": "Stamp",
+        "svg": "ramones_stamp.svg"
       }
     ]
   },  {
@@ -917,8 +918,8 @@
     "link": "whitesnake.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "whitesnake.svg"
+        "title": "Lovehunter",
+        "svg": "whitesnake_lovehunter.svg"
       }
     ]
   },  {
@@ -983,8 +984,8 @@
     "link": "trivium.org",
     "logos": [
       {
-        "title": "classical",
-        "svg": "trivium.svg"
+        "title": "Ascendancy",
+        "svg": "trivium_ascendancy.svg"
       }
     ]
   },  {
@@ -1019,8 +1020,8 @@
     "link": "therion.se",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "therion.svg"
+        "title": "Vovin",
+        "svg": "therion_vovin.svg"
       }
     ]
   },  {
@@ -1075,8 +1076,8 @@
     "link": "dokken.net",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "dokken.svg"
+        "title": "Breaking the Chains",
+        "svg": "dokken_breaking-the-chains.svg"
       }
     ]
   },  {
@@ -1187,8 +1188,8 @@
     "link": "rage-official.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "rage.svg"
+        "title": "Black in Mind",
+        "svg": "rage_black-in-mind.svg"
       }
     ]
   },  {
@@ -1231,8 +1232,8 @@
     "link": "paparoach.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "papa-roach.svg"
+        "title": "Old Friends from Young Years",
+        "svg": "papa-roach_old-friends-from-young-years.svg"
       }
     ]
   },  {
