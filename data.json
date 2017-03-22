@@ -26,6 +26,22 @@
         "svg": "iron-maiden.svg",
         "class": "iron-maiden--seventh-son-of-a-seventh-son"
       }, {
+        "title": "Wasted Years",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--wasted-years"
+      }, {
+        "title": "A Real Live One",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--a-real-live-one"
+      }, {
+        "title": "A Real Dead One",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--a-dead-live-one"
+      }, {
+        "title": "Best of b'Sides",
+        "svg": "iron-maiden.svg",
+        "class": "iron-maiden--best-of-b-sides"
+      }, {
         "title": "Live At Donington",
         "svg": "iron-maiden_live-at-donington.svg"
       }, {
@@ -804,14 +820,14 @@
     "link": "thewho.com",
     "logos": [
       {
-        "title": "classical",
+        "title": "Classical",
         "svg": "the-who.svg"
       }, {
-        "title": "classical text",
+        "title": "The Who Collection",
         "svg": "the-who.svg",
         "class": "the-who--text"
       }, {
-        "title": "classical symbol",
+        "title": "Target",
         "svg": "the-who.svg",
         "class": "the-who--symbol"
       }
@@ -845,8 +861,8 @@
     "link": "dreamtheater.net",
     "logos": [
       {
-        "title": "classical",
-        "svg": "dream-theater.svg"
+        "title": "Images and Words",
+        "svg": "dream-theater_images-and-words.svg"
       }, {
         "title": "Icon",
         "svg": "dream-theater_icon.svg"
@@ -929,8 +945,8 @@
     "link": "wutang-corp.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "wu-tang-clan.svg"
+        "title": "Wu-Tang Forever",
+        "svg": "wu-tang-clan_wu-tang-forever.svg"
       }
     ]
   },  {
@@ -1031,8 +1047,8 @@
     "link": "xjapanmusic.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "x-japan.svg"
+        "title": "Art of Life",
+        "svg": "x-japan_art-of-life.svg"
       }
     ]
   },  {
@@ -1065,8 +1081,8 @@
     "link": "doropesch.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "doro.svg"
+        "title": "Love Me in Black",
+        "svg": "doro_love-me-in-black.svg"
       }
     ]
   },  {
@@ -1087,8 +1103,8 @@
     "link": "drsinofficial.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "dr-sin.svg"
+        "title": "Insinity",
+        "svg": "dr-sin_insinity.svg"
       }
     ]
   },  {
@@ -1210,8 +1226,8 @@
     "link": "tiesto.com",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "tiesto.svg"
+        "title": "Elements of Life",
+        "svg": "tiesto_elements-of-life.svg"
       }
     ]
   },  {
