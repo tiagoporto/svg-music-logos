@@ -211,6 +211,9 @@
   stroke: #000;
   fill: rgba(255,255,255,0);
 }
+.rush__text {
+  fill: #e74658;
+}
 .sepultura--coat-of-arms .sepultura__title,
 .sepultura--coat-of-arms .sepultura__year,
 .sepultura--coat-of-arms .sepultura__gores {
