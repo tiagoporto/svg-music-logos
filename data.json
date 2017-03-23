@@ -415,7 +415,7 @@
     "link": "rush.com",
     "logos": [
       {
-        "title": "Original",
+        "title": "Rush",
         "svg": "rush.svg"
       }
     ]
@@ -707,7 +707,7 @@
     "link": "thedoors.com",
     "logos": [
       {
-        "title": "Official",
+        "title": "The Doors",
         "svg": "the-doors.svg"
       }
     ]
@@ -795,8 +795,8 @@
     "link": "gojira-music.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "gojira.svg"
+        "title": "Terra Incognita",
+        "svg": "gojira_terra-incognita.svg"
       }
     ]
   },  {
@@ -850,8 +850,8 @@
     "link": "diamond-head.net",
     "logos": [
       {
-        "title": "classical",
-        "svg": "diamond-head.svg"
+        "title": "Lightning to the Nations",
+        "svg": "diamond-head_lightning-to-the-nations.svg"
       }
     ]
   },  {
@@ -956,7 +956,7 @@
     "link": "twistedsister.com",
     "logos": [
       {
-        "title": "Classical",
+        "title": "Logo",
         "svg": "twisted-syster.svg"
       }
     ]
@@ -1025,8 +1025,8 @@
     "link": "thinlizzy.org",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "thin-lizzy.svg"
+        "title": "Fighting",
+        "svg": "thin-lizzy_fighting.svg"
       }
     ]
   },  {
@@ -1114,8 +1114,8 @@
     "link": "www.drowned.com.br",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "drowned.svg"
+        "title": "By the Grace of Evil",
+        "svg": "drowned_by-the-grace-of-evil.svg"
       }
     ]
   },  {
@@ -1160,8 +1160,8 @@
     "link": "edguy.net",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "edguy.svg"
+        "title": "Kingdom of Madness",
+        "svg": "edguy_kingdom-of-madness.svg"
       }
     ]
   },  {
@@ -1176,14 +1176,14 @@
       }
     ]
   },  {
-    "name": "Gammaray",
+    "name": "Gamma Ray",
     "origin": "Germany",
     "style": "Power Metal",
     "link": "gammaray.org",
     "logos": [
       {
-        "title": "Classical",
-        "svg": "gammaray.svg"
+        "title": "Land of the Free",
+        "svg": "gamma-ray_land-of-the-free.svg"
       }
     ]
   },  {
@@ -1292,8 +1292,8 @@
     "link": "excitermetal.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "exciter.svg"
+        "title": "Heavy Metal Maniac",
+        "svg": "exciter_heavy-metal-maniac.svg"
       }
     ]
   },  {
@@ -1325,8 +1325,8 @@
     "link": "en.wikipedia.org/wiki/The_Big_Four:_Live_from_Sofia,_Bulgaria",
     "logos": [
       {
-        "title": "Official",
-        "svg": "the-big-four.svg"
+        "title": "Live from Sofia, Bulgaria",
+        "svg": "the-big-four_live-from-sofia.svg"
       }
     ]
   },  {
@@ -1351,8 +1351,8 @@
     "link": "grave-digger.de",
     "logos": [
       {
-        "title": "Official",
-        "svg": "grave-digger.svg"
+        "title": "Heavy Metal Breakdown",
+        "svg": "grave-digger_heavy-metal-breakdown.svg"
       }
     ]
   },  {
