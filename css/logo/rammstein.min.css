@@ -3,4 +3,4 @@
 *	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
 *	Released under the MIT license
 */
-.rammstein__symbol--stroke polygon{stroke-width:3px;stroke:#000;fill:rgba(255,255,255,0)}
+.rammstein__symbol--stroke{stroke-width:3px;stroke:#000;fill:none}

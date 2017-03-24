@@ -4,9 +4,12 @@
 *	Released under the MIT license
 */
 
-.chickenfoot--III__red {
+.chickenfoot--III .chickenfoot__blue {
+  display: none;
+}
+.chickenfoot--III-limited .chickenfoot__red {
   fill: #e91a11;
 }
-.chickenfoot--III__blue {
+.chickenfoot--III-limited .chickenfoot__blue {
   fill: #b7e3fa;
 }

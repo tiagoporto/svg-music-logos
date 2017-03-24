@@ -27,7 +27,7 @@
   stroke: #efd432;
 }
 .iron-maiden--somewhere-in-time {
-  fill: rgba(255,255,255,0);
+  fill: none;
   stroke: #fc0;
 }
 .iron-maiden--a-real-live-one {
@@ -43,7 +43,7 @@
   stroke: #f00;
 }
 .iron-maiden--brave-new-world {
-  fill: rgba(255,255,255,0);
+  fill: none;
   stroke: #000;
 }
 .iron-maiden--eddie-brave-new-world__circle {

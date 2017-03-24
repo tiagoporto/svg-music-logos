@@ -155,10 +155,12 @@
         "svg": "chickenfoot.svg"
       }, {
         "title": "III",
-        "svg": "chickenfoot_III.svg"
+        "svg": "chickenfoot_III.svg",
+        "class": "chickenfoot--III"
       }, {
         "title": "III Limited",
-        "svg": "chickenfoot_III-limited.svg"
+        "svg": "chickenfoot_III-limited.svg",
+        "class": "chickenfoot--III-limited"
       }
     ]
   },  {

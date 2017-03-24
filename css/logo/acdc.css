@@ -4,24 +4,23 @@
 *	Released under the MIT license
 */
 
-.acdc--classical .acdc__fill path,
-.acdc--classical .acdc__fill polygon {
+.acdc--classical .acdc__fill {
   fill: #ef2334;
 }
-.acdc--classical .acdc__shadow-one polygon {
+.acdc--classical .acdc__shadow-one {
   fill: #e3051b;
 }
-.acdc--classical .acdc__shadow-two polygon {
+.acdc--classical .acdc__shadow-two {
   fill: #ffebcb;
 }
-.acdc--classical .acdc__shadow-three polygon {
+.acdc--classical .acdc__shadow-three {
   fill: #f7b28a;
 }
-.acdc--classical .acdc__shadow-four polygon {
+.acdc--classical .acdc__shadow-four {
   fill: #784500;
 }
 .acdc--back-in-black {
   stroke-width: 2px;
   stroke: #000;
-  fill: rgba(255,255,255,0);
+  fill: none;
 }

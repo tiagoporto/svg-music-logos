@@ -4,7 +4,6 @@
 *	Released under the MIT license
 */
 
-.judas-priest--symbol .judas-priest__lettering polygon,
-.judas-priest--symbol .judas-priest__lettering path {
-  fill: rgba(255,255,255,0);
+.judas-priest--symbol .judas-priest__lettering {
+  display: none;
 }
