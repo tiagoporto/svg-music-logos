@@ -26,10 +26,6 @@
         "svg": "iron-maiden.svg",
         "class": "iron-maiden--seventh-son-of-a-seventh-son"
       }, {
-        "title": "Wasted Years",
-        "svg": "iron-maiden.svg",
-        "class": "iron-maiden--wasted-years"
-      }, {
         "title": "A Real Live One",
         "svg": "iron-maiden.svg",
         "class": "iron-maiden--a-real-live-one"
@@ -307,17 +303,17 @@
     "link": "rammstein.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "rammstein.svg"
+        "title": "Herzeleid",
+        "svg": "rammstein_herzeleid.svg"
       }, {
-        "title": "Symbol",
+        "title": "R+",
         "svg": "rammstein_symbol.svg"
       }, {
-        "title": "Stroked Symbol",
+        "title": "R+ Stroked",
         "svg": "rammstein_symbol.svg",
         "class": "rammstein__symbol--stroke"
       }, {
-        "title": "Symbol Flat",
+        "title": "R+ Flat",
         "svg": "rammstein_symbol--flat.svg"
       }, {
         "title": "DR",
@@ -334,8 +330,8 @@
     "link": "thebeatles.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "the-beatles.svg"
+        "title": "Yellow Submarine",
+        "svg": "the-beatles_yellow-submarine.svg"
       }
     ]
   },  {
@@ -554,8 +550,11 @@
     "link": "kissonline.com",
     "logos": [
       {
-        "title": "Official",
+        "title": "Kiss",
         "svg": "kiss.svg"
+      }, {
+        "title": "Hotter than Hell",
+        "svg": "kiss_hotter-than-hell.svg"
       }, {
         "title": "Ikons",
         "svg": "kiss_ikons.svg"
@@ -658,8 +657,8 @@
     "link": "johnnycash.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "johnny-cash.svg"
+        "title": "American Recordings",
+        "svg": "johnny-cash_american-recordings.svg"
       }
     ]
   },  {
@@ -695,7 +694,7 @@
         "title": "Official",
         "svg": "judas-priest.svg"
       },{
-        "title": "symbol",
+        "title": "Cross",
         "svg": "judas-priest.svg",
         "class": "judas-priest--symbol"
       }
@@ -729,8 +728,19 @@
     "link": "korn.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "korn.svg"
+        "title": "Neidermayer's Mind",
+        "svg": "korn_neidermayers-mind.svg"
+      }
+    ]
+  },  {
+    "name": "Linkin Park",
+    "origin": "USA",
+    "style": "Nu Metal",
+    "link": "linkinpark.com",
+    "logos": [
+      {
+        "title": "LP",
+        "svg": "linkin-park_lp.svg"
       }
     ]
   },  {
@@ -751,8 +761,11 @@
     "link": "systemofadown.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "system-of-a-down.svg"
+        "title": "Mezmerize",
+        "svg": "system-of-a-down_mezmerize.svg"
+      }, {
+        "title": "Steal This Album!",
+        "svg": "system-of-a-down_steal-this-album.svg"
       }
     ]
   },  {
@@ -784,8 +797,8 @@
     "link": "kingdiamondcoven.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "king-diamond.svg"
+        "title": "Fatal Portrait",
+        "svg": "king-diamond_fatal-portrait.svg"
       }
     ]
   },  {
@@ -1363,8 +1376,8 @@
     "link": "metalchurchofficial.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "metal-church.svg"
+        "title": "The Dark",
+        "svg": "metal-church_the-dark.svg"
       }
     ]
   },  {
