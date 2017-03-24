@@ -204,6 +204,9 @@
 .linkin-park--lp .linkin-park__text {
   fill: #fff;
 }
+.metallica--scary-guy .metallica__blood {
+  fill: #ff281d;
+}
 .megadeth--rust-in-peace-nuclear-symbol .megadeth__triangles {
   fill: #faec02;
 }
