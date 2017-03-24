@@ -4,9 +4,9 @@
 *	Released under the MIT license
 */
 
-.megadeth--rust-in-peace-nuclear-symbol__triangles {
+.megadeth--rust-in-peace-nuclear-symbol .megadeth__triangles {
   fill: #faec02;
 }
-.megadeth--nuclear-symbol__symbol {
+.megadeth--nuclear-symbol .megadeth__symbol {
   fill: #faec02;
 }

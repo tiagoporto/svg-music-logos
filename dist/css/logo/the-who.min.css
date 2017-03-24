@@ -3,4 +3,4 @@
 *	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
 *	Released under the MIT license
 */
-.the-who--symbol .the-who__text,.the-who--text .the-who__symbol circle,.the-who--text .the-who__symbol path{fill:rgba(255,255,255,0)}
+.the-who--symbol .the-who__text,.the-who--text .the-who__symbol{display:none}

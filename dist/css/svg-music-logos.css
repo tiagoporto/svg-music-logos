@@ -16,26 +16,25 @@
 .fifth-cent__text {
   fill: #fff;
 }
-.acdc--classical .acdc__fill path,
-.acdc--classical .acdc__fill polygon {
+.acdc--classical .acdc__fill {
   fill: #ef2334;
 }
-.acdc--classical .acdc__shadow-one polygon {
+.acdc--classical .acdc__shadow-one {
   fill: #e3051b;
 }
-.acdc--classical .acdc__shadow-two polygon {
+.acdc--classical .acdc__shadow-two {
   fill: #ffebcb;
 }
-.acdc--classical .acdc__shadow-three polygon {
+.acdc--classical .acdc__shadow-three {
   fill: #f7b28a;
 }
-.acdc--classical .acdc__shadow-four polygon {
+.acdc--classical .acdc__shadow-four {
   fill: #784500;
 }
 .acdc--back-in-black {
   stroke-width: 2px;
   stroke: #000;
-  fill: rgba(255,255,255,0);
+  fill: none;
 }
 .audioslave__flame {
   fill: #f00;
@@ -54,11 +53,32 @@
 .bartucada__right-face {
   fill: #ffed00;
 }
-.chickenfoot--III__red {
+.chickenfoot--III .chickenfoot__blue {
+  display: none;
+}
+.chickenfoot--III-limited .chickenfoot__red {
   fill: #e91a11;
 }
-.chickenfoot--III__blue {
+.chickenfoot--III-limited .chickenfoot__blue {
   fill: #b7e3fa;
+}
+.diamond-head--lightning-to-the-nations .diamond-head__text {
+  fill: #fff;
+}
+.diamond-head--lightning-to-the-nations .diamond-head__star {
+  fill: #fff;
+}
+.diamond-head--lightning-to-the-nations .diamond-head__diamond-crown {
+  fill: url("#diamond-head__diamond-crown-gradiente");
+}
+.diamond-head--lightning-to-the-nations .diamond-head__diamond-facets {
+  fill: url("#diamond-head__diamond-facets-gradiente");
+  stroke: #fff;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+.diamond-head--lightning-to-the-nations .diamond-head__diamond-pavillion {
+  fill: url("#diamond-head__diamond-pavillion-gradiente");
 }
 .guns-n-roses--appetite-for-destruction .guns-n-roses__shadow {
   fill: #606060;
@@ -86,7 +106,7 @@
   stroke: #efd432;
 }
 .iron-maiden--somewhere-in-time {
-  fill: rgba(255,255,255,0);
+  fill: none;
   stroke: #fc0;
 }
 .iron-maiden--a-real-live-one {
@@ -102,7 +122,7 @@
   stroke: #f00;
 }
 .iron-maiden--brave-new-world {
-  fill: rgba(255,255,255,0);
+  fill: none;
   stroke: #000;
 }
 .iron-maiden--eddie-brave-new-world__circle {
@@ -168,22 +188,26 @@
 .jota-quest--discotecagem-pop-variada .jota-quest__star {
   fill: #fff;
 }
-.judas-priest--symbol .judas-priest__lettering polygon,
-.judas-priest--symbol .judas-priest__lettering path {
-  fill: rgba(255,255,255,0);
+.judas-priest--symbol .judas-priest__lettering {
+  display: none;
+}
+.kiss--hotter-than-hell .kiss__border {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
 }
 .kreator--endless-pain {
-  fill: rgba(255,255,255,0);
+  fill: none;
   stroke: #000;
   stroke-width: 1;
 }
 .linkin-park--lp .linkin-park__text {
   fill: #fff;
 }
-.megadeth--rust-in-peace-nuclear-symbol__triangles {
+.megadeth--rust-in-peace-nuclear-symbol .megadeth__triangles {
   fill: #faec02;
 }
-.megadeth--nuclear-symbol__symbol {
+.megadeth--nuclear-symbol .megadeth__symbol {
   fill: #faec02;
 }
 .metal-church__stroke {
@@ -204,10 +228,10 @@
 .overdose--seculo-xx .overdose__lettering {
   fill: #b91500;
 }
-.rammstein__symbol--stroke polygon {
+.rammstein__symbol--stroke {
   stroke-width: 3px;
   stroke: #000;
-  fill: rgba(255,255,255,0);
+  fill: none;
 }
 .rush__text {
   fill: #e74658;
@@ -232,12 +256,12 @@
 .sepultura--triangle .sepultura__field {
   fill: #ff8e1e;
 }
-.the-who--text .the-who__symbol circle,
-.the-who--text .the-who__symbol path {
-  fill: rgba(255,255,255,0);
-}
-.the-who--symbol .the-who__text {
-  fill: rgba(255,255,255,0);
+.the-who--text .the-who__symbol,
+.the-who--symbol .the-who__text,
+.u2--joshua-tree .u2__shadow,
+.u2--joshua-tree .u2__text,
+.u2--the-joshua-tree-text .u2__tree {
+  display: none;
 }
 .u2--joshua-tree .u2__shadow,
 .u2--joshua-tree .u2__text,
