@@ -8,7 +8,6 @@
 .iron-maiden--powerslave,
 .iron-maiden--seventh-son-of-a-seventh-son,
 .iron-maiden--somewhere-in-time,
-.iron-maiden--wasted-years,
 .iron-maiden--a-real-live-one,
 .iron-maiden--a-dead-live-one,
 .iron-maiden--best-of-b-sides,
@@ -30,10 +29,6 @@
 .iron-maiden--somewhere-in-time {
   fill: rgba(255,255,255,0);
   stroke: #fc0;
-}
-.iron-maiden--wasted-years {
-  fill: rgba(255,255,255,0);
-  stroke: #569d32;
 }
 .iron-maiden--a-real-live-one {
   fill: #089ab3;
