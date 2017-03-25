@@ -39,9 +39,6 @@
 .audioslave__flame {
   fill: #f00;
 }
-.bon-jovi--have-a-nice-day-smile .bon-jovi__background {
-  fill: #d42423;
-}
 .bartucada__shadow {
   fill: #fff;
 }
@@ -53,6 +50,9 @@
 .bartucada__right-face {
   fill: #ffed00;
 }
+.bon-jovi--have-a-nice-day-smile .bon-jovi__background {
+  fill: #d42423;
+}
 .chickenfoot--III .chickenfoot__blue {
   display: none;
 }
@@ -61,6 +61,9 @@
 }
 .chickenfoot--III-limited .chickenfoot__blue {
   fill: #b7e3fa;
+}
+.death--the-sound-of-perseverance .death__text {
+  fill: #af8358;
 }
 .diamond-head--lightning-to-the-nations .diamond-head__text {
   fill: #fff;
@@ -188,9 +191,6 @@
 .jota-quest--discotecagem-pop-variada .jota-quest__star {
   fill: #fff;
 }
-.judas-priest--symbol .judas-priest__lettering {
-  display: none;
-}
 .kiss--hotter-than-hell .kiss__border {
   fill: none;
   stroke: #000;
@@ -204,9 +204,6 @@
 .linkin-park--lp .linkin-park__text {
   fill: #fff;
 }
-.metallica--scary-guy .metallica__blood {
-  fill: #ff281d;
-}
 .megadeth--rust-in-peace-nuclear-symbol .megadeth__triangles {
   fill: #faec02;
 }
@@ -218,6 +215,9 @@
 }
 .metal-church__text {
   fill: #f00;
+}
+.metallica--scary-guy .metallica__blood {
+  fill: #ff281d;
 }
 .nirvana--bleach .nirvana__underline {
   display: none;

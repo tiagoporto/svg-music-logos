@@ -696,12 +696,11 @@
     "link": "judaspriest.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "judas-priest.svg"
+        "title": "Stained Class",
+        "svg": "judas-priest_stained-class.svg"
       },{
         "title": "Cross",
-        "svg": "judas-priest.svg",
-        "class": "judas-priest--symbol"
+        "svg": "judas-priest_cross.svg"
       }
     ]
   },  {
@@ -857,8 +856,8 @@
     "link": "emptywords.org",
     "logos": [
       {
-        "title": "classical",
-        "svg": "death.svg"
+        "title": "The Sound of Perseverance",
+        "svg": "death_the-sound-of-perseverance.svg"
       }
     ]
   },  {
@@ -1524,8 +1523,8 @@
     "link": "vai.com",
     "logos": [
       {
-        "title": "Vai Logo",
-        "svg": "steve-vai_vai-logo.svg"
+        "title": "Logo",
+        "svg": "steve-vai_logo.svg"
       }
     ]
   }
