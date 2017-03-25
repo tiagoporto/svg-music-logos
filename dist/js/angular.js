@@ -37,7 +37,7 @@ angular.module('main.controller', ['ngFileSaver']).controller('MainCtrl', ['$sco
     $scope.search = $routeParams.search;
 
     $scope.download = function (event, css, fileName) {
-        var svg = new XMLSerializer().serializeToString(event.target.previousElementSibling);
+        var svg = new XMLSerializer().serializeToString(event.target.parentElement.previousElementSibling);
 
         var save = function save(content) {
             var file = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : fileName;

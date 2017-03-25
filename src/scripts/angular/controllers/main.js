@@ -8,7 +8,7 @@ angular.module('main.controller', ['ngFileSaver'])
     $scope.search = $routeParams.search;
 
     $scope.download = (event, css, fileName) => {
-        const svg = (new XMLSerializer()).serializeToString(event.target.previousElementSibling);
+        const svg = (new XMLSerializer()).serializeToString(event.target.parentElement.previousElementSibling);
 
         const save = (content, file = fileName) => {
             content = new Blob([content], { type: 'text/plain' });
