@@ -176,6 +176,7 @@
     ]
   },  {
     "name": "Kreator",
+    "css": "kreator.css",
     "origin": "Germany",
     "style": "Thrash Metal",
     "link": "kreator-terrorzone.de",
@@ -209,6 +210,9 @@
       {
         "title": "Constrictor",
         "svg": "alice-cooper_constrictor.svg"
+      }, {
+        "title": "Dragontown",
+        "svg": "alice-cooper_dragontown.svg"
       }
     ]
   },  {
@@ -235,6 +239,7 @@
     ]
   },  {
     "name": "Metallica",
+    "css": "metallica.css",
     "origin": "USA",
     "style": "Thrash Metal",
     "link": "metallica.com",
@@ -246,11 +251,11 @@
         "title": "Star",
         "svg": "metallica_star.svg"
       }, {
-        "title": "Scary Guy Skullhawk",
-        "svg": "metallica_scary-guy-skullhawk.svg"
-      }, {
         "title": "Scary Guy",
         "svg": "metallica_scary-guy.svg"
+      }, {
+        "title": "Scary Guy Skullhawk",
+        "svg": "metallica_scary-guy-skullhawk.svg"
       }, {
         "title": "Garage",
         "svg": "metallica_garage-inc.svg"
@@ -382,6 +387,7 @@
     ]
   },  {
     "name": "U2",
+    "css": "u2.css",
     "origin": "Ireland",
     "style": "Rock",
     "link": "u2.com",
@@ -411,6 +417,7 @@
     ]
   },  {
     "name": "Rush",
+    "css": "rush.css",
     "origin": "Canada",
     "style": "Progressive rock",
     "link": "rush.com",
@@ -550,6 +557,7 @@
     ]
   },  {
     "name": "KISS",
+    "css": "kiss.css",
     "origin": "USA",
     "style": "Hard Rock",
     "link": "kissonline.com",
@@ -589,6 +597,7 @@
     ]
   },  {
     "name": "Nirvana",
+    "css": "nirvana.css",
     "origin": "USA",
     "style": "Grunge",
     "link": "nirvana.com",
@@ -690,7 +699,6 @@
     ]
   },  {
     "name": "Judas Priest",
-    "css": "judas-priest.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "judaspriest.com",
@@ -738,6 +746,7 @@
     ]
   },  {
     "name": "Linkin Park",
+    "css": "linkin-park.css",
     "origin": "USA",
     "style": "Nu Metal",
     "link": "linkinpark.com",
@@ -832,6 +841,7 @@
     ]
   },  {
     "name": "The Who",
+    "css": "the-who.css",
     "origin": "England",
     "style": "Hard Rock",
     "link": "thewho.com",
@@ -851,6 +861,7 @@
     ]
   },  {
     "name": "Death",
+    "css": "death.css",
     "origin": "USA",
     "style": "Death Metal",
     "link": "emptywords.org",
@@ -862,6 +873,7 @@
     ]
   },  {
     "name": "Diamond Head",
+    "css": "diamond-head.css",
     "origin": "England",
     "style": "Heavy Metal",
     "link": "diamond-head.net",
@@ -887,6 +899,7 @@
     ]
  },  {
     "name": "Megadeth",
+    "css": "megadeth.css",
     "origin": "USA",
     "style": "Thrash Metal",
     "link": "megadeth.com",
@@ -1166,8 +1179,22 @@
     "link": "bonjovi.com",
     "logos": [
       {
+        "title": "Crush",
+        "svg": "bon-jovi_crush.svg"
+      }, {
         "title": "Have a Nice Day Smile",
         "svg": "bon-jovi_have-a-nice-day-smile.svg"
+      }
+    ]
+  },  {
+    "name": "James Hetfield",
+    "origin": "U.S.A.",
+    "style": "Thrash Metal",
+    "link": "metallica.com",
+    "logos": [
+      {
+        "title": "Autograph",
+        "svg": "james-hetfield.svg"
       }
     ]
   },  {
@@ -1471,6 +1498,7 @@
     ]
   },  {
     "name": "Bartucada",
+    "css": "bartucada.css",
     "origin": "Brazil",
     "style": "Brazilian Songs",
     "link": "bartucada.com.br",
@@ -1507,6 +1535,7 @@
     ]
   },  {
     "name": "Jota Quest",
+    "css": "jota-quest.css",
     "origin": "Brazil",
     "style": "Pop",
     "link": "jotaquest.com.br",
