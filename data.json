@@ -194,11 +194,33 @@
     "name": "Rainbow",
     "origin": "England",
     "style": "Heavy Metal",
-    "link": "facebook.com/Rainbow-189246591087656/",
+    "link": "facebook.com/Rainbow-189246591087656",
     "logos": [
       {
         "title": "Rising",
         "svg": "rainbow_rising.svg"
+      }
+    ]
+  },  {
+    "name": "Amon Amarth",
+    "origin": "Sweden",
+    "style": "Melodic death metal",
+    "link": "amonamarth.com",
+    "logos": [
+      {
+        "title": "Sorrow Throughout the Nine Worlds",
+        "svg": "amon-amarth_sorrow-throughout-the-nine-worlds.svg"
+      }
+    ]
+  },  {
+    "name": "Björk",
+    "origin": "Iceland",
+    "style": "Art Pop",
+    "link": "bjork.com",
+    "logos": [
+      {
+        "title": "Family Tree",
+        "svg": "bjork_family-tree.svg"
       }
     ]
   },  {
@@ -213,6 +235,9 @@
       }, {
         "title": "Dragontown",
         "svg": "alice-cooper_dragontown.svg"
+      }, {
+        "title": "Dirty Diamonds",
+        "svg": "alice-cooper_dirty-diamonds.svg"
       }
     ]
   },  {
@@ -1041,11 +1066,11 @@
     "link": "tianastacia.com.br",
     "logos": [
       {
-        "title": "Horizontal",
-        "svg": "tianastacia_horizontal.svg"
+        "title": "Tianastácia",
+        "svg": "tianastacia.svg"
       }, {
-        "title": "Vertical",
-        "svg": "tianastacia_vertical.svg"
+        "title": "Tá na Boa",
+        "svg": "tianastacia_ta-na-boa.svg"
       }
     ]
   },  {
