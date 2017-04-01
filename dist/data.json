@@ -213,6 +213,17 @@
       }
     ]
   },  {
+    "name": "Anti-Flag",
+    "origin": "U.S.A",
+    "style": "Punk Rock",
+    "link": "anti-flag.com",
+    "logos": [
+      {
+        "title": "The People or the Gun",
+        "svg": "anti-flag_the-people-or-the-gun.svg"
+      }
+    ]
+  },  {
     "name": "Björk",
     "origin": "Iceland",
     "style": "Art Pop",
