@@ -39,6 +39,12 @@
 .audioslave__flame {
   fill: #f00;
 }
+.bad-religion--cross .bad-religion__border {
+  fill: #fff;
+}
+.bad-religion--cross .bad-religion__cross {
+  fill: #f00;
+}
 .bartucada__shadow {
   fill: #fff;
 }
@@ -72,16 +78,16 @@
   fill: #fff;
 }
 .diamond-head--lightning-to-the-nations .diamond-head__diamond-crown {
-  fill: url("#diamond-head__diamond-crown-gradiente");
+  fill: url("#diamond-head__diamond-crown-gradient");
 }
 .diamond-head--lightning-to-the-nations .diamond-head__diamond-facets {
-  fill: url("#diamond-head__diamond-facets-gradiente");
+  fill: url("#diamond-head__diamond-facets-gradient");
   stroke: #fff;
   stroke-width: 3;
   stroke-miterlimit: 10;
 }
 .diamond-head--lightning-to-the-nations .diamond-head__diamond-pavillion {
-  fill: url("#diamond-head__diamond-pavillion-gradiente");
+  fill: url("#diamond-head__diamond-pavillion-gradient");
 }
 .guns-n-roses--appetite-for-destruction .guns-n-roses__shadow {
   fill: #606060;
@@ -187,16 +193,23 @@
             transform: rotate(360deg);
   }
 }
+.felipe-andreoli__border {
+  fill: #aaa;
+}
+.felipe-andreoli__foreground {
+  fill: url("#felipe-andreoli__foreground-gradient");
+}
+.felipe-andreoli__first-color {
+  stop-color: #ff0;
+}
+.felipe-andreoli__second-color {
+  stop-color: #cf0000;
+}
 .jota-quest--discotecagem-pop-variada .jota-quest__letter,
 .jota-quest--discotecagem-pop-variada .jota-quest__star {
   fill: #fff;
 }
 .kiss--hotter-than-hell .kiss__border {
-  fill: none;
-  stroke: #000;
-  stroke-width: 1;
-}
-.kreator--endless-pain {
   fill: none;
   stroke: #000;
   stroke-width: 1;
@@ -218,6 +231,9 @@
 }
 .metallica--scary-guy .metallica__blood {
   fill: #ff281d;
+}
+.metallica--scary-guy-wings .metallica__foreground {
+  fill: #fff;
 }
 .nirvana--bleach .nirvana__underline {
   display: none;

@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425.2 425.2" class="diamond-head--lightning-to-the-nations">
     <g class="diamond-head__diamond">
-        <linearGradient id="diamond-head__diamond-crown-gradiente" gradientUnits="userSpaceOnUse" x1="212.6" y1="89.309" x2="212.6" y2="165.457">
+        <linearGradient id="diamond-head__diamond-crown-gradient" gradientUnits="userSpaceOnUse" x1="212.6" y1="89.309" x2="212.6" y2="165.457">
             <stop offset="0" stop-color="#AFD9F4"/>
             <stop offset="1" stop-color="#EAF4F6"/>
         </linearGradient>
         <path class="diamond-head__diamond-crown" d="M212.6 85.86H64.17l-48.525 79.21h393.91L361.03 85.86z"/>
 
-        <linearGradient id="diamond-head__diamond-facets-gradiente" gradientUnits="userSpaceOnUse" x1="313.615" y1="88.595" x2="313.615" y2="165.394">
+        <linearGradient id="diamond-head__diamond-facets-gradient" gradientUnits="userSpaceOnUse" x1="313.615" y1="88.595" x2="313.615" y2="165.394">
             <stop offset="0" stop-color="#92CFF1"/>
             <stop offset="1" stop-color="#C8E6F3"/>
         </linearGradient>
@@ -14,7 +14,7 @@
         <path class="diamond-head__diamond-facets" d="M158.567 85.86H64.17l47.198 79.686z"/>
         <path class="diamond-head__diamond-facets" d="M259.8 85.86h-94.4l47.2 79.686z"/>
 
-        <linearGradient id="diamond-head__diamond-pavillion-gradiente" gradientUnits="userSpaceOnUse" x1="212.6" y1="166.378" x2="212.6" y2="422.293">
+        <linearGradient id="diamond-head__diamond-pavillion-gradient" gradientUnits="userSpaceOnUse" x1="212.6" y1="166.378" x2="212.6" y2="422.293">
             <stop offset="0" stop-color="#73C6EF"/>
             <stop offset=".105" stop-color="#8CD0F0"/>
             <stop offset=".274" stop-color="#AEDDF2"/>
