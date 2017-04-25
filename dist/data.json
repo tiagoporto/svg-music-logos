@@ -288,6 +288,17 @@
       }
     ]
   },  {
+    "name": "Felipe Andreoli",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "felipeandreoli.com",
+    "logos": [
+      {
+        "title": "FA",
+        "svg": "felipe-andreoli.svg"
+      }
+    ]
+  },  {
     "name": "Metallica",
     "css": "metallica.css",
     "origin": "USA",

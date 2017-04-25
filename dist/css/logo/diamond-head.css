@@ -11,14 +11,14 @@
   fill: #fff;
 }
 .diamond-head--lightning-to-the-nations .diamond-head__diamond-crown {
-  fill: url("#diamond-head__diamond-crown-gradiente");
+  fill: url("#diamond-head__diamond-crown-gradient");
 }
 .diamond-head--lightning-to-the-nations .diamond-head__diamond-facets {
-  fill: url("#diamond-head__diamond-facets-gradiente");
+  fill: url("#diamond-head__diamond-facets-gradient");
   stroke: #fff;
   stroke-width: 3;
   stroke-miterlimit: 10;
 }
 .diamond-head--lightning-to-the-nations .diamond-head__diamond-pavillion {
-  fill: url("#diamond-head__diamond-pavillion-gradiente");
+  fill: url("#diamond-head__diamond-pavillion-gradient");
 }

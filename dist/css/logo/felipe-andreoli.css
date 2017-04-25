@@ -1,0 +1,18 @@
+/*!	SVG Music Logos
+*	https://github.com/tiagoporto/svg-music-logos
+*	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
+*	Released under the MIT license
+*/
+
+.felipe-andreoli__border {
+  fill: #aaa;
+}
+.felipe-andreoli__foreground {
+  fill: url("#felipe-andreoli__foreground-gradient");
+}
+.felipe-andreoli__first-color {
+  stop-color: #ff0;
+}
+.felipe-andreoli__second-color {
+  stop-color: #cf0000;
+}
