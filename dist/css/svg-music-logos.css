@@ -39,6 +39,12 @@
 .audioslave__flame {
   fill: #f00;
 }
+.bad-religion--cross .bad-religion__border {
+  fill: #fff;
+}
+.bad-religion--cross .bad-religion__cross {
+  fill: #f00;
+}
 .bartucada__shadow {
   fill: #fff;
 }
@@ -192,11 +198,6 @@
   fill: #fff;
 }
 .kiss--hotter-than-hell .kiss__border {
-  fill: none;
-  stroke: #000;
-  stroke-width: 1;
-}
-.kreator--endless-pain {
   fill: none;
   stroke: #000;
   stroke-width: 1;
