@@ -370,6 +370,18 @@
     }
   ]
   },  {
+  "name": "ZZ Top",
+  "css": "acdc.css",
+  "origin": "U.S.A.",
+  "style": "Blues Rock",
+  "link": "zztop.com",
+  "logos": [
+    {
+      "title": "Eliminator",
+      "svg": "zz-top_eliminator.svg"
+    }
+  ]
+  },  {
     "name": "Rammstein",
     "css": "rammstein.css",
     "origin": "Germany",
