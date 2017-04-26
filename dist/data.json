@@ -105,6 +105,9 @@
       {
         "title": "Weezer",
         "svg": "weezer.svg"
+      }, {
+        "title": "Flying =W=",
+        "svg": "weezer_flying-w.svg"
       }
     ]
   },  {
@@ -379,6 +382,18 @@
     {
       "title": "Eliminator",
       "svg": "zz-top_eliminator.svg"
+    }
+  ]
+  },  {
+  "name": "Slash",
+  "css": "acdc.css",
+  "origin": "England",
+  "style": "Hard Rock",
+  "link": "slashonline.com",
+  "logos": [
+    {
+      "title": "South Park",
+      "svg": "slash_south-park.svg"
     }
   ]
   },  {
@@ -1007,8 +1022,8 @@
         "title": "Ramones",
         "svg": "ramones.svg"
       }, {
-        "title": "Stamp",
-        "svg": "ramones_stamp.svg"
+        "title": "Seal",
+        "svg": "ramones_seal.svg"
       }
     ]
   },  {
