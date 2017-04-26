@@ -105,6 +105,9 @@
       {
         "title": "Weezer",
         "svg": "weezer.svg"
+      }, {
+        "title": "Flying =W=",
+        "svg": "weezer_flying-w.svg"
       }
     ]
   },  {
@@ -367,6 +370,30 @@
       "title": "Back in Black",
       "svg": "acdc.svg",
       "class": "acdc--back-in-black"
+    }
+  ]
+  },  {
+  "name": "ZZ Top",
+  "css": "acdc.css",
+  "origin": "U.S.A.",
+  "style": "Blues Rock",
+  "link": "zztop.com",
+  "logos": [
+    {
+      "title": "Eliminator",
+      "svg": "zz-top_eliminator.svg"
+    }
+  ]
+  },  {
+  "name": "Slash",
+  "css": "slash.css",
+  "origin": "England",
+  "style": "Hard Rock",
+  "link": "slashonline.com",
+  "logos": [
+    {
+      "title": "South Park",
+      "svg": "slash_south-park.svg"
     }
   ]
   },  {
@@ -995,8 +1022,8 @@
         "title": "Ramones",
         "svg": "ramones.svg"
       }, {
-        "title": "Stamp",
-        "svg": "ramones_stamp.svg"
+        "title": "Seal",
+        "svg": "ramones_seal.svg"
       }
     ]
   },  {
