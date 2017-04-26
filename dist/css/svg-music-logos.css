@@ -89,6 +89,18 @@
 .diamond-head--lightning-to-the-nations .diamond-head__diamond-pavillion {
   fill: url("#diamond-head__diamond-pavillion-gradient");
 }
+.felipe-andreoli__border {
+  fill: #aaa;
+}
+.felipe-andreoli__foreground {
+  fill: url("#felipe-andreoli__foreground-gradient");
+}
+.felipe-andreoli__first-color {
+  stop-color: #ff0;
+}
+.felipe-andreoli__second-color {
+  stop-color: #cf0000;
+}
 .guns-n-roses--appetite-for-destruction .guns-n-roses__shadow {
   fill: #606060;
 }
@@ -192,18 +204,6 @@
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
-}
-.felipe-andreoli__border {
-  fill: #aaa;
-}
-.felipe-andreoli__foreground {
-  fill: url("#felipe-andreoli__foreground-gradient");
-}
-.felipe-andreoli__first-color {
-  stop-color: #ff0;
-}
-.felipe-andreoli__second-color {
-  stop-color: #cf0000;
 }
 .jota-quest--discotecagem-pop-variada .jota-quest__letter,
 .jota-quest--discotecagem-pop-variada .jota-quest__star {
