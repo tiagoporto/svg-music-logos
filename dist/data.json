@@ -421,8 +421,19 @@
     "link": "burzum.org",
     "logos": [
       {
-        "title": "demo",
+        "title": "Demo",
         "svg": "burzum_demo.svg"
+      }
+    ]
+  },  {
+    "name": "Counting Crows",
+    "origin": "U.S.A.",
+    "style": "Alternative Rock",
+    "link": "countingcrows.com",
+    "logos": [
+      {
+        "title": "August and Everything After",
+        "svg": "counting_crows-august_and_everything_after.svg"
       }
     ]
   },  {
