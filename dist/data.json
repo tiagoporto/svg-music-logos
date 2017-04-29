@@ -72,11 +72,18 @@
       }, {
         "title": "Legacy Of The Beast - 666 Flag",
         "svg": "iron-maiden_666-flag.svg"
-      }, {
+      }
+    ]
+  }, {
+    "name": "Iron Maiden - Derek Riggs",
+    "origin": "England",
+    "link": "derekriggs.com",
+    "logos": [
+      {
         "title": "Derek Riggs Signature",
         "svg": "iron-maiden_derek-riggs.svg"
       }, {
-        "title": "Derek Riggs - Eddie Badge Somewhere in Time",
+        "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
         "svg": "iron-maiden_derek-riggs.svg",
         "class": "derek-riggs--badge"
       }
@@ -434,6 +441,39 @@
       {
         "title": "August and Everything After",
         "svg": "counting_crows-august_and_everything_after.svg"
+      }
+    ]
+  },  {
+    "name": "Damageplan",
+    "origin": "U.S.A.",
+    "style": "Thrash Metal",
+    "link": "damageplan.com",
+    "logos": [
+      {
+        "title": "New Found Power",
+        "svg": "damageplan_new-found-power.svg"
+      }
+    ]
+  },  {
+    "name": "Dead Kennedys",
+    "origin": "U.S.A.",
+    "style": "Punk Rock",
+    "link": "deadkennedys.com",
+    "logos": [
+      {
+        "title": "Logo",
+        "svg": "dead_kennedys.svg"
+      }
+    ]
+  },  {
+    "name": "The XX",
+    "origin": "England",
+    "style": "Indie Pop",
+    "link": "thexx.info",
+    "logos": [
+      {
+        "title": "XX",
+        "svg": "the-xx_xx.svg"
       }
     ]
   },  {
