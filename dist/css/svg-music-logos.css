@@ -71,6 +71,18 @@
 .death--the-sound-of-perseverance .death__text {
   fill: #af8358;
 }
+.derek-riggs__background,
+.derek-riggs__foreground {
+  display: none;
+}
+.derek-riggs--badge .derek-riggs__background {
+  display: block;
+}
+.derek-riggs--badge .derek-riggs__signature,
+.derek-riggs--badge .derek-riggs__foreground {
+  display: block;
+  fill: #fcfc00;
+}
 .diamond-head--lightning-to-the-nations .diamond-head__text {
   fill: #fff;
 }

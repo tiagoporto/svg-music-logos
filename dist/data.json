@@ -72,6 +72,13 @@
       }, {
         "title": "Legacy Of The Beast - 666 Flag",
         "svg": "iron-maiden_666-flag.svg"
+      }, {
+        "title": "Derek Riggs Signature",
+        "svg": "iron-maiden_derek-riggs.svg"
+      }, {
+        "title": "Derek Riggs - Eddie Badge Somewhere in Time",
+        "svg": "iron-maiden_derek-riggs.svg",
+        "class": "derek-riggs--badge"
       }
     ]
   }, {
