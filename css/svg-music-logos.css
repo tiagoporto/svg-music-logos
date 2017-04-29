@@ -71,6 +71,12 @@
 .death--the-sound-of-perseverance .death__text {
   fill: #af8358;
 }
+.dead-kennedys__circle {
+  fill: #f00;
+}
+.dead-kennedys__shine {
+  fill: #fff;
+}
 .derek-riggs__background,
 .derek-riggs__foreground {
   display: none;
