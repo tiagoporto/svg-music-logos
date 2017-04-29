@@ -7,7 +7,7 @@
                 <a class="card__link-title" href="http://{{band.link}}" title="{{band.name}} Website">{{band.name}}</a>
             </h2>
 
-            <p>Style: {{band.style}}</p>
+            <p ng-if="band.style">Style: {{band.style}}</p>
             <p>Origin: {{band.origin}}</p>
 
             <p>{{band.logo.title}}</p>
