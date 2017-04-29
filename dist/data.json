@@ -461,8 +461,8 @@
     "link": "deadkennedys.com",
     "logos": [
       {
-        "title": "Logo",
-        "svg": "dead_kennedys.svg"
+        "title": "DK",
+        "svg": "dead_kennedys_dk.svg"
       }
     ]
   },  {
@@ -714,7 +714,7 @@
     "logos": [
       {
         "title": "Henry",
-        "svg": "black-sabbath_demon.svg"
+        "svg": "black-sabbath_henry.svg"
       }, {
         "title": "Vol 4",
         "svg": "black-sabbath_vol4.svg"
@@ -1064,8 +1064,8 @@
         "title": "Images and Words",
         "svg": "dream-theater_images-and-words.svg"
       }, {
-        "title": "Icon",
-        "svg": "dream-theater_icon.svg"
+        "title": "The majesty symbol",
+        "svg": "dream-theater_majesty-symbol.svg"
       }
     ]
  },  {
@@ -1663,7 +1663,7 @@
     "link": "emersonlakeandpalmer.com",
     "logos": [
       {
-        "title": "Symbol",
+        "title": "ELP",
         "svg": "elp-symbol.svg"
       }
     ]

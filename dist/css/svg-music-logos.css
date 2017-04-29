@@ -256,6 +256,9 @@
 .nirvana--bleach .nirvana__underline {
   display: none;
 }
+.oasis--definitely-maybe .oasis__background {
+  fill: #fff;
+}
 .overdose--addicted-to-reality .overdose__shadow {
   fill: #666;
 }
