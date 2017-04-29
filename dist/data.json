@@ -411,7 +411,18 @@
     "logos": [
       {
         "title": "A Crow Left of the Murder...",
-        "svg": "Incubus_a-crow-left-of-the-murder.svg"
+        "svg": "incubus_a-crow-left-of-the-murder.svg"
+      }
+    ]
+  },  {
+    "name": "Burzum",
+    "origin": "Norway",
+    "style": "Black Metal",
+    "link": "burzum.org",
+    "logos": [
+      {
+        "title": "demo",
+        "svg": "burzum_demo.svg"
       }
     ]
   },  {
