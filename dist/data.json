@@ -81,7 +81,8 @@
     "logos": [
       {
         "title": "Derek Riggs Signature",
-        "svg": "iron-maiden_derek-riggs.svg"
+        "svg": "iron-maiden_derek-riggs.svg",
+        "class": "derek-riggs--signature"
       }, {
         "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
         "svg": "iron-maiden_derek-riggs.svg",
@@ -1065,7 +1066,12 @@
         "svg": "dream-theater_images-and-words.svg"
       }, {
         "title": "The majesty symbol",
-        "svg": "dream-theater_majesty-symbol.svg"
+        "svg": "dream-theater_majesty-symbol.svg",
+        "class": "dream-theater--majesty-symbol"
+      }, {
+        "title": "The majesty symbol",
+        "svg": "dream-theater_majesty-symbol.svg",
+        "class": "dream-theater--full-majesty-symbol"
       }
     ]
  },  {

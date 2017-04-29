@@ -71,22 +71,33 @@
 .death--the-sound-of-perseverance .death__text {
   fill: #af8358;
 }
+.dream-theater--full-majesty-symbol .dream-theater__background {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 3.5;
+}
+.dream-theater--full-majesty-symbol .dream-theater__foreground {
+  fill: #e32130;
+}
+.dream-theater--full-majesty-symbol .dream-theater__symbol {
+  fill: #fff;
+}
+.dream-theater--majesty-symbol .dream-theater__background,
+.dream-theater--majesty-symbol .dream-theater__foreground {
+  display: none;
+}
 .dead-kennedys__circle {
   fill: #f00;
 }
 .dead-kennedys__shine {
   fill: #fff;
 }
-.derek-riggs__background,
-.derek-riggs__foreground {
+.derek-riggs--signature .derek-riggs__background,
+.derek-riggs--signature .derek-riggs__foreground {
   display: none;
-}
-.derek-riggs--badge .derek-riggs__background {
-  display: block;
 }
 .derek-riggs--badge .derek-riggs__signature,
 .derek-riggs--badge .derek-riggs__foreground {
-  display: block;
   fill: #fcfc00;
 }
 .diamond-head--lightning-to-the-nations .diamond-head__text {
