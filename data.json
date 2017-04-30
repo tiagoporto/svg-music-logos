@@ -77,15 +77,28 @@
   }, {
     "name": "Iron Maiden - Derek Riggs",
     "origin": "England",
+    "css": "derek-riggs.styl",
     "link": "derekriggs.com",
     "logos": [
       {
         "title": "Derek Riggs Signature",
-        "svg": "iron-maiden_derek-riggs.svg"
+        "svg": "iron-maiden_derek-riggs.svg",
+        "class": "derek-riggs--signature"
       }, {
         "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
         "svg": "iron-maiden_derek-riggs.svg",
         "class": "derek-riggs--badge"
+      }
+    ]
+  }, {
+    "name": "John Petrucci",
+    "origin": "U.S.A.",
+    "style": "Progressive metal",
+    "link": "johnpetrucci.com",
+    "logos": [
+      {
+        "title": "JP",
+        "svg": "john-petrucci.svg"
       }
     ]
   }, {
@@ -308,6 +321,7 @@
     "name": "Felipe Andreoli",
     "origin": "Brazil",
     "style": "Heavy Metal",
+    "css": "felipe-andreoli.css",
     "link": "felipeandreoli.com",
     "logos": [
       {
@@ -388,7 +402,7 @@
     ]
   },  {
     "name": "ZZ Top",
-    "css": "acdc.css",
+    "css": "zz-top.css",
     "origin": "U.S.A.",
     "style": "Blues Rock",
     "link": "zztop.com",
@@ -456,13 +470,14 @@
     ]
   },  {
     "name": "Dead Kennedys",
+    "css": "dead-kennedys.styl",
     "origin": "U.S.A.",
     "style": "Punk Rock",
     "link": "deadkennedys.com",
     "logos": [
       {
-        "title": "Logo",
-        "svg": "dead_kennedys.svg"
+        "title": "DK",
+        "svg": "dead_kennedys_dk.svg"
       }
     ]
   },  {
@@ -714,7 +729,7 @@
     "logos": [
       {
         "title": "Henry",
-        "svg": "black-sabbath_demon.svg"
+        "svg": "black-sabbath_henry.svg"
       }, {
         "title": "Vol 4",
         "svg": "black-sabbath_vol4.svg"
@@ -1057,6 +1072,7 @@
   },  {
     "name": "Dream Theather",
     "origin": "USA",
+    "css": "dream-theather.css",
     "style": "Progressive metal",
     "link": "dreamtheater.net",
     "logos": [
@@ -1064,8 +1080,13 @@
         "title": "Images and Words",
         "svg": "dream-theater_images-and-words.svg"
       }, {
-        "title": "Icon",
-        "svg": "dream-theater_icon.svg"
+        "title": "The majesty symbol",
+        "svg": "dream-theater_majesty-symbol.svg",
+        "class": "dream-theater--majesty-symbol"
+      }, {
+        "title": "The majesty symbol",
+        "svg": "dream-theater_majesty-symbol.svg",
+        "class": "dream-theater--full-majesty-symbol"
       }
     ]
  },  {
@@ -1513,6 +1534,7 @@
     ]
   },  {
     "name": "Oasis",
+    "origin": "oasis.css",
     "origin": "England",
     "style": "Alternative Rock",
     "link": "oasisinet.com",
@@ -1663,7 +1685,7 @@
     "link": "emersonlakeandpalmer.com",
     "logos": [
       {
-        "title": "Symbol",
+        "title": "ELP",
         "svg": "elp-symbol.svg"
       }
     ]

@@ -4,15 +4,11 @@
 *	Released under the MIT license
 */
 
-.derek-riggs__background,
-.derek-riggs__foreground {
+.derek-riggs--signature .derek-riggs__background,
+.derek-riggs--signature .derek-riggs__foreground {
   display: none;
-}
-.derek-riggs--badge .derek-riggs__background {
-  display: block;
 }
 .derek-riggs--badge .derek-riggs__signature,
 .derek-riggs--badge .derek-riggs__foreground {
-  display: block;
   fill: #fcfc00;
 }
