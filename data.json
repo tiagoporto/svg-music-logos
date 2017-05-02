@@ -41,12 +41,12 @@
         "title": "Live At Donington",
         "svg": "iron-maiden_live-at-donington.svg"
       }, {
+        "title": "The X Factor",
+        "svg": "iron-maiden_the-x-factor.svg"
+      }, {
         "title": "Virtual XI",
         "svg": "iron-maiden_virtual-xi.svg",
         "class": "iron-maiden--virtual-xi"
-      }, {
-        "title": "The X Factor",
-        "svg": "iron-maiden_the-x-factor.svg"
       }, {
         "title": "Brave New World",
         "svg": "iron-maiden_virtual-xi.svg",
@@ -91,6 +91,16 @@
         "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
         "svg": "iron-maiden_derek-riggs.svg",
         "class": "derek-riggs--badge"
+      }
+    ]
+  }, {
+    "name": "Aphex Twin",
+    "origin": "Irish",
+    "link": "warp.net/aphex-twin",
+    "logos": [
+      {
+        "title": "Selected Ambient Works 85–92",
+        "svg": "aphex-twin_selected-ambient-works-85–92.svg"
       }
     ]
   }, {
@@ -1181,7 +1191,7 @@
     "link": "twistedsister.com",
     "logos": [
       {
-        "title": "Logo",
+        "title": "TS",
         "svg": "twisted-syster.svg"
       }
     ]
@@ -1626,7 +1636,7 @@
     "link": "typeonegative.net",
     "logos": [
       {
-        "title": "Symbol",
+        "title": "O- Symbol",
         "svg": "type-o-negative_symbol.svg"
       }
     ]
