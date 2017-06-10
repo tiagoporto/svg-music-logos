@@ -63,6 +63,5 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-paths": "^2.1.0",
     "yargs": "^4.1.0"
-  },
-  "license": "MIT"
+  }
 }

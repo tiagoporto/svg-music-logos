@@ -23,7 +23,3 @@ A collection of logos and symbols from bands, musicians and related in SVG.
 1. Commit your changes: `git commit -am 'Add some Logo'`
 1. Push to the branch: `git push origin master`
 1. Submit a pull request :D
-
-## License
-
-SVG Music Logos is released under the terms of the [MIT license](https://github.com/tiagoporto/svg-music-logos/blob/master/LICENSE).
