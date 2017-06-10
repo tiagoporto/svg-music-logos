@@ -539,8 +539,19 @@
     "link": "thebeatles.com",
     "logos": [
       {
-        "title": "Yellow Submarine",
-        "svg": "the-beatles_yellow-submarine.svg"
+        "title": "The drop-T",
+        "svg": "the-beatles_drop-t.svg"
+      }
+    ]
+  },  {
+    "name": "Rigs",
+    "origin": "Indonesia",
+    "style": "Alternative Rock",
+    "link": "rigs.bandcamp.com",
+    "logos": [
+      {
+        "title": "Dead Metaphors",
+        "svg": "rigs.svg"
       }
     ]
   },  {
