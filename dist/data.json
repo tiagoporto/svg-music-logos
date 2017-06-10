@@ -555,6 +555,17 @@
       }
     ]
   },  {
+    "name": "Andre Matos",
+    "origin": "Brazil",
+    "style": "Power metal",
+    "link": "andrematos.net",
+    "logos": [
+      {
+        "title": "AM",
+        "svg": "andre-matos_am.svg"
+      }
+    ]
+  },  {
     "name": "Overdose",
     "css": "overdose.css",
     "origin": "Brazil",
