@@ -544,6 +544,17 @@
       }
     ]
   },  {
+    "name": "Rigs",
+    "origin": "Indonesia",
+    "style": "Alternative Rock",
+    "link": "rigs.bandcamp.com",
+    "logos": [
+      {
+        "title": "Dead Metaphors",
+        "svg": "rigs.svg"
+      }
+    ]
+  },  {
     "name": "Overdose",
     "css": "overdose.css",
     "origin": "Brazil",
