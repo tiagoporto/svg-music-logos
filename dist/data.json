@@ -555,6 +555,18 @@
       }
     ]
   },  {
+    "name": "Franz Ferdinand",
+    "css": "franz-ferdinand.css",
+    "origin": "Scotland",
+    "style": "Indie Rock",
+    "link": "franzferdinand.com",
+    "logos": [
+      {
+        "title": "Franz Ferdinand",
+        "svg": "franz-ferdinand.svg"
+      }
+    ]
+  },  {
     "name": "Andre Matos",
     "origin": "Brazil",
     "style": "Power metal",
