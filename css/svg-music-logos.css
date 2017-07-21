@@ -67,29 +67,14 @@
 .chickenfoot--III-limited .chickenfoot__blue {
   fill: #b7e3fa;
 }
-.death--the-sound-of-perseverance .death__text {
-  fill: #af8358;
-}
-.dream-theater--full-majesty-symbol .dream-theater__background {
-  fill: #fff;
-  stroke: #000;
-  stroke-width: 3.5;
-}
-.dream-theater--full-majesty-symbol .dream-theater__foreground {
-  fill: #e32130;
-}
-.dream-theater--full-majesty-symbol .dream-theater__symbol {
-  fill: #fff;
-}
-.dream-theater--majesty-symbol .dream-theater__background,
-.dream-theater--majesty-symbol .dream-theater__foreground {
-  display: none;
-}
 .dead-kennedys__circle {
   fill: #f00;
 }
 .dead-kennedys__shine {
   fill: #fff;
+}
+.death--the-sound-of-perseverance .death__text {
+  fill: #af8358;
 }
 .derek-riggs--signature .derek-riggs__background,
 .derek-riggs--signature .derek-riggs__foreground {
@@ -117,6 +102,21 @@
 .diamond-head--lightning-to-the-nations .diamond-head__diamond-pavillion {
   fill: url("#diamond-head__diamond-pavillion-gradient");
 }
+.dream-theater--full-majesty-symbol .dream-theater__background {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 3.5;
+}
+.dream-theater--full-majesty-symbol .dream-theater__foreground {
+  fill: #e32130;
+}
+.dream-theater--full-majesty-symbol .dream-theater__symbol {
+  fill: #fff;
+}
+.dream-theater--majesty-symbol .dream-theater__background,
+.dream-theater--majesty-symbol .dream-theater__foreground {
+  display: none;
+}
 .felipe-andreoli__border {
   fill: #aaa;
 }
@@ -128,6 +128,12 @@
 }
 .felipe-andreoli__second-color {
   stop-color: #cf0000;
+}
+.franz-ferdinand__dash {
+  fill: #f7a600;
+}
+.franz-ferdinand__lettering {
+  fill: #fff4d1;
 }
 .guns-n-roses--appetite-for-destruction .guns-n-roses__shadow {
   fill: #606060;
