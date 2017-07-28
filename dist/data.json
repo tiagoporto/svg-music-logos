@@ -1000,6 +1000,10 @@
     "link": "linkinpark.com",
     "logos": [
       {
+        "title": "Minutes to Midnight",
+        "svg": "linkin-park_minutes-to-midnight.svg"
+      },
+      {
         "title": "LP",
         "svg": "linkin-park_lp.svg"
       }
