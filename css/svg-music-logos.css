@@ -319,6 +319,12 @@
 .u2--the-joshua-tree-text .u2__tree {
   display: none;
 }
+.tim-ripper-owens__lettering {
+  fill: #fff;
+}
+.tim-ripper-owens__external-shadow {
+  fill: #722b26;
+}
 .u2--joshua-tree .u2__shadow,
 .u2--joshua-tree .u2__text,
 .u2--the-joshua-tree-text .u2__tree {

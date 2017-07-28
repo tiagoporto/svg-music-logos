@@ -426,6 +426,18 @@
       }
     ]
   },  {
+    "name": "Tim \"Ripper\" Owens",
+    "css": "tim-ripper-owens.css",
+    "origin": "U.S.A.",
+    "style": "Heavy Metal",
+    "link": "timripperowens.com",
+    "logos": [
+      {
+        "title": "Tim Ripper Owens",
+        "svg": "tim-ripper-owens.svg"
+      }
+    ]
+  },  {
     "name": "Slash",
     "css": "slash.css",
     "origin": "England",
@@ -987,6 +999,10 @@
     "style": "Nu Metal",
     "link": "linkinpark.com",
     "logos": [
+      {
+        "title": "Minutes to Midnight",
+        "svg": "linkin-park_minutes-to-midnight.svg"
+      },
       {
         "title": "LP",
         "svg": "linkin-park_lp.svg"
