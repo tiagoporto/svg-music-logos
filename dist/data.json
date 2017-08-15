@@ -557,13 +557,24 @@
     ]
   },  {
     "name": "Rigs",
-    "origin": "Indonesia",
+    "origin": "New Zealand",
     "style": "Alternative Rock",
     "link": "rigs.bandcamp.com",
     "logos": [
       {
         "title": "Dead Metaphors",
         "svg": "rigs.svg"
+      }
+    ]
+  },  {
+    "name": "Cálix",
+    "origin": "Brazil",
+    "style": "Progressive Rock",
+    "link": "calix.com.br",
+    "logos": [
+      {
+        "title": "Caminhante",
+        "svg": "calix_caminhante.svg"
       }
     ]
   },  {
