@@ -567,6 +567,17 @@
       }
     ]
   },  {
+    "name": "The 69 Eyes",
+    "origin": "Finland",
+    "style": "Gothic Rock",
+    "link": "69eyes.com",
+    "logos": [
+      {
+        "title": "Savage Garden",
+        "svg": "the-69-eyes_savage-garden.svg"
+      }
+    ]
+  },  {
     "name": "Soda Stereo",
     "origin": "Argentina",
     "style": "Alternative Rock",
