@@ -687,6 +687,17 @@
       }
     ]
   },  {
+    "name": "Ace Frehley",
+    "origin": "USA",
+    "style": "Hard Rock",
+    "link": "acefrehley.com",
+    "logos": [
+      {
+      "title": "Trouble Walkin'",
+      "svg": "ace-frehley_trouble-walkin.svg"
+      }
+    ]
+  },  {
     "name": "Pink Floyd",
     "origin": "England",
     "style": "Progressive Rock",
