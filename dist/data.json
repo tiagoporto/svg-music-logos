@@ -567,6 +567,20 @@
       }
     ]
   },  {
+    "name": "Soda Stereo",
+    "origin": "Argentina",
+    "style": "Alternative Rock",
+    "link": "sodastereo.com",
+    "logos": [
+      {
+        "title": "Doble Vida",
+        "svg": "soda-stereo_doble-vida.svg"
+      }, {
+        "title": "Me Véras Volver",
+        "svg": "soda-stereo_me-veras-volver.svg"
+      }
+    ]
+  },  {
     "name": "Cálix",
     "origin": "Brazil",
     "style": "Progressive Rock",
