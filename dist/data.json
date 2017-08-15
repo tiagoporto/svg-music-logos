@@ -105,7 +105,7 @@
     ]
   }, {
     "name": "John Petrucci",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Progressive metal",
     "link": "johnpetrucci.com",
     "logos": [
@@ -116,7 +116,7 @@
     ]
   }, {
     "name": "Aerosmith",
-    "origin": "U.S.A",
+    "origin": "USA",
     "style": "Hard Rock",
     "link": "aerosmith.com",
     "logos": [
@@ -138,7 +138,7 @@
     ]
   },  {
     "name": "Weezer",
-    "origin": "U.S.A",
+    "origin": "USA",
     "style": "Alternative rock",
     "link": "weezer.com",
     "logos": [
@@ -208,7 +208,7 @@
     ]
   },  {
     "name": "Savatage",
-    "origin": "U.S.A",
+    "origin": "USA",
     "style": "Heavy Metal",
     "link": "savatage.com",
     "logos": [
@@ -235,7 +235,7 @@
   },  {
     "name": "Bad Religion",
     "css": "bad-religion.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Punk Rock",
     "link": "badreligion.com",
     "logos": [
@@ -271,7 +271,7 @@
     ]
   },  {
     "name": "Anti-Flag",
-    "origin": "U.S.A",
+    "origin": "USA",
     "style": "Punk Rock",
     "link": "anti-flag.com",
     "logos": [
@@ -293,7 +293,7 @@
     ]
   },  {
     "name": "Alice Cooper",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hard Rock",
     "link": "alicecooper.com",
     "logos": [
@@ -416,7 +416,7 @@
   },  {
     "name": "ZZ Top",
     "css": "zz-top.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Blues Rock",
     "link": "zztop.com",
     "logos": [
@@ -428,7 +428,7 @@
   },  {
     "name": "Tim \"Ripper\" Owens",
     "css": "tim-ripper-owens.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Heavy Metal",
     "link": "timripperowens.com",
     "logos": [
@@ -451,7 +451,7 @@
     ]
   },  {
     "name": "Incubus",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Alternative Rock",
     "link": "incubushq.com",
     "logos": [
@@ -473,7 +473,7 @@
     ]
   },  {
     "name": "Counting Crows",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Alternative Rock",
     "link": "countingcrows.com",
     "logos": [
@@ -484,7 +484,7 @@
     ]
   },  {
     "name": "Damageplan",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Thrash Metal",
     "link": "damageplan.com",
     "logos": [
@@ -496,7 +496,7 @@
   },  {
     "name": "Dead Kennedys",
     "css": "dead-kennedys.styl",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Punk Rock",
     "link": "deadkennedys.com",
     "logos": [
@@ -922,7 +922,7 @@
     ]
   },  {
     "name": "Blink-182",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Pop Punk",
     "link": "blink182.com",
     "logos": [
@@ -936,7 +936,7 @@
     ]
   },  {
     "name": "Johnny Cash",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Country",
     "link": "johnnycash.com",
     "logos": [
@@ -1250,7 +1250,7 @@
     ]
   },  {
     "name": "Wu-Tang Clan",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hip Hop",
     "link": "wutang-corp.com",
     "logos": [
@@ -1261,7 +1261,7 @@
     ]
   },  {
     "name": "Twisted Syster",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Glam Metal",
     "link": "twistedsister.com",
     "logos": [
@@ -1291,7 +1291,7 @@
   },  {
     "name": "Van Halen",
     "css": "van-halen.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hard Rock",
     "link": "van-halen.com",
     "logos": [
@@ -1305,7 +1305,7 @@
     ]
   },  {
     "name": "Trivium",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Heavy Metal",
     "link": "trivium.org",
     "logos": [
@@ -1375,7 +1375,7 @@
     ]
   },  {
     "name": "Alice in Chains",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Alternative Rock",
     "link": "aliceinchains.com",
     "logos": [
@@ -1397,7 +1397,7 @@
     ]
   },  {
     "name": "Dokken",
-    "origin": "U.S.A",
+    "origin": "USA",
     "style": "Heavy Metal",
     "link": "dokken.net",
     "logos": [
@@ -1431,7 +1431,7 @@
   },  {
     "name": "50 Cent",
     "css": "50-cent.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hip Hop",
     "link": "50cent.com",
     "logos": [
@@ -1454,7 +1454,7 @@
   },  {
     "name": "Bon Jovi",
     "css": "bon-jovi.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hard Rock",
     "link": "bonjovi.com",
     "logos": [
@@ -1468,7 +1468,7 @@
     ]
   },  {
     "name": "James Hetfield",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Thrash Metal",
     "link": "metallica.com",
     "logos": [
@@ -1490,7 +1490,7 @@
     ]
   },  {
     "name": "Eddie Van Halen",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hard Rock",
     "link": "evhgear.com",
     "logos": [
@@ -1573,13 +1573,24 @@
     ]
   },  {
     "name": "Papa Roach",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Alternative Rock",
     "link": "paparoach.com",
     "logos": [
       {
         "title": "Old Friends from Young Years",
         "svg": "papa-roach_old-friends-from-young-years.svg"
+      }
+    ]
+  },  {
+    "name": "Kiko Loureiro",
+    "origin": "Brazil",
+    "style": "Power Metal",
+    "link": "kikoloureiro.net",
+    "logos": [
+      {
+        "title": "Kiko Loureiro",
+        "svg": "kiko-loureiro.svg"
       }
     ]
   },  {
@@ -1651,7 +1662,7 @@
     ]
   },  {
     "name": "The Big 4 - Metallica, Slayer, Megadeth, Anthrax",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Thrash Metal",
     "link": "en.wikipedia.org/wiki/The_Big_Four:_Live_from_Sofia,_Bulgaria",
     "logos": [
@@ -1663,7 +1674,7 @@
   },  {
     "name": "Guns N' Roses",
     "css": "guns-n-roses.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hard Rock",
     "link": "gunsnroses.com",
     "logos": [
@@ -1689,7 +1700,7 @@
   },  {
     "name": "Metal Church",
     "css": "metal-church.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Heavy Metal",
     "link": "metalchurchofficial.com",
     "logos": [
@@ -1701,7 +1712,7 @@
   },  {
     "name": "Audioslave",
     "css": "audioslave.css",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Alternative Rock",
     "link": "facebook.com/Audioslave-165985866829751",
     "logos": [
@@ -1712,7 +1723,7 @@
     ]
   },  {
     "name": "Type O Negative",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Doom Metal",
     "link": "typeonegative.net",
     "logos": [
@@ -1723,7 +1734,7 @@
     ]
   },  {
     "name": "Prince",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Funk / pop / R&B / rock",
     "link": "en.wikipedia.org/wiki/Prince_(musician)",
     "logos": [
@@ -1797,7 +1808,7 @@
     ]
   },  {
     "name": "Beastie Boys",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hip Hop",
     "link": "blog.beastieboys.com",
     "logos": [
@@ -1811,7 +1822,7 @@
     ]
   },  {
     "name": "Eminem",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Hip Hop",
     "link": "eminem.com",
     "logos": [
@@ -1834,7 +1845,7 @@
     ]
   },  {
     "name": "Steve Vai",
-    "origin": "U.S.A.",
+    "origin": "USA",
     "style": "Instrumental rock",
     "link": "vai.com",
     "logos": [
