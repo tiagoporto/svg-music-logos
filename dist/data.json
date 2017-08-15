@@ -888,6 +888,17 @@
       }
     ]
   },  {
+    "name": "Queensrÿche",
+    "origin": "USA",
+    "style": "Heavy Metal",
+    "link": "queensrycheofficial.com",
+    "logos": [
+      {
+        "title": "Tri-Ryche",
+        "svg": "queensryche_tri-ryche.svg"
+      }
+    ]
+  },  {
     "name": "Blind Guardian",
     "origin": "Germany",
     "style": "Power Metal",
