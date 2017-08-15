@@ -888,6 +888,17 @@
       }
     ]
   },  {
+    "name": "Viper",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "viperbrazil.com.br",
+    "logos": [
+      {
+        "title": "Projeto SP Metal",
+        "svg": "viper_projeto-sp-metal.svg"
+      }
+    ]
+  },  {
     "name": "Queensrÿche",
     "origin": "USA",
     "style": "Heavy Metal",
