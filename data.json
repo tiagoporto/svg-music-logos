@@ -557,13 +557,41 @@
     ]
   },  {
     "name": "Rigs",
-    "origin": "Indonesia",
+    "origin": "New Zealand",
     "style": "Alternative Rock",
     "link": "rigs.bandcamp.com",
     "logos": [
       {
         "title": "Dead Metaphors",
         "svg": "rigs.svg"
+      }
+    ]
+  },  {
+    "name": "Soda Stereo",
+    "origin": "Argentina",
+    "style": "Alternative Rock",
+    "link": "sodastereo.com",
+    "logos": [
+      {
+        "title": "Doble Vida",
+        "svg": "soda-stereo_doble-vida.svg"
+      }, {
+        "title": "Me Véras Volver",
+        "svg": "soda-stereo_me-veras-volver.svg"
+      }
+    ]
+  },  {
+    "name": "Cálix",
+    "origin": "Brazil",
+    "style": "Progressive Rock",
+    "link": "calix.com.br",
+    "logos": [
+      {
+        "title": "A Roda",
+        "svg": "calix_a-roda.svg"
+      }, {
+        "title": "Caminhante",
+        "svg": "calix_caminhante.svg"
       }
     ]
   },  {
