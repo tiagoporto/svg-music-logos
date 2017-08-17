@@ -596,6 +596,7 @@
     ]
   },  {
     "name": "Pato Fu",
+    "css": "pato-fu.css",
     "origin": "Brazil",
     "style": "Pop Rock",
     "link": "patofu.com.br",
@@ -771,6 +772,7 @@
     ]
   },  {
     "name": "Ace Frehley",
+    "css": "ace-frehley.css",
     "origin": "USA",
     "style": "Hard Rock",
     "link": "acefrehley.com",
@@ -783,6 +785,7 @@
     ]
   },  {
     "name": "Mixhell",
+    "css": "mixhell.css",
     "origin": "England",
     "style": "Eletronic",
     "link": "facebook.com/therealmixhell",
