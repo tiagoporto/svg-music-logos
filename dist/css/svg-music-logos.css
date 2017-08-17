@@ -284,6 +284,21 @@
 .overdose--seculo-xx .overdose__lettering {
   fill: #b91500;
 }
+.pato-fu__first-stop {
+  stop-color: #fff;
+}
+.pato-fu__second-stop {
+  stop-color: #9191c4;
+}
+.pato-fu__third-stop {
+  stop-color: #1b4a98;
+}
+.pato-fu__gol-de-quem .pato-fu__circle {
+  fill: url("#pato-fu__gradient");
+}
+.pato-fu__televisao-de-cachorro .pato-fu__circle {
+  fill: #f00;
+}
 .rammstein__symbol--stroke {
   stroke-width: 3px;
   stroke: #000;
