@@ -567,6 +567,61 @@
       }
     ]
   },  {
+    "name": "Biquini Cavadão",
+    "origin": "Brazil",
+    "style": "Pop Rock",
+    "link": "biquini.com.br",
+    "logos": [
+      {
+        "title": "Roda Gigante",
+        "svg": "biquini-cavadao_roda-gigante.svg"
+      }
+    ]
+  },  {
+    "name": "Engenheiros do Hawaii",
+    "origin": "Brazil",
+    "style": "Pop Rock",
+    "link": "uol.com.br/engenheirosdohawaii",
+    "logos": [
+      {
+        "title": "A Revolta dos Dândis",
+        "svg": "engenheiros-do-hawaii_a-revolta_dos_dandis.svg"
+      }, {
+        "title": "Gessinger, Licks & Maltz",
+        "svg": "engenheiros-do-hawaii_gessinger-licks-maltz.svg"
+      }, {
+        "title": "Novos Horizontes",
+        "svg": "engenheiros-do-hawaii_novos-horizontes.svg"
+      }
+    ]
+  },  {
+    "name": "Pato Fu",
+    "origin": "Brazil",
+    "style": "Pop Rock",
+    "link": "patofu.com.br",
+    "logos": [
+      {
+        "title": "Gol De Quem?",
+        "class": "pato-fu__gol-de-quem",
+        "svg": "pato-fu_gol-de-quem.svg"
+      }, {
+        "title": "Televisão de Cachorro",
+        "class": "pato-fu__televisao-de-cachorro",
+        "svg": "pato-fu_gol-de-quem.svg"
+      }
+    ]
+  },  {
+    "name": "The 69 Eyes",
+    "origin": "Finland",
+    "style": "Gothic Rock",
+    "link": "69eyes.com",
+    "logos": [
+      {
+        "title": "Savage Garden",
+        "svg": "the-69-eyes_savage-garden.svg"
+      }
+    ]
+  },  {
     "name": "Soda Stereo",
     "origin": "Argentina",
     "style": "Alternative Rock",
@@ -722,7 +777,24 @@
     "logos": [
       {
       "title": "Trouble Walkin'",
+      "class":"ace-frehley__trouble-walkin",
       "svg": "ace-frehley_trouble-walkin.svg"
+      }
+    ]
+  },  {
+    "name": "Mixhell",
+    "origin": "England",
+    "style": "Eletronic",
+    "link": "facebook.com/therealmixhell",
+    "logos": [
+      {
+      "title": "Spaces",
+      "class":"mixhell__spaces",
+      "svg": "mixhell.svg"
+      }, {
+      "title": "Spaces tour'",
+      "class":"mixhell__spaces-tour",
+      "svg": "mixhell.svg"
       }
     ]
   },  {
