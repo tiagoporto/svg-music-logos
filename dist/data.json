@@ -567,6 +567,17 @@
       }
     ]
   },  {
+    "name": "Biquini Cavadão",
+    "origin": "Brazil",
+    "style": "Pop Rock",
+    "link": "biquini.com.br",
+    "logos": [
+      {
+        "title": "Roda Gigante",
+        "svg": "biquini-cavadao_roda-gigante.svg"
+      }
+    ]
+  },  {
     "name": "The 69 Eyes",
     "origin": "Finland",
     "style": "Gothic Rock",
