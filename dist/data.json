@@ -782,6 +782,22 @@
       }
     ]
   },  {
+    "name": "Mixhell",
+    "origin": "England",
+    "style": "Eletronic",
+    "link": "facebook.com/therealmixhell",
+    "logos": [
+      {
+      "title": "Spaces",
+      "class":"mixhell__spaces",
+      "svg": "mixhell.svg"
+      }, {
+      "title": "Spaces tour'",
+      "class":"mixhell__spaces-tour",
+      "svg": "mixhell.svg"
+      }
+    ]
+  },  {
     "name": "Pink Floyd",
     "origin": "England",
     "style": "Progressive Rock",
