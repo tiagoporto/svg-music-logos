@@ -833,6 +833,7 @@
     ]
   },  {
     "name": "Mamonas Assassinas",
+    "css": "mamonas-assassinas.css",
     "origin": "Brazil",
     "style": "Comedy Rock",
     "link": "en.wikipedia.org/wiki/Mamonas_Assassinas",
