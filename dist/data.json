@@ -796,8 +796,11 @@
       "svg": "mixhell.svg"
       }, {
       "title": "Spaces tour'",
-      "class":"mixhell__spaces-tour",
+      "class":"mixhell__highly-explicit",
       "svg": "mixhell.svg"
+      }, {
+      "title": "Mixhell",
+      "svg": "mixhell>.svg"
       }
     ]
   },  {

@@ -293,6 +293,10 @@
 .metallica--scary-guy-wings .metallica__foreground {
   fill: #fff;
 }
+.mixhell__light-text,
+.mixhell__inner-rect {
+  fill: #fff;
+}
 .mixhell__spaces .mixhell__lettering {
   fill: #fff;
 }
@@ -302,13 +306,13 @@
 .mixhell__spaces .mixhell__outer-square {
   fill: #f01c2e;
 }
-.mixhell__spaces-tour .mixhell__lettering {
+.mixhell__highly-explicit .mixhell__lettering {
   fill: #fff;
 }
-.mixhell__spaces-tour .mixhell__lines {
+.mixhell__highly-explicit .mixhell__lines {
   fill: #f00;
 }
-.mixhell__spaces-tour .mixhell__square {
+.mixhell__highly-explicit .mixhell__square {
   display: none;
 }
 .nirvana--bleach .nirvana__underline {
