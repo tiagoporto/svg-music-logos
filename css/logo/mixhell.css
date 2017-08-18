@@ -3,6 +3,10 @@
 *	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
 */
 
+.mixhell__light-text,
+.mixhell__inner-rect {
+  fill: #fff;
+}
 .mixhell__spaces .mixhell__lettering {
   fill: #fff;
 }
@@ -12,12 +16,12 @@
 .mixhell__spaces .mixhell__outer-square {
   fill: #f01c2e;
 }
-.mixhell__spaces-tour .mixhell__lettering {
+.mixhell__highly-explicit .mixhell__lettering {
   fill: #fff;
 }
-.mixhell__spaces-tour .mixhell__lines {
+.mixhell__highly-explicit .mixhell__lines {
   fill: #f00;
 }
-.mixhell__spaces-tour .mixhell__square {
+.mixhell__highly-explicit .mixhell__square {
   display: none;
 }

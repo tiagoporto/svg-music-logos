@@ -796,8 +796,14 @@
       "svg": "mixhell.svg"
       }, {
       "title": "Spaces tour'",
-      "class":"mixhell__spaces-tour",
+      "class":"mixhell__highly-explicit",
       "svg": "mixhell.svg"
+      }, {
+      "title": "Mixhell",
+      "svg": "mixhell>.svg"
+      }, {
+      "title": "Elastic Artists",
+      "svg": "mixhell_elastic-artists.svg"
       }
     ]
   },  {
@@ -823,6 +829,18 @@
       {
         "title": "Wolfmother",
         "svg": "wolfmother.svg"
+      }
+    ]
+  },  {
+    "name": "Mamonas Assassinas",
+    "css": "mamonas-assassinas.css",
+    "origin": "Brazil",
+    "style": "Comedy Rock",
+    "link": "en.wikipedia.org/wiki/Mamonas_Assassinas",
+    "logos": [
+      {
+        "title": "MA",
+        "svg": "mamonas-assassinas_ma.svg"
       }
     ]
   },  {
@@ -872,8 +890,13 @@
         "title": "Morbid Visions",
         "svg": "sepultura_morbid-visions.svg"
       }, {
+        "title": "Beneath the Remains",
+        "class": "sepultura__beneath-the-remains",
+        "svg": "sepultura_beneath-the-remains.svg"
+      }, {
         "title": "Arise",
-        "svg": "sepultura_arise.svg"
+        "class": "sepultura__arise",
+        "svg": "sepultura_beneath-the-remains.svg"
       }, {
         "title": "Nation",
         "svg": "sepultura_nation.svg"
@@ -883,6 +906,9 @@
       }, {
         "title": "Triangle Symbol",
         "svg": "sepultura_triangle.svg"
+      }, {
+        "title": "Triangle Symbol Dirty",
+        "svg": "sepultura_tribal-symbol-dirty.svg"
       }, {
         "title": "Star S - Live In São Paulo",
         "svg": "sepultura_star.svg"
