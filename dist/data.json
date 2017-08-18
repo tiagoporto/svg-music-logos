@@ -970,6 +970,17 @@
       }
     ]
   },  {
+    "name": "Project 46",
+    "origin": "Brazil",
+    "style": "Metalcore",
+    "link": "project46.com.br",
+    "logos": [
+      {
+        "title": "Doa A quem Doer",
+        "svg": "project-46_doa-a-quem-doer.svg"
+      }
+    ]
+  },  {
     "name": "Bruce Dickinson",
     "origin": "England",
     "style": "Heavy Metal",
@@ -1283,6 +1294,17 @@
       {
         "title": "The Sound of Perseverance",
         "svg": "death_the-sound-of-perseverance.svg"
+      }
+    ]
+  },  {
+    "name": "Korzus",
+    "origin": "Brazil",
+    "style": "Thrash Metal",
+    "link": "korzus.com.br",
+    "logos": [
+      {
+        "title": "Ao vivo 1985",
+        "svg": "korzus_ao-vivo.svg"
       }
     ]
   },  {
