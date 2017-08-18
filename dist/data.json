@@ -1308,6 +1308,18 @@
       }
     ]
   },  {
+    "name": "Krisiun",
+    "css": "krisiun.css",
+    "origin": "Brazil",
+    "style": "Death Metal",
+    "link": "krisiun.com.br",
+    "logos": [
+      {
+        "title": "Curse Of The Evil One",
+        "svg": "krisiun_curse-of-the-evil-one.svg"
+      }
+    ]
+  },  {
     "name": "Diamond Head",
     "css": "diamond-head.css",
     "origin": "England",

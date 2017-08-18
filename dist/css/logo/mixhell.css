@@ -7,21 +7,21 @@
 .mixhell__inner-rect {
   fill: #fff;
 }
-.mixhell__spaces .mixhell__lettering {
+.mixhell--spaces .mixhell__lettering {
   fill: #fff;
 }
-.mixhell__spaces .mixhell__lines {
+.mixhell--spaces .mixhell__lines {
   display: none;
 }
-.mixhell__spaces .mixhell__outer-square {
+.mixhell--spaces .mixhell__outer-square {
   fill: #f01c2e;
 }
-.mixhell__highly-explicit .mixhell__lettering {
+.mixhell--highly-explicit .mixhell__lettering {
   fill: #fff;
 }
-.mixhell__highly-explicit .mixhell__lines {
+.mixhell--highly-explicit .mixhell__lines {
   fill: #f00;
 }
-.mixhell__highly-explicit .mixhell__square {
+.mixhell--highly-explicit .mixhell__square {
   display: none;
 }

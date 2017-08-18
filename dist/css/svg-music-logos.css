@@ -56,7 +56,7 @@
 .ace-frehley__seventh-stop {
   stop-color: #e87e2b;
 }
-.ace-frehley__trouble-walkin .ace-frehley__lettering {
+.ace-frehley--trouble-walkin .ace-frehley__lettering {
   fill: url("#ace-frehley__gradient");
 }
 .audioslave__flame {
@@ -272,6 +272,9 @@
   stroke: #000;
   stroke-width: 1;
 }
+.krisiun--curse-of-the-evil-one .krisiun__lettering {
+  fill: #f00;
+}
 .linkin-park--lp .linkin-park__text {
   fill: #fff;
 }
@@ -300,22 +303,22 @@
 .mixhell__inner-rect {
   fill: #fff;
 }
-.mixhell__spaces .mixhell__lettering {
+.mixhell--spaces .mixhell__lettering {
   fill: #fff;
 }
-.mixhell__spaces .mixhell__lines {
+.mixhell--spaces .mixhell__lines {
   display: none;
 }
-.mixhell__spaces .mixhell__outer-square {
+.mixhell--spaces .mixhell__outer-square {
   fill: #f01c2e;
 }
-.mixhell__highly-explicit .mixhell__lettering {
+.mixhell--highly-explicit .mixhell__lettering {
   fill: #fff;
 }
-.mixhell__highly-explicit .mixhell__lines {
+.mixhell--highly-explicit .mixhell__lines {
   fill: #f00;
 }
-.mixhell__highly-explicit .mixhell__square {
+.mixhell--highly-explicit .mixhell__square {
   display: none;
 }
 .nirvana--bleach .nirvana__underline {
@@ -342,10 +345,10 @@
 .pato-fu__third-stop {
   stop-color: #1b4a98;
 }
-.pato-fu__gol-de-quem .pato-fu__circle {
+.pato-fu--gol-de-quem .pato-fu__circle {
   fill: url("#pato-fu__gradient");
 }
-.pato-fu__televisao-de-cachorro .pato-fu__circle {
+.pato-fu--televisao-de-cachorro .pato-fu__circle {
   fill: #f00;
 }
 .rammstein__symbol--stroke {
@@ -356,7 +359,7 @@
 .rush__text {
   fill: #e74658;
 }
-.sepultura__arise {
+.sepultura--arise {
   fill: none;
   stroke: #000;
   stroke-width: 1;
