@@ -3,6 +3,12 @@
 *	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
 */
 
+.sepultura__arise {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
 .sepultura--coat-of-arms .sepultura__title,
 .sepultura--coat-of-arms .sepultura__year,
 .sepultura--coat-of-arms .sepultura__gores {
