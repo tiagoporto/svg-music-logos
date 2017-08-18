@@ -531,8 +531,8 @@
         "svg": "rammstein_symbol.svg"
       }, {
         "title": "R+ Stroked",
-        "svg": "rammstein_symbol.svg",
-        "class": "rammstein__symbol--stroke"
+        "class": "rammstein__symbol--stroke",
+        "svg": "rammstein_symbol.svg"
       }, {
         "title": "R+ Flat",
         "svg": "rammstein_symbol--flat.svg"
@@ -603,11 +603,11 @@
     "logos": [
       {
         "title": "Gol De Quem?",
-        "class": "pato-fu__gol-de-quem",
+        "class": "pato-fu--gol-de-quem",
         "svg": "pato-fu_gol-de-quem.svg"
       }, {
         "title": "Televisão de Cachorro",
-        "class": "pato-fu__televisao-de-cachorro",
+        "class": "pato-fu--televisao-de-cachorro",
         "svg": "pato-fu_gol-de-quem.svg"
       }
     ]
@@ -779,7 +779,7 @@
     "logos": [
       {
       "title": "Trouble Walkin'",
-      "class":"ace-frehley__trouble-walkin",
+      "class":"ace-frehley--trouble-walkin",
       "svg": "ace-frehley_trouble-walkin.svg"
       }
     ]
@@ -792,11 +792,11 @@
     "logos": [
       {
       "title": "Spaces",
-      "class":"mixhell__spaces",
+      "class":"mixhell--spaces",
       "svg": "mixhell.svg"
       }, {
       "title": "Spaces tour'",
-      "class":"mixhell__highly-explicit",
+      "class":"mixhell--highly-explicit",
       "svg": "mixhell.svg"
       }, {
       "title": "Mixhell",
@@ -891,11 +891,11 @@
         "svg": "sepultura_morbid-visions.svg"
       }, {
         "title": "Beneath the Remains",
-        "class": "sepultura__beneath-the-remains",
+        "class": "sepultura--beneath-the-remains",
         "svg": "sepultura_beneath-the-remains.svg"
       }, {
         "title": "Arise",
-        "class": "sepultura__arise",
+        "class": "sepultura--arise",
         "svg": "sepultura_beneath-the-remains.svg"
       }, {
         "title": "Nation",
