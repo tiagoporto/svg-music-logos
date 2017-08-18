@@ -832,6 +832,17 @@
       }
     ]
   },  {
+    "name": "Mamonas Assassinas",
+    "origin": "Brazil",
+    "style": "Comedy Rock",
+    "link": "en.wikipedia.org/wiki/Mamonas_Assassinas",
+    "logos": [
+      {
+        "title": "MA",
+        "svg": "mamonas-assassinas_ma.svg"
+      }
+    ]
+  },  {
     "name": "Coldplay",
     "origin": "England",
     "style": "Alternative Rock",
