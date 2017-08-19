@@ -137,6 +137,17 @@
       }
     ]
   },  {
+    "name": "Raimundos",
+    "origin": "Brazil",
+    "style": "Alternative Metal",
+    "link": "raimundos.com.br",
+    "logos": [
+      {
+        "title": "R Symbol",
+        "svg": "raimundos_r.svg"
+      }
+    ]
+  },  {
     "name": "Weezer",
     "origin": "USA",
     "style": "Alternative rock",
