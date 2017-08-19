@@ -913,6 +913,11 @@
         "svg": "sepultura_nation.svg"
       }, {
         "title": "Tribal Symbol",
+        "class": "sepultura--tribal-symbol",
+        "svg": "sepultura_tribal.svg"
+      }, {
+        "title": "1/4 Of a Century",
+        "class": "sepultura--quarter-of-a-century",
         "svg": "sepultura_tribal.svg"
       }, {
         "title": "Triangle Symbol",
