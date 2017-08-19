@@ -1319,6 +1319,17 @@
       }
     ]
   },  {
+    "name": "Hibria",
+    "origin": "Brazil",
+    "style": "Speed Metal",
+    "link": "hibria.com",
+    "logos": [
+      {
+        "title": "Hibria",
+        "svg": "hibria.svg"
+      }
+    ]
+  },  {
     "name": "Krisiun",
     "css": "krisiun.css",
     "origin": "Brazil",
