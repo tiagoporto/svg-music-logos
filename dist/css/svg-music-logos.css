@@ -272,7 +272,8 @@
   stroke: #000;
   stroke-width: 1;
 }
-.krisiun--curse-of-the-evil-one .krisiun__lettering {
+.krisiun--curse-of-the-evil-one .krisiun__lettering,
+.krisiun--unmerciful-order .krisiun__lettering {
   fill: #f00;
 }
 .linkin-park--lp .linkin-park__text {

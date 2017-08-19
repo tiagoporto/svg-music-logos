@@ -1347,6 +1347,10 @@
       {
         "title": "Curse Of The Evil One",
         "svg": "krisiun_curse-of-the-evil-one.svg"
+      }, {
+        "title": "Unmerciful Order",
+        "class": "krisiun--unmerciful-order",
+        "svg": "krisiun_unmerciful-order.svg"
       }
     ]
   },  {
