@@ -16,6 +16,9 @@
 .sepultura--tribal-symbol .sepultura__circles {
   display: none;
 }
+.sepultura--roots-symbol {
+  fill: #e7621c;
+}
 .sepultura--arise {
   fill: none;
   stroke: #000;

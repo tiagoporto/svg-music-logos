@@ -915,31 +915,34 @@
         "class": "sepultura--arise",
         "svg": "sepultura_beneath-the-remains.svg"
       }, {
-        "title": "Nation",
-        "svg": "sepultura_nation.svg"
-      }, {
         "title": "Tribal Symbol",
         "class": "sepultura--tribal-symbol",
         "svg": "sepultura_tribal.svg"
+      }, {
+        "title": "Chaos Symbol",
+        "svg": "sepultura_chaos-symbol.svg"
+      }, {
+        "title": "Roots Symbol",
+        "svg": "sepultura_roots-symbol.svg"
+      }, {
+        "title": "Nation",
+        "svg": "sepultura_nation.svg"
+      }, {
+        "title": "Tribal Star",
+        "svg": "sepultura_star.svg"
+      }, {
+        "title": "Triangle Symbol",
+        "svg": "sepultura_triangle.svg"
       }, {
         "title": "1/4 Of a Century",
         "class": "sepultura--quarter-of-a-century",
         "svg": "sepultura_tribal.svg"
       }, {
-        "title": "Triangle Symbol",
-        "svg": "sepultura_triangle.svg"
-      }, {
         "title": "Triangle Symbol Dirty",
         "svg": "sepultura_tribal-symbol-dirty.svg"
       }, {
-        "title": "Star S - Live In São Paulo",
-        "svg": "sepultura_star.svg"
-      }, {
         "title": "Coat Of Arms",
         "svg": "sepultura_coat-of-arms.svg"
-      }, {
-        "title": "Chaos Symbol",
-        "svg": "sepultura_chaos-symbol.svg"
       }
     ]
   },  {
