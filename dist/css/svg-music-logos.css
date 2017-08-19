@@ -297,6 +297,12 @@
 .metallica--scary-guy-wings .metallica__foreground {
   fill: #fff;
 }
+.mamonas-assassinas__first-color {
+  fill: #008121;
+}
+.mamonas-assassinas__second-color {
+  fill: #e90000;
+}
 .mamonas-assassinas__ma .mamonas-assassinas__symbol {
   fill: #ff0;
 }
