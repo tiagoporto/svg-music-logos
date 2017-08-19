@@ -1327,6 +1327,9 @@
       {
         "title": "Hibria",
         "svg": "hibria.svg"
+      }, {
+        "title": "Symbol",
+        "svg": "hibria_symbol.svg"
       }
     ]
   },  {
