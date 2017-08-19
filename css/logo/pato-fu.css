@@ -12,9 +12,9 @@
 .pato-fu__third-stop {
   stop-color: #1b4a98;
 }
-.pato-fu__gol-de-quem .pato-fu__circle {
+.pato-fu--gol-de-quem .pato-fu__circle {
   fill: url("#pato-fu__gradient");
 }
-.pato-fu__televisao-de-cachorro .pato-fu__circle {
+.pato-fu--televisao-de-cachorro .pato-fu__circle {
   fill: #f00;
 }
