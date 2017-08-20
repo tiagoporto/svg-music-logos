@@ -137,6 +137,53 @@
       }
     ]
   },  {
+    "name": "Nervosa",
+    "origin": "Brazil",
+    "style": "Death Metal",
+    "link": "nervosaofficial.com",
+    "logos": [
+      {
+        "title": "Nervosa",
+        "svg": "nervosa.svg"
+      }
+    ]
+  },  {
+    "name": "concreto",
+    "origin": "Brazil",
+    "style": "Hard Rock",
+    "link": "bandaconcreto.com.br",
+    "logos": [
+      {
+        "title": "Quanto Custa a vida",
+        "svg": "concreto_quanto-custa-a-vida.svg"
+      }, {
+        "title": "Bruto",
+        "svg": "concreto_bruto.svg"
+      }
+    ]
+  },  {
+    "name": "angra",
+    "origin": "Brazil",
+    "style": "Power Meta",
+    "link": "angra.net",
+    "logos": [
+      {
+        "title": "Angel's Cry",
+        "svg": "angra_angels-cry.svg"
+      }
+    ]
+  },  {
+    "name": "Matanza",
+    "origin": "Brazil",
+    "style": "Hardcore Punk",
+    "link": "matanza.com.br",
+    "logos": [
+      {
+        "title": "A Arte do Insulto",
+        "svg": "matanza_a-arte-do-insulto.svg"
+      }
+    ]
+  },  {
     "name": "Raimundos",
     "name": "raimundos.css",
     "origin": "Brazil",
