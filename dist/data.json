@@ -1017,6 +1017,18 @@
       }
     ]
   },  {
+    "name": "Detonator",
+    "css": "detonator.css",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "detonator.com.br",
+    "logos": [
+      {
+        "title": "Metal 5 Estrelas",
+        "svg": "detonator_metal-5-estrelas.svg"
+      }
+    ]
+  },  {
     "name": "Bruce Dickinson",
     "origin": "England",
     "style": "Heavy Metal",
