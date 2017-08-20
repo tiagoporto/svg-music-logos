@@ -138,11 +138,15 @@
     ]
   },  {
     "name": "Raimundos",
+    "name": "raimundos.css",
     "origin": "Brazil",
     "style": "Alternative Metal",
     "link": "raimundos.com.br",
     "logos": [
       {
+        "title": "Raimundos",
+        "svg": "raimundos.svg"
+      }, {
         "title": "R Symbol",
         "svg": "raimundos_symbol.svg"
       }, {
