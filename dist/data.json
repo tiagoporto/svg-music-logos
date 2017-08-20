@@ -148,6 +148,17 @@
       }
     ]
   },  {
+    "name": "Matanza",
+    "origin": "Brazil",
+    "style": "Hardcore Punk",
+    "link": "matanza.com.br",
+    "logos": [
+      {
+        "title": "A Arte do Insulto",
+        "svg": "matanza_a-arte-do-insulto.svg"
+      }
+    ]
+  },  {
     "name": "Raimundos",
     "name": "raimundos.css",
     "origin": "Brazil",

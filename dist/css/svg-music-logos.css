@@ -293,6 +293,12 @@
 .linkin-park--lp .linkin-park__text {
   fill: #fff;
 }
+.matanza--a-arte-do-insulto .matanza__outer {
+  fill: #fff;
+}
+.matanza--a-arte-do-insulto .matanza__lettering {
+  fill: #f00;
+}
 .megadeth--rust-in-peace-nuclear-symbol .megadeth__triangles {
   fill: #faec02;
 }
