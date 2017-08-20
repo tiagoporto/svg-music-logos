@@ -950,6 +950,10 @@
       }, {
         "title": "Coat Of Arms",
         "svg": "sepultura_coat-of-arms.svg"
+      }, {
+        "title": "Dante XXI",
+        "class": "sepultura--dante-xxi",
+        "svg": "sepultura_dante-xxi.svg"
       }
     ]
   },  {

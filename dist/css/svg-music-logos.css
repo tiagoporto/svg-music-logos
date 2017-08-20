@@ -382,6 +382,9 @@
 .rush__text {
   fill: #e74658;
 }
+.sepultura--dante-xxi .sepultura__foreground {
+  fill: #f00;
+}
 .sepultura--quarter-of-a-century .sepultura__circles {
   fill: #7e1d11;
 }

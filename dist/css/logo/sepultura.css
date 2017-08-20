@@ -3,6 +3,9 @@
 *	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
 */
 
+.sepultura--dante-xxi .sepultura__foreground {
+  fill: #f00;
+}
 .sepultura--quarter-of-a-century .sepultura__circles {
   fill: #7e1d11;
 }
