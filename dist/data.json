@@ -144,7 +144,10 @@
     "logos": [
       {
         "title": "R Symbol",
-        "svg": "raimundos_r.svg"
+        "svg": "raimundos_symbol.svg"
+      }, {
+        "title": "Roda Viva",
+        "svg": "raimundos_roda-viva.svg"
       }
     ]
   },  {
