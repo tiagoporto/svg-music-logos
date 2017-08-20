@@ -137,6 +137,17 @@
       }
     ]
   },  {
+    "name": "Nervosa",
+    "origin": "Brazil",
+    "style": "Death Metal",
+    "link": "nervosaofficial.com",
+    "logos": [
+      {
+        "title": "Nervosa",
+        "svg": "nervosa.svg"
+      }
+    ]
+  },  {
     "name": "Raimundos",
     "name": "raimundos.css",
     "origin": "Brazil",
