@@ -148,6 +148,21 @@
       }
     ]
   },  {
+    "name": "concreto",
+    "css": "concreto.css",
+    "origin": "Brazil",
+    "style": "Hard Rock",
+    "link": "bandaconcreto.com.br",
+    "logos": [
+      {
+        "title": "Quanto Custa a vida",
+        "svg": "concreto_quanto-custa-a-vida.svg"
+      }, {
+        "title": "Bruto",
+        "svg": "concreto_bruto.svg"
+      }
+    ]
+  },  {
     "name": "Matanza",
     "origin": "Brazil",
     "style": "Hardcore Punk",
