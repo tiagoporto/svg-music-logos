@@ -138,13 +138,20 @@
     ]
   },  {
     "name": "Raimundos",
+    "name": "raimundos.css",
     "origin": "Brazil",
     "style": "Alternative Metal",
     "link": "raimundos.com.br",
     "logos": [
       {
+        "title": "Raimundos",
+        "svg": "raimundos.svg"
+      }, {
         "title": "R Symbol",
-        "svg": "raimundos_r.svg"
+        "svg": "raimundos_symbol.svg"
+      }, {
+        "title": "Roda Viva",
+        "svg": "raimundos_roda-viva.svg"
       }
     ]
   },  {
@@ -850,8 +857,14 @@
     "link": "en.wikipedia.org/wiki/Mamonas_Assassinas",
     "logos": [
       {
+        "title": "Mamonas Assassinas",
+        "svg": "mamonas-assassinas.svg"
+      }, {
         "title": "MA",
         "svg": "mamonas-assassinas_ma.svg"
+      }, {
+        "title": "Mamona",
+        "svg": "mamonas-assassinas_mamona.svg"
       }
     ]
   },  {
@@ -909,26 +922,38 @@
         "class": "sepultura--arise",
         "svg": "sepultura_beneath-the-remains.svg"
       }, {
+        "title": "Tribal Symbol",
+        "class": "sepultura--tribal-symbol",
+        "svg": "sepultura_tribal.svg"
+      }, {
+        "title": "Chaos Symbol",
+        "svg": "sepultura_chaos-symbol.svg"
+      }, {
+        "title": "Roots Symbol",
+        "svg": "sepultura_roots-symbol.svg"
+      }, {
         "title": "Nation",
         "svg": "sepultura_nation.svg"
       }, {
-        "title": "Tribal Symbol",
-        "svg": "sepultura_tribal.svg"
+        "title": "Tribal Star",
+        "svg": "sepultura_star.svg"
       }, {
         "title": "Triangle Symbol",
         "svg": "sepultura_triangle.svg"
       }, {
+        "title": "1/4 Of a Century",
+        "class": "sepultura--quarter-of-a-century",
+        "svg": "sepultura_tribal.svg"
+      }, {
         "title": "Triangle Symbol Dirty",
         "svg": "sepultura_tribal-symbol-dirty.svg"
-      }, {
-        "title": "Star S - Live In São Paulo",
-        "svg": "sepultura_star.svg"
       }, {
         "title": "Coat Of Arms",
         "svg": "sepultura_coat-of-arms.svg"
       }, {
-        "title": "Chaos Symbol",
-        "svg": "sepultura_chaos-symbol.svg"
+        "title": "Dante XXI",
+        "class": "sepultura--dante-xxi",
+        "svg": "sepultura_dante-xxi.svg"
       }
     ]
   },  {
@@ -1342,6 +1367,10 @@
       {
         "title": "Curse Of The Evil One",
         "svg": "krisiun_curse-of-the-evil-one.svg"
+      }, {
+        "title": "Unmerciful Order",
+        "class": "krisiun--unmerciful-order",
+        "svg": "krisiun_unmerciful-order.svg"
       }
     ]
   },  {

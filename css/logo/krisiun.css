@@ -3,6 +3,7 @@
 *	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
 */
 
-.krisiun--curse-of-the-evil-one .krisiun__lettering {
+.krisiun--curse-of-the-evil-one .krisiun__lettering,
+.krisiun--unmerciful-order .krisiun__lettering {
   fill: #f00;
 }
