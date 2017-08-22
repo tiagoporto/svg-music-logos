@@ -1465,6 +1465,17 @@
       }
     ]
   },  {
+    "name": "Bittencourt Project",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "rafaelbittencourt.com",
+    "logos": [
+      {
+        "title": "Brainworms I",
+        "svg": "bittencourt-project__brainworms-i.svg"
+      }
+    ]
+  },  {
     "name": "Diamond Head",
     "css": "diamond-head.css",
     "origin": "England",
