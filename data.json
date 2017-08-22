@@ -162,14 +162,25 @@
       }
     ]
   },  {
-    "name": "angra",
+    "name": "Angra",
     "origin": "Brazil",
-    "style": "Power Meta",
+    "style": "Power Metal",
     "link": "angra.net",
     "logos": [
       {
         "title": "Angel's Cry",
         "svg": "angra_angels-cry.svg"
+      }
+    ]
+  },  {
+    "name": "O Rappa",
+    "origin": "Brazil",
+    "style": "Alternative Rock",
+    "link": "orappa.com.br",
+    "logos": [
+      {
+        "title": "7 vezes",
+        "svg": "o-rappa-7-vezes.svg"
       }
     ]
   },  {
@@ -736,6 +747,20 @@
       {
         "title": "AM",
         "svg": "andre-matos_am.svg"
+      }, {
+        "title": "Andre Matos",
+        "svg": "andre-matos.svg"
+      }
+    ]
+  },  {
+    "name": "Massacration",
+    "origin": "Brazil",
+    "style": "Comedy Metal",
+    "link": "facebook.com/MassacrationOficial",
+    "logos": [
+      {
+        "title": "Massacration",
+        "svg": "massacration.svg"
       }
     ]
   },  {
@@ -1409,10 +1434,17 @@
     "link": "hibria.com",
     "logos": [
       {
+        "title": "Defying The Rules",
+        "svg": "hibria_defying-the-rules.svg"
+      }, {
+        "title": "Live In Japan Symbol",
+        "svg": "hibria_symbol.svg"
+      }, {
         "title": "Hibria",
         "svg": "hibria.svg"
       }, {
-        "title": "Symbol",
+        "title": "Hibria Symbol",
+        "class": "hibria--symbol",
         "svg": "hibria_symbol.svg"
       }
     ]
@@ -1430,6 +1462,17 @@
         "title": "Unmerciful Order",
         "class": "krisiun--unmerciful-order",
         "svg": "krisiun_unmerciful-order.svg"
+      }
+    ]
+  },  {
+    "name": "Bittencourt Project",
+    "origin": "Brazil",
+    "style": "Heavy Metal",
+    "link": "rafaelbittencourt.com",
+    "logos": [
+      {
+        "title": "Brainworms I",
+        "svg": "bittencourt-project__brainworms-i.svg"
       }
     ]
   },  {

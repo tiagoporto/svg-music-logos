@@ -176,6 +176,9 @@
 .guns-n-roses--appetite-for-destruction .guns-n-roses__shadow {
   fill: #606060;
 }
+.hibria--symbol .hibria__circle {
+  display: none;
+}
 .iron-maiden--classical,
 .iron-maiden--powerslave,
 .iron-maiden--seventh-son-of-a-seventh-son,
@@ -297,6 +300,12 @@
   fill: #fff;
 }
 .matanza--a-arte-do-insulto .matanza__lettering {
+  fill: #f00;
+}
+.massacration__border {
+  fill: #fff;
+}
+.massacration__lettering {
   fill: #f00;
 }
 .megadeth--rust-in-peace-nuclear-symbol .megadeth__triangles {
