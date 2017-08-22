@@ -753,6 +753,17 @@
       }
     ]
   },  {
+    "name": "Massacration",
+    "origin": "Brazil",
+    "style": "Comedy Metal",
+    "link": "facebook.com/MassacrationOficial",
+    "logos": [
+      {
+        "title": "Massacration",
+        "svg": "massacration.svg"
+      }
+    ]
+  },  {
     "name": "Overdose",
     "css": "overdose.css",
     "origin": "Brazil",
