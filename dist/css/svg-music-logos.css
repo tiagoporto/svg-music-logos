@@ -176,6 +176,9 @@
 .guns-n-roses--appetite-for-destruction .guns-n-roses__shadow {
   fill: #606060;
 }
+.hibria--symbol .hibria__circle {
+  display: none;
+}
 .iron-maiden--classical,
 .iron-maiden--powerslave,
 .iron-maiden--seventh-son-of-a-seventh-son,
