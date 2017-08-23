@@ -719,6 +719,9 @@
     "link": "calix.com.br",
     "logos": [
       {
+        "title": "Canções de Beurin",
+        "svg": "calix_cancoes-de-beurin.svg"
+      }, {
         "title": "A Roda",
         "svg": "calix_a-roda.svg"
       }, {
