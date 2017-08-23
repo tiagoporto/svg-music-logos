@@ -1476,6 +1476,17 @@
       }
     ]
   },  {
+    "name": "Sextrash",
+    "origin": "Brazil",
+    "style": "Death Metal",
+    "link": "facebook.com/Sextrashofficial",
+    "logos": [
+      {
+        "title": "XXX",
+        "svg": "sextrash_xxx.svg"
+      }
+    ]
+  },  {
     "name": "Diamond Head",
     "css": "diamond-head.css",
     "origin": "England",
