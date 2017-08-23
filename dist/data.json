@@ -1491,6 +1491,7 @@
     ]
   },  {
     "name": "Sextrash",
+    "css": "sextrash.css",
     "origin": "Brazil",
     "style": "Death Metal",
     "link": "facebook.com/Sextrashofficial",
@@ -1498,6 +1499,9 @@
       {
         "title": "XXX",
         "svg": "sextrash_xxx.svg"
+      }, {
+        "title": "Rape from Hell",
+        "svg": "sextrash_rape-from-hell.svg"
       }
     ]
   },  {
