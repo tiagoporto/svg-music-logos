@@ -730,6 +730,17 @@
       }
     ]
   },  {
+    "name": "Chakal",
+    "origin": "Brazil",
+    "style": "Thrash Metal",
+    "link": "calix.com.br",
+    "logos": [
+      {
+        "title": "Abominable Anno Domini",
+        "svg": "chakal_abominable-anno-domini.svg"
+      }
+    ]
+  },  {
     "name": "Franz Ferdinand",
     "css": "franz-ferdinand.css",
     "origin": "Scotland",
