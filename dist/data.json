@@ -1505,6 +1505,17 @@
       }
     ]
   },  {
+    "name": "Vulcano",
+    "origin": "Brazil",
+    "style": "Death Metal",
+    "link": "vulcanometal.com",
+    "logos": [
+      {
+        "title": "Bloody Vengeance",
+        "svg": "vulcano_bloody-vengeance.svg"
+      }
+    ]
+  },  {
     "name": "Diamond Head",
     "css": "diamond-head.css",
     "origin": "England",
