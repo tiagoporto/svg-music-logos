@@ -719,6 +719,9 @@
     "link": "calix.com.br",
     "logos": [
       {
+        "title": "Canções de Beurin",
+        "svg": "calix_cancoes-de-beurin.svg"
+      }, {
         "title": "A Roda",
         "svg": "calix_a-roda.svg"
       }, {
@@ -1473,6 +1476,17 @@
       {
         "title": "Brainworms I",
         "svg": "bittencourt-project__brainworms-i.svg"
+      }
+    ]
+  },  {
+    "name": "Sextrash",
+    "origin": "Brazil",
+    "style": "Death Metal",
+    "link": "facebook.com/Sextrashofficial",
+    "logos": [
+      {
+        "title": "XXX",
+        "svg": "sextrash_xxx.svg"
       }
     ]
   },  {
