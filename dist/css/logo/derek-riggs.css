@@ -1,13 +1,10 @@
-/*!	SVG Music Logos
-*	https://github.com/tiagoporto/svg-music-logos
-*	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
-*/
-
 .derek-riggs--signature .derek-riggs__background,
 .derek-riggs--signature .derek-riggs__foreground {
-  display: none;
+	display: none;
 }
+
 .derek-riggs--badge .derek-riggs__signature,
 .derek-riggs--badge .derek-riggs__foreground {
-  fill: #fcfc00;
+	fill: #fcfc00;
 }
+

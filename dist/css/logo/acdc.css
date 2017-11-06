@@ -1,25 +1,26 @@
-/*!	SVG Music Logos
-*	https://github.com/tiagoporto/svg-music-logos
-*	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
-*/
-
 .acdc--classical .acdc__fill {
-  fill: #ef2334;
+	fill: #ef2334;
 }
+
 .acdc--classical .acdc__shadow-one {
-  fill: #e3051b;
+	fill: #e3051b;
 }
+
 .acdc--classical .acdc__shadow-two {
-  fill: #ffebcb;
+	fill: #ffebcb;
 }
+
 .acdc--classical .acdc__shadow-three {
-  fill: #f7b28a;
+	fill: #f7b28a;
 }
+
 .acdc--classical .acdc__shadow-four {
-  fill: #784500;
+	fill: #784500;
 }
+
 .acdc--back-in-black {
-  stroke-width: 2px;
-  stroke: #000;
-  fill: none;
+	stroke-width: 2px;
+	stroke: #000;
+	fill: none;
 }
+

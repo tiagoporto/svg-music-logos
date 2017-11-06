@@ -1,16 +1,14 @@
-/*!	SVG Music Logos
-*	https://github.com/tiagoporto/svg-music-logos
-*	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
-*/
-
 .bartucada__shadow {
-  fill: #fff;
+	fill: #fff;
 }
+
 .bartucada__letter-decoration,
 .bartucada__left-face {
-  fill: #e30613;
+	fill: #e30613;
 }
+
 .bartucada__sunbeams,
 .bartucada__right-face {
-  fill: #ffed00;
+	fill: #ffed00;
 }
+

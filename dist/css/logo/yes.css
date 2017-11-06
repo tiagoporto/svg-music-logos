@@ -1,16 +1,14 @@
-/*!	SVG Music Logos
-*	https://github.com/tiagoporto/svg-music-logos
-*	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
-*/
-
 .yes--yes .yes__letters-shadow,
 .yes--yes .yes__ballon-shadow {
-  fill: #0742ab;
+	fill: #0742ab;
 }
+
 .yes--yes .yes__ballon,
 .yes--yes .yes__letters {
-  fill: #ff331c;
+	fill: #ff331c;
 }
+
 .yes--big-generator .yes__letters {
-  fill: #fff;
+	fill: #fff;
 }
+

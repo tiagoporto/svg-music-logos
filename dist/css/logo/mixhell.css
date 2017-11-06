@@ -1,27 +1,29 @@
-/*!	SVG Music Logos
-*	https://github.com/tiagoporto/svg-music-logos
-*	Copyright (c) 2016-2017 Tiago Porto (http://tiagoporto.com)
-*/
-
 .mixhell__light-text,
 .mixhell__inner-rect {
-  fill: #fff;
+	fill: #fff;
 }
+
 .mixhell--spaces .mixhell__lettering {
-  fill: #fff;
+	fill: #fff;
 }
+
 .mixhell--spaces .mixhell__lines {
-  display: none;
+	display: none;
 }
+
 .mixhell--spaces .mixhell__outer-square {
-  fill: #f01c2e;
+	fill: #f01c2e;
 }
+
 .mixhell--highly-explicit .mixhell__lettering {
-  fill: #fff;
+	fill: #fff;
 }
+
 .mixhell--highly-explicit .mixhell__lines {
-  fill: #f00;
+	fill: #f00;
 }
+
 .mixhell--highly-explicit .mixhell__square {
-  display: none;
+	display: none;
 }
+
