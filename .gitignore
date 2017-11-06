@@ -22,31 +22,58 @@ $RECYCLE.BIN/
 coverage
 .coverage
 .tox
+.nyc_output
+lib-cov
 
 #################
-## Cordova
+## NPM
 #################
 
-platforms/*
-plugins/*
-
-#################
-## NPM Dependencies
-#################
-
+.npm
 node_modules/
+.lock-wscript
+
+# Output of 'npm pack'
+*.tgz
+
+#################
+## Logs
+#################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#################
+## Runtime data
+#################
+pids
+*.pid
+*.seed
+*.pid.lock
 
 #################
 ## Bower Components
 #################
 
-bower_components/
+bower_components
+
+#################
+## Yarn
+#################
+.yarn-integrity
+
+#################
+## Eslint
+#################
+.eslintcache
 
 #################
 ## SASS Cache
 #################
 
-.sass-cache/
+.sass-cache
 
 #################
 ## Gh-pages
@@ -59,3 +86,5 @@ bower_components/
 #################
 
 build/
+src/stylesheets/helpers/_helpers.styl
+src/stylesheets/helpers/_helpers.scss
