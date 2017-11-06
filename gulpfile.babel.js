@@ -100,8 +100,8 @@ gulp.task('styles-helpers', () => {
 gulp.task('styles', () => {
   return gulp
     .src([
-      path.join(paths.styles.src, '*.styl'),
-      path.join(`!${paths.styles.src}`, '_*.styl')
+      path.join(paths.styles.src, '**/*.styl'),
+      path.join(`!${paths.styles.src}`, '**/_*.styl')
     ])
     .pipe(plumber())
     .pipe(
