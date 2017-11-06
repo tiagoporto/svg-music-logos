@@ -44,7 +44,6 @@
     "babel-register": "6.26.0",
     "browser-sync": "2.18.13",
     "del": "3.0.0",
-    "domready": "1.0.8",
     "eslint-config-standard": "10.2.1",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-node": "5.2.1",

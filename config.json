@@ -63,7 +63,7 @@
     "notify": false,
     "logPrefix": "BrowserSync",
     "server": {
-      "baseDir": ["app/", "./"]
+      "baseDir": ["dist/", "./"]
     },
     "routes": {
         "/bower_components": "bower_components",
