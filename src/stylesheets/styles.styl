@@ -1,31 +1,34 @@
 // Helpers
 @import "settings/_variables"
-@import "helpers/_functions"
-@import "helpers/_mixins"
+@import "helpers/_helpers"
 
 // Web Fonts
 // @import "settings/_web-fonts"
 
 // Sprites
 // @import "helpers/_bitmap-sprite"
-// @import "helpers/_vetor-sprite"
+// @import "helpers/_vector-sprite"
 
 // Vendors
-@import "../vendors/flexboxgrid/flexboxgrid"
-
-// Vertical Rhythm module from Compass ported to Stylus
-@import "../vendors/vertical-rhythm-port-from-compass/_vertical-rhythm"
+// @import "package_name"; // to import from node_modules
 
 /*! ==================================================================
    Main Styles
    ================================================================== */
-@import "partials"
-@import "components"
 
+/*!
+*
+* Box model reset
+* http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*
+*/
+html
+  box-sizing: border-box
 
-/*! ==================================================================
-   Media Queries
-   ================================================================== */
+*, *:before, *:after
+  box-sizing: inherit
 
-@media print
-	@import "partials/_print"
+i[class^="icon-"]
+  display: block
+
+@import "components/_index"
