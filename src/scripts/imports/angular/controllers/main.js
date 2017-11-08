@@ -1,8 +1,12 @@
+import $ from 'jquery'
+import angular from 'angular'
+
 angular.module('main.controller', ['ngFileSaver'])
   .controller('MainCtrl', ['$scope', '$http', '$timeout', '$routeParams', '$location', '$window', 'FileSaver', 'Blob', ($scope, $http, $timeout, $routeParams, $location, $window, FileSaver, Blob) => {
 
     let url = $location.absUrl()
-    url = url.replace(/#\/.*/, '')
+    url = url.replace(/#!\/.*/, '')
+
     $scope.search = $routeParams.search
 
     $scope.download = (event, css, fileName) => {
