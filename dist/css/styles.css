@@ -1,1 +1,73 @@
-body:before{white-space: pre; font-family: monospace; content: "/Volumes/Data/Development/svg-music-logos/src/stylesheets/styles.styl:2:14\A    1| // Helpers\A    2| @import 'settings/_variables'\A -------------------^\A    3| @import 'helpers/_helpers'\A    4| \A    5| // Web Fonts\A \A Failed to @extend '.container'\A ";}
+/* ==================================================================
+   Main Styles
+   ================================================================== */
+
+/*
+*
+* Box model reset
+* http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*
+*/
+
+html {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+i[class^="icon-"] {
+	display: block;
+}
+
+.card {
+	background: #e6e6e6;
+	border-radius: 10px;
+	height: 100%;
+}
+
+.card__link-title {
+	color: #16a085;
+	text-decoration: none;
+}
+
+.card__link-title:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	background: #16a085;
+	color: #fff;
+}
+
+.logo {
+	max-height: 200px;
+	max-width: 100%;
+}
+
+.search {
+	width: 100%;
+	border-radius: 5px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.search:focus {
+	background: #ccc;
+	border-color: #ccc;
+	color: #fff;
+	outline: none;
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 72px;
+	text-decoration: none;
+	color: #16a085;
+}
+
