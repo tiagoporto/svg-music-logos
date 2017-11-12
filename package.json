@@ -2,7 +2,7 @@
   "name": "svg-music-logos",
   "version": "0.1.0",
   "description": "A collection of bands' and musicians' logos in SVG.",
-  "homepage": "http://tiagoporto.github.io/svg-music-logos/",
+  "homepage": "http://tiagoporto.github.io/svg-music-logos",
   "keywords": [
     "logos",
     "music",
@@ -20,17 +20,18 @@
     "url": "https://github.com/tiagoporto/svg-music-logos.git"
   },
   "scripts": {
-    "start": "gulp default:compile",
-    "serve": "gulp",
+    "start": "gulp compile:watch & npm run scripts -- --watch",
+    "serve": "gulp watch",
     "compile": "gulp compile",
     "build": "gulp build",
-    "serve-build": "gulp build:serve",
+    "serve:build": "gulp build:serve",
+    "scripts": "webpack --progress --colors",
     "ghpages": "gulp gh-pages",
     "lint": "eslint src/scripts/.",
-    "lint-fix": "npm run lint -- --fix",
+    "lint:fix": "npm run lint -- --fix",
     "cover": "nyc --reporter=lcov npm test",
     "test": "mocha './{,!(node_modules)/**/}*.test.js' test/**/*.js test/*.js",
-    "test-w": "npm test -- --watch"
+    "test:watch": "npm test -- --watch"
   },
   "main": "",
   "files": [],
@@ -38,6 +39,7 @@
     "angular": "1.6.6",
     "angular-file-saver": "1.1.3",
     "angular-route": "1.6.6",
+    "imports-loader": "^0.7.1",
     "jquery-svg-to-inline": "0.1.4",
     "normalize.css": "7.0.0"
   },
@@ -84,7 +86,6 @@
     "run-sequence": "2.2.0",
     "vinyl-buffer": "1.0.0",
     "webpack": "3.8.1",
-    "webpack-stream": "4.0.0",
     "gulp-stylus": "2.6.0"
   },
   "private": true

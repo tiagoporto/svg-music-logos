@@ -41,7 +41,9 @@
     }
   },
 
-  "lintCSS": true,
+  "validateW3C": false,
+
+  "lintCSS": false,
 
   "lintJS": true,
 

@@ -1,3 +1,4 @@
+import 'jquery-svg-to-inline'
 import $ from 'jquery'
 import angular from 'angular'
 

@@ -117,7 +117,6 @@
 
 
     ////////// ECMAScript 6 //////////
-    "arrow-body-style": ["warn", "as-needed"],
     "arrow-parens": ["warn", "as-needed"],
     "generator-star-spacing": ["error", {"before": true, "after": true}],
     "no-confusing-arrow": ["warn", {"allowParens": false}],
