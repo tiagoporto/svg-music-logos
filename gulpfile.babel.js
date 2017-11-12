@@ -298,7 +298,8 @@ gulp.task('clean', cb => {
   const cleanPaths = [
     basePaths.build,
     paths.styles.dest,
-    // paths.scripts.dest,
+    path.join(paths.scripts.dest, '**/*'),
+    `!${path.join(paths.scripts.dest, 'bundle.js')}`,
     path.join(paths.styles.src, 'helpers/{_bitmap-sprite,_vector-sprite}.{styl,scss}'),
     path.join(paths.images.dest, '**/*')
   ]

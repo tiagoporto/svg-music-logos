@@ -5,9 +5,9 @@
 * Released under the MIT license
 */
 
-const webpack = require('webpack')
-const paths = require('./config.json')
-const path = require('path')
+import path from 'path'
+import paths from './config.json'
+import webpack from 'webpack'
 
 const config = {
   entry: path.join(__dirname, paths.basePaths.src, paths.basePaths.scripts.src, 'index.js'),
@@ -17,10 +17,6 @@ const config = {
   },
   module: {
     rules: [
-      {
-        test: require.resolve('jquery-svg-to-inline'),
-        loader: 'imports-loader?$=jquery'
-      },
       {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules)/,
@@ -33,6 +29,9 @@ const config = {
       }
     ]
   },
+  externals: {
+    jquery: 'jQuery'
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
@@ -42,4 +41,4 @@ const config = {
   ]
 }
 
-module.exports = config
+export default config
