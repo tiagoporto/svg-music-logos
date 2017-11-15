@@ -1,21 +1,16 @@
 .card
-    background: lighten(#000, 90%)
-    border-radius: 10px
-    height: 100%
-    // padding: em(16px)
+  $margin=10px
+  height: 100%
+  margin: 0 $margin $margin 0
+  background: rgba(255,255,255,.5)
+  text-align: center
 
-    // &-box
-    //     @extend .center-xs
-    //     @extend .row
+  &-container
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
 
-    // &__cols
-    //     @extend .col-md-4
-    //     @extend .col-sm-6
-    //     @extend .col-xs-12
+    &__cols
+      flex: 0 (100/3)%
+      margin-bottom: $margin
 
-    &__link-title
-        color: $primary-color
-        text-decoration: none
-
-        &:hover
-            text-decoration: underline
