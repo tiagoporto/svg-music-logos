@@ -2103,6 +2103,17 @@
       }
     ]
   },  {
+    "name": "Annihilator",
+    "origin": "Canada",
+    "genre": "Thrash Metal",
+    "link": "annihilatormetal.com",
+    "logos": [
+      {
+        "title": "All For You",
+        "svg": "annihilator_all-for-you.svg"
+      }
+    ]
+  },  {
     "name": "Prince",
     "origin": "USA",
     "style": "Funk / pop / R&B / rock",
