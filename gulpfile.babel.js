@@ -374,7 +374,7 @@ gulp.task('watch', () => {
       path.join(basePaths.dest, '**/*'),
       path.join(`!${basePaths.dest}`, '**/*.{html,php,css,js,bmp,gif,jpg,jpeg,png,svg}')
     ],
-    [browserSync.reload]
+    browserSync.reload
   )
 })
 
