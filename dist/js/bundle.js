@@ -35949,6 +35949,18 @@ _angular2.default.module('main.controller', ['ngFileSaver']).controller('MainCtr
   };
 
   $http.get(url + 'data.json').then(function (response) {
+    var allGenres = response.data.map(function (elem) {
+      return elem.genre;
+    });
+    $scope.genres = allGenres.filter(function (item, pos) {
+      return allGenres.indexOf(item) === pos;
+    }).sort();
+    var allOrigins = response.data.map(function (elem) {
+      return elem.origin;
+    });
+    $scope.origins = allOrigins.filter(function (item, pos) {
+      return allOrigins.indexOf(item) === pos;
+    }).sort();
     var newResponse = [];
     var count = 0;
 
@@ -35960,7 +35972,7 @@ _angular2.default.module('main.controller', ['ngFileSaver']).controller('MainCtr
         newResponse[count].name = band.name;
         newResponse[count].link = band.link;
         newResponse[count].origin = band.origin;
-        newResponse[count].style = band.style;
+        newResponse[count].genre = band.genre;
         newResponse[count].css = band.css;
         newResponse[count].logo = logo;
 

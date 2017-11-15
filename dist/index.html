@@ -22,20 +22,19 @@
     <link rel="apple-touch-icon" href="img/touch/apple-touch-icon.png">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://example.com/page.html">
-    <meta property="og:title" content="Content Title">
-    <meta property="og:image" content="https://example.com/image.jpg">
-    <meta property="og:description" content="Description Here">
-    <meta property="og:site_name" content="Site Name">
+    <meta property="og:url" content="http://tiagoporto.github.io/svg-music-logos/">
+    <meta property="og:title" content="Music Logos">
+    <!-- <meta property="og:image" content="https://example.com/image.jpg"> -->
+    <meta property="og:description" content="A collection of bands&#39; and musicians&#39; logos in SVG.">
+    <meta property="og:site_name" content="SVG Music Logos">
     <meta property="og:locale" content="en">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@site_account">
-    <meta name="twitter:creator" content="@individual_account">
-    <meta name="twitter:url" content="https://example.com/page.html">
-    <meta name="twitter:title" content="Content Title">
-    <meta name="twitter:description" content="Content description less than 200 characters">
-    <meta name="twitter:image" content="https://example.com/image.jpg">
+    <meta name="twitter:creator" content="@_tiagoporto">
+    <meta name="twitter:url" content="http://tiagoporto.github.io/svg-music-logos/">
+    <meta name="twitter:title" content="SVG Music Logos">
+    <meta name="twitter:description" content="A collection of bands&#39; and musicians&#39; logos in SVG.">
+    <!-- <meta name="twitter:image" content="https://example.com/image.jpg"> -->
 
     <base href="/" />
 
@@ -47,14 +46,9 @@
   </head>
   <body data-ng-app="svgMusicLogosApp">
 
-    <main class="main">
-      <h1>
-          <a href="http://tiagoporto.github.io/svg-music-logos" class="title">
-              <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250"> -->
-              SVG Music Logos
-          </a>
-      </h1>
+    <div class="jumbotron"></div>
 
+    <header class="header">
       <a href="https://github.com/tiagoporto/svg-music-logos/" class="github-corner">
           <svg width="80" viewBox="0 0 250 250" style="fill:#16a085; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
               <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -63,26 +57,38 @@
           </svg>
       </a>
 
-      <div class="github-buttons">
-          <a class="github-button" href="https://github.com/tiagoporto"  data-show-count="true" aria-label="Follow @tiagoporto on GitHub">Follow @tiagoporto</a>
+      <div class="main">
+        <h1>
+            <a href="http://tiagoporto.github.io/svg-music-logos" class="title">
+                <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250"> -->
+                SVG Music Logos
+            </a>
+        </h1>
 
-          <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/fork" data-icon="octicon-git-branch" data-show-count="true" aria-label="Fork tiagoporto/svg-music-logos on GitHub">Fork</a>
+        <div class="github-buttons">
+            <a class="github-button" href="https://github.com/tiagoporto"  data-show-count="true" aria-label="Follow @tiagoporto on GitHub">Follow @tiagoporto</a>
 
-          <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue tiagoporto/svg-music-logos on GitHub">Issue</a>
+            <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/fork" data-icon="octicon-git-branch" data-show-count="true" aria-label="Fork tiagoporto/svg-music-logos on GitHub">Fork</a>
 
-          <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos" data-icon="octicon-star" data-show-count="true" aria-label="Star tiagoporto/svg-music-logos on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue tiagoporto/svg-music-logos on GitHub">Issue</a>
+
+            <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos" data-icon="octicon-star" data-show-count="true" aria-label="Star tiagoporto/svg-music-logos on GitHub">Star</a>
+        </div>
+
+        <p>A collection of bands' and musicians' logos in SVG.</p>
+
+        <p>All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer.</p>
       </div>
+    </header>
 
-      <p>A collection of bands' and musicians' logos in SVG.</p>
-
-      <p>All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer.</p>
-
-      <div data-ng-view></div>
+    <main class="main" data-ng-view>
     </main>
 
     <footer class="footer">
-      <div class="footer__box">
-          <p>copyright 2016-2017 </p>
+      <div class="main">
+        <div class="footer__box">
+            <p>copyright 2016-2018</p>
+        </div>
       </div>
     </footer>
 

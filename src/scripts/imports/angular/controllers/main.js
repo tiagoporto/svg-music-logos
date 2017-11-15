@@ -44,6 +44,10 @@ angular.module('main.controller', ['ngFileSaver'])
 
     $http.get(`${url}data.json`)
       .then(response => {
+        const allGenres = response.data.map(elem => elem.genre)
+        $scope.genres = allGenres.filter((item, pos) => allGenres.indexOf(item) === pos).sort()
+        const allOrigins = response.data.map(elem => elem.origin)
+        $scope.origins = allOrigins.filter((item, pos) => allOrigins.indexOf(item) === pos).sort()
         const newResponse = []
         let count = 0
 
@@ -55,7 +59,7 @@ angular.module('main.controller', ['ngFileSaver'])
             newResponse[count].name = band.name
             newResponse[count].link = band.link
             newResponse[count].origin = band.origin
-            newResponse[count].style = band.style
+            newResponse[count].genre = band.genre
             newResponse[count].css = band.css
             newResponse[count].logo = logo
 
