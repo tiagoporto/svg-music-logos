@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Slash - South Park v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="slash--south-park">
   <style>
     .slash__white{fill:#FFFFFF;}

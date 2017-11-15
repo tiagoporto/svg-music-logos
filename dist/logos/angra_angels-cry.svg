@@ -1,25 +1,31 @@
+<!--
+  SVG Music Logos
+  Angra - Angel's Cry v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" class="angra">
-    <style>
-        .angra__step1{fill:url(#SVGID_1_);}
-        .angra__step2{fill:url(#SVGID_2_);}
-        .st5{fill:url(#SVGID_6_);}
-        .st6{fill:url(#SVGID_7_);}
-        .st7{fill:url(#SVGID_8_);}
-        .st8{fill:url(#SVGID_9_);}
-        .st9{fill:url(#SVGID_10_);}
-        .st10{fill:url(#SVGID_11_);}
-        .st11{fill:url(#SVGID_12_);}
-        .st12{fill:url(#SVGID_13_);}
-        .st13{fill:url(#SVGID_14_);}
-        .st14{fill:url(#SVGID_15_);}
-        .st15{fill:url(#SVGID_16_);}
-        .st16{fill:url(#SVGID_17_);}
-        .st17{fill:url(#SVGID_18_);}
-        .st18{fill:url(#SVGID_19_);}
-        .st19{fill:url(#SVGID_20_);}
-        .st20{fill:url(#SVGID_21_);}
-        .st24{fill:url(#SVGID_25_);}
-    </style>
+  <style>
+    .angra__step1{fill:url(#SVGID_1_);}
+    .angra__step2{fill:url(#SVGID_2_);}
+    .angra__step3{fill:url(#SVGID_6_);}
+    .angra__step4{fill:url(#SVGID_7_);}
+    .angra__step5{fill:url(#SVGID_8_);}
+    .angra__step6{fill:url(#SVGID_9_);}
+    .st9{fill:url(#SVGID_10_);}
+    .st10{fill:url(#SVGID_11_);}
+    .st11{fill:url(#SVGID_12_);}
+    .st12{fill:url(#SVGID_13_);}
+    .st13{fill:url(#SVGID_14_);}
+    .st14{fill:url(#SVGID_15_);}
+    .st15{fill:url(#SVGID_16_);}
+    .st16{fill:url(#SVGID_17_);}
+    .st17{fill:url(#SVGID_18_);}
+    .st18{fill:url(#SVGID_19_);}
+    .st19{fill:url(#SVGID_20_);}
+    .st20{fill:url(#SVGID_21_);}
+    .st24{fill:url(#SVGID_25_);}
+  </style>
   <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="53.075" y1="45.511" x2="146.781" y2="45.511">
     <stop offset="0" stop-color="#F1DE3F"/>
     <stop offset=".1" stop-color="#AC611E"/>
@@ -64,7 +70,7 @@
     <stop offset=".666" stop-color="#AD631F"/>
     <stop offset="1" stop-color="#AC611E"/>
   </linearGradient>
-  <polygon class="st5" points="40.29 12.702 43.195 12.314 44.358 7.181 41.646 7.278"/>
+  <polygon class="angra__step3" points="40.29 12.702 43.195 12.314 44.358 7.181 41.646 7.278"/>
   <linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="32.905" y1="26.14" x2="40.217" y2="18.828">
     <stop offset="0" stop-color="#F1DE3F"/>
     <stop offset=".216" stop-color="#DAB534"/>
@@ -73,7 +79,7 @@
     <stop offset=".85" stop-color="#AF671F"/>
     <stop offset="1" stop-color="#AC611E"/>
   </linearGradient>
-  <polygon class="st6" points="33.607 26.843 37.287 25.099 39.224 21.322 38.546 17.157"/>
+  <polygon class="angra__step4" points="33.607 26.843 37.287 25.099 39.224 21.322 38.546 17.157"/>
   <linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="35.447" y1="24.518" x2="39.951" y2="29.022">
     <stop offset="0" stop-color="#AC611E"/>
     <stop offset=".092" stop-color="#B16B21"/>
@@ -89,7 +95,7 @@
     <stop offset="1" stop-color="#D7AE32"/>
     <stop offset="1" stop-color="#F1DE3F"/>
   </linearGradient>
-  <polygon class="st7" points="32.541 27.424 37.287 25.099 41.936 25.196 41.065 27.908"/>
+  <polygon class="angra__step5" points="32.541 27.424 37.287 25.099 41.936 25.196 41.065 27.908"/>
   <linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="37.094" y1="2.435" x2="37.094" y2="7.375">
     <stop offset="0" stop-color="#AC611E"/>
     <stop offset=".017" stop-color="#B06820"/>
@@ -103,7 +109,7 @@
     <stop offset=".906" stop-color="#D7AE32"/>
     <stop offset="1" stop-color="#F1DE3F"/>
   </linearGradient>
-  <polygon class="st8" points="35.156 5.922 29.83 2.823 33.413 2.435 44.358 7.181 41.646 7.278 40.483 7.375"/>
+  <polygon class="angra__step6" points="35.156 5.922 29.83 2.823 33.413 2.435 44.358 7.181 41.646 7.278 40.483 7.375"/>
   <linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="21.978" y1="36.099" x2="31.069" y2="49.082">
     <stop offset="0" stop-color="#AC611E"/>
     <stop offset=".067" stop-color="#AD641F"/>
@@ -390,10 +396,7 @@
     <stop offset="1" stop-color="#B36F22"/>
     <stop offset="1" stop-color="#F1DE3F"/>
   </linearGradient>
-
   <path class="st20" d="M154.694 30.523l-3.777-.387s-2.324 7.36-4.65 10.944c-2.323 3.584-10.847 10.654-18.014 12.397-7.167 1.743-13.656 1.163-17.337.484-3.68-.676-10.916-2.226-10.916-2.226v1.55l5.782 4.746s15.4 1.26 21.89-.388c6.488-1.646 15.302-5.327 18.11-8.62 2.81-3.293 8.427-15.98 8.427-15.98l.484-2.52z"/>
-
-
   <linearGradient id="SVGID_25_" gradientUnits="userSpaceOnUse" x1="55.736" y1="-3.614" x2="54.186" y2="58.372">
     <stop offset="0" stop-color="#FFFFA2"/>
     <stop offset=".086" stop-color="#FEFC9F"/>
