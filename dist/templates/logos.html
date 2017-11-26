@@ -1,3 +1,5 @@
+<input type="search" data-ng-model="search" placeholder="Search for logos" class="search" />
+<!--
 <p>
   <ul>
     <li data-ng-repeat="origin in origins">{{origin}}</li>
@@ -9,11 +11,10 @@
   <ul>
     <li data-ng-repeat="genre in genres">{{genre}}</li>
   </ul>
-</p>
+</p> -->
 
-<input type="search" data-ng-model="search" placeholder="Search for logos" class="search" />
 
-<div class="card-container">
+<div class="card-container" on-scroll="scroll()">
   <div data-ng-repeat="band in bands | orderBy:'name' |  filter:search" data-ng-init="lastItem($last)" class="card-container__cols">
       <div class="card">
           <h2>

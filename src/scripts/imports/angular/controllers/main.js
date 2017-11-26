@@ -10,6 +10,15 @@ angular.module('main.controller', ['ngFileSaver'])
 
     $scope.search = $routeParams.search
 
+    $scope.scroll = () => {
+      if (window.scrollY > 0) {
+        document.getElementById('jumbotron').style.height = '100%'
+      } else {
+        document.getElementById('jumbotron').style.height = '400px'
+      }
+
+    }
+
     $scope.download = (event, css, fileName) => {
       const svg = (new XMLSerializer()).serializeToString(event.target.parentElement.previousElementSibling)
 
