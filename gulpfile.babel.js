@@ -346,7 +346,7 @@ gulp.task('watch', () => {
   gulp.watch(path.join(paths.sprite.src, '**/*.svg'), ['vector-sprite', 'styles', browserSync.reload])
   gulp.watch(path.join(paths.images.dest, '**/*.svg'), ['svg2png', browserSync.reload])
   gulp.watch(path.join(paths.scripts.src, '**/*.{js,jsx}'), ['scripts'])
-  gulp.watch(path.join(paths.scripts.src, '**/*.{js,jsx}'), browserSync.reload)
+  gulp.watch(path.join(paths.scripts.dest, '**/*.{js,jsx}'), browserSync.reload)
   gulp.watch(path.join(paths.styles.src, 'helpers/{mixins,functions}/*.{styl,scss,sass}'), ['styles-helpers'])
   gulp.watch(
     [
