@@ -29,8 +29,10 @@ const config = {
       }
     ]
   },
-  externals: {
-    jquery: 'jQuery'
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
   },
   plugins: [
     new webpack.DefinePlugin({
