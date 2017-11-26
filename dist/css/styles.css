@@ -9,11 +9,6 @@
 *
 */
 
-html {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
@@ -60,13 +55,6 @@ i[class^="icon-"] {
 	margin-bottom: 10px;
 }
 
-.jumbotron {
-	background: #00f;
-	width: 100%;
-	height: 50vh;
-	position: fixed;
-}
-
 .header {
 	width: 100%;
 	height: 50vh;
@@ -81,5 +69,31 @@ i[class^="icon-"] {
 	width: 100%;
 	height: 6px;
 	display: block;
+}
+
+.search {
+	border: none;
+	font-size: 2em;
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.search:focus {
+	background: #ccc;
+	border-color: #ccc;
+	color: #fff;
+	outline: none;
+}
+
+.jumbotron {
+	background: #00f;
+	width: 100%;
+	height: 400px;
+	position: fixed;
+	-webkit-transition: height 1.5s;
+	transition: height 1.5s;
 }
 
