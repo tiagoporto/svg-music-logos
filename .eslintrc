@@ -19,7 +19,7 @@
     "serviceworker": false,
     "shelljs": false,
     "webextensions": false,
-    "worker": false,
+    "worker": false
   },
 
   "globals": {
@@ -97,7 +97,7 @@
     "consistent-this": ["warn", "context"],
     "id-blacklist": "warn",
     "id-match": "warn",
-    "jsx-quotes": ["error", "prefer-single"],
+    "jsx-quotes": ["error", "prefer-double"],
     "linebreak-style": ["error", "unix"],
     "max-depth": ["warn", 5],
     "max-nested-callbacks": ["warn", 5],
