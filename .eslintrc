@@ -102,7 +102,6 @@
     "max-depth": ["warn", 5],
     "max-nested-callbacks": ["warn", 5],
     "max-params": ["warn", 5],
-    "max-statements": ["warn", 5],
     "no-continue": "warn",
     "no-lonely-if": "error",
     "no-mixed-operators": "warn",
