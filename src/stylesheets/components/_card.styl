@@ -11,6 +11,9 @@
     flex-wrap: wrap
 
     &__cols
-      flex: 0 (100/3)%
       margin-bottom: $margin
+      flex: 0 100%
+
+      @media only screen and (min-width: 48em)
+        flex: 0 (100/3)%
 
