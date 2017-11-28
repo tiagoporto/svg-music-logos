@@ -1,5 +1,6 @@
 import data from '../data.json'
 import Vue from 'vue'
+import { deburr, kebabCase, split } from 'lodash'
 
 const allGenres = data.map(elem => elem.genre)
 const genres = allGenres.filter((item, pos) => allGenres.indexOf(item) === pos).sort()
@@ -40,7 +41,6 @@ bands.sort((a, b) => {
   return 0
 })
 
-
 const app = new Vue({
   el: '#svgMusicLogosApp',
   data: {
@@ -64,6 +64,20 @@ const app = new Vue({
           (band.origin && band.origin.toLowerCase().includes(self.search.origin.toLowerCase()))
         )
       })
+    }
+  },
+  methods: {
+    download (event, data) {
+      let svgFileName = data.logo.svg.toLowerCase()
+      const cssFileName = data.css
+      const sanitizedTitle = kebabCase(deburr(data.logo.title.toLowerCase()))
+      console.log("svgFileName", svgFileName);
+
+      if (!svgFileName.includes(sanitizedTitle)) {
+        const splitedFilename = split(svgFileName, '.')
+        svgFileName = `${splitedFilename[0]}_${sanitizedTitle}.${splitedFilename[1]}`
+      }
+      console.log("svgFileName", svgFileName);
     }
   }
 })

@@ -112,7 +112,7 @@
 
               <img :src="'logos/' + band.logo.svg" :class="'logo ' + band.logo.class" />
 
-              <p><button data-ng-click="download($event, band.css, band.logo.svg)">Download svg</button></p>
+              <p><button v-on:click="download($event, band)">Download svg</button></p>
             </div>
           </div>
         </div>
