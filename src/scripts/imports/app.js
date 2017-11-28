@@ -57,10 +57,11 @@ const app = new Vue({
     filteredBands () {
       const context = this
 
-      return context.bands.filter(function (band) {
-        const name = band.name.toLowerCase().includes(context.search.band.toLowerCase())
-        const genre = (!context.search.genre && typeof band.genre === 'undefined') || (band.genre && band.genre.toLowerCase().includes(context.search.genre.toLowerCase()))
-        const origin = (!context.search.origin && typeof band.origin === 'undefined') || (band.origin && band.origin.toLowerCase().includes(context.search.origin.toLowerCase()))
+      return context.bands.filter(band => {
+       const searched = context.search
+       const name = band.name.toLowerCase().includes(searched.band.toLowerCase())
+       const genre = (!searched.genre && !band.genre) || (band.genre && band.genre.includes(searched.genre))
+       const origin = (!searched.origin && !band.origin) || (band.origin && band.origin.includes(searched.origin))
 
         return name && origin && genre
       })
