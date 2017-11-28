@@ -40,13 +40,18 @@ bands.sort((a, b) => {
   return 0
 })
 
+
 const app = new Vue({
   el: '#svgMusicLogosApp',
   data: {
     bands,
     genres,
     origins,
-    search: ''
+    search: {
+      band: '',
+      genre: '',
+      origin: ''
+    }
   },
   computed: {
     filteredBands () {
@@ -54,13 +59,21 @@ const app = new Vue({
 
       return this.bands.filter(function (band) {
         return (
-          band.name.toLowerCase().includes(self.search) ||
-          (band.genre && band.genre.toLowerCase().includes(self.search)) ||
-          (band.origin && band.origin.toLowerCase().includes(self.search))
+          band.name.toLowerCase().includes(self.search.band.toLowerCase()) &&
+          (band.genre && band.genre.toLowerCase().includes(self.search.genre.toLowerCase())) &&
+          (band.origin && band.origin.toLowerCase().includes(self.search.origin.toLowerCase()))
         )
       })
     }
   }
 })
+
+window.onscroll = () => {
+  if (window.scrollY > 0) {
+    document.getElementById('jumbotron').style.height = '100%'
+  } else {
+    document.getElementById('jumbotron').style.height = '400px'
+  }
+}
 
 export default app
