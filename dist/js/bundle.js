@@ -205,10 +205,14 @@ var app = new _vue2.default({
   },
   computed: {
     filteredBands: function filteredBands() {
-      var self = this;
+      var context = this;
 
-      return this.bands.filter(function (band) {
-        return band.name.toLowerCase().includes(self.search.band.toLowerCase()) && band.genre && band.genre.toLowerCase().includes(self.search.genre.toLowerCase()) && band.origin && band.origin.toLowerCase().includes(self.search.origin.toLowerCase());
+      return context.bands.filter(function (band) {
+        var name = band.name.toLowerCase().includes(context.search.band.toLowerCase());
+        var genre = !context.search.genre && typeof band.genre === 'undefined' || band.genre && band.genre.toLowerCase().includes(context.search.genre.toLowerCase());
+        var origin = !context.search.origin && typeof band.origin === 'undefined' || band.origin && band.origin.toLowerCase().includes(context.search.origin.toLowerCase());
+
+        return name && origin && genre;
       });
     }
   },
@@ -217,13 +221,11 @@ var app = new _vue2.default({
       var svgFileName = data.logo.svg.toLowerCase();
       var cssFileName = data.css;
       var sanitizedTitle = (0, _lodash.kebabCase)((0, _lodash.deburr)(data.logo.title.toLowerCase()));
-      console.log("svgFileName", svgFileName);
 
       if (!svgFileName.includes(sanitizedTitle)) {
         var splitedFilename = (0, _lodash.split)(svgFileName, '.');
         svgFileName = splitedFilename[0] + '_' + sanitizedTitle + '.' + splitedFilename[1];
       }
-      console.log("svgFileName", svgFileName);
     }
   }
 });

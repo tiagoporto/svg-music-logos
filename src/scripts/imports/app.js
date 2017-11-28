@@ -55,14 +55,14 @@ const app = new Vue({
   },
   computed: {
     filteredBands () {
-      const self = this
+      const context = this
 
-      return this.bands.filter(function (band) {
-        return (
-          band.name.toLowerCase().includes(self.search.band.toLowerCase()) &&
-          (band.genre && band.genre.toLowerCase().includes(self.search.genre.toLowerCase())) &&
-          (band.origin && band.origin.toLowerCase().includes(self.search.origin.toLowerCase()))
-        )
+      return context.bands.filter(function (band) {
+        const name = band.name.toLowerCase().includes(context.search.band.toLowerCase())
+        const genre = (!context.search.genre && typeof band.genre === 'undefined') || (band.genre && band.genre.toLowerCase().includes(context.search.genre.toLowerCase()))
+        const origin = (!context.search.origin && typeof band.origin === 'undefined') || (band.origin && band.origin.toLowerCase().includes(context.search.origin.toLowerCase()))
+
+        return name && origin && genre
       })
     }
   },
@@ -71,13 +71,11 @@ const app = new Vue({
       let svgFileName = data.logo.svg.toLowerCase()
       const cssFileName = data.css
       const sanitizedTitle = kebabCase(deburr(data.logo.title.toLowerCase()))
-      console.log("svgFileName", svgFileName);
 
       if (!svgFileName.includes(sanitizedTitle)) {
         const splitedFilename = split(svgFileName, '.')
         svgFileName = `${splitedFilename[0]}_${sanitizedTitle}.${splitedFilename[1]}`
       }
-      console.log("svgFileName", svgFileName);
     }
   }
 })
