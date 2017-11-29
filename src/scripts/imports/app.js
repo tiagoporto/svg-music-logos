@@ -1,6 +1,6 @@
+import {deburr, kebabCase, split} from 'lodash'
 import data from '../data.json'
 import Vue from 'vue'
-import { deburr, kebabCase, split } from 'lodash'
 
 const allGenres = data.map(elem => elem.genre)
 const genres = allGenres.filter((item, pos) => allGenres.indexOf(item) === pos).sort()

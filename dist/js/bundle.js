@@ -132,6 +132,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _lodash = __webpack_require__(10);
+
 var _data = __webpack_require__(4);
 
 var _data2 = _interopRequireDefault(_data);
@@ -139,8 +141,6 @@ var _data2 = _interopRequireDefault(_data);
 var _vue = __webpack_require__(5);
 
 var _vue2 = _interopRequireDefault(_vue);
-
-var _lodash = __webpack_require__(10);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
