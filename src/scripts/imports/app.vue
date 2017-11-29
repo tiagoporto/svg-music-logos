@@ -64,7 +64,7 @@
     },
     data () {
       return {
-        bands: '',
+        bands,
         genres,
         origins,
         search: {
@@ -78,7 +78,7 @@
       filteredBands () {
         const context = this
 
-        return bands.filter(band => {
+        return context.bands.filter(band => {
           const searched = context.search
           const name = band.name.toLowerCase().includes(searched.band.toLowerCase())
           const genre = (!searched.genre && !band.genre) || (band.genre && band.genre.includes(searched.genre))

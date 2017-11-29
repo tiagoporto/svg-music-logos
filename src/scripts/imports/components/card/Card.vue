@@ -22,5 +22,8 @@
 
 <script>
   export default {
+    props: [
+      'filteredBands'
+    ]
   }
 </script>

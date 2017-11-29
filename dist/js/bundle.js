@@ -28708,7 +28708,7 @@ exports.default = {
   },
   data: function data() {
     return {
-      bands: '',
+      bands: bands,
       genres: genres,
       origins: origins,
       search: {
@@ -28723,7 +28723,7 @@ exports.default = {
     filteredBands: function filteredBands() {
       var context = this;
 
-      return bands.filter(function (band) {
+      return context.bands.filter(function (band) {
         var searched = context.search;
         var name = band.name.toLowerCase().includes(searched.band.toLowerCase());
         var genre = !searched.genre && !band.genre || band.genre && band.genre.includes(searched.genre);
@@ -29256,7 +29256,9 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 
-exports.default = {};
+exports.default = {
+  props: ['filteredBands']
+};
 
 /***/ }),
 /* 35 */
