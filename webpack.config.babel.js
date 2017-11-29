@@ -26,6 +26,15 @@ const config = {
             cacheDirectory: true
           }
         }
+      }, {
+        test: /\.vue$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'vue-loader',
+          options: {
+            cacheDirectory: true
+          }
+        }
       }
     ]
   },

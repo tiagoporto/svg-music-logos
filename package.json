@@ -40,7 +40,9 @@
     "babel-plugin-transform-vue-jsx": "^3.5.0",
     "lodash": "^4.17.4",
     "normalize.css": "7.0.0",
-    "vue": "^2.5.8"
+    "vue": "^2.5.9",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.9"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
