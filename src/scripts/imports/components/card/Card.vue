@@ -21,9 +21,9 @@
 </template>
 
 <script>
-  export default {
-    props: [
-      'filteredBands'
-    ]
+export default {
+  props: {
+    filteredBands: [Array]
   }
+}
 </script>

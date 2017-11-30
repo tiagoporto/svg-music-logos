@@ -30,23 +30,28 @@
 
       <p>All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer.</p>
 
-      <!-- <input type="search" v-model.trim="search.band" placeholder="Search" class="search" /> -->
+      <input type="search" v-model.trim="search.band" placeholder="Search" class="search" />
 
-      <!-- <select v-model="search.origin">
+      <select v-model="search.origin">
           <option value="">All Origins</option>
           <option v-for="origin in origins" :value="origin">{{origin}}</option>
-      </select> -->
+      </select>
 
-<!--       <select v-model="search.genre">
+      <select v-model="search.genre">
           <option value="">All Genres</option>
           <option v-for="genre in genres" :value="genre">{{genre}}</option>
-      </select> -->
+      </select>
 
     </div>
   </header>
 </template>
 
 <script>
-  export default {
+export default {
+  props: {
+    origins: [Array],
+    genres: [Array],
+    search: [Object]
   }
+}
 </script>
