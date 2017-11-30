@@ -32,7 +32,8 @@
 
   "extends": [
     // extend the set of enabled rules
-    "standard"
+    "standard",
+    "plugin:vue/base"
   ],
 
   "rules": {
