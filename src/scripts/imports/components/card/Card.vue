@@ -21,9 +21,17 @@
 </template>
 
 <script>
+import svgToInline from 'svg-to-inline/src/js/svg-to-inline.js'
+
 export default {
   props: {
     filteredBands: [Array]
+  },
+  mounted () {
+    svgToInline('.logo')
+  },
+  updated () {
+    svgToInline('.logo')
   }
 }
 </script>

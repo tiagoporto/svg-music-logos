@@ -56,6 +56,17 @@ bands.sort((a, b) => {
   return 0
 })
 
+// svgToInline({
+//   elementsClass: 'logo',
+//   useTriggerClass: false
+// })
+
+// setTimeout(() => {
+//   console.log('ttt')
+//   svgToInline('.logo')
+// }, 900)
+
+
 export default {
   components: {
     AppFooter,
