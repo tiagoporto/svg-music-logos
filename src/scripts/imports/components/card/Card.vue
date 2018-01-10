@@ -12,7 +12,7 @@
 
         <p>{{band.logo.title}}</p>
 
-        <img :src="'logos/' + band.logo.svg" :class="'logo ' + band.logo.class" />
+        <logo :band='band'></logo>
 
         <p><button v-on:click="download($event, band)">Download svg</button></p>
       </div>
@@ -21,16 +21,17 @@
 </template>
 
 <script>
+import Logo from './Logo.vue'
 import svgToInline from 'svg-to-inline/src/js/svg-to-inline.js'
 
 export default {
+  components: {
+    Logo
+  },
   props: {
     filteredBands: [Array]
   },
   mounted () {
-    svgToInline('.logo')
-  },
-  updated () {
     svgToInline('.logo')
   }
 }
