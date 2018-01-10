@@ -407,6 +407,7 @@ bands.sort(function (a, b) {
 //   svgToInline('.logo')
 // }, 900)
 
+
 exports.default = {
   components: {
     AppFooter: _AppFooter2.default,
@@ -18142,34 +18143,7 @@ var _Logo = __webpack_require__(16);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
-var _svgToInline = __webpack_require__(18);
-
-var _svgToInline2 = _interopRequireDefault(_svgToInline);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 exports.default = {
   components: {
@@ -18177,11 +18151,29 @@ exports.default = {
   },
   props: {
     filteredBands: [Array]
-  },
-  mounted: function mounted() {
-    (0, _svgToInline2.default)('.logo');
   }
-};
+}; //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 16 */
@@ -18191,7 +18183,7 @@ exports.default = {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Logo_vue__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Logo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Logo_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_32345032_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_Logo_vue__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_32345032_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_Logo_vue__ = __webpack_require__(18);
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -18251,136 +18243,91 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 
+var mdSVGStore = {};
 exports.default = {
+  name: 'MdSVGLoader',
   props: {
     band: [Object]
+  },
+  data: function data() {
+    return {
+      html: null,
+      error: null
+    };
+  },
+  computed: {
+    svgSRC: function svgSRC() {
+      return this.band.logo.svg;
+    }
+  },
+  watch: {
+    svgSRC: function svgSRC() {
+      this.html = null;
+      this.loadSVG();
+    }
+  },
+  methods: {
+    isSVG: function isSVG(mimetype) {
+      return mimetype.indexOf('svg') >= 0;
+    },
+    setHtml: function setHtml(value) {
+      var _this = this;
+
+      mdSVGStore[this.svgSRC].then(function (html) {
+        _this.html = html;
+        _this.$nextTick().then(function () {
+          _this.$emit('md-loaded');
+        });
+      });
+    },
+    unexpectedError: function unexpectedError(reject) {
+      this.error = 'Something bad happened trying to fetch ' + this.svgSRC + '.';
+      reject(this.error);
+    },
+    loadSVG: function loadSVG() {
+      var _this2 = this;
+
+      if (!mdSVGStore.hasOwnProperty(this.svgSRC)) {
+        mdSVGStore[this.svgSRC] = new Promise(function (resolve, reject) {
+          var request = new window.XMLHttpRequest();
+          request.open('GET', 'logos/' + _this2.svgSRC, true);
+          request.onload = function () {
+            var mimetype = request.getResponseHeader('content-type');
+            if (request.status === 200) {
+              if (_this2.isSVG(mimetype)) {
+                resolve(request.response);
+                _this2.setHtml();
+              } else {
+                _this2.error = 'The file ' + _this2.svgSRC + ' is not a valid SVG.';
+                reject(_this2.error);
+              }
+            } else if (request.status >= 400 && request.status < 500) {
+              _this2.error = 'The file ' + _this2.svgSRC + ' do not exists.';
+              reject(_this2.error);
+            } else {
+              _this2.unexpectedError(reject);
+            }
+          };
+          request.onerror = function () {
+            return _this2.unexpectedError(reject);
+          };
+          request.onabort = function () {
+            return _this2.unexpectedError(reject);
+          };
+          request.send();
+        });
+      } else {
+        this.setHtml();
+      }
+    }
+  },
+  created: function created() {
+    this.loadSVG();
   }
 };
 
 /***/ }),
 /* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-/**
- * replace tags to inline SVG
- * @param  {object} options [description]
- * @return {undefined} This function dont have return
- */
-var svgToInline = function svgToInline(options) {
-  var trigger = '';
-  var elements = [];
-
-  if (options) {
-    if (typeof options === 'string') {
-      if (options.substring(0, 1) === '#') {
-        document.getElementById(options.replace('#', '')) && (elements[0] = document.getElementById(options.replace('#', '')));
-      } else {
-        elements = Array.prototype.concat.apply(elements, document.getElementsByClassName(options.replace('.', '')), elements) || [];
-      }
-
-      for (var i = elements.length - 1; i >= 0; i -= 1) {
-        var file = elements[i].getAttribute('src') || elements[i].getAttribute('data');
-
-        if (file.search('.svg') < 0) {
-          elements.splice(i, 1);
-        }
-      }
-    } else if ((typeof options === 'undefined' ? 'undefined' : _typeof(options)) === 'object') {
-      trigger = options;
-      elements = document.getElementsByClassName(options.elementsClass);
-      console.log("elements", elements);
-    }
-  } else {
-    // If there isn't option will get all images and objects on the page with SRC is .svg extension
-    elements = Array.prototype.concat.apply(elements, document.getElementsByTagName('img'), elements) || [];
-    elements = Array.prototype.concat.apply(elements, document.getElementsByTagName('object'), elements) || [];
-
-    for (var _i = elements.length - 1; _i >= 0; _i -= 1) {
-      var _file = elements[_i].getAttribute('src') || elements[_i].getAttribute('data');
-
-      if (_file.search('.svg') < 0) {
-        elements.splice(_i, 1);
-      }
-    }
-  }
-
-  if (elements.length) {
-    Array.from(elements).forEach(function (item) {
-      var svg = {
-        current: item,
-        oldClass: '',
-        newClass: '',
-        path: item.getAttribute('data') || item.getAttribute('src')
-      };
-      var requestDetails = {
-        element: '',
-        svgTag: '',
-        svgTagWithoutClass: ''
-
-        // Get class names
-      };var inputClass = svg.current.getAttribute('class') && svg.current.getAttribute('class').split(' ');
-
-      if (inputClass) {
-        inputClass.forEach(function (item, index) {
-          var space = '';
-
-          // check if isn't the last class
-          if (inputClass[index] === trigger.class && !trigger.useClass) {
-            return;
-          }
-
-          index !== inputClass.length - 1 && (space = ' ');
-          svg.newClass += inputClass[index] + space;
-        });
-      }
-
-      var request = new XMLHttpRequest();
-      request.open('GET', svg.path, true);
-
-      request.onreadystatechange = function () {
-        if (this.readyState === 4) {
-          if (this.status >= 200 && this.status < 400) {
-            var response = this.responseText;
-
-            // Remove comments
-            requestDetails.element = response.replace(/<[?!][\s\w"-/:=?]+>/g, '');
-            requestDetails.svgTag = requestDetails.element.match(/<svg[\w\s\t\n:="\\'/.#-]+>/g);
-            requestDetails.svgTagWithoutClass = requestDetails.svgTag[0].replace(/class="[\w\s-_]+"/, '');
-            svg.oldClass = requestDetails.svgTag[0].match(/class="(.*?)"/);
-
-            // If exist class in svg add to svg.newClass
-            svg.oldClass && svg.oldClass[1] && svg.newClass && (svg.newClass = svg.oldClass[1] + ' ' + svg.newClass);
-
-            svg.newClass !== '' && (svg.newClass = 'class="' + svg.newClass + '"');
-
-            requestDetails.svgTagWithoutClass = requestDetails.svgTagWithoutClass.replace('>', ' ' + svg.newClass + '>');
-
-            svg.current.outerHTML = requestDetails.element.replace(/<svg[\w\s\t\n:="\\'/.#-]+>/g, requestDetails.svgTagWithoutClass);
-          } else {
-            console.error('Conection Error');
-          }
-        }
-      };
-
-      request.send();
-      request = null;
-    });
-  }
-};
-
-exports.default = svgToInline;
-
-/***/ }),
-/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18388,9 +18335,10 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("img", {
+  return _c("i", {
+    staticClass: "md-svg-loader",
     class: "logo " + _vm.band.logo.class,
-    attrs: { src: "logos/" + _vm.band.logo.svg }
+    domProps: { innerHTML: _vm._s(_vm.html) }
   })
 }
 var staticRenderFns = []
@@ -18405,6 +18353,7 @@ if (false) {
 }
 
 /***/ }),
+/* 19 */,
 /* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 

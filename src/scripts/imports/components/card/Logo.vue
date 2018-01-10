@@ -1,11 +1,78 @@
 <template>
-  <img :src="'logos/' + band.logo.svg" :class="'logo ' + band.logo.class"/>
+  <i class="md-svg-loader" v-html="html" :class="`logo ${band.logo.class}`"></i>
 </template>
 
 <script>
+const mdSVGStore = {}
 export default {
+  name: 'MdSVGLoader',
   props: {
     band: [Object]
+  },
+  data: () => ({
+    html: null,
+    error: null
+  }),
+  computed: {
+    svgSRC () {
+      return this.band.logo.svg
+    }
+  },
+  watch: {
+    svgSRC () {
+      this.html = null
+      this.loadSVG()
+    }
+  },
+  methods: {
+    isSVG (mimetype) {
+      return mimetype.indexOf('svg') >= 0
+    },
+    setHtml (value) {
+      mdSVGStore[this.svgSRC].then(html => {
+        this.html = html
+        this.$nextTick().then(() => {
+          this.$emit('md-loaded')
+        })
+      })
+    },
+    unexpectedError (reject) {
+      this.error = `Something bad happened trying to fetch ${this.svgSRC}.`
+      reject(this.error)
+    },
+    loadSVG () {
+      if (!mdSVGStore.hasOwnProperty(this.svgSRC)) {
+        mdSVGStore[this.svgSRC] = new Promise((resolve, reject) => {
+          const request = new window.XMLHttpRequest()
+          request.open('GET', `logos/${this.svgSRC}`, true)
+          request.onload = () => {
+            const mimetype = request.getResponseHeader('content-type')
+            if (request.status === 200) {
+              if (this.isSVG(mimetype)) {
+                resolve(request.response)
+                this.setHtml()
+              } else {
+                this.error = `The file ${this.svgSRC} is not a valid SVG.`
+                reject(this.error)
+              }
+            } else if (request.status >= 400 && request.status < 500) {
+              this.error = `The file ${this.svgSRC} do not exists.`
+              reject(this.error)
+            } else {
+              this.unexpectedError(reject)
+            }
+          }
+          request.onerror = () => this.unexpectedError(reject)
+          request.onabort = () => this.unexpectedError(reject)
+          request.send()
+        })
+      } else {
+        this.setHtml()
+      }
+    }
+  },
+  created () {
+    this.loadSVG()
   }
 }
 </script>

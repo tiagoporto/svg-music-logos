@@ -22,7 +22,6 @@
 
 <script>
 import Logo from './Logo.vue'
-import svgToInline from 'svg-to-inline/src/js/svg-to-inline.js'
 
 export default {
   components: {
@@ -30,9 +29,6 @@ export default {
   },
   props: {
     filteredBands: [Array]
-  },
-  mounted () {
-    svgToInline('.logo')
   }
 }
 </script>
