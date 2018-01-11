@@ -1,5 +1,5 @@
 <template>
-  <i class="md-svg-loader" v-html="html" :class="`logo ${band.logo.class}`"></i>
+  <div v-html="html" v-bind:class="['logo', band.logo.class ? band.logo.class : '']"></div>
 </template>
 
 <script>

@@ -37,9 +37,9 @@
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-vue-jsx": "^3.5.0",
     "eslint-plugin-vue": "^4.0.0-beta.0",
+    "file-saver": "^1.3.3",
     "lodash": "^4.17.4",
     "normalize.css": "7.0.0",
-    "svg-to-inline": "file:../svg-to-inline",
     "vue": "^2.5.9",
     "vue-loader": "^13.5.0",
     "vue-template-compiler": "^2.5.9"

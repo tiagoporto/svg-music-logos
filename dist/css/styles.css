@@ -97,7 +97,7 @@ i[class^="icon-"] {
 	transition: height 1.5s;
 }
 
-.logo {
+.logo svg {
 	max-height: 200px;
 }
 
