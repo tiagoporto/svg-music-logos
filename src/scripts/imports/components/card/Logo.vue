@@ -5,7 +5,7 @@
 <script>
 const mdSVGStore = {}
 export default {
-  name: 'MdSVGLoader',
+  name: 'Logo',
   props: {
     band: [Object]
   },
@@ -41,7 +41,7 @@ export default {
       reject(this.error)
     },
     loadSVG () {
-      if (!mdSVGStore.hasOwnProperty(this.svgSRC)) {
+      if (!Object.prototype.hasOwnProperty.call(mdSVGStore, this.svgSRC)) {
         mdSVGStore[this.svgSRC] = new Promise((resolve, reject) => {
           const request = new window.XMLHttpRequest()
           request.open('GET', `logos/${this.svgSRC}`, true)

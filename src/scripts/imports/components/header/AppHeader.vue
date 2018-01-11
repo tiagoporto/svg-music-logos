@@ -48,6 +48,7 @@
 
 <script>
 export default {
+  name: 'AppHeader',
   props: {
     origins: [Array],
     genres: [Array],

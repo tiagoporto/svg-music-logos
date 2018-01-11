@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import {deburr, kebabCase, split} from 'lodash'
 import AppFooter from './components/footer/AppFooter.vue'
 import AppHeader from './components/header/AppHeader.vue'
 import Card from './components/card/Card.vue'
@@ -56,18 +55,8 @@ bands.sort((a, b) => {
   return 0
 })
 
-// svgToInline({
-//   elementsClass: 'logo',
-//   useTriggerClass: false
-// })
-
-// setTimeout(() => {
-//   console.log('ttt')
-//   svgToInline('.logo')
-// }, 900)
-
-
 export default {
+  name: 'App',
   components: {
     AppFooter,
     AppHeader,
@@ -97,18 +86,6 @@ export default {
 
         return name && origin && genre
       })
-    }
-  },
-  methods: {
-    download (event, data) {
-      let svgFileName = data.logo.svg.toLowerCase()
-      const cssFileName = data.css
-      const sanitizedTitle = kebabCase(deburr(data.logo.title.toLowerCase()))
-
-      if (!svgFileName.includes(sanitizedTitle)) {
-        const splitedFilename = split(svgFileName, '.')
-        svgFileName = `${splitedFilename[0]}_${sanitizedTitle}.${splitedFilename[1]}`
-      }
     }
   }
 }

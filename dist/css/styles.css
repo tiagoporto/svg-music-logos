@@ -93,8 +93,8 @@ i[class^="icon-"] {
 	width: 100%;
 	height: 400px;
 	position: fixed;
-	-webkit-transition: height 1.5s;
-	transition: height 1.5s;
+	-webkit-transition: height 1.5s linear;
+	transition: height 1.5s linear;
 }
 
 .logo svg {

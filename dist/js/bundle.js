@@ -206,8 +206,6 @@ module.exports = g;
 "use strict";
 
 
-__webpack_require__(3);
-
 var _App = __webpack_require__(4);
 
 var _App2 = _interopRequireDefault(_App);
@@ -215,6 +213,10 @@ var _App2 = _interopRequireDefault(_App);
 var _vue = __webpack_require__(22);
 
 var _vue2 = _interopRequireDefault(_vue);
+
+var _vueAnalytics = __webpack_require__(29);
+
+var _vueAnalytics2 = _interopRequireDefault(_vueAnalytics);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -226,8 +228,14 @@ new _vue2.default({
   }
 });
 
+if (undefined === 'production') {
+  _vue2.default.use(_vueAnalytics2.default, {
+    id: 'UA-32351360-4'
+  });
+}
+
 window.onscroll = function () {
-  if (window.scrollY > 0) {
+  if (window.scrollY > 20) {
     document.getElementById('jumbotron').style.height = '100%';
   } else {
     document.getElementById('jumbotron').style.height = '400px';
@@ -235,26 +243,7 @@ window.onscroll = function () {
 };
 
 /***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (undefined === 'production') {
-  /* eslint-disable */
-  // Google Analytics: change UA-XXXXX-X to be your site's ID.
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r;i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments);
-    }, i[r].l = 1 * new Date();a = s.createElement(o), m = s.getElementsByTagName(o)[0];a.async = 1;a.src = g;m.parentNode.insertBefore(a, m);
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-  ga('create', 'UA-32351360-4', 'auto');
-  ga('send', 'pageview');
-}
-
-/***/ }),
+/* 3 */,
 /* 4 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -318,8 +307,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _lodash = __webpack_require__(6);
-
 var _AppFooter = __webpack_require__(8);
 
 var _AppFooter2 = _interopRequireDefault(_AppFooter);
@@ -338,9 +325,7 @@ var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var allGenres = _data2.default.map(function (elem) {
-  return elem.genre;
-}); //
+//
 //
 //
 //
@@ -353,6 +338,9 @@ var allGenres = _data2.default.map(function (elem) {
 //
 //
 
+var allGenres = _data2.default.map(function (elem) {
+  return elem.genre;
+});
 var genres = allGenres.filter(function (item, pos) {
   return allGenres.indexOf(item) === pos;
 }).sort();
@@ -397,18 +385,8 @@ bands.sort(function (a, b) {
   return 0;
 });
 
-// svgToInline({
-//   elementsClass: 'logo',
-//   useTriggerClass: false
-// })
-
-// setTimeout(() => {
-//   console.log('ttt')
-//   svgToInline('.logo')
-// }, 900)
-
-
 exports.default = {
+  name: 'App',
   components: {
     AppFooter: _AppFooter2.default,
     AppHeader: _AppHeader2.default,
@@ -439,18 +417,6 @@ exports.default = {
 
         return name && origin && genre;
       });
-    }
-  },
-  methods: {
-    download: function download(event, data) {
-      var svgFileName = data.logo.svg.toLowerCase();
-      var cssFileName = data.css;
-      var sanitizedTitle = (0, _lodash.kebabCase)((0, _lodash.deburr)(data.logo.title.toLowerCase()));
-
-      if (!svgFileName.includes(sanitizedTitle)) {
-        var splitedFilename = (0, _lodash.split)(svgFileName, '.');
-        svgFileName = splitedFilename[0] + '_' + sanitizedTitle + '.' + splitedFilename[1];
-      }
     }
   }
 };
@@ -17649,7 +17615,9 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 
-exports.default = {};
+exports.default = {
+  name: 'AppFooter'
+};
 
 /***/ }),
 /* 10 */
@@ -17799,6 +17767,7 @@ Object.defineProperty(exports, "__esModule", {
 //
 
 exports.default = {
+  name: 'AppHeader',
   props: {
     origins: [Array],
     genres: [Array],
@@ -18139,40 +18108,20 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _Logo = __webpack_require__(16);
-
-var _Logo2 = _interopRequireDefault(_Logo);
+var _lodash = __webpack_require__(6);
 
 var _fileSaver = __webpack_require__(26);
 
 var _fileSaver2 = _interopRequireDefault(_fileSaver);
 
+var _Logo = __webpack_require__(16);
+
+var _Logo2 = _interopRequireDefault(_Logo);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 exports.default = {
+  name: 'Card',
   components: {
     Logo: _Logo2.default
   },
@@ -18181,13 +18130,30 @@ exports.default = {
   },
   methods: {
     download: function download(event, band) {
+      var _this = this;
+
+      var svgFileName = band.logo.svg.toLowerCase();
       var svg = event.target.parentElement.previousElementSibling.innerHTML;
+      var sanitizedTitle = (0, _lodash.kebabCase)((0, _lodash.deburr)(band.logo.title.toLowerCase()));
+
+      if (!svgFileName.includes(sanitizedTitle)) {
+        var splitedFilename = (0, _lodash.split)(svgFileName, '.');
+        svgFileName = splitedFilename[0] + '_' + sanitizedTitle + '.' + splitedFilename[1];
+      }
 
       var save = function save(content) {
-        var file = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : band.logo.svg;
+        var filename = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : band.logo.svg;
 
         content = new Blob([content], { type: 'text/plain' });
-        _fileSaver2.default.saveAs(content, file);
+        _fileSaver2.default.saveAs(content, filename);
+
+        if (undefined === 'production') {
+          _this.$ga.event({
+            eventCategory: 'download',
+            eventAction: 'click',
+            eventLabel: svgFileName
+          });
+        }
       };
 
       if (band.css) {
@@ -18198,7 +18164,7 @@ exports.default = {
           if (request.readyState === 4) {
             if (request.status >= 200 && request.status < 400) {
               var cssResponse = '<style>\r\n' + request.responseText + '\r</style>';
-              var content = svg.replace(/(<svg[\w='"\s:\/.-]+>)/, '$1\r\n' + cssResponse);
+              var content = svg.replace(/(<svg[\w='"\s:/.-]+>)/, '$1\r\n' + cssResponse);
 
               save(content);
             } else {
@@ -18211,11 +18177,30 @@ exports.default = {
       } else {
         save(svg);
       }
-
-      // typeof ga === 'function' && ga('send', 'event', 'download', 'click', fileName)
     }
   }
-};
+}; //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 /* 16 */
@@ -18287,7 +18272,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var mdSVGStore = {};
 exports.default = {
-  name: 'MdSVGLoader',
+  name: 'Logo',
   props: {
     band: [Object]
   },
@@ -18329,7 +18314,7 @@ exports.default = {
     loadSVG: function loadSVG() {
       var _this2 = this;
 
-      if (!mdSVGStore.hasOwnProperty(this.svgSRC)) {
+      if (!Object.prototype.hasOwnProperty.call(mdSVGStore, this.svgSRC)) {
         mdSVGStore[this.svgSRC] = new Promise(function (resolve, reject) {
           var request = new window.XMLHttpRequest();
           request.open('GET', 'logos/' + _this2.svgSRC, true);
@@ -29885,6 +29870,12 @@ module.exports = function() {
 module.exports = __webpack_amd_options__;
 
 /* WEBPACK VAR INJECTION */}.call(exports, {}))
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e,n){if(true)module.exports=n();else if("function"==typeof define&&define.amd)define([],n);else{var t=n();for(var r in t)("object"==typeof exports?exports:e)[r]=t[r]}}(this,function(){return function(e){function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}var t={};return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{configurable:!1,enumerable:!0,get:r})},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},n.p="",n(n.s=0)}([function(e,n,t){"use strict";function r(e){u(_,e)}function o(){return _.id?[].concat(_.id):[]}function i(){}function a(e){return new Promise(function(n,t){var r=document.head||document.getElementsByTagName("head")[0],o=document.createElement("script");o.async=!0,o.src=e,o.charset="utf8",r.appendChild(o),o.onload=n,o.onerror=t})}function c(e,n){var t=n.split("/"),r=e.split("/");return""===t[0]&&"/"===e[e.length-1]&&t.shift(),r.join("/")+t.join("/")}function u(e,n){return Object.keys(n).forEach(function(t){if(e[t]&&"object"==typeof e[t])return void u(e[t],n[t]);e[t]=n[t]}),e}function f(){return Array.prototype.slice.call(document.getElementsByTagName("script")).filter(function(e){return-1!==e.src.indexOf("analytics")}).length>0}function l(e){return e.replace(/-/gi,"")}function s(){return new Promise(function(e,n){var t=setInterval(function(){"undefined"!=typeof window&&window.ga&&(e(),clearInterval(t))},10)})}function d(e,n){if(o().length>1){return l(n)+"."+e}return e}function p(e){var n=Object.keys(e).reduce(function(n,t,r,o){var i=r===o.length-1;return n+=t+"="+e[t]+(i?"":"&")},"");return""!==n?"?"+n:""}function v(e){return-1!==B.ignoreRoutes.indexOf(e)}function g(e){return e.query&&e.params}function h(e){return e.currentRoute}function y(e){for(var n=arguments.length,t=Array(n>1?n-1:0),r=1;r<n;r++)t[r-1]=arguments[r];o().forEach(function(n){var r;if(void 0===window.ga||"string"!=typeof n)return void B.untracked.push({method:d(e,n),arguments:[].concat(t)});(r=window).ga.apply(r,[d(e,n)].concat(t))})}function m(){for(var e=arguments.length,n=Array(e),t=0;t<e;t++)n[t]=arguments[t];if("object"==typeof n[0]&&n[0].constructor===Object)return void y("set",n[0]);y("set",n[0],n[1])}function b(){var e=o();B.debug.enabled&&(window.ga_debug={trace:B.debug.trace}),e.forEach(function(n){var t=l(n),r=e.length>1?D({},B.fields,{name:t}):B.fields;window.ga("create",n,"auto",r)}),B.beforeFirstHit();var n=B.ecommerce;if(n.enabled){var t=n.enhanced?"ec":"ecommerce";n.options?y("require",t,n.options):y("require",t)}B.linkers.length>0&&(y("require","linker"),y("linker:autoLink",B.linkers)),B.debug.sendHitTask||m("sendHitTask",null)}function w(e){if(Array.isArray(e)){for(var n=0,t=Array(e.length);n<e.length;n++)t[n]=e[n];return t}return Array.from(e)}function k(){var e=B.untracked,n=B.autoTracking,t=e.length;if(t&&n.untracked)for(;t--;){var r=e[t];y.apply(void 0,[r.method].concat(w(r.arguments))),e.splice(t,1)}}function O(){for(var e=void 0,n=arguments.length,t=Array(n),r=0;r<n;r++)t[r]=arguments[r];if(h(t[0])&&(e=t[0].currentRoute),g(t[0])&&(e=t[0]),e){var o=B.router,i=B.autoTracking,a=i.transformQueryString,u=i.prependBase,f=p(e.query),l=o&&o.options.base,s=u&&l,d=e.path+(a?f:"");return d=s?c(l,d):d,m("page",d),void y("send","pageview",M({page:d,title:e.name,location:window.location.href},"function"==typeof t[1]&&{hitCallback:t[1]}))}y.apply(void 0,["send","pageview"].concat(t))}function j(e){if(!v(e)){var n=B.autoTracking,t=e.meta.analytics,r=void 0===t?{}:t,o=r.pageviewTemplate||n.pageviewTemplate;O(o?o(e):e)}}function x(){var e=B.router,n=B.autoTracking;n.page&&e&&(n.pageviewOnLoad&&j(e.currentRoute),B.router.afterEach(function(t,r){var o=n.skipSamePath,i=n.shouldRouterUpdate;o&&t.path===r.path||("function"!=typeof i||i(t,r))&&setTimeout(function(){j(e.currentRoute)},0)}))}function T(){if("undefined"!=typeof document){var e=B.id,n=B.debug,t=B.checkDuplicatedScript,r=B.disableScriptLoader,o=n.enabled?"analytics_debug":"analytics",i="https://www.google-analytics.com/"+o+".js";if(!e)throw new Error("[vue-analytics] Please enter a Google Analytics tracking ID");return new Promise(function(e,n){return t&&f(i)||r?e():a(i).then(function(){e()}).catch(function(){n("[vue-analytics] It's not possible to load Google Analytics script")})}).then(function(){return s()}).then(function(){return"function"==typeof e?e():e}).then(function(e){B.id=e,b(),G(),B.ready(),x(),k()}).catch(function(e){console.error(e)})}}function A(){for(var e=arguments.length,n=Array(e),t=0;t<e;t++)n[t]=arguments[t];y.apply(void 0,["send","event"].concat(n))}function P(e){y("send","exception",{exDescription:e,exFatal:arguments.length>1&&void 0!==arguments[1]&&arguments[1]})}function E(e,n){var t=B.autoTracking.exception,r=e.message||e;t&&n.$ga.exception(r,!0)}function q(){for(var e=arguments.length,n=Array(e),t=0;t<e;t++)n[t]=arguments[t];y.apply(void 0,["send","social"].concat(n))}function R(){for(var e=arguments.length,n=Array(e),t=0;t<e;t++)n[t]=arguments[t];y.apply(void 0,["send","timing"].concat(n))}function S(e,n,t){return n in e?Object.defineProperty(e,n,{value:t,enumerable:!0,configurable:!0,writable:!0}):e[n]=t,e}function H(e){r(arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}),e.directive("ga",J),e.prototype.$ga=e.$ga=z,e.config.errorHandler||(e.config.errorHandler=E),T()}Object.defineProperty(n,"__esModule",{value:!0});var I=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},L={id:null,router:null,fields:{},ignoreRoutes:[],linkers:[],commands:{},set:[],require:[],ecommerce:{enabled:!1,options:null,enhanced:!1},autoTracking:{shouldRouterUpdate:null,skipSamePath:!1,exception:!1,page:!0,transformQueryString:!0,pageviewOnLoad:!0,pageviewTemplate:null,untracked:!0,prependBase:!0},debug:{enabled:!1,trace:!1,sendHitTask:!0},checkDuplicatedScript:!1,disableScriptLoader:!1,beforeFirstHit:i,ready:i,untracked:[]},_=I({},L),B=_,D=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},F=function(){if(2==arguments.length)return void y("require",arguments.length<=0?void 0:arguments[0],arguments.length<=1?void 0:arguments[1]);y("require",arguments.length<=0?void 0:arguments[0])},$=function(){B.set.forEach(function(e){var n=e.field,t=e.value;if(void 0===n||void 0===t)throw new Error('[vue-analytics] Wrong configuration in the plugin options.\nThe "set" array requires each item to have a "field" and a "value" property.');m(n,t)})},C=function(){var e=["ec","ecommerce"];B.require.forEach(function(n){if(-1!==e.indexOf(n)||-1!==e.indexOf(n.name))throw new Error("[vue-analytics] The ecommerce features are built-in in the plugin. \nFollow the ecommerce instructions available in the documentation.");if("string"!=typeof n&&"object"!=typeof n)throw new Error('[vue-analytics] Wrong configuration in the plugin options. \nThe "require" array requires each item to be a string or to have a "name" and an "options" property.');var t=n.name||n;if(n.options)return void F(t,n.options);F(t)})},G=function(){$(),C()},M=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},N=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},Q=function(e){return(B.ecommerce.enhanced?"ec":"ecommerce")+":"+e},U=["addItem","addTransaction","addProduct","addImpression","setAction","addPromo","send"],W=U.reduce(function(e,n){return N({},e,S({},n,function(){for(var e=arguments.length,t=Array(e),r=0;r<e;r++)t[r]=arguments[r];y.apply(void 0,[Q(n)].concat(t))}))},{}),z={event:A,exception:P,page:O,query:y,require:F,set:m,social:q,time:R,untracked:k,ecommerce:W,commands:B.commands},J={inserted:function(e,n,t){var r=n.value;e.addEventListener("click",function(){var e="string"==typeof r?B.commands[r]:r;if(!e)throw new Error("[vue-analytics] The value passed to v-ga is not defined in the commands list.");e.apply(t.context)})}};n.default=H,t.d(n,"onAnalyticsReady",function(){return s})}])});
 
 /***/ })
 /******/ ]);

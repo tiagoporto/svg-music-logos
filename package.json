@@ -41,6 +41,7 @@
     "lodash": "^4.17.4",
     "normalize.css": "7.0.0",
     "vue": "^2.5.9",
+    "vue-analytics": "^5.8.0",
     "vue-loader": "^13.5.0",
     "vue-template-compiler": "^2.5.9"
   },

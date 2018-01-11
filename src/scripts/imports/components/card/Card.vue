@@ -21,10 +21,12 @@
 </template>
 
 <script>
-import Logo from './Logo.vue'
+import {deburr, kebabCase, split} from 'lodash'
 import FileSaver from 'file-saver'
+import Logo from './Logo.vue'
 
 export default {
+  name: 'Card',
   components: {
     Logo
   },
@@ -33,11 +35,26 @@ export default {
   },
   methods: {
     download (event, band) {
+      let svgFileName = band.logo.svg.toLowerCase()
       const svg = event.target.parentElement.previousElementSibling.innerHTML
+      const sanitizedTitle = kebabCase(deburr(band.logo.title.toLowerCase()))
 
-      const save = (content, file = band.logo.svg) => {
+      if (!svgFileName.includes(sanitizedTitle)) {
+        const splitedFilename = split(svgFileName, '.')
+        svgFileName = `${splitedFilename[0]}_${sanitizedTitle}.${splitedFilename[1]}`
+      }
+
+      const save = (content, filename = band.logo.svg) => {
         content = new Blob([content], {type: 'text/plain'})
-        FileSaver.saveAs(content, file)
+        FileSaver.saveAs(content, filename)
+
+        if (process.env.NODE_ENV === 'production') {
+          this.$ga.event({
+            eventCategory: 'download',
+            eventAction: 'click',
+            eventLabel: svgFileName
+          })
+        }
       }
 
       if (band.css) {
@@ -48,7 +65,7 @@ export default {
           if (request.readyState === 4) {
             if (request.status >= 200 && request.status < 400) {
               const cssResponse = `<style>\r\n${request.responseText}\r</style>`
-              const content = svg.replace(/(<svg[\w='"\s:\/.-]+>)/, `$1\r\n${cssResponse}`)
+              const content = svg.replace(/(<svg[\w='"\s:/.-]+>)/, `$1\r\n${cssResponse}`)
 
               save(content)
             } else {
@@ -58,12 +75,9 @@ export default {
         }
 
         request.send()
-
       } else {
         save(svg)
       }
-
-      // typeof ga === 'function' && ga('send', 'event', 'download', 'click', fileName)
     }
   }
 }
