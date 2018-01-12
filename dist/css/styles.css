@@ -118,8 +118,7 @@ i[class^="icon-"] {
 }
 
 .search {
-	background: -webkit-linear-gradient(309deg, #1fc8db 0%, #0fb8ad 75%);
-	background: linear-gradient(141deg, #1fc8db 0%, #0fb8ad 75%);
+	background: rgba(255,255,255,0.6);
 	border: none;
 	font-size: 2em;
 	padding: 10px;
