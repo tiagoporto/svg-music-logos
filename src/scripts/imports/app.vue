@@ -3,9 +3,11 @@
     <div class="jumbotron" id="jumbotron"></div>
 
     <app-header :search="search" :origins="origins" :genres="genres"></app-header>
+
     <main class="main">
       <card :filteredBands='filteredBands'></card>
     </main>
+
     <app-footer></app-footer>
   </div>
 </template>

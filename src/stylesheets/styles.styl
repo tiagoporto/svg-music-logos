@@ -3,7 +3,7 @@
 @import "helpers/_helpers"
 
 // Web Fonts
-// @import "settings/_web-fonts"
+@import "settings/_web-fonts"
 
 // Sprites
 // @import "helpers/_bitmap-sprite"
@@ -22,8 +22,9 @@
 * http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 *
 */
-// html
-  // box-sizing: border-box
+html
+  box-sizing: border-box
+  font-family: $font-family-base
 
 *, *:before, *:after
   box-sizing: inherit

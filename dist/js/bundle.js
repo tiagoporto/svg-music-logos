@@ -206,15 +206,15 @@ module.exports = g;
 "use strict";
 
 
-var _App = __webpack_require__(4);
+var _App = __webpack_require__(3);
 
 var _App2 = _interopRequireDefault(_App);
 
-var _vue = __webpack_require__(22);
+var _vue = __webpack_require__(24);
 
 var _vue2 = _interopRequireDefault(_vue);
 
-var _vueAnalytics = __webpack_require__(29);
+var _vueAnalytics = __webpack_require__(28);
 
 var _vueAnalytics2 = _interopRequireDefault(_vueAnalytics);
 
@@ -243,15 +243,14 @@ window.onscroll = function () {
 };
 
 /***/ }),
-/* 3 */,
-/* 4 */
+/* 3 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_App_vue__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_App_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_App_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_App_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_49a8e890_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_App_vue__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_49a8e890_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_App_vue__ = __webpack_require__(23);
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -297,7 +296,7 @@ if (false) {(function () {
 
 
 /***/ }),
-/* 5 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -307,24 +306,26 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _AppFooter = __webpack_require__(8);
+var _AppFooter = __webpack_require__(5);
 
 var _AppFooter2 = _interopRequireDefault(_AppFooter);
 
-var _AppHeader = __webpack_require__(11);
+var _AppHeader = __webpack_require__(8);
 
 var _AppHeader2 = _interopRequireDefault(_AppHeader);
 
-var _Card = __webpack_require__(14);
+var _Card = __webpack_require__(11);
 
 var _Card2 = _interopRequireDefault(_Card);
 
-var _data = __webpack_require__(20);
+var _data = __webpack_require__(22);
 
 var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//
+//
 //
 //
 //
@@ -422,7 +423,665 @@ exports.default = {
 };
 
 /***/ }),
+/* 5 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppFooter_vue__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppFooter_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppFooter_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_200c3a20_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_AppFooter_vue__ = __webpack_require__(7);
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppFooter_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_200c3a20_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_AppFooter_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src/scripts/imports/components/footer/AppFooter.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-200c3a20", Component.options)
+  } else {
+    hotAPI.reload("data-v-200c3a20", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
 /* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+exports.default = {
+  name: 'AppFooter'
+};
+
+/***/ }),
+/* 7 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0, false, false)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("footer", { staticClass: "footer" }, [
+      _c("div", { staticClass: "main" }, [
+        _c("div", { staticClass: "footer__box" }, [
+          _c("p", [_vm._v("copyright 2016-2018")])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-200c3a20", esExports)
+  }
+}
+
+/***/ }),
+/* 8 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppHeader_vue__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppHeader_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppHeader_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d2fe454_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_AppHeader_vue__ = __webpack_require__(10);
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppHeader_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d2fe454_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_AppHeader_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src/scripts/imports/components/header/AppHeader.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-0d2fe454", Component.options)
+  } else {
+    hotAPI.reload("data-v-0d2fe454", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+exports.default = {
+  name: 'AppHeader',
+  props: {
+    origins: [Array],
+    genres: [Array],
+    search: [Object]
+  }
+};
+
+/***/ }),
+/* 10 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("header", { staticClass: "header" }, [
+    _c(
+      "a",
+      {
+        staticClass: "github-corner",
+        attrs: { href: "https://github.com/tiagoporto/svg-music-logos/" }
+      },
+      [
+        _c(
+          "svg",
+          {
+            staticStyle: {
+              fill: "#16a085",
+              color: "#fff",
+              position: "absolute",
+              top: "0",
+              border: "0",
+              right: "0"
+            },
+            attrs: { width: "80", viewBox: "0 0 250 250" }
+          },
+          [
+            _c("path", {
+              attrs: { d: "M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              staticClass: "octo-arm",
+              staticStyle: { "transform-origin": "130px 106px" },
+              attrs: {
+                d:
+                  "M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2",
+                fill: "currentColor"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              staticClass: "octo-body",
+              attrs: {
+                d:
+                  "M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z",
+                fill: "currentColor"
+              }
+            })
+          ]
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "main" }, [
+      _vm._m(0, false, false),
+      _vm._v(" "),
+      _vm._m(1, false, false),
+      _vm._v(" "),
+      _c("p", [_vm._v("A collection of bands' and musicians' logos in SVG.")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer."
+        )
+      ]),
+      _vm._v(" "),
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model.trim",
+            value: _vm.search.band,
+            expression: "search.band",
+            modifiers: { trim: true }
+          }
+        ],
+        staticClass: "search",
+        attrs: { type: "search", placeholder: "Search" },
+        domProps: { value: _vm.search.band },
+        on: {
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.$set(_vm.search, "band", $event.target.value.trim())
+          },
+          blur: function($event) {
+            _vm.$forceUpdate()
+          }
+        }
+      }),
+      _vm._v(" "),
+      _c(
+        "select",
+        {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.search.origin,
+              expression: "search.origin"
+            }
+          ],
+          on: {
+            change: function($event) {
+              var $$selectedVal = Array.prototype.filter
+                .call($event.target.options, function(o) {
+                  return o.selected
+                })
+                .map(function(o) {
+                  var val = "_value" in o ? o._value : o.value
+                  return val
+                })
+              _vm.$set(
+                _vm.search,
+                "origin",
+                $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+              )
+            }
+          }
+        },
+        [
+          _c("option", { attrs: { value: "" } }, [_vm._v("All Origins")]),
+          _vm._v(" "),
+          _vm._l(_vm.origins, function(origin) {
+            return _c("option", { domProps: { value: origin } }, [
+              _vm._v(_vm._s(origin))
+            ])
+          })
+        ],
+        2
+      ),
+      _vm._v(" "),
+      _c(
+        "select",
+        {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.search.genre,
+              expression: "search.genre"
+            }
+          ],
+          on: {
+            change: function($event) {
+              var $$selectedVal = Array.prototype.filter
+                .call($event.target.options, function(o) {
+                  return o.selected
+                })
+                .map(function(o) {
+                  var val = "_value" in o ? o._value : o.value
+                  return val
+                })
+              _vm.$set(
+                _vm.search,
+                "genre",
+                $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+              )
+            }
+          }
+        },
+        [
+          _c("option", { attrs: { value: "" } }, [_vm._v("All Genres")]),
+          _vm._v(" "),
+          _vm._l(_vm.genres, function(genre) {
+            return _c("option", { domProps: { value: genre } }, [
+              _vm._v(_vm._s(genre))
+            ])
+          })
+        ],
+        2
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h1", { staticClass: "header__title" }, [
+      _c(
+        "a",
+        { attrs: { href: "http://tiagoporto.github.io/svg-music-logos" } },
+        [_vm._v("\n        SVG Music Logos\n      ")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "github-buttons" }, [
+      _c(
+        "a",
+        {
+          staticClass: "github-button",
+          attrs: {
+            href: "https://github.com/tiagoporto",
+            "data-show-count": "true",
+            "aria-label": "Follow @tiagoporto on GitHub"
+          }
+        },
+        [_vm._v("Follow @tiagoporto")]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "github-button",
+          attrs: {
+            href: "https://github.com/tiagoporto/svg-music-logos/fork",
+            "data-icon": "octicon-git-branch",
+            "data-show-count": "true",
+            "aria-label": "Fork tiagoporto/svg-music-logos on GitHub"
+          }
+        },
+        [_vm._v("Fork")]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "github-button",
+          attrs: {
+            href: "https://github.com/tiagoporto/svg-music-logos/issues",
+            "data-icon": "octicon-issue-opened",
+            "data-show-count": "true",
+            "aria-label": "Issue tiagoporto/svg-music-logos on GitHub"
+          }
+        },
+        [_vm._v("Issue")]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "github-button",
+          attrs: {
+            href: "https://github.com/tiagoporto/svg-music-logos",
+            "data-icon": "octicon-star",
+            "data-show-count": "true",
+            "aria-label": "Star tiagoporto/svg-music-logos on GitHub"
+          }
+        },
+        [_vm._v("Star")]
+      )
+    ])
+  }
+]
+render._withStripped = true
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-0d2fe454", esExports)
+  }
+}
+
+/***/ }),
+/* 11 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Card_vue__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Card_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Card_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8e4669d2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_Card_vue__ = __webpack_require__(21);
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Card_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8e4669d2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_Card_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src/scripts/imports/components/card/Card.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-8e4669d2", Component.options)
+  } else {
+    hotAPI.reload("data-v-8e4669d2", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _lodash = __webpack_require__(13);
+
+var _fileSaver = __webpack_require__(15);
+
+var _fileSaver2 = _interopRequireDefault(_fileSaver);
+
+var _Logo = __webpack_require__(18);
+
+var _Logo2 = _interopRequireDefault(_Logo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+  name: 'Card',
+  components: {
+    Logo: _Logo2.default
+  },
+  props: {
+    filteredBands: [Array]
+  },
+  methods: {
+    download: function download(event, band) {
+      var _this = this;
+
+      var svgFileName = band.logo.svg.toLowerCase();
+      var svg = event.target.parentElement.previousElementSibling.innerHTML;
+      var sanitizedTitle = (0, _lodash.kebabCase)((0, _lodash.deburr)(band.logo.title.toLowerCase()));
+
+      if (!svgFileName.includes(sanitizedTitle)) {
+        var splitedFilename = (0, _lodash.split)(svgFileName, '.');
+        svgFileName = splitedFilename[0] + '_' + sanitizedTitle + '.' + splitedFilename[1];
+      }
+
+      var save = function save(content) {
+        var filename = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : band.logo.svg;
+
+        content = new Blob([content], { type: 'text/plain' });
+        _fileSaver2.default.saveAs(content, filename);
+
+        if (undefined === 'production') {
+          _this.$ga.event({
+            eventCategory: 'download',
+            eventAction: 'click',
+            eventLabel: svgFileName
+          });
+        }
+      };
+
+      if (band.css) {
+        var request = new XMLHttpRequest();
+        request.open('GET', 'css/logo/' + band.css, true);
+
+        request.onreadystatechange = function () {
+          if (request.readyState === 4) {
+            if (request.status >= 200 && request.status < 400) {
+              var cssResponse = '<style>\r\n' + request.responseText + '\r</style>';
+              var content = svg.replace(/(<svg[\w='"\s:/.-]+>)/, '$1\r\n' + cssResponse);
+
+              save(content);
+            } else {
+              // Error :(
+            }
+          }
+        };
+
+        request.send();
+      } else {
+        save(svg);
+      }
+    }
+  }
+}; //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/***/ }),
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -17511,10 +18170,10 @@ exports.default = {
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(7)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(14)(module)))
 
 /***/ }),
-/* 7 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -17542,675 +18201,227 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 8 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppFooter_vue__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppFooter_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppFooter_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_200c3a20_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_AppFooter_vue__ = __webpack_require__(10);
-var disposed = false
-var normalizeComponent = __webpack_require__(0)
-/* script */
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppFooter_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_200c3a20_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_AppFooter_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "src/scripts/imports/components/footer/AppFooter.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-200c3a20", Component.options)
-  } else {
-    hotAPI.reload("data-v-200c3a20", Component.options)
-' + '  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
-
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {
-  name: 'AppFooter'
-};
-
-/***/ }),
-/* 10 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0, false, false)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("footer", { staticClass: "footer" }, [
-      _c("div", { staticClass: "main" }, [
-        _c("div", { staticClass: "footer__box" }, [
-          _c("p", [_vm._v("copyright 2016-2018")])
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-200c3a20", esExports)
-  }
-}
-
-/***/ }),
-/* 11 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppHeader_vue__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppHeader_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppHeader_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d2fe454_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_AppHeader_vue__ = __webpack_require__(13);
-var disposed = false
-var normalizeComponent = __webpack_require__(0)
-/* script */
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_AppHeader_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d2fe454_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_AppHeader_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "src/scripts/imports/components/header/AppHeader.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0d2fe454", Component.options)
-  } else {
-    hotAPI.reload("data-v-0d2fe454", Component.options)
-' + '  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
-
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {
-  name: 'AppHeader',
-  props: {
-    origins: [Array],
-    genres: [Array],
-    search: [Object]
-  }
-};
-
-/***/ }),
-/* 13 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("header", { staticClass: "header" }, [
-    _c(
-      "a",
-      {
-        staticClass: "github-corner",
-        attrs: { href: "https://github.com/tiagoporto/svg-music-logos/" }
-      },
-      [
-        _c(
-          "svg",
-          {
-            staticStyle: {
-              fill: "#16a085",
-              color: "#fff",
-              position: "absolute",
-              top: "0",
-              border: "0",
-              right: "0"
-            },
-            attrs: { width: "80", viewBox: "0 0 250 250" }
-          },
-          [
-            _c("path", {
-              attrs: { d: "M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" }
-            }),
-            _vm._v(" "),
-            _c("path", {
-              staticClass: "octo-arm",
-              staticStyle: { "transform-origin": "130px 106px" },
-              attrs: {
-                d:
-                  "M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2",
-                fill: "currentColor"
-              }
-            }),
-            _vm._v(" "),
-            _c("path", {
-              staticClass: "octo-body",
-              attrs: {
-                d:
-                  "M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z",
-                fill: "currentColor"
-              }
-            })
-          ]
-        )
-      ]
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "main" }, [
-      _vm._m(0, false, false),
-      _vm._v(" "),
-      _vm._m(1, false, false),
-      _vm._v(" "),
-      _c("p", [_vm._v("A collection of bands' and musicians' logos in SVG.")]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer."
-        )
-      ]),
-      _vm._v(" "),
-      _c("input", {
-        directives: [
-          {
-            name: "model",
-            rawName: "v-model.trim",
-            value: _vm.search.band,
-            expression: "search.band",
-            modifiers: { trim: true }
-          }
-        ],
-        staticClass: "search",
-        attrs: { type: "search", placeholder: "Search" },
-        domProps: { value: _vm.search.band },
-        on: {
-          input: function($event) {
-            if ($event.target.composing) {
-              return
-            }
-            _vm.$set(_vm.search, "band", $event.target.value.trim())
-          },
-          blur: function($event) {
-            _vm.$forceUpdate()
-          }
-        }
-      }),
-      _vm._v(" "),
-      _c(
-        "select",
-        {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.search.origin,
-              expression: "search.origin"
-            }
-          ],
-          on: {
-            change: function($event) {
-              var $$selectedVal = Array.prototype.filter
-                .call($event.target.options, function(o) {
-                  return o.selected
-                })
-                .map(function(o) {
-                  var val = "_value" in o ? o._value : o.value
-                  return val
-                })
-              _vm.$set(
-                _vm.search,
-                "origin",
-                $event.target.multiple ? $$selectedVal : $$selectedVal[0]
-              )
-            }
-          }
-        },
-        [
-          _c("option", { attrs: { value: "" } }, [_vm._v("All Origins")]),
-          _vm._v(" "),
-          _vm._l(_vm.origins, function(origin) {
-            return _c("option", { domProps: { value: origin } }, [
-              _vm._v(_vm._s(origin))
-            ])
-          })
-        ],
-        2
-      ),
-      _vm._v(" "),
-      _c(
-        "select",
-        {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.search.genre,
-              expression: "search.genre"
-            }
-          ],
-          on: {
-            change: function($event) {
-              var $$selectedVal = Array.prototype.filter
-                .call($event.target.options, function(o) {
-                  return o.selected
-                })
-                .map(function(o) {
-                  var val = "_value" in o ? o._value : o.value
-                  return val
-                })
-              _vm.$set(
-                _vm.search,
-                "genre",
-                $event.target.multiple ? $$selectedVal : $$selectedVal[0]
-              )
-            }
-          }
-        },
-        [
-          _c("option", { attrs: { value: "" } }, [_vm._v("All Genres")]),
-          _vm._v(" "),
-          _vm._l(_vm.genres, function(genre) {
-            return _c("option", { domProps: { value: genre } }, [
-              _vm._v(_vm._s(genre))
-            ])
-          })
-        ],
-        2
-      )
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("h1", [
-      _c(
-        "a",
-        {
-          staticClass: "title",
-          attrs: { href: "http://tiagoporto.github.io/svg-music-logos" }
-        },
-        [_vm._v("\n        SVG Music Logos\n      ")]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "github-buttons" }, [
-      _c(
-        "a",
-        {
-          staticClass: "github-button",
-          attrs: {
-            href: "https://github.com/tiagoporto",
-            "data-show-count": "true",
-            "aria-label": "Follow @tiagoporto on GitHub"
-          }
-        },
-        [_vm._v("Follow @tiagoporto")]
-      ),
-      _vm._v(" "),
-      _c(
-        "a",
-        {
-          staticClass: "github-button",
-          attrs: {
-            href: "https://github.com/tiagoporto/svg-music-logos/fork",
-            "data-icon": "octicon-git-branch",
-            "data-show-count": "true",
-            "aria-label": "Fork tiagoporto/svg-music-logos on GitHub"
-          }
-        },
-        [_vm._v("Fork")]
-      ),
-      _vm._v(" "),
-      _c(
-        "a",
-        {
-          staticClass: "github-button",
-          attrs: {
-            href: "https://github.com/tiagoporto/svg-music-logos/issues",
-            "data-icon": "octicon-issue-opened",
-            "data-show-count": "true",
-            "aria-label": "Issue tiagoporto/svg-music-logos on GitHub"
-          }
-        },
-        [_vm._v("Issue")]
-      ),
-      _vm._v(" "),
-      _c(
-        "a",
-        {
-          staticClass: "github-button",
-          attrs: {
-            href: "https://github.com/tiagoporto/svg-music-logos",
-            "data-icon": "octicon-star",
-            "data-show-count": "true",
-            "aria-label": "Star tiagoporto/svg-music-logos on GitHub"
-          }
-        },
-        [_vm._v("Star")]
-      )
-    ])
-  }
-]
-render._withStripped = true
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0d2fe454", esExports)
-  }
-}
-
-/***/ }),
-/* 14 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Card_vue__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Card_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Card_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8e4669d2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_Card_vue__ = __webpack_require__(19);
-var disposed = false
-var normalizeComponent = __webpack_require__(0)
-/* script */
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Card_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8e4669d2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_Card_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "src/scripts/imports/components/card/Card.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-8e4669d2", Component.options)
-  } else {
-    hotAPI.reload("data-v-8e4669d2", Component.options)
-' + '  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
-
-
-/***/ }),
 /* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+var __WEBPACK_AMD_DEFINE_RESULT__;/* FileSaver.js
+ * A saveAs() FileSaver implementation.
+ * 1.3.2
+ * 2016-06-16 18:25:19
+ *
+ * By Eli Grey, http://eligrey.com
+ * License: MIT
+ *   See https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md
+ */
 
+/*global self */
+/*jslint bitwise: true, indent: 4, laxbreak: true, laxcomma: true, smarttabs: true, plusplus: true */
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+/*! @source http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js */
 
-var _lodash = __webpack_require__(6);
+var saveAs = saveAs || (function(view) {
+	"use strict";
+	// IE <10 is explicitly unsupported
+	if (typeof view === "undefined" || typeof navigator !== "undefined" && /MSIE [1-9]\./.test(navigator.userAgent)) {
+		return;
+	}
+	var
+		  doc = view.document
+		  // only get URL when necessary in case Blob.js hasn't overridden it yet
+		, get_URL = function() {
+			return view.URL || view.webkitURL || view;
+		}
+		, save_link = doc.createElementNS("http://www.w3.org/1999/xhtml", "a")
+		, can_use_save_link = "download" in save_link
+		, click = function(node) {
+			var event = new MouseEvent("click");
+			node.dispatchEvent(event);
+		}
+		, is_safari = /constructor/i.test(view.HTMLElement) || view.safari
+		, is_chrome_ios =/CriOS\/[\d]+/.test(navigator.userAgent)
+		, throw_outside = function(ex) {
+			(view.setImmediate || view.setTimeout)(function() {
+				throw ex;
+			}, 0);
+		}
+		, force_saveable_type = "application/octet-stream"
+		// the Blob API is fundamentally broken as there is no "downloadfinished" event to subscribe to
+		, arbitrary_revoke_timeout = 1000 * 40 // in ms
+		, revoke = function(file) {
+			var revoker = function() {
+				if (typeof file === "string") { // file is an object URL
+					get_URL().revokeObjectURL(file);
+				} else { // file is a File
+					file.remove();
+				}
+			};
+			setTimeout(revoker, arbitrary_revoke_timeout);
+		}
+		, dispatch = function(filesaver, event_types, event) {
+			event_types = [].concat(event_types);
+			var i = event_types.length;
+			while (i--) {
+				var listener = filesaver["on" + event_types[i]];
+				if (typeof listener === "function") {
+					try {
+						listener.call(filesaver, event || filesaver);
+					} catch (ex) {
+						throw_outside(ex);
+					}
+				}
+			}
+		}
+		, auto_bom = function(blob) {
+			// prepend BOM for UTF-8 XML and text/* types (including HTML)
+			// note: your browser will automatically convert UTF-16 U+FEFF to EF BB BF
+			if (/^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(blob.type)) {
+				return new Blob([String.fromCharCode(0xFEFF), blob], {type: blob.type});
+			}
+			return blob;
+		}
+		, FileSaver = function(blob, name, no_auto_bom) {
+			if (!no_auto_bom) {
+				blob = auto_bom(blob);
+			}
+			// First try a.download, then web filesystem, then object URLs
+			var
+				  filesaver = this
+				, type = blob.type
+				, force = type === force_saveable_type
+				, object_url
+				, dispatch_all = function() {
+					dispatch(filesaver, "writestart progress write writeend".split(" "));
+				}
+				// on any filesys errors revert to saving with object URLs
+				, fs_error = function() {
+					if ((is_chrome_ios || (force && is_safari)) && view.FileReader) {
+						// Safari doesn't allow downloading of blob urls
+						var reader = new FileReader();
+						reader.onloadend = function() {
+							var url = is_chrome_ios ? reader.result : reader.result.replace(/^data:[^;]*;/, 'data:attachment/file;');
+							var popup = view.open(url, '_blank');
+							if(!popup) view.location.href = url;
+							url=undefined; // release reference before dispatching
+							filesaver.readyState = filesaver.DONE;
+							dispatch_all();
+						};
+						reader.readAsDataURL(blob);
+						filesaver.readyState = filesaver.INIT;
+						return;
+					}
+					// don't create more object URLs than needed
+					if (!object_url) {
+						object_url = get_URL().createObjectURL(blob);
+					}
+					if (force) {
+						view.location.href = object_url;
+					} else {
+						var opened = view.open(object_url, "_blank");
+						if (!opened) {
+							// Apple does not allow window.open, see https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/WorkingwithWindowsandTabs/WorkingwithWindowsandTabs.html
+							view.location.href = object_url;
+						}
+					}
+					filesaver.readyState = filesaver.DONE;
+					dispatch_all();
+					revoke(object_url);
+				}
+			;
+			filesaver.readyState = filesaver.INIT;
 
-var _fileSaver = __webpack_require__(26);
+			if (can_use_save_link) {
+				object_url = get_URL().createObjectURL(blob);
+				setTimeout(function() {
+					save_link.href = object_url;
+					save_link.download = name;
+					click(save_link);
+					dispatch_all();
+					revoke(object_url);
+					filesaver.readyState = filesaver.DONE;
+				});
+				return;
+			}
 
-var _fileSaver2 = _interopRequireDefault(_fileSaver);
+			fs_error();
+		}
+		, FS_proto = FileSaver.prototype
+		, saveAs = function(blob, name, no_auto_bom) {
+			return new FileSaver(blob, name || blob.name || "download", no_auto_bom);
+		}
+	;
+	// IE 10+ (native saveAs)
+	if (typeof navigator !== "undefined" && navigator.msSaveOrOpenBlob) {
+		return function(blob, name, no_auto_bom) {
+			name = name || blob.name || "download";
 
-var _Logo = __webpack_require__(16);
+			if (!no_auto_bom) {
+				blob = auto_bom(blob);
+			}
+			return navigator.msSaveOrOpenBlob(blob, name);
+		};
+	}
 
-var _Logo2 = _interopRequireDefault(_Logo);
+	FS_proto.abort = function(){};
+	FS_proto.readyState = FS_proto.INIT = 0;
+	FS_proto.WRITING = 1;
+	FS_proto.DONE = 2;
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	FS_proto.error =
+	FS_proto.onwritestart =
+	FS_proto.onprogress =
+	FS_proto.onwrite =
+	FS_proto.onabort =
+	FS_proto.onerror =
+	FS_proto.onwriteend =
+		null;
 
-exports.default = {
-  name: 'Card',
-  components: {
-    Logo: _Logo2.default
-  },
-  props: {
-    filteredBands: [Array]
-  },
-  methods: {
-    download: function download(event, band) {
-      var _this = this;
+	return saveAs;
+}(
+	   typeof self !== "undefined" && self
+	|| typeof window !== "undefined" && window
+	|| this.content
+));
+// `self` is undefined in Firefox for Android content script context
+// while `this` is nsIContentFrameMessageManager
+// with an attribute `content` that corresponds to the window
 
-      var svgFileName = band.logo.svg.toLowerCase();
-      var svg = event.target.parentElement.previousElementSibling.innerHTML;
-      var sanitizedTitle = (0, _lodash.kebabCase)((0, _lodash.deburr)(band.logo.title.toLowerCase()));
+if (typeof module !== "undefined" && module.exports) {
+  module.exports.saveAs = saveAs;
+} else if (("function" !== "undefined" && __webpack_require__(16) !== null) && (__webpack_require__(17) !== null)) {
+  !(__WEBPACK_AMD_DEFINE_RESULT__ = function() {
+    return saveAs;
+  }.call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+}
 
-      if (!svgFileName.includes(sanitizedTitle)) {
-        var splitedFilename = (0, _lodash.split)(svgFileName, '.');
-        svgFileName = splitedFilename[0] + '_' + sanitizedTitle + '.' + splitedFilename[1];
-      }
-
-      var save = function save(content) {
-        var filename = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : band.logo.svg;
-
-        content = new Blob([content], { type: 'text/plain' });
-        _fileSaver2.default.saveAs(content, filename);
-
-        if (undefined === 'production') {
-          _this.$ga.event({
-            eventCategory: 'download',
-            eventAction: 'click',
-            eventLabel: svgFileName
-          });
-        }
-      };
-
-      if (band.css) {
-        var request = new XMLHttpRequest();
-        request.open('GET', 'css/logo/' + band.css, true);
-
-        request.onreadystatechange = function () {
-          if (request.readyState === 4) {
-            if (request.status >= 200 && request.status < 400) {
-              var cssResponse = '<style>\r\n' + request.responseText + '\r</style>';
-              var content = svg.replace(/(<svg[\w='"\s:/.-]+>)/, '$1\r\n' + cssResponse);
-
-              save(content);
-            } else {
-              // Error :(
-            }
-          }
-        };
-
-        request.send();
-      } else {
-        save(svg);
-      }
-    }
-  }
-}; //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /***/ }),
 /* 16 */
+/***/ (function(module, exports) {
+
+module.exports = function() {
+	throw new Error("define cannot be used indirect");
+};
+
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports) {
+
+/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
+module.exports = __webpack_amd_options__;
+
+/* WEBPACK VAR INJECTION */}.call(exports, {}))
+
+/***/ }),
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Logo_vue__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Logo_vue__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Logo_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_bustCache_Logo_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_32345032_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_Logo_vue__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_32345032_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_bustCache_Logo_vue__ = __webpack_require__(20);
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -18256,7 +18467,7 @@ if (false) {(function () {
 
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18354,7 +18565,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18379,7 +18590,7 @@ if (false) {
 }
 
 /***/ }),
-/* 19 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18424,13 +18635,14 @@ var render = function() {
               _c(
                 "button",
                 {
+                  staticClass: "card-container__button",
                   on: {
                     click: function($event) {
                       _vm.download($event, band)
                     }
                   }
                 },
-                [_vm._v("Download svg")]
+                [_vm._v("Download SVG")]
               )
             ])
           ],
@@ -18452,13 +18664,13 @@ if (false) {
 }
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, exports) {
 
 module.exports = [{"name":"Iron Maiden","css":"iron-maiden.css","origin":"England","genre":"Heavy Metal","link":"ironmaiden.com","logos":[{"title":"The soundhouse Tapes","svg":"iron-maiden_the-soundhouse-tapes.svg"},{"title":"Iron Maiden","svg":"iron-maiden.svg","class":"iron-maiden--classical"},{"title":"Powerslave","svg":"iron-maiden.svg","class":"iron-maiden--powerslave"},{"title":"Somewhere In Time","svg":"iron-maiden.svg","class":"iron-maiden--somewhere-in-time"},{"title":"Seventh Son of a Seventh Son","svg":"iron-maiden.svg","class":"iron-maiden--seventh-son-of-a-seventh-son"},{"title":"A Real Live One","svg":"iron-maiden.svg","class":"iron-maiden--a-real-live-one"},{"title":"A Real Dead One","svg":"iron-maiden.svg","class":"iron-maiden--a-dead-live-one"},{"title":"Best of b'Sides","svg":"iron-maiden.svg","class":"iron-maiden--best-of-b-sides"},{"title":"Live At Donington","svg":"iron-maiden_live-at-donington.svg"},{"title":"The X Factor","svg":"iron-maiden_the-x-factor.svg"},{"title":"Virtual XI","svg":"iron-maiden_virtual-xi.svg","class":"iron-maiden--virtual-xi"},{"title":"Brave New World","svg":"iron-maiden_virtual-xi.svg","class":"iron-maiden--brave-new-world"},{"title":"Eddie - Brave New World","svg":"iron-maiden_eddie-brave-new-world.svg"},{"title":"Eddie - A Matter of Life and Death","svg":"iron-maiden_eddie-a-matter-of-life-and-death.svg"},{"title":"Eddie - Formula One","svg":"iron-maiden_eddie-formula-one.svg"},{"title":"Eddie - The Final Frontier","svg":"iron-maiden_eddie-the-final-frontier.svg"},{"title":"The Book Of Souls","svg":"iron-maiden_the-book-of-souls.svg"},{"title":"Eddie - The Book Of Souls","svg":"iron-maiden_eddie-the-book-of-souls.svg"},{"title":"Legacy Of The Beast - Loading","svg":"iron-maiden_legacy-of-the-beast-loading.svg"},{"title":"Legacy Of The Beast - 666 Flag","svg":"iron-maiden_666-flag.svg"}]},{"name":"Iron Maiden - Derek Riggs","origin":"England","css":"derek-riggs.styl","link":"derekriggs.com","logos":[{"title":"Derek Riggs Signature","svg":"iron-maiden_derek-riggs.svg","class":"derek-riggs--signature"},{"title":"Derek Riggs - Somewhere in Time Eddie's Badge","svg":"iron-maiden_derek-riggs.svg","class":"derek-riggs--badge"}]},{"name":"Aphex Twin","origin":"Irish","genre":"Electronic","link":"warp.net/aphex-twin","logos":[{"title":"Selected Ambient Works 85–92","svg":"aphex-twin_selected-ambient-works-85-92.svg"}]},{"name":"John Petrucci","origin":"USA","genre":"Progressive Metal","link":"johnpetrucci.com","logos":[{"title":"JP","svg":"john-petrucci.svg"}]},{"name":"Aerosmith","origin":"USA","genre":"Hard Rock","link":"aerosmith.com","logos":[{"title":"Rockin' the Joint","svg":"aerosmith.svg"}]},{"name":"Marcelo D2","origin":"Brazil","genre":"Samba Rap","link":"marcelod2.com.br","logos":[{"title":"A procura da batida perfeita","svg":"marcelo-d2.svg"}]},{"name":"Nervosa","origin":"Brazil","genre":"Death Metal","link":"nervosaofficial.com","logos":[{"title":"Nervosa","svg":"nervosa.svg"}]},{"name":"concreto","origin":"Brazil","genre":"Hard Rock","link":"bandaconcreto.com.br","logos":[{"title":"Quanto Custa a vida","svg":"concreto_quanto-custa-a-vida.svg"},{"title":"Bruto","svg":"concreto_bruto.svg"}]},{"name":"Angra","origin":"Brazil","genre":"Power Metal","link":"angra.net","logos":[{"title":"Angel's Cry","svg":"angra_angels-cry.svg"}]},{"name":"O Rappa","origin":"Brazil","genre":"Alternative Rock","link":"orappa.com.br","logos":[{"title":"7 vezes","svg":"o-rappa-7-vezes.svg"}]},{"name":"Matanza","origin":"Brazil","genre":"Hardcore Punk","link":"matanza.com.br","logos":[{"title":"A Arte do Insulto","svg":"matanza_a-arte-do-insulto.svg"}]},{"name":"raimundos.css","origin":"Brazil","genre":"Alternative Metal","link":"raimundos.com.br","logos":[{"title":"Raimundos","svg":"raimundos.svg"},{"title":"R Symbol","svg":"raimundos_symbol.svg"},{"title":"Roda Viva","svg":"raimundos_roda-viva.svg"}]},{"name":"Weezer","origin":"USA","genre":"Alternative Rock","link":"weezer.com","logos":[{"title":"Weezer","svg":"weezer.svg"},{"title":"Flying =W=","svg":"weezer_flying-w.svg"}]},{"name":"Gorillaz","origin":"England","genre":"Alternative Rock","link":"gorillaz.com","logos":[{"title":"Gorillaz","svg":"gorillaz.svg"}]},{"name":"David Gilmour","origin":"England","genre":"Progressive Rock","link":"davidgilmour.com","logos":[{"title":"On an Island","svg":"david-gilmour_on-an-island.svg"}]},{"name":"Roger Waters","origin":"England","genre":"Progressive Rock","link":"rogerwaters.com","logos":[{"title":"The Wall Live","svg":"roger-waters_the-wall-live.svg"},{"title":"Us+Them","svg":"roger-waters_us+them.svg"}]},{"name":"Chickenfoot","css":"chickenfoot.css","origin":"Mexico","genre":"Hard Rock","link":"chickenfoot.us","logos":[{"title":"Chickenfoot","svg":"chickenfoot.svg"},{"title":"III","svg":"chickenfoot_III.svg","class":"chickenfoot--III"},{"title":"III Limited","svg":"chickenfoot_III-limited.svg","class":"chickenfoot--III-limited"}]},{"name":"Savatage","origin":"USA","genre":"Heavy Metal","link":"savatage.com","logos":[{"title":"Power of the Night","svg":"savatage_power-of-the-night.svg"}]},{"name":"Kreator","css":"kreator.css","origin":"Germany","genre":"Thrash Metal","link":"kreator-terrorzone.de","logos":[{"title":"Flag of Hate","svg":"kreator.svg"},{"title":"Endless Pain","svg":"kreator_endless-pain.svg"}]},{"name":"Bad Religion","css":"bad-religion.css","origin":"USA","genre":"Punk Rock","link":"badreligion.com","logos":[{"title":"Bad Religion","svg":"bad-religion.svg"},{"title":"Cross","svg":"bad-religion_cross.svg"}]},{"name":"Rainbow","origin":"England","genre":"Heavy Metal","link":"facebook.com/Rainbow-189246591087656","logos":[{"title":"Rising","svg":"rainbow_rising.svg"}]},{"name":"Amon Amarth","origin":"Sweden","genre":"Melodic Death Metal","link":"amonamarth.com","logos":[{"title":"Sorrow Throughout the Nine Worlds","svg":"amon-amarth_sorrow-throughout-the-nine-worlds.svg"}]},{"name":"Anti-Flag","origin":"USA","genre":"Punk Rock","link":"anti-flag.com","logos":[{"title":"The People or the Gun","svg":"anti-flag_the-people-or-the-gun.svg"}]},{"name":"Björk","origin":"Iceland","genre":"Art Pop","link":"bjork.com","logos":[{"title":"Family Tree","svg":"bjork_family-tree.svg"}]},{"name":"Alice Cooper","origin":"USA","genre":"Hard Rock","link":"alicecooper.com","logos":[{"title":"Constrictor","svg":"alice-cooper_constrictor.svg"},{"title":"Dragontown","svg":"alice-cooper_dragontown.svg"},{"title":"Dirty Diamonds","svg":"alice-cooper_dirty-diamonds.svg"}]},{"name":"Blur","origin":"England","genre":"Alternative Rock","link":"blur.co.uk","logos":[{"title":"Leisure","svg":"blur_leisure.svg"}]},{"name":"Arctic Monkeys","origin":"England","genre":"Indie Rock","link":"arcticmonkeys.com","logos":[{"title":"AM","svg":"arctic-monkeys_am.svg"}]},{"name":"Felipe Andreoli","origin":"Brazil","genre":"Heavy Metal","css":"felipe-andreoli.css","link":"felipeandreoli.com","logos":[{"title":"FA","svg":"felipe-andreoli.svg"}]},{"name":"Metallica","css":"metallica.css","origin":"USA","genre":"Thrash Metal","link":"metallica.com","logos":[{"title":"The Snake","svg":"metallica_snake.svg"},{"title":"Star","svg":"metallica_star.svg"},{"title":"Scary Guy","svg":"metallica_scary-guy.svg"},{"title":"Scary Guy Skullhawk","svg":"metallica_scary-guy-skullhawk.svg"},{"title":"Scary Guy Wings","svg":"metallica_scary-guy-wings.svg"},{"title":"Garage","svg":"metallica_garage-inc.svg"},{"title":"St. Anger","svg":"metallica_st-anger.svg"},{"title":"Death Magnetic","svg":"metallica_death-magnetic.svg"},{"title":"Beyond Magnet Symbol","svg":"metallica_beyond-magnetic.svg"},{"title":"30 years","svg":"metallica_30-years.svg"},{"title":"Throught The Never Symbol","svg":"metallica_throught-the-never.svg"},{"title":"dehann","svg":"dehaan.svg"},{"title":"Hardwired…To Self-Destruct","svg":"metallica_hardwired-to-self-destruct.svg"}]},{"name":"AC⚡DC","css":"acdc.css","origin":"Australia","genre":"Hard Rock","link":"acdc.com","logos":[{"title":"Let There Be Rock","svg":"acdc_classical.svg","class":"acdc--classical"},{"title":"Let There Be Rock","svg":"acdc.svg"},{"title":"Powerage","svg":"acdc_powerage.svg"},{"title":"Back in Black","svg":"acdc.svg","class":"acdc--back-in-black"}]},{"name":"ZZ Top","css":"zz-top.css","origin":"USA","genre":"Blues Rock","link":"zztop.com","logos":[{"title":"Eliminator","svg":"zz-top_eliminator.svg"}]},{"name":"Tim \"Ripper\" Owens","css":"tim-ripper-owens.css","origin":"USA","genre":"Heavy Metal","link":"timripperowens.com","logos":[{"title":"Tim Ripper Owens","svg":"tim-ripper-owens.svg"}]},{"name":"Slash","css":"slash.css","origin":"England","genre":"Hard Rock","link":"slashonline.com","logos":[{"title":"South Park","svg":"slash_south-park.svg"}]},{"name":"Incubus","origin":"USA","genre":"Alternative Rock","link":"incubushq.com","logos":[{"title":"A Crow Left of the Murder...","svg":"incubus_a-crow-left-of-the-murder.svg"}]},{"name":"Burzum","origin":"Norway","genre":"Black Metal","link":"burzum.org","logos":[{"title":"Demo","svg":"burzum_demo.svg"}]},{"name":"Counting Crows","origin":"USA","genre":"Alternative Rock","link":"countingcrows.com","logos":[{"title":"August and Everything After","svg":"counting-crows_august-and-everything-after.svg"}]},{"name":"Damageplan","origin":"USA","genre":"Thrash Metal","link":"damageplan.com","logos":[{"title":"New Found Power","svg":"damageplan_new-found-power.svg"}]},{"name":"Dead Kennedys","css":"dead-kennedys.styl","origin":"USA","genre":"Punk Rock","link":"deadkennedys.com","logos":[{"title":"DK","svg":"dead_kennedys_dk.svg"}]},{"name":"The XX","origin":"England","genre":"Indie Pop","link":"thexx.info","logos":[{"title":"XX","svg":"the-xx_xx.svg"}]},{"name":"Rammstein","css":"rammstein.css","origin":"Germany","genre":"Industrial Metal","link":"rammstein.com","logos":[{"title":"Herzeleid","svg":"rammstein_herzeleid.svg"},{"title":"R+","svg":"rammstein_symbol.svg"},{"title":"R+ Stroked","class":"rammstein__symbol--stroke","svg":"rammstein_symbol.svg"},{"title":"R+ Flat","svg":"rammstein_symbol--flat.svg"},{"title":"DR","svg":"rammstein_dr.svg"},{"title":"Wings","svg":"rammstein_wings.svg"}]},{"name":"The Beatles","origin":"England","genre":"Rock","link":"thebeatles.com","logos":[{"title":"The drop-T","svg":"the-beatles_drop-t.svg"}]},{"name":"Rigs","origin":"New Zealand","genre":"Alternative Rock","link":"rigs.bandcamp.com","logos":[{"title":"Dead Metaphors","svg":"rigs.svg"}]},{"name":"Biquini Cavadão","origin":"Brazil","genre":"Pop Rock","link":"biquini.com.br","logos":[{"title":"Roda Gigante","svg":"biquini-cavadao_roda-gigante.svg"}]},{"name":"Engenheiros do Hawaii","origin":"Brazil","genre":"Pop Rock","link":"uol.com.br/engenheirosdohawaii","logos":[{"title":"A Revolta dos Dândis","svg":"engenheiros-do-hawaii_a-revolta_dos_dandis.svg"},{"title":"Gessinger, Licks & Maltz","svg":"engenheiros-do-hawaii_gessinger-licks-maltz.svg"},{"title":"Novos Horizontes","svg":"engenheiros-do-hawaii_novos-horizontes.svg"}]},{"name":"Pato Fu","css":"pato-fu.css","origin":"Brazil","genre":"Pop Rock","link":"patofu.com.br","logos":[{"title":"Gol De Quem?","class":"pato-fu--gol-de-quem","svg":"pato-fu_gol-de-quem.svg"},{"title":"Televisão de Cachorro","class":"pato-fu--televisao-de-cachorro","svg":"pato-fu_gol-de-quem.svg"}]},{"name":"The 69 Eyes","origin":"Finland","genre":"Gothic Rock","link":"69eyes.com","logos":[{"title":"Savage Garden","svg":"the-69-eyes_savage-garden.svg"}]},{"name":"Soda Stereo","origin":"Argentina","genre":"Alternative Rock","link":"sodastereo.com","logos":[{"title":"Doble Vida","svg":"soda-stereo_doble-vida.svg"},{"title":"Me Véras Volver","svg":"soda-stereo_me-veras-volver.svg"}]},{"name":"Cálix","origin":"Brazil","genre":"Progressive Rock","link":"calix.com.br","logos":[{"title":"Canções de Beurin","svg":"calix_cancoes-de-beurin.svg"},{"title":"A Roda","svg":"calix_a-roda.svg"},{"title":"Caminhante","svg":"calix_caminhante.svg"}]},{"name":"Chakal","origin":"Brazil","genre":"Thrash Metal","link":"calix.com.br","logos":[{"title":"Abominable Anno Domini","svg":"chakal_abominable-anno-domini.svg"}]},{"name":"Franz Ferdinand","css":"franz-ferdinand.css","origin":"Scotland","genre":"Indie Rock","link":"franzferdinand.com","logos":[{"title":"Franz Ferdinand","svg":"franz-ferdinand.svg"}]},{"name":"Andre Matos","origin":"Brazil","genre":"Power Metal","link":"andrematos.net","logos":[{"title":"AM","svg":"andre-matos_am.svg"},{"title":"Andre Matos","svg":"andre-matos.svg"}]},{"name":"Massacration","origin":"Brazil","genre":"Comedy Metal","link":"facebook.com/MassacrationOficial","logos":[{"title":"Massacration","svg":"massacration.svg"}]},{"name":"Overdose","css":"overdose.css","origin":"Brazil","genre":"Heavy Metal","link":"facebook.com/overdosebrazil","logos":[{"title":"Século XX","svg":"overdose_seculo-xx.svg"},{"title":"Conscience","svg":"overdose_conscience.svg"},{"title":"Addicted to Reality","svg":"overdose_addicted-to-reality.svg"},{"title":"Progress of Decadence","svg":"overdose_progress-of-decadence.svg"}]},{"name":"Led Zeppelin","origin":"England","genre":"Rock","link":"ledzeppelin.com","logos":[{"title":"Led Zeppelin II","svg":"led-zeppelin_two.svg"},{"title":"Four Symbols","svg":"led-zeppelin_four-symbols.svg"},{"title":"The Song Remains the Same","svg":"led-zeppelin_the-song-remains-the-same.svg"},{"title":"Unofficial","svg":"led-zeppelin_unofficial.svg"}]},{"name":"U2","css":"u2.css","origin":"Ireland","genre":"Rock","link":"u2.com","logos":[{"title":"360°","svg":"u2_360.svg"},{"title":"No Line On The Honrizon","svg":"u2_no-line-on-the-honrizon.svg"},{"title":"How To Dismantle An Atomic Bomb","svg":"u2_how-to-dismantle-an-atomic-bomb.svg"},{"title":"The Joshua Tree","svg":"u2_the-joshua-tree.svg","class":"u2--the-joshua-tree"},{"title":"The Joshua Tree","svg":"u2_the-joshua-tree.svg","class":"u2--the-joshua-tree-text"},{"title":"Joshua Tree","svg":"u2_the-joshua-tree.svg","class":"u2--joshua-tree"}]},{"name":"Rush","css":"rush.css","origin":"Canada","genre":"Progressive Rock","link":"rush.com","logos":[{"title":"Rush","svg":"rush.svg"}]},{"name":"Cavalera Conspiracy","origin":"USA","genre":"Groove Metal","link":"cavaleraconspiracy.com","logos":[{"title":"Inflikted","svg":"cavalera-conspiracy_inflikted.svg"},{"title":"CC","svg":"cavalera-conspiracy_cc.svg"}]},{"name":"Ace Frehley","css":"ace-frehley.css","origin":"USA","genre":"Hard Rock","link":"acefrehley.com","logos":[{"title":"Trouble Walkin'","class":"ace-frehley--trouble-walkin","svg":"ace-frehley_trouble-walkin.svg"}]},{"name":"Mixhell","css":"mixhell.css","origin":"England","genre":"Eletronic","link":"facebook.com/therealmixhell","logos":[{"title":"Spaces","class":"mixhell--spaces","svg":"mixhell.svg"},{"title":"Spaces tour'","class":"mixhell--highly-explicit","svg":"mixhell.svg"},{"title":"Mixhell","svg":"mixhell>.svg"},{"title":"Elastic Artists","svg":"mixhell_elastic-artists.svg"}]},{"name":"Pink Floyd","origin":"England","genre":"Progressive Rock","link":"pinkfloyd.com","logos":[{"title":"The Wall","svg":"pink-floyd_the-wall.svg"},{"title":"The Divison Bell","svg":"pink-floyd_the-division-bell.svg"}]},{"name":"Wolfmother","origin":"Australia","genre":"Hard Rock","link":"wolfmother.com","logos":[{"title":"Wolfmother","svg":"wolfmother.svg"}]},{"name":"Mamonas Assassinas","css":"mamonas-assassinas.css","origin":"Brazil","genre":"Comedy Rock","link":"en.wikipedia.org/wiki/Mamonas_Assassinas","logos":[{"title":"Mamonas Assassinas","svg":"mamonas-assassinas.svg"},{"title":"MA","svg":"mamonas-assassinas_ma.svg"},{"title":"Mamona","svg":"mamonas-assassinas_mamona.svg"}]},{"name":"Coldplay","origin":"England","genre":"Alternative Rock","link":"coldplay.com","logos":[{"title":"Parachutes","svg":"coldplay_parachutes.svg"}]},{"name":"Pantera","origin":"USA","genre":"Groove Metal","link":"pantera.com","logos":[{"title":"Far Beyond Driven","svg":"pantera.svg"},{"title":"CFH","svg":"pantera_cfh.svg"}]},{"name":"Daft Punk","origin":"France","genre":"Eletronic","link":"daftpunk.com","logos":[{"title":"Homework","svg":"daft-punk_homework.svg"}]},{"name":"Sepultura","css":"sepultura.css","origin":"Brazil","genre":"Groove Metal","link":"sepultura.com","logos":[{"title":"Morbid Visions","svg":"sepultura_morbid-visions.svg"},{"title":"Beneath the Remains","class":"sepultura--beneath-the-remains","svg":"sepultura_beneath-the-remains.svg"},{"title":"Arise","class":"sepultura--arise","svg":"sepultura_beneath-the-remains.svg"},{"title":"Tribal Symbol","class":"sepultura--tribal-symbol","svg":"sepultura_tribal.svg"},{"title":"Chaos Symbol","svg":"sepultura_chaos-symbol.svg"},{"title":"Roots Symbol","svg":"sepultura_roots-symbol.svg"},{"title":"Nation","svg":"sepultura_nation.svg"},{"title":"Tribal Star","svg":"sepultura_star.svg"},{"title":"Triangle Symbol","svg":"sepultura_triangle.svg"},{"title":"1/4 Of a Century","class":"sepultura--quarter-of-a-century","svg":"sepultura_tribal.svg"},{"title":"Triangle Symbol Dirty","svg":"sepultura_tribal-symbol-dirty.svg"},{"title":"Coat Of Arms","svg":"sepultura_coat-of-arms.svg"},{"title":"Dante XXI","class":"sepultura--dante-xxi","svg":"sepultura_dante-xxi.svg"}]},{"name":"Black Sabbath","origin":"England","genre":"Heavy Metal","link":"blacksabbath.com","logos":[{"title":"Henry","svg":"black-sabbath_henry.svg"},{"title":"Vol 4","svg":"black-sabbath_vol4.svg"},{"title":"Master Of Reality","svg":"black-sabbath_master-of-reality.svg"},{"title":"The Rules of Hell","svg":"black-sabbath_the-rules-of-hell.svg"}]},{"name":"KISS","css":"kiss.css","origin":"USA","genre":"Hard Rock","link":"kissonline.com","logos":[{"title":"Kiss","svg":"kiss.svg"},{"title":"Hotter than Hell","svg":"kiss_hotter-than-hell.svg"},{"title":"Ikons","svg":"kiss_ikons.svg"}]},{"name":"Faith No More","origin":"USA","genre":"Alternative Metal","link":"fnm.com","logos":[{"title":"Official","svg":"faith-no-more.svg"}]},{"name":"Project 46","origin":"Brazil","genre":"Metalcore","link":"project46.com.br","logos":[{"title":"Doa A quem Doer","svg":"project-46_doa-a-quem-doer.svg"}]},{"name":"Detonator","css":"detonator.css","origin":"Brazil","genre":"Heavy Metal","link":"detonator.com.br","logos":[{"title":"Metal 5 Estrelas","svg":"detonator_metal-5-estrelas.svg"}]},{"name":"Bruce Dickinson","origin":"England","genre":"Heavy Metal","link":"screamforme.com","logos":[{"title":"The Best of Bruce Dickinson","svg":"bruce-dickinson_the-best-of-bruce-dickinson.svg"}]},{"name":"Nirvana","css":"nirvana.css","origin":"USA","genre":"Grunge","link":"nirvana.com","logos":[{"title":"Bleach","svg":"nirvana.svg","class":"nirvana--bleach"},{"title":"Nevermind","svg":"nirvana.svg"},{"title":"Smile","svg":"nirvana_smile.svg"}]},{"name":"Manowar","origin":"USA","genre":"Heavy Metal","link":"manowar.com","logos":[{"title":"Battle Hymns","svg":"manowar_battle-hymns.svg"},{"title":"Sign Of The Hammer","svg":"manowar_sigh-of-the-hammer.svg"},{"title":"Hammer","svg":"manowar_hammer.svg"}]},{"name":"Queen","origin":"England","genre":"Rock","link":"queenonline.com","logos":[{"title":"Greatest Hits II","svg":"queen_greatest-hits-II.svg"}]},{"name":"Viper","origin":"Brazil","genre":"Heavy Metal","link":"viperbrazil.com.br","logos":[{"title":"Projeto SP Metal","svg":"viper_projeto-sp-metal.svg"}]},{"name":"Queensrÿche","origin":"USA","genre":"Heavy Metal","link":"queensrycheofficial.com","logos":[{"title":"Tri-Ryche","svg":"queensryche_tri-ryche.svg"}]},{"name":"Blind Guardian","origin":"Germany","genre":"Power Metal","link":"blind-guardian.com","logos":[{"title":"Battalions of Fear","svg":"blind-guardian_battalions-of-fear.svg"}]},{"name":"Blink-182","origin":"USA","genre":"Pop Punk","link":"blink182.com","logos":[{"title":"The Mark, Tom and Travis Show","svg":"blink-182_the-mark-tom-and-travis-show.svg"},{"title":"Boxset","svg":"blink-182_boxset.svg"}]},{"name":"Johnny Cash","origin":"USA","genre":"Country","link":"johnnycash.com","logos":[{"title":"American Recordings","svg":"johnny-cash_american-recordings.svg"}]},{"name":"Sex Pistols","origin":"England","genre":"Punk Rock","link":"sexpistolsofficial.com","logos":[{"title":"Official","svg":"sex-pistols.svg"}]},{"name":"Ghost","origin":"Sweden","genre":"Heavy Rock","link":"ghost-official.com","logos":[{"title":"Opus Eponymous","svg":"ghost_opus-eponymous.svg"}]},{"name":"Judas Priest","origin":"England","genre":"Heavy Metal","link":"judaspriest.com","logos":[{"title":"Stained Class","svg":"judas-priest_stained-class.svg"},{"title":"Cross","svg":"judas-priest_cross.svg"}]},{"name":"The Doors","origin":"England","genre":"Hard Rock","link":"thedoors.com","logos":[{"title":"The Doors","svg":"the-doors.svg"}]},{"name":"Dio","origin":"England","genre":"Heavy Metal","link":"ronniejamesdio.com","logos":[{"title":"Holy Diver","svg":"dio_holy-diver.svg"}]},{"name":"KoRn","origin":"USA","genre":"Nu Metal","link":"korn.com","logos":[{"title":"Neidermayer's Mind","svg":"korn_neidermayers-mind.svg"}]},{"name":"Linkin Park","css":"linkin-park.css","origin":"USA","genre":"Nu Metal","link":"linkinpark.com","logos":[{"title":"Minutes to Midnight","svg":"linkin-park_minutes-to-midnight.svg"},{"title":"LP","svg":"linkin-park_lp.svg"}]},{"name":"Nine Inch Nails","origin":"USA","genre":"Alternative Rock","link":"nin.com","logos":[{"title":"The Fragile","svg":"nine-inch-nails_the-fragile.svg"}]},{"name":"System Of A Down","origin":"USA","genre":"Nu Metal","link":"systemofadown.com","logos":[{"title":"Mezmerize","svg":"system-of-a-down_mezmerize.svg"},{"title":"Steal This Album!","svg":"system-of-a-down_steal-this-album.svg"}]},{"name":"Avenged Sevenfold","origin":"USA","genre":"Heavy Metal","link":"avengedsevenfold.com","logos":[{"title":"Official","svg":"avenged-sevenfold.svg"}]},{"name":"Anthrax","origin":"USA","genre":"Thrash Metal","link":"anthrax.com","logos":[{"title":"Pentagram","svg":"anthrax_pentagram.svg"}]},{"name":"King Diamond","origin":"Denmark","genre":"Heavy Metal","link":"kingdiamondcoven.com","logos":[{"title":"Fatal Portrait","svg":"king-diamond_fatal-portrait.svg"}]},{"name":"Gojira","origin":"France","genre":"Death Metal","link":"gojira-music.com","logos":[{"title":"Terra Incognita","svg":"gojira_terra-incognita.svg"}]},{"name":"Deep Purple","origin":"England","genre":"Hard Rock","link":"deeppurple.com","logos":[{"title":"Stormbringer","svg":"deep-purple_stormbringer.svg"},{"title":"The Battle Rages On...","svg":"deep-purple_the-battle-rages-on.svg"}]},{"name":"The Who","css":"the-who.css","origin":"England","genre":"Hard Rock","link":"thewho.com","logos":[{"title":"Classical","svg":"the-who.svg"},{"title":"The Who Collection","svg":"the-who.svg","class":"the-who--text"},{"title":"Target","svg":"the-who.svg","class":"the-who--symbol"}]},{"name":"Death","css":"death.css","origin":"USA","genre":"Death Metal","link":"emptywords.org","logos":[{"title":"The Sound of Perseverance","svg":"death_the-sound-of-perseverance.svg"}]},{"name":"Korzus","origin":"Brazil","genre":"Thrash Metal","link":"korzus.com.br","logos":[{"title":"Ao vivo 1985","svg":"korzus_ao-vivo.svg"}]},{"name":"Hibria","origin":"Brazil","genre":"Speed Metal","link":"hibria.com","logos":[{"title":"Defying The Rules","svg":"hibria_defying-the-rules.svg"},{"title":"Live In Japan Symbol","svg":"hibria_symbol.svg"},{"title":"Hibria","svg":"hibria.svg"},{"title":"Hibria Symbol","class":"hibria--symbol","svg":"hibria_symbol.svg"}]},{"name":"Krisiun","css":"krisiun.css","origin":"Brazil","genre":"Death Metal","link":"krisiun.com.br","logos":[{"title":"Curse Of The Evil One","svg":"krisiun_curse-of-the-evil-one.svg"},{"title":"Unmerciful Order","class":"krisiun--unmerciful-order","svg":"krisiun_unmerciful-order.svg"}]},{"name":"Bittencourt Project","origin":"Brazil","genre":"Heavy Metal","link":"rafaelbittencourt.com","logos":[{"title":"Brainworms I","svg":"bittencourt-project_brainworms-i.svg"}]},{"name":"Sextrash","css":"sextrash.css","origin":"Brazil","genre":"Death Metal","link":"facebook.com/Sextrashofficial","logos":[{"title":"XXX","svg":"sextrash_xxx.svg"},{"title":"Rape from Hell","svg":"sextrash_rape-from-hell.svg"}]},{"name":"Vulcano","origin":"Brazil","genre":"Death Metal","link":"vulcanometal.com","logos":[{"title":"Bloody Vengeance","svg":"vulcano_bloody-vengeance.svg"}]},{"name":"Diamond Head","css":"diamond-head.css","origin":"England","genre":"Heavy Metal","link":"diamond-head.net","logos":[{"title":"Lightning to the Nations","svg":"diamond-head_lightning-to-the-nations.svg"}]},{"name":"Dream Theather","origin":"USA","css":"dream-theather.css","genre":"Progressive Metal","link":"dreamtheater.net","logos":[{"title":"Images and Words","svg":"dream-theater_images-and-words.svg"},{"title":"The majesty symbol","svg":"dream-theater_majesty-symbol.svg","class":"dream-theater--majesty-symbol"},{"title":"The majesty symbol","svg":"dream-theater_majesty-symbol.svg","class":"dream-theater--full-majesty-symbol"}]},{"name":"Megadeth","css":"megadeth.css","origin":"USA","genre":"Thrash Metal","link":"megadeth.com","logos":[{"title":"Peace Sells... but Who's Buying?","svg":"megadeth_peace-sells.svg"},{"title":"Rust In Peace Nuclear Symbol","svg":"megadeth_rust-in-peace-nuclear-symbol.svg"},{"title":"Nuclear Symbol","svg":"megadeth_nuclear-symbol.svg"},{"title":"Cryptic Writing Symbol","svg":"megadeth_cryptic-writing-symbol.svg"},{"title":"Vic Hoodie","svg":"megadeth_vic-hoodie.svg"}]},{"name":"Ramones","origin":"England","genre":"Punk Rock","link":"ramones.com","logos":[{"title":"Ramones","svg":"ramones.svg"},{"title":"Seal","svg":"ramones_seal.svg"}]},{"name":"Almah","origin":"Brazil","genre":"Heavy Metal","link":"almah.com.br","logos":[{"title":"Fragile Equality","svg":"almah_fragile-equality.svg"}]},{"name":"Samael","origin":"Switzerland","genre":"Black/Industrial Metal","link":"samael.info","logos":[{"title":"Ceremony of Opposites Tour","svg":"samael_ceremony-of-opposites-tour.svg"}]},{"name":"Whitesnake","origin":"England","genre":"Hard Rock","link":"whitesnake.com","logos":[{"title":"Lovehunter","svg":"whitesnake_lovehunter.svg"}]},{"name":"Wu-Tang Clan","origin":"USA","genre":"Hip Hop","link":"wutang-corp.com","logos":[{"title":"Wu-Tang Forever","svg":"wu-tang-clan_wu-tang-forever.svg"}]},{"name":"Twisted Syster","origin":"USA","genre":"Glam Metal","link":"twistedsister.com","logos":[{"title":"TS","svg":"twisted-syster.svg"}]},{"name":"Yes","css":"yes.css","origin":"England","genre":"Progressive Rock","link":"yesworld.com","logos":[{"title":"1969","svg":"yes_yes.svg"},{"title":"90125","svg":"yes_90125.svg"},{"title":"Big Generator","svg":"yes_big-generator.svg"}]},{"name":"Van Halen","css":"van-halen.css","origin":"USA","genre":"Hard Rock","link":"van-halen.com","logos":[{"title":"II","svg":"van-halen_II.svg"},{"title":"5150","svg":"van-halen_5150.svg"}]},{"name":"Trivium","origin":"USA","genre":"Heavy Metal","link":"trivium.org","logos":[{"title":"Ascendancy","svg":"trivium_ascendancy.svg"}]},{"name":"Tianastácia","origin":"Brazil","genre":"Hard Rock","link":"tianastacia.com.br","logos":[{"title":"Tianastácia","svg":"tianastacia.svg"},{"title":"Tá na Boa","svg":"tianastacia_ta-na-boa.svg"}]},{"name":"Thin Lizzy","origin":"Ireland","genre":"Hard Rock","link":"thinlizzy.org","logos":[{"title":"Fighting","svg":"thin-lizzy_fighting.svg"}]},{"name":"Therion","origin":"Swedish","genre":"Symphonic Metal","link":"therion.se","logos":[{"title":"Vovin","svg":"therion_vovin.svg"}]},{"name":"X Japan","origin":"Japan","genre":"Heavy Metal","link":"xjapanmusic.com","logos":[{"title":"Art of Life","svg":"x-japan_art-of-life.svg"}]},{"name":"14 Bis","css":"14-bis.css","origin":"Brazil","genre":"MPB","link":"14bis.com.br","logos":[{"title":"Ao vivo","svg":"14-bis_ao-vivo.svg"}]},{"name":"Alice in Chains","origin":"USA","genre":"Alternative Rock","link":"aliceinchains.com","logos":[{"title":"Facelift","svg":"alice-in-chains_facelift.svg"}]},{"name":"Doro Pesch","origin":"Germany","genre":"Heavy Metal","link":"doropesch.com","logos":[{"title":"Love Me in Black","svg":"doro_love-me-in-black.svg"}]},{"name":"Dokken","origin":"USA","genre":"Heavy Metal","link":"dokken.net","logos":[{"title":"Breaking the Chains","svg":"dokken_breaking-the-chains.svg"}]},{"name":"Dr. Sin","origin":"Brazil","genre":"Heavy Metal","link":"drsinofficial.com","logos":[{"title":"Insinity","svg":"dr-sin_insinity.svg"}]},{"name":"Drowned","origin":"Brazil","genre":"Death Metal","link":"www.drowned.com.br","logos":[{"title":"By the Grace of Evil","svg":"drowned_by-the-grace-of-evil.svg"}]},{"name":"50 Cent","css":"50-cent.css","origin":"USA","genre":"Hip Hop","link":"50cent.com","logos":[{"title":"Power of the Dollar","svg":"50-cent.svg"}]},{"name":"Babymetal","origin":"Japan","genre":"Heavy Metal","link":"babymetal.jp","logos":[{"title":"Babymetal","svg":"babymetal.svg"}]},{"name":"Bon Jovi","css":"bon-jovi.css","origin":"USA","genre":"Hard Rock","link":"bonjovi.com","logos":[{"title":"Crush","svg":"bon-jovi_crush.svg"},{"title":"Have a Nice Day Smile","svg":"bon-jovi_have-a-nice-day-smile.svg"}]},{"name":"James Hetfield","origin":"USA","genre":"Thrash Metal","link":"metallica.com","logos":[{"title":"Autograph","svg":"james-hetfield.svg"}]},{"name":"Edguy","origin":"Germany","genre":"Power Metal","link":"edguy.net","logos":[{"title":"Kingdom of Madness","svg":"edguy_kingdom-of-madness.svg"}]},{"name":"Eddie Van Halen","origin":"USA","genre":"Hard Rock","link":"evhgear.com","logos":[{"title":"Logo","svg":"evh.svg"}]},{"name":"Gamma Ray","origin":"Germany","genre":"Power Metal","link":"gammaray.org","logos":[{"title":"Land of the Free","svg":"gamma-ray_land-of-the-free.svg"}]},{"name":"The Police","origin":"England","genre":"Reggae Rock","link":"thepolice.com","logos":[{"title":"Ghost In The Machine","svg":"the-police_ghost-in-the-machine.svg"}]},{"name":"Rage","origin":"Germany","genre":"Heavy Metal","link":"rage-official.com","logos":[{"title":"Black in Mind","svg":"rage_black-in-mind.svg"}]},{"name":"Abba","origin":"Sweden","genre":"Disco","link":"abbasite.com","logos":[{"title":"Arrival","svg":"abba_arrival.svg"}]},{"name":"Tiësto","origin":"Netherlands","genre":"Eletronic","link":"tiesto.com","logos":[{"title":"Elements of Life","svg":"tiesto_elements-of-life.svg"}]},{"name":"The Cure","origin":"England","genre":"Alternative Rock","link":"thecure.com","logos":[{"title":"Wish","svg":"the-cure_wish.svg"},{"title":"Kiss Me, Kiss Me, Kiss Me","svg":"the-cure_kiss-me.svg"},{"title":"4.13","svg":"the-cure_4.13.svg"}]},{"name":"Papa Roach","origin":"USA","genre":"Alternative Rock","link":"paparoach.com","logos":[{"title":"Old Friends from Young Years","svg":"papa-roach_old-friends-from-young-years.svg"}]},{"name":"Kiko Loureiro","origin":"Brazil","genre":"Power Metal","link":"kikoloureiro.net","logos":[{"title":"Kiko Loureiro","svg":"kiko-loureiro.svg"}]},{"name":"Ozzy Osbourne","origin":"England","genre":"Heavy Metal","link":"ozzy.com","logos":[{"title":"Blizzard Of Ozz","svg":"ozzy-osbourne_blizzard-of-ozz.svg"}]},{"name":"David Guetta","origin":"France","genre":"Electro","link":"davidguetta.com","logos":[{"title":"One Love","svg":"david-guetta_one-love.svg"}]},{"name":"Enya","origin":"Ireland","genre":"New Age","link":"enya.com","logos":[{"title":"Watermark","svg":"enya_watermark.svg"}]},{"name":"Exciter","origin":"Canada","genre":"Speed Metal","link":"excitermetal.com","logos":[{"title":"Heavy Metal Maniac","svg":"exciter_heavy-metal-maniac.svg"}]},{"name":"Oasis","origin":"England","genre":"Alternative Rock","link":"oasisinet.com","logos":[{"title":"Definitely Maybe","svg":"oasis_definitely-maybe.svg"}]},{"name":"Muse","origin":"England","genre":"Alternative Rock","link":"muse.mu","logos":[{"title":"Showbiz","svg":"muse_showbiz.svg"}]},{"name":"The Big 4 - Metallica, Slayer, Megadeth, Anthrax","origin":"USA","genre":"Thrash Metal","link":"en.wikipedia.org/wiki/The_Big_Four:_Live_from_Sofia,_Bulgaria","logos":[{"title":"Live from Sofia, Bulgaria","svg":"the-big-four_live-from-sofia.svg"}]},{"name":"Guns N' Roses","css":"guns-n-roses.css","origin":"USA","genre":"Hard Rock","link":"gunsnroses.com","logos":[{"title":"Appetite For Destruction","svg":"guns-n-roses_appetite-for-destruction.svg"},{"title":"Live Era","svg":"guns-n-roses_live-era.svg"}]},{"name":"Grave Digger","origin":"Germany","genre":"Heavy Metal","link":"grave-digger.de","logos":[{"title":"Heavy Metal Breakdown","svg":"grave-digger_heavy-metal-breakdown.svg"}]},{"name":"Metal Church","css":"metal-church.css","origin":"USA","genre":"Heavy Metal","link":"metalchurchofficial.com","logos":[{"title":"The Dark","svg":"metal-church_the-dark.svg"}]},{"name":"Audioslave","css":"audioslave.css","origin":"USA","genre":"Alternative Rock","link":"facebook.com/Audioslave-165985866829751","logos":[{"title":"Audioslave","svg":"audioslave.svg"}]},{"name":"Type O Negative","origin":"USA","genre":"Doom Metal","link":"typeonegative.net","logos":[{"title":"O- Symbol","svg":"type-o-negative_symbol.svg"}]},{"name":"Annihilator","origin":"Canada","genre":"Thrash Metal","link":"annihilatormetal.com","logos":[{"title":"All For You","svg":"annihilator_all-for-you.svg"}]},{"name":"Prince","origin":"USA","genre":"Funk / Pop / R&B / Rock","link":"en.wikipedia.org/wiki/Prince_(musician)","logos":[{"title":"Love Symbol","svg":"prince_love-symbol.svg"}]},{"name":"Eminence","origin":"Brazil","genre":"Brutal Metal","link":"eminence.com.br","logos":[{"title":"Chaotic System","svg":"eminence_chaotic-system.svg"},{"title":"Humanology","svg":"eminence_humanology.svg"},{"title":"E Symbol","svg":"eminence_symbol.svg"},{"title":"The God Of All Mistakes","svg":"eminence_the-god-of-all-mistakes.svg"},{"title":"The God Of All Mistakes Single","svg":"eminence_the-god-of-all-mistakes-single.svg"},{"title":"The Stalker","svg":"eminence_the-stalker.svg"}]},{"name":"Deep Forest","origin":"France","genre":"Eletronic","link":"deep-forest.fr","logos":[{"title":"Boheme","svg":"deep-forest_boheme.svg"},{"title":"Symbol","svg":"deep-forest_symbol.svg"}]},{"name":"Emerson, Lake & Palmer","origin":"England","genre":"Progressive Rock","link":"emersonlakeandpalmer.com","logos":[{"title":"ELP","svg":"elp-symbol.svg"}]},{"name":"Bartucada","css":"bartucada.css","origin":"Brazil","genre":"Brazilian Songs","link":"bartucada.com.br","logos":[{"title":"Logo","svg":"bartucada.svg"}]},{"name":"Beastie Boys","origin":"USA","genre":"Hip Hop","link":"blog.beastieboys.com","logos":[{"title":"Check Your Head","svg":"beastie-boys_check-your-head.svg"},{"title":"Body Movin","svg":"beastie-boys_body-movin.svg"}]},{"name":"Eminem","origin":"USA","genre":"Hip Hop","link":"eminem.com","logos":[{"title":"The Marshall Mathers LP","svg":"eminem_the-marshall-mathers-lp.svg"}]},{"name":"Jota Quest","css":"jota-quest.css","origin":"Brazil","genre":"Pop","link":"jotaquest.com.br","logos":[{"title":"Discotecagem Pop Variada","svg":"jota-quest_discotecagem-pop-variada.svg"}]},{"name":"Steve Vai","origin":"USA","genre":"Instrumental rock","link":"vai.com","logos":[{"title":"Logo","svg":"steve-vai_logo.svg"}]}]
 
 /***/ }),
-/* 21 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18500,7 +18712,7 @@ if (false) {
 }
 
 /***/ }),
-/* 22 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, setImmediate) {/*!
@@ -29214,10 +29426,10 @@ return Vue$3;
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(23).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(25).setImmediate))
 
 /***/ }),
-/* 23 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -29270,13 +29482,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(24);
+__webpack_require__(26);
 exports.setImmediate = setImmediate;
 exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 24 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -29466,10 +29678,10 @@ exports.clearImmediate = clearImmediate;
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(25)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(27)))
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -29659,220 +29871,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 26 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_RESULT__;/* FileSaver.js
- * A saveAs() FileSaver implementation.
- * 1.3.2
- * 2016-06-16 18:25:19
- *
- * By Eli Grey, http://eligrey.com
- * License: MIT
- *   See https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md
- */
-
-/*global self */
-/*jslint bitwise: true, indent: 4, laxbreak: true, laxcomma: true, smarttabs: true, plusplus: true */
-
-/*! @source http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js */
-
-var saveAs = saveAs || (function(view) {
-	"use strict";
-	// IE <10 is explicitly unsupported
-	if (typeof view === "undefined" || typeof navigator !== "undefined" && /MSIE [1-9]\./.test(navigator.userAgent)) {
-		return;
-	}
-	var
-		  doc = view.document
-		  // only get URL when necessary in case Blob.js hasn't overridden it yet
-		, get_URL = function() {
-			return view.URL || view.webkitURL || view;
-		}
-		, save_link = doc.createElementNS("http://www.w3.org/1999/xhtml", "a")
-		, can_use_save_link = "download" in save_link
-		, click = function(node) {
-			var event = new MouseEvent("click");
-			node.dispatchEvent(event);
-		}
-		, is_safari = /constructor/i.test(view.HTMLElement) || view.safari
-		, is_chrome_ios =/CriOS\/[\d]+/.test(navigator.userAgent)
-		, throw_outside = function(ex) {
-			(view.setImmediate || view.setTimeout)(function() {
-				throw ex;
-			}, 0);
-		}
-		, force_saveable_type = "application/octet-stream"
-		// the Blob API is fundamentally broken as there is no "downloadfinished" event to subscribe to
-		, arbitrary_revoke_timeout = 1000 * 40 // in ms
-		, revoke = function(file) {
-			var revoker = function() {
-				if (typeof file === "string") { // file is an object URL
-					get_URL().revokeObjectURL(file);
-				} else { // file is a File
-					file.remove();
-				}
-			};
-			setTimeout(revoker, arbitrary_revoke_timeout);
-		}
-		, dispatch = function(filesaver, event_types, event) {
-			event_types = [].concat(event_types);
-			var i = event_types.length;
-			while (i--) {
-				var listener = filesaver["on" + event_types[i]];
-				if (typeof listener === "function") {
-					try {
-						listener.call(filesaver, event || filesaver);
-					} catch (ex) {
-						throw_outside(ex);
-					}
-				}
-			}
-		}
-		, auto_bom = function(blob) {
-			// prepend BOM for UTF-8 XML and text/* types (including HTML)
-			// note: your browser will automatically convert UTF-16 U+FEFF to EF BB BF
-			if (/^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(blob.type)) {
-				return new Blob([String.fromCharCode(0xFEFF), blob], {type: blob.type});
-			}
-			return blob;
-		}
-		, FileSaver = function(blob, name, no_auto_bom) {
-			if (!no_auto_bom) {
-				blob = auto_bom(blob);
-			}
-			// First try a.download, then web filesystem, then object URLs
-			var
-				  filesaver = this
-				, type = blob.type
-				, force = type === force_saveable_type
-				, object_url
-				, dispatch_all = function() {
-					dispatch(filesaver, "writestart progress write writeend".split(" "));
-				}
-				// on any filesys errors revert to saving with object URLs
-				, fs_error = function() {
-					if ((is_chrome_ios || (force && is_safari)) && view.FileReader) {
-						// Safari doesn't allow downloading of blob urls
-						var reader = new FileReader();
-						reader.onloadend = function() {
-							var url = is_chrome_ios ? reader.result : reader.result.replace(/^data:[^;]*;/, 'data:attachment/file;');
-							var popup = view.open(url, '_blank');
-							if(!popup) view.location.href = url;
-							url=undefined; // release reference before dispatching
-							filesaver.readyState = filesaver.DONE;
-							dispatch_all();
-						};
-						reader.readAsDataURL(blob);
-						filesaver.readyState = filesaver.INIT;
-						return;
-					}
-					// don't create more object URLs than needed
-					if (!object_url) {
-						object_url = get_URL().createObjectURL(blob);
-					}
-					if (force) {
-						view.location.href = object_url;
-					} else {
-						var opened = view.open(object_url, "_blank");
-						if (!opened) {
-							// Apple does not allow window.open, see https://developer.apple.com/library/safari/documentation/Tools/Conceptual/SafariExtensionGuide/WorkingwithWindowsandTabs/WorkingwithWindowsandTabs.html
-							view.location.href = object_url;
-						}
-					}
-					filesaver.readyState = filesaver.DONE;
-					dispatch_all();
-					revoke(object_url);
-				}
-			;
-			filesaver.readyState = filesaver.INIT;
-
-			if (can_use_save_link) {
-				object_url = get_URL().createObjectURL(blob);
-				setTimeout(function() {
-					save_link.href = object_url;
-					save_link.download = name;
-					click(save_link);
-					dispatch_all();
-					revoke(object_url);
-					filesaver.readyState = filesaver.DONE;
-				});
-				return;
-			}
-
-			fs_error();
-		}
-		, FS_proto = FileSaver.prototype
-		, saveAs = function(blob, name, no_auto_bom) {
-			return new FileSaver(blob, name || blob.name || "download", no_auto_bom);
-		}
-	;
-	// IE 10+ (native saveAs)
-	if (typeof navigator !== "undefined" && navigator.msSaveOrOpenBlob) {
-		return function(blob, name, no_auto_bom) {
-			name = name || blob.name || "download";
-
-			if (!no_auto_bom) {
-				blob = auto_bom(blob);
-			}
-			return navigator.msSaveOrOpenBlob(blob, name);
-		};
-	}
-
-	FS_proto.abort = function(){};
-	FS_proto.readyState = FS_proto.INIT = 0;
-	FS_proto.WRITING = 1;
-	FS_proto.DONE = 2;
-
-	FS_proto.error =
-	FS_proto.onwritestart =
-	FS_proto.onprogress =
-	FS_proto.onwrite =
-	FS_proto.onabort =
-	FS_proto.onerror =
-	FS_proto.onwriteend =
-		null;
-
-	return saveAs;
-}(
-	   typeof self !== "undefined" && self
-	|| typeof window !== "undefined" && window
-	|| this.content
-));
-// `self` is undefined in Firefox for Android content script context
-// while `this` is nsIContentFrameMessageManager
-// with an attribute `content` that corresponds to the window
-
-if (typeof module !== "undefined" && module.exports) {
-  module.exports.saveAs = saveAs;
-} else if (("function" !== "undefined" && __webpack_require__(27) !== null) && (__webpack_require__(28) !== null)) {
-  !(__WEBPACK_AMD_DEFINE_RESULT__ = function() {
-    return saveAs;
-  }.call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-}
-
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports) {
-
-module.exports = function() {
-	throw new Error("define cannot be used indirect");
-};
-
-
-/***/ }),
 /* 28 */
-/***/ (function(module, exports) {
-
-/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
-module.exports = __webpack_amd_options__;
-
-/* WEBPACK VAR INJECTION */}.call(exports, {}))
-
-/***/ }),
-/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 !function(e,n){if(true)module.exports=n();else if("function"==typeof define&&define.amd)define([],n);else{var t=n();for(var r in t)("object"==typeof exports?exports:e)[r]=t[r]}}(this,function(){return function(e){function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}var t={};return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{configurable:!1,enumerable:!0,get:r})},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},n.p="",n(n.s=0)}([function(e,n,t){"use strict";function r(e){u(_,e)}function o(){return _.id?[].concat(_.id):[]}function i(){}function a(e){return new Promise(function(n,t){var r=document.head||document.getElementsByTagName("head")[0],o=document.createElement("script");o.async=!0,o.src=e,o.charset="utf8",r.appendChild(o),o.onload=n,o.onerror=t})}function c(e,n){var t=n.split("/"),r=e.split("/");return""===t[0]&&"/"===e[e.length-1]&&t.shift(),r.join("/")+t.join("/")}function u(e,n){return Object.keys(n).forEach(function(t){if(e[t]&&"object"==typeof e[t])return void u(e[t],n[t]);e[t]=n[t]}),e}function f(){return Array.prototype.slice.call(document.getElementsByTagName("script")).filter(function(e){return-1!==e.src.indexOf("analytics")}).length>0}function l(e){return e.replace(/-/gi,"")}function s(){return new Promise(function(e,n){var t=setInterval(function(){"undefined"!=typeof window&&window.ga&&(e(),clearInterval(t))},10)})}function d(e,n){if(o().length>1){return l(n)+"."+e}return e}function p(e){var n=Object.keys(e).reduce(function(n,t,r,o){var i=r===o.length-1;return n+=t+"="+e[t]+(i?"":"&")},"");return""!==n?"?"+n:""}function v(e){return-1!==B.ignoreRoutes.indexOf(e)}function g(e){return e.query&&e.params}function h(e){return e.currentRoute}function y(e){for(var n=arguments.length,t=Array(n>1?n-1:0),r=1;r<n;r++)t[r-1]=arguments[r];o().forEach(function(n){var r;if(void 0===window.ga||"string"!=typeof n)return void B.untracked.push({method:d(e,n),arguments:[].concat(t)});(r=window).ga.apply(r,[d(e,n)].concat(t))})}function m(){for(var e=arguments.length,n=Array(e),t=0;t<e;t++)n[t]=arguments[t];if("object"==typeof n[0]&&n[0].constructor===Object)return void y("set",n[0]);y("set",n[0],n[1])}function b(){var e=o();B.debug.enabled&&(window.ga_debug={trace:B.debug.trace}),e.forEach(function(n){var t=l(n),r=e.length>1?D({},B.fields,{name:t}):B.fields;window.ga("create",n,"auto",r)}),B.beforeFirstHit();var n=B.ecommerce;if(n.enabled){var t=n.enhanced?"ec":"ecommerce";n.options?y("require",t,n.options):y("require",t)}B.linkers.length>0&&(y("require","linker"),y("linker:autoLink",B.linkers)),B.debug.sendHitTask||m("sendHitTask",null)}function w(e){if(Array.isArray(e)){for(var n=0,t=Array(e.length);n<e.length;n++)t[n]=e[n];return t}return Array.from(e)}function k(){var e=B.untracked,n=B.autoTracking,t=e.length;if(t&&n.untracked)for(;t--;){var r=e[t];y.apply(void 0,[r.method].concat(w(r.arguments))),e.splice(t,1)}}function O(){for(var e=void 0,n=arguments.length,t=Array(n),r=0;r<n;r++)t[r]=arguments[r];if(h(t[0])&&(e=t[0].currentRoute),g(t[0])&&(e=t[0]),e){var o=B.router,i=B.autoTracking,a=i.transformQueryString,u=i.prependBase,f=p(e.query),l=o&&o.options.base,s=u&&l,d=e.path+(a?f:"");return d=s?c(l,d):d,m("page",d),void y("send","pageview",M({page:d,title:e.name,location:window.location.href},"function"==typeof t[1]&&{hitCallback:t[1]}))}y.apply(void 0,["send","pageview"].concat(t))}function j(e){if(!v(e)){var n=B.autoTracking,t=e.meta.analytics,r=void 0===t?{}:t,o=r.pageviewTemplate||n.pageviewTemplate;O(o?o(e):e)}}function x(){var e=B.router,n=B.autoTracking;n.page&&e&&(n.pageviewOnLoad&&j(e.currentRoute),B.router.afterEach(function(t,r){var o=n.skipSamePath,i=n.shouldRouterUpdate;o&&t.path===r.path||("function"!=typeof i||i(t,r))&&setTimeout(function(){j(e.currentRoute)},0)}))}function T(){if("undefined"!=typeof document){var e=B.id,n=B.debug,t=B.checkDuplicatedScript,r=B.disableScriptLoader,o=n.enabled?"analytics_debug":"analytics",i="https://www.google-analytics.com/"+o+".js";if(!e)throw new Error("[vue-analytics] Please enter a Google Analytics tracking ID");return new Promise(function(e,n){return t&&f(i)||r?e():a(i).then(function(){e()}).catch(function(){n("[vue-analytics] It's not possible to load Google Analytics script")})}).then(function(){return s()}).then(function(){return"function"==typeof e?e():e}).then(function(e){B.id=e,b(),G(),B.ready(),x(),k()}).catch(function(e){console.error(e)})}}function A(){for(var e=arguments.length,n=Array(e),t=0;t<e;t++)n[t]=arguments[t];y.apply(void 0,["send","event"].concat(n))}function P(e){y("send","exception",{exDescription:e,exFatal:arguments.length>1&&void 0!==arguments[1]&&arguments[1]})}function E(e,n){var t=B.autoTracking.exception,r=e.message||e;t&&n.$ga.exception(r,!0)}function q(){for(var e=arguments.length,n=Array(e),t=0;t<e;t++)n[t]=arguments[t];y.apply(void 0,["send","social"].concat(n))}function R(){for(var e=arguments.length,n=Array(e),t=0;t<e;t++)n[t]=arguments[t];y.apply(void 0,["send","timing"].concat(n))}function S(e,n,t){return n in e?Object.defineProperty(e,n,{value:t,enumerable:!0,configurable:!0,writable:!0}):e[n]=t,e}function H(e){r(arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}),e.directive("ga",J),e.prototype.$ga=e.$ga=z,e.config.errorHandler||(e.config.errorHandler=E),T()}Object.defineProperty(n,"__esModule",{value:!0});var I=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},L={id:null,router:null,fields:{},ignoreRoutes:[],linkers:[],commands:{},set:[],require:[],ecommerce:{enabled:!1,options:null,enhanced:!1},autoTracking:{shouldRouterUpdate:null,skipSamePath:!1,exception:!1,page:!0,transformQueryString:!0,pageviewOnLoad:!0,pageviewTemplate:null,untracked:!0,prependBase:!0},debug:{enabled:!1,trace:!1,sendHitTask:!0},checkDuplicatedScript:!1,disableScriptLoader:!1,beforeFirstHit:i,ready:i,untracked:[]},_=I({},L),B=_,D=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},F=function(){if(2==arguments.length)return void y("require",arguments.length<=0?void 0:arguments[0],arguments.length<=1?void 0:arguments[1]);y("require",arguments.length<=0?void 0:arguments[0])},$=function(){B.set.forEach(function(e){var n=e.field,t=e.value;if(void 0===n||void 0===t)throw new Error('[vue-analytics] Wrong configuration in the plugin options.\nThe "set" array requires each item to have a "field" and a "value" property.');m(n,t)})},C=function(){var e=["ec","ecommerce"];B.require.forEach(function(n){if(-1!==e.indexOf(n)||-1!==e.indexOf(n.name))throw new Error("[vue-analytics] The ecommerce features are built-in in the plugin. \nFollow the ecommerce instructions available in the documentation.");if("string"!=typeof n&&"object"!=typeof n)throw new Error('[vue-analytics] Wrong configuration in the plugin options. \nThe "require" array requires each item to be a string or to have a "name" and an "options" property.');var t=n.name||n;if(n.options)return void F(t,n.options);F(t)})},G=function(){$(),C()},M=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},N=Object.assign||function(e){for(var n=1;n<arguments.length;n++){var t=arguments[n];for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},Q=function(e){return(B.ecommerce.enhanced?"ec":"ecommerce")+":"+e},U=["addItem","addTransaction","addProduct","addImpression","setAction","addPromo","send"],W=U.reduce(function(e,n){return N({},e,S({},n,function(){for(var e=arguments.length,t=Array(e),r=0;r<e;r++)t[r]=arguments[r];y.apply(void 0,[Q(n)].concat(t))}))},{}),z={event:A,exception:P,page:O,query:y,require:F,set:m,social:q,time:R,untracked:k,ecommerce:W,commands:B.commands},J={inserted:function(e,n,t){var r=n.value;e.addEventListener("click",function(){var e="string"==typeof r?B.commands[r]:r;if(!e)throw new Error("[vue-analytics] The value passed to v-ga is not defined in the commands list.");e.apply(t.context)})}};n.default=H,t.d(n,"onAnalyticsReady",function(){return s})}])});

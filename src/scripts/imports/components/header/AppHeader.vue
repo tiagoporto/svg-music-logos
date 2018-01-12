@@ -9,8 +9,8 @@
     </a>
 
     <div class="main">
-      <h1>
-        <a href="http://tiagoporto.github.io/svg-music-logos" class="title">
+      <h1 class="header__title">
+        <a href="http://tiagoporto.github.io/svg-music-logos">
           <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250" /> -->
           SVG Music Logos
         </a>

@@ -14,7 +14,7 @@
 
         <logo :band='band'></logo>
 
-        <p><button v-on:click="download($event, band)">Download svg</button></p>
+        <p><button v-on:click="download($event, band)" class="card-container__button">Download SVG</button></p>
       </div>
     </div>
   </div>
