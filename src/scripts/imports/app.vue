@@ -4,8 +4,8 @@
 
     <app-header :search="search" :origins="origins" :genres="genres"></app-header>
 
-    <main class="main">
-      <card :filteredBands='filteredBands'></card>
+    <main class="card-container">
+      <card v-for="band in filteredBands" :band="band"></card>
     </main>
 
     <app-footer></app-footer>

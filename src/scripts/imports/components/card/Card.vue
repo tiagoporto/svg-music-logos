@@ -1,21 +1,23 @@
 <template>
-  <div class="card-container">
-    <div v-for="band in filteredBands" class="card-container__cols">
-      <div class="card">
-        <h2>
-          <a class="card__link-title" :href="'http://' + band.link" :title="band.name + ' website'">{{band.name}}</a>
-        </h2>
+  <div class="card">
+    <div class="card__logo">
+      <logo :band='band'></logo>
+    </div>
 
-        <p v-if="band.genre">Genre: {{band.genre}}</p>
+    <div class="card__content">
+      <h2 class="card__title">
+        <a class="card__title" :href="`http://${band.link}`" :title="`${band.name} website`">{{band.name}}</a>
+      </h2>
 
-        <p>Origin: {{band.origin}}</p>
+      <p v-if="band.genre">Genre: {{band.genre}}</p>
 
-        <p>{{band.logo.title}}</p>
+      <p>Origin: {{band.origin}}</p>
 
-        <logo :band='band'></logo>
+      <p>Reference: {{band.logo.title}}</p>
+    </div>
 
-        <p><button v-on:click="download($event, band)" class="card-container__button">Download SVG</button></p>
-      </div>
+    <div class="card__footer">
+      <button v-on:click="download($event, band)" class="card__button">Download SVG</button>
     </div>
   </div>
 </template>
@@ -31,7 +33,7 @@ export default {
     Logo
   },
   props: {
-    filteredBands: [Array]
+    band: [Object]
   },
   methods: {
     download (event, band) {

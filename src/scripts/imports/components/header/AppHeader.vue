@@ -8,7 +8,7 @@
       </svg>
     </a>
 
-    <div class="main">
+    <div class="header__main">
       <h1 class="header__title">
         <a href="http://tiagoporto.github.io/svg-music-logos">
           <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250" /> -->
@@ -32,12 +32,12 @@
 
       <input type="search" v-model.trim="search.band" placeholder="Search" class="search" />
 
-      <select v-model="search.origin">
+      <select v-model="search.origin" class="select">
           <option value="">All Origins</option>
           <option v-for="origin in origins" :value="origin">{{origin}}</option>
       </select>
 
-      <select v-model="search.genre">
+      <select v-model="search.genre" class="select">
           <option value="">All Genres</option>
           <option v-for="genre in genres" :value="genre">{{genre}}</option>
       </select>
