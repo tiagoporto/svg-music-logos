@@ -1,10 +1,7 @@
 <template>
   <footer class="footer">
-    <div class="main">
-      <div class="footer__box">
-        <p>copyright 2016-2018</p>
-      </div>
-    </div>
+        <p>©copyright 2016|2018</p>
+        <p>Tiago Porto</p>
   </footer>
 </template>
 

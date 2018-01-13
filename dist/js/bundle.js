@@ -492,9 +492,6 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
-//
-//
-//
 
 exports.default = {
   name: 'AppFooter'
@@ -517,11 +514,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("footer", { staticClass: "footer" }, [
-      _c("div", { staticClass: "main" }, [
-        _c("div", { staticClass: "footer__box" }, [
-          _c("p", [_vm._v("copyright 2016-2018")])
-        ])
-      ])
+      _c("p", [_vm._v("©copyright 2016|2018")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Tiago Porto")])
     ])
   }
 ]
@@ -637,14 +632,6 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 
 exports.default = {
   name: 'AppHeader',
@@ -665,54 +652,6 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("header", { staticClass: "header" }, [
-    _c(
-      "a",
-      {
-        staticClass: "github-corner",
-        attrs: { href: "https://github.com/tiagoporto/svg-music-logos/" }
-      },
-      [
-        _c(
-          "svg",
-          {
-            staticStyle: {
-              fill: "#16a085",
-              color: "#fff",
-              position: "absolute",
-              top: "0",
-              border: "0",
-              right: "0"
-            },
-            attrs: { width: "80", viewBox: "0 0 250 250" }
-          },
-          [
-            _c("path", {
-              attrs: { d: "M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" }
-            }),
-            _vm._v(" "),
-            _c("path", {
-              staticClass: "octo-arm",
-              staticStyle: { "transform-origin": "130px 106px" },
-              attrs: {
-                d:
-                  "M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2",
-                fill: "currentColor"
-              }
-            }),
-            _vm._v(" "),
-            _c("path", {
-              staticClass: "octo-body",
-              attrs: {
-                d:
-                  "M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z",
-                fill: "currentColor"
-              }
-            })
-          ]
-        )
-      ]
-    ),
-    _vm._v(" "),
     _c("div", { staticClass: "header__main" }, [
       _vm._m(0, false, false),
       _vm._v(" "),
@@ -843,10 +782,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("h1", { staticClass: "header__title" }, [
+    return _c("h1", [
       _c(
         "a",
-        { attrs: { href: "http://tiagoporto.github.io/svg-music-logos" } },
+        {
+          staticClass: "header__title",
+          attrs: { href: "http://tiagoporto.github.io/svg-music-logos" }
+        },
         [_vm._v("\n        SVG Music Logos\n      ")]
       )
     ])
@@ -1059,6 +1001,7 @@ exports.default = {
     }
   }
 }; //
+//
 //
 //
 //
@@ -18601,53 +18544,80 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "card" }, [
-    _c(
-      "div",
-      { staticClass: "card__logo" },
-      [_c("logo", { attrs: { band: _vm.band } })],
-      1
-    ),
-    _vm._v(" "),
-    _c("div", { staticClass: "card__content" }, [
-      _c("h2", { staticClass: "card__title" }, [
-        _c(
-          "a",
-          {
-            staticClass: "card__title",
-            attrs: {
-              href: "http://" + _vm.band.link,
-              title: _vm.band.name + " website"
-            }
-          },
-          [_vm._v(_vm._s(_vm.band.name))]
-        )
+  return _c(
+    "div",
+    { staticClass: "card" },
+    [
+      _c("logo", { attrs: { band: _vm.band } }),
+      _vm._v(" "),
+      _c("div", { staticClass: "card__content" }, [
+        _c("h2", { staticClass: "card__title" }, [
+          _c(
+            "a",
+            {
+              staticClass: "card__title",
+              attrs: {
+                href: "http://" + _vm.band.link,
+                title: _vm.band.name + " website"
+              }
+            },
+            [_vm._v(_vm._s(_vm.band.name))]
+          )
+        ]),
+        _vm._v(" "),
+        _vm.band.genre
+          ? _c("p", [_vm._v("Genre: " + _vm._s(_vm.band.genre))])
+          : _vm._e(),
+        _vm._v(" "),
+        _c("p", [_vm._v("Origin: " + _vm._s(_vm.band.origin))]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Reference: " + _vm._s(_vm.band.logo.title))])
       ]),
       _vm._v(" "),
-      _vm.band.genre
-        ? _c("p", [_vm._v("Genre: " + _vm._s(_vm.band.genre))])
-        : _vm._e(),
-      _vm._v(" "),
-      _c("p", [_vm._v("Origin: " + _vm._s(_vm.band.origin))]),
-      _vm._v(" "),
-      _c("p", [_vm._v("Reference: " + _vm._s(_vm.band.logo.title))])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "card__footer" }, [
-      _c(
-        "button",
-        {
-          staticClass: "card__button",
-          on: {
-            click: function($event) {
-              _vm.download($event, _vm.band)
+      _c("div", { staticClass: "card__footer" }, [
+        _c(
+          "button",
+          {
+            staticClass: "card__button",
+            on: {
+              click: function($event) {
+                _vm.download($event, _vm.band)
+              }
             }
-          }
-        },
-        [_vm._v("Download SVG")]
-      )
-    ])
-  ])
+          },
+          [
+            _c(
+              "svg",
+              {
+                attrs: {
+                  xmlns: "http://www.w3.org/2000/svg",
+                  viewBox: "0 0 476.92 476.92",
+                  width: "20px"
+                }
+              },
+              [
+                _c("path", {
+                  attrs: {
+                    d:
+                      "M457.464 392.237H295.021l-21.939 21.939c-9.248 9.248-21.543 14.34-34.622 14.34-13.078 0-25.374-5.092-34.621-14.34l-21.94-21.939H19.461c-7.797 0-14.113 6.315-14.113 14.112v56.457c0 7.797 6.316 14.113 14.113 14.113h437.997c7.797 0 14.113-6.322 14.113-14.113V406.35c.006-7.797-6.31-14.113-14.107-14.113z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    d:
+                      "M207.872 392.237l8.953 8.953c5.973 5.974 13.807 8.96 21.64 8.96 7.834 0 15.661-2.986 21.635-8.96l8.953-8.953 143.164-143.165c11.953-11.953 7.939-21.641-8.959-21.641h-58.072V12.24c0-6.763-5.484-12.24-12.24-12.24H143.973c-6.757 0-12.24 5.478-12.24 12.24v215.191H73.66c-16.897 0-20.912 9.688-8.959 21.641l143.171 143.165z"
+                  }
+                })
+              ]
+            ),
+            _vm._v("Download SVG")
+          ]
+        )
+      ])
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
