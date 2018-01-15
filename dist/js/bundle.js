@@ -954,7 +954,7 @@ exports.default = {
       var _this = this;
 
       var svgFileName = band.logo.svg.toLowerCase();
-      var svg = event.target.parentElement.previousElementSibling.innerHTML;
+      var svg = event.target.parentElement.parentElement.firstChild.innerHTML;
       var sanitizedTitle = (0, _lodash.kebabCase)((0, _lodash.deburr)(band.logo.title.toLowerCase()));
 
       if (!svgFileName.includes(sanitizedTitle)) {
@@ -18450,18 +18450,27 @@ exports.default = {
       this.loadSVG();
     }
   },
+  updated: function updated() {
+    var el = this.$el.getElementsByTagName('svg')[0];
+
+    if (el && this.band.logo.class) {
+      if (el.classList) {
+        el.classList.add(this.band.logo.class);
+      } else {
+        el.className + ' ' + this.band.logo.class;
+      }
+    }
+  },
+
   methods: {
     isSVG: function isSVG(mimetype) {
       return mimetype.indexOf('svg') >= 0;
     },
-    setHtml: function setHtml(value) {
+    setHtml: function setHtml() {
       var _this = this;
 
       mdSVGStore[this.svgSRC].then(function (html) {
         _this.html = html;
-        _this.$nextTick().then(function () {
-          _this.$emit('md-loaded');
-        });
       });
     },
     unexpectedError: function unexpectedError(reject) {
@@ -18520,7 +18529,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", {
-    class: ["logo", _vm.band.logo.class ? _vm.band.logo.class : ""],
+    staticClass: "logo",
     domProps: { innerHTML: _vm._s(_vm.html) }
   })
 }
@@ -18592,7 +18601,8 @@ var render = function() {
                 attrs: {
                   xmlns: "http://www.w3.org/2000/svg",
                   viewBox: "0 0 476.92 476.92",
-                  width: "20px"
+                  width: "20px",
+                  fill: "#f00"
                 }
               },
               [
@@ -18651,9 +18661,7 @@ var render = function() {
     [
       _c("div", { staticClass: "jumbotron", attrs: { id: "jumbotron" } }),
       _vm._v(" "),
-      _c("app-header", {
-        attrs: { search: _vm.search, origins: _vm.origins, genres: _vm.genres }
-      }),
+      _vm._m(0, false, true),
       _vm._v(" "),
       _c(
         "main",
@@ -18663,12 +18671,27 @@ var render = function() {
         })
       ),
       _vm._v(" "),
-      _c("app-footer")
+      _vm._m(1, false, true)
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("app-header", {
+      attrs: { search: _vm.search, origins: _vm.origins, genres: _vm.genres }
+    })
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("app-footer")
+  }
+]
 render._withStripped = true
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);

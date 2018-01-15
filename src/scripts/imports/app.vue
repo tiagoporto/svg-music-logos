@@ -2,13 +2,13 @@
   <div id="svgMusicLogosApp">
     <div class="jumbotron" id="jumbotron"></div>
 
-    <app-header :search="search" :origins="origins" :genres="genres"></app-header>
+    <app-header :search="search" :origins="origins" :genres="genres" v-once></app-header>
 
     <main class="card-container">
       <card v-for="band in filteredBands" :band="band"></card>
     </main>
 
-    <app-footer></app-footer>
+    <app-footer v-once></app-footer>
   </div>
 </template>
 

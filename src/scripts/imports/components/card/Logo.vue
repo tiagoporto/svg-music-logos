@@ -1,5 +1,5 @@
 <template>
-  <div v-html="html" v-bind:class="['logo', band.logo.class ? band.logo.class : '']"></div>
+  <div v-html="html" class="logo"></div>
 </template>
 
 <script>
@@ -24,16 +24,25 @@ export default {
       this.loadSVG()
     }
   },
+  updated () {
+    const el = this.$el.getElementsByTagName('svg')[0]
+
+    if (el && this.band.logo.class) {
+      if (el.classList) {
+        el.classList.add(this.band.logo.class)
+      } else {
+        `${el.className} ${this.band.logo.class}`
+      }
+    }
+  },
   methods: {
     isSVG (mimetype) {
       return mimetype.indexOf('svg') >= 0
     },
-    setHtml (value) {
+    setHtml () {
       mdSVGStore[this.svgSRC].then(html => {
         this.html = html
-        this.$nextTick().then(() => {
-          this.$emit('md-loaded')
-        })
+
       })
     },
     unexpectedError (reject) {
