@@ -634,8 +634,6 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
-//
-//
 
 exports.default = {
   name: 'AppHeader',
@@ -702,8 +700,6 @@ var render = function() {
       }),
       _vm._v(" "),
       _c("div", { staticClass: "filter" }, [
-        _c("p", [_vm._v("Filters")]),
-        _vm._v(" "),
         _c(
           "select",
           {
