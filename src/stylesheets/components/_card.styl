@@ -39,12 +39,20 @@
     margin: .1rem 0
 
   &__footer
+    padding-top: 20px
     text-align: center
 
   &__button
     background: none
     box-shadow: 100 100 100 #000
-    border: 2px solid red
-    color: red
+    border: 2px solid complement(#1fc8db)
+    color: complement(#1fc8db)
     padding: .5rem .6rem
     border-radius: 3px
+    transition: all 1s ease
+    cursor: pointer
+
+    &:hover
+      background: complement(#1fc8db)
+      color: #FFF
+

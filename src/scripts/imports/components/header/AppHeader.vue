@@ -19,20 +19,24 @@
       </div>
 
       <p>A collection of bands' and musicians' logos in SVG.</p>
-
-      <p>All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer.</p>
+      <p>All brands are trademarks of their respective bands or musicians.</p>
+      <p>The Brands and symbols should only be used to represent which artists they refer.</p>
 
       <input type="search" v-model.trim="search.band" placeholder="Search" class="search" />
 
-      <select v-model="search.origin" class="select">
-          <option value="">All Origins</option>
-          <option v-for="origin in origins" :value="origin">{{origin}}</option>
-      </select>
+      <div class="filter">
+        <p>Filters</p>
 
-      <select v-model="search.genre" class="select">
-          <option value="">All Genres</option>
-          <option v-for="genre in genres" :value="genre">{{genre}}</option>
-      </select>
+        <select v-model="search.origin" class="select">
+            <option value="">All Origins</option>
+            <option v-for="origin in origins" :value="origin">{{origin}}</option>
+        </select>
+
+        <select v-model="search.genre" class="select">
+            <option value="">All Genres</option>
+            <option v-for="genre in genres" :value="genre">{{genre}}</option>
+        </select>
+      </div>
     </div>
   </header>
 </template>

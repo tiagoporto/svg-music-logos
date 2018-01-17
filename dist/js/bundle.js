@@ -514,7 +514,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("footer", { staticClass: "footer" }, [
-      _c("p", [_vm._v("©copyright 2016|2018")]),
+      _c("p", [_vm._v("©copyright 2016-2018")]),
       _vm._v(" "),
       _c("p", [_vm._v("Tiago Porto")])
     ])
@@ -632,6 +632,10 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
+//
+//
 
 exports.default = {
   name: 'AppHeader',
@@ -661,7 +665,13 @@ var render = function() {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "All brands are trademarks of their respective bands. The Brands and symbols should only be used to represent the bands to which they refer."
+          "All brands are trademarks of their respective bands or musicians."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "The Brands and symbols should only be used to represent which artists they refer."
         )
       ]),
       _vm._v(" "),
@@ -691,89 +701,93 @@ var render = function() {
         }
       }),
       _vm._v(" "),
-      _c(
-        "select",
-        {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.search.origin,
-              expression: "search.origin"
+      _c("div", { staticClass: "filter" }, [
+        _c("p", [_vm._v("Filters")]),
+        _vm._v(" "),
+        _c(
+          "select",
+          {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.search.origin,
+                expression: "search.origin"
+              }
+            ],
+            staticClass: "select",
+            on: {
+              change: function($event) {
+                var $$selectedVal = Array.prototype.filter
+                  .call($event.target.options, function(o) {
+                    return o.selected
+                  })
+                  .map(function(o) {
+                    var val = "_value" in o ? o._value : o.value
+                    return val
+                  })
+                _vm.$set(
+                  _vm.search,
+                  "origin",
+                  $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+                )
+              }
             }
+          },
+          [
+            _c("option", { attrs: { value: "" } }, [_vm._v("All Origins")]),
+            _vm._v(" "),
+            _vm._l(_vm.origins, function(origin) {
+              return _c("option", { domProps: { value: origin } }, [
+                _vm._v(_vm._s(origin))
+              ])
+            })
           ],
-          staticClass: "select",
-          on: {
-            change: function($event) {
-              var $$selectedVal = Array.prototype.filter
-                .call($event.target.options, function(o) {
-                  return o.selected
-                })
-                .map(function(o) {
-                  var val = "_value" in o ? o._value : o.value
-                  return val
-                })
-              _vm.$set(
-                _vm.search,
-                "origin",
-                $event.target.multiple ? $$selectedVal : $$selectedVal[0]
-              )
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "select",
+          {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.search.genre,
+                expression: "search.genre"
+              }
+            ],
+            staticClass: "select",
+            on: {
+              change: function($event) {
+                var $$selectedVal = Array.prototype.filter
+                  .call($event.target.options, function(o) {
+                    return o.selected
+                  })
+                  .map(function(o) {
+                    var val = "_value" in o ? o._value : o.value
+                    return val
+                  })
+                _vm.$set(
+                  _vm.search,
+                  "genre",
+                  $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+                )
+              }
             }
-          }
-        },
-        [
-          _c("option", { attrs: { value: "" } }, [_vm._v("All Origins")]),
-          _vm._v(" "),
-          _vm._l(_vm.origins, function(origin) {
-            return _c("option", { domProps: { value: origin } }, [
-              _vm._v(_vm._s(origin))
-            ])
-          })
-        ],
-        2
-      ),
-      _vm._v(" "),
-      _c(
-        "select",
-        {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.search.genre,
-              expression: "search.genre"
-            }
+          },
+          [
+            _c("option", { attrs: { value: "" } }, [_vm._v("All Genres")]),
+            _vm._v(" "),
+            _vm._l(_vm.genres, function(genre) {
+              return _c("option", { domProps: { value: genre } }, [
+                _vm._v(_vm._s(genre))
+              ])
+            })
           ],
-          staticClass: "select",
-          on: {
-            change: function($event) {
-              var $$selectedVal = Array.prototype.filter
-                .call($event.target.options, function(o) {
-                  return o.selected
-                })
-                .map(function(o) {
-                  var val = "_value" in o ? o._value : o.value
-                  return val
-                })
-              _vm.$set(
-                _vm.search,
-                "genre",
-                $event.target.multiple ? $$selectedVal : $$selectedVal[0]
-              )
-            }
-          }
-        },
-        [
-          _c("option", { attrs: { value: "" } }, [_vm._v("All Genres")]),
-          _vm._v(" "),
-          _vm._l(_vm.genres, function(genre) {
-            return _c("option", { domProps: { value: genre } }, [
-              _vm._v(_vm._s(genre))
-            ])
-          })
-        ],
-        2
-      )
+          2
+        )
+      ])
     ])
   ])
 }
@@ -1001,6 +1015,8 @@ exports.default = {
     }
   }
 }; //
+//
+//
 //
 //
 //
@@ -18594,35 +18610,7 @@ var render = function() {
               }
             }
           },
-          [
-            _c(
-              "svg",
-              {
-                attrs: {
-                  xmlns: "http://www.w3.org/2000/svg",
-                  viewBox: "0 0 476.92 476.92",
-                  width: "20px",
-                  fill: "#f00"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M457.464 392.237H295.021l-21.939 21.939c-9.248 9.248-21.543 14.34-34.622 14.34-13.078 0-25.374-5.092-34.621-14.34l-21.94-21.939H19.461c-7.797 0-14.113 6.315-14.113 14.112v56.457c0 7.797 6.316 14.113 14.113 14.113h437.997c7.797 0 14.113-6.322 14.113-14.113V406.35c.006-7.797-6.31-14.113-14.107-14.113z"
-                  }
-                }),
-                _vm._v(" "),
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M207.872 392.237l8.953 8.953c5.973 5.974 13.807 8.96 21.64 8.96 7.834 0 15.661-2.986 21.635-8.96l8.953-8.953 143.164-143.165c11.953-11.953 7.939-21.641-8.959-21.641h-58.072V12.24c0-6.763-5.484-12.24-12.24-12.24H143.973c-6.757 0-12.24 5.478-12.24 12.24v215.191H73.66c-16.897 0-20.912 9.688-8.959 21.641l143.171 143.165z"
-                  }
-                })
-              ]
-            ),
-            _vm._v("Download SVG")
-          ]
+          [_vm._v("\nDownload SVG")]
         )
       ])
     ],
@@ -18666,8 +18654,8 @@ var render = function() {
       _c(
         "main",
         { staticClass: "card-container" },
-        _vm._l(_vm.filteredBands, function(band) {
-          return _c("card", { attrs: { band: band } })
+        _vm._l(_vm.filteredBands, function(band, index) {
+          return _c("card", { key: index, attrs: { band: band } })
         })
       ),
       _vm._v(" "),

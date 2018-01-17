@@ -5,7 +5,7 @@
     <app-header :search="search" :origins="origins" :genres="genres" v-once></app-header>
 
     <main class="card-container">
-      <card v-for="band in filteredBands" :band="band"></card>
+      <card v-for="(band, index) in filteredBands" :band="band" v-bind:key="index"></card>
     </main>
 
     <app-footer v-once></app-footer>
