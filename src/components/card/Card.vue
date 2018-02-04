@@ -65,7 +65,7 @@ export default {
 
       if (band.css) {
         const request = new XMLHttpRequest()
-        request.open('GET', `css/logo/${band.css}`, true)
+        request.open('GET', `logos/${band.css}`, true)
 
         request.onreadystatechange = () => {
           if (request.readyState === 4) {
