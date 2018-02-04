@@ -25,8 +25,6 @@
       <input type="search" v-model.trim="search.band" placeholder="Search" class="search" />
 
       <div class="filter">
-        <p>Filters</p>
-
         <select v-model="search.origin" class="select">
             <option value="">All Origins</option>
             <option v-for="origin in origins" :value="origin">{{origin}}</option>
