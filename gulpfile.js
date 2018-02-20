@@ -73,9 +73,6 @@ gulp.task('styles', () => {
       .pipe(autoprefixer({browsers: config.autoprefixerBrowsers}))
       .pipe(mergeMediaQueries({log: true}))
       .pipe(gulp.dest(path.join(paths.src, 'logos')))
-      .pipe(csso())
-      .pipe(rename({suffix: '.min'}))
-      .pipe(gulp.dest(path.join(paths.src, 'logos')))
       .pipe(notify({message: 'Styles task complete', onLast: true}))
   }
 

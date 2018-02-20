@@ -6,8 +6,9 @@
 */
 
 const path = require('path')
-const paths = require('./.swillrc.json').basePaths
+const config = require('./.swillrc.json')
 const webpack = require('webpack')
+const paths = config.basePaths
 
 module.exports = {
   devServer: {
@@ -53,8 +54,15 @@ module.exports = {
           'style-loader',
           'css-loader',
           {
-            loader: 'stylus-loader'
-          }
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: (loader) => [
+                require('autoprefixer')(config.autoprefixerBrowsers)
+              ]
+            }
+          },
+          'stylus-loader'
         ]
       }, {
         test: /\.css$/,
