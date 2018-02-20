@@ -1,6 +1,10 @@
 .header
   width: 100%
   text-align: center
+  padding: 0 20px
+
+  @media only screen and (min-width: 1000px)
+    padding: 0
 
   p
     color: #FFF
@@ -42,6 +46,7 @@
   background-position: right
   transition: all 1s ease
   font-weight: 300
+  margin-bottom: 10px
 
   &:focus
     background-color: rgba(255, 255, 255, .9)
@@ -53,9 +58,7 @@
   color: #FFF
   font-size: 1.5rem
   font-weight: 300
-
-  p
-    margin-bottom: .5rem
+  margin-bottom: 30px
 
 .select
   appearance: none
@@ -65,7 +68,7 @@
   padding: .4rem
   border: none
   width 120px
-  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50px' height='50px' fill='#FFF'><polyline points='46.139,15.518 25.166,36.49 4.193,15.519'/></svg>") right no-repeat
+  background: transparent url("../../img/arrow.svg") center right no-repeat
   background-size: 18px 18px
   color: white
   margin-bottom: 20px
