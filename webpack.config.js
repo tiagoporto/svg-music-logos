@@ -25,7 +25,7 @@ module.exports = {
   },
   entry: path.join(__dirname, paths.src, 'index.js'),
   output: {
-    path: path.resolve(__dirname, paths.src),
+    path: path.resolve(__dirname, process.env.NODE_ENV === 'production' ? paths.build : paths.src),
     filename: 'bundle.js'
   },
   module: {
@@ -82,15 +82,16 @@ module.exports = {
   },
   resolve: {
     alias: {
-      vue: 'vue/dist/vue.js'
+      vue: 'vue/dist/vue.common.js'
     }
   },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+        NODE_ENV: JSON.stringify(process.env.NODE_ENV)
       }
     }),
+    new webpack.optimize.UglifyJsPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ]
 }
