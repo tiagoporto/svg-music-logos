@@ -8,6 +8,8 @@
       <card v-for="(band, index) in filteredBands" :band="band" v-bind:key="index"></card>
     </main>
 
+    <back-top></back-top>
+
     <app-footer v-once></app-footer>
   </div>
 </template>
@@ -16,6 +18,7 @@
 import AppFooter from './components/footer/AppFooter.vue'
 import AppHeader from './components/header/AppHeader.vue'
 import Card from './components/card/Card.vue'
+import BackTop from './components/back-top/BackTop.vue'
 import data from './data.json'
 
 const allGenres = data.map(elem => elem.genre)
@@ -62,7 +65,8 @@ export default {
   components: {
     AppFooter,
     AppHeader,
-    Card
+    Card,
+    BackTop
   },
   data () {
     return {
