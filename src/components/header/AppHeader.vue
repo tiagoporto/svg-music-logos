@@ -42,7 +42,6 @@ import _ from 'lodash'
 
 const setJumbotronHeight = () => {
   if (window.innerWidth > 768) {
-    console.log("window.scrollY", window.scrollY);
     if (window.scrollY > 20 ) {
       document.getElementById('jumbotron').style.height = '100%'
     } else {

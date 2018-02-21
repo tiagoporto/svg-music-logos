@@ -6,7 +6,6 @@ const gulp = require('gulp')
 const mergeMediaQueries = require('gulp-merge-media-queries')
 const imagemin = require('gulp-imagemin')
 const newer = require('gulp-newer')
-const notify = require('gulp-notify')
 const path = require('path')
 const plumber = require('gulp-plumber')
 const rename = require('gulp-rename')
@@ -65,7 +64,6 @@ gulp.task('styles', () => {
       .pipe(autoprefixer({browsers: config.autoprefixerBrowsers}))
       .pipe(mergeMediaQueries({log: true}))
       .pipe(gulp.dest(path.join(paths.src, 'logos')))
-      .pipe(notify({message: 'Styles task complete', onLast: true}))
   }
 
   return streaming(
@@ -102,7 +100,7 @@ gulp.task('watch', () => {
 })
 
 gulp.task('copy', () => {
-  gulp.src([
+  return gulp.src([
       path.join(paths.src, '*.*'),
       path.join(`!${paths.src}`, '*.{js,vue}'),
       path.join(paths.src, 'logos/**/*'),
@@ -113,15 +111,13 @@ gulp.task('copy', () => {
 // ***************************** Main Tasks ******************************* //
 
 // Build Project
-gulp.task('build', () => {
-  sequence('styles', ['images', 'copy'])
+gulp.task('build', callback => {
+  sequence('styles', ['images', 'copy'], () => callback())
 })
 
 // Build the project and push the builded folder to gh-pages branch
-gulp.task('gh-pages', () => {
-  sequence('build', () => {
-    return gulp
-      .src(path.join(basePaths.dist, '**/*'))
-      .pipe(ghPages())
-  })
+gulp.task('gh-pages', ['build'], () => {
+  return gulp
+    .src(path.join(paths.dist, '**/*'))
+    .pipe(ghPages())
 })
