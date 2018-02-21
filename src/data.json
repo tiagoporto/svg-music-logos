@@ -149,7 +149,7 @@
       }
     ]
   },  {
-    "name": "concreto",
+    "name": "Concreto",
     "origin": "Brazil",
     "genre": "Hard Rock",
     "link": "bandaconcreto.com.br",
@@ -197,7 +197,7 @@
     ]
   },  {
     "name": "Raimundos",
-    "name": "raimundos.css",
+    "css": "raimundos.css",
     "origin": "Brazil",
     "genre": "Alternative Metal",
     "link": "raimundos.com.br",
