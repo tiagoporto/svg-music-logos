@@ -1,18 +1,10 @@
-/*
-* Swill Boilerplate v1.0.0beta
-* https://github.com/tiagoporto/swill-boilerplate
-* Copyright (c) 2014-2017 Tiago Porto (http://tiagoporto.com)
-* Released under the MIT license
-*/
-
 const autoprefixer = require('gulp-autoprefixer')
-const browserSync = require('browser-sync')
 const config = require('./.swillrc.json')
-const csso = require('gulp-csso')
 const file = require('gulp-file')
 const ghPages = require('gulp-gh-pages')
 const gulp = require('gulp')
 const mergeMediaQueries = require('gulp-merge-media-queries')
+const imagemin = require('gulp-imagemin')
 const newer = require('gulp-newer')
 const notify = require('gulp-notify')
 const path = require('path')
@@ -84,6 +76,24 @@ gulp.task('styles', () => {
       .pipe(newer({dest: path.join(paths.src, 'logos'), ext: '.css', extra: paths.styles.src}))
   )
 })
+
+gulp.task('images', () => {
+  return gulp
+    .src([
+      path.join(paths.images.src, '**/*.{bmp,gif,jpg,jpeg,png,svg,eps}'),
+      path.join(`!${paths.images.src}`, 'sprite/**/*')
+    ])
+    .pipe(plumber())
+    .pipe(newer(paths.images.dist))
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng({optimizationLevel: 5})
+    ], {
+      verbose: true
+    }
+    ))
+    .pipe(gulp.dest(paths.images.dist))
+})
 // *************************** Utility Tasks ****************************** //
 
 // Serve the project and watch
@@ -91,34 +101,27 @@ gulp.task('watch', () => {
   gulp.watch(path.join(paths.styles.src, 'logos/*.{styl,scss,sass}'), 'styles')
 })
 
+gulp.task('copy', () => {
+  gulp.src([
+      path.join(paths.src, '*.*'),
+      path.join(`!${paths.src}`, '*.{js,vue}'),
+      path.join(paths.src, 'logos/**/*'),
+    ], {base: `./${paths.src}`})
+    .pipe(gulp.dest(paths.dist))
+})
+
 // ***************************** Main Tasks ******************************* //
 
-// Clean and compile the project
-gulp.task('compile', () => {
-  sequence('styles')
-})
-
-// Clean, compile, serve and watch the project
-gulp.task('compile:watch', ['clean'], () => {
-  sequence('compile', 'watch')
-})
-
 // Build Project
-gulp.task('build', ['clean'], () => {
-  sequence('compile', 'copy')
-})
-
-// Build Project and serve
-gulp.task('build:serve', ['clean'], () => {
-  sequence('build', () => browserSync(config.browserSyncBuild)
-  )
+gulp.task('build', () => {
+  sequence('styles', ['images', 'copy'])
 })
 
 // Build the project and push the builded folder to gh-pages branch
 gulp.task('gh-pages', () => {
   sequence('build', () => {
     return gulp
-      .src(path.join(basePaths.build, '**/*'))
+      .src(path.join(basePaths.dist, '**/*'))
       .pipe(ghPages())
   })
 })

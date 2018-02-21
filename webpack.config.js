@@ -25,7 +25,7 @@ module.exports = {
   },
   entry: path.join(__dirname, paths.src, 'index.js'),
   output: {
-    path: path.resolve(__dirname, process.env.NODE_ENV === 'production' ? paths.build : paths.src),
+    path: path.resolve(__dirname, process.env.NODE_ENV === 'production' ? paths.dist : paths.src),
     filename: 'bundle.js'
   },
   module: {
