@@ -16,11 +16,3 @@ if (process.env.NODE_ENV === 'production') {
     id: 'UA-32351360-4'
   })
 }
-
-window.onscroll = () => {
-  if (window.scrollY > 20) {
-    document.getElementById('jumbotron').style.height = '100%'
-  } else {
-    document.getElementById('jumbotron').style.height = '400px'
-  }
-}

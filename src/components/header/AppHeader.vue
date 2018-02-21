@@ -11,16 +11,12 @@
       <div class="github-buttons">
         <a class="github-button" href="https://github.com/tiagoporto"  data-show-count="true" aria-label="Follow @tiagoporto on GitHub">Follow @tiagoporto</a>
 
-        <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/fork" data-icon="octicon-git-branch" data-show-count="true" aria-label="Fork tiagoporto/svg-music-logos on GitHub">Fork</a>
-
-        <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos/issues" data-icon="octicon-issue-opened" data-show-count="true" aria-label="Issue tiagoporto/svg-music-logos on GitHub">Issue</a>
-
         <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos" data-icon="octicon-star" data-show-count="true" aria-label="Star tiagoporto/svg-music-logos on GitHub">Star</a>
       </div>
 
       <p>A collection of bands' and musicians' logos in SVG.</p>
       <p>All brands are trademarks of their respective bands or musicians.</p>
-      <p>The Brands and symbols should only be used to represent which artists they refer.</p>
+      <p>The brands and symbols should only be used to represent which artists they refer.</p>
 
       <input type="search" v-model.trim="search.band" placeholder="Search" class="search" />
 
@@ -42,6 +38,22 @@
 <script>
 import './AppHeader.styl'
 import './Jumbotron.styl'
+import _ from 'lodash'
+
+const setJumbotronHeight = () => {
+  if (window.innerWidth > 768) {
+    console.log("window.scrollY", window.scrollY);
+    if (window.scrollY > 20 ) {
+      document.getElementById('jumbotron').style.height = '100%'
+    } else {
+      document.getElementById('jumbotron').style.height = '400px'
+    }
+  } else {
+    document.getElementById('jumbotron').style.height = '100%'
+  }
+}
+
+window.addEventListener('scroll', _.debounce(setJumbotronHeight, 20))
 
 export default {
   name: 'AppHeader',
