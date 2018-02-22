@@ -29,11 +29,11 @@ export default {
   updated () {
     const el = this.$el.getElementsByTagName('svg')[0]
 
-    if (el && this.band.logo.class) {
+    if (el && this.band.logo.cls) {
       if (el.classList) {
-        el.classList.add(this.band.logo.class)
+        el.classList.add(this.band.logo.cls)
       } else {
-        `${el.className} ${this.band.logo.class}`
+        `${el.className} ${this.band.logo.cls}`
       }
     }
   },

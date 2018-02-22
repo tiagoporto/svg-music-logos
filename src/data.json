@@ -12,31 +12,31 @@
       }, {
         "title": "Iron Maiden",
         "svg": "iron-maiden.svg",
-        "class": "iron-maiden--classical"
+        "cls": "iron-maiden--classical"
       }, {
         "title": "Powerslave",
         "svg": "iron-maiden.svg",
-        "class": "iron-maiden--powerslave"
+        "cls": "iron-maiden--powerslave"
       }, {
         "title": "Somewhere In Time",
         "svg": "iron-maiden.svg",
-        "class": "iron-maiden--somewhere-in-time"
+        "cls": "iron-maiden--somewhere-in-time"
       }, {
         "title": "Seventh Son of a Seventh Son",
         "svg": "iron-maiden.svg",
-        "class": "iron-maiden--seventh-son-of-a-seventh-son"
+        "cls": "iron-maiden--seventh-son-of-a-seventh-son"
       }, {
         "title": "A Real Live One",
         "svg": "iron-maiden.svg",
-        "class": "iron-maiden--a-real-live-one"
+        "cls": "iron-maiden--a-real-live-one"
       }, {
         "title": "A Real Dead One",
         "svg": "iron-maiden.svg",
-        "class": "iron-maiden--a-dead-live-one"
+        "cls": "iron-maiden--a-dead-live-one"
       }, {
         "title": "Best of b'Sides",
         "svg": "iron-maiden.svg",
-        "class": "iron-maiden--best-of-b-sides"
+        "cls": "iron-maiden--best-of-b-sides"
       }, {
         "title": "Live At Donington",
         "svg": "iron-maiden_live-at-donington.svg"
@@ -46,11 +46,11 @@
       }, {
         "title": "Virtual XI",
         "svg": "iron-maiden_virtual-xi.svg",
-        "class": "iron-maiden--virtual-xi"
+        "cls": "iron-maiden--virtual-xi"
       }, {
         "title": "Brave New World",
         "svg": "iron-maiden_virtual-xi.svg",
-        "class": "iron-maiden--brave-new-world"
+        "cls": "iron-maiden--brave-new-world"
       }, {
         "title": "Eddie - Brave New World",
         "svg": "iron-maiden_eddie-brave-new-world.svg"
@@ -86,11 +86,11 @@
       {
         "title": "Derek Riggs Signature",
         "svg": "iron-maiden_derek-riggs.svg",
-        "class": "derek-riggs--signature"
+        "cls": "derek-riggs--signature"
       }, {
         "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
         "svg": "iron-maiden_derek-riggs.svg",
-        "class": "derek-riggs--badge"
+        "cls": "derek-riggs--badge"
       }
     ]
   }, {
@@ -276,11 +276,11 @@
       }, {
         "title": "III",
         "svg": "chickenfoot_III.svg",
-        "class": "chickenfoot--III"
+        "cls": "chickenfoot--III"
       }, {
         "title": "III Limited",
         "svg": "chickenfoot_III-limited.svg",
-        "class": "chickenfoot--III-limited"
+        "cls": "chickenfoot--III-limited"
       }
     ]
   },  {
@@ -477,7 +477,7 @@
       {
         "title": "Let There Be Rock",
         "svg": "acdc_classical.svg",
-        "class": "acdc--classical"
+        "cls": "acdc--classical"
       }, {
         "title": "Let There Be Rock",
         "svg": "acdc.svg"
@@ -487,7 +487,7 @@
       }, {
         "title": "Back in Black",
         "svg": "acdc.svg",
-        "class": "acdc--back-in-black"
+        "cls": "acdc--back-in-black"
       }
     ]
   },  {
@@ -608,7 +608,7 @@
         "svg": "rammstein_symbol.svg"
       }, {
         "title": "R+ Stroked",
-        "class": "rammstein__symbol--stroke",
+        "cls": "rammstein__symbol--stroke",
         "svg": "rammstein_symbol.svg"
       }, {
         "title": "R+ Flat",
@@ -680,11 +680,11 @@
     "logos": [
       {
         "title": "Gol De Quem?",
-        "class": "pato-fu--gol-de-quem",
+        "cls": "pato-fu--gol-de-quem",
         "svg": "pato-fu_gol-de-quem.svg"
       }, {
         "title": "Televisão de Cachorro",
-        "class": "pato-fu--televisao-de-cachorro",
+        "cls": "pato-fu--televisao-de-cachorro",
         "svg": "pato-fu_gol-de-quem.svg"
       }
     ]
@@ -838,15 +838,15 @@
       }, {
         "title": "The Joshua Tree",
         "svg": "u2_the-joshua-tree.svg",
-        "class": "u2--the-joshua-tree"
+        "cls": "u2--the-joshua-tree"
       }, {
         "title": "The Joshua Tree",
         "svg": "u2_the-joshua-tree.svg",
-        "class": "u2--the-joshua-tree-text"
+        "cls": "u2--the-joshua-tree-text"
       }, {
         "title": "Joshua Tree",
         "svg": "u2_the-joshua-tree.svg",
-        "class": "u2--joshua-tree"
+        "cls": "u2--joshua-tree"
       }
     ]
   },  {
@@ -884,7 +884,7 @@
     "logos": [
       {
       "title": "Trouble Walkin'",
-      "class":"ace-frehley--trouble-walkin",
+      "cls":"ace-frehley--trouble-walkin",
       "svg": "ace-frehley_trouble-walkin.svg"
       }
     ]
@@ -897,11 +897,11 @@
     "logos": [
       {
       "title": "Spaces",
-      "class":"mixhell--spaces",
+      "cls":"mixhell--spaces",
       "svg": "mixhell.svg"
       }, {
       "title": "Spaces tour'",
-      "class":"mixhell--highly-explicit",
+      "cls":"mixhell--highly-explicit",
       "svg": "mixhell.svg"
       }, {
       "title": "Mixhell",
@@ -1002,15 +1002,15 @@
         "svg": "sepultura_morbid-visions.svg"
       }, {
         "title": "Beneath the Remains",
-        "class": "sepultura--beneath-the-remains",
+        "cls": "sepultura--beneath-the-remains",
         "svg": "sepultura_beneath-the-remains.svg"
       }, {
         "title": "Arise",
-        "class": "sepultura--arise",
+        "cls": "sepultura--arise",
         "svg": "sepultura_beneath-the-remains.svg"
       }, {
         "title": "Tribal Symbol",
-        "class": "sepultura--tribal-symbol",
+        "cls": "sepultura--tribal-symbol",
         "svg": "sepultura_tribal.svg"
       }, {
         "title": "Chaos Symbol",
@@ -1029,17 +1029,17 @@
         "svg": "sepultura_triangle.svg"
       }, {
         "title": "1/4 Of a Century",
-        "class": "sepultura--quarter-of-a-century",
+        "cls": "sepultura--quarter-of-a-century",
         "svg": "sepultura_tribal.svg"
       }, {
-        "title": "Triangle Symbol Dirty",
+        "title": "Tribal Symbol Dirty",
         "svg": "sepultura_tribal-symbol-dirty.svg"
       }, {
         "title": "Coat Of Arms",
         "svg": "sepultura_coat-of-arms.svg"
       }, {
         "title": "Dante XXI",
-        "class": "sepultura--dante-xxi",
+        "cls": "sepultura--dante-xxi",
         "svg": "sepultura_dante-xxi.svg"
       }
     ]
@@ -1136,7 +1136,7 @@
       {
         "title": "Bleach",
         "svg": "nirvana.svg",
-        "class": "nirvana--bleach"
+        "cls": "nirvana--bleach"
       }, {
         "title": "Nevermind",
         "svg": "nirvana.svg"
@@ -1412,11 +1412,11 @@
       }, {
         "title": "The Who Collection",
         "svg": "the-who.svg",
-        "class": "the-who--text"
+        "cls": "the-who--text"
       }, {
         "title": "Target",
         "svg": "the-who.svg",
-        "class": "the-who--symbol"
+        "cls": "the-who--symbol"
       }
     ]
   },  {
@@ -1459,7 +1459,7 @@
         "svg": "hibria.svg"
       }, {
         "title": "Hibria Symbol",
-        "class": "hibria--symbol",
+        "cls": "hibria--symbol",
         "svg": "hibria_symbol.svg"
       }
     ]
@@ -1475,7 +1475,7 @@
         "svg": "krisiun_curse-of-the-evil-one.svg"
       }, {
         "title": "Unmerciful Order",
-        "class": "krisiun--unmerciful-order",
+        "cls": "krisiun--unmerciful-order",
         "svg": "krisiun_unmerciful-order.svg"
       }
     ]
@@ -1541,11 +1541,11 @@
       }, {
         "title": "The majesty symbol",
         "svg": "dream-theater_majesty-symbol.svg",
-        "class": "dream-theater--majesty-symbol"
+        "cls": "dream-theater--majesty-symbol"
       }, {
         "title": "The majesty symbol",
         "svg": "dream-theater_majesty-symbol.svg",
-        "class": "dream-theater--full-majesty-symbol"
+        "cls": "dream-theater--full-majesty-symbol"
       }
     ]
  },  {

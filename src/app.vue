@@ -21,33 +21,7 @@ import Card from './components/card/Card.vue'
 import BackTop from './components/back-top/BackTop.vue'
 import data from './data.json'
 
-const allGenres = data.map(elem => elem.genre)
-const genres = allGenres.filter((item, pos) => allGenres.indexOf(item) === pos).sort()
-
-const allOrigins = data.map(elem => elem.origin)
-const origins = allOrigins.filter((item, pos) => allOrigins.indexOf(item) === pos).sort()
-
-const bands = []
-let count = 0
-
-data.forEach((band, index) => {
-  const getLogo = band.logos
-
-  getLogo.forEach(logo => {
-    bands[count] = {
-      name: band.name,
-      link: band.link,
-      origin: band.origin,
-      genre: band.genre,
-      css: band.css,
-      logo
-    }
-
-    count += 1
-  })
-})
-
-bands.sort((a, b) => {
+data.sort((a, b) => {
   const nameA = a.name.toLowerCase()
   const nameB = b.name.toLowerCase()
 
@@ -58,6 +32,30 @@ bands.sort((a, b) => {
     return 1
   }
   return 0
+})
+
+const allGenres = data.map(elem => elem.genre)
+const genres = allGenres.filter((item, pos) => allGenres.indexOf(item) === pos).sort()
+
+const allOrigins = data.map(elem => elem.origin)
+const origins = allOrigins.filter((item, pos) => allOrigins.indexOf(item) === pos).sort()
+
+const bands = []
+
+
+data.forEach((band, index) => {
+  const getLogo = band.logos
+
+  getLogo.forEach(logo => {
+    bands.push({
+      name: band.name,
+      link: band.link,
+      origin: band.origin,
+      genre: band.genre,
+      css: band.css,
+      logo
+    })
+  })
 })
 
 export default {
