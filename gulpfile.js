@@ -12,6 +12,7 @@ const rename = require('gulp-rename')
 const replace = require('gulp-replace')
 const sequence = require('run-sequence')
 const stylus = require('gulp-stylus')
+const del = require('del')
 
 // ***************************** Path configs ***************************** //
 
@@ -94,16 +95,22 @@ gulp.task('images', () => {
 })
 // *************************** Utility Tasks ****************************** //
 
+// Clean Directories
+gulp.task('clean', () => {
+  return del(paths.dist)
+})
+
 // Serve the project and watch
 gulp.task('watch', () => {
   gulp.watch(path.join(paths.styles.src, 'logos/*.{styl,scss,sass}'), 'styles')
 })
 
 gulp.task('copy', () => {
-  return gulp.src([
+  return gulp
+    .src([
       path.join(paths.src, '*.*'),
       path.join(`!${paths.src}`, '*.{js,vue}'),
-      path.join(paths.src, 'logos/**/*'),
+      path.join(paths.src, 'logos/**/*')
     ], {base: `./${paths.src}`})
     .pipe(gulp.dest(paths.dist))
 })
