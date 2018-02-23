@@ -9,7 +9,7 @@
       </h1>
 
       <div class="github-buttons">
-        <a class="github-button" href="https://github.com/tiagoporto"  data-show-count="true" aria-label="Follow @tiagoporto on GitHub">Follow @tiagoporto</a>
+        <a class="github-button" href="https://github.com/tiagoporto" data-show-count="true" aria-label="Follow @tiagoporto on GitHub">Follow @tiagoporto</a>
 
         <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos" data-icon="octicon-star" data-show-count="true" aria-label="Star tiagoporto/svg-music-logos on GitHub">Star</a>
       </div>
@@ -42,7 +42,7 @@ import _ from 'lodash'
 
 const setJumbotronHeight = () => {
   if (window.innerWidth > 768) {
-    if (window.scrollY > 20 ) {
+    if (window.scrollY > 20) {
       document.getElementById('jumbotron').style.height = '100%'
     } else {
       document.getElementById('jumbotron').style.height = '400px'
