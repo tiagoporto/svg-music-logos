@@ -105,7 +105,7 @@ export default {
 
       return context.bands.filter(band => {
         const searched = context.search
-        const name = band.name.toLowerCase().includes(searched.band.toLowerCase())
+        const name = band.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(searched.band.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''))
         const genre = (!searched.genre && !band.genre) || (band.genre && band.genre.includes(searched.genre))
         const origin = (!searched.origin && !band.origin) || (band.origin && band.origin.includes(searched.origin))
 
