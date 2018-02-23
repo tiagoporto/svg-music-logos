@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Black Sabbath - Vol 4 v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 122">
   <path d="M179.684 84.827v-16.11h-13.477v50.748h13.477v-20.95c2.08.336 3.202 1.25 3.368 2.737v18.214h13.95v-17.32c-.604-10.804-6.044-16.902-17.318-17.32z"/>
   <path d="M161.667 72.82h-13.322v11.948l-3.086-.007v4.84h2.864v16.292c1.974 8.09 7.266 12.858 16.566 13.623V105.78c-1.58-.067-2.61-.777-3.09-2.127V89.85h3.227v-4.943h-3.16V72.82z"/>
