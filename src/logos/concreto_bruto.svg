@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Concreto - Bruto v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 58">
   <g class="concreto__lettering">
     <path d="M153.214 23.14c.056 1.612 1.168 16.904 1.168 16.904s9.903 1.01 11.015 1.23c.445-1.89.668-4.783.946-5.34-2.615.11-9.124.167-9.124.167v-2.614l5.34.556.668-3.727-6.342-.056.278-4.062 8.183 3.514.997-3.96-13.13-2.613z"/>
