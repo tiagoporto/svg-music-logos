@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Bon Jovi - Have A Nice Day v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="bon-jovi--have-a-nice-day-smile">
   <rect x="2" y="2" width="196" height="196"/>
   <rect class="bon-jovi__background" x="8" y="8" width="184" height="184"/>
