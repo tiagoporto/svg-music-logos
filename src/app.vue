@@ -17,8 +17,8 @@
 <script>
 import AppFooter from './components/footer/AppFooter.vue'
 import AppHeader from './components/header/AppHeader.vue'
-import Card from './components/card/Card.vue'
 import BackTop from './components/back-top/BackTop.vue'
+import Card from './components/card/Card.vue'
 import data from './data.json'
 
 data.sort((a, b) => {
@@ -34,14 +34,35 @@ data.sort((a, b) => {
   return 0
 })
 
-const allGenres = data.map(elem => elem.genre)
-const genres = allGenres.filter((item, pos) => allGenres.indexOf(item) === pos).sort()
+const allGenres = data
+  .map(elem => {
+    if (process.env.NODE_ENV !== 'production') {
+      elem.genre || console.warn(`${elem.name} is missing the genre.`)
+    }
 
-const allOrigins = data.map(elem => elem.origin)
-const origins = allOrigins.filter((item, pos) => allOrigins.indexOf(item) === pos).sort()
+    return elem.genre
+  })
+  .filter(genre => genre !== undefined)
+
+const genres = allGenres
+  .filter((item, pos) => allGenres.indexOf(item) === pos)
+  .sort()
+
+const allOrigins = data
+  .map(elem => {
+    if (process.env.NODE_ENV !== 'production') {
+      elem.origin || console.warn(`${elem.name} is missing the origin.`)
+    }
+
+    return elem.origin
+  })
+  .filter(origin => origin !== undefined)
+
+const origins = allOrigins
+  .filter((item, pos) => allOrigins.indexOf(item) === pos)
+  .sort()
 
 const bands = []
-
 
 data.forEach((band, index) => {
   const getLogo = band.logos
