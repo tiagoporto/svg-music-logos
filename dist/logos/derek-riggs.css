@@ -1,0 +1,10 @@
+.derek-riggs--signature .derek-riggs__background,
+.derek-riggs--signature .derek-riggs__foreground {
+	display: none;
+}
+
+.derek-riggs--badge .derek-riggs__signature,
+.derek-riggs--badge .derek-riggs__foreground {
+	fill: #fcfc00;
+}
+
