@@ -18,7 +18,7 @@
       <p>All brands are trademarks of their respective bands or musicians.</p>
       <p>The brands and symbols should only be used to represent which artists they refer.</p>
 
-      <input type="search" v-model.trim="search.band" placeholder="Search" class="search" />
+      <input type="search" v-model.trim="search.band" placeholder="Search" class="search" autofocus/>
 
       <div class="filter">
         <select v-model="search.origin" class="select">
