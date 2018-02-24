@@ -122,7 +122,7 @@ export default {
   mounted () {
     this.$nextTick(() => {
       if (process.env.NODE_ENV === 'production') {
-        this.$ga.page('/')
+        this.$ga.page(location.pathname)
       }
     })
   }
