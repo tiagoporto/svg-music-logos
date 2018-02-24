@@ -10,7 +10,7 @@ const config = require('./.swillrc.json')
 const webpack = require('webpack')
 const paths = config.basePaths
 
-module.exports = {
+const webpackConfig = {
   devServer: {
     open: true,
     overlay: true,
@@ -91,7 +91,10 @@ module.exports = {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)
       }
     }),
-    new webpack.optimize.UglifyJsPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ]
 }
+
+process.env.NODE_ENV === 'production' && webpackConfig.plugins.push(new webpack.optimize.UglifyJsPlugin())
+
+module.exports = webpackConfig
