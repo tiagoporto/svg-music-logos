@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Detonator - Metal 5 Estrelas v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 200" class="detonator--metal-cinco-estrelas">
   <g class="detonator__stars">
     <polygon points="47.054 25.174 50.14 34.675 42.062 28.815 33.984 34.675 37.071 25.174 28.993 19.314 38.976 19.314 42.062 9.813 45.149 19.314 55.132 19.314 47.054 25.174"/>
@@ -21,6 +27,7 @@
       <path d="M86.794 175.694V146.03l17.992 18.965c-2.373 2.07-4.945 3.915-7.743 5.635-3.328 1.93-6.8 3.45-10.25 5.064z"/>
     </g>
   </g>
+
   <g class="detonator__letter-d">
     <path class="detonator__letter-background" d="M49.915 152.748V92.21H42.86l11.415-21.38h49.706v1.35c0 41.628-17.098 67.78-52.273 79.948l-1.792.62z"/>
     <path class="detonator__letter-foreground" d="M55.895 73.532l-8.533 15.976h5.255v59.43c32.364-11.874 48.297-36.57 48.657-75.406h-45.38zm9.803 56.52V83.855h24.196c0 19.102-9.692 39.405-24.196 46.197z"/>

@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Damageplan - New Found Power v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 39.5">
   <polygon points="2 2.642 8.158 2.642 8.158 36.555 2 36.555 2 2.642"/>
   <path d="M41.803 2.642h6.946l7.783 20.696-1.852 7.166-1.606.062-.99-3.027.804-2.102-1.42-.99-3.09-8.154-.37-.062-6.116-11.18.042-.032-.13-.152V2.642zm6.315 15.528v15.816h-.596v2.568h-5.72V7.218L48.12 18.17z"/>

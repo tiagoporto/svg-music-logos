@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Diamond Head - Lightning to the Nations v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425.2 425.2" class="diamond-head--lightning-to-the-nations">
   <g class="diamond-head__diamond">
     <linearGradient id="diamond-head__diamond-crown-gradient" gradientUnits="userSpaceOnUse" x1="212.6" y1="89.309" x2="212.6" y2="165.457">

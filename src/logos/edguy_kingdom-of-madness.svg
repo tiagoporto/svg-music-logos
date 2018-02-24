@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Edguy - Kingdom of Madness v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 70">
   <polygon points="30.7,26.818 1.5,57.897 46.022,57.897 46.022,47.055 26.682,47.457 44.865,25.951 34.169,16.298 46.022,16.298 46.022,6.003 10.349,5.94"/>
   <path d="M49.91 1.777v64.688l1.94 1.763L85.692 26.1 49.912 1.778zm10.82 18.946l10.126 8.308-9.906 13.275-.22-21.582z"/>
