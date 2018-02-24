@@ -101,13 +101,32 @@ export default {
   },
   computed: {
     filteredBands () {
-      const context = this
       if (this.search.band) {
         this.$router.replace({
           name: 'search',
           params: {q: this.search.band}
         })
       }
+
+      if (process.env.NODE_ENV === 'production') {
+        if (this.search.genre) {
+          this.$ga.event({
+            eventCategory: 'search',
+            eventAction: 'select',
+            eventLabel: `Genre ${this.search.genre}`
+          })
+        }
+
+        if (this.search.origin) {
+          this.$ga.event({
+            eventCategory: 'search',
+            eventAction: 'select',
+            eventLabel: `Origin ${this.search.origin}`
+          })
+        }
+      }
+
+      const context = this
 
       return context.bands.filter(band => {
         const searched = context.search
