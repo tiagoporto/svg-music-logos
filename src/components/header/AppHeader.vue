@@ -60,6 +60,11 @@ export default {
     origins: [Array],
     genres: [Array],
     search: [Object]
+  },
+  mounted () {
+    this.$nextTick(() => {
+      this.$route.params.q && (this.search.band = this.$route.params.q)
+    })
   }
 }
 </script>

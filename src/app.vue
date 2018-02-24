@@ -102,6 +102,12 @@ export default {
   computed: {
     filteredBands () {
       const context = this
+      if (this.search.band) {
+        this.$router.replace({
+          name: 'search',
+          params: {q: this.search.band}
+        })
+      }
 
       return context.bands.filter(band => {
         const searched = context.search

@@ -44,7 +44,6 @@ export default {
     setHtml () {
       mdSVGStore[this.svgSRC].then(html => {
         this.html = html
-
       })
     },
     unexpectedError (reject) {
