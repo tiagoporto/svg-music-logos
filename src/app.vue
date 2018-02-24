@@ -118,6 +118,13 @@ export default {
         return name && origin && genre
       })
     }
+  },
+  mounted () {
+    this.$nextTick(() => {
+      if (process.env.NODE_ENV === 'production') {
+        this.$ga.page('/')
+      }
+    })
   }
 }
 </script>
