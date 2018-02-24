@@ -20,11 +20,18 @@
     position: relative
     z-index: 1
 
-  &__title
+  &__link-title
     font-family: 'Lato'
     font-weight: 900
     font-size: 3rem
     color: #FFF
+    text-decoration: none
+
+  &__subtitle
+    display: block
+    font-size: 1.2rem
+    color: #FFF
+    font-weight: normal
 
   &__main
     max-width: 1000px
@@ -35,6 +42,13 @@
 
     @media only screen and (min-width: 1000px)
       padding: 0
+
+.link
+  color: darken(red, 15%)
+  font-weight: bold
+
+  &:hover
+    color: lighten(blue, 28%)
 
 .search
   border: none
@@ -68,7 +82,7 @@
   letter-spacing: .009rem
   padding: .4rem
   border: none
-  width 120px
+  width 150px
   background: transparent url("../../img/arrow.svg") center right no-repeat
   background-size: 18px 18px
   color: white

@@ -12,14 +12,31 @@ const router = new VueRouter({
       path: '/',
       component: App
     }, {
-      path: '/search/:q',
+      path: '/search',
       name: 'search',
+      query: {
+        q: null,
+        origin: null,
+        genre: null
+      },
       component: App
     }, {
       path: '*',
       redirect: '/'
     }
   ]
+})
+
+router.beforeEach((to, from, next) => {
+  const hasQueryParams = route => {
+    return Boolean(Object.keys(route.query).length)
+  }
+
+  if (!hasQueryParams(to) && hasQueryParams(from)) {
+    next({name: to.name, query: from.query})
+  } else {
+    next()
+  }
 })
 
 const app = new Vue({

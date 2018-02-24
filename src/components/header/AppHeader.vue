@@ -1,11 +1,12 @@
 <template>
   <header class="header">
     <div class="header__main">
-      <h1>
-        <a href="http://tiagoporto.github.io/svg-music-logos" class="header__title">
+      <h1 class="header__title">
+        <a href="http://tiagoporto.github.io/svg-music-logos" class="header__link-title">
           <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250" /> -->
           SVG Music Logos
         </a>
+        <span class="header__subtitle">{{logos.length}} logos</span>
       </h1>
 
       <div class="github-buttons">
@@ -17,6 +18,8 @@
       <p>A collection of bands' and musicians' logos in SVG.</p>
       <p>All brands are trademarks of their respective bands or musicians.</p>
       <p>The brands and symbols should only be used to represent which artists they refer.</p>
+
+      <p><a href="https://github.com/tiagoporto/svg-music-logos/issues" class="link">Request a new logo or report a problem.</a></p>
 
       <input type="search" v-model.trim="search.band" placeholder="Search" class="search" autofocus/>
 
@@ -59,12 +62,8 @@ export default {
   props: {
     origins: [Array],
     genres: [Array],
-    search: [Object]
-  },
-  mounted () {
-    this.$nextTick(() => {
-      this.$route.params.q && (this.search.band = this.$route.params.q)
-    })
+    search: [Object],
+    logos: [Array]
   }
 }
 </script>
