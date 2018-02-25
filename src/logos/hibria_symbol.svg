@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Hibria - Symbol v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-18 0 162 200">
   <g class="hibria__circle">
     <path d="M63 2.5c-17.976 0-34.574 5.9-47.965 15.868 3.294.397 5.61.69 5.9.726l1.366.173 1.47 4.213C35.02 16.04 48.504 11.704 63 11.704c14.57 0 28.114 4.38 39.397 11.887l1.51-4.323 1.366-.173c.282-.036 2.523-.32 5.72-.705C97.6 8.41 80.99 2.5 63 2.5z"/>

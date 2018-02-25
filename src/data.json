@@ -112,7 +112,7 @@
     "logos": [
       {
         "title": "JP",
-        "svg": "john-petrucci.svg"
+        "svg": "john-petrucci_jp.svg"
       }
     ]
   }, {
@@ -1458,7 +1458,7 @@
         "title": "Hibria",
         "svg": "hibria.svg"
       }, {
-        "title": "Hibria Symbol",
+        "title": "Symbol",
         "cls": "hibria--symbol",
         "svg": "hibria_symbol.svg"
       }
@@ -1845,7 +1845,7 @@
     "logos": [
       {
         "title": "Autograph",
-        "svg": "james-hetfield.svg"
+        "svg": "james-hetfield_autograph.svg"
       }
     ]
   },  {
