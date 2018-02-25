@@ -461,7 +461,7 @@
         "svg": "metallica_throught-the-never.svg"
       }, {
         "title": "Dehann",
-        "svg": "dehaan.svg"
+        "svg": "metallica_dehaan.svg"
       }, {
         "title": "Hardwired…To Self-Destruct",
         "svg": "metallica_hardwired-to-self-destruct.svg"
@@ -1866,8 +1866,8 @@
     "link": "evhgear.com",
     "logos": [
       {
-        "title": "Logo",
-        "svg": "evh.svg"
+        "title": "EVH",
+        "svg": "eddie-van-halen_evh.svg"
       }
     ]
   },  {
@@ -2173,7 +2173,7 @@
     "logos": [
       {
         "title": "ELP",
-        "svg": "elp-symbol.svg"
+        "svg": "emerson_lake_palmer-elp.svg"
       }
     ]
   },  {

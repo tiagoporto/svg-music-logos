@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Eminence - Novos Horizontes v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 137">
   <path d="M20.442 59.64l.002 7.507H12.65c-5.762 0-10.15-5.33-10.15-10.48V24.322c0-5.936 4.927-10.795 10.175-10.763l7.672.046-.047 7.378h-7.32c-1.276-.008-3.067 1.133-3.067 2.702v12.97h7.413l-.047 7.33H9.912V56.22c0 1.438 1.103 3.41 2.856 3.422h7.672z"/>
   <path d="M21.94 13.57l7.663-.01c5.162-.01 10.104 4.565 10.08 10.15v43.437h-7.378V24.064c0-1.383-.87-3.093-3.034-3.08h-7.33v-7.413z"/>
