@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Mamonas Assassinas - Mamonas Assassinas v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" class="mamonas-assassinas">
   <g class="mamonas-assassinas__shadow">
     <path d="M124.43 3.557c8.776 6.27 10.004 25.287-12.384 30.495-13.915-10.683-3.742-29.7 12.384-30.495zm-12.423 28.735c12.8-4.334 18.618-18.89 11.85-27.375-13.125 5.85-15.3 18.527-11.85 27.375z"/>
