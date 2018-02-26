@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Dead Kennedys - DK v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 200" class="dead-kennedys">
   <path class="dead-kennedys__circle" d="M141.038 99.762c0 36.97-30.557 66.94-68.25 66.94S4.54 136.73 4.54 99.76c0-36.968 30.558-66.938 68.25-66.938 37.693 0 68.25 29.97 68.25 66.938z"/>
   <path class="DK" d="M87.65 99.984l59.812-51.857-2.246-14.18-16.004-.14-44.628 42.397V13.33L73.626 2.5l-9.164 12.073v58.03l-51.578-51.72v152.61l51.578-51.33v64.747l9.834 10.59 10.288-9.828v-64.098l45.33 45.707 13.897.984-.28-16.004-55.88-54.276zM32.625 125.27V73.467l27.54 26.517-27.54 25.286z"/>

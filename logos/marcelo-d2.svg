@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Marcelo D2 - A Procura da Batida Perfeita v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 121">
   <path d="M11.29 2.565h85.835v18.213H24.482v36.85H2.5v-46.27c0-4.836 3.956-8.793 8.79-8.793z"/>
   <path d="M112.426 30.848h20.733v17.23h-7.425v2.662H103.04V40.234c0-5.163 4.224-9.386 9.386-9.386z"/>

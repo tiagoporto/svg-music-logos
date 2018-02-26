@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Iron Maiden - Legacy Of The Beast - 666 Flag v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 164" class="iron-maiden--six-six-six-flag">
   <polygon class="iron-maiden__polygon" points="50.75 156.745 1.5 81.667 50.75 6.588 149.25 6.588 198.5 81.667 149.25 156.745"/>
   <g class="iron-maiden__numbers">

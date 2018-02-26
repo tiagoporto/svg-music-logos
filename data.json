@@ -112,7 +112,7 @@
     "logos": [
       {
         "title": "JP",
-        "svg": "john-petrucci.svg"
+        "svg": "john-petrucci_jp.svg"
       }
     ]
   }, {
@@ -133,7 +133,7 @@
     "link": "marcelod2.com.br",
     "logos": [
       {
-        "title": "A procura da batida perfeita",
+        "title": "A Procura da Batida Perfeita",
         "svg": "marcelo-d2.svg"
       }
     ]
@@ -303,7 +303,7 @@
     "logos": [
       {
         "title": "Flag of Hate",
-        "svg": "kreator.svg"
+        "svg": "kreator_flag-of-hate.svg"
       }, {
         "title": "Endless Pain",
         "svg": "kreator_endless-pain.svg"
@@ -442,7 +442,7 @@
         "title": "Scary Guy Wings",
         "svg": "metallica_scary-guy-wings.svg"
       }, {
-        "title": "Garage",
+        "title": "Garage Inc.",
         "svg": "metallica_garage-inc.svg"
       }, {
         "title": "St. Anger",
@@ -454,14 +454,14 @@
         "title": "Beyond Magnet Symbol",
         "svg": "metallica_beyond-magnetic.svg"
       }, {
-        "title": "30 years",
+        "title": "Triple X - 30 Years",
         "svg": "metallica_30-years.svg"
       }, {
         "title": "Throught The Never Symbol",
         "svg": "metallica_throught-the-never.svg"
       }, {
-        "title": "dehann",
-        "svg": "dehaan.svg"
+        "title": "Dehann",
+        "svg": "metallica_dehaan.svg"
       }, {
         "title": "Hardwired…To Self-Destruct",
         "svg": "metallica_hardwired-to-self-destruct.svg"
@@ -775,7 +775,7 @@
     "logos": [
       {
         "title": "Massacration",
-        "svg": "massacration.svg"
+        "svg": "massacration_gates-of-metal-fried-chicken-of-death.svg"
       }
     ]
   },  {
@@ -1458,7 +1458,7 @@
         "title": "Hibria",
         "svg": "hibria.svg"
       }, {
-        "title": "Hibria Symbol",
+        "title": "Symbol",
         "cls": "hibria--symbol",
         "svg": "hibria_symbol.svg"
       }
@@ -1556,7 +1556,7 @@
     "link": "megadeth.com",
     "logos": [
       {
-        "title": "Peace Sells... but Who's Buying?",
+        "title": "Peace Sells... But Who's Buying?",
         "svg": "megadeth_peace-sells.svg"
       }, {
         "title": "Rust In Peace Nuclear Symbol",
@@ -1845,7 +1845,7 @@
     "logos": [
       {
         "title": "Autograph",
-        "svg": "james-hetfield.svg"
+        "svg": "james-hetfield_autograph.svg"
       }
     ]
   },  {
@@ -1866,8 +1866,8 @@
     "link": "evhgear.com",
     "logos": [
       {
-        "title": "Logo",
-        "svg": "evh.svg"
+        "title": "EVH",
+        "svg": "eddie-van-halen_evh.svg"
       }
     ]
   },  {
@@ -2173,7 +2173,7 @@
     "logos": [
       {
         "title": "ELP",
-        "svg": "elp-symbol.svg"
+        "svg": "emerson_lake_palmer-elp.svg"
       }
     ]
   },  {

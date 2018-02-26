@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Kiko Loureiro v0.1.1
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 22">
   <rect x="60.918" y="5.01" width="1.851" height="12.4"/>
   <path d="M149.62 10.32l1.05 1.335c1.125-.97 1.562-1.698 1.562-3.223 0-.994-.458-1.893-1.294-2.557-.82-.65-1.92-.865-3.97-.865h-1.695v12.4h1.85v-4.913l.402-.17 3.493 5.084h2.253l-6.147-8.395v-2.26c1.053 0 1.836.027 2.393.263.69.292.904.86.904 1.585 0 .74-.21 1.23-.8 1.716z"/>
