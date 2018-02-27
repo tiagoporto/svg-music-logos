@@ -458,7 +458,7 @@
         "svg": "metallica_30-years.svg"
       }, {
         "title": "Throught The Never Symbol",
-        "svg": "metallica_throught-the-never.svg"
+        "svg": "metallica_m-throught-the-never.svg"
       }, {
         "title": "Dehann",
         "svg": "metallica_dehaan.svg"
@@ -898,14 +898,14 @@
       {
       "title": "Spaces",
       "cls":"mixhell--spaces",
-      "svg": "mixhell.svg"
+      "svg": "mixhell_spaces.svg"
       }, {
-      "title": "Spaces tour'",
+      "title": "Spaces tour",
       "cls":"mixhell--highly-explicit",
-      "svg": "mixhell.svg"
+      "svg": "mixhell_spaces.svg"
       }, {
       "title": "Mixhell",
-      "svg": "mixhell>.svg"
+      "svg": "mixhell_>.svg"
       }, {
       "title": "Elastic Artists",
       "svg": "mixhell_elastic-artists.svg"
