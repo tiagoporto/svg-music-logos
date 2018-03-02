@@ -1009,9 +1009,9 @@
         "cls": "sepultura--arise",
         "svg": "sepultura_beneath-the-remains.svg"
       }, {
-        "title": "Tribal Symbol",
+        "title": "Tribal S",
         "cls": "sepultura--tribal-symbol",
-        "svg": "sepultura_tribal.svg"
+        "svg": "sepultura_tribal-s.svg"
       }, {
         "title": "Chaos Symbol",
         "svg": "sepultura_chaos-symbol.svg"
@@ -1023,17 +1023,17 @@
         "svg": "sepultura_nation.svg"
       }, {
         "title": "Tribal Star",
-        "svg": "sepultura_star.svg"
+        "svg": "sepultura_tribal-star.svg"
       }, {
         "title": "Triangle Symbol",
         "svg": "sepultura_triangle.svg"
       }, {
         "title": "1/4 Of a Century",
         "cls": "sepultura--quarter-of-a-century",
-        "svg": "sepultura_tribal.svg"
+        "svg": "sepultura_tribal-s.svg"
       }, {
-        "title": "Tribal Symbol Dirty",
-        "svg": "sepultura_tribal-symbol-dirty.svg"
+        "title": "Tribal S Dirty",
+        "svg": "sepultura_tribal-s-dirty.svg"
       }, {
         "title": "Coat Of Arms",
         "svg": "sepultura_coat-of-arms.svg"
@@ -2099,8 +2099,8 @@
     "link": "typeonegative.net",
     "logos": [
       {
-        "title": "O- Symbol",
-        "svg": "type-o-negative_symbol.svg"
+        "title": "O-",
+        "svg": "type-o-negative_0-negative.svg"
       }
     ]
   },  {
@@ -2233,7 +2233,7 @@
     "logos": [
       {
         "title": "Logo",
-        "svg": "steve-vai_logo.svg"
+        "svg": "steve-vai_v-a-eye.svg"
       }
     ]
   },  {

@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  The Who v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="the-who">
   <g class="the-who__symbol">
     <circle fill="#FFFFFF" cx="100" cy="100" r="70"/>

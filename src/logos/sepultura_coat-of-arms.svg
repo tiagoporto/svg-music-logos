@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Sepultura - Coat Of Arms v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.878 200" class="sepultura--coat-of-arms">
   <g class="sepultura__coat-of-arms">
     <path class="sepultura__background-shield" d="M5.98 124.07c11.83 30.707 37.962 47.323 56.88 52.27 25.61-5.874 47.06-30.436 57.04-52.3V4.59H5.98V124.07z"/>
