@@ -180,7 +180,7 @@
     "link": "orappa.com.br",
     "logos": [
       {
-        "title": "7 vezes",
+        "title": "7 Vezes",
         "svg": "o-rappa-7-vezes.svg"
       }
     ]
@@ -458,7 +458,7 @@
         "svg": "metallica_30-years.svg"
       }, {
         "title": "Throught The Never Symbol",
-        "svg": "metallica_throught-the-never.svg"
+        "svg": "metallica_m-throught-the-never.svg"
       }, {
         "title": "Dehann",
         "svg": "metallica_dehaan.svg"
@@ -681,11 +681,11 @@
       {
         "title": "Gol De Quem?",
         "cls": "pato-fu--gol-de-quem",
-        "svg": "pato-fu_gol-de-quem.svg"
+        "svg": "pato-fu.svg"
       }, {
         "title": "Televisão de Cachorro",
         "cls": "pato-fu--televisao-de-cachorro",
-        "svg": "pato-fu_gol-de-quem.svg"
+        "svg": "pato-fu.svg"
       }
     ]
   },  {
@@ -898,14 +898,14 @@
       {
       "title": "Spaces",
       "cls":"mixhell--spaces",
-      "svg": "mixhell.svg"
+      "svg": "mixhell_spaces.svg"
       }, {
-      "title": "Spaces tour'",
+      "title": "Spaces tour",
       "cls":"mixhell--highly-explicit",
-      "svg": "mixhell.svg"
+      "svg": "mixhell_spaces.svg"
       }, {
       "title": "Mixhell",
-      "svg": "mixhell>.svg"
+      "svg": "mixhell_>.svg"
       }, {
       "title": "Elastic Artists",
       "svg": "mixhell_elastic-artists.svg"
@@ -1099,7 +1099,7 @@
     "link": "project46.com.br",
     "logos": [
       {
-        "title": "Doa A quem Doer",
+        "title": "Doa a Quem Doer",
         "svg": "project-46_doa-a-quem-doer.svg"
       }
     ]
@@ -2234,6 +2234,28 @@
       {
         "title": "Logo",
         "svg": "steve-vai_logo.svg"
+      }
+    ]
+  },  {
+    "name": "Mastodon",
+    "origin": "USA",
+    "genre": "Progressive Metal",
+    "link": "mastodonrocks.com",
+    "logos": [
+      {
+        "title": "The Hunter",
+        "svg": "mastodon_the-hunter.svg"
+      }
+    ]
+  },  {
+    "name": "Meshuggah",
+    "origin": "Sweden",
+    "genre": "Progressive Metal",
+    "link": "meshuggah.net",
+    "logos": [
+      {
+        "title": "Nothing",
+        "svg": "meshuggah_nothing.svg"
       }
     ]
   }
