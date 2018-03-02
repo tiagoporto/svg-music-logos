@@ -2236,5 +2236,27 @@
         "svg": "steve-vai_logo.svg"
       }
     ]
+  },  {
+    "name": "Mastodon",
+    "origin": "USA",
+    "genre": "Progressive Metal",
+    "link": "mastodonrocks.com",
+    "logos": [
+      {
+        "title": "The Hunter",
+        "svg": "mastodon_the-hunter.svg"
+      }
+    ]
+  },  {
+    "name": "Meshuggah",
+    "origin": "Sweden",
+    "genre": "Progressive Metal",
+    "link": "meshuggah.net",
+    "logos": [
+      {
+        "title": "Nothing",
+        "svg": "meshuggah_nothing.svg"
+      }
+    ]
   }
 ]
