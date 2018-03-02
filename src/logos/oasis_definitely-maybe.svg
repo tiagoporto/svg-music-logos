@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Oasis - Definitely Maybe v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 52 200 97" class="oasis--definitely-maybe">
   <rect class="oasis__background" x="4.2" y="56.3" width="191.2" height="88.3"/>
   <path d="M2 54.1h196v92.7H2V54.1zm4.7 4.7v83.3h186.6V58.8H6.7z"/>

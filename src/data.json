@@ -180,7 +180,7 @@
     "link": "orappa.com.br",
     "logos": [
       {
-        "title": "7 vezes",
+        "title": "7 Vezes",
         "svg": "o-rappa-7-vezes.svg"
       }
     ]
@@ -681,11 +681,11 @@
       {
         "title": "Gol De Quem?",
         "cls": "pato-fu--gol-de-quem",
-        "svg": "pato-fu_gol-de-quem.svg"
+        "svg": "pato-fu.svg"
       }, {
         "title": "Televisão de Cachorro",
         "cls": "pato-fu--televisao-de-cachorro",
-        "svg": "pato-fu_gol-de-quem.svg"
+        "svg": "pato-fu.svg"
       }
     ]
   },  {
@@ -1099,7 +1099,7 @@
     "link": "project46.com.br",
     "logos": [
       {
-        "title": "Doa A quem Doer",
+        "title": "Doa a Quem Doer",
         "svg": "project-46_doa-a-quem-doer.svg"
       }
     ]
