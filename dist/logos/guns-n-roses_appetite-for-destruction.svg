@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Guns N' Roses - Appetite For Destruction v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 43" class="guns-n-roses--appetite-for-destruction">
   <g class="guns-n-roses__shadow">
     <path d="M10.107 23.284v.982c0 .343.014.363.533.363h1.706v11.858c0 1.873-.713 2.81-2.19 2.81-1.387 0-2.056-.937-2.056-2.81V5c0-1.96.735-2.942 2.256-2.942 1.344 0 1.99.98 1.99 2.942v8.202h5.383V2.07s-.827-.836-.827 0v1.938c-1.62-1.763-3.66-2.644-6.084-2.644-5.488 0-8.2 2.292-8.2 6.875v25.45c0 2.335.688 3.987 2.098 4.957 1.19.838 2.996 1.333 5.464 1.333 3.337 0 5.562-.96 6.72-2.725v2.578s.826.83.826 0V22.93H10.64c-.474 0-.533.058-.533.354z"/>

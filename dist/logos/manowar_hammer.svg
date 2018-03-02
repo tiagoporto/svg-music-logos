@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Manowar - Hammer v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <path class="background" fill="#E0E0E0" d="M3.1 100l45-45 6.4-.2-.1-6.1L100 3.1l44.5 44.5-.2 7.7 8.2.3 44.4 44.4-44.6 44.6-8.9.3.1 8.5-43.5 43.5-45.6-45.6.1-6.7-7-.2L3.1 100z" clip-rule="evenodd"/>
   <g class="hammer">

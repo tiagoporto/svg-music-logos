@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Iron Maiden - The Book Of Souls v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 42" class="iron-maiden--the-book-of-souls">
   <g class="iron-maiden__text">
     <path d="M196.595,36.834l-6.671-6.92V21.1l-4.509-4.549v11.994h-6.671V9.198l-4.688-5.262h9.223l6.645,6.927 V3.936h6.671V36.834z M191.122,29.431l4.277,4.436V5.134h-4.277v8.708l-8.353-8.708h-6.041l3.214,3.609v18.605h4.277V13.642 l6.903,6.966V29.431z"/>
