@@ -2280,5 +2280,27 @@
         "svg": "enforcer_evil-attacker.svg"
       }
     ]
+  },  {
+    "name": "Foo Fighters",
+    "origin": "U.S.A.",
+    "genre": "Alternative rock",
+    "link": "foofighters.com",
+    "logos": [
+      {
+        "title": "Echoes, Silence, Patience & Grace",
+        "svg": "foo-fighters_echoes-silence-patience-and-grace.svg"
+      }
+    ]
+  },  {
+    "name": "Ween",
+    "origin": "U.S.A.",
+    "genre": "Alternative rock",
+    "link": "ween.com",
+    "logos": [
+      {
+        "title": "Boognish",
+        "svg": "ween_boognish.svg"
+      }
+    ]
   }
 ]
