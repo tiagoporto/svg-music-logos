@@ -1088,8 +1088,8 @@
     "link": "fnm.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "faith-no-more.svg"
+        "title": "Star of Lakshmi",
+        "svg": "faith-no-more_star-of-lakshmi.svg"
       }
     ]
   },  {
@@ -2282,8 +2282,8 @@
     ]
   },  {
     "name": "Foo Fighters",
-    "origin": "U.S.A.",
-    "genre": "Alternative rock",
+    "origin": "USA",
+    "genre": "Alternative Rock",
     "link": "foofighters.com",
     "logos": [
       {
@@ -2293,8 +2293,8 @@
     ]
   },  {
     "name": "Ween",
-    "origin": "U.S.A.",
-    "genre": "Alternative rock",
+    "origin": "USA",
+    "genre": "Alternative Rock",
     "link": "ween.com",
     "logos": [
       {
