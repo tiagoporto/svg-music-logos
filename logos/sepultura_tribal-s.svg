@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Sepultura - Tribal S v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <g class="sepultura__circles">
     <path d="M98.66 7.727c-51.61 0-93.447 41.838-93.447 93.447S47.05 194.62 98.66 194.62s93.447-41.837 93.447-93.446h-22.492c0 39.188-31.768 70.956-70.956 70.956s-70.957-31.768-70.957-70.956 31.77-70.956 70.957-70.956V7.728z"/>
