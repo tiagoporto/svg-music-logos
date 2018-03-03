@@ -2258,5 +2258,27 @@
         "svg": "meshuggah_nothing.svg"
       }
     ]
+  },  {
+    "name": "The Rolling Stones",
+    "origin": "England",
+    "genre": "Rock",
+    "link": "rollingstones.com",
+    "logos": [
+      {
+        "title": "Flashpoint",
+        "svg": "the-rolling-stones_flashpoint.svg"
+      }
+    ]
+  },  {
+    "name": "Enforcer",
+    "origin": "Sweden",
+    "genre": "Speed Metal",
+    "link": "enforcer.se",
+    "logos": [
+      {
+        "title": "Evil Attacker",
+        "svg": "enforcer_evil-attacker.svg"
+      }
+    ]
   }
 ]
