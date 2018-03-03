@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Raimundos - Roda Viva v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 126">
   <g class="raimundos__symbol">
     <path d="M25.798 100.716H1l5.68 7.1v16.496h7.43v-6.882h1.383l2.986 6.882h7.318l-3.714-8.412 3.714-2.95v-12.234zm-7.32 10.377h-4.44v-3.277h4.44v3.277z"/>

@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Sepultura - Triangle Symbol v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 174" class="sepultura--triangle">
   <g class="sepultura__triangle">
     <polygon class="sepultura__field" points="105.2,11.5 193.2,150.5 183.6,162.2 18.6,162.2 10.5,152.1 95.3,11.5"/>

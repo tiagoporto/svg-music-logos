@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Van Halen - Van Halen II v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 118" class="van-halen--II">
   <g class="van-halen--II__shadow">
     <polygon points="194.468 7.98 185.117 13.612 131.51 13.612 138.521 8.058 194.468 7.98"/>

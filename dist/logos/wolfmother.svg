@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Wolfmother - Wolfmother v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 33">
   <path d="M2.77 2.716l12.562 27.568 2.946-7.093 2.946 7.094 12.56-27.568z"/>
   <path d="M197.23 9.976c0-4-3.27-7.26-7.117-7.26h-8.31v27.567h15.398l-6.28-13.094c3.55-.41 6.31-3.482 6.31-7.214z"/>

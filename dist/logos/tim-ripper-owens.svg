@@ -1,3 +1,9 @@
+<!--
+  SVG Music Logos
+  Tim "Ripper" Owens - Tim Ripper Owens v0.1.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 146" class="tim-ripper-owens">
   <path class="tim-ripper-owens__external-shadow" d="M15.123 142.678L26.965 38.112 1 24.33h71.704v-6.575h-8.148v-15.1h64.642V24.33H199l-26.454 14.393 10.02 103.763-27.713-76.14h-4.035V88.25H47.933V66.346h-3.537l-29.273 76.332z"/>
 

@@ -206,8 +206,8 @@
         "title": "Raimundos",
         "svg": "raimundos.svg"
       }, {
-        "title": "R Symbol",
-        "svg": "raimundos_symbol.svg"
+        "title": "R",
+        "svg": "raimundos_r.svg"
       }, {
         "title": "Roda Viva",
         "svg": "raimundos_roda-viva.svg"
@@ -1009,9 +1009,9 @@
         "cls": "sepultura--arise",
         "svg": "sepultura_beneath-the-remains.svg"
       }, {
-        "title": "Tribal Symbol",
+        "title": "Tribal S",
         "cls": "sepultura--tribal-symbol",
-        "svg": "sepultura_tribal.svg"
+        "svg": "sepultura_tribal-s.svg"
       }, {
         "title": "Chaos Symbol",
         "svg": "sepultura_chaos-symbol.svg"
@@ -1023,17 +1023,17 @@
         "svg": "sepultura_nation.svg"
       }, {
         "title": "Tribal Star",
-        "svg": "sepultura_star.svg"
+        "svg": "sepultura_tribal-star.svg"
       }, {
         "title": "Triangle Symbol",
         "svg": "sepultura_triangle.svg"
       }, {
         "title": "1/4 Of a Century",
         "cls": "sepultura--quarter-of-a-century",
-        "svg": "sepultura_tribal.svg"
+        "svg": "sepultura_tribal-s.svg"
       }, {
-        "title": "Tribal Symbol Dirty",
-        "svg": "sepultura_tribal-symbol-dirty.svg"
+        "title": "Tribal S Dirty",
+        "svg": "sepultura_tribal-s-dirty.svg"
       }, {
         "title": "Coat Of Arms",
         "svg": "sepultura_coat-of-arms.svg"
@@ -1088,8 +1088,8 @@
     "link": "fnm.com",
     "logos": [
       {
-        "title": "Official",
-        "svg": "faith-no-more.svg"
+        "title": "Star of Lakshmi",
+        "svg": "faith-no-more_star-of-lakshmi.svg"
       }
     ]
   },  {
@@ -2099,8 +2099,8 @@
     "link": "typeonegative.net",
     "logos": [
       {
-        "title": "O- Symbol",
-        "svg": "type-o-negative_symbol.svg"
+        "title": "O-",
+        "svg": "type-o-negative_0-negative.svg"
       }
     ]
   },  {
@@ -2233,7 +2233,7 @@
     "logos": [
       {
         "title": "Logo",
-        "svg": "steve-vai_logo.svg"
+        "svg": "steve-vai_v-a-eye.svg"
       }
     ]
   },  {
@@ -2256,6 +2256,50 @@
       {
         "title": "Nothing",
         "svg": "meshuggah_nothing.svg"
+      }
+    ]
+  },  {
+    "name": "The Rolling Stones",
+    "origin": "England",
+    "genre": "Rock",
+    "link": "rollingstones.com",
+    "logos": [
+      {
+        "title": "Flashpoint",
+        "svg": "the-rolling-stones_flashpoint.svg"
+      }
+    ]
+  },  {
+    "name": "Enforcer",
+    "origin": "Sweden",
+    "genre": "Speed Metal",
+    "link": "enforcer.se",
+    "logos": [
+      {
+        "title": "Evil Attacker",
+        "svg": "enforcer_evil-attacker.svg"
+      }
+    ]
+  },  {
+    "name": "Foo Fighters",
+    "origin": "USA",
+    "genre": "Alternative Rock",
+    "link": "foofighters.com",
+    "logos": [
+      {
+        "title": "Echoes, Silence, Patience & Grace",
+        "svg": "foo-fighters_echoes-silence-patience-and-grace.svg"
+      }
+    ]
+  },  {
+    "name": "Ween",
+    "origin": "USA",
+    "genre": "Alternative Rock",
+    "link": "ween.com",
+    "logos": [
+      {
+        "title": "Boognish",
+        "svg": "ween_boognish.svg"
       }
     ]
   }
