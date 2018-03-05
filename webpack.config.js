@@ -41,7 +41,7 @@ const webpackConfig = {
         }
       }, {
         test: /\.vue$/,
-        exclude: /(node_modules)/,
+        // exclude: /(node_modules)/,
         use: {
           loader: 'vue-loader',
           options: {
@@ -81,6 +81,7 @@ const webpackConfig = {
     ]
   },
   resolve: {
+    extensions: ['*', '.js', '.vue', '.json'],
     alias: {
       vue: 'vue/dist/vue.common.js'
     }

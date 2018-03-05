@@ -1,10 +1,12 @@
 import './styles/index.js'
 import App from './App.vue'
+import FlagIcon from 'vue-flag-icon'
 import Vue from 'vue'
 import VueAnalytics from 'vue-analytics'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
+Vue.use(FlagIcon)
 
 const router = new VueRouter({
   routes: [

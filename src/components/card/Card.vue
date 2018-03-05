@@ -9,7 +9,7 @@
 
       <p v-if="band.genre">Genre: {{band.genre}}</p>
 
-      <p>Origin: {{band.origin}}</p>
+      <p>Origin: <flag :iso="getFlagIso(band.origin)" v-bind:squared="false" /> {{band.origin}}</p>
 
       <p>Reference: {{band.logo.title}}</p>
     </div>
@@ -22,6 +22,7 @@
 
 <script>
 import './Card.styl'
+import FlagIso from './FlagIso.json'
 import {deburr, kebabCase, split} from 'lodash'
 import FileSaver from 'file-saver'
 import Logo from './Logo.vue'
@@ -79,6 +80,9 @@ export default {
       } else {
         save(svg)
       }
+    },
+    getFlagIso (country) {
+      return FlagIso[country]
     }
   }
 }
