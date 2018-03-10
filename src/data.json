@@ -2059,6 +2059,9 @@
         "title": "#GnFnR",
         "svg": "guns-n-roses_g-f-r.svg"
       }, {
+        "title": "Troubador",
+        "svg": "guns-n-roses_troubador.svg"
+      }, {
         "title": "Live Era",
         "svg": "guns-n-roses_live-era.svg"
       }
@@ -2328,6 +2331,17 @@
       {
         "title": "Demonocídio",
         "svg": "antidemon_demonocideo.svg"
+      }
+    ]
+  },  {
+    "name": "Genesis",
+    "origin": "England",
+    "genre": "Progressive Rock",
+    "link": "genesis-music.com",
+    "logos": [
+      {
+        "title": "We Can't Dance",
+        "svg": "genesis_we-cant-dance.svg"
       }
     ]
   }
