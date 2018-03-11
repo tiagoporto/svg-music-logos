@@ -26,6 +26,7 @@
     .st20{fill:url(#SVGID_21_);}
     .st24{fill:url(#SVGID_25_);}
   </style>
+
   <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="53.075" y1="45.511" x2="146.781" y2="45.511">
     <stop offset="0" stop-color="#F1DE3F"/>
     <stop offset=".1" stop-color="#AC611E"/>
