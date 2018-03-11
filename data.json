@@ -2053,6 +2053,15 @@
         "title": "Appetite For Destruction",
         "svg": "guns-n-roses_appetite-for-destruction.svg"
       }, {
+        "title": "Gn'F'nR's!",
+        "svg": "guns-n-roses_g-n-f-r.svg"
+      }, {
+        "title": "#GnFnR",
+        "svg": "guns-n-roses_g-f-r.svg"
+      }, {
+        "title": "Troubador",
+        "svg": "guns-n-roses_troubador.svg"
+      }, {
         "title": "Live Era",
         "svg": "guns-n-roses_live-era.svg"
       }
@@ -2300,6 +2309,39 @@
       {
         "title": "Boognish",
         "svg": "ween_boognish.svg"
+      }
+    ]
+  },  {
+    "name": "Grand Funk Railroad",
+    "origin": "USA",
+    "genre": "Hard Rock",
+    "link": "grandfunkrailroad.com",
+    "logos": [
+      {
+        "title": "Pointing Finger",
+        "svg": "grand-funk-railroad_pointing-finger.svg"
+      }
+    ]
+  },  {
+    "name": "Antidemon",
+    "origin": "Brazil",
+    "genre": "Grindcore",
+    "link": "facebook.com/ANTIDEMON.OFFICIAL",
+    "logos": [
+      {
+        "title": "Demonocídio",
+        "svg": "antidemon_demonocideo.svg"
+      }
+    ]
+  },  {
+    "name": "Genesis",
+    "origin": "England",
+    "genre": "Progressive Rock",
+    "link": "genesis-music.com",
+    "logos": [
+      {
+        "title": "We Can't Dance",
+        "svg": "genesis_we-cant-dance.svg"
       }
     ]
   }
