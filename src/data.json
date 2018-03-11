@@ -12,11 +12,13 @@
       }, {
         "title": "Iron Maiden",
         "svg": "iron-maiden.svg",
-        "cls": "iron-maiden--classical"
+        "cls": "iron-maiden--classical",
+        "inverse": true
       }, {
         "title": "Powerslave",
         "svg": "iron-maiden.svg",
-        "cls": "iron-maiden--powerslave"
+        "cls": "iron-maiden--powerslave",
+        "inverse": true
       }, {
         "title": "Somewhere In Time",
         "svg": "iron-maiden.svg",
@@ -28,7 +30,8 @@
       }, {
         "title": "A Real Live One",
         "svg": "iron-maiden.svg",
-        "cls": "iron-maiden--a-real-live-one"
+        "cls": "iron-maiden--a-real-live-one",
+        "inverse": true
       }, {
         "title": "A Real Dead One",
         "svg": "iron-maiden.svg",
@@ -68,13 +71,15 @@
         "svg": "iron-maiden_the-book-of-souls.svg"
       }, {
         "title": "Eddie - The Book Of Souls",
-        "svg": "iron-maiden_eddie-the-book-of-souls.svg"
+        "svg": "iron-maiden_eddie-the-book-of-souls.svg",
+        "inverse": true
       }, {
         "title": "Legacy Of The Beast - Loading",
         "svg": "iron-maiden_legacy-of-the-beast-loading.svg"
       }, {
         "title": "Legacy Of The Beast - 666 Flag",
-        "svg": "iron-maiden_666-flag.svg"
+        "svg": "iron-maiden_666-flag.svg",
+        "inverse": true
       }
     ]
   }, {
@@ -192,7 +197,8 @@
     "logos": [
       {
         "title": "A Arte do Insulto",
-        "svg": "matanza_a-arte-do-insulto.svg"
+        "svg": "matanza_a-arte-do-insulto.svg",
+        "inverse": true
       }
     ]
   },  {
@@ -750,7 +756,8 @@
     "logos": [
       {
         "title": "Franz Ferdinand",
-        "svg": "franz-ferdinand.svg"
+        "svg": "franz-ferdinand.svg",
+        "inverse": true
       }
     ]
   },  {
@@ -787,7 +794,8 @@
     "logos": [
       {
         "title": "Século XX",
-        "svg": "overdose_seculo-xx.svg"
+        "svg": "overdose_seculo-xx.svg",
+        "inverse": true
       }, {
         "title": "Conscience",
         "svg": "overdose_conscience.svg"
@@ -902,7 +910,8 @@
       }, {
       "title": "Spaces tour",
       "cls":"mixhell--highly-explicit",
-      "svg": "mixhell_spaces.svg"
+      "svg": "mixhell_spaces.svg",
+      "inverse": true
       }, {
       "title": "Mixhell",
       "svg": "mixhell_>.svg"
@@ -1563,7 +1572,8 @@
         "svg": "megadeth_rust-in-peace-nuclear-symbol.svg"
       }, {
         "title": "Nuclear Symbol",
-        "svg": "megadeth_nuclear-symbol.svg"
+        "svg": "megadeth_nuclear-symbol.svg",
+        "inverse": true
       }, {
         "title": "Cryptic Writing Symbol",
         "svg": "megadeth_cryptic-writing-symbol.svg"
@@ -2059,8 +2069,13 @@
         "title": "#GnFnR",
         "svg": "guns-n-roses_g-f-r.svg"
       }, {
+        "title": "neon",
+        "svg": "guns-n-roses_neon.svg",
+        "inverse": true
+      }, {
         "title": "Troubador",
-        "svg": "guns-n-roses_troubador.svg"
+        "svg": "guns-n-roses_troubador.svg",
+        "inverse": true
       }, {
         "title": "Live Era",
         "svg": "guns-n-roses_live-era.svg"
@@ -2086,7 +2101,8 @@
     "logos": [
       {
         "title": "The Dark",
-        "svg": "metal-church_the-dark.svg"
+        "svg": "metal-church_the-dark.svg",
+        "inverse": true
       }
     ]
   },  {
@@ -2194,7 +2210,8 @@
     "logos": [
       {
         "title": "Logo",
-        "svg": "bartucada.svg"
+        "svg": "bartucada.svg",
+        "inverse": true
       }
     ]
   },  {
@@ -2286,7 +2303,8 @@
     "logos": [
       {
         "title": "Evil Attacker",
-        "svg": "enforcer_evil-attacker.svg"
+        "svg": "enforcer_evil-attacker.svg",
+        "inverse": true
       }
     ]
   },  {

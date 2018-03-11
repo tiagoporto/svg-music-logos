@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card" v-bind:class="{'card--inverse': band.logo.inverse}">
     <logo :band='band'></logo>
 
     <div class="card__content">
@@ -22,9 +22,9 @@
 
 <script>
 import './Card.styl'
-import FlagIso from './FlagIso.json'
 import {deburr, kebabCase, split} from 'lodash'
 import FileSaver from 'file-saver'
+import FlagIso from './FlagIso.json'
 import Logo from './Logo.vue'
 
 export default {
