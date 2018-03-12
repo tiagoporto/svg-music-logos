@@ -782,7 +782,8 @@
     "logos": [
       {
         "title": "Massacration",
-        "svg": "massacration_gates-of-metal-fried-chicken-of-death.svg"
+        "svg": "massacration_gates-of-metal-fried-chicken-of-death.svg",
+        "inverse": true
       }
     ]
   },  {
@@ -1511,7 +1512,8 @@
         "svg": "sextrash_xxx.svg"
       }, {
         "title": "Rape from Hell",
-        "svg": "sextrash_rape-from-hell.svg"
+        "svg": "sextrash_rape-from-hell.svg",
+        "inverse": true
       }
     ]
   },  {
@@ -2073,8 +2075,8 @@
         "svg": "guns-n-roses_neon.svg",
         "inverse": true
       }, {
-        "title": "Troubador",
-        "svg": "guns-n-roses_troubador.svg",
+        "title": "Troubadour",
+        "svg": "guns-n-roses_troubadour.svg",
         "inverse": true
       }, {
         "title": "Live Era",
