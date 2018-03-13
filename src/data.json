@@ -67,6 +67,18 @@
         "title": "Eddie - The Final Frontier",
         "svg": "iron-maiden_eddie-the-final-frontier.svg"
       }, {
+        "title": "Trooper",
+        "svg": "iron-maiden_trooper.svg",
+        "inverse": true
+      }, {
+        "title": "Trooper NEW Label",
+        "cls": "trooper--new",
+        "svg": "iron-maiden_trooper.svg"
+      }, {
+        "title": "Trooper Red ‘N’ Black",
+        "cls": "trooper--red-n-black",
+        "svg": "iron-maiden_trooper.svg"
+      }, {
         "title": "The Book Of Souls",
         "svg": "iron-maiden_the-book-of-souls.svg"
       }, {
