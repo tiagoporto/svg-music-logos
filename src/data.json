@@ -2376,5 +2376,27 @@
         "svg": "genesis_we-cant-dance.svg"
       }
     ]
+  },  {
+    "name": "Tools",
+    "origin": "USA",
+    "genre": "Alternative Metal",
+    "link": "toolband.com",
+    "logos": [
+      {
+        "title": "Sober",
+        "svg": "tool_sober.svg"
+      }
+    ]
+  },  {
+    "name": "Tash Sultana",
+    "origin": "Australia",
+    "genre": "  Psychedelic Rock",
+    "link": "tashsultana.com",
+    "logos": [
+      {
+        "title": "Notion EP",
+        "svg": "tash-sultana_notion-ep.svg"
+      }
+    ]
   }
 ]
