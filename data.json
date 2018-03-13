@@ -67,6 +67,18 @@
         "title": "Eddie - The Final Frontier",
         "svg": "iron-maiden_eddie-the-final-frontier.svg"
       }, {
+        "title": "Trooper",
+        "svg": "iron-maiden_trooper.svg",
+        "inverse": true
+      }, {
+        "title": "Trooper NEW Label",
+        "cls": "trooper--new",
+        "svg": "iron-maiden_trooper.svg"
+      }, {
+        "title": "Trooper Red ‘N’ Black",
+        "cls": "trooper--red-n-black",
+        "svg": "iron-maiden_trooper.svg"
+      }, {
         "title": "The Book Of Souls",
         "svg": "iron-maiden_the-book-of-souls.svg"
       }, {
@@ -782,7 +794,8 @@
     "logos": [
       {
         "title": "Massacration",
-        "svg": "massacration_gates-of-metal-fried-chicken-of-death.svg"
+        "svg": "massacration_gates-of-metal-fried-chicken-of-death.svg",
+        "inverse": true
       }
     ]
   },  {
@@ -1511,7 +1524,8 @@
         "svg": "sextrash_xxx.svg"
       }, {
         "title": "Rape from Hell",
-        "svg": "sextrash_rape-from-hell.svg"
+        "svg": "sextrash_rape-from-hell.svg",
+        "inverse": true
       }
     ]
   },  {
@@ -2073,8 +2087,8 @@
         "svg": "guns-n-roses_neon.svg",
         "inverse": true
       }, {
-        "title": "Troubador",
-        "svg": "guns-n-roses_troubador.svg",
+        "title": "Troubadour",
+        "svg": "guns-n-roses_troubadour.svg",
         "inverse": true
       }, {
         "title": "Live Era",
@@ -2360,6 +2374,28 @@
       {
         "title": "We Can't Dance",
         "svg": "genesis_we-cant-dance.svg"
+      }
+    ]
+  },  {
+    "name": "Tools",
+    "origin": "USA",
+    "genre": "Alternative Metal",
+    "link": "toolband.com",
+    "logos": [
+      {
+        "title": "Sober",
+        "svg": "tool_sober.svg"
+      }
+    ]
+  },  {
+    "name": "Tash Sultana",
+    "origin": "Australia",
+    "genre": "Psychedelic Rock",
+    "link": "tashsultana.com",
+    "logos": [
+      {
+        "title": "Notion EP",
+        "svg": "tash-sultana_notion-ep.svg"
       }
     ]
   }

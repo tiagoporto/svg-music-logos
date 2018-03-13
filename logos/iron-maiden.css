@@ -96,6 +96,30 @@
 	fill: #fff;
 }
 
+.trooper__lettering {
+	fill: #f00;
+}
+
+.trooper__inner-shadow {
+	fill: #fff;
+}
+
+.trooper__outer-shadow {
+	opacity: 0;
+}
+
+.trooper--new .trooper__outer-shadow {
+	opacity: 1;
+}
+
+.trooper--red-n-black .trooper__inner-shadow {
+	fill: #000;
+}
+
+.trooper--red-n-black .trooper__outer-shadow {
+	opacity: 0;
+}
+
 @-webkit-keyframes iron-maiden-rotate {
 
 from {
