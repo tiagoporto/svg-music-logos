@@ -2398,5 +2398,18 @@
         "svg": "tash-sultana_notion-ep.svg"
       }
     ]
+  },  {
+    "name": "Airbourne",
+    "css": "airbourne.css",
+    "origin": "Australia",
+    "genre": "Hard Rock",
+    "link": "airbournerock.com",
+    "logos": [
+      {
+        "title": "Runnin' Wild",
+        "svg": "airbourne_runnin-wild.svg",
+        "inverse": true
+      }
+    ]
   }
 ]
