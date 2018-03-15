@@ -67,15 +67,15 @@
         "title": "Eddie - The Final Frontier",
         "svg": "iron-maiden_eddie-the-final-frontier.svg"
       }, {
-        "title": "Trooper",
+        "title": "Beer Trooper",
         "svg": "iron-maiden_trooper.svg",
         "inverse": true
       }, {
-        "title": "Trooper NEW Label",
+        "title": "Beer Trooper NEW Label",
         "cls": "trooper--new",
         "svg": "iron-maiden_trooper.svg"
       }, {
-        "title": "Trooper Red ‘N’ Black",
+        "title": "Beer Trooper Red ‘N’ Black",
         "cls": "trooper--red-n-black",
         "svg": "iron-maiden_trooper.svg"
       }, {
@@ -1383,6 +1383,9 @@
       {
         "title": "Pentagram",
         "svg": "anthrax_pentagram.svg"
+      }, {
+        "title": "Sound of White Noise",
+        "svg": "anthrax_sound-of-white-noise.svg"
       }
     ]
   },  {
@@ -2396,6 +2399,19 @@
       {
         "title": "Notion EP",
         "svg": "tash-sultana_notion-ep.svg"
+      }
+    ]
+  },  {
+    "name": "Airbourne",
+    "css": "airbourne.css",
+    "origin": "Australia",
+    "genre": "Hard Rock",
+    "link": "airbournerock.com",
+    "logos": [
+      {
+        "title": "Runnin' Wild",
+        "svg": "airbourne_runnin-wild.svg",
+        "inverse": true
       }
     ]
   }
