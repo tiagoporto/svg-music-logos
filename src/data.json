@@ -125,7 +125,7 @@
     "name": "John Petrucci",
     "origin": "USA",
     "genre": "Progressive Metal",
-    "link": "http://johnpetrucci.co",
+    "link": "http://johnpetrucci.com",
     "logos": [
       {
         "title": "JP",
@@ -136,7 +136,7 @@
     "name": "Aerosmith",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "aerosmith.com",
+    "link": "http://www.aerosmith.com",
     "logos": [
       {
         "title": "Rockin' the Joint",
@@ -147,7 +147,7 @@
     "name": "Marcelo D2",
     "origin": "Brazil",
     "genre": "Samba Rap",
-    "link": "marcelod2.com.br",
+    "link": "http://marcelod2.com.br",
     "logos": [
       {
         "title": "A Procura da Batida Perfeita",
@@ -158,7 +158,7 @@
     "name": "Arch Enemy",
     "origin": "Sweden",
     "genre": "Melodic Death Metal",
-    "link": "archenemy.net",
+    "link": "http://archenemy.net",
     "logos": [
       {
         "title": "Stigmata",
@@ -172,7 +172,7 @@
     "name": "Nervosa",
     "origin": "Brazil",
     "genre": "Death Metal",
-    "link": "nervosaofficial.com",
+    "link": "http://nervosaofficial.com",
     "logos": [
       {
         "title": "Nervosa",
@@ -183,7 +183,7 @@
     "name": "Jimmy Page and The Black Crowes",
     "origin": "England",
     "genre": "Rock",
-    "link": "blackcrowes.com",
+    "link": "http://www.blackcrowes.com",
     "logos": [
       {
         "title": "Jimmy Page and The Black Crowes",
@@ -194,7 +194,7 @@
     "name": "Concreto",
     "origin": "Brazil",
     "genre": "Hard Rock",
-    "link": "bandaconcreto.com.br",
+    "link": "http://www.bandaconcreto.com.br",
     "logos": [
       {
         "title": "Quanto Cu$ta a vida",
@@ -208,7 +208,7 @@
     "name": "Angra",
     "origin": "Brazil",
     "genre": "Power Metal",
-    "link": "angra.net",
+    "link": "http://angra.net",
     "logos": [
       {
         "title": "Angel's Cry",
@@ -219,7 +219,7 @@
     "name": "O Rappa",
     "origin": "Brazil",
     "genre": "Alternative Rock",
-    "link": "orappa.com.br",
+    "link": "http://www.orappa.com.br",
     "logos": [
       {
         "title": "7 Vezes",
@@ -230,7 +230,7 @@
     "name": "Matanza",
     "origin": "Brazil",
     "genre": "Hardcore Punk",
-    "link": "matanza.com.br",
+    "link": "http://matanza.com.br",
     "logos": [
       {
         "title": "A Arte do Insulto",
@@ -243,7 +243,7 @@
     "css": "raimundos.css",
     "origin": "Brazil",
     "genre": "Alternative Metal",
-    "link": "raimundos.com.br",
+    "link": "http://www.raimundos.com.br",
     "logos": [
       {
         "title": "Raimundos",
@@ -260,7 +260,7 @@
     "name": "Weezer",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "weezer.com",
+    "link": "https://weezer.com",
     "logos": [
       {
         "title": "Weezer",
@@ -274,7 +274,7 @@
     "name": "Gorillaz",
     "origin": "England",
     "genre": "Alternative Rock",
-    "link": "gorillaz.com",
+    "link": "http://www.gorillaz.com",
     "logos": [
       {
         "title": "Gorillaz",
@@ -285,7 +285,7 @@
     "name": "David Gilmour",
     "origin": "England",
     "genre": "Progressive Rock",
-    "link": "davidgilmour.com",
+    "link": "http://davidgilmour.com",
     "logos": [
       {
         "title": "On an Island",
@@ -296,7 +296,7 @@
     "name": "Roger Waters",
     "origin": "England",
     "genre": "Progressive Rock",
-    "link": "rogerwaters.com",
+    "link": "http://rogerwaters.com",
     "logos": [
       {
         "title": "The Wall Live",
@@ -311,7 +311,7 @@
     "css": "chickenfoot.css",
     "origin": "Mexico",
     "genre": "Hard Rock",
-    "link": "chickenfoot.us",
+    "link": "http://www.chickenfoot.us",
     "logos": [
       {
         "title": "Chickenfoot",
@@ -330,7 +330,7 @@
     "name": "Savatage",
     "origin": "USA",
     "genre": "Heavy Metal",
-    "link": "savatage.com",
+    "link": "http://savatage.com",
     "logos": [
       {
         "title": "Power of the Night",
@@ -342,7 +342,7 @@
     "css": "kreator.css",
     "origin": "Germany",
     "genre": "Thrash Metal",
-    "link": "kreator-terrorzone.de",
+    "link": "http://kreator-terrorzone.de",
     "logos": [
       {
         "title": "Flag of Hate",
@@ -357,7 +357,7 @@
     "css": "bad-religion.css",
     "origin": "USA",
     "genre": "Punk Rock",
-    "link": "badreligion.com",
+    "link": "http://www.badreligion.com",
     "logos": [
       {
         "title": "Bad Religion",
@@ -371,7 +371,7 @@
     "name": "Rainbow",
     "origin": "England",
     "genre": "Heavy Metal",
-    "link": "facebook.com/Rainbow-189246591087656",
+    "link": "https://www.facebook.com/Rainbow-189246591087656",
     "logos": [
       {
         "title": "Rising",
@@ -382,7 +382,7 @@
     "name": "Amon Amarth",
     "origin": "Sweden",
     "genre": "Melodic Death Metal",
-    "link": "amonamarth.com",
+    "link": "https://www.amonamarth.com",
     "logos": [
       {
         "title": "Sorrow Throughout the Nine Worlds",
@@ -393,7 +393,7 @@
     "name": "Anti-Flag",
     "origin": "USA",
     "genre": "Punk Rock",
-    "link": "anti-flag.com",
+    "link": "http://anti-flag.com",
     "logos": [
       {
         "title": "The People or the Gun",
@@ -404,7 +404,7 @@
     "name": "Björk",
     "origin": "Iceland",
     "genre": "Art Pop",
-    "link": "bjork.com",
+    "link": "https://bjork.com",
     "logos": [
       {
         "title": "Family Tree",
@@ -415,7 +415,7 @@
     "name": "Alice Cooper",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "alicecooper.com",
+    "link": "http://www.alicecooper.com",
     "logos": [
       {
         "title": "Constrictor",
@@ -432,7 +432,7 @@
     "name": "Blur",
     "origin": "England",
     "genre": "Alternative Rock",
-    "link": "blur.co.uk",
+    "link": "http://www.blur.co.uk",
     "logos": [
       {
         "title": "Leisure",
@@ -443,7 +443,7 @@
     "name": "Arctic Monkeys",
     "origin": "England",
     "genre": "Indie Rock",
-    "link": "arcticmonkeys.com",
+    "link": "http://arcticmonkeys.com",
     "logos": [
       {
         "title": "AM",
@@ -455,7 +455,7 @@
     "origin": "Brazil",
     "genre": "Heavy Metal",
     "css": "felipe-andreoli.css",
-    "link": "felipeandreoli.com",
+    "link": "http://felipeandreoli.com",
     "logos": [
       {
         "title": "FA",
@@ -467,7 +467,7 @@
     "css": "metallica.css",
     "origin": "USA",
     "genre": "Thrash Metal",
-    "link": "metallica.com",
+    "link": "https://www.metallica.com",
     "logos": [
       {
         "title": "The Snake",
@@ -515,7 +515,7 @@
     "css": "acdc.css",
     "origin": "Australia",
     "genre": "Hard Rock",
-    "link": "acdc.com",
+    "link": "http://www.acdc.com",
     "logos": [
       {
         "title": "Let There Be Rock",
@@ -538,7 +538,7 @@
     "css": "zz-top.css",
     "origin": "USA",
     "genre": "Blues Rock",
-    "link": "zztop.com",
+    "link": "http://www.zztop.com",
     "logos": [
       {
         "title": "Eliminator",
@@ -550,7 +550,7 @@
     "css": "tim-ripper-owens.css",
     "origin": "USA",
     "genre": "Heavy Metal",
-    "link": "timripperowens.com",
+    "link": "http://timripperowens.com",
     "logos": [
       {
         "title": "Tim Ripper Owens",
@@ -562,7 +562,7 @@
     "css": "slash.css",
     "origin": "England",
     "genre": "Hard Rock",
-    "link": "slashonline.com",
+    "link": "http://www.slashonline.com",
     "logos": [
       {
         "title": "South Park",
