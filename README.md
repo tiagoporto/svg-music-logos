@@ -1,4 +1,8 @@
-[![Travis](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square)](https://github.com/tiagoporto/svg-music-logos)
+[![Travis](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square)](https://travis-ci.org/tiagoporto/svg-music-logos)
+
+[![David](https://img.shields.io/david/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos)
+[![David](https://img.shields.io/david/dev/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos?type=dev)
+
 
 # SVG Music Logos
 
