@@ -98,7 +98,7 @@
     "name": "Iron Maiden - Derek Riggs",
     "origin": "England",
     "css": "derek-riggs.styl",
-    "link": "derekriggs.com",
+    "link": "http://derekriggs.com",
     "logos": [
       {
         "title": "Derek Riggs Signature",
@@ -114,7 +114,7 @@
     "name": "Aphex Twin",
     "origin": "England",
     "genre": "Electronic",
-    "link": "warp.net/aphex-twin",
+    "link": "http://warp.net/artists/aphex-twin",
     "logos": [
       {
         "title": "Selected Ambient Works 85–92",
@@ -125,7 +125,7 @@
     "name": "John Petrucci",
     "origin": "USA",
     "genre": "Progressive Metal",
-    "link": "johnpetrucci.com",
+    "link": "http://johnpetrucci.co",
     "logos": [
       {
         "title": "JP",
