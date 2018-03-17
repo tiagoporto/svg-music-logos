@@ -976,7 +976,7 @@
     "name": "Wolfmother",
     "origin": "Australia",
     "genre": "Hard Rock",
-    "link": "wolfmother.com",
+    "link": "http://www.wolfmother.com",
     "logos": [
       {
         "title": "Wolfmother",
@@ -988,7 +988,7 @@
     "css": "mamonas-assassinas.css",
     "origin": "Brazil",
     "genre": "Comedy Rock",
-    "link": "en.wikipedia.org/wiki/Mamonas_Assassinas",
+    "link": "https://en.wikipedia.org/wiki/Mamonas_Assassinas",
     "logos": [
       {
         "title": "Mamonas Assassinas",
@@ -1005,7 +1005,7 @@
     "name": "Coldplay",
     "origin": "England",
     "genre": "Alternative Rock",
-    "link": "coldplay.com",
+    "link": "http://coldplay.com",
     "logos": [
       {
         "title": "Parachutes",
@@ -1016,7 +1016,7 @@
     "name": "Pantera",
     "origin": "USA",
     "genre": "Groove Metal",
-    "link": "pantera.com",
+    "link": "http://pantera.com",
     "logos": [
       {
         "title": "Far Beyond Driven",
@@ -1030,7 +1030,7 @@
     "name": "Daft Punk",
     "origin": "France",
     "genre": "Eletronic",
-    "link": "daftpunk.com",
+    "link": "https://daftpunk.com",
     "logos": [
       {
         "title": "Homework",
@@ -1042,7 +1042,7 @@
     "css": "sepultura.css",
     "origin": "Brazil",
     "genre": "Groove Metal",
-    "link": "sepultura.com",
+    "link": "https://sepultura.com",
     "logos": [
       {
         "title": "Morbid Visions",
@@ -1094,7 +1094,7 @@
     "name": "Black Sabbath",
     "origin": "England",
     "genre": "Heavy Metal",
-    "link": "blacksabbath.com",
+    "link": "http://www.blacksabbath.com",
     "logos": [
       {
         "title": "Henry",
@@ -1115,7 +1115,7 @@
     "css": "kiss.css",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "kissonline.com",
+    "link": "http://www.kissonline.com",
     "logos": [
       {
         "title": "Kiss",
@@ -1132,7 +1132,7 @@
     "name": "Faith No More",
     "origin": "USA",
     "genre": "Alternative Metal",
-    "link": "fnm.com",
+    "link": "http://www.fnm.com",
     "logos": [
       {
         "title": "Star of Lakshmi",
@@ -1143,7 +1143,7 @@
     "name": "Project 46",
     "origin": "Brazil",
     "genre": "Metalcore",
-    "link": "project46.com.br",
+    "link": "http://project46.com.br",
     "logos": [
       {
         "title": "Doa a Quem Doer",
@@ -1155,7 +1155,7 @@
     "css": "detonator.css",
     "origin": "Brazil",
     "genre": "Heavy Metal",
-    "link": "detonator.com.br",
+    "link": "http://detonator.com.br",
     "logos": [
       {
         "title": "Metal 5 Estrelas",
@@ -1166,7 +1166,7 @@
     "name": "Bruce Dickinson",
     "origin": "England",
     "genre": "Heavy Metal",
-    "link": "screamforme.com",
+    "link": "http://screamforme.com",
     "logos": [
       {
         "title": "The Best of Bruce Dickinson",
@@ -1178,7 +1178,7 @@
     "css": "nirvana.css",
     "origin": "USA",
     "genre": "Grunge",
-    "link": "nirvana.com",
+    "link": "http://www.nirvana.com",
     "logos": [
       {
         "title": "Bleach",
@@ -1196,7 +1196,7 @@
     "name": "Manowar",
     "origin": "USA",
     "genre": "Heavy Metal",
-    "link": "manowar.com",
+    "link": "http://manowar.com",
     "logos": [
       {
         "title": "Battle Hymns",
@@ -1213,7 +1213,7 @@
     "name": "Queen",
     "origin": "England",
     "genre": "Rock",
-    "link": "queenonline.com",
+    "link": "http://queenonline.com",
     "logos": [
       {
         "title": "Greatest Hits II",
@@ -1224,7 +1224,7 @@
     "name": "Viper",
     "origin": "Brazil",
     "genre": "Heavy Metal",
-    "link": "viperbrazil.com.br",
+    "link": "https://www.facebook.com/viperbrazil",
     "logos": [
       {
         "title": "Projeto SP Metal",
@@ -1235,7 +1235,7 @@
     "name": "Queensrÿche",
     "origin": "USA",
     "genre": "Heavy Metal",
-    "link": "queensrycheofficial.com",
+    "link": "http://www.queensrycheofficial.com",
     "logos": [
       {
         "title": "Tri-Ryche",
@@ -1246,7 +1246,7 @@
     "name": "Blind Guardian",
     "origin": "Germany",
     "genre": "Power Metal",
-    "link": "blind-guardian.com",
+    "link": "http://www.blind-guardian.com",
     "logos": [
       {
         "title": "Battalions of Fear",
@@ -1257,7 +1257,7 @@
     "name": "Blink-182",
     "origin": "USA",
     "genre": "Pop Punk",
-    "link": "blink182.com",
+    "link": "https://www.blink182.com",
     "logos": [
       {
         "title": "The Mark, Tom and Travis Show",
@@ -1271,7 +1271,7 @@
     "name": "Johnny Cash",
     "origin": "USA",
     "genre": "Country",
-    "link": "johnnycash.com",
+    "link": "http://www.johnnycash.com",
     "logos": [
       {
         "title": "American Recordings",
@@ -1282,7 +1282,7 @@
     "name": "Sex Pistols",
     "origin": "England",
     "genre": "Punk Rock",
-    "link": "sexpistolsofficial.com",
+    "link": "http://www.sexpistolsofficial.com",
     "logos": [
       {
         "title": "Official",
@@ -1293,7 +1293,7 @@
     "name": "Ghost",
     "origin": "Sweden",
     "genre": "Heavy Rock",
-    "link": "ghost-official.com",
+    "link": "http://ghost-official.com",
     "logos": [
       {
         "title": "Opus Eponymous",
@@ -1304,7 +1304,7 @@
     "name": "Judas Priest",
     "origin": "England",
     "genre": "Heavy Metal",
-    "link": "judaspriest.com",
+    "link": "http://judaspriest.com",
     "logos": [
       {
         "title": "Stained Class",
@@ -1318,7 +1318,7 @@
     "name": "The Doors",
     "origin": "England",
     "genre": "Hard Rock",
-    "link": "thedoors.com",
+    "link": "https://www.thedoors.com",
     "logos": [
       {
         "title": "The Doors",
@@ -1329,7 +1329,7 @@
     "name": "Dio",
     "origin": "England",
     "genre": "Heavy Metal",
-    "link": "ronniejamesdio.com",
+    "link": "http://ronniejamesdio.com",
     "logos": [
       {
         "title": "Holy Diver",
