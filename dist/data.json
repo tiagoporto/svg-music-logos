@@ -155,6 +155,20 @@
       }
     ]
   },  {
+    "name": "Arch Enemy",
+    "origin": "Sweden",
+    "genre": "Melodic Death Metal",
+    "link": "archenemy.net",
+    "logos": [
+      {
+        "title": "Stigmata",
+        "svg": "arch-enemy_stigmata.svg"
+      }, {
+        "title": "Stigmata Symbol",
+        "svg": "arch-enemy_stigmata-symbol.svg"
+      }
+    ]
+  },  {
     "name": "Nervosa",
     "origin": "Brazil",
     "genre": "Death Metal",
@@ -163,6 +177,17 @@
       {
         "title": "Nervosa",
         "svg": "nervosa.svg"
+      }
+    ]
+  },  {
+    "name": "Jimmy Page and The Black Crowes",
+    "origin": "England",
+    "genre": "Rock",
+    "link": "blackcrowes.com",
+    "logos": [
+      {
+        "title": "Jimmy Page and The Black Crowes",
+        "svg": "jimmy-page-and-the-black-crowes.svg"
       }
     ]
   },  {
