@@ -573,7 +573,7 @@
     "name": "Incubus",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "incubushq.com",
+    "link": "http://www.incubushq.com",
     "logos": [
       {
         "title": "A Crow Left of the Murder...",
@@ -584,7 +584,7 @@
     "name": "Burzum",
     "origin": "Norway",
     "genre": "Black Metal",
-    "link": "burzum.org",
+    "link": "http://burzum.org",
     "logos": [
       {
         "title": "Demo",
@@ -595,7 +595,7 @@
     "name": "Counting Crows",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "countingcrows.com",
+    "link": "http://countingcrows.com",
     "logos": [
       {
         "title": "August and Everything After",
@@ -606,7 +606,7 @@
     "name": "Damageplan",
     "origin": "USA",
     "genre": "Thrash Metal",
-    "link": "damageplan.com",
+    "link": "http://damageplan.com",
     "logos": [
       {
         "title": "New Found Power",
@@ -618,7 +618,7 @@
     "css": "dead-kennedys.styl",
     "origin": "USA",
     "genre": "Punk Rock",
-    "link": "deadkennedys.com",
+    "link": "http://deadkennedys.com",
     "logos": [
       {
         "title": "DK",
@@ -629,7 +629,7 @@
     "name": "The XX",
     "origin": "England",
     "genre": "Indie Pop",
-    "link": "thexx.info",
+    "link": "http://thexx.info",
     "logos": [
       {
         "title": "XX",
@@ -641,7 +641,7 @@
     "css": "rammstein.css",
     "origin": "Germany",
     "genre": "Industrial Metal",
-    "link": "rammstein.com",
+    "link": "https://www.rammstein.de",
     "logos": [
       {
         "title": "Herzeleid",
@@ -668,7 +668,7 @@
     "name": "The Beatles",
     "origin": "England",
     "genre": "Rock",
-    "link": "thebeatles.com",
+    "link": "http://www.thebeatles.com",
     "logos": [
       {
         "title": "The drop-T",
@@ -679,7 +679,7 @@
     "name": "Rigs",
     "origin": "New Zealand",
     "genre": "Alternative Rock",
-    "link": "rigs.bandcamp.com",
+    "link": "https://rigs.bandcamp.com",
     "logos": [
       {
         "title": "Dead Metaphors",
@@ -690,7 +690,7 @@
     "name": "Biquini Cavadão",
     "origin": "Brazil",
     "genre": "Pop Rock",
-    "link": "biquini.com.br",
+    "link": "http://biquini.com.br",
     "logos": [
       {
         "title": "Roda Gigante",
@@ -701,7 +701,7 @@
     "name": "Engenheiros do Hawaii",
     "origin": "Brazil",
     "genre": "Pop Rock",
-    "link": "uol.com.br/engenheirosdohawaii",
+    "link": "http://www2.uol.com.br/engenheirosdohawaii",
     "logos": [
       {
         "title": "A Revolta dos Dândis",
@@ -719,7 +719,7 @@
     "css": "pato-fu.css",
     "origin": "Brazil",
     "genre": "Pop Rock",
-    "link": "patofu.com.br",
+    "link": "https://www.facebook.com/patofuoficial",
     "logos": [
       {
         "title": "Gol De Quem?",
@@ -735,7 +735,7 @@
     "name": "The 69 Eyes",
     "origin": "Finland",
     "genre": "Gothic Rock",
-    "link": "69eyes.com",
+    "link": "http://69eyes.com",
     "logos": [
       {
         "title": "Savage Garden",
@@ -746,7 +746,7 @@
     "name": "Soda Stereo",
     "origin": "Argentina",
     "genre": "Alternative Rock",
-    "link": "sodastereo.com",
+    "link": "http://sodastereo.com",
     "logos": [
       {
         "title": "Doble Vida",
@@ -760,7 +760,7 @@
     "name": "Cálix",
     "origin": "Brazil",
     "genre": "Progressive Rock",
-    "link": "calix.com.br",
+    "link": "https://www.calix.com.br",
     "logos": [
       {
         "title": "Canções de Beurin",
@@ -777,7 +777,7 @@
     "name": "Chakal",
     "origin": "Brazil",
     "genre": "Thrash Metal",
-    "link": "calix.com.br",
+    "link": "https://myspace.com/chakalbr",
     "logos": [
       {
         "title": "Abominable Anno Domini",
@@ -789,7 +789,7 @@
     "css": "franz-ferdinand.css",
     "origin": "Scotland",
     "genre": "Indie Rock",
-    "link": "franzferdinand.com",
+    "link": "http://franzferdinand.com",
     "logos": [
       {
         "title": "Franz Ferdinand",
@@ -801,7 +801,7 @@
     "name": "Andre Matos",
     "origin": "Brazil",
     "genre": "Power Metal",
-    "link": "andrematos.net",
+    "link": "http://www.andrematos.net",
     "logos": [
       {
         "title": "AM",
@@ -815,7 +815,7 @@
     "name": "Massacration",
     "origin": "Brazil",
     "genre": "Comedy Metal",
-    "link": "facebook.com/MassacrationOficial",
+    "link": "https://www.facebook.com/MassacrationOficial",
     "logos": [
       {
         "title": "Massacration",
@@ -828,7 +828,7 @@
     "css": "overdose.css",
     "origin": "Brazil",
     "genre": "Heavy Metal",
-    "link": "facebook.com/overdosebrazil",
+    "link": "http://www.overdosebrazil.com.br",
     "logos": [
       {
         "title": "Século XX",
@@ -849,7 +849,7 @@
     "name": "Led Zeppelin",
     "origin": "England",
     "genre": "Rock",
-    "link": "ledzeppelin.com",
+    "link": "http://www.ledzeppelin.com",
     "logos": [
       {
         "title": "Led Zeppelin II",
@@ -870,7 +870,7 @@
     "css": "u2.css",
     "origin": "Ireland",
     "genre": "Rock",
-    "link": "u2.com",
+    "link": "http://www.u2.com",
     "logos": [
       {
         "title": "360°",
@@ -900,7 +900,7 @@
     "css": "rush.css",
     "origin": "Canada",
     "genre": "Progressive Rock",
-    "link": "rush.com",
+    "link": "https://www.rush.com",
     "logos": [
       {
         "title": "Rush",
@@ -911,7 +911,7 @@
     "name": "Cavalera Conspiracy",
     "origin": "USA",
     "genre": "Groove Metal",
-    "link": "cavaleraconspiracy.com",
+    "link": "https://www.facebook.com/cavaleraconspiracy",
     "logos": [
       {
       "title": "Inflikted",
@@ -926,7 +926,7 @@
     "css": "ace-frehley.css",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "acefrehley.com",
+    "link": "http://acefrehley.com",
     "logos": [
       {
       "title": "Trouble Walkin'",
@@ -939,7 +939,7 @@
     "css": "mixhell.css",
     "origin": "England",
     "genre": "Eletronic",
-    "link": "facebook.com/therealmixhell",
+    "link": "https://www.facebook.com/therealmixhell",
     "logos": [
       {
       "title": "Spaces",
@@ -962,7 +962,7 @@
     "name": "Pink Floyd",
     "origin": "England",
     "genre": "Progressive Rock",
-    "link": "pinkfloyd.com",
+    "link": "http://www.pinkfloyd.com",
     "logos": [
       {
         "title": "The Wall",

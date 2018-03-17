@@ -1,3 +1,5 @@
+[![Travis](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square)](https://github.com/tiagoporto/svg-music-logos)
+
 # SVG Music Logos
 
 A collection of logos and symbols from bands, musicians and related in SVG.
