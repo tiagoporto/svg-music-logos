@@ -2010,7 +2010,7 @@
     "name": "Kiko Loureiro",
     "origin": "Brazil",
     "genre": "Power Metal",
-    "link": "https://kikoloureiro.net",
+    "link": "https://www.kikoloureiro.com",
     "logos": [
       {
         "title": "Kiko Loureiro",
@@ -2089,7 +2089,7 @@
     ]
   },  {
     "name": "The Big 4 - Metallica, Slayer, Megadeth, Anthrax",
-    "nameTemplate": "The Big 4 - <a href=\"https://www.metallica.com\" class=\"card__link\" title=\"Metallica's website\">Metallica</a>, <a href=\"https://www.slayer.net\" class=\"card__link\" title=\"Slayer's website\">Slayer</a>, <a href=\"https://www.megadeth.com/\" class=\"card__link\" title=\"Megadeth's website\">Megadeth</a>, <a href=\"https://anthrax.com/\" class=\"card__link\" title=\"Anthrax's website\">Anthrax</a>",
+    "nameTemplate": "The Big 4 - <a href=\"https://www.metallica.com\" class=\"card__link\" title=\"Metallica's website\">Metallica</a>, <a href=\"https://www.slayer.net\" class=\"card__link\" title=\"Slayer's website\">Slayer</a>, <a href=\"https://www.megadeth.com\" class=\"card__link\" title=\"Megadeth's website\">Megadeth</a>, <a href=\"https://anthrax.com\" class=\"card__link\" title=\"Anthrax's website\">Anthrax</a>",
     "origin": "USA",
     "genre": "Thrash Metal",
     "link": "en.wikipedia.org/wiki/The_Big_Four:_Live_from_Sofia,_Bulgaria",
@@ -2132,7 +2132,7 @@
     "name": "Grave Digger",
     "origin": "Germany",
     "genre": "Heavy Metal",
-    "link": "https://www.grave-digger.de",
+    "link": "https://www.grave-digger-clan.de",
     "logos": [
       {
         "title": "Heavy Metal Breakdown",
@@ -2279,7 +2279,7 @@
     "name": "Eminem",
     "origin": "USA",
     "genre": "Hip Hop",
-    "link": "http://www.eminem.com",
+    "link": "http://www.eminem.com/",
     "logos": [
       {
         "title": "The Marshall Mathers LP",
