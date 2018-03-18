@@ -6,7 +6,7 @@
           <!-- <img id="logo" src="img/logos/logo.svg" alt="{-}" width="250" /> -->
           SVG Music Logos
         </a>
-        <span class="header__subtitle">{{logos.length}} logos</span>
+        <span class="header__subtitle">{{artists.length}} artists • {{logos.length}} logos</span>
       </h1>
 
       <div class="github-buttons">
@@ -60,6 +60,7 @@ window.addEventListener('scroll', _.debounce(setJumbotronHeight, 20))
 export default {
   name: 'AppHeader',
   props: {
+    artists: [Array],
     origins: [Array],
     genres: [Array],
     search: [Object],

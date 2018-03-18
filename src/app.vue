@@ -2,7 +2,7 @@
   <div id="svgMusicLogosApp">
     <div class="jumbotron" id="jumbotron"></div>
 
-    <app-header :search="search" :logos="logos" :origins="origins" :genres="genres" v-once></app-header>
+    <app-header :search="search" :artists="artists" :logos="logos" :origins="origins" :genres="genres" v-once></app-header>
 
     <main class="card-container">
       <card v-for="(band, index) in filteredLogos" :band="band" v-bind:key="index"></card>
@@ -94,6 +94,7 @@ export default {
   },
   data () {
     return {
+      artists: data,
       logos,
       genres,
       origins,
