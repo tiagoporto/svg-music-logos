@@ -9,9 +9,10 @@
         <a class="card__link" :href="band.link" :title="`${band.name}'s website`">{{band.name}}</a>
       </h2>
 
-      <p v-if="band.genre">Genre: {{band.genre}}</p>
+      <p v-if="band.genre">Genre:<template v-for="(genre, index) in band.genre"> {{genre}} <template v-if="index < band.genre.length - 1">•</template></template></p>
 
-      <p>Origin: <flag :iso="getFlagIso(band.origin)" v-bind:squared="false" /> {{band.origin}}</p>
+
+      <p>Origin: <template v-for="(origin, index) in band.origin"> <flag :iso="getFlagIso(origin)" v-bind:squared="false"/> {{origin}} <template v-if="index < band.origin.length - 1">/ </template></template>
 
       <p>Reference: {{band.logo.title}}</p>
     </div>

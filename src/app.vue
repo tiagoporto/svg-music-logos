@@ -42,7 +42,9 @@ const allGenres = data
 
     return elem.genre
   })
-  .filter(genre => genre !== undefined)
+  .join()
+  .split(',')
+  .filter(genre => genre)
 
 const genres = allGenres
   .filter((item, pos) => allGenres.indexOf(item) === pos)
@@ -56,6 +58,8 @@ const allOrigins = data
 
     return elem.origin
   })
+  .join()
+  .split(',')
   .filter(origin => origin !== undefined)
 
 const origins = allOrigins
@@ -138,8 +142,8 @@ export default {
       return context.logos.filter(band => {
         const searched = context.search
         const name = band.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(searched.band.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''))
-        const genre = (!searched.genre && !band.genre) || (band.genre && band.genre.includes(searched.genre))
-        const origin = (!searched.origin && !band.origin) || (band.origin && band.origin.includes(searched.origin))
+        const genre = (!searched.genre && !band.genre) || (!searched.genre || (band.genre && band.genre.includes(searched.genre)))
+        const origin = (!searched.origin && !band.origin) || (!searched.origin || (band.origin && band.origin.includes(searched.origin)))
 
         return name && origin && genre
       })
