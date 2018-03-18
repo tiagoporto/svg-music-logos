@@ -1340,7 +1340,7 @@
     "name": "KoRn",
     "origin": "USA",
     "genre": "Nu Metal",
-    "link": "korn.com",
+    "link": "http://www.korn.com",
     "logos": [
       {
         "title": "Neidermayer's Mind",
@@ -1352,7 +1352,7 @@
     "css": "linkin-park.css",
     "origin": "USA",
     "genre": "Nu Metal",
-    "link": "linkinpark.com",
+    "link": "http://linkinpark.com",
     "logos": [
       {
         "title": "Minutes to Midnight",
@@ -1367,7 +1367,7 @@
     "name": "Nine Inch Nails",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "nin.com",
+    "link": "http://www.nin.com",
     "logos": [
       {
         "title": "The Fragile",
@@ -1378,7 +1378,7 @@
     "name": "System Of A Down",
     "origin": "USA",
     "genre": "Nu Metal",
-    "link": "systemofadown.com",
+    "link": "http://systemofadown.com",
     "logos": [
       {
         "title": "Mezmerize",
@@ -1392,7 +1392,7 @@
     "name": "Avenged Sevenfold",
     "origin": "USA",
     "genre": "Heavy Metal",
-    "link": "avengedsevenfold.com",
+    "link": "http://avengedsevenfold.com",
     "logos": [
       {
         "title": "Official",
@@ -1403,7 +1403,7 @@
     "name": "Anthrax",
     "origin": "USA",
     "genre": "Thrash Metal",
-    "link": "anthrax.com",
+    "link": "https://anthrax.com",
     "logos": [
       {
         "title": "Pentagram",
@@ -1417,7 +1417,7 @@
     "name": "King Diamond",
     "origin": "Denmark",
     "genre": "Heavy Metal",
-    "link": "kingdiamondcoven.com",
+    "link": "http://www.kingdiamondcoven.com",
     "logos": [
       {
         "title": "Fatal Portrait",
@@ -1428,7 +1428,7 @@
     "name": "Gojira",
     "origin": "France",
     "genre": "Death Metal",
-    "link": "gojira-music.com",
+    "link": "http://www.gojira-music.com",
     "logos": [
       {
         "title": "Terra Incognita",
@@ -1439,7 +1439,7 @@
     "name": "Deep Purple",
     "origin": "England",
     "genre": "Hard Rock",
-    "link": "deeppurple.com",
+    "link": "http://www.deeppurple.com",
     "logos": [
       {
         "title": "Stormbringer",
@@ -1454,7 +1454,7 @@
     "css": "the-who.css",
     "origin": "England",
     "genre": "Hard Rock",
-    "link": "thewho.com",
+    "link": "https://www.thewho.com",
     "logos": [
       {
         "title": "Classical",
@@ -1474,7 +1474,7 @@
     "css": "death.css",
     "origin": "USA",
     "genre": "Death Metal",
-    "link": "emptywords.org",
+    "link": "https://www.emptywords.org",
     "logos": [
       {
         "title": "The Sound of Perseverance",
@@ -1485,7 +1485,7 @@
     "name": "Korzus",
     "origin": "Brazil",
     "genre": "Thrash Metal",
-    "link": "korzus.com.br",
+    "link": "http://korzus.com.br",
     "logos": [
       {
         "title": "Ao vivo 1985",
@@ -1496,7 +1496,7 @@
     "name": "Hibria",
     "origin": "Brazil",
     "genre": "Speed Metal",
-    "link": "hibria.com",
+    "link": "http://hibria.com",
     "logos": [
       {
         "title": "Defying The Rules",
@@ -1518,7 +1518,7 @@
     "css": "krisiun.css",
     "origin": "Brazil",
     "genre": "Death Metal",
-    "link": "krisiun.com.br",
+    "link": "http://krisiun.com.br",
     "logos": [
       {
         "title": "Curse Of The Evil One",
@@ -1533,7 +1533,7 @@
     "name": "Bittencourt Project",
     "origin": "Brazil",
     "genre": "Heavy Metal",
-    "link": "rafaelbittencourt.com",
+    "link": "http://rafaelbittencourt.com",
     "logos": [
       {
         "title": "Brainworms I",
@@ -1545,7 +1545,7 @@
     "css": "sextrash.css",
     "origin": "Brazil",
     "genre": "Death Metal",
-    "link": "facebook.com/Sextrashofficial",
+    "link": "https://www.facebook.com/Sextrashofficial",
     "logos": [
       {
         "title": "XXX",
@@ -1560,7 +1560,7 @@
     "name": "Vulcano",
     "origin": "Brazil",
     "genre": "Death Metal",
-    "link": "vulcanometal.com",
+    "link": "http://vulcanometal.com",
     "logos": [
       {
         "title": "Bloody Vengeance",
@@ -1572,7 +1572,7 @@
     "css": "diamond-head.css",
     "origin": "England",
     "genre": "Heavy Metal",
-    "link": "diamond-head.net",
+    "link": "http://diamond-head.net",
     "logos": [
       {
         "title": "Lightning to the Nations",
@@ -1584,7 +1584,7 @@
     "origin": "USA",
     "css": "dream-theather.css",
     "genre": "Progressive Metal",
-    "link": "dreamtheater.net",
+    "link": "http://dreamtheater.net",
     "logos": [
       {
         "title": "Images and Words",
@@ -1604,7 +1604,7 @@
     "css": "megadeth.css",
     "origin": "USA",
     "genre": "Thrash Metal",
-    "link": "megadeth.com",
+    "link": "https://www.megadeth.com",
     "logos": [
       {
         "title": "Peace Sells... But Who's Buying?",
@@ -1628,7 +1628,7 @@
     "name": "Ramones",
     "origin": "England",
     "genre": "Punk Rock",
-    "link": "ramones.com",
+    "link": "https://www.ramones.com",
     "logos": [
       {
         "title": "Ramones",
@@ -1642,7 +1642,7 @@
     "name": "Almah",
     "origin": "Brazil",
     "genre": "Heavy Metal",
-    "link": "almah.com.br",
+    "link": "http://almah.com.br",
     "logos": [
       {
         "title": "Fragile Equality",
@@ -1653,7 +1653,7 @@
     "name": "Samael",
     "origin": "Switzerland",
     "genre": "Black/Industrial Metal",
-    "link": "samael.info",
+    "link": "https://www.samael.info",
     "logos": [
       {
         "title": "Ceremony of Opposites Tour",
@@ -1664,7 +1664,7 @@
     "name": "Whitesnake",
     "origin": "England",
     "genre": "Hard Rock",
-    "link": "whitesnake.com",
+    "link": "https://whitesnake.com",
     "logos": [
       {
         "title": "Lovehunter",
@@ -1675,7 +1675,7 @@
     "name": "Wu-Tang Clan",
     "origin": "USA",
     "genre": "Hip Hop",
-    "link": "wutang-corp.com",
+    "link": "http://wutang-corp.com",
     "logos": [
       {
         "title": "Wu-Tang Forever",
@@ -1686,7 +1686,7 @@
     "name": "Twisted Syster",
     "origin": "USA",
     "genre": "Glam Metal",
-    "link": "twistedsister.com",
+    "link": "http://www.twistedsister.com",
     "logos": [
       {
         "title": "TS",
@@ -1698,7 +1698,7 @@
     "css": "yes.css",
     "origin": "England",
     "genre": "Progressive Rock",
-    "link": "yesworld.com",
+    "link": "http://yesworld.com",
     "logos": [
       {
         "title": "1969",
@@ -1716,7 +1716,7 @@
     "css": "van-halen.css",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "van-halen.com",
+    "link": "http://van-halen.com",
     "logos": [
       {
         "title": "II",
@@ -1730,7 +1730,7 @@
     "name": "Trivium",
     "origin": "USA",
     "genre": "Heavy Metal",
-    "link": "trivium.org",
+    "link": "http://www.trivium.org",
     "logos": [
       {
         "title": "Ascendancy",
@@ -1741,7 +1741,7 @@
     "name": "Tianastácia",
     "origin": "Brazil",
     "genre": "Hard Rock",
-    "link": "tianastacia.com.br",
+    "link": "http://tianastacia.com.br",
     "logos": [
       {
         "title": "Tianastácia",
@@ -1755,7 +1755,7 @@
     "name": "Thin Lizzy",
     "origin": "Ireland",
     "genre": "Hard Rock",
-    "link": "thinlizzy.org",
+    "link": "http://thinlizzy.org",
     "logos": [
       {
         "title": "Fighting",
@@ -1766,7 +1766,7 @@
     "name": "Therion",
     "origin": "Sweden",
     "genre": "Symphonic Metal",
-    "link": "therion.se",
+    "link": "http://therion.se",
     "logos": [
       {
         "title": "Vovin",
@@ -1777,7 +1777,7 @@
     "name": "X Japan",
     "origin": "Japan",
     "genre": "Heavy Metal",
-    "link": "xjapanmusic.com",
+    "link": "http://www.xjapan.com",
     "logos": [
       {
         "title": "Art of Life",
@@ -1789,7 +1789,7 @@
     "css": "14-bis.css",
     "origin": "Brazil",
     "genre": "MPB",
-    "link": "14bis.com.br",
+    "link": "http://14bis.com.br",
     "logos": [
       {
         "title": "Ao vivo",
@@ -1800,7 +1800,7 @@
     "name": "Alice in Chains",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "aliceinchains.com",
+    "link": "https://www.aliceinchains.com",
     "logos": [
       {
         "title": "Facelift",
@@ -1811,7 +1811,7 @@
     "name": "Doro Pesch",
     "origin": "Germany",
     "genre": "Heavy Metal",
-    "link": "doropesch.com",
+    "link": "http://doropesch.com",
     "logos": [
       {
         "title": "Love Me in Black",
@@ -1822,7 +1822,7 @@
     "name": "Dokken",
     "origin": "USA",
     "genre": "Heavy Metal",
-    "link": "dokken.net",
+    "link": "http://dokken.net",
     "logos": [
       {
         "title": "Breaking the Chains",
@@ -1833,7 +1833,7 @@
     "name": "Dr. Sin",
     "origin": "Brazil",
     "genre": "Heavy Metal",
-    "link": "drsinofficial.com",
+    "link": "https://www.facebook.com/drsinofficial",
     "logos": [
       {
         "title": "Insinity",
@@ -1844,7 +1844,7 @@
     "name": "Drowned",
     "origin": "Brazil",
     "genre": "Death Metal",
-    "link": "www.drowned.com.br",
+    "link": "http://www.drowned.com.br",
     "logos": [
       {
         "title": "By the Grace of Evil",
@@ -1856,7 +1856,7 @@
     "css": "50-cent.css",
     "origin": "USA",
     "genre": "Hip Hop",
-    "link": "50cent.com",
+    "link": "http://www.50cent.com",
     "logos": [
       {
         "title": "Power of the Dollar",
@@ -1867,7 +1867,7 @@
     "name": "Babymetal",
     "origin": "Japan",
     "genre": "Heavy Metal",
-    "link": "babymetal.jp",
+    "link": "http://www.babymetal.com",
     "logos": [
       {
         "title": "Babymetal",
@@ -1879,7 +1879,7 @@
     "css": "bon-jovi.css",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "bonjovi.com",
+    "link": "http://bonjovi.com",
     "logos": [
       {
         "title": "Crush",
@@ -1893,7 +1893,7 @@
     "name": "James Hetfield",
     "origin": "USA",
     "genre": "Thrash Metal",
-    "link": "metallica.com",
+    "link": "https://en.wikipedia.org/wiki/James_Hetfield",
     "logos": [
       {
         "title": "Autograph",
@@ -1904,7 +1904,7 @@
     "name": "Edguy",
     "origin": "Germany",
     "genre": "Power Metal",
-    "link": "edguy.net",
+    "link": "http://edguy.net",
     "logos": [
       {
         "title": "Kingdom of Madness",
@@ -1915,7 +1915,7 @@
     "name": "Eddie Van Halen",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "evhgear.com",
+    "link": "http://evhgear.com",
     "logos": [
       {
         "title": "EVH",
@@ -1926,7 +1926,7 @@
     "name": "Gamma Ray",
     "origin": "Germany",
     "genre": "Power Metal",
-    "link": "gammaray.org",
+    "link": "http://gammaray.org",
     "logos": [
       {
         "title": "Land of the Free",
@@ -1937,7 +1937,7 @@
     "name": "The Police",
     "origin": "England",
     "genre": "Reggae Rock",
-    "link": "thepolice.com",
+    "link": "https://www.thepolice.com",
     "logos": [
       {
         "title": "Ghost In The Machine",
@@ -1948,7 +1948,7 @@
     "name": "Rage",
     "origin": "Germany",
     "genre": "Heavy Metal",
-    "link": "rage-official.com",
+    "link": "http://www.rage-official.com",
     "logos": [
       {
         "title": "Black in Mind",
@@ -1959,7 +1959,7 @@
     "name": "Abba",
     "origin": "Sweden",
     "genre": "Disco",
-    "link": "abbasite.com",
+    "link": "http://www.abbasite.com",
     "logos": [
       {
         "title": "Arrival",
@@ -1970,7 +1970,7 @@
     "name": "Tiësto",
     "origin": "Netherlands",
     "genre": "Eletronic",
-    "link": "tiesto.com",
+    "link": "https://www.tiesto.com",
     "logos": [
       {
         "title": "Elements of Life",
@@ -1981,7 +1981,7 @@
     "name": "The Cure",
     "origin": "England",
     "genre": "Alternative Rock",
-    "link": "thecure.com",
+    "link": "http://thecure.com",
     "logos": [
       {
         "title": "Wish",
@@ -1998,7 +1998,7 @@
     "name": "Papa Roach",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "paparoach.com",
+    "link": "http://www.paparoach.com",
     "logos": [
       {
         "title": "Old Friends from Young Years",
@@ -2009,7 +2009,7 @@
     "name": "Kiko Loureiro",
     "origin": "Brazil",
     "genre": "Power Metal",
-    "link": "kikoloureiro.net",
+    "link": "https://kikoloureiro.net",
     "logos": [
       {
         "title": "Kiko Loureiro",
@@ -2020,7 +2020,7 @@
     "name": "Ozzy Osbourne",
     "origin": "England",
     "genre": "Heavy Metal",
-    "link": "ozzy.com",
+    "link": "https://ozzy.com",
     "logos": [
       {
         "title": "Blizzard Of Ozz",
@@ -2031,7 +2031,7 @@
     "name": "David Guetta",
     "origin": "France",
     "genre": "Electro",
-    "link": "davidguetta.com",
+    "link": "http://davidguetta.com",
     "logos": [
       {
         "title": "One Love",
@@ -2042,7 +2042,7 @@
     "name": "Enya",
     "origin": "Ireland",
     "genre": "New Age",
-    "link": "enya.com",
+    "link": "http://enya.com",
     "logos": [
       {
         "title": "Watermark",
@@ -2053,7 +2053,7 @@
     "name": "Exciter",
     "origin": "Canada",
     "genre": "Speed Metal",
-    "link": "excitermetal.com",
+    "link": "https://www.facebook.com/Exciter-Original-812210192180449",
     "logos": [
       {
         "title": "Heavy Metal Maniac",
@@ -2065,7 +2065,7 @@
     "origin": "oasis.css",
     "origin": "England",
     "genre": "Alternative Rock",
-    "link": "oasisinet.com",
+    "link": "http://www.oasisinet.com",
     "logos": [
       {
         "title": "Definitely Maybe",
@@ -2076,7 +2076,7 @@
     "name": "Muse",
     "origin": "England",
     "genre": "Alternative Rock",
-    "link": "muse.mu",
+    "link": "http://muse.mu",
     "logos": [
       {
         "title": "Showbiz",
@@ -2099,7 +2099,7 @@
     "css": "guns-n-roses.css",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "gunsnroses.com",
+    "link": "https://www.gunsnroses.com",
     "logos": [
       {
         "title": "Appetite For Destruction",
@@ -2127,7 +2127,7 @@
     "name": "Grave Digger",
     "origin": "Germany",
     "genre": "Heavy Metal",
-    "link": "grave-digger.de",
+    "link": "https://www.grave-digger.de",
     "logos": [
       {
         "title": "Heavy Metal Breakdown",
@@ -2139,7 +2139,7 @@
     "css": "metal-church.css",
     "origin": "USA",
     "genre": "Heavy Metal",
-    "link": "metalchurchofficial.com",
+    "link": "http://metalchurchofficial.com",
     "logos": [
       {
         "title": "The Dark",
@@ -2152,7 +2152,7 @@
     "css": "audioslave.css",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "facebook.com/Audioslave-165985866829751",
+    "link": "https://www.facebook.com/Audioslave-165985866829751",
     "logos": [
       {
         "title": "Audioslave",
@@ -2163,7 +2163,7 @@
     "name": "Type O Negative",
     "origin": "USA",
     "genre": "Doom Metal",
-    "link": "typeonegative.net",
+    "link": "https://www.facebook.com/typeonegative",
     "logos": [
       {
         "title": "O-",
@@ -2174,7 +2174,7 @@
     "name": "Annihilator",
     "origin": "Canada",
     "genre": "Thrash Metal",
-    "link": "annihilatormetal.com",
+    "link": "https://www.annihilatormetal.com",
     "logos": [
       {
         "title": "All For You",
@@ -2185,7 +2185,7 @@
     "name": "Prince",
     "origin": "USA",
     "genre": "Funk / Pop / R&B / Rock",
-    "link": "en.wikipedia.org/wiki/Prince_(musician)",
+    "link": "https://www.officialprincemusic.com",
     "logos": [
       {
         "title": "Love Symbol",
@@ -2196,7 +2196,7 @@
     "name": "Eminence",
     "origin": "Brazil",
     "genre": "Brutal Metal",
-    "link": "eminence.com.br",
+    "link": "https://www.eminence.com.br",
     "logos": [
       {
         "title": "Chaotic System",
@@ -2222,7 +2222,7 @@
     "name": "Deep Forest",
     "origin": "France",
     "genre": "Eletronic",
-    "link": "deep-forest.fr",
+    "link": "http://www.deep-forest.fr",
     "logos": [
       {
         "title": "Boheme",
@@ -2236,7 +2236,7 @@
     "name": "Emerson, Lake & Palmer",
     "origin": "England",
     "genre": "Progressive Rock",
-    "link": "emersonlakeandpalmer.com",
+    "link": "http://emersonlakeandpalmer.com",
     "logos": [
       {
         "title": "ELP",
@@ -2248,7 +2248,7 @@
     "css": "bartucada.css",
     "origin": "Brazil",
     "genre": "Brazilian Songs",
-    "link": "bartucada.com.br",
+    "link": "https://www.facebook.com/bartucada",
     "logos": [
       {
         "title": "Logo",
@@ -2260,7 +2260,7 @@
     "name": "Beastie Boys",
     "origin": "USA",
     "genre": "Hip Hop",
-    "link": "blog.beastieboys.com",
+    "link": "http://beastieboys.com",
     "logos": [
       {
         "title": "Check Your Head",
@@ -2274,7 +2274,7 @@
     "name": "Eminem",
     "origin": "USA",
     "genre": "Hip Hop",
-    "link": "eminem.com",
+    "link": "http://www.eminem.com",
     "logos": [
       {
         "title": "The Marshall Mathers LP",
@@ -2286,7 +2286,7 @@
     "css": "jota-quest.css",
     "origin": "Brazil",
     "genre": "Pop",
-    "link": "jotaquest.com.br",
+    "link": "http://www.jotaquest.com.br",
     "logos": [
       {
         "title": "Discotecagem Pop Variada",
@@ -2297,7 +2297,7 @@
     "name": "Steve Vai",
     "origin": "USA",
     "genre": "Instrumental rock",
-    "link": "vai.com",
+    "link": "http://www.vai.com",
     "logos": [
       {
         "title": "V.A. Eye",
@@ -2308,7 +2308,7 @@
     "name": "Mastodon",
     "origin": "USA",
     "genre": "Progressive Metal",
-    "link": "mastodonrocks.com",
+    "link": "http://www.mastodonrocks.com",
     "logos": [
       {
         "title": "The Hunter",
@@ -2319,7 +2319,7 @@
     "name": "Meshuggah",
     "origin": "Sweden",
     "genre": "Progressive Metal",
-    "link": "meshuggah.net",
+    "link": "https://www.meshuggah.net",
     "logos": [
       {
         "title": "Nothing",
@@ -2330,7 +2330,7 @@
     "name": "The Rolling Stones",
     "origin": "England",
     "genre": "Rock",
-    "link": "rollingstones.com",
+    "link": "http://www.rollingstones.com",
     "logos": [
       {
         "title": "Flashpoint",
@@ -2341,7 +2341,7 @@
     "name": "Enforcer",
     "origin": "Sweden",
     "genre": "Speed Metal",
-    "link": "enforcer.se",
+    "link": "http://enforcer.se",
     "logos": [
       {
         "title": "Evil Attacker",
@@ -2353,7 +2353,7 @@
     "name": "Foo Fighters",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "foofighters.com",
+    "link": "https://foofighters.com",
     "logos": [
       {
         "title": "Echoes, Silence, Patience & Grace",
@@ -2364,7 +2364,7 @@
     "name": "Ween",
     "origin": "USA",
     "genre": "Alternative Rock",
-    "link": "ween.com",
+    "link": "http://ween.com",
     "logos": [
       {
         "title": "Boognish",
@@ -2375,7 +2375,7 @@
     "name": "Grand Funk Railroad",
     "origin": "USA",
     "genre": "Hard Rock",
-    "link": "grandfunkrailroad.com",
+    "link": "http://grandfunkrailroad.com",
     "logos": [
       {
         "title": "Pointing Finger",
@@ -2386,7 +2386,7 @@
     "name": "Antidemon",
     "origin": "Brazil",
     "genre": "Grindcore",
-    "link": "facebook.com/ANTIDEMON.OFFICIAL",
+    "link": "https://www.facebook.com/ANTIDEMON.OFFICIA",
     "logos": [
       {
         "title": "Demonocídio",
@@ -2397,7 +2397,7 @@
     "name": "Genesis",
     "origin": "England",
     "genre": "Progressive Rock",
-    "link": "genesis-music.com",
+    "link": "http://www.genesis-music.com",
     "logos": [
       {
         "title": "We Can't Dance",
@@ -2408,7 +2408,7 @@
     "name": "Tools",
     "origin": "USA",
     "genre": "Alternative Metal",
-    "link": "toolband.com",
+    "link": "https://www.toolband.com",
     "logos": [
       {
         "title": "Sober",
@@ -2419,7 +2419,7 @@
     "name": "Tash Sultana",
     "origin": "Australia",
     "genre": "Psychedelic Rock",
-    "link": "tashsultana.com",
+    "link": "https://www.tashsultana.com",
     "logos": [
       {
         "title": "Notion EP",
@@ -2431,7 +2431,7 @@
     "css": "airbourne.css",
     "origin": "Australia",
     "genre": "Hard Rock",
-    "link": "airbournerock.com",
+    "link": "http://airbournerock.com",
     "logos": [
       {
         "title": "Runnin' Wild",
