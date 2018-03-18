@@ -3,8 +3,10 @@
     <logo :band='band'></logo>
 
     <div class="card__content">
-      <h2 class="card__title">
-        <a class="card__title" :href="`http://${band.link}`" :title="`${band.name} website`">{{band.name}}</a>
+      <h2 class="card__title" v-html="band.nameTemplate" v-if="band.nameTemplate"></h2>
+
+      <h2 class="card__title" v-else>
+        <a class="card__link" :href="band.link" :title="`${band.name}'s website`">{{band.name}}</a>
       </h2>
 
       <p v-if="band.genre">Genre: {{band.genre}}</p>

@@ -70,6 +70,7 @@ data.forEach((band, index) => {
   getLogo.forEach(logo => {
     logos.push({
       name: band.name,
+      nameTemplate: band.nameTemplate,
       link: band.link,
       origin: band.origin,
       genre: band.genre,

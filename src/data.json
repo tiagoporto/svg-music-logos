@@ -181,6 +181,7 @@
     ]
   },  {
     "name": "Jimmy Page and The Black Crowes",
+    "nameTemplate": "<a href=\"https://www.jimmypage.com\" class=\"card__link\" title=\"Jimmy Page's website\">Jimmy Page</a> and <a href=\"http://www.blackcrowes.com\" class=\"card__link\" title=\"The Black Crowes' website\">The Black Crowes</a>",
     "origin": "England",
     "genre": "Rock",
     "link": "http://www.blackcrowes.com",
@@ -1856,7 +1857,7 @@
     "css": "50-cent.css",
     "origin": "USA",
     "genre": "Hip Hop",
-    "link": "http://www.50cent.com",
+    "link": "http://www.thisis50.com",
     "logos": [
       {
         "title": "Power of the Dollar",
@@ -2085,6 +2086,7 @@
     ]
   },  {
     "name": "The Big 4 - Metallica, Slayer, Megadeth, Anthrax",
+    "nameTemplate": "The Big 4 - <a href=\"https://www.metallica.com\" class=\"card__link\" title=\"Metallica's website\">Metallica</a>, <a href=\"https://www.slayer.net\" class=\"card__link\" title=\"Slayer's website\">Slayer</a>, <a href=\"https://www.megadeth.com/\" class=\"card__link\" title=\"Megadeth's website\">Megadeth</a>, <a href=\"https://anthrax.com/\" class=\"card__link\" title=\"Anthrax's website\">Anthrax</a>",
     "origin": "USA",
     "genre": "Thrash Metal",
     "link": "en.wikipedia.org/wiki/The_Big_Four:_Live_from_Sofia,_Bulgaria",
@@ -2386,7 +2388,7 @@
     "name": "Antidemon",
     "origin": "Brazil",
     "genre": "Grindcore",
-    "link": "https://www.facebook.com/ANTIDEMON.OFFICIA",
+    "link": "https://www.facebook.com/ANTIDEMON.OFFICIAL",
     "logos": [
       {
         "title": "Demonocídio",
