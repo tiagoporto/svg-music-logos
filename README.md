@@ -1,10 +1,11 @@
-[![Travis](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square)](https://travis-ci.org/tiagoporto/svg-music-logos)
-
 [![David](https://img.shields.io/david/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos)
 [![David](https://img.shields.io/david/dev/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos?type=dev)
 
 
 # SVG Music Logos
+![Artists links](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square&label=Artists%20links)
+![Total Artists](https://img.shields.io/badge/artists-174-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-316-blue.svg?style=flat-square)
 
 A collection of logos and symbols from bands, musicians and related in SVG.
 
