@@ -1,4 +1,4 @@
-<h1 style="text-align: center;border: none;"><a href="http://tiagoporto.github.io/svg-music-logos">SVG Music Logos</a></h1>
+# [SVG Music Logos](http://tiagoporto.github.io/svg-music-logos)
 
 <p align="right">
   <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/svg-music-logos" style="font-size: 24px">★</a> : 😞</code>
