@@ -1,34 +1,30 @@
-[![David](https://img.shields.io/david/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos)
-[![David](https://img.shields.io/david/dev/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos?type=dev)
+<h1 style="text-align: center;border: none;"><a href="http://tiagoporto.github.io/svg-music-logos">SVG Music Logos</a></h1>
 
+<p align="right">
+  <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/svg-music-logos" style="font-size: 24px">★</a> : 😞</code>
+</p>
 
-# SVG Music Logos
 ![Total Artists](https://img.shields.io/badge/artists-174-blue.svg?style=flat-square)
 ![Total origins](https://img.shields.io/badge/origins-20-blue.svg?style=flat-square)
 ![Total Genres](https://img.shields.io/badge/genres-51-blue.svg?style=flat-square)
 ![Total Logos](https://img.shields.io/badge/logos-316-blue.svg?style=flat-square)
-[![Artists links](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square&label=Artists%20links)](https://travis-ci.org/tiagoporto/svg-music-logos)
+[![Artists links](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square&label=links)](https://travis-ci.org/tiagoporto/svg-music-logos)
 
 A collection of logos and symbols from bands, musicians and related in SVG.
+
+## Project Info
+[![David](https://img.shields.io/david/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos)
+[![David](https://img.shields.io/david/dev/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos?type=dev)
 
 ## Contributing
 
 > Don't have the logo that you are looking for?
 
-1. Fork it!
-1. Create the SVG file.
-    1. SVG Tutorial: [How to work with SVG icons](http://fvsch.com/code/svg-icons/how-to/).
-    1. Use [SVGOMG](https://jakearchibald.github.io/svgomg/) to minify the SVG file.
+[How to contribute](https://github.com/tiagoporto/svg-music-logos/blob/master/CONTRIBUTING.md).
 
-        <img src="dist/img/svgomg-settings.png" align="top" alt="">
+## Donation
 
-    1. Remove ids.
-    1. Use [BEM — Block Element Modifier](https://bem.info/) for naming classes
-1. Put in folder `dist/logos`.
-    1. Use the file naming convention
-        1. Lower case: `band.svg`
-        1. Separate compound name by using a hyphen `band-name.svg`
-1. Add the logo and necessary info on `dist/data.json`.
-1. Commit your changes: `git commit -am 'Add some Logo'`
-1. Push to the branch: `git push origin master`
-1. Submit a pull request :D
+This project is developed in my spare time, any donation is welcome.
+
+[![Donate](https://img.shields.io/badge/donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YTDUQ8RZ2G4Q8&lc=BR&item_name=tiagoporto&item_number=geradorcpf&currency_code=BRL&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+![Donate](https://img.shields.io/badge/bitcoin-14iqQcwYPLBceRURHuFosGTDXxMmt3cLDp-yellow.svg?logo=bitcoin)
