@@ -57,7 +57,7 @@ const webpackConfig = {
             loader: 'postcss-loader',
             options: {
               ident: 'postcss',
-              plugins: (loader) => [
+              plugins: loader => [
                 require('autoprefixer')(config.autoprefixerBrowsers)
               ]
             }

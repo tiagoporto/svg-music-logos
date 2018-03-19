@@ -13,6 +13,7 @@ const replace = require('gulp-replace')
 const sequence = require('run-sequence')
 const stylus = require('gulp-stylus')
 const del = require('del')
+const data = require('./src/data.js')
 
 // ***************************** Path configs ***************************** //
 
@@ -37,6 +38,16 @@ paths.styles = {
 }
 
 // ******************************** Tasks ********************************* //
+
+gulp.task('update-readme', () => {
+  gulp.src(['./README.md'])
+    .pipe(replace(/!\[Total[\W\w]+\(https:\/\/img\.shields\.io\/badge\/logos-316-blue\.svg\?style=flat-square\)/,
+`![Total Artists](https://img.shields.io/badge/artists-${data.artists.length}-blue.svg?style=flat-square)
+![Total Origins](https://img.shields.io/badge/origins-${data.origins.length}-blue.svg?style=flat-square)
+![Total Genres](https://img.shields.io/badge/genres-${data.genres.length}-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-${data.logos.length}-blue.svg?style=flat-square)`))
+    .pipe(gulp.dest('./'))
+})
 
 gulp.task('styles', () => {
   const streaming = src => {
@@ -119,7 +130,7 @@ gulp.task('copy', () => {
 
 // Build Project
 gulp.task('build', callback => {
-  sequence('styles', ['images', 'copy'], () => callback())
+  sequence('styles', ['update-readme', 'images', 'copy'], () => callback())
 })
 
 // Build the project and push the builded folder to gh-pages branch
