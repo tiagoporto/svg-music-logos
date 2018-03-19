@@ -2116,6 +2116,9 @@
         "title": "#GnFnR",
         "svg": "guns-n-roses_g-f-r.svg"
       }, {
+        "title": "bullet",
+        "svg": "guns-n-roses_bullet.svg"
+      }, {
         "title": "neon",
         "svg": "guns-n-roses_neon.svg",
         "inverse": true
