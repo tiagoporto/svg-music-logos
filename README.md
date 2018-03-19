@@ -4,10 +4,10 @@
   <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/svg-music-logos">⭐</a> : 😞</code>
 </p>
 
-![Total Artists](https://img.shields.io/badge/artists-174-blue.svg?style=flat-square)
-![Total origins](https://img.shields.io/badge/origins-20-blue.svg?style=flat-square)
-![Total Genres](https://img.shields.io/badge/genres-51-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-316-blue.svg?style=flat-square)
+![Total Artists](https://img.shields.io/badge/artists-175-blue.svg?style=flat-square)
+![Total Origins](https://img.shields.io/badge/origins-20-blue.svg?style=flat-square)
+![Total Genres](https://img.shields.io/badge/genres-52-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-318-blue.svg?style=flat-square)
 [![Artists links](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square&label=links)](https://travis-ci.org/tiagoporto/svg-music-logos)
 
 A collection of logos and symbols from bands, musicians and related in SVG.
