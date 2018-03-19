@@ -2444,5 +2444,16 @@
         "inverse": true
       }
     ]
+  },  {
+    "name": "Dimmu Borgir",
+    "origin": ["Norway"],
+    "genre": ["Symphonic Black Metal"],
+    "link": "https://www.facebook.com/dimmuborgir",
+    "logos": [
+      {
+        "title": "Enthrone Darkness Triumphant",
+        "svg": "dimmu-borgir_enthrone-darkness-triumphant.svg"
+      }
+    ]
   }
 ]
