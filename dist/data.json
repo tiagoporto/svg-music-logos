@@ -2116,6 +2116,9 @@
         "title": "#GnFnR",
         "svg": "guns-n-roses_g-f-r.svg"
       }, {
+        "title": "bullet",
+        "svg": "guns-n-roses_bullet.svg"
+      }, {
         "title": "neon",
         "svg": "guns-n-roses_neon.svg",
         "inverse": true
@@ -2442,6 +2445,17 @@
         "title": "Runnin' Wild",
         "svg": "airbourne_runnin-wild.svg",
         "inverse": true
+      }
+    ]
+  },  {
+    "name": "Dimmu Borgir",
+    "origin": ["Norway"],
+    "genre": ["Symphonic Black Metal"],
+    "link": "https://www.facebook.com/dimmuborgir",
+    "logos": [
+      {
+        "title": "Enthrone Darkness Triumphant",
+        "svg": "dimmu-borgir_enthrone-darkness-triumphant.svg"
       }
     ]
   }
