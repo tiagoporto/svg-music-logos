@@ -18,7 +18,7 @@
 
 ## Contributing
 
-> Don't have the logo that you are looking for?
+Don't have the logo that you are looking for?
 
 [How to contribute](https://github.com/tiagoporto/svg-music-logos/blob/master/CONTRIBUTING.md).
 
