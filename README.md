@@ -1,7 +1,7 @@
 # [SVG Music Logos](http://tiagoporto.github.io/svg-music-logos)
 
 <p align="right">
-  <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/svg-music-logos">⭐</a> : 😞</code>
+  <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/svg-music-logos">⭐</a> : <a href="https://github.com/tiagoporto/svg-music-logos/issues">😞</a></code>
 </p>
 
 ![Total Artists](https://img.shields.io/badge/artists-175-blue.svg?style=flat-square)
@@ -22,7 +22,7 @@ Don't have the logo that you are looking for?
 
 [Check how to contribute](https://github.com/tiagoporto/svg-music-logos/blob/master/CONTRIBUTING.md).
 
-## Donation
+## Donating
 
 This project is developed in my spare time, any donation is welcome.
 
