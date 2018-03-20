@@ -10,7 +10,7 @@
 ![Total Logos](https://img.shields.io/badge/logos-318-blue.svg?style=flat-square)
 [![Artists links](https://img.shields.io/travis/tiagoporto/svg-music-logos.svg?style=flat-square&label=links)](https://travis-ci.org/tiagoporto/svg-music-logos)
 
-A collection of logos and symbols from bands, musicians and related in SVG.
+> A collection of logos and symbols from bands, musicians and related in SVG.
 
 ## Project Info
 [![David](https://img.shields.io/david/tiagoporto/svg-music-logos.svg?style=flat-square)](https://david-dm.org/tiagoporto/svg-music-logos)
