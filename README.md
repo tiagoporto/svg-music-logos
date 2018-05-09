@@ -1,7 +1,7 @@
 # [SVG Music Logos](http://tiagoporto.github.io/svg-music-logos)
 
 <p align="right">
-  <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/svg-music-logos">⭐</a> : <a href="https://github.com/tiagoporto/svg-music-logos/issues">😞</a></code>
+  <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/svg-music-logos/stargazers">⭐</a> : <a href="https://github.com/tiagoporto/svg-music-logos/issues">😞</a></code>
 </p>
 
 ![Total Artists](https://img.shields.io/badge/artists-175-blue.svg?style=flat-square)
