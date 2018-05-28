@@ -58,7 +58,8 @@ const webpackConfig = {
             options: {
               ident: 'postcss',
               plugins: loader => [
-                require('autoprefixer')(config.autoprefixerBrowsers)
+                require('autoprefixer')(config.autoprefixerBrowsers),
+                require('postcss-easing-gradients')
               ]
             }
           },
