@@ -187,8 +187,8 @@
     "link": "http://www.blackcrowes.com",
     "logos": [
       {
-        "title": "Jimmy Page and The Black Crowes",
-        "svg": "jimmy-page-and-the-black-crowes.svg"
+        "title": "Zoso and Crow",
+        "svg": "jimmy-page-and-the-black-crowes_zoso-and-crow.svg"
       }
     ]
   },  {
@@ -2116,10 +2116,10 @@
         "title": "#GnFnR",
         "svg": "guns-n-roses_g-f-r.svg"
       }, {
-        "title": "bullet",
+        "title": "Bullet",
         "svg": "guns-n-roses_bullet.svg"
       }, {
-        "title": "neon",
+        "title": "Neon",
         "svg": "guns-n-roses_neon.svg",
         "inverse": true
       }, {
