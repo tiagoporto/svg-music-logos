@@ -1,5 +1,7 @@
 <template>
   <header class="header">
+    <github-corner repo="tiagoporto/svg-music-logos"></github-corner>
+
     <div class="header__main">
       <h1 class="header__title">
         <a href="http://tiagoporto.github.io/svg-music-logos" class="header__link-title">
@@ -9,11 +11,6 @@
         <span class="header__subtitle">{{artists.length}} artists • {{logos.length}} logos</span>
       </h1>
 
-      <div class="github-buttons">
-        <a class="github-button" href="https://github.com/tiagoporto" data-show-count="true" aria-label="Follow @tiagoporto on GitHub">Follow @tiagoporto</a>
-
-        <a class="github-button" href="https://github.com/tiagoporto/svg-music-logos" data-icon="octicon-star" data-show-count="true" aria-label="Star tiagoporto/svg-music-logos on GitHub">Star</a>
-      </div>
 
       <p>A collection of bands' and musicians' logos in SVG.</p>
       <p>All brands are trademarks of their respective bands or musicians.</p>
@@ -42,6 +39,7 @@
 import './AppHeader.styl'
 import './Jumbotron.styl'
 import _ from 'lodash'
+import GithubCorner from '../github-corner/GithubCorner.vue'
 
 const setJumbotronHeight = () => {
   if (window.innerWidth > 768) {
@@ -59,6 +57,9 @@ window.addEventListener('scroll', _.debounce(setJumbotronHeight, 20))
 
 export default {
   name: 'AppHeader',
+  components: {
+    GithubCorner
+  },
   props: {
     artists: [Array],
     origins: [Array],
