@@ -1,6 +1,7 @@
 {
   "name": "SVG Music Logos",
   "short_name": "SVG Music",
+  "theme_color": "#2BB5E5",
   "icons": [{
         "src": "img/touch/icon-128x128.png",
         "sizes": "128x128"
