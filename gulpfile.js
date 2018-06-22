@@ -120,7 +120,7 @@ gulp.task('copy', () => {
   return gulp
     .src([
       path.join(paths.src, '*.*'),
-      path.join(`!${paths.src}`, '*.{js,vue}'),
+      path.join(`!${paths.src}`, '*.{vue}'),
       path.join(paths.src, 'logos/**/*')
     ], {base: `./${paths.src}`})
     .pipe(gulp.dest(paths.dist))
