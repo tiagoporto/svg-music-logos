@@ -1,5 +1,5 @@
 <template>
-  <div id="svgMusicLogosApp">
+  <div>
     <div class="jumbotron" id="jumbotron"></div>
 
     <app-header :search="search" :artists="artists" :logos="logos" :origins="origins" :genres="genres" v-once></app-header>
