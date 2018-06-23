@@ -24,6 +24,6 @@
         "sizes": "512x512",
         "type": "image/png"
       }],
-  "start_url": "/",
+  "start_url": "https://tiagoporto.github.io/svg-music-logos/",
   "display": "standalone"
 }

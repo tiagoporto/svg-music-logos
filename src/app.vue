@@ -1,5 +1,5 @@
 <template>
-  <div id="svgMusicLogosApp">
+  <div>
     <div class="jumbotron" id="jumbotron"></div>
 
     <app-header :search="search" :artists="artists" :logos="logos" :origins="origins" :genres="genres" v-once></app-header>
@@ -50,10 +50,12 @@ export default {
       this.search.genre && (query.genre = this.search.genre)
       this.search.origin && (query.origin = this.search.origin)
 
-      this.$router.replace({
-        name: 'search',
-        query
-      })
+      if (this.search.band || this.search.genre || this.search.origin) {
+        this.$router.replace({
+          name: 'search',
+          query
+        })
+      }
 
       if (this.search.genre) {
         if (process.env.NODE_ENV === 'production') {
