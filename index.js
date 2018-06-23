@@ -1,10 +1,10 @@
 import './styles/index.js'
 import App from './App.vue'
 import FlagIcon from 'vue-flag-icon'
+import {registerServiceWorker} from './serviceWorker.js'
 import Vue from 'vue'
 import VueAnalytics from 'vue-analytics'
 import VueRouter from 'vue-router'
-import { registerServiceWorker } from './serviceWorker.js'
 
 Vue.use(VueRouter)
 Vue.use(FlagIcon)
