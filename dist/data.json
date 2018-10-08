@@ -786,6 +786,17 @@
       }
     ]
   },  {
+    "name": "Charlie Brown Jr.",
+    "origin": ["Brazil"],
+    "genre": ["Rock Alternativo"],
+    "link": "https://www.facebook.com/cbjroficial/",
+    "logos": [
+      {
+        "title": "Charlie Brown Jr.",
+        "svg": "charlie-brown-jr.svg"
+      }
+    ]
+  },  {
     "name": "Franz Ferdinand",
     "css": "franz-ferdinand.css",
     "origin": ["Scotland"],
