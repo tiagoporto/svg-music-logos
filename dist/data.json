@@ -799,6 +799,18 @@
       }
     ]
   },  {
+    "name": "Franz Ferdinand",
+    "origin": ["Scotland"],
+    "genre": ["Indie Rock"],
+    "link": "http://franzferdinand.com",
+    "logos": [
+      {
+        "title": "Franz Ferdinand (Colorido)",
+        "svg": "franz-ferdinand-color.svg",
+        "inverse": true
+      }
+    ]
+  },  {
     "name": "Andre Matos",
     "origin": ["Brazil"],
     "genre": ["Power Metal"],
