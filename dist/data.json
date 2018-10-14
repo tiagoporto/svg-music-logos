@@ -339,6 +339,17 @@
       }
     ]
   },  {
+    "name": "Slipknot",
+    "origin": ["USA"],
+    "genre": ["Heavy Metal"],
+    "link": "https://slipknot1.com/",
+    "logos": [
+      {
+        "title": "Slipknot",
+        "svg": "slipknot.svg"
+      }
+    ]
+  },  {
     "name": "Kreator",
     "css": "kreator.css",
     "origin": ["Germany"],
