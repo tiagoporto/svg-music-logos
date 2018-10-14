@@ -2368,6 +2368,17 @@
       }
     ]
   },  {
+    "name": "The Strokes",
+    "origin": ["Estados Unidos"],
+    "genre": ["Indie Rock"],
+    "link": "http://www.thestrokes.com/",
+    "logos": [
+      {
+        "title": "Flashpoint",
+        "svg": "the-rolling-stones_flashpoint.svg"
+      }
+    ]
+  },  {
     "name": "Enforcer",
     "origin": ["Sweden"],
     "genre": ["Speed Metal"],
