@@ -122,6 +122,17 @@
       }
     ]
   }, {
+    "name": "Charlie Brown Jr.",
+    "origin": ["Brazil"],
+    "genre": ["Alternative Rock"],
+    "link": "https://www.facebook.com/cbjroficial/",
+    "logos": [
+      {
+        "title": "Charlie Brown Jr.",
+        "svg": "charlie-brown-jr.svg"
+      }
+    ]
+  },  {
     "name": "John Petrucci",
     "origin": ["USA"],
     "genre": ["Progressive Metal"],
