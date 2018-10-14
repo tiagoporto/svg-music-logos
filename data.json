@@ -122,6 +122,17 @@
       }
     ]
   }, {
+    "name": "Charlie Brown Jr.",
+    "origin": ["Brazil"],
+    "genre": ["Alternative Rock"],
+    "link": "https://www.facebook.com/cbjroficial/",
+    "logos": [
+      {
+        "title": "Charlie Brown Jr.",
+        "svg": "charlie-brown-jr.svg"
+      }
+    ]
+  },  {
     "name": "John Petrucci",
     "origin": ["USA"],
     "genre": ["Progressive Metal"],
@@ -336,6 +347,17 @@
       {
         "title": "Power of the Night",
         "svg": "savatage_power-of-the-night.svg"
+      }
+    ]
+  },  {
+    "name": "Slipknot",
+    "origin": ["USA"],
+    "genre": ["Nu Metal", "Alternative Metal"],
+    "link": "https://slipknot1.com",
+    "logos": [
+      {
+        "title": "Slipknot",
+        "svg": "slipknot.svg"
       }
     ]
   },  {
