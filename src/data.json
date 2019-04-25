@@ -9,92 +9,115 @@
       {
         "title": "The soundhouse Tapes",
         "svg": "iron-maiden_the-soundhouse-tapes.svg"
-      }, {
+      },
+      {
         "title": "Iron Maiden",
         "svg": "iron-maiden.svg",
         "cls": "iron-maiden--classical",
         "inverse": true
-      }, {
+      },
+      {
         "title": "Powerslave",
         "svg": "iron-maiden.svg",
         "cls": "iron-maiden--powerslave",
         "inverse": true
-      }, {
+      },
+      {
         "title": "Somewhere In Time",
         "svg": "iron-maiden.svg",
         "cls": "iron-maiden--somewhere-in-time"
-      }, {
+      },
+      {
         "title": "Seventh Son of a Seventh Son",
         "svg": "iron-maiden.svg",
         "cls": "iron-maiden--seventh-son-of-a-seventh-son"
-      }, {
+      },
+      {
         "title": "A Real Live One",
         "svg": "iron-maiden.svg",
         "cls": "iron-maiden--a-real-live-one",
         "inverse": true
-      }, {
+      },
+      {
         "title": "A Real Dead One",
         "svg": "iron-maiden.svg",
         "cls": "iron-maiden--a-dead-live-one"
-      }, {
+      },
+      {
         "title": "Best of b'Sides",
         "svg": "iron-maiden.svg",
         "cls": "iron-maiden--best-of-b-sides"
-      }, {
+      },
+      {
         "title": "Live At Donington",
         "svg": "iron-maiden_live-at-donington.svg"
-      }, {
+      },
+      {
         "title": "The X Factor",
         "svg": "iron-maiden_the-x-factor.svg"
-      }, {
+      },
+      {
         "title": "Virtual XI",
         "svg": "iron-maiden_virtual-xi.svg",
         "cls": "iron-maiden--virtual-xi"
-      }, {
+      },
+      {
         "title": "Brave New World",
         "svg": "iron-maiden_virtual-xi.svg",
         "cls": "iron-maiden--brave-new-world"
-      }, {
+      },
+      {
         "title": "Eddie - Brave New World",
         "svg": "iron-maiden_eddie-brave-new-world.svg"
-      }, {
+      },
+      {
         "title": "Eddie - A Matter of Life and Death",
         "svg": "iron-maiden_eddie-a-matter-of-life-and-death.svg"
-      }, {
+      },
+      {
         "title": "Eddie - Formula One",
         "svg": "iron-maiden_eddie-formula-one.svg"
-      }, {
+      },
+      {
         "title": "Eddie - The Final Frontier",
         "svg": "iron-maiden_eddie-the-final-frontier.svg"
-      }, {
+      },
+      {
         "title": "Beer Trooper",
         "svg": "iron-maiden_trooper.svg",
         "inverse": true
-      }, {
+      },
+      {
         "title": "Beer Trooper NEW Label",
         "cls": "trooper--new",
         "svg": "iron-maiden_trooper.svg"
-      }, {
+      },
+      {
         "title": "Beer Trooper Red ‘N’ Black",
         "cls": "trooper--red-n-black",
         "svg": "iron-maiden_trooper.svg"
-      }, {
+      },
+      {
         "title": "The Book Of Souls",
         "svg": "iron-maiden_the-book-of-souls.svg"
-      }, {
+      },
+      {
         "title": "Eddie - The Book Of Souls",
         "svg": "iron-maiden_eddie-the-book-of-souls.svg",
         "inverse": true
-      }, {
+      },
+      {
         "title": "Legacy Of The Beast - Loading",
         "svg": "iron-maiden_legacy-of-the-beast-loading.svg"
-      }, {
+      },
+      {
         "title": "Legacy Of The Beast - 666 Flag",
         "svg": "iron-maiden_666-flag.svg",
         "inverse": true
       }
     ]
-  }, {
+  },
+  {
     "name": "Iron Maiden - Derek Riggs",
     "origin": ["England"],
     "css": "derek-riggs.styl",
@@ -104,13 +127,15 @@
         "title": "Derek Riggs Signature",
         "svg": "iron-maiden_derek-riggs.svg",
         "cls": "derek-riggs--signature"
-      }, {
+      },
+      {
         "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
         "svg": "iron-maiden_derek-riggs.svg",
         "cls": "derek-riggs--badge"
       }
     ]
-  }, {
+  },
+  {
     "name": "Aphex Twin",
     "origin": ["England"],
     "genre": ["Electronic"],
@@ -121,7 +146,8 @@
         "svg": "aphex-twin_selected-ambient-works-85-92.svg"
       }
     ]
-  }, {
+  },
+  {
     "name": "Charlie Brown Jr.",
     "origin": ["Brazil"],
     "genre": ["Alternative Rock"],
@@ -132,7 +158,8 @@
         "svg": "charlie-brown-jr.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "John Petrucci",
     "origin": ["USA"],
     "genre": ["Progressive Metal"],
@@ -143,7 +170,8 @@
         "svg": "john-petrucci_jp.svg"
       }
     ]
-  }, {
+  },
+  {
     "name": "Aerosmith",
     "origin": ["USA"],
     "genre": ["Hard Rock"],
@@ -154,7 +182,8 @@
         "svg": "aerosmith.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Marcelo D2",
     "origin": ["Brazil"],
     "genre": ["Samba Rap"],
@@ -165,7 +194,8 @@
         "svg": "marcelo-d2.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Arch Enemy",
     "origin": ["Sweden"],
     "genre": ["Melodic Death Metal"],
@@ -174,12 +204,14 @@
       {
         "title": "Stigmata",
         "svg": "arch-enemy_stigmata.svg"
-      }, {
+      },
+      {
         "title": "Stigmata Symbol",
         "svg": "arch-enemy_stigmata-symbol.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Nervosa",
     "origin": ["Brazil"],
     "genre": ["Death Metal"],
@@ -190,7 +222,8 @@
         "svg": "nervosa.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Jimmy Page and The Black Crowes",
     "nameTemplate": "<a href=\"https://www.jimmypage.com\" class=\"card__link\" title=\"Jimmy Page's website\">Jimmy Page</a> and <a href=\"http://www.blackcrowes.com\" class=\"card__link\" title=\"The Black Crowes' website\">The Black Crowes</a>",
     "origin": ["England", "USA"],
@@ -202,7 +235,8 @@
         "svg": "jimmy-page-and-the-black-crowes_zoso-and-crow.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Concreto",
     "origin": ["Brazil"],
     "genre": ["Hard Rock"],
@@ -211,12 +245,14 @@
       {
         "title": "Quanto Cu$ta a vida",
         "svg": "concreto_quanto-custa-a-vida.svg"
-      }, {
+      },
+      {
         "title": "Bruto",
         "svg": "concreto_bruto.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Angra",
     "origin": ["Brazil"],
     "genre": ["Power Metal"],
@@ -227,18 +263,20 @@
         "svg": "angra_angels-cry.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "O Rappa",
     "origin": ["Brazil"],
     "genre": ["Alternative Rock"],
-    "link": "http://www.orappa.com.br",
+    "link": "https://www.facebook.com/orappa",
     "logos": [
       {
         "title": "7 Vezes",
         "svg": "o-rappa-7-vezes.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Matanza",
     "origin": ["Brazil"],
     "genre": ["Hardcore Punk"],
@@ -250,7 +288,8 @@
         "inverse": true
       }
     ]
-  },  {
+  },
+  {
     "name": "Raimundos",
     "css": "raimundos.css",
     "origin": ["Brazil"],
@@ -260,15 +299,18 @@
       {
         "title": "Raimundos",
         "svg": "raimundos.svg"
-      }, {
+      },
+      {
         "title": "R",
         "svg": "raimundos_r.svg"
-      }, {
+      },
+      {
         "title": "Roda Viva",
         "svg": "raimundos_roda-viva.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Weezer",
     "origin": ["USA"],
     "genre": ["Alternative Rock"],
@@ -277,12 +319,14 @@
       {
         "title": "Weezer",
         "svg": "weezer.svg"
-      }, {
+      },
+      {
         "title": "Flying =W=",
         "svg": "weezer_flying-w.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Gorillaz",
     "origin": ["England"],
     "genre": ["Alternative Rock"],
@@ -293,7 +337,8 @@
         "svg": "gorillaz.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "David Gilmour",
     "origin": ["England"],
     "genre": ["Progressive Rock"],
@@ -304,7 +349,8 @@
         "svg": "david-gilmour_on-an-island.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Roger Waters",
     "origin": ["England"],
     "genre": ["Progressive Rock"],
@@ -313,12 +359,14 @@
       {
         "title": "The Wall Live",
         "svg": "roger-waters_the-wall-live.svg"
-      }, {
+      },
+      {
         "title": "Us+Them",
         "svg": "roger-waters_us+them.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Chickenfoot",
     "css": "chickenfoot.css",
     "origin": ["Mexico"],
@@ -328,17 +376,20 @@
       {
         "title": "Chickenfoot",
         "svg": "chickenfoot.svg"
-      }, {
+      },
+      {
         "title": "III",
         "svg": "chickenfoot_III.svg",
         "cls": "chickenfoot--III"
-      }, {
+      },
+      {
         "title": "III Limited",
         "svg": "chickenfoot_III-limited.svg",
         "cls": "chickenfoot--III-limited"
       }
     ]
-  },  {
+  },
+  {
     "name": "Savatage",
     "origin": ["USA"],
     "genre": ["Heavy Metal"],
@@ -349,7 +400,8 @@
         "svg": "savatage_power-of-the-night.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Slipknot",
     "origin": ["USA"],
     "genre": ["Nu Metal", "Alternative Metal"],
@@ -360,7 +412,8 @@
         "svg": "slipknot.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Kreator",
     "css": "kreator.css",
     "origin": ["Germany"],
@@ -370,12 +423,14 @@
       {
         "title": "Flag of Hate",
         "svg": "kreator_flag-of-hate.svg"
-      }, {
+      },
+      {
         "title": "Endless Pain",
         "svg": "kreator_endless-pain.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Bad Religion",
     "css": "bad-religion.css",
     "origin": ["USA"],
@@ -385,12 +440,14 @@
       {
         "title": "Bad Religion",
         "svg": "bad-religion.svg"
-      }, {
+      },
+      {
         "title": "Crossbuster",
         "svg": "bad-religion_crossbuster.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Rainbow",
     "origin": ["England"],
     "genre": ["Heavy Metal"],
@@ -401,7 +458,8 @@
         "svg": "rainbow_rising.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Amon Amarth",
     "origin": ["Sweden"],
     "genre": ["Melodic Death Metal"],
@@ -412,7 +470,8 @@
         "svg": "amon-amarth_sorrow-throughout-the-nine-worlds.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Anti-Flag",
     "origin": ["USA"],
     "genre": ["Punk Rock"],
@@ -423,7 +482,8 @@
         "svg": "anti-flag_the-people-or-the-gun.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Björk",
     "origin": ["Iceland"],
     "genre": ["Art Pop"],
@@ -434,7 +494,8 @@
         "svg": "bjork_family-tree.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Alice Cooper",
     "origin": ["USA"],
     "genre": ["Hard Rock"],
@@ -443,15 +504,18 @@
       {
         "title": "Constrictor",
         "svg": "alice-cooper_constrictor.svg"
-      }, {
+      },
+      {
         "title": "Dragontown",
         "svg": "alice-cooper_dragontown.svg"
-      }, {
+      },
+      {
         "title": "Dirty Diamonds",
         "svg": "alice-cooper_dirty-diamonds.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Blur",
     "origin": ["England"],
     "genre": ["Alternative Rock"],
@@ -462,7 +526,8 @@
         "svg": "blur_leisure.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Arctic Monkeys",
     "origin": ["England"],
     "genre": ["Indie Rock"],
@@ -473,7 +538,8 @@
         "svg": "arctic-monkeys_am.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Felipe Andreoli",
     "origin": ["Brazil"],
     "genre": ["Heavy Metal"],
@@ -485,7 +551,8 @@
         "svg": "felipe-andreoli.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Metallica",
     "css": "metallica.css",
     "origin": ["USA"],
@@ -495,45 +562,58 @@
       {
         "title": "The Snake",
         "svg": "metallica_snake.svg"
-      }, {
+      },
+      {
         "title": "Star",
         "svg": "metallica_star.svg"
-      }, {
+      },
+      {
         "title": "Scary Guy",
         "svg": "metallica_scary-guy.svg"
-      }, {
+      },
+      {
         "title": "Scary Guy Skullhawk",
         "svg": "metallica_scary-guy-skullhawk.svg"
-      }, {
+      },
+      {
         "title": "Scary Guy Wings",
         "svg": "metallica_scary-guy-wings.svg"
-      }, {
+      },
+      {
         "title": "Garage Inc.",
         "svg": "metallica_garage-inc.svg"
-      }, {
+      },
+      {
         "title": "St. Anger",
         "svg": "metallica_st-anger.svg"
-      }, {
+      },
+      {
         "title": "Death Magnetic",
         "svg": "metallica_death-magnetic.svg"
-      }, {
+      },
+      {
         "title": "Beyond Magnet Symbol",
         "svg": "metallica_beyond-magnetic.svg"
-      }, {
+      },
+      {
         "title": "Triple X - 30 Years",
         "svg": "metallica_30-years.svg"
-      }, {
+      },
+      {
         "title": "Throught The Never Symbol",
         "svg": "metallica_m-throught-the-never.svg"
-      }, {
+      },
+      {
         "title": "Dehann",
         "svg": "metallica_dehaan.svg"
-      }, {
+      },
+      {
         "title": "Hardwired…To Self-Destruct",
         "svg": "metallica_hardwired-to-self-destruct.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "AC⚡DC",
     "css": "acdc.css",
     "origin": ["Australia"],
@@ -544,19 +624,23 @@
         "title": "Let There Be Rock",
         "svg": "acdc_classical.svg",
         "cls": "acdc--classical"
-      }, {
+      },
+      {
         "title": "Let There Be Rock",
         "svg": "acdc.svg"
-      }, {
+      },
+      {
         "title": "Powerage",
         "svg": "acdc_powerage.svg"
-      }, {
+      },
+      {
         "title": "Back in Black",
         "svg": "acdc.svg",
         "cls": "acdc--back-in-black"
       }
     ]
-  },  {
+  },
+  {
     "name": "ZZ Top",
     "css": "zz-top.css",
     "origin": ["USA"],
@@ -568,7 +652,8 @@
         "svg": "zz-top_eliminator.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Tim \"Ripper\" Owens",
     "css": "tim-ripper-owens.css",
     "origin": ["USA"],
@@ -580,7 +665,8 @@
         "svg": "tim-ripper-owens.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Slash",
     "css": "slash.css",
     "origin": ["England"],
@@ -592,7 +678,8 @@
         "svg": "slash_south-park.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Incubus",
     "origin": ["USA"],
     "genre": ["Alternative Rock"],
@@ -603,7 +690,8 @@
         "svg": "incubus_a-crow-left-of-the-murder.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Burzum",
     "origin": ["Norway"],
     "genre": ["Black Metal"],
@@ -614,7 +702,8 @@
         "svg": "burzum_demo.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Counting Crows",
     "origin": ["USA"],
     "genre": ["Alternative Rock"],
@@ -625,7 +714,8 @@
         "svg": "counting-crows_august-and-everything-after.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Damageplan",
     "origin": ["USA"],
     "genre": ["Thrash Metal"],
@@ -636,7 +726,8 @@
         "svg": "damageplan_new-found-power.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Dead Kennedys",
     "css": "dead-kennedys.styl",
     "origin": ["USA"],
@@ -648,7 +739,8 @@
         "svg": "dead_kennedys_dk.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The XX",
     "origin": ["England"],
     "genre": ["Indie Pop"],
@@ -659,7 +751,8 @@
         "svg": "the-xx_xx.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Rammstein",
     "css": "rammstein.css",
     "origin": ["Germany"],
@@ -669,25 +762,31 @@
       {
         "title": "Herzeleid",
         "svg": "rammstein_herzeleid.svg"
-      }, {
+      },
+      {
         "title": "R+",
         "svg": "rammstein_symbol.svg"
-      }, {
+      },
+      {
         "title": "R+ Stroked",
         "cls": "rammstein__symbol--stroke",
         "svg": "rammstein_symbol.svg"
-      }, {
+      },
+      {
         "title": "R+ Flat",
         "svg": "rammstein_symbol--flat.svg"
-      }, {
+      },
+      {
         "title": "DR",
         "svg": "rammstein_dr.svg"
-      }, {
+      },
+      {
         "title": "Wings",
         "svg": "rammstein_wings.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The Beatles",
     "origin": ["England"],
     "genre": ["Rock"],
@@ -698,7 +797,8 @@
         "svg": "the-beatles_drop-t.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Rigs",
     "origin": ["New Zealand"],
     "genre": ["Alternative Rock"],
@@ -709,7 +809,8 @@
         "svg": "rigs.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Biquini Cavadão",
     "origin": ["Brazil"],
     "genre": ["Pop Rock"],
@@ -720,7 +821,8 @@
         "svg": "biquini-cavadao_roda-gigante.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Engenheiros do Hawaii",
     "origin": ["Brazil"],
     "genre": ["Pop Rock"],
@@ -729,15 +831,18 @@
       {
         "title": "A Revolta dos Dândis",
         "svg": "engenheiros-do-hawaii_a-revolta_dos_dandis.svg"
-      }, {
+      },
+      {
         "title": "Gessinger, Licks & Maltz",
         "svg": "engenheiros-do-hawaii_gessinger-licks-maltz.svg"
-      }, {
+      },
+      {
         "title": "Novos Horizontes",
         "svg": "engenheiros-do-hawaii_novos-horizontes.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Pato Fu",
     "css": "pato-fu.css",
     "origin": ["Brazil"],
@@ -748,13 +853,15 @@
         "title": "Gol De Quem?",
         "cls": "pato-fu--gol-de-quem",
         "svg": "pato-fu.svg"
-      }, {
+      },
+      {
         "title": "Televisão de Cachorro",
         "cls": "pato-fu--televisao-de-cachorro",
         "svg": "pato-fu.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The 69 Eyes",
     "origin": ["Finland"],
     "genre": ["Gothic Rock"],
@@ -765,7 +872,8 @@
         "svg": "the-69-eyes_savage-garden.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Soda Stereo",
     "origin": ["Argentina"],
     "genre": ["Alternative Rock"],
@@ -774,12 +882,14 @@
       {
         "title": "Doble Vida",
         "svg": "soda-stereo_doble-vida.svg"
-      }, {
+      },
+      {
         "title": "Me Véras Volver",
         "svg": "soda-stereo_me-veras-volver.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Cálix",
     "origin": ["Brazil"],
     "genre": ["Progressive Rock"],
@@ -788,15 +898,18 @@
       {
         "title": "Canções de Beurin",
         "svg": "calix_cancoes-de-beurin.svg"
-      }, {
+      },
+      {
         "title": "A Roda",
         "svg": "calix_a-roda.svg"
-      }, {
+      },
+      {
         "title": "Caminhante",
         "svg": "calix_caminhante.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Chakal",
     "origin": ["Brazil"],
     "genre": ["Thrash Metal"],
@@ -807,7 +920,8 @@
         "svg": "chakal_abominable-anno-domini.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The Strokes",
     "origin": ["USA"],
     "genre": ["Indie Rock"],
@@ -818,7 +932,8 @@
         "svg": "the-strokes.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Franz Ferdinand",
     "css": "franz-ferdinand.css",
     "origin": ["Scotland"],
@@ -831,7 +946,8 @@
         "inverse": true
       }
     ]
-  },  {
+  },
+  {
     "name": "Andre Matos",
     "origin": ["Brazil"],
     "genre": ["Power Metal"],
@@ -840,12 +956,14 @@
       {
         "title": "AM",
         "svg": "andre-matos_am.svg"
-      }, {
+      },
+      {
         "title": "Andre Matos",
         "svg": "andre-matos.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Massacration",
     "origin": ["Brazil"],
     "genre": ["Comedy Metal"],
@@ -857,7 +975,8 @@
         "inverse": true
       }
     ]
-  },  {
+  },
+  {
     "name": "Overdose",
     "css": "overdose.css",
     "origin": ["Brazil"],
@@ -868,18 +987,22 @@
         "title": "Século XX",
         "svg": "overdose_seculo-xx.svg",
         "inverse": true
-      }, {
+      },
+      {
         "title": "Conscience",
         "svg": "overdose_conscience.svg"
-      }, {
+      },
+      {
         "title": "Addicted to Reality",
         "svg": "overdose_addicted-to-reality.svg"
-      }, {
+      },
+      {
         "title": "Progress of Decadence",
         "svg": "overdose_progress-of-decadence.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Led Zeppelin",
     "origin": ["England"],
     "genre": ["Rock"],
@@ -888,18 +1011,22 @@
       {
         "title": "Led Zeppelin II",
         "svg": "led-zeppelin_two.svg"
-      }, {
+      },
+      {
         "title": "Four Symbols",
         "svg": "led-zeppelin_four-symbols.svg"
-      }, {
+      },
+      {
         "title": "The Song Remains the Same",
         "svg": "led-zeppelin_the-song-remains-the-same.svg"
-      }, {
+      },
+      {
         "title": "Unofficial",
         "svg": "led-zeppelin_unofficial.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "U2",
     "css": "u2.css",
     "origin": ["Ireland"],
@@ -909,27 +1036,33 @@
       {
         "title": "360°",
         "svg": "u2_360.svg"
-      }, {
+      },
+      {
         "title": "No Line On The Honrizon",
         "svg": "u2_no-line-on-the-honrizon.svg"
-      }, {
+      },
+      {
         "title": "How To Dismantle An Atomic Bomb",
         "svg": "u2_how-to-dismantle-an-atomic-bomb.svg"
-      }, {
+      },
+      {
         "title": "The Joshua Tree",
         "svg": "u2_the-joshua-tree.svg",
         "cls": "u2--the-joshua-tree"
-      }, {
+      },
+      {
         "title": "The Joshua Tree",
         "svg": "u2_the-joshua-tree.svg",
         "cls": "u2--the-joshua-tree-text"
-      }, {
+      },
+      {
         "title": "Joshua Tree",
         "svg": "u2_the-joshua-tree.svg",
         "cls": "u2--joshua-tree"
       }
     ]
-  },  {
+  },
+  {
     "name": "Rush",
     "css": "rush.css",
     "origin": ["Canada"],
@@ -941,21 +1074,24 @@
         "svg": "rush.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Cavalera Conspiracy",
     "origin": ["USA"],
     "genre": ["Groove Metal"],
     "link": "https://www.facebook.com/cavaleraconspiracy",
     "logos": [
       {
-      "title": "Inflikted",
-      "svg": "cavalera-conspiracy_inflikted.svg"
-      }, {
-      "title": "CC",
-      "svg": "cavalera-conspiracy_cc.svg"
+        "title": "Inflikted",
+        "svg": "cavalera-conspiracy_inflikted.svg"
+      },
+      {
+        "title": "CC",
+        "svg": "cavalera-conspiracy_cc.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Ace Frehley",
     "css": "ace-frehley.css",
     "origin": ["USA"],
@@ -963,12 +1099,13 @@
     "link": "http://acefrehley.com",
     "logos": [
       {
-      "title": "Trouble Walkin'",
-      "cls":"ace-frehley--trouble-walkin",
-      "svg": "ace-frehley_trouble-walkin.svg"
+        "title": "Trouble Walkin'",
+        "cls": "ace-frehley--trouble-walkin",
+        "svg": "ace-frehley_trouble-walkin.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Mixhell",
     "css": "mixhell.css",
     "origin": ["England"],
@@ -976,23 +1113,27 @@
     "link": "https://www.facebook.com/therealmixhell",
     "logos": [
       {
-      "title": "Spaces",
-      "cls":"mixhell--spaces",
-      "svg": "mixhell_spaces.svg"
-      }, {
-      "title": "Spaces tour",
-      "cls":"mixhell--highly-explicit",
-      "svg": "mixhell_spaces.svg",
-      "inverse": true
-      }, {
-      "title": "Mixhell",
-      "svg": "mixhell_>.svg"
-      }, {
-      "title": "Elastic Artists",
-      "svg": "mixhell_elastic-artists.svg"
+        "title": "Spaces",
+        "cls": "mixhell--spaces",
+        "svg": "mixhell_spaces.svg"
+      },
+      {
+        "title": "Spaces tour",
+        "cls": "mixhell--highly-explicit",
+        "svg": "mixhell_spaces.svg",
+        "inverse": true
+      },
+      {
+        "title": "Mixhell",
+        "svg": "mixhell_>.svg"
+      },
+      {
+        "title": "Elastic Artists",
+        "svg": "mixhell_elastic-artists.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Pink Floyd",
     "origin": ["England"],
     "genre": ["Progressive Rock"],
@@ -1001,12 +1142,14 @@
       {
         "title": "The Wall",
         "svg": "pink-floyd_the-wall.svg"
-      }, {
+      },
+      {
         "title": "The Divison Bell",
         "svg": "pink-floyd_the-division-bell.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Wolfmother",
     "origin": ["Australia"],
     "genre": ["Hard Rock"],
@@ -1017,7 +1160,8 @@
         "svg": "wolfmother.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Mamonas Assassinas",
     "css": "mamonas-assassinas.css",
     "origin": ["Brazil"],
@@ -1027,15 +1171,18 @@
       {
         "title": "Mamonas Assassinas",
         "svg": "mamonas-assassinas.svg"
-      }, {
+      },
+      {
         "title": "MA",
         "svg": "mamonas-assassinas_ma.svg"
-      }, {
+      },
+      {
         "title": "Mamona",
         "svg": "mamonas-assassinas_mamona.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Coldplay",
     "origin": ["England"],
     "genre": ["Alternative Rock"],
@@ -1046,7 +1193,8 @@
         "svg": "coldplay_parachutes.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Pantera",
     "origin": ["USA"],
     "genre": ["Glam Metal", "Groove Metal"],
@@ -1055,12 +1203,14 @@
       {
         "title": "Far Beyond Driven",
         "svg": "pantera.svg"
-      },{
+      },
+      {
         "title": "CFH",
         "svg": "pantera_cfh.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Daft Punk",
     "origin": ["France"],
     "genre": ["Eletronic"],
@@ -1071,60 +1221,74 @@
         "svg": "daft-punk_homework.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Sepultura",
     "css": "sepultura.css",
     "origin": ["Brazil"],
     "genre": ["Groove Metal"],
-    "link": "https://sepultura.com",
+    "link": "https://www.sepultura.com.br",
     "logos": [
       {
         "title": "Morbid Visions",
         "svg": "sepultura_morbid-visions.svg"
-      }, {
+      },
+      {
         "title": "Beneath the Remains",
         "cls": "sepultura--beneath-the-remains",
         "svg": "sepultura_beneath-the-remains.svg"
-      }, {
+      },
+      {
         "title": "Arise",
         "cls": "sepultura--arise",
         "svg": "sepultura_beneath-the-remains.svg"
-      }, {
+      },
+      {
         "title": "Tribal S",
         "cls": "sepultura--tribal-symbol",
         "svg": "sepultura_tribal-s.svg"
-      }, {
+      },
+      {
         "title": "Chaos Symbol",
         "svg": "sepultura_chaos-symbol.svg"
-      }, {
+      },
+      {
         "title": "Roots Symbol",
         "svg": "sepultura_roots-symbol.svg"
-      }, {
+      },
+      {
         "title": "Nation",
         "svg": "sepultura_nation.svg"
-      }, {
+      },
+      {
         "title": "Tribal Star",
         "svg": "sepultura_tribal-star.svg"
-      }, {
+      },
+      {
         "title": "Triangle Symbol",
         "svg": "sepultura_triangle.svg"
-      }, {
+      },
+      {
         "title": "1/4 Of a Century",
         "cls": "sepultura--quarter-of-a-century",
         "svg": "sepultura_tribal-s.svg"
-      }, {
+      },
+      {
         "title": "Tribal S Dirty",
         "svg": "sepultura_tribal-s-dirty.svg"
-      }, {
+      },
+      {
         "title": "Coat Of Arms",
         "svg": "sepultura_coat-of-arms.svg"
-      }, {
+      },
+      {
         "title": "Dante XXI",
         "cls": "sepultura--dante-xxi",
         "svg": "sepultura_dante-xxi.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Black Sabbath",
     "origin": ["England"],
     "genre": ["Heavy Metal"],
@@ -1133,18 +1297,22 @@
       {
         "title": "Henry",
         "svg": "black-sabbath_henry.svg"
-      }, {
+      },
+      {
         "title": "Vol 4",
         "svg": "black-sabbath_vol4.svg"
-      }, {
+      },
+      {
         "title": "Master Of Reality",
         "svg": "black-sabbath_master-of-reality.svg"
-      }, {
+      },
+      {
         "title": "The Rules of Hell",
         "svg": "black-sabbath_the-rules-of-hell.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "KISS",
     "css": "kiss.css",
     "origin": ["USA"],
@@ -1154,15 +1322,18 @@
       {
         "title": "Kiss",
         "svg": "kiss.svg"
-      }, {
+      },
+      {
         "title": "Hotter than Hell",
         "svg": "kiss_hotter-than-hell.svg"
-      }, {
+      },
+      {
         "title": "Ikons",
         "svg": "kiss_ikons.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Faith No More",
     "origin": ["USA"],
     "genre": ["Alternative Metal"],
@@ -1173,7 +1344,8 @@
         "svg": "faith-no-more_star-of-lakshmi.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Project 46",
     "origin": ["Brazil"],
     "genre": ["Metalcore"],
@@ -1184,7 +1356,8 @@
         "svg": "project-46_doa-a-quem-doer.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Detonator",
     "css": "detonator.css",
     "origin": ["Brazil"],
@@ -1196,7 +1369,8 @@
         "svg": "detonator_metal-5-estrelas.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Bruce Dickinson",
     "origin": ["England"],
     "genre": ["Heavy Metal"],
@@ -1207,7 +1381,8 @@
         "svg": "bruce-dickinson_the-best-of-bruce-dickinson.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Nirvana",
     "css": "nirvana.css",
     "origin": ["USA"],
@@ -1218,15 +1393,18 @@
         "title": "Bleach",
         "svg": "nirvana.svg",
         "cls": "nirvana--bleach"
-      }, {
+      },
+      {
         "title": "Nevermind",
         "svg": "nirvana.svg"
-      }, {
+      },
+      {
         "title": "Smile",
         "svg": "nirvana_smile.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Manowar",
     "origin": ["USA"],
     "genre": ["Heavy Metal"],
@@ -1235,15 +1413,18 @@
       {
         "title": "Battle Hymns",
         "svg": "manowar_battle-hymns.svg"
-      },{
+      },
+      {
         "title": "Sign Of The Hammer",
         "svg": "manowar_sigh-of-the-hammer.svg"
-      }, {
+      },
+      {
         "title": "Hammer",
         "svg": "manowar_hammer.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Queen",
     "origin": ["England"],
     "genre": ["Rock"],
@@ -1254,7 +1435,8 @@
         "svg": "queen_greatest-hits-II.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Viper",
     "origin": ["Brazil"],
     "genre": ["Heavy Metal"],
@@ -1265,7 +1447,8 @@
         "svg": "viper_projeto-sp-metal.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Queensrÿche",
     "origin": ["USA"],
     "genre": ["Heavy Metal"],
@@ -1276,7 +1459,8 @@
         "svg": "queensryche_tri-ryche.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Blind Guardian",
     "origin": ["Germany"],
     "genre": ["Power Metal"],
@@ -1287,7 +1471,8 @@
         "svg": "blind-guardian_battalions-of-fear.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Blink-182",
     "origin": ["USA"],
     "genre": ["Pop Punk"],
@@ -1296,12 +1481,14 @@
       {
         "title": "The Mark, Tom and Travis Show",
         "svg": "blink-182_the-mark-tom-and-travis-show.svg"
-      }, {
+      },
+      {
         "title": "Boxset",
         "svg": "blink-182_boxset.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Johnny Cash",
     "origin": ["USA"],
     "genre": ["Country"],
@@ -1312,7 +1499,8 @@
         "svg": "johnny-cash_american-recordings.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Sex Pistols",
     "origin": ["England"],
     "genre": ["Punk Rock"],
@@ -1323,7 +1511,8 @@
         "svg": "sex-pistols.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Ghost",
     "origin": ["Sweden"],
     "genre": ["Heavy Rock"],
@@ -1334,7 +1523,8 @@
         "svg": "ghost_opus-eponymous.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Judas Priest",
     "origin": ["England"],
     "genre": ["Heavy Metal"],
@@ -1343,12 +1533,14 @@
       {
         "title": "Stained Class",
         "svg": "judas-priest_stained-class.svg"
-      },{
+      },
+      {
         "title": "Cross",
         "svg": "judas-priest_cross.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The Doors",
     "origin": ["England"],
     "genre": ["Hard Rock"],
@@ -1359,7 +1551,8 @@
         "svg": "the-doors.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Dio",
     "origin": ["England"],
     "genre": ["Heavy Metal"],
@@ -1370,7 +1563,8 @@
         "svg": "dio_holy-diver.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "KoRn",
     "origin": ["USA"],
     "genre": ["Nu Metal"],
@@ -1381,7 +1575,8 @@
         "svg": "korn_neidermayers-mind.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Linkin Park",
     "css": "linkin-park.css",
     "origin": ["USA"],
@@ -1397,7 +1592,8 @@
         "svg": "linkin-park_lp.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Nine Inch Nails",
     "origin": ["USA"],
     "genre": ["Alternative Rock"],
@@ -1408,7 +1604,8 @@
         "svg": "nine-inch-nails_the-fragile.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "System Of A Down",
     "origin": ["USA"],
     "genre": ["Nu Metal"],
@@ -1417,12 +1614,14 @@
       {
         "title": "Mezmerize",
         "svg": "system-of-a-down_mezmerize.svg"
-      }, {
+      },
+      {
         "title": "Steal This Album!",
         "svg": "system-of-a-down_steal-this-album.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Avenged Sevenfold",
     "origin": ["USA"],
     "genre": ["Heavy Metal"],
@@ -1433,7 +1632,8 @@
         "svg": "avenged-sevenfold.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Anthrax",
     "origin": ["USA"],
     "genre": ["Thrash Metal"],
@@ -1442,12 +1642,14 @@
       {
         "title": "Pentagram",
         "svg": "anthrax_pentagram.svg"
-      }, {
+      },
+      {
         "title": "Sound of White Noise",
         "svg": "anthrax_sound-of-white-noise.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "King Diamond",
     "origin": ["Denmark"],
     "genre": ["Heavy Metal"],
@@ -1458,7 +1660,8 @@
         "svg": "king-diamond_fatal-portrait.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Gojira",
     "origin": ["France"],
     "genre": ["Death Metal"],
@@ -1469,7 +1672,8 @@
         "svg": "gojira_terra-incognita.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Deep Purple",
     "origin": ["England"],
     "genre": ["Hard Rock"],
@@ -1478,12 +1682,14 @@
       {
         "title": "Stormbringer",
         "svg": "deep-purple_stormbringer.svg"
-      }, {
+      },
+      {
         "title": "The Battle Rages On...",
         "svg": "deep-purple_the-battle-rages-on.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The Who",
     "css": "the-who.css",
     "origin": ["England"],
@@ -1493,17 +1699,20 @@
       {
         "title": "Classical",
         "svg": "the-who.svg"
-      }, {
+      },
+      {
         "title": "The Who Collection",
         "svg": "the-who.svg",
         "cls": "the-who--text"
-      }, {
+      },
+      {
         "title": "Target",
         "svg": "the-who.svg",
         "cls": "the-who--symbol"
       }
     ]
-  },  {
+  },
+  {
     "name": "Death",
     "css": "death.css",
     "origin": ["USA"],
@@ -1515,7 +1724,8 @@
         "svg": "death_the-sound-of-perseverance.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Korzus",
     "origin": ["Brazil"],
     "genre": ["Thrash Metal"],
@@ -1526,7 +1736,8 @@
         "svg": "korzus_ao-vivo.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Hibria",
     "origin": ["Brazil"],
     "genre": ["Speed Metal"],
@@ -1535,19 +1746,23 @@
       {
         "title": "Defying The Rules",
         "svg": "hibria_defying-the-rules.svg"
-      }, {
+      },
+      {
         "title": "Live In Japan Symbol",
         "svg": "hibria_symbol.svg"
-      }, {
+      },
+      {
         "title": "Hibria",
         "svg": "hibria.svg"
-      }, {
+      },
+      {
         "title": "Symbol",
         "cls": "hibria--symbol",
         "svg": "hibria_symbol.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Krisiun",
     "css": "krisiun.css",
     "origin": ["Brazil"],
@@ -1557,13 +1772,15 @@
       {
         "title": "Curse Of The Evil One",
         "svg": "krisiun_curse-of-the-evil-one.svg"
-      }, {
+      },
+      {
         "title": "Unmerciful Order",
         "cls": "krisiun--unmerciful-order",
         "svg": "krisiun_unmerciful-order.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Bittencourt Project",
     "origin": ["Brazil"],
     "genre": ["Heavy Metal"],
@@ -1574,7 +1791,8 @@
         "svg": "bittencourt-project_brainworms-i.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Sextrash",
     "css": "sextrash.css",
     "origin": ["Brazil"],
@@ -1584,13 +1802,15 @@
       {
         "title": "XXX",
         "svg": "sextrash_xxx.svg"
-      }, {
+      },
+      {
         "title": "Rape from Hell",
         "svg": "sextrash_rape-from-hell.svg",
         "inverse": true
       }
     ]
-  },  {
+  },
+  {
     "name": "Vulcano",
     "origin": ["Brazil"],
     "genre": ["Death Metal"],
@@ -1601,7 +1821,8 @@
         "svg": "vulcano_bloody-vengeance.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Diamond Head",
     "css": "diamond-head.css",
     "origin": ["England"],
@@ -1613,7 +1834,8 @@
         "svg": "diamond-head_lightning-to-the-nations.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Dream Theather",
     "origin": ["USA"],
     "css": "dream-theather.css",
@@ -1623,17 +1845,20 @@
       {
         "title": "Images and Words",
         "svg": "dream-theater_images-and-words.svg"
-      }, {
+      },
+      {
         "title": "The majesty symbol",
         "svg": "dream-theater_majesty-symbol.svg",
         "cls": "dream-theater--majesty-symbol"
-      }, {
+      },
+      {
         "title": "The majesty symbol",
         "svg": "dream-theater_majesty-symbol.svg",
         "cls": "dream-theater--full-majesty-symbol"
       }
     ]
- },  {
+  },
+  {
     "name": "Megadeth",
     "css": "megadeth.css",
     "origin": ["USA"],
@@ -1643,22 +1868,27 @@
       {
         "title": "Peace Sells... But Who's Buying?",
         "svg": "megadeth_peace-sells.svg"
-      }, {
+      },
+      {
         "title": "Rust In Peace Nuclear Symbol",
         "svg": "megadeth_rust-in-peace-nuclear-symbol.svg"
-      }, {
+      },
+      {
         "title": "Nuclear Symbol",
         "svg": "megadeth_nuclear-symbol.svg",
         "inverse": true
-      }, {
+      },
+      {
         "title": "Cryptic Writing Symbol",
         "svg": "megadeth_cryptic-writing-symbol.svg"
-      }, {
+      },
+      {
         "title": "Vic Hoodie",
         "svg": "megadeth_vic-hoodie.svg"
       }
     ]
- },  {
+  },
+  {
     "name": "Ramones",
     "origin": ["England"],
     "genre": ["Punk Rock"],
@@ -1667,12 +1897,14 @@
       {
         "title": "Ramones",
         "svg": "ramones.svg"
-      }, {
+      },
+      {
         "title": "Seal",
         "svg": "ramones_seal.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Almah",
     "origin": ["Brazil"],
     "genre": ["Heavy Metal"],
@@ -1683,7 +1915,8 @@
         "svg": "almah_fragile-equality.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Samael",
     "origin": ["Switzerland"],
     "genre": ["Black Metal", "Industrial Metal"],
@@ -1694,7 +1927,8 @@
         "svg": "samael_ceremony-of-opposites-tour.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Whitesnake",
     "origin": ["England"],
     "genre": ["Hard Rock"],
@@ -1705,7 +1939,8 @@
         "svg": "whitesnake_lovehunter.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Wu-Tang Clan",
     "origin": ["USA"],
     "genre": ["Hip Hop"],
@@ -1716,7 +1951,8 @@
         "svg": "wu-tang-clan_wu-tang-forever.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Twisted Syster",
     "origin": ["USA"],
     "genre": ["Glam Metal"],
@@ -1727,7 +1963,8 @@
         "svg": "twisted-syster.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Yes",
     "css": "yes.css",
     "origin": ["England"],
@@ -1737,15 +1974,18 @@
       {
         "title": "1969",
         "svg": "yes_yes.svg"
-      }, {
+      },
+      {
         "title": "90125",
         "svg": "yes_90125.svg"
-      }, {
+      },
+      {
         "title": "Big Generator",
         "svg": "yes_big-generator.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Van Halen",
     "css": "van-halen.css",
     "origin": ["USA"],
@@ -1755,12 +1995,14 @@
       {
         "title": "II",
         "svg": "van-halen_II.svg"
-      }, {
+      },
+      {
         "title": "5150",
         "svg": "van-halen_5150.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Trivium",
     "origin": ["USA"],
     "genre": ["Heavy Metal"],
@@ -1771,21 +2013,24 @@
         "svg": "trivium_ascendancy.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Tianastácia",
     "origin": ["Brazil"],
     "genre": ["Hard Rock"],
-    "link": "http://tianastacia.com.br",
+    "link": "https://www.facebook.com/tiaoficial",
     "logos": [
       {
         "title": "Tianastácia",
         "svg": "tianastacia.svg"
-      }, {
+      },
+      {
         "title": "Tá na Boa",
         "svg": "tianastacia_ta-na-boa.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Thin Lizzy",
     "origin": ["Ireland"],
     "genre": ["Hard Rock"],
@@ -1796,7 +2041,8 @@
         "svg": "thin-lizzy_fighting.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Therion",
     "origin": ["Sweden"],
     "genre": ["Symphonic Metal"],
@@ -1807,7 +2053,8 @@
         "svg": "therion_vovin.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "X Japan",
     "origin": ["Japan"],
     "genre": ["Heavy Metal"],
@@ -1818,7 +2065,8 @@
         "svg": "x-japan_art-of-life.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "14 Bis",
     "css": "14-bis.css",
     "origin": ["Brazil"],
@@ -1830,7 +2078,8 @@
         "svg": "14-bis_ao-vivo.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Alice in Chains",
     "origin": ["USA"],
     "genre": ["Alternative Rock"],
@@ -1841,7 +2090,8 @@
         "svg": "alice-in-chains_facelift.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Doro Pesch",
     "origin": ["Germany"],
     "genre": ["Heavy Metal"],
@@ -1852,7 +2102,8 @@
         "svg": "doro_love-me-in-black.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Dokken",
     "origin": ["USA"],
     "genre": ["Heavy Metal"],
@@ -1863,7 +2114,8 @@
         "svg": "dokken_breaking-the-chains.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Dr. Sin",
     "origin": ["Brazil"],
     "genre": ["Heavy Metal"],
@@ -1874,7 +2126,8 @@
         "svg": "dr-sin_insinity.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Drowned",
     "origin": ["Brazil"],
     "genre": ["Death Metal"],
@@ -1885,7 +2138,8 @@
         "svg": "drowned_by-the-grace-of-evil.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "50 Cent",
     "css": "50-cent.css",
     "origin": ["USA"],
@@ -1897,7 +2151,8 @@
         "svg": "50-cent.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Babymetal",
     "origin": ["Japan"],
     "genre": ["Heavy Metal"],
@@ -1908,7 +2163,8 @@
         "svg": "babymetal.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Bon Jovi",
     "css": "bon-jovi.css",
     "origin": ["USA"],
@@ -1918,12 +2174,14 @@
       {
         "title": "Crush",
         "svg": "bon-jovi_crush.svg"
-      }, {
+      },
+      {
         "title": "Have a Nice Day Smile",
         "svg": "bon-jovi_have-a-nice-day-smile.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "James Hetfield",
     "origin": ["USA"],
     "genre": ["Thrash Metal"],
@@ -1934,7 +2192,8 @@
         "svg": "james-hetfield_autograph.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Edguy",
     "origin": ["Germany"],
     "genre": ["Power Metal"],
@@ -1945,7 +2204,8 @@
         "svg": "edguy_kingdom-of-madness.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Eddie Van Halen",
     "origin": ["USA"],
     "genre": ["Hard Rock"],
@@ -1956,7 +2216,8 @@
         "svg": "eddie-van-halen_evh.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Gamma Ray",
     "origin": ["Germany"],
     "genre": ["Power Metal"],
@@ -1967,7 +2228,8 @@
         "svg": "gamma-ray_land-of-the-free.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The Police",
     "origin": ["England"],
     "genre": ["Reggae Rock"],
@@ -1978,7 +2240,8 @@
         "svg": "the-police_ghost-in-the-machine.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Rage",
     "origin": ["Germany"],
     "genre": ["Heavy Metal"],
@@ -1989,7 +2252,8 @@
         "svg": "rage_black-in-mind.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Abba",
     "origin": ["Sweden"],
     "genre": ["Disco"],
@@ -2000,7 +2264,8 @@
         "svg": "abba_arrival.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Tiësto",
     "origin": ["Netherlands"],
     "genre": ["Eletronic"],
@@ -2011,7 +2276,8 @@
         "svg": "tiesto_elements-of-life.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The Cure",
     "origin": ["England"],
     "genre": ["Alternative Rock"],
@@ -2020,15 +2286,18 @@
       {
         "title": "Wish",
         "svg": "the-cure_wish.svg"
-      }, {
+      },
+      {
         "title": "Kiss Me, Kiss Me, Kiss Me",
         "svg": "the-cure_kiss-me.svg"
-      }, {
+      },
+      {
         "title": "4.13",
         "svg": "the-cure_4.13.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Papa Roach",
     "origin": ["USA"],
     "genre": ["Alternative Rock"],
@@ -2039,7 +2308,8 @@
         "svg": "papa-roach_old-friends-from-young-years.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Kiko Loureiro",
     "origin": ["Brazil"],
     "genre": ["Power Metal"],
@@ -2050,7 +2320,8 @@
         "svg": "kiko-loureiro.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Ozzy Osbourne",
     "origin": ["England"],
     "genre": ["Heavy Metal"],
@@ -2059,12 +2330,14 @@
       {
         "title": "Blizzard Of Ozz",
         "svg": "ozzy-osbourne_blizzard-of-ozz.svg"
-      }, {
+      },
+      {
         "title": "No More Tours II",
         "svg": "ozzy-osbourne_no-more-tours-II.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "David Guetta",
     "origin": ["France"],
     "genre": ["Electro"],
@@ -2075,7 +2348,8 @@
         "svg": "david-guetta_one-love.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Enya",
     "origin": ["Ireland"],
     "genre": ["New Age"],
@@ -2086,7 +2360,8 @@
         "svg": "enya_watermark.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Exciter",
     "origin": ["Canada"],
     "genre": ["Speed Metal"],
@@ -2097,7 +2372,8 @@
         "svg": "exciter_heavy-metal-maniac.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Oasis",
     "origin": ["oasis.css"],
     "origin": ["England"],
@@ -2109,7 +2385,8 @@
         "svg": "oasis_definitely-maybe.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Muse",
     "origin": ["England"],
     "genre": ["Alternative Rock"],
@@ -2120,7 +2397,8 @@
         "svg": "muse_showbiz.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The Big 4 - Metallica, Slayer, Megadeth, Anthrax",
     "nameTemplate": "The Big 4 - <a href=\"https://www.metallica.com\" class=\"card__link\" title=\"Metallica's website\">Metallica</a>, <a href=\"https://www.slayer.net\" class=\"card__link\" title=\"Slayer's website\">Slayer</a>, <a href=\"https://www.megadeth.com\" class=\"card__link\" title=\"Megadeth's website\">Megadeth</a>, <a href=\"https://anthrax.com\" class=\"card__link\" title=\"Anthrax's website\">Anthrax</a>",
     "origin": ["USA"],
@@ -2132,7 +2410,8 @@
         "svg": "the-big-four_live-from-sofia.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Guns N' Roses",
     "css": "guns-n-roses.css",
     "origin": ["USA"],
@@ -2142,29 +2421,36 @@
       {
         "title": "Appetite For Destruction",
         "svg": "guns-n-roses_appetite-for-destruction.svg"
-      }, {
+      },
+      {
         "title": "Gn'F'nR's!",
         "svg": "guns-n-roses_g-n-f-r.svg"
-      }, {
+      },
+      {
         "title": "#GnFnR",
         "svg": "guns-n-roses_g-f-r.svg"
-      }, {
+      },
+      {
         "title": "Bullet",
         "svg": "guns-n-roses_bullet.svg"
-      }, {
+      },
+      {
         "title": "Neon",
         "svg": "guns-n-roses_neon.svg",
         "inverse": true
-      }, {
+      },
+      {
         "title": "Troubadour",
         "svg": "guns-n-roses_troubadour.svg",
         "inverse": true
-      }, {
+      },
+      {
         "title": "Live Era",
         "svg": "guns-n-roses_live-era.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Grave Digger",
     "origin": ["Germany"],
     "genre": ["Heavy Metal"],
@@ -2175,7 +2461,8 @@
         "svg": "grave-digger_heavy-metal-breakdown.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Metal Church",
     "css": "metal-church.css",
     "origin": ["USA"],
@@ -2188,7 +2475,8 @@
         "inverse": true
       }
     ]
-  },  {
+  },
+  {
     "name": "Audioslave",
     "css": "audioslave.css",
     "origin": ["USA"],
@@ -2200,7 +2488,8 @@
         "svg": "audioslave.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Type O Negative",
     "origin": ["USA"],
     "genre": ["Doom Metal"],
@@ -2211,7 +2500,8 @@
         "svg": "type-o-negative_0-negative.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Annihilator",
     "origin": ["Canada"],
     "genre": ["Thrash Metal"],
@@ -2222,18 +2512,20 @@
         "svg": "annihilator_all-for-you.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Prince",
     "origin": ["USA"],
     "genre": ["Funk", "Pop", "R&B", "Rock"],
-    "link": "https://www.officialprincemusic.com",
+    "link": "http://www.officialprincemusic.com",
     "logos": [
       {
         "title": "Love Symbol",
         "svg": "prince_love-symbol.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Eminence",
     "origin": ["Brazil"],
     "genre": ["Brutal Metal"],
@@ -2242,24 +2534,30 @@
       {
         "title": "Chaotic System",
         "svg": "eminence_chaotic-system.svg"
-      }, {
+      },
+      {
         "title": "Humanology",
         "svg": "eminence_humanology.svg"
-      }, {
+      },
+      {
         "title": "E Symbol",
         "svg": "eminence_symbol.svg"
-      }, {
+      },
+      {
         "title": "The God Of All Mistakes",
         "svg": "eminence_the-god-of-all-mistakes.svg"
-      }, {
+      },
+      {
         "title": "The God Of All Mistakes Single",
         "svg": "eminence_the-god-of-all-mistakes-single.svg"
-      }, {
+      },
+      {
         "title": "The Stalker",
         "svg": "eminence_the-stalker.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Deep Forest",
     "origin": ["France"],
     "genre": ["Eletronic"],
@@ -2268,12 +2566,14 @@
       {
         "title": "Boheme",
         "svg": "deep-forest_boheme.svg"
-      }, {
+      },
+      {
         "title": "Symbol",
         "svg": "deep-forest_symbol.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Emerson, Lake & Palmer",
     "origin": ["England"],
     "genre": ["Progressive Rock"],
@@ -2284,7 +2584,8 @@
         "svg": "emerson_lake_palmer-elp.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Bartucada",
     "css": "bartucada.css",
     "origin": ["Brazil"],
@@ -2297,7 +2598,8 @@
         "inverse": true
       }
     ]
-  },  {
+  },
+  {
     "name": "Beastie Boys",
     "origin": ["USA"],
     "genre": ["Hip Hop"],
@@ -2306,12 +2608,14 @@
       {
         "title": "Check Your Head",
         "svg": "beastie-boys_check-your-head.svg"
-      }, {
+      },
+      {
         "title": "Body Movin",
         "svg": "beastie-boys_body-movin.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Eminem",
     "origin": ["USA"],
     "genre": ["Hip Hop"],
@@ -2322,7 +2626,8 @@
         "svg": "eminem_the-marshall-mathers-lp.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Jota Quest",
     "css": "jota-quest.css",
     "origin": ["Brazil"],
@@ -2334,7 +2639,8 @@
         "svg": "jota-quest_discotecagem-pop-variada.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Steve Vai",
     "origin": ["USA"],
     "genre": ["Instrumental rock"],
@@ -2345,7 +2651,8 @@
         "svg": "steve-vai_v-a-eye.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Mastodon",
     "origin": ["USA"],
     "genre": ["Progressive Metal"],
@@ -2356,7 +2663,8 @@
         "svg": "mastodon_the-hunter.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Meshuggah",
     "origin": ["Sweden"],
     "genre": ["Progressive Metal"],
@@ -2367,7 +2675,8 @@
         "svg": "meshuggah_nothing.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "The Rolling Stones",
     "origin": ["England"],
     "genre": ["Rock"],
@@ -2378,7 +2687,8 @@
         "svg": "the-rolling-stones_flashpoint.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Enforcer",
     "origin": ["Sweden"],
     "genre": ["Speed Metal"],
@@ -2390,7 +2700,8 @@
         "inverse": true
       }
     ]
-  },  {
+  },
+  {
     "name": "Foo Fighters",
     "origin": ["USA"],
     "genre": ["Alternative Rock"],
@@ -2401,7 +2712,8 @@
         "svg": "foo-fighters_echoes-silence-patience-and-grace.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Ween",
     "origin": ["USA"],
     "genre": ["Alternative Rock"],
@@ -2412,7 +2724,8 @@
         "svg": "ween_boognish.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Grand Funk Railroad",
     "origin": ["USA"],
     "genre": ["Hard Rock"],
@@ -2423,7 +2736,8 @@
         "svg": "grand-funk-railroad_pointing-finger.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Antidemon",
     "origin": ["Brazil"],
     "genre": ["Grindcore"],
@@ -2434,7 +2748,8 @@
         "svg": "antidemon_demonocideo.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Genesis",
     "origin": ["England"],
     "genre": ["Progressive Rock"],
@@ -2445,7 +2760,8 @@
         "svg": "genesis_we-cant-dance.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Tools",
     "origin": ["USA"],
     "genre": ["Alternative Metal"],
@@ -2456,7 +2772,8 @@
         "svg": "tool_sober.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Tash Sultana",
     "origin": ["Australia"],
     "genre": ["Psychedelic Rock"],
@@ -2467,7 +2784,8 @@
         "svg": "tash-sultana_notion-ep.svg"
       }
     ]
-  },  {
+  },
+  {
     "name": "Airbourne",
     "css": "airbourne.css",
     "origin": ["Australia"],
@@ -2480,7 +2798,8 @@
         "inverse": true
       }
     ]
-  },  {
+  },
+  {
     "name": "Dimmu Borgir",
     "origin": ["Norway"],
     "genre": ["Symphonic Black Metal"],
