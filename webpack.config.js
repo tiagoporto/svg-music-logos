@@ -9,6 +9,7 @@ const path = require('path')
 const config = require('./.swillrc.json')
 const webpack = require('webpack')
 const paths = config.basePaths
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 const webpackConfig = {
   devServer: {
@@ -88,6 +89,7 @@ const webpackConfig = {
     }
   },
   plugins: [
+    new VueLoaderPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)
