@@ -8,7 +8,6 @@
 ![Total Origins](https://img.shields.io/badge/origins-20-blue.svg?style=flat-square)
 ![Total Genres](https://img.shields.io/badge/genres-52-blue.svg?style=flat-square)
 ![Total Logos](https://img.shields.io/badge/logos-318-blue.svg?style=flat-square)
-
 [![Artists links](https://img.shields.io/travis/com/tiagoporto/svg-music-logos/master.svg?style=flat-square&label=links)](https://travis-ci.com/tiagoporto/svg-music-logos)
 ![Website](https://img.shields.io/website/https/tiagoporto.github.io/svg-music-logos.svg?down_color=lightgrey&down_message=offline&style=flat-square&up_message=online)
 
