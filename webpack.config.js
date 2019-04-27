@@ -1,10 +1,3 @@
-/*
-* Swill Boilerplate v1.0.0beta
-* https://github.com/tiagoporto/swill-boilerplate
-* Copyright (c) 2014-2017 Tiago Porto (http://tiagoporto.com)
-* Released under the MIT license
-*/
-
 const path = require('path')
 const config = require('./.swillrc.json')
 const webpack = require('webpack')
@@ -26,7 +19,7 @@ const webpackConfig = {
   },
   entry: path.join(__dirname, paths.src, 'index.js'),
   output: {
-    path: path.resolve(__dirname, process.env.NODE_ENV === 'production' ? paths.dist : paths.src),
+    path: '',
     filename: 'bundle.js'
   },
   module: {
@@ -40,7 +33,8 @@ const webpackConfig = {
             cacheDirectory: true
           }
         }
-      }, {
+      },
+      {
         test: /\.vue$/,
         // exclude: /(node_modules)/,
         use: {
@@ -49,7 +43,8 @@ const webpackConfig = {
             cacheDirectory: true
           }
         }
-      }, {
+      },
+      {
         test: /\.styl$/,
         use: [
           'style-loader',
@@ -66,13 +61,12 @@ const webpackConfig = {
           },
           'stylus-loader'
         ]
-      }, {
+      },
+      {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader'
-        ]
-      }, {
+        use: ['style-loader', 'css-loader']
+      },
+      {
         test: /\.(ttf|woff|woff2|eot|svg)$/,
         use: [
           {
@@ -88,6 +82,9 @@ const webpackConfig = {
       vue: 'vue/dist/vue.common.js'
     }
   },
+  optimization: {
+    minimize: false
+  },
   plugins: [
     new VueLoaderPlugin(),
     new webpack.DefinePlugin({
@@ -99,6 +96,15 @@ const webpackConfig = {
   ]
 }
 
-process.env.NODE_ENV === 'production' && webpackConfig.plugins.push(new webpack.optimize.UglifyJsPlugin())
+module.exports = (env, {mode}) => {
+  const isProd = mode === 'production'
 
-module.exports = webpackConfig
+  isProd && (webpackConfig.optimization.minimize = true)
+
+  webpackConfig.output.path = path.resolve(
+    __dirname,
+    isProd ? paths.dist : paths.src
+  )
+
+  return webpackConfig
+}
