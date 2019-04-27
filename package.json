@@ -26,7 +26,7 @@
     "build": "gulp clean && npm run scripts:build && gulp build",
     "deploy": "gulp clean && npm run scripts:build && gulp gh-pages",
     "scripts": "webpack --progress",
-    "scripts:build": "NODE_ENV=production webpack",
+    "scripts:build": "webpack --mode=production",
     "lint": "eslint src/.",
     "lint:fix": "npm run lint -- --fix",
     "cover": "nyc --reporter=lcov npm test",
