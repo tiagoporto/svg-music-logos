@@ -1,0 +1,10 @@
+<!--
+  SVG Music Logos
+  Type O Negative - O- Symbol v1.0.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M100 1C45.324 1 1 45.323 1 100c0 54.676 44.324 99 99 99s99-44.324 99-99c0-54.677-44.323-99-99-99zm0 164.52c-36.184 0-65.518-29.335-65.518-65.52 0-36.184 29.334-65.518 65.518-65.518s65.52 29.333 65.52 65.52c0 36.182-29.336 65.517-65.52 65.517z"/>
+  <rect x="51.083" y="83.263" width="97.835" height="33.475"/>
+</svg>

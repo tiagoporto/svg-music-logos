@@ -1,0 +1,14 @@
+<!--
+  SVG Music Logos
+  Megadeth - Rust In Peace Nuclear Symbol v1.0.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="megadeth--rust-in-peace-nuclear-symbol">
+  <circle class="megadeth__circle" cx="100" cy="100" r="95"/>
+  <g class="megadeth__triangles">
+    <polygon points="53.559 181.965 100 100 146.441 181.965"/>
+    <polygon points="5 100 52.5 18.035 100 100"/>
+    <polygon points="100 100 147.5 18.035 195 100"/>
+  </g>
+</svg>
