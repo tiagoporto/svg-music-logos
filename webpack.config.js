@@ -17,10 +17,12 @@ const webpackConfig = {
       path.join(__dirname, paths.src, 'logos')
     ]
   },
-  entry: path.join(__dirname, paths.src, 'index.js'),
+  entry: {
+    app: path.join(__dirname, paths.src, 'index.js')
+  },
   output: {
     path: '',
-    filename: 'bundle.js'
+    filename: '[name].bundle.js'
   },
   module: {
     rules: [
@@ -67,39 +69,51 @@ const webpackConfig = {
         use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.(ttf|woff|woff2|eot|svg)$/,
+        test: /\.(svg)$/,
         use: [
           {
-            loader: 'file-loader'
+            loader: 'file-loader',
+            options: {
+              outputPath: 'flags'
+            }
           }
         ]
       }
     ]
   },
   resolve: {
-    extensions: ['*', '.js', '.vue', '.json'],
+    extensions: ['.js', '.vue'],
     alias: {
       vue: 'vue/dist/vue.common.js'
     }
   },
   optimization: {
-    minimize: false
-  },
-  plugins: [
-    new VueLoaderPlugin(),
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify(process.env.NODE_ENV)
+    minimize: false,
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /node_modules/,
+          chunks: 'initial',
+          name: 'vendors',
+          enforce: true
+        }
       }
-    }),
-    new webpack.HotModuleReplacementPlugin()
-  ]
+    }
+  },
+  plugins: [new VueLoaderPlugin(), new webpack.HotModuleReplacementPlugin()]
 }
 
 module.exports = (env, {mode}) => {
   const isProd = mode === 'production'
 
-  isProd && (webpackConfig.optimization.minimize = true)
+  if (isProd) {
+    webpackConfig.optimization.minimize = true
+    webpackConfig.plugins.push(
+      new webpack.EnvironmentPlugin({
+        NODE_ENV: mode
+      })
+    )
+  }
 
   webpackConfig.output.path = path.resolve(
     __dirname,

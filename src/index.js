@@ -1,7 +1,7 @@
 import './styles/index.js'
 import App from './App.vue'
 import FlagIcon from 'vue-flag-icon'
-import {registerServiceWorker} from './serviceWorker.js'
+import { registerServiceWorker } from './serviceWorker.js'
 import Vue from 'vue'
 import VueAnalytics from 'vue-analytics'
 import VueRouter from 'vue-router'
@@ -14,7 +14,8 @@ const router = new VueRouter({
     {
       path: '/',
       component: App
-    }, {
+    },
+    {
       path: '/search',
       name: 'search',
       query: {
@@ -23,7 +24,8 @@ const router = new VueRouter({
         genre: null
       },
       component: App
-    }, {
+    },
+    {
       path: '*',
       redirect: '/'
     }
@@ -36,7 +38,7 @@ router.beforeEach((to, from, next) => {
   }
 
   if (!hasQueryParams(to) && hasQueryParams(from)) {
-    next({name: to.name, query: from.query})
+    next({ name: to.name, query: from.query })
   } else {
     next()
   }
