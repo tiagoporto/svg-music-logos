@@ -1,7 +1,6 @@
 const autoprefixer = require('gulp-autoprefixer')
 const config = require('./.swillrc.json')
 const file = require('gulp-file')
-const ghPages = require('gulp-gh-pages')
 const gulp = require('gulp')
 const mergeMediaQueries = require('gulp-merge-media-queries')
 const imagemin = require('gulp-imagemin')
@@ -40,12 +39,25 @@ paths.styles = {
 // ******************************** Tasks ********************************* //
 
 gulp.task('update-readme', () => {
-  gulp.src(['./README.md'])
-    .pipe(replace(/!\[Total[\W\w]+\(https:\/\/img\.shields\.io\/badge\/logos-316-blue\.svg\?style=flat-square\)/,
-`![Total Artists](https://img.shields.io/badge/artists-${data.artists.length}-blue.svg?style=flat-square)
-![Total Origins](https://img.shields.io/badge/origins-${data.origins.length}-blue.svg?style=flat-square)
-![Total Genres](https://img.shields.io/badge/genres-${data.genres.length}-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-${data.logos.length}-blue.svg?style=flat-square)`))
+  gulp
+    .src(['./README.md'])
+    .pipe(
+      replace(
+        /!\[Total[\W\w]+\(https:\/\/img\.shields\.io\/badge\/logos-316-blue\.svg\?style=flat-square\)/,
+        `![Total Artists](https://img.shields.io/badge/artists-${
+          data.artists.length
+        }-blue.svg?style=flat-square)
+![Total Origins](https://img.shields.io/badge/origins-${
+  data.origins.length
+}-blue.svg?style=flat-square)
+![Total Genres](https://img.shields.io/badge/genres-${
+  data.genres.length
+}-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-${
+  data.logos.length
+}-blue.svg?style=flat-square)`
+      )
+    )
     .pipe(gulp.dest('./'))
 })
 
@@ -55,35 +67,46 @@ gulp.task('styles', () => {
       .pipe(plumber())
       .pipe(
         stylus({
-          'include': [
-            'node_modules'
-          ],
+          'include': ['node_modules'],
           'include css': true
+        }).on('error', err => {
+          console.log(err.message)
+          // If rename the stylus file change here
+          file(
+            'styles.css',
+            `body:before{white-space: pre; font-family: monospace; content: "${
+              err.message
+            }";}`,
+            {src: true}
+          )
+            .pipe(replace('\\', '/'))
+            .pipe(replace(/\n/gm, '\\A '))
+            .pipe(replace('"', "'"))
+            .pipe(replace("content: '", 'content: "'))
+            .pipe(replace("';}", '";}'))
+            .pipe(gulp.dest(paths.styles.dest))
+            .pipe(rename({suffix: '.min'}))
+            .pipe(gulp.dest(paths.styles.dest))
         })
-          .on('error', err => {
-            console.log(err.message)
-            // If rename the stylus file change here
-            file('styles.css', `body:before{white-space: pre; font-family: monospace; content: "${err.message}";}`, {src: true})
-              .pipe(replace('\\', '/'))
-              .pipe(replace(/\n/gm, '\\A '))
-              .pipe(replace('"', '\''))
-              .pipe(replace("content: '", 'content: "'))
-              .pipe(replace('\';}', '";}'))
-              .pipe(gulp.dest(paths.styles.dest))
-              .pipe(rename({suffix: '.min'}))
-              .pipe(gulp.dest(paths.styles.dest))
-          }))
+      )
       .pipe(autoprefixer({browsers: config.autoprefixerBrowsers}))
       .pipe(mergeMediaQueries({log: true}))
       .pipe(gulp.dest(path.join(paths.src, 'logos')))
   }
 
   return streaming(
-    gulp.src([
-      path.join(paths.styles.src, 'logos/*.styl'),
-      path.join(`!${paths.styles.src}`, '**/_*.styl')
-    ])
-      .pipe(newer({dest: path.join(paths.src, 'logos'), ext: '.css', extra: paths.styles.src}))
+    gulp
+      .src([
+        path.join(paths.styles.src, 'logos/*.styl'),
+        path.join(`!${paths.styles.src}`, '**/_*.styl')
+      ])
+      .pipe(
+        newer({
+          dest: path.join(paths.src, 'logos'),
+          ext: '.css',
+          extra: paths.styles.src
+        })
+      )
   )
 })
 
@@ -95,13 +118,17 @@ gulp.task('images', () => {
     ])
     .pipe(plumber())
     .pipe(newer(paths.images.dist))
-    .pipe(imagemin([
-      imagemin.jpegtran({progressive: true}),
-      imagemin.optipng({optimizationLevel: 5})
-    ], {
-      verbose: true
-    }
-    ))
+    .pipe(
+      imagemin(
+        [
+          imagemin.jpegtran({progressive: true}),
+          imagemin.optipng({optimizationLevel: 5})
+        ],
+        {
+          verbose: true
+        }
+      )
+    )
     .pipe(gulp.dest(paths.images.dist))
 })
 // *************************** Utility Tasks ****************************** //
@@ -118,11 +145,17 @@ gulp.task('watch', () => {
 
 gulp.task('copy', () => {
   return gulp
-    .src([
-      path.join(paths.src, '*.*'),
-      path.join(`!${paths.src}`, '*.{vue}'),
-      path.join(paths.src, 'logos/**/*')
-    ], {base: `./${paths.src}`})
+    .src(
+      [
+        path.join(paths.src, '*.*'),
+        path.join(`!${paths.src}`, '*.vue'),
+        path.join(`!${paths.src}`, 'serviceWorker.js'),
+        path.join(`!${paths.src}`, 'index.js'),
+        path.join(`!${paths.src}`, 'data.js'),
+        path.join(paths.src, 'logos/**/*')
+      ],
+      {base: `./${paths.src}`}
+    )
     .pipe(gulp.dest(paths.dist))
 })
 
@@ -131,11 +164,4 @@ gulp.task('copy', () => {
 // Build Project
 gulp.task('build', callback => {
   sequence('styles', ['update-readme', 'images', 'copy'], () => callback())
-})
-
-// Build the project and push the builded folder to gh-pages branch
-gulp.task('gh-pages', ['build'], () => {
-  return gulp
-    .src(path.join(paths.dist, '**/*'))
-    .pipe(ghPages())
 })
