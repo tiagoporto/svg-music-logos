@@ -2514,6 +2514,18 @@
     ]
   },
   {
+    "name": "Amy Lee",
+    "origin": ["USA"],
+    "genre": ["Nu Metal"],
+    "link": "http://www.amyleeofficial.com",
+    "logos": [
+      {
+        "title": "Recover, Vol. 1",
+        "svg": "amy-lee_recover_vol-1.svg"
+      }
+    ]
+  },
+  {
     "name": "Prince",
     "origin": ["USA"],
     "genre": ["Funk", "Pop", "R&B", "Rock"],
