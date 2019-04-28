@@ -2,4 +2,4 @@ before_script:
   - gem install awesome_bot
 
 script:
-  - awesome_bot src/data.json --allow-redirect --allow-dupe
+  - awesome_bot src/data.json --allow-redirect --request-delay 10
