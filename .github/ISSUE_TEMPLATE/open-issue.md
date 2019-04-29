@@ -1,6 +1,6 @@
 ---
 name: Open issue
-about: Describe this issue template's purpose here.
+about: Open new issue.
 title: ''
 labels: ''
 assignees: ''
