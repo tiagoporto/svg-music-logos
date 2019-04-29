@@ -478,6 +478,10 @@
     "link": "http://anti-flag.com",
     "logos": [
       {
+        "title": "American Fall",
+        "svg": "anti-flag_american-fall.svg"
+      },
+      {
         "title": "The People or the Gun",
         "svg": "anti-flag_the-people-or-the-gun.svg"
       }
@@ -2510,6 +2514,18 @@
       {
         "title": "All For You",
         "svg": "annihilator_all-for-you.svg"
+      }
+    ]
+  },
+  {
+    "name": "Amy Lee",
+    "origin": ["USA"],
+    "genre": ["Nu Metal"],
+    "link": "http://www.amyleeofficial.com",
+    "logos": [
+      {
+        "title": "Recover, Vol. 1",
+        "svg": "amy-lee_recover_vol-1.svg"
       }
     ]
   },
