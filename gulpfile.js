@@ -43,19 +43,13 @@ gulp.task('update-readme', () => {
     .src(['./README.md'])
     .pipe(
       replace(
-        /!\[Total[\W\w]+\(https:\/\/img\.shields\.io\/badge\/logos-316-blue\.svg\?style=flat-square\)/,
-        `![Total Artists](https://img.shields.io/badge/artists-${
-          data.artists.length
-        }-blue.svg?style=flat-square)
-![Total Origins](https://img.shields.io/badge/origins-${
-  data.origins.length
-}-blue.svg?style=flat-square)
-![Total Genres](https://img.shields.io/badge/genres-${
-  data.genres.length
-}-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-${
-  data.logos.length
-}-blue.svg?style=flat-square)`
+        /<!-- replace start -->[\W\w]+<!-- replace end -->/,
+        `<!-- replace end -->
+![Total Artists](https://img.shields.io/badge/artists-${data.artists.length}-blue.svg?style=flat-square)
+![Total Origins](https://img.shields.io/badge/origins-${data.origins.length}-blue.svg?style=flat-square)
+![Total Genres](https://img.shields.io/badge/genres-${data.genres.length}-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-${data.logos.length}-blue.svg?style=flat-square)
+<!-- replace end -->`
       )
     )
     .pipe(gulp.dest('./'))
@@ -67,7 +61,7 @@ gulp.task('styles', () => {
       .pipe(plumber())
       .pipe(
         stylus({
-          'include': ['node_modules'],
+          include: ['node_modules'],
           'include css': true
         }).on('error', err => {
           console.log(err.message)
@@ -75,9 +69,9 @@ gulp.task('styles', () => {
           file(
             'styles.css',
             `body:before{white-space: pre; font-family: monospace; content: "${
-              err.message
+            err.message
             }";}`,
-            {src: true}
+            { src: true }
           )
             .pipe(replace('\\', '/'))
             .pipe(replace(/\n/gm, '\\A '))
@@ -85,12 +79,12 @@ gulp.task('styles', () => {
             .pipe(replace("content: '", 'content: "'))
             .pipe(replace("';}", '";}'))
             .pipe(gulp.dest(paths.styles.dest))
-            .pipe(rename({suffix: '.min'}))
+            .pipe(rename({ suffix: '.min' }))
             .pipe(gulp.dest(paths.styles.dest))
         })
       )
-      .pipe(autoprefixer({browsers: config.autoprefixerBrowsers}))
-      .pipe(mergeMediaQueries({log: true}))
+      .pipe(autoprefixer({ browsers: config.autoprefixerBrowsers }))
+      .pipe(mergeMediaQueries({ log: true }))
       .pipe(gulp.dest(path.join(paths.src, 'logos')))
   }
 
@@ -121,8 +115,8 @@ gulp.task('images', () => {
     .pipe(
       imagemin(
         [
-          imagemin.jpegtran({progressive: true}),
-          imagemin.optipng({optimizationLevel: 5})
+          imagemin.jpegtran({ progressive: true }),
+          imagemin.optipng({ optimizationLevel: 5 })
         ],
         {
           verbose: true
@@ -154,7 +148,7 @@ gulp.task('copy', () => {
         path.join(`!${paths.src}`, 'data.js'),
         path.join(paths.src, 'logos/**/*')
       ],
-      {base: `./${paths.src}`}
+      { base: `./${paths.src}` }
     )
     .pipe(gulp.dest(paths.dist))
 })
