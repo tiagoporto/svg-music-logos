@@ -4,11 +4,11 @@
   <code>LIKED ? Leave a <a href="https://github.com/tiagoporto/svg-music-logos/stargazers">⭐</a> : <a href="https://github.com/tiagoporto/svg-music-logos/issues">😞</a></code>
 </p>
 
-<!-- replace end -->
+<!-- replace start -->
 ![Total Artists](https://img.shields.io/badge/artists-179-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-323-blue.svg?style=flat-square)
 ![Total Origins](https://img.shields.io/badge/origins-20-blue.svg?style=flat-square)
 ![Total Genres](https://img.shields.io/badge/genres-52-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-323-blue.svg?style=flat-square)
 <!-- replace end -->
 
 [![Artists links](https://img.shields.io/travis/com/tiagoporto/svg-music-logos/master.svg?style=flat-square&label=links)](https://travis-ci.com/tiagoporto/svg-music-logos)
