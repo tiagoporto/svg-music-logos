@@ -2379,7 +2379,7 @@
   },
   {
     "name": "Oasis",
-    "origin": ["oasis.css"],
+    "css": ["oasis.css"],
     "origin": ["England"],
     "genre": ["Alternative Rock"],
     "link": "http://www.oasisinet.com",
