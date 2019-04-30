@@ -2314,6 +2314,20 @@
     ]
   },
   {
+    "name": "Doyle Wolfgang von Frankenstein",
+    "origin": ["USA"],
+    "css": "doyle-wolfgang-von-frankenstein.css",
+    "genre": ["Punk", "Hardcore"],
+    "link": "http://officialdoyle.com",
+    "logos": [
+      {
+        "title": "Skull",
+        "svg": "doyle-wolfgang-von-frankenstein_skull.svg",
+        "inverse": true
+      }
+    ]
+  },
+  {
     "name": "Kiko Loureiro",
     "origin": ["Brazil"],
     "genre": ["Power Metal"],
@@ -2379,7 +2393,7 @@
   },
   {
     "name": "Oasis",
-    "css": ["oasis.css"],
+    "css": "oasis.css",
     "origin": ["England"],
     "genre": ["Alternative Rock"],
     "link": "http://www.oasisinet.com",
