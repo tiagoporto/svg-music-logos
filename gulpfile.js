@@ -3,32 +3,21 @@ const config = require('./.swillrc.json')
 const file = require('gulp-file')
 const gulp = require('gulp')
 const mergeMediaQueries = require('gulp-merge-media-queries')
-const imagemin = require('gulp-imagemin')
 const newer = require('gulp-newer')
 const path = require('path')
 const plumber = require('gulp-plumber')
 const rename = require('gulp-rename')
 const replace = require('gulp-replace')
-const sequence = require('run-sequence')
 const stylus = require('gulp-stylus')
 const del = require('del')
 const data = require('./src/data.js')
+var jsonConcat = require('gulp-concat-jsons')
+var jsonminify = require('gulp-jsonminify')
+var gulpIgnore = require('gulp-ignore')
 
 // ***************************** Path configs ***************************** //
 
 const paths = config.basePaths
-
-paths.images = {
-  src: path.join(paths.src, paths.images),
-  dist: path.join(paths.dist, paths.images),
-  build: path.join(paths.build, paths.images)
-}
-
-paths.scripts = {
-  src: path.join(paths.src, paths.scripts),
-  dist: path.join(paths.dist, paths.scripts),
-  build: path.join(paths.build, paths.scripts)
-}
 
 paths.styles = {
   src: path.join(paths.src, paths.styles),
@@ -38,106 +27,91 @@ paths.styles = {
 
 // ******************************** Tasks ********************************* //
 
-gulp.task('update-readme', () => {
-  gulp
-    .src(['./README.md'])
+const updateReadme = () => {
+  return gulp
+    .src('./README.md')
     .pipe(
       replace(
         /<!-- replace start -->[\W\w]+<!-- replace end -->/,
         `<!-- replace start -->
-![Total Artists](https://img.shields.io/badge/artists-${data.artists.length}-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-${data.logos.length}-blue.svg?style=flat-square)
-![Total Origins](https://img.shields.io/badge/origins-${data.origins.length}-blue.svg?style=flat-square)
-![Total Genres](https://img.shields.io/badge/genres-${data.genres.length}-blue.svg?style=flat-square)
+![Total Artists](https://img.shields.io/badge/artists-${
+  data.artists.length
+}-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-${
+  data.logos.length
+}-blue.svg?style=flat-square)
+![Total Origins](https://img.shields.io/badge/origins-${
+  data.origins.length
+}-blue.svg?style=flat-square)
+![Total Genres](https://img.shields.io/badge/genres-${
+  data.genres.length
+}-blue.svg?style=flat-square)
 <!-- replace end -->`
       )
     )
     .pipe(gulp.dest('./'))
-})
+}
 
-gulp.task('styles', () => {
-  const streaming = src => {
-    return src
-      .pipe(plumber())
-      .pipe(
-        stylus({
-          include: ['node_modules'],
-          'include css': true
-        }).on('error', err => {
-          console.log(err.message)
-          // If rename the stylus file change here
-          file(
-            'styles.css',
-            `body:before{white-space: pre; font-family: monospace; content: "${
-            err.message
-            }";}`,
-            { src: true }
-          )
-            .pipe(replace('\\', '/'))
-            .pipe(replace(/\n/gm, '\\A '))
-            .pipe(replace('"', "'"))
-            .pipe(replace("content: '", 'content: "'))
-            .pipe(replace("';}", '";}'))
-            .pipe(gulp.dest(paths.styles.dest))
-            .pipe(rename({ suffix: '.min' }))
-            .pipe(gulp.dest(paths.styles.dest))
-        })
-      )
-      .pipe(autoprefixer({ browsers: config.autoprefixerBrowsers }))
-      .pipe(mergeMediaQueries({ log: true }))
-      .pipe(gulp.dest(path.join(paths.src, 'logos')))
-  }
+// const streaming = src => {
+//   return src
+//     .pipe(plumber())
+//     .pipe(
+//       stylus({
+//         include: ['node_modules'],
+//         'include css': true
+//       }).on('error', err => {
+//         console.log(err.message)
+//         // If rename the stylus file change here
+//         file(
+//           'styles.css',
+//           `body:before{white-space: pre; font-family: monospace; content: "${
+//             err.message
+//           }";}`,
+//           { src: true }
+//         )
+//           .pipe(replace('\\', '/'))
+//           .pipe(replace(/\n/gm, '\\A '))
+//           .pipe(replace('"', "'"))
+//           .pipe(replace("content: '", 'content: "'))
+//           .pipe(replace("';}", '";}'))
+//           .pipe(gulp.dest(paths.styles.dest))
+//       })
+//     )
+//     .pipe(autoprefixer({ browsers: config.autoprefixerBrowsers }))
+//     .pipe(mergeMediaQueries({ log: true }))
+//     .pipe(gulp.dest(path.join(__dirname, 'public/logos')))
+// }
 
-  return streaming(
-    gulp
-      .src([
-        path.join(paths.styles.src, 'logos/*.styl'),
-        path.join(`!${paths.styles.src}`, '**/_*.styl')
-      ])
-      .pipe(
-        newer({
-          dest: path.join(paths.src, 'logos'),
-          ext: '.css',
-          extra: paths.styles.src
-        })
-      )
-  )
-})
-
-gulp.task('images', () => {
+// return streaming(
+// )
+/** newer({
+     dest: path.join(paths.src, 'logos'),
+     ext: '.css',
+     extra: paths.styles.src
+   }) */
+const styles = () => {
   return gulp
-    .src([
-      path.join(paths.images.src, '**/*.{bmp,gif,jpg,jpeg,png,svg,eps}'),
-      path.join(`!${paths.images.src}`, 'sprite/**/*')
-    ])
-    .pipe(plumber())
-    .pipe(newer(paths.images.dist))
+    .src('public/logos/*.styl')
     .pipe(
-      imagemin(
-        [
-          imagemin.jpegtran({ progressive: true }),
-          imagemin.optipng({ optimizationLevel: 5 })
-        ],
-        {
-          verbose: true
-        }
-      )
+      stylus({
+        include: ['node_modules'],
+        'include css': true
+      })
     )
-    .pipe(gulp.dest(paths.images.dist))
-})
+    .pipe(gulp.dest('public/logos'))
+}
+
 // *************************** Utility Tasks ****************************** //
 
 // Clean Directories
-gulp.task('clean', () => {
-  return del(paths.dist)
-})
+const clean = () => del(paths.dist)
 
-// Serve the project and watch
-gulp.task('watch', () => {
-  gulp.watch(path.join(paths.styles.src, 'logos/*.{styl,scss,sass}'), 'styles')
-})
+const watch = () => {
+  gulp.watch('public/logos/*.styl', styles)
+  gulp.watch('public/logos/*.json', generateData)
+}
 
-gulp.task('copy', () => {
+const copy = () => {
   return gulp
     .src(
       [
@@ -151,11 +125,25 @@ gulp.task('copy', () => {
       { base: `./${paths.src}` }
     )
     .pipe(gulp.dest(paths.dist))
-})
+}
+
+const generateData = () => {
+  return gulp
+    .src('./public/logos/*.json')
+    .pipe(jsonConcat('data.json'))
+    .pipe(gulpIgnore('!data.json'))
+    .pipe(jsonminify())
+    .pipe(gulp.dest('./public'))
+}
 
 // ***************************** Main Tasks ******************************* //
 
-// Build Project
-gulp.task('build', callback => {
-  sequence('styles', ['update-readme', 'images', 'copy'], () => callback())
-})
+const build = gulp.series(clean, styles, gulp.parallel(updateReadme, copy))
+
+exports['update-readme'] = updateReadme
+exports.styles = styles
+exports.clean = clean
+exports.watch = watch
+exports.copy = copy
+exports['generate-data'] = generateData
+exports.build = build

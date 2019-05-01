@@ -1,28 +1,22 @@
 const path = require('path')
-const config = require('./.swillrc.json')
 const webpack = require('webpack')
-const paths = config.basePaths
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const webpackConfig = {
   devServer: {
     open: true,
     overlay: true,
     watchContentBase: true,
-    hot: true,
-    host: 'localhost',
-    port: '8080',
-    contentBase: [
-      path.join(__dirname, paths.src),
-      path.join(__dirname, paths.src, 'logos')
-    ]
+    contentBase: [path.join(__dirname, 'public')]
   },
+  devtool: 'source-map',
   entry: {
-    app: path.join(__dirname, paths.src, 'index.js')
+    app: path.join(__dirname, 'src/index.js')
   },
   output: {
-    path: '',
-    filename: '[name].bundle.js'
+    path: path.join(__dirname, 'public/js'),
+    filename: '[name][hash].bundle.js'
   },
   module: {
     rules: [
@@ -56,7 +50,7 @@ const webpackConfig = {
             options: {
               ident: 'postcss',
               plugins: loader => [
-                require('autoprefixer')(config.autoprefixerBrowsers),
+                // require('autoprefixer')(config.autoprefixerBrowsers),
                 require('postcss-easing-gradients')
               ]
             }
@@ -91,34 +85,41 @@ const webpackConfig = {
     minimize: false,
     splitChunks: {
       cacheGroups: {
-        vendor: {
+        vendors: {
           test: /node_modules/,
           chunks: 'initial',
-          name: 'vendors',
+          filename: '[name][hash].bundle.js',
           enforce: true
         }
       }
     }
   },
-  plugins: [new VueLoaderPlugin(), new webpack.HotModuleReplacementPlugin()]
+  plugins: [
+    new VueLoaderPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'public/index.html'
+    })
+  ]
 }
 
-module.exports = (env, {mode}) => {
-  const isProd = mode === 'production'
+module.exports = webpackConfig
 
-  if (isProd) {
-    webpackConfig.optimization.minimize = true
-    webpackConfig.plugins.push(
-      new webpack.EnvironmentPlugin({
-        NODE_ENV: mode
-      })
-    )
-  }
+// module.exports = (env, {mode}) => {
+//   const isProd = mode === 'production'
 
-  webpackConfig.output.path = path.resolve(
-    __dirname,
-    isProd ? paths.dist : paths.src
-  )
+//   if (isProd) {
+//     webpackConfig.optimization.minimize = true
+//     webpackConfig.plugins.push(
+//       new webpack.EnvironmentPlugin({
+//         NODE_ENV: mode
+//       })
+//     )
+//   }
 
-  return webpackConfig
-}
+//   webpackConfig.output.path = path.resolve(
+//     __dirname,
+//     isProd ? paths.dist : paths.src
+//   )
+
+//   return webpackConfig
+// }

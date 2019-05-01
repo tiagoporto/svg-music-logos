@@ -22,8 +22,8 @@
       </p>
 
       <input
-        type="search"
         v-model.trim="search.band"
+        type="search"
         placeholder="Search"
         class="search"
         aria-label="Search by names"
@@ -46,27 +46,27 @@
 </template>
 
 <script>
-import "./AppHeader.styl";
-import "./Jumbotron.styl";
-import _ from "lodash";
-import GithubCorner from "../github-corner/GithubCorner.vue";
+import './AppHeader.styl'
+import './Jumbotron.styl'
+import _ from 'lodash'
+import GithubCorner from '../github-corner/GithubCorner.vue'
 
 const setJumbotronHeight = () => {
   if (window.innerWidth > 768) {
     if (window.scrollY > 20) {
-      document.getElementById("jumbotron").style.height = "100%";
+      document.getElementById('jumbotron').style.height = '100%'
     } else {
-      document.getElementById("jumbotron").style.height = "450px";
+      document.getElementById('jumbotron').style.height = '450px'
     }
   } else {
-    document.getElementById("jumbotron").style.height = "100%";
+    document.getElementById('jumbotron').style.height = '100%'
   }
-};
+}
 
-window.addEventListener("scroll", _.debounce(setJumbotronHeight, 20));
+window.addEventListener('scroll', _.debounce(setJumbotronHeight, 20))
 
 export default {
-  name: "AppHeader",
+  name: 'AppHeader',
   components: {
     GithubCorner
   },
@@ -77,5 +77,5 @@ export default {
     search: [Object],
     logos: [Array]
   }
-};
+}
 </script>

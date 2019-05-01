@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Aerosmith",
+    "origin": ["USA"],
+    "genre": ["Hard Rock"],
+    "link": "http://www.aerosmith.com",
+    "logos": [{ "title": "Rockin' the Joint", "svg": "aerosmith.svg" }]
+  },
+  {
+    "name": "Aphex Twin",
+    "origin": ["England"],
+    "genre": ["Electronic"],
+    "link": "http://warp.net/artists/aphex-twin",
+    "logos": [
+      {
+        "title": "Selected Ambient Works 85–92",
+        "svg": "aphex-twin_selected-ambient-works-85-92.svg"
+      }
+    ]
+  },
+  {
+    "name": "Charlie Brown Jr.",
+    "origin": ["Brazil"],
+    "genre": ["Alternative Rock"],
+    "link": "https://www.facebook.com/cbjroficial/",
+    "logos": [{ "title": "Charlie Brown Jr.", "svg": "charlie-brown-jr.svg" }]
+  },
+  {
+    "name": "Iron Maiden - Derek Riggs",
+    "origin": ["England"],
+    "css": "derek-riggs.styl",
+    "link": "http://derekriggs.com",
+    "logos": [
+      {
+        "title": "Derek Riggs Signature",
+        "svg": "iron-maiden_derek-riggs.svg",
+        "cls": "derek-riggs--signature"
+      },
+      {
+        "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
+        "svg": "iron-maiden_derek-riggs.svg",
+        "cls": "derek-riggs--badge"
+      }
+    ]
+  },
+  {
+    "name": "Iron Maiden",
+    "css": "iron-maiden.css",
+    "origin": ["England"],
+    "genre": ["Heavy Metal"],
+    "link": "https://ironmaiden.com",
+    "logos": [
+      {
+        "title": "The soundhouse Tapes",
+        "svg": "iron-maiden_the-soundhouse-tapes.svg"
+      },
+      {
+        "title": "Iron Maiden",
+        "svg": "iron-maiden.svg",
+        "cls": "iron-maiden--classical",
+        "inverse": true
+      },
+      {
+        "title": "Powerslave",
+        "svg": "iron-maiden.svg",
+        "cls": "iron-maiden--powerslave",
+        "inverse": true
+      },
+      {
+        "title": "Somewhere In Time",
+        "svg": "iron-maiden.svg",
+        "cls": "iron-maiden--somewhere-in-time"
+      },
+      {
+        "title": "Seventh Son of a Seventh Son",
+        "svg": "iron-maiden.svg",
+        "cls": "iron-maiden--seventh-son-of-a-seventh-son"
+      },
+      {
+        "title": "A Real Live One",
+        "svg": "iron-maiden.svg",
+        "cls": "iron-maiden--a-real-live-one",
+        "inverse": true
+      },
+      {
+        "title": "A Real Dead One",
+        "svg": "iron-maiden.svg",
+        "cls": "iron-maiden--a-dead-live-one"
+      },
+      {
+        "title": "Best of b'Sides",
+        "svg": "iron-maiden.svg",
+        "cls": "iron-maiden--best-of-b-sides"
+      },
+      {
+        "title": "Live At Donington",
+        "svg": "iron-maiden_live-at-donington.svg"
+      },
+      { "title": "The X Factor", "svg": "iron-maiden_the-x-factor.svg" },
+      {
+        "title": "Virtual XI",
+        "svg": "iron-maiden_virtual-xi.svg",
+        "cls": "iron-maiden--virtual-xi"
+      },
+      {
+        "title": "Brave New World",
+        "svg": "iron-maiden_virtual-xi.svg",
+        "cls": "iron-maiden--brave-new-world"
+      },
+      {
+        "title": "Eddie - Brave New World",
+        "svg": "iron-maiden_eddie-brave-new-world.svg"
+      },
+      {
+        "title": "Eddie - A Matter of Life and Death",
+        "svg": "iron-maiden_eddie-a-matter-of-life-and-death.svg"
+      },
+      {
+        "title": "Eddie - Formula One",
+        "svg": "iron-maiden_eddie-formula-one.svg"
+      },
+      {
+        "title": "Eddie - The Final Frontier",
+        "svg": "iron-maiden_eddie-the-final-frontier.svg"
+      },
+      {
+        "title": "Beer Trooper",
+        "svg": "iron-maiden_trooper.svg",
+        "inverse": true
+      },
+      {
+        "title": "Beer Trooper NEW Label",
+        "cls": "trooper--new",
+        "svg": "iron-maiden_trooper.svg"
+      },
+      {
+        "title": "Beer Trooper Red ‘N’ Black",
+        "cls": "trooper--red-n-black",
+        "svg": "iron-maiden_trooper.svg"
+      },
+      {
+        "title": "The Book Of Souls",
+        "svg": "iron-maiden_the-book-of-souls.svg"
+      },
+      {
+        "title": "Eddie - The Book Of Souls",
+        "svg": "iron-maiden_eddie-the-book-of-souls.svg",
+        "inverse": true
+      },
+      {
+        "title": "Legacy Of The Beast - Loading",
+        "svg": "iron-maiden_legacy-of-the-beast-loading.svg"
+      },
+      {
+        "title": "Legacy Of The Beast - 666 Flag",
+        "svg": "iron-maiden_666-flag.svg",
+        "inverse": true
+      }
+    ]
+  }
+]

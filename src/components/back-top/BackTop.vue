@@ -1,5 +1,5 @@
 <template>
-  <button class="button--back-top" v-on:click="scrollTop">Top</button>
+  <button class="button--back-top" @click="scrollTop">Top</button>
 </template>
 
 <script>
@@ -9,7 +9,7 @@ export default {
   name: 'BackTop',
   methods: {
     scrollTop: () => {
-      window.scroll({top: 0, left: 0, behavior: 'smooth' })
+      window.scroll({ top: 0, left: 0, behavior: 'smooth' })
     }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div v-html="html" class="logo"></div>
+  <div class="logo" v-html="html"></div>
 </template>
 
 <script>
@@ -36,6 +36,9 @@ export default {
         `${el.className} ${this.band.logo.cls}`
       }
     }
+  },
+  created () {
+    this.loadSVG()
   },
   methods: {
     isSVG (mimetype) {
@@ -80,9 +83,6 @@ export default {
         this.setHtml()
       }
     }
-  },
-  created () {
-    this.loadSVG()
   }
 }
 </script>

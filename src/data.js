@@ -1,4 +1,4 @@
-const data = require('./data.json')
+const data = require('../public/data.json')
 
 data.sort((a, b) => {
   const nameA = a.name.toLowerCase()
