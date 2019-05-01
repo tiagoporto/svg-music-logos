@@ -1,0 +1,12 @@
+{
+  "name": "The XX",
+  "origin": ["England"],
+  "genre": ["Indie Pop"],
+  "link": "http://thexx.info",
+  "logos": [
+    {
+      "title": "XX",
+      "svg": "the-xx_xx.svg"
+    }
+  ]
+}

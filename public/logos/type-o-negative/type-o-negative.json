@@ -1,0 +1,12 @@
+{
+  "name": "Type O Negative",
+  "origin": ["USA"],
+  "genre": ["Doom Metal"],
+  "link": "https://www.facebook.com/typeonegative",
+  "logos": [
+    {
+      "title": "O-",
+      "svg": "type-o-negative_0-negative.svg"
+    }
+  ]
+}

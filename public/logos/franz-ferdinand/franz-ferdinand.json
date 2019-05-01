@@ -1,0 +1,14 @@
+{
+  "name": "Franz Ferdinand",
+  "css": "franz-ferdinand.css",
+  "origin": ["Scotland"],
+  "genre": ["Indie Rock"],
+  "link": "http://franzferdinand.com",
+  "logos": [
+    {
+      "title": "Franz Ferdinand",
+      "svg": "franz-ferdinand.svg",
+      "inverse": true
+    }
+  ]
+}

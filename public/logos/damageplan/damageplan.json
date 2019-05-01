@@ -1,0 +1,12 @@
+{
+  "name": "Damageplan",
+  "origin": ["USA"],
+  "genre": ["Thrash Metal"],
+  "link": "http://damageplan.com",
+  "logos": [
+    {
+      "title": "New Found Power",
+      "svg": "damageplan_new-found-power.svg"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Coldplay",
+  "origin": ["England"],
+  "genre": ["Alternative Rock"],
+  "link": "http://coldplay.com",
+  "logos": [
+    {
+      "title": "Parachutes",
+      "svg": "coldplay_parachutes.svg"
+    }
+  ]
+}

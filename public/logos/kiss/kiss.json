@@ -1,0 +1,21 @@
+{
+  "name": "KISS",
+  "css": "kiss.css",
+  "origin": ["USA"],
+  "genre": ["Hard Rock"],
+  "link": "http://www.kissonline.com",
+  "logos": [
+    {
+      "title": "Kiss",
+      "svg": "kiss.svg"
+    },
+    {
+      "title": "Hotter than Hell",
+      "svg": "kiss_hotter-than-hell.svg"
+    },
+    {
+      "title": "Ikons",
+      "svg": "kiss_ikons.svg"
+    }
+  ]
+}

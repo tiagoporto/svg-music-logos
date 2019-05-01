@@ -1,0 +1,28 @@
+{
+  "name": "Mixhell",
+  "css": "mixhell.css",
+  "origin": ["England"],
+  "genre": ["Eletronic"],
+  "link": "https://www.facebook.com/therealmixhell",
+  "logos": [
+    {
+      "title": "Spaces",
+      "cls": "mixhell--spaces",
+      "svg": "mixhell_spaces.svg"
+    },
+    {
+      "title": "Spaces tour",
+      "cls": "mixhell--highly-explicit",
+      "svg": "mixhell_spaces.svg",
+      "inverse": true
+    },
+    {
+      "title": "Mixhell",
+      "svg": "mixhell_>.svg"
+    },
+    {
+      "title": "Elastic Artists",
+      "svg": "mixhell_elastic-artists.svg"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Daft Punk",
+  "origin": ["France"],
+  "genre": ["Eletronic"],
+  "link": "https://daftpunk.com",
+  "logos": [
+    {
+      "title": "Homework",
+      "svg": "daft-punk_homework.svg"
+    }
+  ]
+}

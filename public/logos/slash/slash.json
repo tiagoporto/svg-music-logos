@@ -1,0 +1,13 @@
+{
+  "name": "Slash",
+  "css": "slash.css",
+  "origin": ["England"],
+  "genre": ["Hard Rock"],
+  "link": "http://www.slashonline.com",
+  "logos": [
+    {
+      "title": "South Park",
+      "svg": "slash_south-park.svg"
+    }
+  ]
+}

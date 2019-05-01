@@ -1,0 +1,26 @@
+{
+  "name": "Overdose",
+  "css": "overdose.css",
+  "origin": ["Brazil"],
+  "genre": ["Heavy Metal"],
+  "link": "http://www.overdosebrazil.com.br",
+  "logos": [
+    {
+      "title": "Século XX",
+      "svg": "overdose_seculo-xx.svg",
+      "inverse": true
+    },
+    {
+      "title": "Conscience",
+      "svg": "overdose_conscience.svg"
+    },
+    {
+      "title": "Addicted to Reality",
+      "svg": "overdose_addicted-to-reality.svg"
+    },
+    {
+      "title": "Progress of Decadence",
+      "svg": "overdose_progress-of-decadence.svg"
+    }
+  ]
+}

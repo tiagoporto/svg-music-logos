@@ -1,0 +1,12 @@
+{
+  "name": "Counting Crows",
+  "origin": ["USA"],
+  "genre": ["Alternative Rock"],
+  "link": "http://countingcrows.com",
+  "logos": [
+    {
+      "title": "August and Everything After",
+      "svg": "counting-crows_august-and-everything-after.svg"
+    }
+  ]
+}

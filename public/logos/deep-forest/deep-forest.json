@@ -1,0 +1,16 @@
+{
+  "name": "Deep Forest",
+  "origin": ["France"],
+  "genre": ["Eletronic"],
+  "link": "http://www.deep-forest.fr",
+  "logos": [
+    {
+      "title": "Boheme",
+      "svg": "deep-forest_boheme.svg"
+    },
+    {
+      "title": "Symbol",
+      "svg": "deep-forest_symbol.svg"
+    }
+  ]
+}

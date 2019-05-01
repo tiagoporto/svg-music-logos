@@ -1,0 +1,12 @@
+{
+  "name": "Prince",
+  "origin": ["USA"],
+  "genre": ["Funk", "Pop", "R&B", "Rock"],
+  "link": "http://www.officialprincemusic.com",
+  "logos": [
+    {
+      "title": "Love Symbol",
+      "svg": "prince_love-symbol.svg"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tim \"Ripper\" Owens",
+  "css": "tim-ripper-owens.css",
+  "origin": ["USA"],
+  "genre": ["Heavy Metal"],
+  "link": "http://timripperowens.com",
+  "logos": [
+    {
+      "title": "Tim Ripper Owens",
+      "svg": "tim-ripper-owens.svg"
+    }
+  ]
+}
