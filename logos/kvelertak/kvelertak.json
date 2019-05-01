@@ -1,0 +1,12 @@
+{
+  "name": "Kvelertak",
+  "origin": ["Norway"],
+  "genre": ["Black 'n' roll"],
+  "link": "http://kvelertak.com",
+  "logos": [
+    {
+      "title": "Blodtørst",
+      "svg": "kvelertak_blodtørst.svg"
+    }
+  ]
+}
