@@ -5,10 +5,10 @@
 </p>
 
 <!-- replace start -->
-![Total Artists](https://img.shields.io/badge/artists-180-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-324-blue.svg?style=flat-square)
+![Total Artists](https://img.shields.io/badge/artists-182-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-326-blue.svg?style=flat-square)
 ![Total Origins](https://img.shields.io/badge/origins-20-blue.svg?style=flat-square)
-![Total Genres](https://img.shields.io/badge/genres-54-blue.svg?style=flat-square)
+![Total Genres](https://img.shields.io/badge/genres-55-blue.svg?style=flat-square)
 <!-- replace end -->
 
 [![Artists links](https://img.shields.io/travis/com/tiagoporto/svg-music-logos/master.svg?style=flat-square&label=links)](https://travis-ci.com/tiagoporto/svg-music-logos)

@@ -56,7 +56,7 @@ const updateReadme = () => {
 
 const generateData = () => {
   return gulp
-    .src(paths.public + '/logos/**/*.json')
+    .src(paths.public + 'logos/**/*.json')
     .pipe(jsonConcat('data.json'))
     .pipe(gulpIgnore('!data.json'))
     .pipe(jsonminify())
@@ -80,8 +80,8 @@ const copy = () => {
 const clean = () => del(paths.dist)
 
 const watch = () => {
-  gulp.watch(paths.public + '/logos/**/*.styl', styles)
-  gulp.watch(paths.public + '/logos/**/*.json', generateData)
+  gulp.watch(paths.public + 'logos/**/*.styl', styles)
+  gulp.watch(paths.public + 'logos/**/*.json', generateData)
 }
 
 const build = gulp.series(

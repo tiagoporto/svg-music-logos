@@ -1,0 +1,12 @@
+{
+  "name": "Tony Iommi",
+  "origin": ["England"],
+  "genre": ["Heavy Metal"],
+  "link": "http://www.iommi.com",
+  "logos": [
+    {
+      "title": "Iommi",
+      "svg": "tony-iommi_iommi.svg"
+    }
+  ]
+}
