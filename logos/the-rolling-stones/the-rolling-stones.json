@@ -1,0 +1,12 @@
+{
+  "name": "The Rolling Stones",
+  "origin": ["England"],
+  "genre": ["Rock"],
+  "link": "http://www.rollingstones.com",
+  "logos": [
+    {
+      "title": "Flashpoint",
+      "svg": "the-rolling-stones_flashpoint.svg"
+    }
+  ]
+}

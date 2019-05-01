@@ -1,0 +1,12 @@
+{
+  "name": "Dr. Sin",
+  "origin": ["Brazil"],
+  "genre": ["Heavy Metal"],
+  "link": "https://www.facebook.com/drsinofficial",
+  "logos": [
+    {
+      "title": "Insinity",
+      "svg": "dr-sin_insinity.svg"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Ghost",
+  "origin": ["Sweden"],
+  "genre": ["Heavy Rock"],
+  "link": "http://ghost-official.com",
+  "logos": [
+    {
+      "title": "Opus Eponymous",
+      "svg": "ghost_opus-eponymous.svg"
+    }
+  ]
+}

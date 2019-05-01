@@ -1,0 +1,16 @@
+{
+  "name": "Ramones",
+  "origin": ["England"],
+  "genre": ["Punk Rock"],
+  "link": "https://www.ramones.com",
+  "logos": [
+    {
+      "title": "Ramones",
+      "svg": "ramones.svg"
+    },
+    {
+      "title": "Seal",
+      "svg": "ramones_seal.svg"
+    }
+  ]
+}

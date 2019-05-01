@@ -1,0 +1,13 @@
+{
+  "name": "Death",
+  "css": "death.css",
+  "origin": ["USA"],
+  "genre": ["Death Metal"],
+  "link": "https://www.emptywords.org",
+  "logos": [
+    {
+      "title": "The Sound of Perseverance",
+      "svg": "death_the-sound-of-perseverance.svg"
+    }
+  ]
+}

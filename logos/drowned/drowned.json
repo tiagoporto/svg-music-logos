@@ -1,0 +1,12 @@
+{
+  "name": "Drowned",
+  "origin": ["Brazil"],
+  "genre": ["Death Metal"],
+  "link": "http://www.drowned.com.br",
+  "logos": [
+    {
+      "title": "By the Grace of Evil",
+      "svg": "drowned_by-the-grace-of-evil.svg"
+    }
+  ]
+}

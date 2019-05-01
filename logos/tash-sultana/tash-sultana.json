@@ -1,0 +1,12 @@
+{
+  "name": "Tash Sultana",
+  "origin": ["Australia"],
+  "genre": ["Psychedelic Rock"],
+  "link": "https://www.tashsultana.com",
+  "logos": [
+    {
+      "title": "Notion EP",
+      "svg": "tash-sultana_notion-ep.svg"
+    }
+  ]
+}

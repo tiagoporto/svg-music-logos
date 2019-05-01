@@ -1,0 +1,12 @@
+{
+  "name": "Steve Vai",
+  "origin": ["USA"],
+  "genre": ["Instrumental rock"],
+  "link": "http://www.vai.com",
+  "logos": [
+    {
+      "title": "V.A. Eye",
+      "svg": "steve-vai_v-a-eye.svg"
+    }
+  ]
+}

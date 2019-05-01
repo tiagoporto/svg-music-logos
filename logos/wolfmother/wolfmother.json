@@ -1,0 +1,12 @@
+{
+  "name": "Wolfmother",
+  "origin": ["Australia"],
+  "genre": ["Hard Rock"],
+  "link": "http://www.wolfmother.com",
+  "logos": [
+    {
+      "title": "Wolfmother",
+      "svg": "wolfmother.svg"
+    }
+  ]
+}

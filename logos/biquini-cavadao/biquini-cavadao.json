@@ -1,0 +1,12 @@
+{
+  "name": "Biquini Cavadão",
+  "origin": ["Brazil"],
+  "genre": ["Pop Rock"],
+  "link": "http://biquini.com.br",
+  "logos": [
+    {
+      "title": "Roda Gigante",
+      "svg": "biquini-cavadao_roda-gigante.svg"
+    }
+  ]
+}

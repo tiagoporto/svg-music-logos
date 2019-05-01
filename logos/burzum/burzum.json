@@ -1,0 +1,12 @@
+{
+  "name": "Burzum",
+  "origin": ["Norway"],
+  "genre": ["Black Metal"],
+  "link": "http://burzum.org",
+  "logos": [
+    {
+      "title": "Demo",
+      "svg": "burzum_demo.svg"
+    }
+  ]
+}

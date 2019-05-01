@@ -1,0 +1,18 @@
+{
+  "name": "Iron Maiden - Derek Riggs",
+  "origin": ["England"],
+  "css": "derek-riggs.styl",
+  "link": "http://derekriggs.com",
+  "logos": [
+    {
+      "title": "Derek Riggs Signature",
+      "svg": "derek-riggs_signature.svg",
+      "cls": "derek-riggs--signature"
+    },
+    {
+      "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
+      "svg": "derek-riggs_signature.svg",
+      "cls": "derek-riggs--badge"
+    }
+  ]
+}

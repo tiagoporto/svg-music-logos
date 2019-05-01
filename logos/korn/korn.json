@@ -1,0 +1,12 @@
+{
+  "name": "KoRn",
+  "origin": ["USA"],
+  "genre": ["Nu Metal"],
+  "link": "http://www.korn.com",
+  "logos": [
+    {
+      "title": "Neidermayer's Mind",
+      "svg": "korn_neidermayers-mind.svg"
+    }
+  ]
+}

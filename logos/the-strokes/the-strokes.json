@@ -1,0 +1,12 @@
+{
+  "name": "The Strokes",
+  "origin": ["USA"],
+  "genre": ["Indie Rock"],
+  "link": "http://thestrokes.com",
+  "logos": [
+    {
+      "title": "The Strokes",
+      "svg": "the-strokes.svg"
+    }
+  ]
+}

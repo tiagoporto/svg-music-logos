@@ -1,0 +1,12 @@
+{
+  "name": "Bruce Dickinson",
+  "origin": ["England"],
+  "genre": ["Heavy Metal"],
+  "link": "http://screamforme.com",
+  "logos": [
+    {
+      "title": "The Best of Bruce Dickinson",
+      "svg": "bruce-dickinson_the-best-of-bruce-dickinson.svg"
+    }
+  ]
+}

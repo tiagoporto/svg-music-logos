@@ -1,0 +1,12 @@
+{
+  "name": "Emerson, Lake & Palmer",
+  "origin": ["England"],
+  "genre": ["Progressive Rock"],
+  "link": "http://emersonlakeandpalmer.com",
+  "logos": [
+    {
+      "title": "ELP",
+      "svg": "emerson-lake-palmer_elp.svg"
+    }
+  ]
+}

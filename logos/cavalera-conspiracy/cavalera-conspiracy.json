@@ -1,0 +1,16 @@
+{
+  "name": "Cavalera Conspiracy",
+  "origin": ["USA"],
+  "genre": ["Groove Metal"],
+  "link": "https://www.facebook.com/cavaleraconspiracy",
+  "logos": [
+    {
+      "title": "Inflikted",
+      "svg": "cavalera-conspiracy_inflikted.svg"
+    },
+    {
+      "title": "CC",
+      "svg": "cavalera-conspiracy_cc.svg"
+    }
+  ]
+}

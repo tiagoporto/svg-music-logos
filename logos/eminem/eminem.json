@@ -1,0 +1,12 @@
+{
+  "name": "Eminem",
+  "origin": ["USA"],
+  "genre": ["Hip Hop"],
+  "link": "https://www.facebook.com/eminem",
+  "logos": [
+    {
+      "title": "The Marshall Mathers LP",
+      "svg": "eminem_the-marshall-mathers-lp.svg"
+    }
+  ]
+}

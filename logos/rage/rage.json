@@ -1,0 +1,12 @@
+{
+  "name": "Rage",
+  "origin": ["Germany"],
+  "genre": ["Heavy Metal"],
+  "link": "http://www.rage-official.com",
+  "logos": [
+    {
+      "title": "Black in Mind",
+      "svg": "rage_black-in-mind.svg"
+    }
+  ]
+}

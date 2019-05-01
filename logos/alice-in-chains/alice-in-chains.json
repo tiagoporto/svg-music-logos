@@ -1,0 +1,12 @@
+{
+  "name": "Alice in Chains",
+  "origin": ["USA"],
+  "genre": ["Alternative Rock"],
+  "link": "https://www.aliceinchains.com",
+  "logos": [
+    {
+      "title": "Facelift",
+      "svg": "alice-in-chains_facelift.svg"
+    }
+  ]
+}

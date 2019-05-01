@@ -1,0 +1,12 @@
+{
+  "name": "Arctic Monkeys",
+  "origin": ["England"],
+  "genre": ["Indie Rock"],
+  "link": "http://arcticmonkeys.com",
+  "logos": [
+    {
+      "title": "AM",
+      "svg": "arctic-monkeys_am.svg"
+    }
+  ]
+}

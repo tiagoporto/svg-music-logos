@@ -1,0 +1,12 @@
+{
+  "name": "Wu-Tang Clan",
+  "origin": ["USA"],
+  "genre": ["Hip Hop"],
+  "link": "http://wutang-corp.com",
+  "logos": [
+    {
+      "title": "Wu-Tang Forever",
+      "svg": "wu-tang-clan_wu-tang-forever.svg"
+    }
+  ]
+}

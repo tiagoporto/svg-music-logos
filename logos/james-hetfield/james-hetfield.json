@@ -1,0 +1,12 @@
+{
+  "name": "James Hetfield",
+  "origin": ["USA"],
+  "genre": ["Thrash Metal"],
+  "link": "https://en.wikipedia.org/wiki/James_Hetfield",
+  "logos": [
+    {
+      "title": "Autograph",
+      "svg": "james-hetfield_autograph.svg"
+    }
+  ]
+}

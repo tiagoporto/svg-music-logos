@@ -1,0 +1,12 @@
+{
+  "name": "Faith No More",
+  "origin": ["USA"],
+  "genre": ["Alternative Metal"],
+  "link": "http://www.fnm.com",
+  "logos": [
+    {
+      "title": "Star of Lakshmi",
+      "svg": "faith-no-more_star-of-lakshmi.svg"
+    }
+  ]
+}

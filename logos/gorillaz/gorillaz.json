@@ -1,0 +1,12 @@
+{
+  "name": "Gorillaz",
+  "origin": ["England"],
+  "genre": ["Alternative Rock"],
+  "link": "http://www.gorillaz.com",
+  "logos": [
+    {
+      "title": "Gorillaz",
+      "svg": "gorillaz.svg"
+    }
+  ]
+}

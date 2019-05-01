@@ -1,0 +1,21 @@
+{
+  "name": "Raimundos",
+  "css": "raimundos.css",
+  "origin": ["Brazil"],
+  "genre": ["Alternative Metal"],
+  "link": "http://www.raimundos.com.br",
+  "logos": [
+    {
+      "title": "Raimundos",
+      "svg": "raimundos.svg"
+    },
+    {
+      "title": "R",
+      "svg": "raimundos_r.svg"
+    },
+    {
+      "title": "Roda Viva",
+      "svg": "raimundos_roda-viva.svg"
+    }
+  ]
+}

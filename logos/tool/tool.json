@@ -1,0 +1,12 @@
+{
+  "name": "Tool",
+  "origin": ["USA"],
+  "genre": ["Alternative Metal"],
+  "link": "https://www.toolband.com",
+  "logos": [
+    {
+      "title": "Sober",
+      "svg": "tool_sober.svg"
+    }
+  ]
+}

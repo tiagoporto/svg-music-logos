@@ -1,0 +1,12 @@
+{
+  "name": "Enya",
+  "origin": ["Ireland"],
+  "genre": ["New Age"],
+  "link": "http://enya.com",
+  "logos": [
+    {
+      "title": "Watermark",
+      "svg": "enya_watermark.svg"
+    }
+  ]
+}

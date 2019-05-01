@@ -1,0 +1,12 @@
+{
+  "name": "Johnny Cash",
+  "origin": ["USA"],
+  "genre": ["Country"],
+  "link": "http://www.johnnycash.com",
+  "logos": [
+    {
+      "title": "American Recordings",
+      "svg": "johnny-cash_american-recordings.svg"
+    }
+  ]
+}

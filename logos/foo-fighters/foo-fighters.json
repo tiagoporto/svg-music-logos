@@ -1,0 +1,12 @@
+{
+  "name": "Foo Fighters",
+  "origin": ["USA"],
+  "genre": ["Alternative Rock"],
+  "link": "https://foofighters.com",
+  "logos": [
+    {
+      "title": "Echoes, Silence, Patience & Grace",
+      "svg": "foo-fighters_echoes-silence-patience-and-grace.svg"
+    }
+  ]
+}

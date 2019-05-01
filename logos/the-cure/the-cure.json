@@ -1,0 +1,20 @@
+{
+  "name": "The Cure",
+  "origin": ["England"],
+  "genre": ["Alternative Rock"],
+  "link": "http://thecure.com",
+  "logos": [
+    {
+      "title": "Wish",
+      "svg": "the-cure_wish.svg"
+    },
+    {
+      "title": "Kiss Me, Kiss Me, Kiss Me",
+      "svg": "the-cure_kiss-me.svg"
+    },
+    {
+      "title": "4.13",
+      "svg": "the-cure_4.13.svg"
+    }
+  ]
+}

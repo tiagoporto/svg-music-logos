@@ -1,0 +1,12 @@
+{
+  "name": "Ween",
+  "origin": ["USA"],
+  "genre": ["Alternative Rock"],
+  "link": "http://ween.com",
+  "logos": [
+    {
+      "title": "Boognish",
+      "svg": "ween_boognish.svg"
+    }
+  ]
+}

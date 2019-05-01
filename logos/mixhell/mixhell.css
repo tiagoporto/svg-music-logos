@@ -1,0 +1,22 @@
+.mixhell__light-text,
+.mixhell__inner-rect {
+  fill: #fff;
+}
+.mixhell--spaces .mixhell__lettering {
+  fill: #fff;
+}
+.mixhell--spaces .mixhell__lines {
+  display: none;
+}
+.mixhell--spaces .mixhell__outer-square {
+  fill: #f01c2e;
+}
+.mixhell--highly-explicit .mixhell__lettering {
+  fill: #fff;
+}
+.mixhell--highly-explicit .mixhell__lines {
+  fill: #f00;
+}
+.mixhell--highly-explicit .mixhell__square {
+  display: none;
+}

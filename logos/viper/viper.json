@@ -1,0 +1,12 @@
+{
+  "name": "Viper",
+  "origin": ["Brazil"],
+  "genre": ["Heavy Metal"],
+  "link": "https://www.facebook.com/viperbrazil",
+  "logos": [
+    {
+      "title": "Projeto SP Metal",
+      "svg": "viper_projeto-sp-metal.svg"
+    }
+  ]
+}

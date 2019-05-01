@@ -1,0 +1,12 @@
+{
+  "name": "Nervosa",
+  "origin": ["Brazil"],
+  "genre": ["Death Metal"],
+  "link": "http://nervosaofficial.com",
+  "logos": [
+    {
+      "title": "Nervosa",
+      "svg": "nervosa.svg"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Cálix",
+  "origin": ["Brazil"],
+  "genre": ["Progressive Rock"],
+  "link": "https://www.calix.com.br",
+  "logos": [
+    {
+      "title": "Canções de Beurin",
+      "svg": "calix_cancoes-de-beurin.svg"
+    },
+    {
+      "title": "A Roda",
+      "svg": "calix_a-roda.svg"
+    },
+    {
+      "title": "Caminhante",
+      "svg": "calix_caminhante.svg"
+    }
+  ]
+}

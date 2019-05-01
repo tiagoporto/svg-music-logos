@@ -1,0 +1,13 @@
+{
+  "name": "Felipe Andreoli",
+  "origin": ["Brazil"],
+  "genre": ["Heavy Metal"],
+  "css": "felipe-andreoli.css",
+  "link": "http://felipeandreoli.com",
+  "logos": [
+    {
+      "title": "FA",
+      "svg": "felipe-andreoli_fa.svg"
+    }
+  ]
+}

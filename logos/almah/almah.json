@@ -1,0 +1,12 @@
+{
+  "name": "Almah",
+  "origin": ["Brazil"],
+  "genre": ["Heavy Metal"],
+  "link": "http://almah.com.br",
+  "logos": [
+    {
+      "title": "Fragile Equality",
+      "svg": "almah_fragile-equality.svg"
+    }
+  ]
+}

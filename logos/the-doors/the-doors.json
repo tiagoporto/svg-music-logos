@@ -1,0 +1,12 @@
+{
+  "name": "The Doors",
+  "origin": ["England"],
+  "genre": ["Hard Rock"],
+  "link": "https://www.thedoors.com",
+  "logos": [
+    {
+      "title": "The Doors",
+      "svg": "the-doors.svg"
+    }
+  ]
+}

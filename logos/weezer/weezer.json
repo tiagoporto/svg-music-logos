@@ -1,0 +1,16 @@
+{
+  "name": "Weezer",
+  "origin": ["USA"],
+  "genre": ["Alternative Rock"],
+  "link": "https://weezer.com",
+  "logos": [
+    {
+      "title": "Weezer",
+      "svg": "weezer.svg"
+    },
+    {
+      "title": "Flying =W=",
+      "svg": "weezer_flying-w.svg"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Engenheiros do Hawaii",
+  "origin": ["Brazil"],
+  "genre": ["Pop Rock"],
+  "link": "http://www2.uol.com.br/engenheirosdohawaii",
+  "logos": [
+    {
+      "title": "A Revolta dos Dândis",
+      "svg": "engenheiros-do-hawaii_a-revolta_dos_dandis.svg"
+    },
+    {
+      "title": "Gessinger, Licks & Maltz",
+      "svg": "engenheiros-do-hawaii_gessinger-licks-maltz.svg"
+    },
+    {
+      "title": "Novos Horizontes",
+      "svg": "engenheiros-do-hawaii_novos-horizontes.svg"
+    }
+  ]
+}
