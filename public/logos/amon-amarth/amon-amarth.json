@@ -1,0 +1,12 @@
+{
+  "name": "Amon Amarth",
+  "origin": ["Sweden"],
+  "genre": ["Melodic Death Metal"],
+  "link": "https://www.amonamarth.com",
+  "logos": [
+    {
+      "title": "Sorrow Throughout the Nine Worlds",
+      "svg": "amon-amarth_sorrow-throughout-the-nine-worlds.svg"
+    }
+  ]
+}

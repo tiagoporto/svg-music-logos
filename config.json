@@ -1,0 +1,24 @@
+{
+  "basePaths": {
+    "src": "src/",
+    "dist": "dist/",
+    "build": "build/",
+    "public": "public/",
+    "images": "img/",
+    "fonts": "fonts/",
+    "scripts": "js/",
+    "styles": "styles/"
+  },
+
+  "autoprefixerBrowsers": [
+    "ie > 7",
+    "ie_mob > 9",
+    "Firefox > 24",
+    "last 10 Chrome versions",
+    "safari > 5",
+    "opera > 24",
+    "ios > 5",
+    "android > 4",
+    "bb > 10"
+  ]
+}

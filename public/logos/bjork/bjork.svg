@@ -1,0 +1,12 @@
+{
+    "name": "Björk",
+    "origin": ["Iceland"],
+    "genre": ["Art Pop"],
+    "link": "https://bjork.com",
+    "logos": [
+      {
+        "title": "Family Tree",
+        "svg": "bjork_family-tree.svg"
+      }
+    ]
+  }

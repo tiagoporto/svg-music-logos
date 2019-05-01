@@ -1,0 +1,12 @@
+{
+  "name": "Savatage",
+  "origin": ["USA"],
+  "genre": ["Heavy Metal"],
+  "link": "http://savatage.com",
+  "logos": [
+    {
+      "title": "Power of the Night",
+      "svg": "savatage_power-of-the-night.svg"
+    }
+  ]
+}

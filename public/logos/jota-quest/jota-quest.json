@@ -1,0 +1,13 @@
+{
+  "name": "Jota Quest",
+  "css": "jota-quest.css",
+  "origin": ["Brazil"],
+  "genre": ["Pop"],
+  "link": "http://www.jotaquest.com.br",
+  "logos": [
+    {
+      "title": "Discotecagem Pop Variada",
+      "svg": "jota-quest_discotecagem-pop-variada.svg"
+    }
+  ]
+}

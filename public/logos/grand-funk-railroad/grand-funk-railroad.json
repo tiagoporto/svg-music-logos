@@ -1,0 +1,12 @@
+{
+  "name": "Grand Funk Railroad",
+  "origin": ["USA"],
+  "genre": ["Hard Rock"],
+  "link": "http://grandfunkrailroad.com",
+  "logos": [
+    {
+      "title": "Pointing Finger",
+      "svg": "grand-funk-railroad_pointing-finger.svg"
+    }
+  ]
+}

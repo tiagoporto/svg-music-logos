@@ -1,0 +1,12 @@
+{
+  "name": "Mastodon",
+  "origin": ["USA"],
+  "genre": ["Progressive Metal"],
+  "link": "http://www.mastodonrocks.com",
+  "logos": [
+    {
+      "title": "The Hunter",
+      "svg": "mastodon_the-hunter.svg"
+    }
+  ]
+}

@@ -6,12 +6,12 @@
   "logos": [
     {
       "title": "Derek Riggs Signature",
-      "svg": "iron-maiden_derek-riggs.svg",
+      "svg": "derek-riggs_signature.svg",
       "cls": "derek-riggs--signature"
     },
     {
       "title": "Derek Riggs - Somewhere in Time Eddie's Badge",
-      "svg": "iron-maiden_derek-riggs.svg",
+      "svg": "derek-riggs_signature.svg",
       "cls": "derek-riggs--badge"
     }
   ]

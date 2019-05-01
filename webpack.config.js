@@ -1,24 +1,26 @@
+const config = require('./config.json')
 const path = require('path')
 const webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
   .BundleAnalyzerPlugin
+const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 const webpackConfig = {
   devServer: {
     open: true,
     overlay: true,
     watchContentBase: true,
-    contentBase: [path.join(__dirname, 'public')]
+    contentBase: [path.join(__dirname, config.basePaths.public)]
   },
   devtool: 'source-map',
   entry: {
-    app: path.join(__dirname, 'src/index.js')
+    app: path.join(__dirname, config.basePaths.src + 'index.js')
   },
   output: {
-    path: path.join(__dirname, 'public/js'),
-    filename: '[name][hash].bundle.js'
+    path: path.join(__dirname, config.basePaths.public),
+    filename: '[name].[hash].bundle.js'
   },
   module: {
     rules: [
@@ -52,7 +54,7 @@ const webpackConfig = {
             options: {
               ident: 'postcss',
               plugins: loader => [
-                // require('autoprefixer')(config.autoprefixerBrowsers),
+                require('autoprefixer')(config.basePaths.autoprefixerBrowsers),
                 require('postcss-easing-gradients')
               ]
             }
@@ -70,7 +72,7 @@ const webpackConfig = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: 'flags'
+              outputPath: config.basePaths.img
             }
           }
         ]
@@ -90,7 +92,8 @@ const webpackConfig = {
         vendors: {
           test: /node_modules/,
           chunks: 'initial',
-          filename: '[name][hash].bundle.js',
+          name: 'vendors',
+          filename: '[name].[hash].bundle.js',
           enforce: true
         }
       }
@@ -98,8 +101,9 @@ const webpackConfig = {
   },
   plugins: [
     new VueLoaderPlugin(),
+    new LodashModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: 'public/index.html'
+      template: config.basePaths.public + 'index.html'
     })
   ]
 }
@@ -116,10 +120,11 @@ module.exports = (env, { mode }) => {
         NODE_ENV: mode
       })
     )
-  }
-  webpackConfig.plugins.push(new BundleAnalyzerPlugin())
 
-  webpackConfig.output.path = path.join(__dirname, 'dist/js')
+    webpackConfig.plugins.push(new BundleAnalyzerPlugin())
+  }
+
+  webpackConfig.output.path = path.join(__dirname, config.basePaths.dist)
 
   return webpackConfig
 }

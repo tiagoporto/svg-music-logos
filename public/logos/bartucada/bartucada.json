@@ -1,0 +1,14 @@
+{
+  "name": "Bartucada",
+  "css": "bartucada.css",
+  "origin": ["Brazil"],
+  "genre": ["Brazilian Songs"],
+  "link": "https://www.facebook.com/bartucada",
+  "logos": [
+    {
+      "title": "Logo",
+      "svg": "bartucada.svg",
+      "inverse": true
+    }
+  ]
+}

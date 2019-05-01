@@ -1,0 +1,20 @@
+{
+  "name": "Alice Cooper",
+  "origin": ["USA"],
+  "genre": ["Hard Rock"],
+  "link": "http://www.alicecooper.com",
+  "logos": [
+    {
+      "title": "Constrictor",
+      "svg": "alice-cooper_constrictor.svg"
+    },
+    {
+      "title": "Dragontown",
+      "svg": "alice-cooper_dragontown.svg"
+    },
+    {
+      "title": "Dirty Diamonds",
+      "svg": "alice-cooper_dirty-diamonds.svg"
+    }
+  ]
+}

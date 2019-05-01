@@ -1,5 +1,5 @@
 const autoprefixer = require('gulp-autoprefixer')
-const config = require('./.swillrc.json')
+const config = require('./config.json')
 const file = require('gulp-file')
 const gulp = require('gulp')
 const mergeMediaQueries = require('gulp-merge-media-queries')

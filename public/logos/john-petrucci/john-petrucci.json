@@ -1,0 +1,12 @@
+{
+  "name": "John Petrucci",
+  "origin": ["USA"],
+  "genre": ["Progressive Metal"],
+  "link": "http://johnpetrucci.com",
+  "logos": [
+    {
+      "title": "JP",
+      "svg": "john-petrucci_jp.svg"
+    }
+  ]
+}

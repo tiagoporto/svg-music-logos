@@ -1,0 +1,32 @@
+{
+  "name": "Eminence",
+  "origin": ["Brazil"],
+  "genre": ["Brutal Metal"],
+  "link": "https://www.eminence.com.br",
+  "logos": [
+    {
+      "title": "Chaotic System",
+      "svg": "eminence_chaotic-system.svg"
+    },
+    {
+      "title": "Humanology",
+      "svg": "eminence_humanology.svg"
+    },
+    {
+      "title": "E Symbol",
+      "svg": "eminence_symbol.svg"
+    },
+    {
+      "title": "The God Of All Mistakes",
+      "svg": "eminence_the-god-of-all-mistakes.svg"
+    },
+    {
+      "title": "The God Of All Mistakes Single",
+      "svg": "eminence_the-god-of-all-mistakes-single.svg"
+    },
+    {
+      "title": "The Stalker",
+      "svg": "eminence_the-stalker.svg"
+    }
+  ]
+}

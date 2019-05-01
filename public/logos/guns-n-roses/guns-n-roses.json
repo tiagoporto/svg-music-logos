@@ -1,0 +1,39 @@
+{
+  "name": "Guns N' Roses",
+  "css": "guns-n-roses.css",
+  "origin": ["USA"],
+  "genre": ["Hard Rock"],
+  "link": "https://www.gunsnroses.com",
+  "logos": [
+    {
+      "title": "Appetite For Destruction",
+      "svg": "guns-n-roses_appetite-for-destruction.svg"
+    },
+    {
+      "title": "Gn'F'nR's!",
+      "svg": "guns-n-roses_g-n-f-r.svg"
+    },
+    {
+      "title": "#GnFnR",
+      "svg": "guns-n-roses_g-f-r.svg"
+    },
+    {
+      "title": "Bullet",
+      "svg": "guns-n-roses_bullet.svg"
+    },
+    {
+      "title": "Neon",
+      "svg": "guns-n-roses_neon.svg",
+      "inverse": true
+    },
+    {
+      "title": "Troubadour",
+      "svg": "guns-n-roses_troubadour.svg",
+      "inverse": true
+    },
+    {
+      "title": "Live Era",
+      "svg": "guns-n-roses_live-era.svg"
+    }
+  ]
+}
