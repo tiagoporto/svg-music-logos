@@ -1,0 +1,12 @@
+{
+  "name": "Trivium",
+  "origin": ["USA"],
+  "genre": ["Heavy Metal"],
+  "link": "http://www.trivium.org",
+  "logos": [
+    {
+      "title": "Ascendancy",
+      "svg": "trivium_ascendancy.svg"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "extends": [
     "plugin:vue/recommended",
+    "prettier",
     "standard",
     "prettier/standard",
     "prettier/vue"

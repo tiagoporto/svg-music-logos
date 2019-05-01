@@ -1,0 +1,12 @@
+{
+  "name": "Edguy",
+  "origin": ["Germany"],
+  "genre": ["Power Metal"],
+  "link": "http://edguy.net",
+  "logos": [
+    {
+      "title": "Kingdom of Madness",
+      "svg": "edguy_kingdom-of-madness.svg"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Muse",
+  "origin": ["England"],
+  "genre": ["Alternative Rock"],
+  "link": "http://muse.mu",
+  "logos": [
+    {
+      "title": "Showbiz",
+      "svg": "muse_showbiz.svg"
+    }
+  ]
+}

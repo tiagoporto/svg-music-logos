@@ -1,0 +1,12 @@
+{
+  "name": "Abba",
+  "origin": ["Sweden"],
+  "genre": ["Disco"],
+  "link": "http://www.abbasite.com",
+  "logos": [
+    {
+      "title": "Arrival",
+      "svg": "abba_arrival.svg"
+    }
+  ]
+}

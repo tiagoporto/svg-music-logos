@@ -1,0 +1,13 @@
+{
+  "name": "Oasis",
+  "css": "oasis.css",
+  "origin": ["England"],
+  "genre": ["Alternative Rock"],
+  "link": "http://www.oasisinet.com",
+  "logos": [
+    {
+      "title": "Definitely Maybe",
+      "svg": "oasis_definitely-maybe.svg"
+    }
+  ]
+}

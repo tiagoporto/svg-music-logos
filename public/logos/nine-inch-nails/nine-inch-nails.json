@@ -1,0 +1,12 @@
+{
+  "name": "Nine Inch Nails",
+  "origin": ["USA"],
+  "genre": ["Alternative Rock"],
+  "link": "http://www.nin.com",
+  "logos": [
+    {
+      "title": "The Fragile",
+      "svg": "nine-inch-nails_the-fragile.svg"
+    }
+  ]
+}

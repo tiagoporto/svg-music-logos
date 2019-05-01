@@ -1,0 +1,12 @@
+{
+  "name": "X Japan",
+  "origin": ["Japan"],
+  "genre": ["Heavy Metal"],
+  "link": "http://www.xjapan.com",
+  "logos": [
+    {
+      "title": "Art of Life",
+      "svg": "x-japan_art-of-life.svg"
+    }
+  ]
+}

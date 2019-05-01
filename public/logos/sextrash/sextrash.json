@@ -1,0 +1,18 @@
+{
+  "name": "Sextrash",
+  "css": "sextrash.css",
+  "origin": ["Brazil"],
+  "genre": ["Death Metal"],
+  "link": "https://www.facebook.com/Sextrashofficial",
+  "logos": [
+    {
+      "title": "XXX",
+      "svg": "sextrash_xxx.svg"
+    },
+    {
+      "title": "Rape from Hell",
+      "svg": "sextrash_rape-from-hell.svg",
+      "inverse": true
+    }
+  ]
+}

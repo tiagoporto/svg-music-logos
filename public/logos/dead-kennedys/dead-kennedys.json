@@ -1,13 +1,13 @@
 {
   "name": "Dead Kennedys",
-  "css": "dead-kennedys.styl",
+  "css": "dead-kennedys.css",
   "origin": ["USA"],
   "genre": ["Punk Rock"],
   "link": "http://deadkennedys.com",
   "logos": [
     {
       "title": "DK",
-      "svg": "dead_kennedys_dk.svg"
+      "svg": "dead-kennedys_dk.svg"
     }
   ]
 }

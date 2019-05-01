@@ -1,0 +1,12 @@
+{
+  "name": "Queen",
+  "origin": ["England"],
+  "genre": ["Rock"],
+  "link": "http://queenonline.com",
+  "logos": [
+    {
+      "title": "Greatest Hits II",
+      "svg": "queen_greatest-hits-II.svg"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Hibria",
+  "origin": ["Brazil"],
+  "genre": ["Speed Metal"],
+  "link": "http://hibria.com",
+  "logos": [
+    {
+      "title": "Defying The Rules",
+      "svg": "hibria_defying-the-rules.svg"
+    },
+    {
+      "title": "Live In Japan Symbol",
+      "svg": "hibria_symbol.svg"
+    },
+    {
+      "title": "Hibria",
+      "svg": "hibria.svg"
+    },
+    {
+      "title": "Symbol",
+      "cls": "hibria--symbol",
+      "svg": "hibria_symbol.svg"
+    }
+  ]
+}

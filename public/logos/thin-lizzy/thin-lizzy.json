@@ -1,0 +1,12 @@
+{
+  "name": "Thin Lizzy",
+  "origin": ["Ireland"],
+  "genre": ["Hard Rock"],
+  "link": "http://thinlizzy.org",
+  "logos": [
+    {
+      "title": "Fighting",
+      "svg": "thin-lizzy_fighting.svg"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Sex Pistols",
+  "origin": ["England"],
+  "genre": ["Punk Rock"],
+  "link": "http://www.sexpistolsofficial.com",
+  "logos": [
+    {
+      "title": "Official",
+      "svg": "sex-pistols.svg"
+    }
+  ]
+}

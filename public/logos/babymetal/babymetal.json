@@ -1,0 +1,12 @@
+{
+  "name": "Babymetal",
+  "origin": ["Japan"],
+  "genre": ["Heavy Metal"],
+  "link": "http://www.babymetal.com",
+  "logos": [
+    {
+      "title": "Babymetal",
+      "svg": "babymetal.svg"
+    }
+  ]
+}

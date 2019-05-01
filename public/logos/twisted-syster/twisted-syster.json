@@ -1,0 +1,12 @@
+{
+  "name": "Twisted Syster",
+  "origin": ["USA"],
+  "genre": ["Glam Metal"],
+  "link": "http://www.twistedsister.com",
+  "logos": [
+    {
+      "title": "TS",
+      "svg": "twisted-syster.svg"
+    }
+  ]
+}

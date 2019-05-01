@@ -21,7 +21,8 @@
     "url": "https://github.com/tiagoporto/svg-music-logos.git"
   },
   "scripts": {
-    "start": "npm run webpack & gulp watch",
+    "prestart": "npm run generate-data",
+    "start": "gulp watch & npm run webpack",
     "build": "npm run webpack:build",
     "_build": "npm run scripts:build && gulp build",
     "deploy": "npm run build && gh-pages -d dist",

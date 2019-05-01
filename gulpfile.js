@@ -1,86 +1,20 @@
-const autoprefixer = require('gulp-autoprefixer')
 const config = require('./config.json')
-const file = require('gulp-file')
-const gulp = require('gulp')
-const mergeMediaQueries = require('gulp-merge-media-queries')
-const newer = require('gulp-newer')
 const path = require('path')
-const plumber = require('gulp-plumber')
-const rename = require('gulp-rename')
+const gulp = require('gulp')
 const replace = require('gulp-replace')
 const stylus = require('gulp-stylus')
 const del = require('del')
-const data = require('./src/data.js')
 var jsonConcat = require('gulp-concat-jsons')
 var jsonminify = require('gulp-jsonminify')
 var gulpIgnore = require('gulp-ignore')
-
-// ***************************** Path configs ***************************** //
+// const file = require('gulp-file')
+// const mergeMediaQueries = require('gulp-merge-media-queries')
+// const newer = require('gulp-newer')
+// const plumber = require('gulp-plumber')
+// const rename = require('gulp-rename')
+// const autoprefixer = require('gulp-autoprefixer')
 
 const paths = config.basePaths
-
-paths.styles = {
-  src: path.join(paths.src, paths.styles),
-  dist: path.join(paths.dist, paths.styles),
-  build: path.join(paths.build, paths.styles)
-}
-
-// ******************************** Tasks ********************************* //
-
-const updateReadme = () => {
-  return gulp
-    .src('./README.md')
-    .pipe(
-      replace(
-        /<!-- replace start -->[\W\w]+<!-- replace end -->/,
-        `<!-- replace start -->
-![Total Artists](https://img.shields.io/badge/artists-${
-  data.artists.length
-}-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-${
-  data.logos.length
-}-blue.svg?style=flat-square)
-![Total Origins](https://img.shields.io/badge/origins-${
-  data.origins.length
-}-blue.svg?style=flat-square)
-![Total Genres](https://img.shields.io/badge/genres-${
-  data.genres.length
-}-blue.svg?style=flat-square)
-<!-- replace end -->`
-      )
-    )
-    .pipe(gulp.dest('./'))
-}
-
-// const streaming = src => {
-//   return src
-//     .pipe(plumber())
-//     .pipe(
-//       stylus({
-//         include: ['node_modules'],
-//         'include css': true
-//       }).on('error', err => {
-//         console.log(err.message)
-//         // If rename the stylus file change here
-//         file(
-//           'styles.css',
-//           `body:before{white-space: pre; font-family: monospace; content: "${
-//             err.message
-//           }";}`,
-//           { src: true }
-//         )
-//           .pipe(replace('\\', '/'))
-//           .pipe(replace(/\n/gm, '\\A '))
-//           .pipe(replace('"', "'"))
-//           .pipe(replace("content: '", 'content: "'))
-//           .pipe(replace("';}", '";}'))
-//           .pipe(gulp.dest(paths.styles.dest))
-//       })
-//     )
-//     .pipe(autoprefixer({ browsers: config.autoprefixerBrowsers }))
-//     .pipe(mergeMediaQueries({ log: true }))
-//     .pipe(gulp.dest(path.join(__dirname, 'public/logos')))
-// }
 
 // return streaming(
 // )
@@ -88,57 +22,66 @@ const updateReadme = () => {
      dest: path.join(paths.src, 'logos'),
      ext: '.css',
      extra: paths.styles.src
-   }) */
+    }) */
 const styles = () => {
   return gulp
-    .src('public/logos/**/*.styl')
+    .src(paths.public + 'logos/**/*.styl')
     .pipe(
       stylus({
         include: ['node_modules'],
         'include css': true
       })
     )
-    .pipe(gulp.dest('public/logos'))
+    .pipe(gulp.dest(paths.public + 'logos'))
 }
 
-// *************************** Utility Tasks ****************************** //
-
-// Clean Directories
-const clean = () => del(paths.dist)
-
-const watch = () => {
-  gulp.watch('public/logos/**/*.styl', styles)
-  gulp.watch('public/logos/**/*.json', generateData)
-}
-
-const copy = () => {
+const updateReadme = () => {
+  const data = require('./src/data.js')
   return gulp
-    .src(
-      [
-        path.join(paths.src, '*.*'),
-        path.join(`!${paths.src}`, '*.vue'),
-        path.join(`!${paths.src}`, 'serviceWorker.js'),
-        path.join(`!${paths.src}`, 'index.js'),
-        path.join(`!${paths.src}`, 'data.js'),
-        path.join(paths.src, 'logos/**/*')
-      ],
-      { base: `./${paths.src}` }
+    .src('./README.md')
+    .pipe(
+      replace(
+        /<!-- replace start -->[\W\w]+<!-- replace end -->/,
+        // prettier-ignore
+        `<!-- replace start -->
+![Total Artists](https://img.shields.io/badge/artists-${data.artists.length}-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-${data.logos.length}-blue.svg?style=flat-square)
+![Total Origins](https://img.shields.io/badge/origins-${data.origins.length}-blue.svg?style=flat-square)
+![Total Genres](https://img.shields.io/badge/genres-${data.genres.length}-blue.svg?style=flat-square)
+<!-- replace end -->`
+      )
     )
-    .pipe(gulp.dest(paths.dist))
+    .pipe(gulp.dest('./'))
 }
 
 const generateData = () => {
   return gulp
-    .src('./public/logos/**/*.json')
+    .src(paths.public + '/logos/**/*.json')
     .pipe(jsonConcat('data.json'))
     .pipe(gulpIgnore('!data.json'))
     .pipe(jsonminify())
-    .pipe(gulp.dest('./public'))
+    .pipe(gulp.dest(paths.src))
 }
 
-// ***************************** Main Tasks ******************************* //
+const copy = () => {
+  return gulp
+    .src([path.join(paths.public, '*.*')], { base: `./${paths.public}` })
+    .pipe(gulp.dest(paths.dist))
+}
 
-const build = gulp.series(clean, styles, gulp.parallel(updateReadme, copy))
+const clean = () => del(paths.dist)
+
+const watch = () => {
+  gulp.watch(paths.public + '/logos/**/*.styl', styles)
+  gulp.watch(paths.public + '/logos/**/*.json', generateData)
+}
+
+const build = gulp.series(
+  clean,
+  gulp.parallel(generateData, styles, copy, updateReadme)
+)
+
+// ***************************** Tasks ******************************* //
 
 exports['update-readme'] = updateReadme
 exports.styles = styles

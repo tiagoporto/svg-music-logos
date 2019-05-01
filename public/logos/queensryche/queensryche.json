@@ -1,0 +1,12 @@
+{
+  "name": "Queensrÿche",
+  "origin": ["USA"],
+  "genre": ["Heavy Metal"],
+  "link": "http://www.queensrycheofficial.com",
+  "logos": [
+    {
+      "title": "Tri-Ryche",
+      "svg": "queensryche_tri-ryche.svg"
+    }
+  ]
+}

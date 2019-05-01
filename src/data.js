@@ -1,4 +1,4 @@
-const data = require('../public/data.json')
+const data = require('./data.json')
 
 data.sort((a, b) => {
   const nameA = a.name.toLowerCase()
@@ -25,9 +25,7 @@ const allGenres = data
   .split(',')
   .filter(genre => genre)
 
-const genres = allGenres
-  .filter((item, pos) => allGenres.indexOf(item) === pos)
-  .sort()
+const genres = allGenres.filter((item, pos) => allGenres.indexOf(item) === pos).sort()
 
 const allOrigins = data
   .map(elem => {
@@ -41,23 +39,18 @@ const allOrigins = data
   .split(',')
   .filter(origin => origin !== undefined)
 
-const origins = allOrigins
-  .filter((item, pos) => allOrigins.indexOf(item) === pos)
-  .sort()
+const origins = allOrigins.filter((item, pos) => allOrigins.indexOf(item) === pos).sort()
 
 const logos = []
 
 data.forEach((band, index) => {
   const getLogo = band.logos
 
+  data[index].folder = getLogo[0].svg.split('.')[0].split('_')[0]
+
   getLogo.forEach(logo => {
     logos.push({
-      name: band.name,
-      nameTemplate: band.nameTemplate,
-      link: band.link,
-      origin: band.origin,
-      genre: band.genre,
-      css: band.css,
+      ...band,
       logo
     })
   })

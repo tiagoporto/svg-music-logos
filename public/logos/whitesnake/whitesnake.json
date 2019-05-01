@@ -1,0 +1,12 @@
+{
+  "name": "Whitesnake",
+  "origin": ["England"],
+  "genre": ["Hard Rock"],
+  "link": "https://whitesnake.com",
+  "logos": [
+    {
+      "title": "Lovehunter",
+      "svg": "whitesnake_lovehunter.svg"
+    }
+  ]
+}

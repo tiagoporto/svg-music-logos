@@ -47,7 +47,8 @@
     {
       "title": "1/4 Of a Century",
       "cls": "sepultura--quarter-of-a-century",
-      "svg": "sepultura_tribal-s.svg"
+      "svg": "sepultura_tribal-s.svg",
+      "inverse": true
     },
     {
       "title": "Tribal S Dirty",

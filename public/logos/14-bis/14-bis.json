@@ -1,0 +1,13 @@
+{
+  "name": "14 Bis",
+  "css": "14-bis.css",
+  "origin": ["Brazil"],
+  "genre": ["MPB"],
+  "link": "http://14bis.com.br",
+  "logos": [
+    {
+      "title": "Ao vivo",
+      "svg": "14-bis_ao-vivo.svg"
+    }
+  ]
+}

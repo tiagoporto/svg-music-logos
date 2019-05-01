@@ -1,0 +1,12 @@
+{
+  "name": "Therion",
+  "origin": ["Sweden"],
+  "genre": ["Symphonic Metal"],
+  "link": "http://therion.se",
+  "logos": [
+    {
+      "title": "Vovin",
+      "svg": "therion_vovin.svg"
+    }
+  ]
+}

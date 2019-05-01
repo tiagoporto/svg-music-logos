@@ -1,0 +1,12 @@
+{
+  "name": "Avenged Sevenfold",
+  "origin": ["USA"],
+  "genre": ["Heavy Metal"],
+  "link": "http://avengedsevenfold.com",
+  "logos": [
+    {
+      "title": "Official",
+      "svg": "avenged-sevenfold.svg"
+    }
+  ]
+}

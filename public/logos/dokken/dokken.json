@@ -1,0 +1,12 @@
+{
+  "name": "Dokken",
+  "origin": ["USA"],
+  "genre": ["Heavy Metal"],
+  "link": "http://dokken.net",
+  "logos": [
+    {
+      "title": "Breaking the Chains",
+      "svg": "dokken_breaking-the-chains.svg"
+    }
+  ]
+}

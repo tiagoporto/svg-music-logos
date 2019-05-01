@@ -1,0 +1,12 @@
+{
+  "name": "Korzus",
+  "origin": ["Brazil"],
+  "genre": ["Thrash Metal"],
+  "link": "http://korzus.com.br",
+  "logos": [
+    {
+      "title": "Ao vivo 1985",
+      "svg": "korzus_ao-vivo.svg"
+    }
+  ]
+}
