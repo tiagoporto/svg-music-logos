@@ -7,4 +7,4 @@ before_script:
 
 script:
   - npm run lint
-  - awesome_bot src/data.json --allow-redirect --allow-dupe --white-list bjork.com
+  - awesome_bot public/logos/**/*.json --allow-redirect --allow-dupe --white-list bjork.com
