@@ -2,6 +2,8 @@ const path = require('path')
 const webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
+  .BundleAnalyzerPlugin
 
 const webpackConfig = {
   devServer: {
@@ -104,22 +106,20 @@ const webpackConfig = {
 
 module.exports = webpackConfig
 
-// module.exports = (env, {mode}) => {
-//   const isProd = mode === 'production'
+module.exports = (env, { mode }) => {
+  const isProd = mode === 'production'
 
-//   if (isProd) {
-//     webpackConfig.optimization.minimize = true
-//     webpackConfig.plugins.push(
-//       new webpack.EnvironmentPlugin({
-//         NODE_ENV: mode
-//       })
-//     )
-//   }
+  if (isProd) {
+    webpackConfig.optimization.minimize = true
+    webpackConfig.plugins.push(
+      new webpack.EnvironmentPlugin({
+        NODE_ENV: mode
+      })
+    )
+  }
+  webpackConfig.plugins.push(new BundleAnalyzerPlugin())
 
-//   webpackConfig.output.path = path.resolve(
-//     __dirname,
-//     isProd ? paths.dist : paths.src
-//   )
+  webpackConfig.output.path = path.join(__dirname, 'dist/js')
 
-//   return webpackConfig
-// }
+  return webpackConfig
+}

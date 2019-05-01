@@ -48,7 +48,7 @@
 <script>
 import './AppHeader.styl'
 import './Jumbotron.styl'
-import _ from 'lodash'
+import { debounce } from 'lodash'
 import GithubCorner from '../github-corner/GithubCorner.vue'
 
 const setJumbotronHeight = () => {
@@ -63,7 +63,7 @@ const setJumbotronHeight = () => {
   }
 }
 
-window.addEventListener('scroll', _.debounce(setJumbotronHeight, 20))
+window.addEventListener('scroll', debounce(setJumbotronHeight, 20))
 
 export default {
   name: 'AppHeader',

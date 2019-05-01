@@ -17,7 +17,8 @@ export default {
   }),
   computed: {
     svgSRC () {
-      return this.band.logo.svg
+      const svg = this.band.logo.svg
+      return `${svg.split('.')[0].split('_')[0]}/${svg}`
     }
   },
   watch: {

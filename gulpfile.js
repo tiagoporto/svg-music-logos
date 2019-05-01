@@ -91,7 +91,7 @@ const updateReadme = () => {
    }) */
 const styles = () => {
   return gulp
-    .src('public/logos/*.styl')
+    .src('public/logos/**/*.styl')
     .pipe(
       stylus({
         include: ['node_modules'],
@@ -107,8 +107,8 @@ const styles = () => {
 const clean = () => del(paths.dist)
 
 const watch = () => {
-  gulp.watch('public/logos/*.styl', styles)
-  gulp.watch('public/logos/*.json', generateData)
+  gulp.watch('public/logos/**/*.styl', styles)
+  gulp.watch('public/logos/**/*.json', generateData)
 }
 
 const copy = () => {
@@ -129,7 +129,7 @@ const copy = () => {
 
 const generateData = () => {
   return gulp
-    .src('./public/logos/*.json')
+    .src('./public/logos/**/*.json')
     .pipe(jsonConcat('data.json'))
     .pipe(gulpIgnore('!data.json'))
     .pipe(jsonminify())
