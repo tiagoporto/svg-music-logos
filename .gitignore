@@ -87,5 +87,4 @@ bower_components
 
 build/
 dist/
-src/stylesheets/helpers/_helpers.styl
-src/stylesheets/helpers/_helpers.scss
+stats.json

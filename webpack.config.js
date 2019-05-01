@@ -3,8 +3,6 @@ const path = require('path')
 const webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-  .BundleAnalyzerPlugin
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 
 const webpackConfig = {
@@ -64,7 +62,20 @@ const webpackConfig = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: loader => [
+                require('autoprefixer')(config.basePaths.autoprefixerBrowsers),
+                require('postcss-easing-gradients')
+              ]
+            }
+          }
+        ]
       },
       {
         test: /\.(svg)$/,
@@ -72,7 +83,7 @@ const webpackConfig = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: config.basePaths.img
+              outputPath: config.basePaths.images
             }
           }
         ]
@@ -120,8 +131,7 @@ module.exports = (env, { mode }) => {
         NODE_ENV: mode
       })
     )
-
-    webpackConfig.plugins.push(new BundleAnalyzerPlugin())
+    delete webpackConfig.devtool
   }
 
   webpackConfig.output.path = path.join(__dirname, config.basePaths.dist)

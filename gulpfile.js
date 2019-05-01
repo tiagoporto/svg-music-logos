@@ -65,7 +65,15 @@ const generateData = () => {
 
 const copy = () => {
   return gulp
-    .src([path.join(paths.public, '*.*')], { base: `./${paths.public}` })
+    .src(
+      [
+        path.join(paths.public, '**/*.*'),
+        path.join(`!${(paths.public, '**/*.html')}`)
+      ],
+      {
+        base: `./${paths.public}`
+      }
+    )
     .pipe(gulp.dest(paths.dist))
 }
 
