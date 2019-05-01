@@ -2,4 +2,5 @@ before_script:
   - gem install awesome_bot
 
 script:
+  - npm run lint
   - awesome_bot src/data.json --allow-redirect --allow-dupe --white-list bjork.com

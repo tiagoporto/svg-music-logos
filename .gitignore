@@ -88,3 +88,4 @@ bower_components
 build/
 dist/
 stats.json
+src/data.json
