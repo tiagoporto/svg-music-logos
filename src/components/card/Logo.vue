@@ -33,9 +33,9 @@ export default {
     if (el && this.band.logo.cls) {
       if (el.classList) {
         el.classList.add(this.band.logo.cls)
-      } else {
-        `${el.className} ${this.band.logo.cls}`
-      }
+      }// else {
+      //   `${el.className} ${this.band.logo.cls}`
+      // }
     }
   },
   created () {

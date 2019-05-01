@@ -20,7 +20,7 @@
       <p>
         Origin:
         <template v-for="(origin, index) in band.origin">
-          <flag :iso="getFlagIso(origin)" :squared="false"/>
+          <flag :key="index" :iso="getFlagIso(origin)" :squared="false"/>
           {{origin}}
           <template v-if="index < band.origin.length - 1">/</template>
         </template>
