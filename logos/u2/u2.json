@@ -6,18 +6,6 @@
   "link": "http://www.u2.com",
   "logos": [
     {
-      "title": "360°",
-      "svg": "u2_360.svg"
-    },
-    {
-      "title": "No Line On The Honrizon",
-      "svg": "u2_no-line-on-the-honrizon.svg"
-    },
-    {
-      "title": "How To Dismantle An Atomic Bomb",
-      "svg": "u2_how-to-dismantle-an-atomic-bomb.svg"
-    },
-    {
       "title": "The Joshua Tree",
       "svg": "u2_the-joshua-tree.svg",
       "cls": "u2--the-joshua-tree"
@@ -31,6 +19,22 @@
       "title": "Joshua Tree",
       "svg": "u2_the-joshua-tree.svg",
       "cls": "u2--joshua-tree"
+    },
+    {
+      "title": "How To Dismantle An Atomic Bomb",
+      "svg": "u2_how-to-dismantle-an-atomic-bomb.svg"
+    },
+    {
+      "title": "360°",
+      "svg": "u2_360.svg"
+    },
+    {
+      "title": "No Line On The Honrizon",
+      "svg": "u2_no-line-on-the-honrizon.svg"
+    },
+    {
+      "title": "Magnificent",
+      "svg": "u2_magnificent.svg"
     }
   ]
 }

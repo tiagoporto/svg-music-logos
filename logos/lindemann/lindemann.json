@@ -1,0 +1,12 @@
+{
+  "name": "Lindemann",
+  "origin": ["Germany", "Sweden"],
+  "genre": ["Industrial metal"],
+  "link": "https://www.skillsinpills.com",
+  "logos": [
+    {
+      "title": "LM",
+      "svg": "lindemann_lm.svg"
+    }
+  ]
+}

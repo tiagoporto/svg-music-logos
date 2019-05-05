@@ -1,0 +1,9 @@
+<!--
+  SVG Music Logos
+  Lindemann - LM v1.0.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016-2019 Tiago Porto (http://tiagoporto.com)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 200" class="lindemann">
+  <path d="M1.771,1v198h144.457V1H1.771z M133.809,186.581l-99.029,0h-20.59V13.419h20.59V165.99h99.029V186.581z M133.809,154.301	h-20.59V34.01H100.8v120.291H80.21V34.01H67.79v120.291H47.2V13.419h86.609V154.301z"/>
+</svg>
