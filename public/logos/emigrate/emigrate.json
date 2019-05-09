@@ -1,0 +1,12 @@
+{
+  "name": "Emigrate",
+  "origin": ["USA"],
+  "genre": ["Industrial Metal"],
+  "link": "emigrate.eu",
+  "logos": [
+    {
+      "title": "Silent So Long",
+      "svg": "emigrate_silent-so-long.svg"
+    }
+  ]
+}
