@@ -5,8 +5,8 @@
 </p>
 
 <!-- replace start -->
-![Total Artists](https://img.shields.io/badge/artists-183-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-328-blue.svg?style=flat-square)
+![Total Artists](https://img.shields.io/badge/artists-185-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-330-blue.svg?style=flat-square)
 ![Total Origins](https://img.shields.io/badge/origins-20-blue.svg?style=flat-square)
 ![Total Genres](https://img.shields.io/badge/genres-56-blue.svg?style=flat-square)
 <!-- replace end -->
