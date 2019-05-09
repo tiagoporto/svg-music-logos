@@ -50,7 +50,10 @@ const app = new Vue({
 app.$mount('#svgMusicLogosApp')
 registerServiceWorker()
 
-if (process.env.NODE_ENV === 'production') {
+const hostname = window.location && window.location.hostname
+const isMyDomain = hostname === 'tiagoporto.github.io'
+
+if (isMyDomain || hostname !== 'localhost') {
   Vue.use(VueAnalytics, {
     id: 'UA-32351360-4'
   })

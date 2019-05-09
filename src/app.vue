@@ -32,6 +32,7 @@ import AppFooter from './components/footer/AppFooter.vue'
 import AppHeader from './components/header/AppHeader.vue'
 import BackTop from './components/back-top/BackTop.vue'
 import Card from './components/card/Card.vue'
+import { page, event } from 'vue-analytics'
 
 export default {
   name: 'App',
@@ -117,6 +118,7 @@ export default {
     }
   },
   mounted () {
+    this.track()
     this.$nextTick(() => {
       this.$route.query.q && (this.search.band = this.$route.query.q)
       this.$route.query.origin &&
@@ -127,6 +129,25 @@ export default {
         this.$ga.page(location.pathname)
       }
     })
+  },
+  methods: {
+    track () {
+      const hostname = window.location && window.location.hostname
+      const isMyDomain = hostname === 'tiagoporto.github.io'
+
+      if (!isMyDomain && hostname !== 'localhost') {
+        page({
+          page: window.location.href.replace(/https?:\/\//, ''),
+          title: document.title,
+          location: window.location.origin
+        })
+        event({
+          eventLabel: 'Unknown access',
+          eventCategory: 'unknown_user',
+          eventAction: 'unknown_access'
+        })
+      }
+    }
   }
 }
 </script>
