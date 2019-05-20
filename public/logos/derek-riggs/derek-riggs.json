@@ -1,7 +1,7 @@
 {
   "name": "Iron Maiden - Derek Riggs",
   "origin": ["England"],
-  "css": "derek-riggs.styl",
+  "css": "derek-riggs.css",
   "link": "http://derekriggs.com",
   "logos": [
     {
