@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-        <p>©copyright 2016-2018</p>
+        <p>©copyright 2016-2019</p>
         <p>Tiago Porto</p>
   </footer>
 </template>
