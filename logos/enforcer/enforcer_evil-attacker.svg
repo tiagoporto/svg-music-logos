@@ -1,8 +1,8 @@
 <!--
   SVG Music Logos
-  Enforcer - Evil Attacker v1.0.0
+  Enforcer - Evil Attacker v1.0.1
   https://github.com/tiagoporto/svg-music-logos
-  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+  Copyright (c) 2016-2019 Tiago Porto (http://tiagoporto.com)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 58" class="enforcer--evil-attacker">
   <path class="enforcer__outer" d="M177.212 24.904h9.237l5.653-21.198H53.6l-4.218 16.386-3.478-16.386H15.883L2 54.294l11.391-12.951h31.318l3.026 10.849 3.716-10.849h131.57l2.997 3.236H198z"/>

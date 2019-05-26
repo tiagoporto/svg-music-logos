@@ -1,6 +1,7 @@
 {
   "name": "Matanza",
   "origin": ["Brazil"],
+  "css": "matanza.css",
   "genre": ["Hardcore Punk"],
   "link": "http://matanza.com.br",
   "logos": [

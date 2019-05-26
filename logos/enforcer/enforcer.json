@@ -1,6 +1,7 @@
 {
   "name": "Enforcer",
   "origin": ["Sweden"],
+  "css": "enforcer.css",
   "genre": ["Speed Metal"],
   "link": "http://enforcer.se",
   "logos": [
