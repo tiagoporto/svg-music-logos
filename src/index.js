@@ -48,7 +48,10 @@ const app = new Vue({
 })
 
 app.$mount('#svgMusicLogosApp')
-registerServiceWorker()
+
+if (process.env.NODE_ENV === 'production') {
+  registerServiceWorker()
+}
 
 const hostname = window.location && window.location.hostname
 const isMyDomain = hostname === 'tiagoporto.github.io'

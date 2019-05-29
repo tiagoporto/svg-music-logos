@@ -11,12 +11,8 @@
       :genres="genres"
     ></app-header>
 
-    <main class="card-container">
-      <card
-        v-for="(band, index) in filteredLogos"
-        :key="index"
-        :band="band"
-      ></card>
+    <main v-if="renderCards" class="card-container">
+      <card v-for="(band, index) in filteredLogos" :key="index" :band="band"></card>
     </main>
 
     <back-top></back-top>
@@ -44,6 +40,7 @@ export default {
   },
   data () {
     return {
+      renderCards: false,
       artists,
       logos,
       genres,
@@ -128,6 +125,18 @@ export default {
       if (process.env.NODE_ENV === 'production') {
         this.$ga.page(location.pathname)
       }
+    })
+
+    const bands = this.filteredLogos
+    const promises = []
+
+    for (let index = 0; index < 6; index++) {
+      const band = bands[index]
+      promises[index] = fetch(`logos/${band.folder}/${band.logo.svg}`)
+    }
+
+    Promise.all([promises[0], promises[1], promises[2], promises[3], promises[4], promises[5]]).then((message) => {
+      this.renderCards = true
     })
   },
   methods: {
