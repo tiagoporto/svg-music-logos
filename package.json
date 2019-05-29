@@ -21,13 +21,13 @@
     "url": "https://github.com/tiagoporto/svg-music-logos.git"
   },
   "scripts": {
-    "prestart": "npm run generate-data",
-    "start": "gulp watch & npm run webpack",
+    "start": "echo 'please run `npm run gulp` in one tab and then `npm run webpack` in another one'",
     "build": "npm run gulp:build && npm run webpack:build",
     "deploy": "npm run build && gh-pages -d dist",
     "gulp": "gulp watch",
     "gulp:build": "gulp build",
-    "webpack": "webpack-dev-server --hot --inline",
+    "prewebpack": "npm run generate-data",
+    "webpack": "webpack-dev-server --hot",
     "webpack:build": "webpack --mode=production --profile --json > stats.json",
     "stats": "npm run webpack:build && webpack-bundle-analyzer stats.json",
     "lint": "eslint src/. --ext .js,.vue",
@@ -40,13 +40,16 @@
     "lodash": "^4.17.11",
     "normalize.css": "^8.0.1",
     "postcss-easing-gradients": "^3.0.1",
+    "svg-to-inline": "^1.0.0-alpha.1",
     "vue": "^2.5.9",
     "vue-analytics": "^5.8.0",
     "vue-flag-icon": "^1.0.6",
-    "vue-router": "^3.0.6"
+    "vue-router": "^3.0.6",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.3",
     "autoprefixer": "^9.5.1",
     "babel-loader": "^8.0.5",

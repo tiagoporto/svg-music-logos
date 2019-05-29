@@ -1,9 +1,12 @@
 {
   "extends": [
     "plugin:vue/recommended",
-    "prettier",
-    "standard",
     "prettier/standard",
-    "prettier/vue"
-  ]
+    "prettier/vue",
+    "standard"
+  ],
+  "plugins": ["vue"],
+  "rules": {
+    "vue/attribute-hyphenation": "off"
+  }
 }

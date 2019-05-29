@@ -35,8 +35,9 @@
 </template>
 
 <script>
+import 'whatwg-fetch'
 import './Card.styl'
-import { deburr, kebabCase, split } from 'lodash'
+import { deburr, kebabCase } from 'lodash'
 import FileSaver from 'file-saver'
 import FlagIso from './FlagIso.json'
 import Logo from './Logo.vue'
@@ -50,57 +51,62 @@ export default {
     band: [Object]
   },
   methods: {
+    save (content, filename) {
+      content = new Blob([content], { type: 'text/plain' })
+      FileSaver.saveAs(content, filename)
+
+      if (process.env.NODE_ENV === 'production') {
+        this.$ga.event({
+          eventCategory: 'download',
+          eventAction: 'click',
+          eventLabel: filename
+        })
+      }
+    },
     download (event, band) {
-      let svgFileName = band.logo.svg.toLowerCase()
-      const svg = event.target.parentElement.parentElement.firstChild.innerHTML
-      const sanitizedTitle = kebabCase(deburr(band.logo.title.toLowerCase()))
+      const bandName = kebabCase(deburr(band.name.toLowerCase()))
+      const versionName = kebabCase(deburr(band.logo.title.toLowerCase()))
+      const filename = `${bandName}_${versionName}.svg`
+      let svgFileName = band.logo.svg
 
-      if (!svgFileName.includes(sanitizedTitle)) {
-        const splitedFilename = split(svgFileName, '.')
-        svgFileName = `${splitedFilename[0]}_${sanitizedTitle}.${
-          splitedFilename[1]
-        }`
-      }
+      fetch(`logos/${band.folder}/${svgFileName}`)
+        .then(response => response.text())
+        .then(response => {
+          let svg = response
 
-      const save = (content, filename = band.logo.svg) => {
-        content = new Blob([content], { type: 'text/plain' })
-        FileSaver.saveAs(content, filename)
-
-        if (process.env.NODE_ENV === 'production') {
-          this.$ga.event({
-            eventCategory: 'download',
-            eventAction: 'click',
-            eventLabel: svgFileName
-          })
-        }
-      }
-
-      if (band.css) {
-        const request = new XMLHttpRequest()
-        request.open('GET', `logos/${band.folder}/${band.css}`, true)
-
-        request.onreadystatechange = () => {
-          if (request.readyState === 4) {
-            if (request.status >= 200 && request.status < 400) {
-              const cssResponse = `<style>\r\n${
-                request.responseText
-              }\r</style>`
-              const content = svg.replace(
-                /(<svg[\w='"\s:/.-]+>)/,
-                `$1\r\n${cssResponse}`
-              )
-
-              save(content)
-            } else {
-              // Error :(
+          if (band.logo.cls) {
+            if (!svg.match(/<svg[\w\s\t\n:="\\'/.#-]+ class="(.*?)"/)) {
+              svg = svg.replace(/(<svg[\w\s\t\n:="\\'/.#-]+)/, '$1 class=" "')
             }
-          }
-        }
 
-        request.send()
-      } else {
-        save(svg)
-      }
+            const svgClass =
+              svg.match(/<svg[\w\s\t\n:="\\'/.#-]+ class="(.*?)"/) &&
+              svg.match(/class="(.*?)"/)[1].split(' ')
+
+            const classToAdd = band.logo.cls.split(' ')
+            const allClasses = [...svgClass, ...classToAdd].filter(
+              classname => classname
+            )
+            const newClasses = [...new Set(allClasses)].join(' ')
+            svg = svg.replace(
+              /(<svg[\w\s\t\n:="\\'/.#-]+) class="[\w\s-_]+?"/,
+              `$1 class="${newClasses}"`
+            )
+          }
+
+          if (band.css) {
+            fetch(`logos/${band.folder}/${band.css}`)
+              .then(response => response.text())
+              .then(response => {
+                const styles = `<style>\r\n${response}\r</style>`
+                svg = svg.replace(/(<svg[\w='"\s:/.-]+>)/, `$1\r\n${styles}`)
+
+                this.save(svg, filename)
+              })
+          } else {
+            this.save(svg, filename)
+          }
+        })
     },
     getFlagIso (country) {
       return FlagIso[country]
