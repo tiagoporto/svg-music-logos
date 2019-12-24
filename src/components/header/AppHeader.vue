@@ -4,21 +4,30 @@
 
     <div class="header__main">
       <h1 class="header__title">
-        <a href="http://tiagoporto.github.io/svg-music-logos" class="header__link-title">
-          <img src="img/logos/logo.svg" alt="SVG Music Logos" width="300">
+        <a
+          href="http://tiagoporto.github.io/svg-music-logos"
+          class="header__link-title"
+        >
+          <img src="img/logos/logo.svg" alt="SVG Music Logos" width="300" />
         </a>
-        <span class="header__subtitle">{{artists.length}} artists • {{logos.length}} logos</span>
+        <span class="header__subtitle"
+          >{{ artists.length }} artists • {{ logos.length }} logos</span
+        >
       </h1>
 
       <p>A collection of bands' and musicians' logos in SVG.</p>
       <p>All brands are trademarks of their respective bands or musicians.</p>
-      <p>The brands and symbols should only be used to represent which artists they refer.</p>
+      <p>
+        The brands and symbols should only be used to represent which artists
+        they refer.
+      </p>
 
       <p>
         <a
           href="https://github.com/tiagoporto/svg-music-logos/issues"
           class="link"
-        >Request a new logo or report an issue.</a>
+          >Request a new logo or report an issue.</a
+        >
       </p>
 
       <input
@@ -28,17 +37,21 @@
         class="search"
         aria-label="Search by names"
         autofocus
-      >
+      />
 
       <div class="filter">
         <select v-model="search.origin" class="select" aria-label="Origins">
           <option value>All Origins</option>
-          <option v-for="origin in origins" :key="origin" :value="origin">{{origin}}</option>
+          <option v-for="origin in origins" :key="origin" :value="origin">{{
+            origin
+          }}</option>
         </select>
 
         <select v-model="search.genre" class="select" aria-label="Genres">
           <option value>All Genres</option>
-          <option v-for="genre in genres" :key="genre" :value="genre">{{genre}}</option>
+          <option v-for="genre in genres" :key="genre" :value="genre">{{
+            genre
+          }}</option>
         </select>
       </div>
     </div>

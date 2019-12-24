@@ -1,5 +1,10 @@
 <template>
-  <svg-to-inline class="logo" :path="svgSRC" :class-name="svgCls" :lazy="true"></svg-to-inline>
+  <svg-to-inline
+    class="logo"
+    :path="svgSRC"
+    :class-name="svgCls"
+    :lazy="true"
+  ></svg-to-inline>
 </template>
 
 <script>
@@ -12,15 +17,15 @@ export default {
     band: [Object]
   },
   computed: {
-    CSSPath () {
+    CSSPath() {
       const css = this.band.css
 
       return css && `logos/${css.split('.')[0]}/${css}`
     },
-    svgCls () {
+    svgCls() {
       return this.band.logo.cls
     },
-    svgSRC () {
+    svgSRC() {
       const svg = this.band.logo.svg
       return `logos/${svg.split('.')[0].split('_')[0]}/${svg}`
     }

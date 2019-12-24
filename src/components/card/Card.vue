@@ -1,18 +1,27 @@
 <template>
-  <div class="card" :class="{'card--inverse': band.logo.inverse}">
+  <div class="card" :class="{ 'card--inverse': band.logo.inverse }">
     <logo :band="band"></logo>
 
     <div class="card__content">
-      <h2 v-if="band.nameTemplate" class="card__title" v-html="band.nameTemplate"></h2>
+      <h2
+        v-if="band.nameTemplate"
+        class="card__title"
+        v-html="band.nameTemplate"
+      ></h2>
 
       <h2 v-else class="card__title">
-        <a class="card__link" :href="band.link" :title="`${band.name}'s website`">{{band.name}}</a>
+        <a
+          class="card__link"
+          :href="band.link"
+          :title="`${band.name}'s website`"
+          >{{ band.name }}</a
+        >
       </h2>
 
       <p v-if="band.genre">
         Genre:
         <template v-for="(genre, index) in band.genre">
-          {{genre}}
+          {{ genre }}
           <template v-if="index < band.genre.length - 1">•</template>
         </template>
       </p>
@@ -20,16 +29,18 @@
       <p>
         Origin:
         <template v-for="(origin, index) in band.origin">
-          <flag :key="index" :iso="getFlagIso(origin)" :squared="false"/>
-          {{origin}}
+          <flag :key="index" :iso="getFlagIso(origin)" :squared="false" />
+          {{ origin }}
           <template v-if="index < band.origin.length - 1">/</template>
         </template>
       </p>
-      <p>Reference: {{band.logo.title}}</p>
+      <p>Reference: {{ band.logo.title }}</p>
     </div>
 
     <div class="card__footer">
-      <button class="card__button" @click="download($event, band)">Download SVG</button>
+      <button class="card__button" @click="download($event, band)">
+        Download SVG
+      </button>
     </div>
   </div>
 </template>
@@ -51,7 +62,7 @@ export default {
     band: [Object]
   },
   methods: {
-    save (content, filename) {
+    save(content, filename) {
       content = new Blob([content], { type: 'text/plain' })
       FileSaver.saveAs(content, filename)
 
@@ -63,11 +74,11 @@ export default {
         })
       }
     },
-    download (event, band) {
+    download(event, band) {
       const bandName = kebabCase(deburr(band.name.toLowerCase()))
       const versionName = kebabCase(deburr(band.logo.title.toLowerCase()))
       const filename = `${bandName}_${versionName}.svg`
-      let svgFileName = band.logo.svg
+      const svgFileName = band.logo.svg
 
       fetch(`logos/${band.folder}/${svgFileName}`)
         .then(response => response.text())
@@ -108,7 +119,7 @@ export default {
           }
         })
     },
-    getFlagIso (country) {
+    getFlagIso(country) {
       return FlagIso[country]
     }
   }

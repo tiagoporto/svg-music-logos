@@ -12,7 +12,11 @@
     ></app-header>
 
     <main v-if="renderCards" class="card-container">
-      <card v-for="(band, index) in filteredLogos" :key="index" :band="band"></card>
+      <card
+        v-for="(band, index) in filteredLogos"
+        :key="index"
+        :band="band"
+      ></card>
     </main>
 
     <back-top></back-top>
@@ -38,7 +42,7 @@ export default {
     Card,
     BackTop
   },
-  data () {
+  data() {
     return {
       renderCards: false,
       artists,
@@ -53,7 +57,7 @@ export default {
     }
   },
   computed: {
-    filteredLogos () {
+    filteredLogos() {
       const query = {}
 
       this.search.band && (query.q = this.search.band)
@@ -103,18 +107,18 @@ export default {
           )
         const genre =
           (!searched.genre && !band.genre) ||
-          (!searched.genre ||
-            (band.genre && band.genre.includes(searched.genre)))
+          !searched.genre ||
+          (band.genre && band.genre.includes(searched.genre))
         const origin =
           (!searched.origin && !band.origin) ||
-          (!searched.origin ||
-            (band.origin && band.origin.includes(searched.origin)))
+          !searched.origin ||
+          (band.origin && band.origin.includes(searched.origin))
 
         return name && origin && genre
       })
     }
   },
-  mounted () {
+  mounted() {
     this.track()
     this.$nextTick(() => {
       this.$route.query.q && (this.search.band = this.$route.query.q)
@@ -135,12 +139,19 @@ export default {
       promises[index] = fetch(`logos/${band.folder}/${band.logo.svg}`)
     }
 
-    Promise.all([promises[0], promises[1], promises[2], promises[3], promises[4], promises[5]]).then((message) => {
+    Promise.all([
+      promises[0],
+      promises[1],
+      promises[2],
+      promises[3],
+      promises[4],
+      promises[5]
+    ]).then(message => {
       this.renderCards = true
     })
   },
   methods: {
-    track () {
+    track() {
       const hostname = window.location && window.location.hostname
       const isMyDomain = hostname === 'tiagoporto.github.io'
 
