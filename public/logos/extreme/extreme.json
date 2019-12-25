@@ -1,0 +1,12 @@
+{
+  "name": "Extreme",
+  "origin": ["USA"],
+  "genre": ["Hard Rock", "Funk Metal"],
+  "link": "http://www.extreme-band.com",
+  "logos": [
+    {
+      "title": "III Sides to Every Story",
+      "svg": "extreme_III-sides-to-every-story.svg"
+    }
+  ]
+}
