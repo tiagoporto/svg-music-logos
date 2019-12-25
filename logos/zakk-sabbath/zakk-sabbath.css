@@ -1,0 +1,11 @@
+.zakk-sabbath--zs .cross,
+.zakk-sabbath--zs .s-letter,
+.zakk-sabbath--zs .z-letter,
+.zakk-sabbath .lettering {
+  fill: #be2e0a;
+}
+.zakk-sabbath--zs .s-outer,
+.zakk-sabbath--zs .z-outer,
+.zakk-sabbath .outer {
+  fill: #f1c116;
+}
