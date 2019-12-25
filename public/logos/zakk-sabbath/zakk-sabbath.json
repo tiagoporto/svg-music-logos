@@ -1,0 +1,19 @@
+{
+  "name": "Zakk Sabbath",
+  "css": "zakk-sabbath.css",
+  "origin": ["USA"],
+  "genre": ["Heavy Metal"],
+  "link": "http://blacklabelsociety.net/zakk-sabbath",
+  "logos": [
+    {
+      "title": "ZS",
+      "svg": "zakk-sabbath_zs.svg",
+      "inverse": true
+    },
+    {
+      "title": "Zakk Sabbath",
+      "svg": "zakk-sabbath.svg",
+      "inverse": true
+    }
+  ]
+}
