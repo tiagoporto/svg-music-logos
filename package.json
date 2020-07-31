@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "file-saver": "^2.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "normalize.css": "^8.0.1",
     "postcss-easing-gradients": "^3.0.1",
     "svg-to-inline": "^1.0.0-alpha.1",
