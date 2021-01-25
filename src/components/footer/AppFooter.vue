@@ -9,6 +9,6 @@
 import './AppFooter.styl'
 
 export default {
-  name: 'AppFooter'
+  name: 'AppFooter',
 }
 </script>

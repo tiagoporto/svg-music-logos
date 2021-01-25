@@ -56,10 +56,10 @@ import Logo from './Logo.vue'
 export default {
   name: 'Card',
   components: {
-    Logo
+    Logo,
   },
   props: {
-    band: [Object]
+    band: [Object],
   },
   methods: {
     save(content, filename) {
@@ -70,7 +70,7 @@ export default {
         this.$ga.event({
           eventCategory: 'download',
           eventAction: 'click',
-          eventLabel: filename
+          eventLabel: filename,
         })
       }
     },
@@ -81,8 +81,8 @@ export default {
       const svgFileName = band.logo.svg
 
       fetch(`logos/${band.folder}/${svgFileName}`)
-        .then(response => response.text())
-        .then(response => {
+        .then((response) => response.text())
+        .then((response) => {
           let svg = response
 
           if (band.logo.cls) {
@@ -96,7 +96,7 @@ export default {
 
             const classToAdd = band.logo.cls.split(' ')
             const allClasses = [...svgClass, ...classToAdd].filter(
-              classname => classname
+              (classname) => classname
             )
             const newClasses = [...new Set(allClasses)].join(' ')
             svg = svg.replace(
@@ -107,8 +107,8 @@ export default {
 
           if (band.css) {
             fetch(`logos/${band.folder}/${band.css}`)
-              .then(response => response.text())
-              .then(response => {
+              .then((response) => response.text())
+              .then((response) => {
                 const styles = `<style>\r\n${response}\r</style>`
                 svg = svg.replace(/(<svg[\w='"\s:/.-]+>)/, `$1\r\n${styles}`)
 
@@ -121,7 +121,7 @@ export default {
     },
     getFlagIso(country) {
       return FlagIso[country]
-    }
-  }
+    },
+  },
 }
 </script>

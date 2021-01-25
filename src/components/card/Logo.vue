@@ -14,7 +14,7 @@ import './Logo.styl'
 export default {
   name: 'Logo',
   props: {
-    band: [Object]
+    band: [Object],
   },
   computed: {
     CSSPath() {
@@ -28,7 +28,7 @@ export default {
     svgSRC() {
       const svg = this.band.logo.svg
       return `logos/${svg.split('.')[0].split('_')[0]}/${svg}`
-    }
-  }
+    },
+  },
 }
 </script>

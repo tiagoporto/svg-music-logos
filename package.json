@@ -29,9 +29,11 @@
     "prewebpack": "npm run generate-data",
     "webpack": "webpack-dev-server --hot",
     "webpack:build": "webpack --mode=production --profile --json > stats.json",
+    "checks": "npm run check-formatting && npm run lint",
     "stats": "npm run webpack:build && webpack-bundle-analyzer stats.json",
-    "check-formatting": "prettier --check src/**/*.{js,vue,svg}",
-    "lint": "eslint src/. --ext .js,.vue",
+    "check-formatting": "prettier --check src/**/*.{js,vue}",
+    "formatting:fix": "npm run check-formatting -- --write",
+    "lint": "eslint --ext js,jsx,ts,tsx,md,mdx ./src --max-warnings 0",
     "lint:fix": "npm run lint -- --fix",
     "update-readme": "gulp update-readme",
     "generate-data": "gulp generate-data"
@@ -76,6 +78,7 @@
     "husky": "^3.1.0",
     "lodash-webpack-plugin": "^0.11.5",
     "postcss-loader": "^3.0.0",
+    "prettier": "^2.2.1",
     "style-loader": "^1.1.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
@@ -88,7 +91,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run check-formatting && npm run lint"
+      "pre-push": "echo 'Running checks...' && npm run checks"
     }
   }
 }

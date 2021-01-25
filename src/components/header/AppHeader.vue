@@ -42,16 +42,16 @@
       <div class="filter">
         <select v-model="search.origin" class="select" aria-label="Origins">
           <option value>All Origins</option>
-          <option v-for="origin in origins" :key="origin" :value="origin">{{
-            origin
-          }}</option>
+          <option v-for="origin in origins" :key="origin" :value="origin">
+            {{ origin }}
+          </option>
         </select>
 
         <select v-model="search.genre" class="select" aria-label="Genres">
           <option value>All Genres</option>
-          <option v-for="genre in genres" :key="genre" :value="genre">{{
-            genre
-          }}</option>
+          <option v-for="genre in genres" :key="genre" :value="genre">
+            {{ genre }}
+          </option>
         </select>
       </div>
     </div>
@@ -81,14 +81,14 @@ window.addEventListener('scroll', debounce(setJumbotronHeight, 20))
 export default {
   name: 'AppHeader',
   components: {
-    GithubCorner
+    GithubCorner,
   },
   props: {
     artists: [Array],
     origins: [Array],
     genres: [Array],
     search: [Object],
-    logos: [Array]
-  }
+    logos: [Array],
+  },
 }
 </script>

@@ -40,7 +40,7 @@ export default {
     AppFooter,
     AppHeader,
     Card,
-    BackTop
+    BackTop,
   },
   data() {
     return {
@@ -52,8 +52,8 @@ export default {
       search: {
         band: '',
         genre: '',
-        origin: ''
-      }
+        origin: '',
+      },
     }
   },
   computed: {
@@ -67,7 +67,7 @@ export default {
       if (this.search.band || this.search.genre || this.search.origin) {
         this.$router.replace({
           name: 'search',
-          query
+          query,
         })
       }
 
@@ -76,7 +76,7 @@ export default {
           this.$ga.event({
             eventCategory: 'search',
             eventAction: 'select',
-            eventLabel: `Genre ${this.search.genre}`
+            eventLabel: `Genre ${this.search.genre}`,
           })
         }
       }
@@ -86,14 +86,14 @@ export default {
           this.$ga.event({
             eventCategory: 'search',
             eventAction: 'select',
-            eventLabel: `Origin ${this.search.origin}`
+            eventLabel: `Origin ${this.search.origin}`,
           })
         }
       }
 
       const context = this
 
-      return context.logos.filter(band => {
+      return context.logos.filter((band) => {
         const searched = context.search
         const name = band.name
           .toLowerCase()
@@ -116,7 +116,7 @@ export default {
 
         return name && origin && genre
       })
-    }
+    },
   },
   mounted() {
     this.track()
@@ -145,8 +145,8 @@ export default {
       promises[2],
       promises[3],
       promises[4],
-      promises[5]
-    ]).then(message => {
+      promises[5],
+    ]).then((message) => {
       this.renderCards = true
     })
   },
@@ -159,15 +159,15 @@ export default {
         page({
           page: window.location.href.replace(/https?:\/\//, ''),
           title: document.title,
-          location: window.location.origin
+          location: window.location.origin,
         })
         event({
           eventLabel: 'Unknown access',
           eventCategory: 'unknown_user',
-          eventAction: 'unknown_access'
+          eventAction: 'unknown_access',
         })
       }
-    }
-  }
+    },
+  },
 }
 </script>
