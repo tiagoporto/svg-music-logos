@@ -17,5 +17,5 @@
       1. Separate compound name by using a hyphen `band-name.svg`
 1. Add the logo and necessary info on `dist/data.json`.
 1. Commit your changes: `git commit -am 'Add some Logo'`
-1. Push to the branch: `git push origin master`
+1. Push to the branch: `git push origin main`
 1. Submit a pull request :D
