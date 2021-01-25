@@ -12,7 +12,7 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
-      component: App
+      component: App,
     },
     {
       path: '/search',
@@ -20,19 +20,19 @@ const router = new VueRouter({
       query: {
         q: null,
         origin: null,
-        genre: null
+        genre: null,
       },
-      component: App
+      component: App,
     },
     {
       path: '*',
-      redirect: '/'
-    }
-  ]
+      redirect: '/',
+    },
+  ],
 })
 
 router.beforeEach((to, from, next) => {
-  const hasQueryParams = route => {
+  const hasQueryParams = (route) => {
     return Boolean(Object.keys(route.query).length)
   }
 
@@ -44,7 +44,7 @@ router.beforeEach((to, from, next) => {
 })
 
 const app = new Vue({
-  router
+  router,
 })
 
 app.$mount('#svgMusicLogosApp')
@@ -58,6 +58,6 @@ const isMyDomain = hostname === 'tiagoporto.github.io'
 
 if (isMyDomain || hostname !== 'localhost') {
   Vue.use(VueAnalytics, {
-    id: 'UA-32351360-4'
+    id: 'UA-32351360-4',
   })
 }

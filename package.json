@@ -31,7 +31,7 @@
     "webpack:build": "webpack --mode=production --profile --json > stats.json",
     "checks": "npm run check-formatting && npm run lint",
     "stats": "npm run webpack:build && webpack-bundle-analyzer stats.json",
-    "check-formatting": "prettier --check src/**/*.{js,vue}",
+    "check-formatting": "prettier --check --ignore-unknown '**/*'",
     "formatting:fix": "npm run check-formatting -- --write",
     "lint": "eslint --ext js,jsx,ts,tsx,md,mdx ./src --max-warnings 0",
     "lint:fix": "npm run lint -- --fix",

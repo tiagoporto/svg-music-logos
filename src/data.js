@@ -14,7 +14,7 @@ data.sort((a, b) => {
 })
 
 const allGenres = data
-  .map(elem => {
+  .map((elem) => {
     if (process.env.NODE_ENV !== 'production') {
       elem.genre || console.warn(`${elem.name} is missing the genre.`)
     }
@@ -23,12 +23,14 @@ const allGenres = data
   })
   .join()
   .split(',')
-  .filter(genre => genre)
+  .filter((genre) => genre)
 
-const genres = allGenres.filter((item, pos) => allGenres.indexOf(item) === pos).sort()
+const genres = allGenres
+  .filter((item, pos) => allGenres.indexOf(item) === pos)
+  .sort()
 
 const allOrigins = data
-  .map(elem => {
+  .map((elem) => {
     if (process.env.NODE_ENV !== 'production') {
       elem.origin || console.warn(`${elem.name} is missing the origin.`)
     }
@@ -37,9 +39,11 @@ const allOrigins = data
   })
   .join()
   .split(',')
-  .filter(origin => origin !== undefined)
+  .filter((origin) => origin !== undefined)
 
-const origins = allOrigins.filter((item, pos) => allOrigins.indexOf(item) === pos).sort()
+const origins = allOrigins
+  .filter((item, pos) => allOrigins.indexOf(item) === pos)
+  .sort()
 
 const logos = []
 
@@ -48,10 +52,10 @@ data.forEach((band, index) => {
 
   data[index].folder = getLogo[0].svg.split('.')[0].split('_')[0]
 
-  getLogo.forEach(logo => {
+  getLogo.forEach((logo) => {
     logos.push({
       ...band,
-      logo
+      logo,
     })
   })
 })
@@ -60,5 +64,5 @@ module.exports = {
   genres,
   origins,
   logos,
-  artists: data
+  artists: data,
 }

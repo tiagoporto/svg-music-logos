@@ -29,7 +29,7 @@ const styles = () => {
     .pipe(
       stylus({
         include: ['node_modules'],
-        'include css': true
+        'include css': true,
       })
     )
     .pipe(gulp.dest(paths.public + 'logos'))
@@ -68,10 +68,10 @@ const copy = () => {
     .src(
       [
         path.join(paths.public, '**/*.*'),
-        path.join(`!${(paths.public, '**/*.html')}`)
+        path.join(`!${(paths.public, '**/*.html')}`),
       ],
       {
-        base: `./${paths.public}`
+        base: `./${paths.public}`,
       }
     )
     .pipe(gulp.dest(paths.dist))

@@ -10,15 +10,15 @@ const webpackConfig = {
     open: true,
     overlay: true,
     watchContentBase: true,
-    contentBase: [path.join(__dirname, config.basePaths.public)]
+    contentBase: [path.join(__dirname, config.basePaths.public)],
   },
   devtool: 'source-map',
   entry: {
-    app: path.join(__dirname, config.basePaths.src + 'index.js')
+    app: path.join(__dirname, config.basePaths.src + 'index.js'),
   },
   output: {
     path: path.join(__dirname, config.basePaths.public),
-    filename: '[name].[hash].bundle.js'
+    filename: '[name].[hash].bundle.js',
   },
   module: {
     rules: [
@@ -28,9 +28,9 @@ const webpackConfig = {
         use: {
           loader: 'babel-loader',
           options: {
-            cacheDirectory: true
-          }
-        }
+            cacheDirectory: true,
+          },
+        },
       },
       {
         test: /\.vue$/,
@@ -38,9 +38,9 @@ const webpackConfig = {
         use: {
           loader: 'vue-loader',
           options: {
-            cacheDirectory: true
-          }
-        }
+            cacheDirectory: true,
+          },
+        },
       },
       {
         test: /\.styl$/,
@@ -51,14 +51,14 @@ const webpackConfig = {
             loader: 'postcss-loader',
             options: {
               ident: 'postcss',
-              plugins: loader => [
+              plugins: (loader) => [
                 require('autoprefixer')(config.basePaths.autoprefixerBrowsers),
-                require('postcss-easing-gradients')
-              ]
-            }
+                require('postcss-easing-gradients'),
+              ],
+            },
           },
-          'stylus-loader'
-        ]
+          'stylus-loader',
+        ],
       },
       {
         test: /\.css$/,
@@ -69,13 +69,13 @@ const webpackConfig = {
             loader: 'postcss-loader',
             options: {
               ident: 'postcss',
-              plugins: loader => [
+              plugins: (loader) => [
                 require('autoprefixer')(config.basePaths.autoprefixerBrowsers),
-                require('postcss-easing-gradients')
-              ]
-            }
-          }
-        ]
+                require('postcss-easing-gradients'),
+              ],
+            },
+          },
+        ],
       },
       {
         test: /\.(svg)$/,
@@ -83,18 +83,18 @@ const webpackConfig = {
           {
             loader: 'file-loader',
             options: {
-              outputPath: config.basePaths.images
-            }
-          }
-        ]
-      }
-    ]
+              outputPath: config.basePaths.images,
+            },
+          },
+        ],
+      },
+    ],
   },
   resolve: {
     extensions: ['.js', '.vue'],
     alias: {
-      vue: 'vue/dist/vue.common.js'
-    }
+      vue: 'vue/dist/vue.common.js',
+    },
   },
   optimization: {
     minimize: false,
@@ -105,18 +105,18 @@ const webpackConfig = {
           chunks: 'initial',
           name: 'vendors',
           filename: '[name].[hash].bundle.js',
-          enforce: true
-        }
-      }
-    }
+          enforce: true,
+        },
+      },
+    },
   },
   plugins: [
     new VueLoaderPlugin(),
     new LodashModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: config.basePaths.public + 'index.html'
-    })
-  ]
+      template: config.basePaths.public + 'index.html',
+    }),
+  ],
 }
 
 module.exports = webpackConfig
@@ -128,7 +128,7 @@ module.exports = (env, { mode }) => {
     webpackConfig.optimization.minimize = true
     webpackConfig.plugins.push(
       new webpack.EnvironmentPlugin({
-        NODE_ENV: mode
+        NODE_ENV: mode,
       })
     )
     delete webpackConfig.devtool
