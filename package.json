@@ -74,7 +74,7 @@
     "gulp-jsonminify": "^1.1.0",
     "gulp-replace": "^1.0.0",
     "gulp-stylus": "^2.7.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "husky": "^3.1.0",
     "lodash-webpack-plugin": "^0.11.5",
     "postcss-loader": "^3.0.0",
