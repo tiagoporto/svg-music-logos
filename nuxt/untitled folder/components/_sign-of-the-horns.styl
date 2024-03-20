@@ -1,0 +1,48 @@
+#sign-of-the-horns
+  background: $sign-of-the-horns-color
+  width: $sign-of-the-horns-width
+  height: @width - 25%
+  border-top: (@height - 73%) solid $sign-of-the-horns-color
+  margin: $sign-of-the-horns-finger-height auto 0
+  border-radius: 0  0 50px 50px
+  position: relative
+  transform-origin: center bottom
+  animation: entry 0.5s, continuation 0.4s alternate 0.5s infinite
+
+  &:before
+    width: $sign-of-the-horns-finger-width
+    height: $sign-of-the-horns-finger-height
+    content: ""
+    background: $sign-of-the-horns-color
+    position: absolute
+    top: -($sign-of-the-horns-finger-height)
+    border-radius: 20px
+    box-shadow: (@width + $stroke-size) $sign-of-the-horns-top-finger 0 $sign-of-the-horns-color, (@width + $stroke-size) $sign-of-the-horns-top-finger 0 $stroke-size $bg-color, ((@width * 2) + ($stroke-size * 2)) $sign-of-the-horns-top-finger 0 $sign-of-the-horns-color, ((@width * 2) + ($stroke-size * 2)) $sign-of-the-horns-top-finger 0 $stroke-size $bg-color, ((@width * 3) + ($stroke-size * 3)) 0 0 $sign-of-the-horns-color
+
+  &:after
+    width: 100px
+    height: $sign-of-the-horns-finger-width
+    content: ""
+    background: $sign-of-the-horns-color
+    position: absolute
+    top: 50px
+    border-radius: 25px
+    right: -20px
+    border: $stroke-size solid $bg-color
+    transform: rotate(5deg)
+
+@keyframes entry
+  from
+    transform: scale(0.5)
+    opacity: 0
+  to
+    transform: scale(1)
+    opacity: 1
+
+@keyframes continuation
+  from
+    // transform scale(1)
+    transform: rotateX(0deg)
+  // transform rotate(0deg)
+  to
+    transform: rotateX(45deg) scale(1.1)
