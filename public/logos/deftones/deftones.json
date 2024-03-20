@@ -1,0 +1,12 @@
+{
+  "name": "Deftones",
+  "origin": ["USA"],
+  "genre": ["Alternative Metal"],
+  "link": "https://www.deftones.com/",
+  "logos": [
+    {
+      "title": "white pony",
+      "svg": "deftones_white-pony.svg
+    }
+  ]
+}
