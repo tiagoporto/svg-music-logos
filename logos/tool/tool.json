@@ -7,6 +7,10 @@
     {
       "title": "Sober",
       "svg": "tool_sober.svg"
+    },
+    {
+      "title": "10000 days",
+      "svg": "tool_10000-days.svg"
     }
   ]
 }
