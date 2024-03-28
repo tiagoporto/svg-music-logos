@@ -1,0 +1,12 @@
+{
+  "name": "Candlemass",
+  "origin": ["Sweden"],
+  "genre": ["Epic Doom Metal"],
+  "link": "https://www.candlemass.se/",
+  "logos": [
+    {
+      "title": "Epicus Doomicus Metallicus",
+      "svg": "candlemass_epicus-doomicus-metallicus.svg"
+    }
+  ]
+}
