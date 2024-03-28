@@ -28,7 +28,7 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "express-graphql": "^0.9.0",
     "graphql": "^15.1.0",
     "graphql-tools": "^6.0.9"
