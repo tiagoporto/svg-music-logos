@@ -1,12 +1,12 @@
 {
   "name": "Opeth",
   "origin": ["Sweden"],
-  "genre": ["Proggressive Metal"],
+  "genre": ["Progressive Metal"],
   "link": "https://www.opeth.com/",
   "logos": [
     {
-      "title": "Opeth",
-      "svg": "opeth.svg
+      "title": "Orchid",
+      "svg": "opeth_orchid.svg"
     }
   ]
 }
