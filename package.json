@@ -88,10 +88,5 @@
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "echo 'Running checks...' && npm run checks"
-    }
   }
 }
