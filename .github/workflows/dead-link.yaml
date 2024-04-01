@@ -1,0 +1,25 @@
+name: Check Dead Links
+
+on:
+  schedule:
+    # Run on the 1st and 15th of each month @ 00:00AM UTC-3
+    - cron: '0 3 1,15 * *'
+
+jobs:
+  dead-links:
+    name: Check broken links
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - name: Install awesome_bot
+        run: gem install awesome_bot
+
+      - name: Check URLs
+        run: awesome_bot public/logos/**/*.json --allow-dupe --allow-redirect

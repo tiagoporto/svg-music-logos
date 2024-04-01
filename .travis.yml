@@ -1,5 +1,0 @@
-before_script:
-  - gem install awesome_bot
-
-script:
-  - awesome_bot public/logos/**/*.json --allow-redirect --allow-dupe --white-list bjork.com

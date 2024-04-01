@@ -25,8 +25,7 @@ A collection of logos and symbols from bands, musicians and related in SVG.
 
 ![Website](https://img.shields.io/website/https/tiagoporto.github.io/svg-music-logos.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)
 ![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://tiagoporto.github.io/svg-music-logos)
-
-<!-- [![Artists links](https://img.shields.io/travis/com/tiagoporto/svg-music-logos/main.svg?style=flat-square&label=links)](https://travis-ci.com/tiagoporto/svg-music-logos) -->
+[![Page links](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yaml?branch=main&style=flat-square&label=page%20links)](https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yaml)
 
 <!-- ### Technology -->
 
