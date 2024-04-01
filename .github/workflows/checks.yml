@@ -1,0 +1,29 @@
+name: Checks
+
+on: [workflow_call]
+
+jobs:
+  checks:
+    name: Run Checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install Dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Check Formatting
+        run: npm run check-formatting
+
+      - name: Check Docs
+        run: npm run check-docs
+
+      - name: Lint
+        run: npm run lint
