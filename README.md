@@ -39,6 +39,27 @@ A collection of logos and symbols from bands, musicians and related in SVG.
 ![travis](https://img.shields.io/badge/travisci-%232B2F33?style=for-the-badge&logo=travis&logoColor=white)
 ![vercel](https://img.shields.io/badge/vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white) -->
 
+## Development 🛠
+
+### Pre-requirements
+
+- [git](https://git-scm.com)
+- [nvm](https://github.com/nvm-sh/nvm)
+
+### Install node
+
+```bash
+nvm install
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+TODO
+
 ## 🤝 Contributing
 
 Didn't find the logo you were looking for?

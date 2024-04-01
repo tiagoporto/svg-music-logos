@@ -4,6 +4,10 @@
   "description": "A collection of bands' and musicians' logos in SVG.",
   "homepage": "http://tiagoporto.github.io/svg-music-logos",
   "private": true,
+  "engines": {
+    "node": ">= 20",
+    "npm": ">= 10"
+  },
   "keywords": [
     "logos",
     "music",
