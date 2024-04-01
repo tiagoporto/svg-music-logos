@@ -129,7 +129,7 @@ module.exports = (env, { mode }) => {
     webpackConfig.plugins.push(
       new webpack.EnvironmentPlugin({
         NODE_ENV: mode,
-      })
+      }),
     )
     delete webpackConfig.devtool
   }

@@ -96,12 +96,12 @@ export default {
 
             const classToAdd = band.logo.cls.split(' ')
             const allClasses = [...svgClass, ...classToAdd].filter(
-              (classname) => classname
+              (classname) => classname,
             )
             const newClasses = [...new Set(allClasses)].join(' ')
             svg = svg.replace(
               /(<svg[\w\s\t\n:="\\'/.#-]+) class="[\w\s-_]+?"/,
-              `$1 class="${newClasses}"`
+              `$1 class="${newClasses}"`,
             )
           }
 

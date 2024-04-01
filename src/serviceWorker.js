@@ -4,7 +4,7 @@
 export const registerServiceWorker = () => {
   if (navigator.serviceWorker.controller) {
     console.log(
-      '[PWA Builder] active service worker found, no need to register'
+      '[PWA Builder] active service worker found, no need to register',
     )
   } else {
     // Register the ServiceWorker
@@ -14,7 +14,7 @@ export const registerServiceWorker = () => {
       })
       .then((reg) => {
         console.log(
-          `[PWA Builder] Service worker has been registered for scope: ${reg.scope}`
+          `[PWA Builder] Service worker has been registered for scope: ${reg.scope}`,
         )
       })
   }

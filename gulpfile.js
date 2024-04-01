@@ -30,7 +30,7 @@ const styles = () => {
       stylus({
         include: ['node_modules'],
         'include css': true,
-      })
+      }),
     )
     .pipe(gulp.dest(paths.public + 'logos'))
 }
@@ -48,8 +48,8 @@ const updateReadme = () => {
 ![Total Logos](https://img.shields.io/badge/logos-${data.logos.length}-blue.svg?style=flat-square)
 ![Total Origins](https://img.shields.io/badge/origins-${data.origins.length}-blue.svg?style=flat-square)
 ![Total Genres](https://img.shields.io/badge/genres-${data.genres.length}-blue.svg?style=flat-square)
-<!-- replace end -->`
-      )
+<!-- replace end -->`,
+      ),
     )
     .pipe(gulp.dest('./'))
 }
@@ -72,7 +72,7 @@ const copy = () => {
       ],
       {
         base: `./${paths.public}`,
-      }
+      },
     )
     .pipe(gulp.dest(paths.dist))
 }
@@ -86,7 +86,7 @@ const watch = () => {
 
 const build = gulp.series(
   clean,
-  gulp.parallel(generateData, styles, copy, updateReadme)
+  gulp.parallel(generateData, styles, copy, updateReadme),
 )
 
 // ***************************** Tasks ******************************* //

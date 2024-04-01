@@ -18,7 +18,7 @@ const schemaWithResolvers = addResolversToSchema({
 const app = express()
 app.use(
   '/graphql',
-  graphqlHTTP({ schema: schemaWithResolvers, graphiql: true })
+  graphqlHTTP({ schema: schemaWithResolvers, graphiql: true }),
 )
 app.listen(4000)
 

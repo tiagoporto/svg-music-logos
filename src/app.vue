@@ -103,7 +103,7 @@ export default {
             searched.band
               .toLowerCase()
               .normalize('NFD')
-              .replace(/[\u0300-\u036f]/g, '')
+              .replace(/[\u0300-\u036f]/g, ''),
           )
         const genre =
           (!searched.genre && !band.genre) ||
