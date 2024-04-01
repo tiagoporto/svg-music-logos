@@ -12,9 +12,7 @@ mongodump -d musiclogosdb -o output
 
 db port
 
-```
-//localhost:27017
-```
+<http://localhost:27017>
 
 Robo 3T
 

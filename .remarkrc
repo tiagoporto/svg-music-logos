@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "bullet": "-",
+    "listItemIndent": "mixed",
+    "incrementListMarker": false
+  },
+  "plugins": [
+    "remark-emoji",
+    "remark-lint",
+    "remark-preset-lint-recommended",
+    "remark-preset-lint-consistent",
+    "remark-preset-lint-markdown-style-guide",
+    "remark-gfm",
+    "validate-links",
+    ["lint-no-dead-urls", {"skipLocalhost": true}],
+    "lint-no-url-trailing-slash"
+  ]
+}
