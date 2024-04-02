@@ -8,12 +8,15 @@ jobs:
     secrets: inherit
 
   deploy:
+    name: Generate Build and Deploy to GitHub Pages
     needs: [checks]
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    name: Generate Build and Deploy to GitHub Pages
+    permissions:
+      pages: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
