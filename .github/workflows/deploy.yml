@@ -45,9 +45,12 @@ jobs:
         uses: actions/deploy-pages@v2
 
       - name: Setup git
+        env:
+          GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
+          GIT_NAME: ${{ secrets.GIT_NAME }}
         run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config user.email "<>"
+          git config --global user.name "${{ env.GIT_NAME }}"
+          git config user.email "<${{ env.GIT_EMAIL }}>"
       - name: Push README.md
         run: |
           git add README.md
