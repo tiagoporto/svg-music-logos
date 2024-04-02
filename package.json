@@ -61,7 +61,7 @@
     "@babel/preset-env": "^7.7.7",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
-    "autoprefixer": "^9.7.3",
+    "autoprefixer": "^10.4.19",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.4.0",
     "del": "^5.1.0",
