@@ -42,12 +42,13 @@ const updateReadme = () => {
     .pipe(
       replace(
         /<!-- replace start -->[\W\w]+<!-- replace end -->/,
-        // prettier-ignore
         `<!-- replace start -->
+
 ![Total Artists](https://img.shields.io/badge/artists-${data.artists.length}-blue.svg?style=flat-square)
 ![Total Logos](https://img.shields.io/badge/logos-${data.logos.length}-blue.svg?style=flat-square)
 ![Total Origins](https://img.shields.io/badge/origins-${data.origins.length}-blue.svg?style=flat-square)
 ![Total Genres](https://img.shields.io/badge/genres-${data.genres.length}-blue.svg?style=flat-square)
+
 <!-- replace end -->`,
       ),
     )
@@ -86,7 +87,8 @@ const watch = () => {
 
 const build = gulp.series(
   clean,
-  gulp.parallel(generateData, styles, copy, updateReadme),
+  generateData,
+  gulp.parallel(styles, copy, updateReadme),
 )
 
 // ***************************** Tasks ******************************* //
