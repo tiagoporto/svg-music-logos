@@ -21,22 +21,38 @@ A collection of logos and symbols from bands, musicians and related in SVG.
 
 </div>
 
-## 🎧 Project Info
+## Project 🎧
+
+<https://tiagoporto.github.io/svg-music-logos>
+
+## Status ✅
 
 ![Website](https://img.shields.io/website/https/tiagoporto.github.io/svg-music-logos.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)
 ![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://tiagoporto.github.io/svg-music-logos)
-[![Page links](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yaml?branch=main&style=flat-square&label=page%20links)](https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yaml)
+[![Page links](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yaml?branch=main\&style=flat-square\&label=page%20links)](https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yaml)
 
-<!-- ### Technology -->
+## Stack 🧰
 
-<!-- ![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![stylus](https://img.shields.io/badge/stylus-%23ff6347?style=for-the-badge&logo=stylus&logoColor=white)
-![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300c58e?style=for-the-badge&logo=nuxt.js&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge\&logo=visual-studio-code\&logoColor=white)
+![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge\&logo=node.js\&logoColor=white)
+![EditorConfig](https://img.shields.io/badge/EditorConfig-%23E0EFEF.svg?style=for-the-badge\&logo=editorconfig\&logoColor=black)
+![Prettier](https://img.shields.io/badge/Prettier-1A2B34.svg?style=for-the-badge\&logo=prettier)
+![Husky](https://img.shields.io/badge/Husky-%23161618.svg?style=for-the-badge)
+![Lint Staged](https://img.shields.io/badge/Lint%20Staged-%23FFF.svg?style=for-the-badge)
+![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-%23FE5196.svg?style=for-the-badge\&logo=conventionalcommits\&logoColor=white)
+![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-%234B32C3.svg?style=for-the-badge\&logo=eslint\&logoColor=white)
+![stylus](https://img.shields.io/badge/stylus-%23ff6347?style=for-the-badge\&logo=stylus\&logoColor=white)
+![Remark](https://img.shields.io/badge/Remark-%230A0E0F.svg?style=for-the-badge\&logo=remark\&logoColor=d80303)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge\&logo=githubactions\&logoColor=white)
+
+<!-- ![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300c58e?style=for-the-badge&logo=nuxt.js&logoColor=white)
+![Stylelint](https://img.shields.io/badge/Stylelint-%231B3A4B.svg?style=for-the-badge&logo=stylelint&logoColor=white)
+![PostCSS](https://img.shields.io/badge/PostCSS-%23DD3A0A.svg?style=for-the-badge&logo=postcss&logoColor=white)
+![Browserslist](https://img.shields.io/badge/Browserslist-%23FED538.svg?style=for-the-badge&color=%231D1D1D)
 ![graphql](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 ![mongo](https://img.shields.io/badge/MongoDB-%234ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
-![jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-![travis](https://img.shields.io/badge/travisci-%232B2F33?style=for-the-badge&logo=travis&logoColor=white)
-![vercel](https://img.shields.io/badge/vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white) -->
+![jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) -->
 
 ## Development 🛠
 
@@ -57,11 +73,11 @@ nvm install
 npm install
 ```
 
-TODO
+> TODO
 
 ## 🤝 Contributing
 
-Didn't find the logo you were looking for?
+Haven't found the logo you were looking for?
 
 [Check how to contribute](CONTRIBUTING.md).
 
