@@ -89,4 +89,8 @@ This project is developed on my free time, any donation is welcome.
 [![Paypal](https://img.shields.io/badge/-PayPal-blue?logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations\&business=YTDUQ8RZ2G4Q8\&lc=US\&item_name=tiagoporto\&currency_code=USD\&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 ![Donate](https://img.shields.io/badge/bitcoin-14iqQcwYPLBceRURHuFosGTDXxMmt3cLDp-yellow.svg?logo=bitcoin)
 
+## License 📄
+
+SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE).
+
 ![audio wave](https://media.giphy.com/media/aw6CWyyLQ8WyRuktxR/source.gif)
