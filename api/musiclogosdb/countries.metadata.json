@@ -1,0 +1,12 @@
+{
+  "options": {},
+  "indexes": [
+    {
+      "v": { "$numberInt": "2" },
+      "key": { "_id": { "$numberInt": "1" } },
+      "name": "_id_",
+      "ns": "musiclogosdb.countries"
+    }
+  ],
+  "uuid": "3321b2736d9e467dab4c3aac34dc765e"
+}
