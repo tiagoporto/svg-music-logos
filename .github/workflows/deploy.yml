@@ -20,6 +20,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
 
       - name: Setup node
         uses: actions/setup-node@v4
@@ -45,14 +48,11 @@ jobs:
         uses: actions/deploy-pages@v2
 
       - name: Setup git
-        env:
-          GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
-          GIT_NAME: ${{ secrets.GIT_NAME }}
         run: |
-          git config --global user.name "${{ env.GIT_NAME }}"
-          git config user.email "<${{ env.GIT_EMAIL }}>"
+          git config user.name "${{ secrets.GIT_NAME }}"
+          git config user.email "<${{ secrets.GIT_EMAIL }}>"
       - name: Push README.md
         run: |
           git add README.md
           git commit -m "docs: update project info"
-          git push
+          git push https://${{ secrets.GH_TOKEN }}@github.com/tiagoporto/svg-music-logos.git
