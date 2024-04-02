@@ -89,3 +89,4 @@ build/
 dist/
 stats.json
 src/data.json
+public/logos/**/*.css
