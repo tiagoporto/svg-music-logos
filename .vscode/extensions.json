@@ -1,4 +1,11 @@
+// See https://go.microsoft.com/fwlink/?LinkId=827846
+// for the documentation about the extensions.json format
 {
-  "recommendations": ["unifiedjs.vscode-remark"],
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "unifiedjs.vscode-remark",
+    "dbaeumer.vscode-eslint"
+  ],
   "unwantedRecommendations": []
 }
