@@ -80,7 +80,7 @@ npm install
 
 Haven't found the logo you were looking for?
 
-[Check how to contribute](CONTRIBUTING.md).
+[Check how to contribute](docs/CONTRIBUTING.md).
 
 ## 🤜🤛 Donating
 

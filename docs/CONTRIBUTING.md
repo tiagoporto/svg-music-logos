@@ -9,7 +9,7 @@
     1.  Use [SVGOMG](https://jakearchibald.github.io/svgomg/) to minify the
         SVG file.
 
-        <img src="svgomg-settings.png" align="top" alt="">
+        <img src="docs/svgomg-settings.png" align="top" alt="">
 
     1.  Remove ids.
 
