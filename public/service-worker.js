@@ -42,6 +42,7 @@ self.addEventListener('fetch', event => {
         return cache.match(event.request).then(matching => {
           const report =
             !matching || matching.status === 404
+              // eslint-disable-next-line prefer-promise-reject-errors
               ? Promise.reject('no-match')
               : matching
           return report

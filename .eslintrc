@@ -1,11 +1,12 @@
 {
+  "ignorePatterns": ["dist"],
   "extends": [
     "standard",
     "eslint:recommended",
     "plugin:vue/recommended",
     "prettier/standard",
     "prettier",
-    "prettier/vue"
+    "prettier/vue",
   ],
-  "plugins": ["prettier", "standard", "vue"]
+  "plugins": ["prettier", "standard", "vue"],
 }

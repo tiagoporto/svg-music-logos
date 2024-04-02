@@ -1,4 +1,3 @@
-const config = require('./config.json')
 const path = require('path')
 const gulp = require('gulp')
 const replace = require('gulp-replace')
@@ -14,7 +13,11 @@ var gulpIgnore = require('gulp-ignore')
 // const rename = require('gulp-rename')
 // const autoprefixer = require('gulp-autoprefixer')
 
-const paths = config.basePaths
+const paths = {
+  src: 'src/',
+  dist: 'dist/',
+  public: 'public/',
+}
 
 // return streaming(
 // )
