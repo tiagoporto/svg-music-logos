@@ -1,4 +1,4 @@
-const data = require('./data.json')
+import data from './data.json' assert { type: 'json' }
 
 data.sort((a, b) => {
   const nameA = a.name.toLowerCase()
@@ -60,7 +60,7 @@ data.forEach((band, index) => {
   })
 })
 
-module.exports = {
+export default {
   genres,
   origins,
   logos,

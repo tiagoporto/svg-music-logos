@@ -1,47 +1,25 @@
-const path = require('path')
-const gulp = require('gulp')
-const replace = require('gulp-replace')
-const stylus = require('gulp-stylus')
-const del = require('del')
-var jsonConcat = require('gulp-concat-jsons')
-var jsonminify = require('gulp-jsonminify')
-var gulpIgnore = require('gulp-ignore')
-// const file = require('gulp-file')
-// const mergeMediaQueries = require('gulp-merge-media-queries')
-// const newer = require('gulp-newer')
-// const plumber = require('gulp-plumber')
-// const rename = require('gulp-rename')
-// const autoprefixer = require('gulp-autoprefixer')
+import data from './dump/src/data.js'
+import { src, dest, series, parallel, watch as gulpWatch } from 'gulp'
+import replace from 'gulp-replace'
+import stylus from 'gulp-stylus'
+import jsonMinify from 'gulp-jsonminify'
+import jsonConcat from 'gulp-concat-json-to-array'
+import changed from 'gulp-changed'
 
 const paths = {
-  src: 'src/',
-  dist: 'dist/',
-  public: 'public/',
+  src: 'dump/src/',
+  public: 'dump/public/',
 }
 
-// return streaming(
-// )
-/** newer({
-     dest: path.join(paths.src, 'logos'),
-     ext: '.css',
-     extra: paths.styles.src
-    }) */
 const styles = () => {
-  return gulp
-    .src(paths.public + 'logos/**/*.styl')
-    .pipe(
-      stylus({
-        include: ['node_modules'],
-        'include css': true,
-      }),
-    )
-    .pipe(gulp.dest(paths.public + 'logos'))
+  return src(paths.public + 'logos/**/*.styl')
+    .pipe(changed(paths.public + 'logos', { extension: '.css' }))
+    .pipe(stylus())
+    .pipe(dest(paths.public + 'logos'))
 }
 
 const updateReadme = () => {
-  const data = require('./src/data.js')
-  return gulp
-    .src('./README.md')
+  return src('./README.md')
     .pipe(
       replace(
         /<!-- replace start -->[\W\w]+<!-- replace end -->/,
@@ -55,51 +33,27 @@ const updateReadme = () => {
 <!-- replace end -->`,
       ),
     )
-    .pipe(gulp.dest('./'))
+    .pipe(dest('./'))
 }
 
 const generateData = () => {
-  return gulp
-    .src(paths.public + 'logos/**/*.json')
-    .pipe(jsonConcat('data.json'))
-    .pipe(gulpIgnore('!data.json'))
-    .pipe(jsonminify())
-    .pipe(gulp.dest(paths.src))
-}
-
-const copy = () => {
-  return gulp
-    .src(
-      [
-        path.join(paths.public, '**/*.*'),
-        path.join(`!${(paths.public, '**/*.html')}`),
-      ],
-      {
-        base: `./${paths.public}`,
-      },
+  return src(paths.public + 'logos/**/*.json')
+    .pipe(
+      jsonConcat('data.json', function (data) {
+        // do any work on data here
+        return new Buffer(JSON.stringify(data))
+      }),
     )
-    .pipe(gulp.dest(paths.dist))
+    .pipe(jsonMinify())
+    .pipe(dest(paths.src))
 }
-
-const clean = () => del(paths.dist)
-
-const watch = () => {
-  gulp.watch(paths.public + 'logos/**/*.styl', styles)
-  gulp.watch(paths.public + 'logos/**/*.json', generateData)
-}
-
-const build = gulp.series(
-  clean,
-  generateData,
-  gulp.parallel(styles, copy, updateReadme),
-)
 
 // ***************************** Tasks ******************************* //
 
-exports['update-readme'] = updateReadme
-exports.styles = styles
-exports.clean = clean
-exports.watch = watch
-exports.copy = copy
-exports['generate-data'] = generateData
-exports.build = build
+export { updateReadme as 'update-readme' }
+export { generateData as 'generate-data' }
+export const watch = () => {
+  gulpWatch(paths.public + 'logos/**/*.styl', styles)
+  gulpWatch(paths.public + 'logos/**/*.json', generateData)
+}
+export const build = series(generateData, parallel(styles, updateReadme))
