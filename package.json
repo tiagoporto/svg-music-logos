@@ -19,16 +19,25 @@
   },
   "scripts": {
     "prepare": "husky",
-    "build": "gulp build",
+    "postinstall": "nuxt prepare",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "gulp": "gulp watch",
+    "update-readme": "gulp update-readme",
+    "generate-data": "gulp generate-data",
     "checks": "npm run check-formatting && npm run check-docs && npm run lint",
     "check-docs": "remark --frail .",
     "check-formatting": "prettier --check --ignore-unknown \"**/*\"",
     "check-formatting:fix": "npm run check-formatting -- --write",
     "lint": "eslint --ext js,jsx,ts,tsx . --max-warnings 0",
-    "lint:fix": "npm run lint -- --fix",
-    "gulp": "gulp watch",
-    "update-readme": "gulp update-readme",
-    "generate-data": "gulp generate-data"
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",

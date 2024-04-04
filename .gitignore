@@ -1,91 +1,28 @@
-#############
-## System files
-#############
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Node dependencies
+node_modules
 
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Mac crap
-.DS_Store
-
-#################
-## Unit test / coverage reports
-#################
-
-coverage
-.coverage
-.tox
-.nyc_output
-lib-cov
-
-#################
-## NPM
-#################
-
-.npm
-node_modules/
-.lock-wscript
-
-# Output of 'npm pack'
-*.tgz
-
-#################
-## Logs
-#################
+# Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-#################
-## Runtime data
-#################
-pids
-*.pid
-*.seed
-*.pid.lock
+# Misc
+.DS_Store
+.fleet
+.idea
 
-#################
-## Bower Components
-#################
+# Local env files
+.env
+.env.*
+!.env.example
 
-bower_components
 
-#################
-## Yarn
-#################
-.yarn-integrity
-
-#################
-## Eslint
-#################
-.eslintcache
-
-#################
-## SASS Cache
-#################
-
-.sass-cache
-
-#################
-## Gh-pages
-#################
-
-.publish
-
-#################
-## Swill boilerplate
-#################
-
-build/
-dist/
 dump/src/data.json
 dump/public/logos/**/*.css
