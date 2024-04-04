@@ -54,6 +54,66 @@ A collection of logos and symbols from bands, musicians and related in SVG.
 ![Browserslist](https://img.shields.io/badge/Browserslist-%23FED538.svg?style=for-the-badge&color=%231D1D1D)
 ![jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) -->
 
+## Architecture 🏗
+
+### APIs
+
+APIs are provided by [Nuxt](https://nuxt.com/docs/getting-started/server).
+
+Endpoints are defined in `server/api` directory.
+
+#### GET /api/artists
+
+**Response:**
+
+```json
+{
+  "artists": [
+    {
+      "name": "string",
+      "css": "string",
+      "origin": ["string"],
+      "genre": ["string"],
+      "link": "string",
+      "logos": [
+        {
+          "title": "string",
+          "svg": "string"
+        }
+      ],
+      "folder": "string"
+    }
+  ],
+  "lenght": "number",
+  "totalLogos": "number"
+}
+
+```
+
+#### GET /api/genres
+
+**Response:**
+
+```json
+{
+  "genres": ["string"],
+  "lenght": "number",
+}
+
+```
+
+#### GET /api/origins
+
+**Response:**
+
+```json
+{
+  "origins": ["string"],
+  "lenght": "number",
+}
+
+```
+
 ## Development 🛠
 
 ### Pre-requirements
