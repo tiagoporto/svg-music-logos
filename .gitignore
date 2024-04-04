@@ -89,3 +89,5 @@ build/
 dist/
 src/data.json
 public/logos/**/*.css
+dump/src/data.json
+dump/public/logos/**/*.css
