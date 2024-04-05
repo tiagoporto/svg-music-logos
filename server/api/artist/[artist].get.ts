@@ -1,4 +1,4 @@
-import data from '../data.json'
+import { data } from '../../db'
 
 export default defineEventHandler(async (event) => {
   let artistName = getRouterParam(event, 'artist')
