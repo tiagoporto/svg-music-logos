@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const { params } = useRoute()
 const { data, pending, error, refresh } = await useFetch(
   `/api/artist/${params.artist}`,

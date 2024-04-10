@@ -1,6 +1,31 @@
+<script setup lang="ts">
+import './AppHeader.styl'
+import './Jumbotron.styl'
+// import { debounce } from 'lodash'
+// import GithubCorner from '../github-corner/GithubCorner.vue'
+
+const { data, pending, error, refresh } = await useFetch('/api/artists')
+
+// const setJumbotronHeight = () => {
+//   if (window.innerWidth > 768) {
+//     if (window.scrollY > 20) {
+//       document.getElementById('jumbotron').style.height = '100%'
+//     } else {
+//       document.getElementById('jumbotron').style.height = '450px'
+//     }
+//   } else {
+//     document.getElementById('jumbotron').style.height = '100%'
+//   }
+// }
+
+// window.addEventListener('scroll', debounce(setJumbotronHeight, 20))
+</script>
+
 <template>
+  <div id="jumbotron" class="jumbotron"></div>
+
   <header class="header">
-    <github-corner repo="tiagoporto/svg-music-logos"></github-corner>
+    <GithubCorner repo="tiagoporto/svg-music-logos"></GithubCorner>
 
     <div class="header__main">
       <h1 class="header__title">
@@ -8,10 +33,11 @@
           href="http://tiagoporto.github.io/svg-music-logos"
           class="header__link-title"
         >
-          <img src="img/logos/logo.svg" alt="SVG Music Logos" width="300" />
+          <img src="./logo.svg" alt="SVG Music Logos" width="300" />
         </a>
         <span class="header__subtitle"
-          >{{ artists.length }} artists • {{ logos.length }} logos</span
+          >{{ data?.artists.length }} artists •
+          {{ data?.totalLogos }} logos</span
         >
       </h1>
 
@@ -30,6 +56,7 @@
         >
       </p>
 
+      <!--
       <input
         v-model.trim="search.band"
         type="search"
@@ -53,42 +80,7 @@
             {{ genre }}
           </option>
         </select>
-      </div>
+      </div>-->
     </div>
   </header>
 </template>
-
-<script>
-import './AppHeader.styl'
-import './Jumbotron.styl'
-import { debounce } from 'lodash'
-import GithubCorner from '../github-corner/GithubCorner.vue'
-
-const setJumbotronHeight = () => {
-  if (window.innerWidth > 768) {
-    if (window.scrollY > 20) {
-      document.getElementById('jumbotron').style.height = '100%'
-    } else {
-      document.getElementById('jumbotron').style.height = '450px'
-    }
-  } else {
-    document.getElementById('jumbotron').style.height = '100%'
-  }
-}
-
-window.addEventListener('scroll', debounce(setJumbotronHeight, 20))
-
-export default {
-  name: 'AppHeader',
-  components: {
-    GithubCorner,
-  },
-  props: {
-    artists: [Array],
-    origins: [Array],
-    genres: [Array],
-    search: [Object],
-    logos: [Array],
-  },
-}
-</script>

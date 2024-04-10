@@ -1,3 +1,12 @@
+<script setup lang="ts">
+import { defineProps } from 'vue'
+import './GithubCorner.styl'
+
+const { repo } = defineProps({
+  repo: String,
+})
+</script>
+
 <template>
   <a
     :href="'https://github.com/' + repo"
@@ -33,14 +42,3 @@
     </svg>
   </a>
 </template>
-
-<script>
-import './GithubCorner.styl'
-
-export default {
-  name: 'GithubCorner',
-  props: {
-    repo: [String],
-  },
-}
-</script>

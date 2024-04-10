@@ -1,7 +1,9 @@
 <template>
-  <header>
-    <h1>SVG Music Logos</h1>
-  </header>
+  <AppHeader v-once></AppHeader>
 
   <slot />
+
+  <BackTop />
+
+  <AppFooter />
 </template>
