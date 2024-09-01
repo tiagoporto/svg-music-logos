@@ -70,24 +70,72 @@ Endpoints are defined in `server/api` directory.
 {
   "artists": [
     {
+      "id": "number",
       "name": "string",
-      "css": "string",
-      "origin": ["string"],
-      "genre": ["string"],
+      "origins": ["string"],
+      "genres": ["string"] | "null",
       "link": "string",
       "logos": [
         {
           "title": "string",
-          "svg": "string"
+          "svg": "string",
+          "styles": "string", // optional
+          "className": "string", // optional
         }
       ],
-      "folder": "string"
     }
   ],
   "lenght": "number",
-  "totalLogos": "number"
 }
+```
 
+#### GET /api/artists/{id}
+
+**Response:**
+
+```json
+{
+  "artist": {
+    "id": "number",
+    "name": "string",
+    "origins": ["string"],
+    "genres": ["string"] | "null",
+    "link": "string",
+    "logos": [
+      {
+        "title": "string",
+        "svg": "string",
+        "styles": "string", // optional
+        "className": "string", // optional
+      }
+    ],
+  }
+}
+```
+
+#### GET /api/logos
+
+**Response:**
+
+```json
+{
+  "logos": [
+    {
+      "id": "number",
+      "name": "string",
+      "origins": ["string"],
+      "genres": ["string"] | "null",
+      "link": "string",
+      "logo": {
+          "title": "string",
+          "svg": "string",
+          "styles": "string", // optional
+          "className": "string", // optional
+      }
+    }
+  ],
+  "lenght": "number",
+}
 ```
 
 #### GET /api/genres
@@ -111,8 +159,20 @@ Endpoints are defined in `server/api` directory.
   "origins": ["string"],
   "lenght": "number",
 }
-
 ```
+
+<!-- #### GET /api/summary
+
+**Response:**
+
+```json
+{
+  "totalArtists": "number",
+  "totalOrigins": "number",
+  "totalGenres": "number",
+  "totalLogos": "number",
+}
+``` -->
 
 ## Development 🛠
 
