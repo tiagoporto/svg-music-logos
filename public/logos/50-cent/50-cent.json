@@ -1,13 +1,13 @@
 {
   "name": "50 Cent",
-  "css": "50-cent.css",
-  "origin": ["USA"],
-  "genre": ["Hip Hop"],
+  "origins": ["USA"],
+  "genres": ["Hip Hop"],
   "link": "http://www.thisis50.com",
   "logos": [
     {
       "title": "Power of the Dollar",
-      "svg": "50-cent.svg"
+      "svg": "50-cent.svg",
+      "styles": "50-cent.css"
     }
   ]
 }

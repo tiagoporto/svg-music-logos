@@ -1,14 +1,13 @@
 {
   "name": "AC⚡DC",
-  "css": "acdc.css",
-  "origin": ["Australia"],
-  "genre": ["Hard Rock"],
+  "origins": ["Australia"],
+  "genres": ["Hard Rock"],
   "link": "http://www.acdc.com",
   "logos": [
     {
       "title": "Let There Be Rock",
       "svg": "acdc_classical.svg",
-      "cls": "acdc--classical"
+      "styles": "acdc_classical.css"
     },
     {
       "title": "Let There Be Rock",
@@ -21,7 +20,8 @@
     {
       "title": "Back in Black",
       "svg": "acdc.svg",
-      "cls": "acdc--back-in-black"
+      "className": "acdc--back-in-black",
+      "styles": "acdc.css"
     }
   ]
 }

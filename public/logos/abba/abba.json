@@ -1,7 +1,7 @@
 {
   "name": "Abba",
-  "origin": ["Sweden"],
-  "genre": ["Disco"],
+  "origins": ["Sweden"],
+  "genres": ["Disco"],
   "link": "http://www.abbasite.com",
   "logos": [
     {
