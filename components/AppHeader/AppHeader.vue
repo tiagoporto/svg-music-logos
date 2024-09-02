@@ -1,28 +1,41 @@
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue'
 import './AppHeader.styl'
 import './Jumbotron.styl'
-// import { debounce } from 'lodash'
-// import GithubCorner from '../github-corner/GithubCorner.vue'
+import { debounce } from 'lodash'
 
-const { data, pending, error, refresh } = await useFetch('/api/artists')
+const jumbotron = ref(null)
 
-// const setJumbotronHeight = () => {
-//   if (window.innerWidth > 768) {
-//     if (window.scrollY > 20) {
-//       document.getElementById('jumbotron').style.height = '100%'
-//     } else {
-//       document.getElementById('jumbotron').style.height = '450px'
-//     }
-//   } else {
-//     document.getElementById('jumbotron').style.height = '100%'
-//   }
-// }
+const { data: artists } = useFetch('/api/artists')
+const { data: logos } = useFetch('/api/logos')
 
-// window.addEventListener('scroll', debounce(setJumbotronHeight, 20))
+const setJumbotronHeight = () => {
+  const element = window
+
+  if (element.innerWidth > 768) {
+    if (element.scrollY > 20) {
+      jumbotron.value.style.height = '100%'
+    } else {
+      jumbotron.value.style.height = '450px'
+    }
+  } else {
+    jumbotron.value.style.height = '100%'
+  }
+}
+
+const setJumbotronHeightDebounced = debounce(setJumbotronHeight, 20)
+
+onMounted(() => {
+  window.addEventListener('scroll', setJumbotronHeightDebounced)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', setJumbotronHeightDebounced)
+})
 </script>
 
 <template>
-  <div id="jumbotron" class="jumbotron"></div>
+  <div class="jumbotron" ref="jumbotron"></div>
 
   <header class="header">
     <GithubCorner repo="tiagoporto/svg-music-logos"></GithubCorner>
@@ -36,8 +49,7 @@ const { data, pending, error, refresh } = await useFetch('/api/artists')
           <img src="./logo.svg" alt="SVG Music Logos" width="300" />
         </a>
         <span class="header__subtitle"
-          >{{ data?.artists.length }} artists •
-          {{ data?.totalLogos }} logos</span
+          >{{ artists.length }} artists • {{ logos.length }} logos</span
         >
       </h1>
 

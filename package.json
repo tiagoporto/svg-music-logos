@@ -35,8 +35,12 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
     "nuxt": "^3.11.1",
+    "svg-to-inline": "^1.0.0-alpha.1",
     "vue": "^3.4.21",
+    "vue-country-flag-next": "^2.3.2",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {

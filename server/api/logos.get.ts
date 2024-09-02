@@ -21,5 +21,5 @@ export default defineEventHandler(async (event) => {
     })
   })
 
-  return { logos: splittedLogos, lenght: splittedLogos.length }
+  return { logos: splittedLogos, length: splittedLogos.length }
 })
