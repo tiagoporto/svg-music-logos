@@ -41,7 +41,7 @@
     "normalize.css": "^8.0.1",
     "postcss-easing-gradients": "^3.0.1",
     "svg-to-inline": "^1.0.0-alpha.1",
-    "vue": "^2.6.11",
+    "vue": "^3.5.12",
     "vue-analytics": "^5.20.1",
     "vue-flag-icon": "^1.0.6",
     "vue-router": "^3.1.3",
