@@ -8,6 +8,7 @@ const { data, pending, error, refresh } = useFetch('/api/logos')
       v-for="logo in data.logos"
       :key="logo.id"
       :title="logo.name"
+      :title-template="logo.nameTemplate"
       :link="logo.link"
       :genres="logo.genres"
       :origins="logo.origins"

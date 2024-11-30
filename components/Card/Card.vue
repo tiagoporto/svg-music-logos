@@ -1,33 +1,41 @@
 <script lang="ts" setup>
-// import 'svg-to-inline'
+import 'svg-to-inline'
 import CountryFlag from 'vue-country-flag-next'
-import FlagIso from './FlagIso.json'
+import flagIso from './FlagIso.json'
 import './Card.styl'
 
 const props = defineProps<{
   title: string
+  titleTemplate?: string
   link: string
   genres?: string[]
   origins: string[]
   logo: {}
 }>()
 
-const { title, link, genres, origins, logo } = props
+const download = (event, band) => {
+  console.log('band: ', band)
+}
+
+const { title, link, genres, origins, logo, titleTemplate } = props
 </script>
 
 <template>
-  <div class="card">
-    <!-- <svg-to-inline
+  <div class="card" :class="{ 'card--inverse': logo.inverse }">
+    <svg-to-inline
+      :key="logo.title"
       class="logo"
+      loading="loading"
       :path="logo.svg"
-      :class-name="logo.className"
-      :lazy="true"
-    ></svg-to-inline> -->
+      :className="logo.className"
+      lazy
+    >
+    </svg-to-inline>
 
     <div class="card__content">
-      <h2 class="card__title">{{ title }}</h2>
+      <h2 v-if="titleTemplate" class="card__title" v-html="titleTemplate"></h2>
 
-      <h2>
+      <h2 v-else class="card__title">
         <a class="card__link" :href="link" :title="`${title}'s website`">
           {{ title }}
         </a>
@@ -44,7 +52,7 @@ const { title, link, genres, origins, logo } = props
       <p>
         Origin:
         <template v-for="(origin, index) in origins">
-          <CountryFlag :country="FlagIso[origin]" />
+          <CountryFlag :country="flagIso[origin]" />
           {{ origin }}
           <template v-if="index < origins.length - 1">/</template>
         </template>
@@ -53,7 +61,9 @@ const { title, link, genres, origins, logo } = props
     </div>
 
     <div class="card__footer">
-      <button class="card__button">Download SVG</button>
+      <button class="card__button" @click="download($event, title)">
+        Download SVG
+      </button>
     </div>
   </div>
 </template>

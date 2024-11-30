@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import 'normalize.css/normalize.css'
+import './svg-music-logos.styl'
 
 const title = 'SVG Music Logos'
 const description = `A collection of bands' and musicians' logos in SVG.`

@@ -1,5 +1,6 @@
 {
   "name": "svg-music-logos",
+  "version": "0.0.0-development",
   "description": "A collection of bands' and musicians' logos in SVG.",
   "homepage": "https://tiagoporto.github.io/svg-music-logos/",
   "type": "module",
@@ -11,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tiagoporto/svg-music-logos.git"
+    "url": "git+https://github.com/tiagoporto/svg-music-logos.git"
   },
   "engines": {
     "node": ">= 20",
@@ -38,7 +39,7 @@
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1",
     "nuxt": "^3.11.1",
-    "svg-to-inline": "^1.0.0-alpha.1",
+    "svg-to-inline": "^1.0.0-beta.2",
     "vue": "^3.4.21",
     "vue-country-flag-next": "^2.3.2",
     "vue-router": "^4.3.0"
