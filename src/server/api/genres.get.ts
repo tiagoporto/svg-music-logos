@@ -1,6 +1,6 @@
 import { data } from '../db'
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler(async () => {
   const genres = [
     ...new Set(
       data

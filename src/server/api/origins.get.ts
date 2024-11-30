@@ -1,16 +1,16 @@
 import { data } from '../db'
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler(async () => {
   const origins = [
     ...new Set(
       data
         .map((artist) => {
           if (process.env.NODE_ENV !== 'production') {
-            artist.origin ||
+            artist.origins ||
               console.warn(`${artist.name} is missing the origin.`)
           }
 
-          return artist.origin
+          return artist.origins
         })
         .filter((origin) => origin !== undefined)
         .flat()

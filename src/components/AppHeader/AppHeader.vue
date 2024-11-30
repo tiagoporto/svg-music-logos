@@ -2,7 +2,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import './AppHeader.styl'
 import './Jumbotron.styl'
-import { debounce } from 'lodash'
+import { debounce } from 'throttle-debounce'
 
 const jumbotron = ref(null)
 
@@ -23,7 +23,7 @@ const setJumbotronHeight = () => {
   }
 }
 
-const setJumbotronHeightDebounced = debounce(setJumbotronHeight, 20)
+const setJumbotronHeightDebounced = debounce(20, setJumbotronHeight)
 
 onMounted(() => {
   window.addEventListener('scroll', setJumbotronHeightDebounced)
@@ -35,7 +35,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="jumbotron" ref="jumbotron"></div>
+  <div ref="jumbotron" class="jumbotron"></div>
 
   <header class="header">
     <GithubCorner repo="tiagoporto/svg-music-logos"></GithubCorner>

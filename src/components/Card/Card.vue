@@ -1,20 +1,107 @@
 <script lang="ts" setup>
 import 'svg-to-inline'
+import FileSaver from 'file-saver'
+import * as prettier from 'prettier'
+import prettierPluginHtml from 'prettier/plugins/html'
 import CountryFlag from 'vue-country-flag-next'
 import flagIso from './FlagIso.json'
 import './Card.styl'
 
-const props = defineProps<{
+interface CardProps {
   title: string
   titleTemplate?: string
   link: string
   genres?: string[]
   origins: string[]
   logo: {}
-}>()
+}
 
-const download = (event, band) => {
-  console.log('band: ', band)
+const props = defineProps<CardProps>()
+
+const injectClassName = (svgString: string, classNamesToAdd: string) => {
+  const searchClassAttributeRegex = /class="(.*?)"/
+  const extractSVGTagRegex = /(<svg[^>]+)/
+  const extractSVGUntilClassAttributeRegex = /(<svg[^>]+) class="(.*?)"/
+
+  // Extract SVG classes
+  const svgClassNames = svgString.match(searchClassAttributeRegex)?.[1]
+  const newClassNames = svgClassNames
+    ? `${svgClassNames} ${classNamesToAdd}`
+    : classNamesToAdd
+  const uniqueClassNames = newClassNames
+    .split(' ')
+    .filter((className) => className)
+    .filter((className, index, self) => self.indexOf(className) === index)
+    .join(' ')
+
+  // If SVG doesn't already have a class attribute add it
+  if (!svgString.match(searchClassAttributeRegex)) {
+    return svgString.replace(
+      extractSVGTagRegex,
+      `$1 class="${uniqueClassNames}"`,
+    )
+  }
+
+  return svgString.replace(
+    extractSVGUntilClassAttributeRegex,
+    `$1 class="${uniqueClassNames}"`,
+  )
+}
+
+const saveFile = (content: string, filename: string) => {
+  const file = new Blob([content], { type: 'text/plain' })
+  FileSaver.saveAs(file, filename)
+
+  // if (process.env.NODE_ENV === 'production') {
+  //   this.$ga.event({
+  //     eventCategory: 'download',
+  //     eventAction: 'click',
+  //     eventLabel: filename,
+  //   })
+  // }
+}
+
+const handleClick = async ({ title, logo }) => {
+  const logoSplit = logo.svg.split('/')
+  const filename = logoSplit[logoSplit.length - 1]
+  let svg = null
+
+  try {
+    const response = await fetch(logo.svg)
+    const svgContent = await response.text()
+
+    if (response.status >= 200 && response.status < 300) {
+      svg = svgContent
+
+      if (logo.className) {
+        svg = injectClassName(svg, logo.className)
+      }
+
+      if (logo.css) {
+        const response = await fetch(logo.css)
+        const cssContent = await response.text()
+        if (response.status >= 200 && response.status < 300) {
+          const styles = `<style>\r\n${cssContent}\r</style>`
+          const extractSVGTagRegex = /(<svg[^>]+>)/
+          svg = svg.replace(extractSVGTagRegex, `$1\r\n${styles}`)
+        } else {
+          throw new Error(`Fetch failed with status code: ${response.status}`)
+        }
+      }
+
+      svg = await prettier.format(svg, {
+        printWidth: 1000,
+        parser: 'html',
+        plugins: [prettierPluginHtml],
+      })
+
+      saveFile(svg, filename)
+    } else {
+      throw new Error(`Fetch failed with status code: ${response.status}`)
+    }
+  } catch (error) {
+    window.alert(`error: ${error}`)
+  }
 }
 
 const { title, link, genres, origins, logo, titleTemplate } = props
@@ -61,7 +148,7 @@ const { title, link, genres, origins, logo, titleTemplate } = props
     </div>
 
     <div class="card__footer">
-      <button class="card__button" @click="download($event, title)">
+      <button class="card__button" @click="handleClick({ title, logo })">
         Download SVG
       </button>
     </div>

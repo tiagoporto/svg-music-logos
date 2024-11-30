@@ -1,5 +1,5 @@
 import { data } from '../db'
-export default defineEventHandler(async (event) => {
+export default defineEventHandler(async () => {
   // TODO: sort filter
   data.sort((a, b) => a.name.localeCompare(b.name))
 

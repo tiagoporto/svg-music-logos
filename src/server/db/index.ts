@@ -1,6 +1,6 @@
 import jsonData from './data.json'
 
-interface Logos {
+export interface Logo {
   title: string
   svg: string
   css?: string
@@ -8,14 +8,14 @@ interface Logos {
   inverse?: boolean
 }
 
-interface Artists {
+export interface Artists {
   id: number
   name: string
   nameTemplate?: string
   origins: string[]
   genres: string[] | null
   link: string
-  logos: Logos[]
+  logos: Logo[]
 }
 
 export const data = jsonData as unknown as Artists[]

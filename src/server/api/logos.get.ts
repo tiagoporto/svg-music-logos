@@ -1,11 +1,15 @@
-import { data } from '../db'
+import { data, Logo, Artists } from '../db'
 
-export default defineEventHandler(async (event) => {
-  const splittedLogos = []
+interface LogoByArtist extends Omit<Artists, 'logos'> {
+  logo: Logo
+}
+
+export default defineEventHandler(async () => {
+  const splittedLogos: LogoByArtist[] = []
   data.sort((a, b) => a.name.localeCompare(b.name))
 
-  data.map(({ logos, ...restParams }, index) => {
-    logos.map((logo) => {
+  data.forEach(({ logos, ...restParams }) => {
+    logos.forEach((logo) => {
       const path = `logos/${logo.svg.split('.')[0].split('_')[0]}`
 
       splittedLogos.push({
