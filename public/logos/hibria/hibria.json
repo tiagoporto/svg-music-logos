@@ -1,8 +1,7 @@
 {
   "name": "Hibria",
-  "origin": ["Brazil"],
-  "css": "hibria.css",
-  "genre": ["Speed Metal"],
+  "origins": ["Brazil"],
+  "genres": ["Speed Metal"],
   "link": "http://hibria.com",
   "logos": [
     {
@@ -11,7 +10,8 @@
     },
     {
       "title": "Live In Japan Symbol",
-      "svg": "hibria_symbol.svg"
+      "svg": "hibria_symbol.svg",
+      "css": "hibria_symbol.css"
     },
     {
       "title": "Hibria",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Symbol",
-      "cls": "hibria--symbol",
+      "className": "hibria--symbol",
       "svg": "hibria_symbol.svg"
     }
   ]

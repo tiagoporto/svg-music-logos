@@ -1,7 +1,7 @@
 {
   "name": "Grand Funk Railroad",
-  "origin": ["USA"],
-  "genre": ["Hard Rock"],
+  "origins": ["USA"],
+  "genres": ["Hard Rock"],
   "link": "http://grandfunkrailroad.com",
   "logos": [
     {

@@ -1,8 +1,7 @@
 {
   "name": "Megadeth",
-  "css": "megadeth.css",
-  "origin": ["USA"],
-  "genre": ["Thrash Metal"],
+  "origins": ["USA"],
+  "genres": ["Thrash Metal"],
   "link": "http://www.megadeth.com",
   "logos": [
     {
@@ -16,6 +15,7 @@
     {
       "title": "Nuclear Symbol",
       "svg": "megadeth_nuclear-symbol.svg",
+      "css": "megadeth_nuclear-symbol.css",
       "inverse": true
     },
     {

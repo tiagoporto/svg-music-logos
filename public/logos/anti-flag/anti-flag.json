@@ -1,7 +1,7 @@
 {
   "name": "Anti-Flag",
-  "origin": ["USA"],
-  "genre": ["Punk Rock"],
+  "origins": ["USA"],
+  "genres": ["Punk Rock"],
   "link": "http://anti-flag.com",
   "logos": [
     {

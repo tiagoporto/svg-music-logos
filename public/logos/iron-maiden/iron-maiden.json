@@ -1,8 +1,7 @@
 {
   "name": "Iron Maiden",
-  "css": "iron-maiden.css",
-  "origin": ["England"],
-  "genre": ["Heavy Metal"],
+  "origins": ["England"],
+  "genres": ["Heavy Metal"],
   "link": "http://ironmaiden.com",
   "logos": [
     {
@@ -12,40 +11,47 @@
     {
       "title": "Iron Maiden",
       "svg": "iron-maiden.svg",
-      "cls": "iron-maiden--classical",
+      "css": "iron-maiden_classical.css",
+      "className": "iron-maiden--classical",
       "inverse": true
     },
     {
       "title": "Powerslave",
       "svg": "iron-maiden.svg",
-      "cls": "iron-maiden--powerslave",
+      "css": "iron-maiden_powerslave.css",
+      "className": "iron-maiden--powerslave",
       "inverse": true
     },
     {
       "title": "Somewhere In Time",
       "svg": "iron-maiden.svg",
-      "cls": "iron-maiden--somewhere-in-time"
+      "css": "iron-maiden_somewhere-in-time.css",
+      "className": "iron-maiden--somewhere-in-time"
     },
     {
       "title": "Seventh Son of a Seventh Son",
       "svg": "iron-maiden.svg",
-      "cls": "iron-maiden--seventh-son-of-a-seventh-son"
+      "css": "iron-maiden_seventh-son-of-a-seventh-son.css",
+      "className": "iron-maiden--seventh-son-of-a-seventh-son"
     },
     {
       "title": "A Real Live One",
       "svg": "iron-maiden.svg",
-      "cls": "iron-maiden--a-real-live-one",
+      "css": "iron-maiden_a-real-live-one.css",
+      "className": "iron-maiden--a-real-live-one",
       "inverse": true
     },
     {
       "title": "A Real Dead One",
       "svg": "iron-maiden.svg",
-      "cls": "iron-maiden--a-dead-live-one"
+      "css": "iron-maiden_a-dead-live-one.css",
+      "className": "iron-maiden--a-dead-live-one"
     },
     {
       "title": "Best of b'Sides",
       "svg": "iron-maiden.svg",
-      "cls": "iron-maiden--best-of-b-sides"
+      "css": "iron-maiden_best-of-b-sides.css",
+      "className": "iron-maiden--best-of-b-sides"
     },
     {
       "title": "Live At Donington",
@@ -58,16 +64,18 @@
     {
       "title": "Virtual XI",
       "svg": "iron-maiden_virtual-xi.svg",
-      "cls": "iron-maiden--virtual-xi"
+      "className": "iron-maiden--virtual-xi"
     },
     {
       "title": "Brave New World",
       "svg": "iron-maiden_virtual-xi.svg",
-      "cls": "iron-maiden--brave-new-world"
+      "css": "iron-maiden_brave-new-world.css",
+      "className": "iron-maiden--brave-new-world"
     },
     {
       "title": "Eddie - Brave New World",
-      "svg": "iron-maiden_eddie-brave-new-world.svg"
+      "svg": "iron-maiden_eddie-brave-new-world.svg",
+      "css": "iron-maiden_eddie-brave-new-world.css"
     },
     {
       "title": "Eddie - A Matter of Life and Death",
@@ -88,12 +96,12 @@
     },
     {
       "title": "Beer Trooper NEW Label",
-      "cls": "trooper--new",
+      "className": "trooper--new",
       "svg": "iron-maiden_trooper.svg"
     },
     {
       "title": "Beer Trooper Red ‘N’ Black",
-      "cls": "trooper--red-n-black",
+      "className": "trooper--red-n-black",
       "svg": "iron-maiden_trooper.svg"
     },
     {
@@ -107,7 +115,8 @@
     },
     {
       "title": "Legacy Of The Beast - Loading",
-      "svg": "iron-maiden_legacy-of-the-beast-loading.svg"
+      "svg": "iron-maiden_legacy-of-the-beast-loading.svg",
+      "css": "iron-maiden_legacy-of-the-beast-loading.css"
     },
     {
       "title": "Legacy Of The Beast - 666 Flag",

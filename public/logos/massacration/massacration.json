@@ -1,13 +1,13 @@
 {
   "name": "Massacration",
-  "origin": ["Brazil"],
-  "css": "massacration.css",
-  "genre": ["Comedy Metal"],
+  "origins": ["Brazil"],
+  "genres": ["Comedy Metal"],
   "link": "https://www.facebook.com/MassacrationOficial",
   "logos": [
     {
       "title": "Massacration",
       "svg": "massacration_gates-of-metal-fried-chicken-of-death.svg",
+      "css": "massacration_gates-of-metal-fried-chicken-of-death.css",
       "inverse": true
     }
   ]

@@ -1,13 +1,13 @@
 {
   "name": "Airbourne",
-  "css": "airbourne.css",
-  "origin": ["Australia"],
-  "genre": ["Hard Rock"],
+  "origins": ["Australia"],
+  "genres": ["Hard Rock"],
   "link": "http://airbournerock.com",
   "logos": [
     {
       "title": "Runnin' Wild",
       "svg": "airbourne_runnin-wild.svg",
+      "css": "airbourne.css",
       "inverse": true
     }
   ]

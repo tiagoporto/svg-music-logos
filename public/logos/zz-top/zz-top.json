@@ -1,13 +1,13 @@
 {
   "name": "ZZ Top",
-  "css": "zz-top.css",
-  "origin": ["USA"],
-  "genre": ["Blues Rock"],
+  "origins": ["USA"],
+  "genres": ["Blues Rock"],
   "link": "http://www.zztop.com",
   "logos": [
     {
       "title": "Eliminator",
-      "svg": "zz-top_eliminator.svg"
+      "svg": "zz-top_eliminator.svg",
+      "css": "zz-top_eliminator.css"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Trivium",
-  "origin": ["USA"],
-  "genre": ["Heavy Metal"],
+  "origins": ["USA"],
+  "genres": ["Heavy Metal"],
   "link": "http://www.trivium.org",
   "logos": [
     {

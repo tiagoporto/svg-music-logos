@@ -1,8 +1,7 @@
 {
   "name": "Guns N' Roses",
-  "css": "guns-n-roses.css",
-  "origin": ["USA"],
-  "genre": ["Hard Rock"],
+  "origins": ["USA"],
+  "genres": ["Hard Rock"],
   "link": "https://www.gunsnroses.com",
   "logos": [
     {

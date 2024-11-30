@@ -1,13 +1,13 @@
 {
   "name": "Matanza",
-  "origin": ["Brazil"],
-  "css": "matanza.css",
-  "genre": ["Hardcore Punk"],
+  "origins": ["Brazil"],
+  "genres": ["Hardcore Punk"],
   "link": "http://matanza.com.br",
   "logos": [
     {
       "title": "A Arte do Insulto",
       "svg": "matanza_a-arte-do-insulto.svg",
+      "css": "matanza_a-arte-do-insulto.css",
       "inverse": true
     }
   ]

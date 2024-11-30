@@ -1,13 +1,13 @@
 {
   "name": "Enforcer",
-  "origin": ["Sweden"],
-  "css": "enforcer.css",
-  "genre": ["Speed Metal"],
+  "origins": ["Sweden"],
+  "genres": ["Speed Metal"],
   "link": "https://www.facebook.com/enforcerofficial",
   "logos": [
     {
       "title": "Evil Attacker",
       "svg": "enforcer_evil-attacker.svg",
+      "css": "enforcer_evil-attacker.css",
       "inverse": true
     }
   ]

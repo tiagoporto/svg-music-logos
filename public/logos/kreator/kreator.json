@@ -1,7 +1,7 @@
 {
   "name": "Kreator",
-  "origin": ["Germany"],
-  "genre": ["Thrash Metal"],
+  "origins": ["Germany"],
+  "genres": ["Thrash Metal"],
   "link": "http://kreator-terrorzone.de",
   "logos": [
     {

@@ -1,8 +1,7 @@
 {
   "name": "Linkin Park",
-  "css": "linkin-park.css",
-  "origin": ["USA"],
-  "genre": ["Nu Metal"],
+  "origins": ["USA"],
+  "genres": ["Nu Metal"],
   "link": "http://linkinpark.com",
   "logos": [
     {

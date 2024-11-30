@@ -1,7 +1,7 @@
 {
   "name": "Pink Floyd",
-  "origin": ["England"],
-  "genre": ["Progressive Rock"],
+  "origins": ["England"],
+  "genres": ["Progressive Rock"],
   "link": "http://www.pinkfloyd.com",
   "logos": [
     {

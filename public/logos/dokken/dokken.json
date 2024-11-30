@@ -1,7 +1,7 @@
 {
   "name": "Dokken",
-  "origin": ["USA"],
-  "genre": ["Heavy Metal"],
+  "origins": ["USA"],
+  "genres": ["Heavy Metal"],
   "link": "http://dokken.net",
   "logos": [
     {

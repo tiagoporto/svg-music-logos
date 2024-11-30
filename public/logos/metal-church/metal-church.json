@@ -1,13 +1,13 @@
 {
   "name": "Metal Church",
-  "css": "metal-church.css",
-  "origin": ["USA"],
-  "genre": ["Heavy Metal"],
+  "origins": ["USA"],
+  "genres": ["Heavy Metal"],
   "link": "http://metalchurchofficial.com",
   "logos": [
     {
       "title": "The Dark",
       "svg": "metal-church_the-dark.svg",
+      "css": "metal-church_the-dark.css",
       "inverse": true
     }
   ]

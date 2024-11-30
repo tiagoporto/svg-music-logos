@@ -1,7 +1,7 @@
 {
   "name": "Enya",
-  "origin": ["Ireland"],
-  "genre": ["New Age"],
+  "origins": ["Ireland"],
+  "genres": ["New Age"],
   "link": "http://enya.com",
   "logos": [
     {

@@ -1,8 +1,7 @@
 {
   "name": "Yes",
-  "css": "yes.css",
-  "origin": ["England"],
-  "genre": ["Progressive Rock"],
+  "origins": ["England"],
+  "genres": ["Progressive Rock"],
   "link": "http://yesworld.com",
   "logos": [
     {

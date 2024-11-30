@@ -1,7 +1,7 @@
 {
   "name": "Eddie Van Halen",
-  "origin": ["USA"],
-  "genre": ["Hard Rock"],
+  "origins": ["USA"],
+  "genres": ["Hard Rock"],
   "link": "http://evhgear.com",
   "logos": [
     {

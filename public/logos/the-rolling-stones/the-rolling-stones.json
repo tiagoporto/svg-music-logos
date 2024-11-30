@@ -1,8 +1,7 @@
 {
   "name": "The Rolling Stones",
-  "origin": ["England"],
-  "css": "the-rolling-stones.css",
-  "genre": ["Rock"],
+  "origins": ["England"],
+  "genres": ["Rock"],
   "link": "http://www.rollingstones.com",
   "logos": [
     {

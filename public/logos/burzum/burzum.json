@@ -1,7 +1,7 @@
 {
   "name": "Burzum",
-  "origin": ["Norway"],
-  "genre": ["Black Metal"],
+  "origins": ["Norway"],
+  "genres": ["Black Metal"],
   "link": "http://burzum.org",
   "logos": [
     {

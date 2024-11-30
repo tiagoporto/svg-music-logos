@@ -1,7 +1,7 @@
 {
   "name": "Extreme",
-  "origin": ["USA"],
-  "genre": ["Hard Rock", "Funk Metal"],
+  "origins": ["USA"],
+  "genres": ["Hard Rock", "Funk Metal"],
   "link": "http://www.extreme-band.com",
   "logos": [
     {

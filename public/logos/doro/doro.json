@@ -1,7 +1,7 @@
 {
   "name": "Doro Pesch",
-  "origin": ["Germany"],
-  "genre": ["Heavy Metal"],
+  "origins": ["Germany"],
+  "genres": ["Heavy Metal"],
   "link": "http://doropesch.com",
   "logos": [
     {

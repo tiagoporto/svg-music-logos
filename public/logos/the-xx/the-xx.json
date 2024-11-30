@@ -1,7 +1,7 @@
 {
   "name": "The XX",
-  "origin": ["England"],
-  "genre": ["Indie Pop"],
+  "origins": ["England"],
+  "genres": ["Indie Pop"],
   "link": "http://thexx.info",
   "logos": [
     {

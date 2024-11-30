@@ -1,7 +1,7 @@
 {
   "name": "Pantera",
-  "origin": ["USA"],
-  "genre": ["Glam Metal", "Groove Metal"],
+  "origins": ["USA"],
+  "genres": ["Glam Metal", "Groove Metal"],
   "link": "http://pantera.com",
   "logos": [
     {

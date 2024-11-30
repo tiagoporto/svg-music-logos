@@ -1,7 +1,7 @@
 {
   "name": "Led Zeppelin",
-  "origin": ["England"],
-  "genre": ["Rock"],
+  "origins": ["England"],
+  "genres": ["Rock"],
   "link": "http://www.ledzeppelin.com",
   "logos": [
     {

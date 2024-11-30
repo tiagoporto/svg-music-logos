@@ -1,8 +1,7 @@
 {
   "name": "Dream Theater",
-  "origin": ["USA"],
-  "css": "dream-theater.css",
-  "genre": ["Progressive Metal"],
+  "origins": ["USA"],
+  "genres": ["Progressive Metal"],
   "link": "http://dreamtheater.net",
   "logos": [
     {
@@ -12,12 +11,13 @@
     {
       "title": "The majesty symbol",
       "svg": "dream-theater_majesty-symbol.svg",
-      "cls": "dream-theater--majesty-symbol"
+      "css": "dream-theater_majesty-symbol.css",
+      "className": "dream-theater--majesty-symbol"
     },
     {
       "title": "The majesty symbol",
       "svg": "dream-theater_majesty-symbol.svg",
-      "cls": "dream-theater--full-majesty-symbol"
+      "className": "dream-theater--full-majesty-symbol"
     }
   ]
 }

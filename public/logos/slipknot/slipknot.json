@@ -1,7 +1,7 @@
 {
   "name": "Slipknot",
-  "origin": ["USA"],
-  "genre": ["Nu Metal", "Alternative Metal"],
+  "origins": ["USA"],
+  "genres": ["Nu Metal", "Alternative Metal"],
   "link": "https://slipknot1.com",
   "logos": [
     {

@@ -1,7 +1,7 @@
 {
   "name": "Queen",
-  "origin": ["England"],
-  "genre": ["Rock"],
+  "origins": ["England"],
+  "genres": ["Rock"],
   "link": "http://queenonline.com",
   "logos": [
     {

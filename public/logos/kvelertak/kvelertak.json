@@ -1,7 +1,7 @@
 {
   "name": "Kvelertak",
-  "origin": ["Norway"],
-  "genre": ["Black 'n' Roll", "Heavy Metal"],
+  "origins": ["Norway"],
+  "genres": ["Black 'n' Roll", "Heavy Metal"],
   "link": "http://kvelertak.com",
   "logos": [
     {

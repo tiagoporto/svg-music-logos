@@ -1,7 +1,7 @@
 {
   "name": "Eminem",
-  "origin": ["USA"],
-  "genre": ["Hip Hop"],
+  "origins": ["USA"],
+  "genres": ["Hip Hop"],
   "link": "https://www.facebook.com/eminem",
   "logos": [
     {

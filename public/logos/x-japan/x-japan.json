@@ -1,7 +1,7 @@
 {
   "name": "X Japan",
-  "origin": ["Japan"],
-  "genre": ["Heavy Metal"],
+  "origins": ["Japan"],
+  "genres": ["Heavy Metal"],
   "link": "http://www.xjapan.com",
   "logos": [
     {

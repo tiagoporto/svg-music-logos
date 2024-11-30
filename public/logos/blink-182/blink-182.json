@@ -1,7 +1,7 @@
 {
   "name": "Blink-182",
-  "origin": ["USA"],
-  "genre": ["Pop Punk"],
+  "origins": ["USA"],
+  "genres": ["Pop Punk"],
   "link": "https://www.blink182.com",
   "logos": [
     {

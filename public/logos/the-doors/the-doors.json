@@ -1,7 +1,7 @@
 {
   "name": "The Doors",
-  "origin": ["England"],
-  "genre": ["Hard Rock"],
+  "origins": ["England"],
+  "genres": ["Hard Rock"],
   "link": "https://www.thedoors.com",
   "logos": [
     {

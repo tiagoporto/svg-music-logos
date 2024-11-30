@@ -7,7 +7,7 @@
     {
       "title": "Let There Be Rock",
       "svg": "acdc_classical.svg",
-      "styles": "acdc_classical.css"
+      "css": "acdc_classical.css"
     },
     {
       "title": "Let There Be Rock",
@@ -21,7 +21,7 @@
       "title": "Back in Black",
       "svg": "acdc.svg",
       "className": "acdc--back-in-black",
-      "styles": "acdc.css"
+      "css": "acdc.css"
     }
   ]
 }

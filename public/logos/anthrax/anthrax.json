@@ -1,7 +1,7 @@
 {
   "name": "Anthrax",
-  "origin": ["USA"],
-  "genre": ["Thrash Metal"],
+  "origins": ["USA"],
+  "genres": ["Thrash Metal"],
   "link": "https://anthrax.com",
   "logos": [
     {

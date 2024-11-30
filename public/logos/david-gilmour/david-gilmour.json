@@ -1,7 +1,7 @@
 {
   "name": "David Gilmour",
-  "origin": ["England"],
-  "genre": ["Progressive Rock"],
+  "origins": ["England"],
+  "genres": ["Progressive Rock"],
   "link": "http://davidgilmour.com",
   "logos": [
     {

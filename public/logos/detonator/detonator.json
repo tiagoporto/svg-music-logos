@@ -1,13 +1,13 @@
 {
   "name": "Detonator",
-  "css": "detonator.css",
-  "origin": ["Brazil"],
-  "genre": ["Heavy Metal"],
+  "origins": ["Brazil"],
+  "genres": ["Heavy Metal"],
   "link": "http://detonator.com.br",
   "logos": [
     {
       "title": "Metal 5 Estrelas",
-      "svg": "detonator_metal-5-estrelas.svg"
+      "svg": "detonator_metal-5-estrelas.svg",
+      "css": "detonator_metal-5-estrelas.css"
     }
   ]
 }

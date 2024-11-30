@@ -1,7 +1,7 @@
 {
   "name": "Aphex Twin",
-  "origin": ["England"],
-  "genre": ["Electronic"],
+  "origins": ["England"],
+  "genres": ["Electronic"],
   "link": "http://warp.net/artists/aphex-twin",
   "logos": [
     {

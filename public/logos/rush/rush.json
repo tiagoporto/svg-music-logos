@@ -1,8 +1,7 @@
 {
   "name": "Rush",
-  "css": "rush.css",
-  "origin": ["Canada"],
-  "genre": ["Progressive Rock"],
+  "origins": ["Canada"],
+  "genres": ["Progressive Rock"],
   "link": "https://www.rush.com",
   "logos": [
     {

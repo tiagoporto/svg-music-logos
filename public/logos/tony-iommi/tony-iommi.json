@@ -1,7 +1,7 @@
 {
   "name": "Tony Iommi",
-  "origin": ["England"],
-  "genre": ["Heavy Metal"],
+  "origins": ["England"],
+  "genres": ["Heavy Metal"],
   "link": "http://www.iommi.com",
   "logos": [
     {

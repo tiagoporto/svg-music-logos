@@ -1,8 +1,7 @@
 {
   "name": "Oasis",
-  "css": "oasis.css",
-  "origin": ["England"],
-  "genre": ["Alternative Rock"],
+  "origins": ["England"],
+  "genres": ["Alternative Rock"],
   "link": "http://www.oasisinet.com",
   "logos": [
     {

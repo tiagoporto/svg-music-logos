@@ -72,15 +72,17 @@ Endpoints are defined in `server/api` directory.
     {
       "id": "number",
       "name": "string",
+      "nameTemplate": "string",  // optional
       "origins": ["string"],
-      "genres": ["string"] | "null",
+      "genres": ["string"] | null,
       "link": "string",
       "logos": [
         {
           "title": "string",
           "svg": "string",
-          "styles": "string", // optional
+          "css": "string", // optional
           "className": "string", // optional
+          "inverse": "boolean", // optional
         }
       ],
     }
@@ -98,15 +100,17 @@ Endpoints are defined in `server/api` directory.
   "artist": {
     "id": "number",
     "name": "string",
+    "nameTemplate": "string",  // optional
     "origins": ["string"],
-    "genres": ["string"] | "null",
+    "genres": ["string"] | null,
     "link": "string",
     "logos": [
       {
         "title": "string",
         "svg": "string",
-        "styles": "string", // optional
+        "css": "string", // optional
         "className": "string", // optional
+        "inverse": "boolean", // optional
       }
     ],
   }
@@ -123,14 +127,16 @@ Endpoints are defined in `server/api` directory.
     {
       "id": "number",
       "name": "string",
+      "nameTemplate": "string",  // optional
       "origins": ["string"],
-      "genres": ["string"] | "null",
+      "genres": ["string"] | null,
       "link": "string",
       "logo": {
           "title": "string",
           "svg": "string",
-          "styles": "string", // optional
+          "css": "string", // optional
           "className": "string", // optional
+          "inverse": "boolean", // optional
       }
     }
   ],
@@ -160,19 +166,6 @@ Endpoints are defined in `server/api` directory.
   "length": "number",
 }
 ```
-
-<!-- #### GET /api/summary
-
-**Response:**
-
-```json
-{
-  "totalArtists": "number",
-  "totalOrigins": "number",
-  "totalGenres": "number",
-  "totalLogos": "number",
-}
-``` -->
 
 ## Development 🛠
 

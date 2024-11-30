@@ -1,13 +1,13 @@
 {
   "name": "Diamond Head",
-  "css": "diamond-head.css",
-  "origin": ["England"],
-  "genre": ["Heavy Metal"],
+  "origins": ["England"],
+  "genres": ["Heavy Metal"],
   "link": "https://www.diamondheadofficial.com",
   "logos": [
     {
       "title": "Lightning to the Nations",
-      "svg": "diamond-head_lightning-to-the-nations.svg"
+      "svg": "diamond-head_lightning-to-the-nations.svg",
+      "css": "diamond-head_lightning-to-the-nations.css"
     }
   ]
 }

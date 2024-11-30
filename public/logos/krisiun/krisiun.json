@@ -1,18 +1,18 @@
 {
   "name": "Krisiun",
-  "css": "krisiun.css",
-  "origin": ["Brazil"],
-  "genre": ["Death Metal"],
+  "origins": ["Brazil"],
+  "genres": ["Death Metal"],
   "link": "http://krisiun.com.br",
   "logos": [
     {
       "title": "Curse Of The Evil One",
-      "svg": "krisiun_curse-of-the-evil-one.svg"
+      "svg": "krisiun_curse-of-the-evil-one.svg",
+      "css": "krisiun_curse-of-the-evil-one.css"
     },
     {
       "title": "Unmerciful Order",
-      "cls": "krisiun--unmerciful-order",
-      "svg": "krisiun_unmerciful-order.svg"
+      "svg": "krisiun_unmerciful-order.svg",
+      "css": "krisiun_unmerciful-order.css"
     }
   ]
 }

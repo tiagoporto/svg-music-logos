@@ -1,7 +1,7 @@
 {
   "name": "The Cure",
-  "origin": ["England"],
-  "genre": ["Alternative Rock"],
+  "origins": ["England"],
+  "genres": ["Alternative Rock"],
   "link": "http://thecure.com",
   "logos": [
     {

@@ -1,19 +1,20 @@
 {
   "name": "Pato Fu",
-  "css": "pato-fu.css",
-  "origin": ["Brazil"],
-  "genre": ["Pop Rock"],
+  "origins": ["Brazil"],
+  "genres": ["Pop Rock"],
   "link": "https://www.facebook.com/patofuoficial",
   "logos": [
     {
       "title": "Gol De Quem?",
-      "cls": "pato-fu--gol-de-quem",
-      "svg": "pato-fu.svg"
+      "svg": "pato-fu.svg",
+      "css": "pato-fu_gol-de-quem.css",
+      "className": "pato-fu--gol-de-quem"
     },
     {
       "title": "Televisão de Cachorro",
-      "cls": "pato-fu--televisao-de-cachorro",
-      "svg": "pato-fu.svg"
+      "svg": "pato-fu.svg",
+      "css": "pato-fu_televisao-de-cachorro.css",
+      "className": "pato-fu--televisao-de-cachorro"
     }
   ]
 }

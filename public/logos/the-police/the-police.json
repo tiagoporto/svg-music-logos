@@ -1,7 +1,7 @@
 {
   "name": "The Police",
-  "origin": ["England"],
-  "genre": ["Reggae Rock"],
+  "origins": ["England"],
+  "genres": ["Reggae Rock"],
   "link": "https://www.thepolice.com",
   "logos": [
     {

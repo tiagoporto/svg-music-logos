@@ -1,7 +1,7 @@
 {
   "name": "Deep Purple",
-  "origin": ["England"],
-  "genre": ["Hard Rock"],
+  "origins": ["England"],
+  "genres": ["Hard Rock"],
   "link": "http://www.deeppurple.com",
   "logos": [
     {

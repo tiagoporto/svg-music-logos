@@ -1,7 +1,7 @@
 {
   "name": "Thin Lizzy",
-  "origin": ["Ireland"],
-  "genre": ["Hard Rock"],
+  "origins": ["Ireland"],
+  "genres": ["Hard Rock"],
   "link": "http://thinlizzy.org",
   "logos": [
     {

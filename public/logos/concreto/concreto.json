@@ -1,7 +1,7 @@
 {
   "name": "Concreto",
-  "origin": ["Brazil"],
-  "genre": ["Hard Rock"],
+  "origins": ["Brazil"],
+  "genres": ["Hard Rock"],
   "link": "http://www.bandaconcreto.com.br",
   "logos": [
     {

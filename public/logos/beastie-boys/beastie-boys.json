@@ -1,7 +1,7 @@
 {
   "name": "Beastie Boys",
-  "origin": ["USA"],
-  "genre": ["Hip Hop"],
+  "origins": ["USA"],
+  "genres": ["Hip Hop"],
   "link": "http://beastieboys.com",
   "logos": [
     {

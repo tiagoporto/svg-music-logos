@@ -1,8 +1,7 @@
 {
   "name": "Bon Jovi",
-  "css": "bon-jovi.css",
-  "origin": ["USA"],
-  "genre": ["Hard Rock"],
+  "origins": ["USA"],
+  "genres": ["Hard Rock"],
   "link": "http://bonjovi.com",
   "logos": [
     {
@@ -11,7 +10,8 @@
     },
     {
       "title": "Have a Nice Day Smile",
-      "svg": "bon-jovi_have-a-nice-day-smile.svg"
+      "svg": "bon-jovi_have-a-nice-day-smile.svg",
+      "css": "bon-jovi_have-a-nice-day-smile.css"
     }
   ]
 }

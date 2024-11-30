@@ -7,7 +7,7 @@
     {
       "title": "Power of the Dollar",
       "svg": "50-cent.svg",
-      "styles": "50-cent.css"
+      "css": "50-cent.css"
     }
   ]
 }

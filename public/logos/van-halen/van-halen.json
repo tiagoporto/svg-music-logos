@@ -1,13 +1,13 @@
 {
   "name": "Van Halen",
-  "css": "van-halen.css",
-  "origin": ["USA"],
-  "genre": ["Hard Rock"],
+  "origins": ["USA"],
+  "genres": ["Hard Rock"],
   "link": "http://van-halen.com",
   "logos": [
     {
       "title": "II",
-      "svg": "van-halen_II.svg"
+      "svg": "van-halen_II.svg",
+      "css": "van-halen_II.css"
     },
     {
       "title": "5150",

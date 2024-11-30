@@ -1,8 +1,7 @@
 {
   "name": "Slash",
-  "css": "slash.css",
-  "origin": ["England"],
-  "genre": ["Hard Rock"],
+  "origins": ["England"],
+  "genres": ["Hard Rock"],
   "link": "http://www.slashonline.com",
   "logos": [
     {

@@ -1,7 +1,7 @@
 {
   "name": "The Beatles",
-  "origin": ["England"],
-  "genre": ["Rock"],
+  "origins": ["England"],
+  "genres": ["Rock"],
   "link": "http://www.thebeatles.com",
   "logos": [
     {

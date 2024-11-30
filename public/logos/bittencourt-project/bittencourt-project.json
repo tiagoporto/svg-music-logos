@@ -1,7 +1,7 @@
 {
   "name": "Bittencourt Project",
-  "origin": ["Brazil"],
-  "genre": ["Heavy Metal"],
+  "origins": ["Brazil"],
+  "genres": ["Heavy Metal"],
   "link": "http://rafaelbittencourt.com",
   "logos": [
     {

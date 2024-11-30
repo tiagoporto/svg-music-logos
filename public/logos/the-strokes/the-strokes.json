@@ -1,7 +1,7 @@
 {
   "name": "The Strokes",
-  "origin": ["USA"],
-  "genre": ["Indie Rock"],
+  "origins": ["USA"],
+  "genres": ["Indie Rock"],
   "link": "http://thestrokes.com",
   "logos": [
     {

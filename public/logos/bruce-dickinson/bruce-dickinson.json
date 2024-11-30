@@ -1,7 +1,7 @@
 {
   "name": "Bruce Dickinson",
-  "origin": ["England"],
-  "genre": ["Heavy Metal"],
+  "origins": ["England"],
+  "genres": ["Heavy Metal"],
   "link": "http://screamforme.com",
   "logos": [
     {

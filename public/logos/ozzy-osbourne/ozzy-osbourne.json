@@ -1,7 +1,7 @@
 {
   "name": "Ozzy Osbourne",
-  "origin": ["England"],
-  "genre": ["Heavy Metal"],
+  "origins": ["England"],
+  "genres": ["Heavy Metal"],
   "link": "https://ozzy.com",
   "logos": [
     {

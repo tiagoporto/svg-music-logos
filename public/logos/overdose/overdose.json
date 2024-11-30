@@ -1,13 +1,13 @@
 {
   "name": "Overdose",
-  "css": "overdose.css",
-  "origin": ["Brazil"],
-  "genre": ["Heavy Metal"],
+  "origins": ["Brazil"],
+  "genres": ["Heavy Metal"],
   "link": "http://www.overdosebrazil.com.br",
   "logos": [
     {
       "title": "Século XX",
       "svg": "overdose_seculo-xx.svg",
+      "css": "overdose_seculo-xx.css",
       "inverse": true
     },
     {

@@ -1,8 +1,7 @@
 {
   "name": "Sepultura",
-  "css": "sepultura.css",
-  "origin": ["Brazil"],
-  "genre": ["Groove Metal"],
+  "origins": ["Brazil"],
+  "genres": ["Groove Metal"],
   "link": "https://www.sepultura.com.br",
   "logos": [
     {
@@ -11,18 +10,20 @@
     },
     {
       "title": "Beneath the Remains",
-      "cls": "sepultura--beneath-the-remains",
-      "svg": "sepultura_beneath-the-remains.svg"
+      "svg": "sepultura_beneath-the-remains.svg",
+      "className": "sepultura--beneath-the-remains"
     },
     {
       "title": "Arise",
-      "cls": "sepultura--arise",
-      "svg": "sepultura_beneath-the-remains.svg"
+      "svg": "sepultura_beneath-the-remains.svg",
+      "css": "sepultura_arise.css",
+      "className": "sepultura--arise"
     },
     {
       "title": "Tribal S",
-      "cls": "sepultura--tribal-symbol",
-      "svg": "sepultura_tribal-s.svg"
+      "svg": "sepultura_tribal-s.svg",
+      "css": "sepultura_tribal-symbol.css",
+      "className": "sepultura--tribal-symbol"
     },
     {
       "title": "Chaos Symbol",
@@ -46,8 +47,9 @@
     },
     {
       "title": "1/4 Of a Century",
-      "cls": "sepultura--quarter-of-a-century",
       "svg": "sepultura_tribal-s.svg",
+      "css": "sepultura_quarter-of-a-century.css",
+      "className": "sepultura--quarter-of-a-century",
       "inverse": true
     },
     {
@@ -56,12 +58,13 @@
     },
     {
       "title": "Coat Of Arms",
-      "svg": "sepultura_coat-of-arms.svg"
+      "svg": "sepultura_coat-of-arms.svg",
+      "css": "sepultura_coat-of-arms.css"
     },
     {
       "title": "Dante XXI",
-      "cls": "sepultura--dante-xxi",
-      "svg": "sepultura_dante-xxi.svg"
+      "svg": "sepultura_dante-xxi.svg",
+      "className": "sepultura--dante-xxi"
     }
   ]
 }

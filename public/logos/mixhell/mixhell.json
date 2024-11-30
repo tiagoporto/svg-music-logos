@@ -1,19 +1,20 @@
 {
   "name": "Mixhell",
-  "css": "mixhell.css",
-  "origin": ["England"],
-  "genre": ["Eletronic"],
+  "origins": ["England"],
+  "genres": ["Eletronic"],
   "link": "https://www.facebook.com/therealmixhell",
   "logos": [
     {
       "title": "Spaces",
-      "cls": "mixhell--spaces",
-      "svg": "mixhell_spaces.svg"
+      "svg": "mixhell_spaces.svg",
+      "css": "mixhell_spaces.css",
+      "className": "mixhell--spaces"
     },
     {
-      "title": "Spaces tour",
-      "cls": "mixhell--highly-explicit",
+      "title": "Highly Explicit",
       "svg": "mixhell_spaces.svg",
+      "css": "mixhell_highly-explicit.css",
+      "className": "mixhell--highly-explicit",
       "inverse": true
     },
     {

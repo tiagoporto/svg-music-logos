@@ -1,8 +1,7 @@
 {
   "name": "The Who",
-  "css": "the-who.css",
-  "origin": ["England"],
-  "genre": ["Hard Rock"],
+  "origins": ["England"],
+  "genres": ["Hard Rock"],
   "link": "https://www.thewho.com",
   "logos": [
     {
@@ -12,12 +11,14 @@
     {
       "title": "The Who Collection",
       "svg": "the-who.svg",
-      "cls": "the-who--text"
+      "css": "the-who_text.css",
+      "className": "the-who--text"
     },
     {
       "title": "Target",
       "svg": "the-who.svg",
-      "cls": "the-who--symbol"
+      "css": "the-who_symbol.css",
+      "className": "the-who--symbol"
     }
   ]
 }

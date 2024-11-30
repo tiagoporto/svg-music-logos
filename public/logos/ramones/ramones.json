@@ -1,7 +1,7 @@
 {
   "name": "Ramones",
-  "origin": ["England"],
-  "genre": ["Punk Rock"],
+  "origins": ["England"],
+  "genres": ["Punk Rock"],
   "link": "https://www.ramones.com",
   "logos": [
     {

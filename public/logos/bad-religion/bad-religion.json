@@ -1,8 +1,7 @@
 {
   "name": "Bad Religion",
-  "css": "bad-religion.css",
-  "origin": ["USA"],
-  "genre": ["Punk Rock"],
+  "origins": ["USA"],
+  "genres": ["Punk Rock"],
   "link": "http://www.badreligion.com",
   "logos": [
     {
@@ -11,7 +10,8 @@
     },
     {
       "title": "Crossbuster",
-      "svg": "bad-religion_crossbuster.svg"
+      "svg": "bad-religion_crossbuster.svg",
+      "css": "bad-religion_crossbuster.css"
     }
   ]
 }

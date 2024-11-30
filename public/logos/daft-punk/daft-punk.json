@@ -1,7 +1,7 @@
 {
   "name": "Daft Punk",
-  "origin": ["France"],
-  "genre": ["Eletronic"],
+  "origins": ["France"],
+  "genres": ["Eletronic"],
   "link": "https://daftpunk.com",
   "logos": [
     {

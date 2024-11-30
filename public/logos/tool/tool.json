@@ -1,7 +1,7 @@
 {
   "name": "Tool",
-  "origin": ["USA"],
-  "genre": ["Alternative Metal"],
+  "origins": ["USA"],
+  "genres": ["Alternative Metal"],
   "link": "https://www.toolband.com",
   "logos": [
     {

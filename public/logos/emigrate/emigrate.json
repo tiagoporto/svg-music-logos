@@ -1,7 +1,7 @@
 {
   "name": "Emigrate",
-  "origin": ["USA"],
-  "genre": ["Industrial Metal"],
+  "origins": ["USA"],
+  "genres": ["Industrial Metal"],
   "link": "emigrate.eu",
   "logos": [
     {

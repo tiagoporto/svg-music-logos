@@ -1,8 +1,7 @@
 {
   "name": "Raimundos",
-  "css": "raimundos.css",
-  "origin": ["Brazil"],
-  "genre": ["Alternative Metal"],
+  "origins": ["Brazil"],
+  "genres": ["Alternative Metal"],
   "link": "http://www.raimundos.com.br",
   "logos": [
     {

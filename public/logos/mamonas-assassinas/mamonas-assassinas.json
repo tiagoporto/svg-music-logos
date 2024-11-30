@@ -1,17 +1,18 @@
 {
   "name": "Mamonas Assassinas",
-  "css": "mamonas-assassinas.css",
-  "origin": ["Brazil"],
-  "genre": ["Comedy Rock"],
+  "origins": ["Brazil"],
+  "genres": ["Comedy Rock"],
   "link": "https://en.wikipedia.org/wiki/Mamonas_Assassinas",
   "logos": [
     {
       "title": "Mamonas Assassinas",
-      "svg": "mamonas-assassinas.svg"
+      "svg": "mamonas-assassinas.svg",
+      "css": "mamonas-assassinas.css"
     },
     {
       "title": "MA",
-      "svg": "mamonas-assassinas_ma.svg"
+      "svg": "mamonas-assassinas_ma.svg",
+      "css": "mamonas-assassinas.css"
     },
     {
       "title": "Mamona",

@@ -1,7 +1,7 @@
 {
   "name": "Aerosmith",
-  "origin": ["USA"],
-  "genre": ["Hard Rock"],
+  "origins": ["USA"],
+  "genres": ["Hard Rock"],
   "link": "http://www.aerosmith.com",
   "logos": [
     {

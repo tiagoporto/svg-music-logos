@@ -1,7 +1,7 @@
 {
   "name": "Lindemann",
-  "origin": ["Germany", "Sweden"],
-  "genre": ["Industrial metal"],
+  "origins": ["Germany", "Sweden"],
+  "genres": ["Industrial metal"],
   "link": "https://lindemann.band",
   "logos": [
     {

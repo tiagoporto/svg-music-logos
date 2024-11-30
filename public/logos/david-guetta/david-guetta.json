@@ -1,7 +1,7 @@
 {
   "name": "David Guetta",
-  "origin": ["France"],
-  "genre": ["Electro"],
+  "origins": ["France"],
+  "genres": ["Electro"],
   "link": "http://davidguetta.com",
   "logos": [
     {

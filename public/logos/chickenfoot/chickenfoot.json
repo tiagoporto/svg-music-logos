@@ -1,8 +1,7 @@
 {
   "name": "Chickenfoot",
-  "css": "chickenfoot.css",
-  "origin": ["Mexico"],
-  "genre": ["Hard Rock"],
+  "origins": ["Mexico"],
+  "genres": ["Hard Rock"],
   "link": "http://www.chickenfoot.us",
   "logos": [
     {
@@ -12,12 +11,14 @@
     {
       "title": "III",
       "svg": "chickenfoot_III.svg",
-      "cls": "chickenfoot--III"
+      "css": "chickenfoot_III.css",
+      "className": "chickenfoot--III"
     },
     {
       "title": "III Limited",
       "svg": "chickenfoot_III-limited.svg",
-      "cls": "chickenfoot--III-limited"
+      "css": "chickenfoot_III-limited.css",
+      "className": "chickenfoot--III-limited"
     }
   ]
 }

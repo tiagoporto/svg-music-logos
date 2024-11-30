@@ -1,0 +1,22 @@
+@keyframes iron-maiden-rotate
+  from
+    transform: rotate(0);
+  to
+    transform: rotate(360deg);
+
+.iron-maiden
+  &--legacy-of-the-beast-loading &
+    &__eddie
+      animation: iron-maiden-rotate 5s linear 0s infinite normal
+      transform-origin: 50% 50%
+
+    &__external
+      animation: iron-maiden-rotate 6s linear 0s infinite normal
+      transform-origin: 50% 50%
+
+    &__ring
+      animation: iron-maiden-rotate 5s linear 0s infinite reverse
+      transform-origin: 50% 50%
+
+    &__ring-minor
+      fill: #535D6A

@@ -1,7 +1,7 @@
 {
   "name": "Damageplan",
-  "origin": ["USA"],
-  "genre": ["Thrash Metal"],
+  "origins": ["USA"],
+  "genres": ["Thrash Metal"],
   "link": "https://en.wikipedia.org/wiki/Damageplan",
   "logos": [
     {

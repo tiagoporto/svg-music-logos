@@ -1,7 +1,7 @@
 {
   "name": "King Diamond",
-  "origin": ["Denmark"],
-  "genre": ["Heavy Metal"],
+  "origins": ["Denmark"],
+  "genres": ["Heavy Metal"],
   "link": "http://www.kingdiamondcoven.com",
   "logos": [
     {

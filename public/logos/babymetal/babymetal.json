@@ -1,7 +1,7 @@
 {
   "name": "Babymetal",
-  "origin": ["Japan"],
-  "genre": ["Heavy Metal"],
+  "origins": ["Japan"],
+  "genres": ["Heavy Metal"],
   "link": "http://www.babymetal.com",
   "logos": [
     {

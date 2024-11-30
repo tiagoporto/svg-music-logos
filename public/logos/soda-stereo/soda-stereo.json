@@ -1,7 +1,7 @@
 {
   "name": "Soda Stereo",
-  "origin": ["Argentina"],
-  "genre": ["Alternative Rock"],
+  "origins": ["Argentina"],
+  "genres": ["Alternative Rock"],
   "link": "http://sodastereo.com",
   "logos": [
     {

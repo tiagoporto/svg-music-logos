@@ -1,13 +1,13 @@
 {
   "name": "Doyle Wolfgang von Frankenstein",
-  "origin": ["USA"],
-  "css": "doyle-wolfgang-von-frankenstein.css",
-  "genre": ["Punk", "Hardcore"],
+  "origins": ["USA"],
+  "genres": ["Punk", "Hardcore"],
   "link": "http://officialdoyle.com",
   "logos": [
     {
       "title": "Skull",
       "svg": "doyle-wolfgang-von-frankenstein_skull.svg",
+      "css": "doyle-wolfgang-von-frankenstein_skull.css",
       "inverse": true
     }
   ]

@@ -1,7 +1,7 @@
 {
   "name": "Avenged Sevenfold",
-  "origin": ["USA"],
-  "genre": ["Heavy Metal"],
+  "origins": ["USA"],
+  "genres": ["Heavy Metal"],
   "link": "http://avengedsevenfold.com",
   "logos": [
     {

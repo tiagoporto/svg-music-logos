@@ -1,7 +1,7 @@
 {
   "name": "Rage",
-  "origin": ["Germany"],
-  "genre": ["Heavy Metal"],
+  "origins": ["Germany"],
+  "genres": ["Heavy Metal"],
   "link": "http://www.rage-official.com",
   "logos": [
     {

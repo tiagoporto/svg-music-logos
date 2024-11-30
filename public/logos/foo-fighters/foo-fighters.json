@@ -1,7 +1,7 @@
 {
   "name": "Foo Fighters",
-  "origin": ["USA"],
-  "genre": ["Alternative Rock"],
+  "origins": ["USA"],
+  "genres": ["Alternative Rock"],
   "link": "https://foofighters.com",
   "logos": [
     {

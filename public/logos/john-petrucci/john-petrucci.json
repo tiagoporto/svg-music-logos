@@ -1,7 +1,7 @@
 {
   "name": "John Petrucci",
-  "origin": ["USA"],
-  "genre": ["Progressive Metal"],
+  "origins": ["USA"],
+  "genres": ["Progressive Metal"],
   "link": "http://johnpetrucci.com",
   "logos": [
     {

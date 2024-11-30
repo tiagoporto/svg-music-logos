@@ -1,14 +1,14 @@
 {
   "name": "Ace Frehley",
-  "css": "ace-frehley.css",
-  "origin": ["USA"],
-  "genre": ["Hard Rock"],
+  "origins": ["USA"],
+  "genres": ["Hard Rock"],
   "link": "http://acefrehley.com",
   "logos": [
     {
       "title": "Trouble Walkin'",
-      "cls": "ace-frehley--trouble-walkin",
-      "svg": "ace-frehley_trouble-walkin.svg"
+      "svg": "ace-frehley_trouble-walkin.svg",
+      "css": "ace-frehley_trouble-walkin.css",
+      "className": "ace-frehley--trouble-walkin"
     }
   ]
 }

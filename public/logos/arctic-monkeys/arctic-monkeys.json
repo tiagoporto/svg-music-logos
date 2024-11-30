@@ -1,7 +1,7 @@
 {
   "name": "Arctic Monkeys",
-  "origin": ["England"],
-  "genre": ["Indie Rock"],
+  "origins": ["England"],
+  "genres": ["Indie Rock"],
   "link": "http://arcticmonkeys.com",
   "logos": [
     {

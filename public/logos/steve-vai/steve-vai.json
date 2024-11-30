@@ -1,7 +1,7 @@
 {
   "name": "Steve Vai",
-  "origin": ["USA"],
-  "genre": ["Instrumental rock"],
+  "origins": ["USA"],
+  "genres": ["Instrumental rock"],
   "link": "http://www.vai.com",
   "logos": [
     {

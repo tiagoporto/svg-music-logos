@@ -1,7 +1,7 @@
 {
   "name": "Black Sabbath",
-  "origin": ["England"],
-  "genre": ["Heavy Metal"],
+  "origins": ["England"],
+  "genres": ["Heavy Metal"],
   "link": "http://www.blacksabbath.com",
   "logos": [
     {

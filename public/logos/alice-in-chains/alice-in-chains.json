@@ -1,7 +1,7 @@
 {
   "name": "Alice in Chains",
-  "origin": ["USA"],
-  "genre": ["Alternative Rock"],
+  "origins": ["USA"],
+  "genres": ["Alternative Rock"],
   "link": "http://aliceinchains.com",
   "logos": [
     {

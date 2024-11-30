@@ -1,7 +1,7 @@
 {
   "name": "Wu-Tang Clan",
-  "origin": ["USA"],
-  "genre": ["Hip Hop"],
+  "origins": ["USA"],
+  "genres": ["Hip Hop"],
   "link": "http://wutang-corp.com",
   "logos": [
     {

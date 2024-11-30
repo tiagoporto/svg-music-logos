@@ -1,7 +1,7 @@
 {
   "name": "Prince",
-  "origin": ["USA"],
-  "genre": ["Funk", "Pop", "R&B", "Rock"],
+  "origins": ["USA"],
+  "genres": ["Funk", "Pop", "R&B", "Rock"],
   "link": "http://www.officialprincemusic.com",
   "logos": [
     {

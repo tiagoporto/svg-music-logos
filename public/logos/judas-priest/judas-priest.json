@@ -1,7 +1,7 @@
 {
   "name": "Judas Priest",
-  "origin": ["England"],
-  "genre": ["Heavy Metal"],
+  "origins": ["England"],
+  "genres": ["Heavy Metal"],
   "link": "http://judaspriest.com",
   "logos": [
     {

@@ -1,8 +1,8 @@
 {
   "name": "The Big 4 - Metallica, Slayer, Megadeth, Anthrax",
   "nameTemplate": "The Big 4 - <a href=\"https://www.metallica.com\" class=\"card__link\" title=\"Metallica's website\">Metallica</a>, <a href=\"https://www.slayer.net\" class=\"card__link\" title=\"Slayer's website\">Slayer</a>, <a href=\"http://www.megadeth.com\" class=\"card__link\" title=\"Megadeth's website\">Megadeth</a>, <a href=\"https://anthrax.com\" class=\"card__link\" title=\"Anthrax's website\">Anthrax</a>",
-  "origin": ["USA"],
-  "genre": ["Thrash Metal"],
+  "origins": ["USA"],
+  "genres": ["Thrash Metal"],
   "link": "en.wikipedia.org/wiki/The_Big_Four:_Live_from_Sofia,_Bulgaria",
   "logos": [
     {

@@ -1,8 +1,7 @@
 {
   "name": "Jota Quest",
-  "css": "jota-quest.css",
-  "origin": ["Brazil"],
-  "genre": ["Pop"],
+  "origins": ["Brazil"],
+  "genres": ["Pop"],
   "link": "http://www.jotaquest.com.br",
   "logos": [
     {

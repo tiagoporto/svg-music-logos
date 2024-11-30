@@ -1,7 +1,7 @@
 {
   "name": "Ghost",
-  "origin": ["Sweden"],
-  "genre": ["Heavy Rock"],
+  "origins": ["Sweden"],
+  "genres": ["Heavy Rock"],
   "link": "http://ghost-official.com",
   "logos": [
     {

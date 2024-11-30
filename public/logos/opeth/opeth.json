@@ -1,7 +1,7 @@
 {
   "name": "Opeth",
-  "origin": ["Sweden"],
-  "genre": ["Progressive Metal"],
+  "origins": ["Sweden"],
+  "genres": ["Progressive Metal"],
   "link": "https://www.opeth.com/",
   "logos": [
     {

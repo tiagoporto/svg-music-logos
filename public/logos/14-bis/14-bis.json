@@ -7,7 +7,7 @@
     {
       "title": "Ao vivo",
       "svg": "14-bis_ao-vivo.svg",
-      "styles": "14-bis.css"
+      "css": "14-bis.css"
     }
   ]
 }

@@ -1,8 +1,7 @@
 {
   "name": "Rammstein",
-  "css": "rammstein.css",
-  "origin": ["Germany"],
-  "genre": ["Industrial Metal"],
+  "origins": ["Germany"],
+  "genres": ["Industrial Metal"],
   "link": "https://www.rammstein.de",
   "logos": [
     {
@@ -15,12 +14,13 @@
     },
     {
       "title": "R+ Stroked",
-      "cls": "rammstein__symbol--stroke",
-      "svg": "rammstein_symbol.svg"
+      "svg": "rammstein_symbol.svg",
+      "css": "rammstein_symbol-stroke.css",
+      "className": "rammstein__symbol--stroke"
     },
     {
       "title": "R+ Flat",
-      "svg": "rammstein_symbol--flat.svg"
+      "svg": "rammstein_symbol-flat.svg"
     },
     {
       "title": "DR",

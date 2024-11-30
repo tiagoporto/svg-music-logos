@@ -1,7 +1,7 @@
 {
   "name": "Edguy",
-  "origin": ["Germany"],
-  "genre": ["Power Metal"],
+  "origins": ["Germany"],
+  "genres": ["Power Metal"],
   "link": "http://edguy.net",
   "logos": [
     {

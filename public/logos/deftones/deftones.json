@@ -1,7 +1,7 @@
 {
   "name": "Deftones",
-  "origin": ["USA"],
-  "genre": ["Alternative Metal"],
+  "origins": ["USA"],
+  "genres": ["Alternative Metal"],
   "link": "https://www.deftones.com/",
   "logos": [
     {

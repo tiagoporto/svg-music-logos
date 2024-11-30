@@ -1,7 +1,7 @@
 {
   "name": "Björk",
-  "origin": ["Iceland"],
-  "genre": ["Art Pop"],
+  "origins": ["Iceland"],
+  "genres": ["Art Pop"],
   "link": "https://bjork.com",
   "logos": [
     {

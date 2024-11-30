@@ -14,7 +14,7 @@ export default defineEventHandler(async (event) => {
           ...logo,
           ...Object.assign(
             { svg: `${path}/${logo.svg}` },
-            logo?.styles && { styles: `${path}/${logo.styles}` },
+            logo?.css && { css: `${path}/${logo.css}` },
           ),
         },
       })

@@ -1,7 +1,7 @@
 {
   "name": "Muse",
-  "origin": ["England"],
-  "genre": ["Alternative Rock"],
+  "origins": ["England"],
+  "genres": ["Alternative Rock"],
   "link": "http://muse.mu",
   "logos": [
     {

@@ -1,14 +1,14 @@
 {
   "name": "Nirvana",
-  "css": "nirvana.css",
-  "origin": ["USA"],
-  "genre": ["Grunge"],
+  "origins": ["USA"],
+  "genres": ["Grunge"],
   "link": "http://www.nirvana.com",
   "logos": [
     {
       "title": "Bleach",
       "svg": "nirvana.svg",
-      "cls": "nirvana--bleach"
+      "css": "nirvana_bleach.css",
+      "className": "nirvana--bleach"
     },
     {
       "title": "Nevermind",

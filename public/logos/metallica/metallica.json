@@ -1,8 +1,7 @@
 {
   "name": "Metallica",
-  "css": "metallica.css",
-  "origin": ["USA"],
-  "genre": ["Thrash Metal"],
+  "origins": ["USA"],
+  "genres": ["Thrash Metal"],
   "link": "https://www.metallica.com",
   "logos": [
     {

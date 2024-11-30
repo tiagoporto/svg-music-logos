@@ -1,7 +1,7 @@
 {
   "name": "Amon Amarth",
-  "origin": ["Sweden"],
-  "genre": ["Melodic Death Metal"],
+  "origins": ["Sweden"],
+  "genres": ["Melodic Death Metal"],
   "link": "https://www.amonamarth.com",
   "logos": [
     {
