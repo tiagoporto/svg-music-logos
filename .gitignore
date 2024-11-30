@@ -24,5 +24,5 @@ logs
 !.env.example
 
 
-server/db/data.json
-public/logos/**/*.css
+src/server/db/data.json
+src/public/logos/**/*.css
