@@ -10,4 +10,6 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => tag.includes('-'),
     },
   },
+
+  modules: ['@nuxt/eslint'],
 })

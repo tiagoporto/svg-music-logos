@@ -2,9 +2,11 @@
 import { defineProps } from 'vue'
 import './GithubCorner.styl'
 
-const { repo } = defineProps({
-  repo: String,
-})
+interface GithubCornerProps {
+  repo: string
+}
+
+const { repo } = defineProps<GithubCornerProps>()
 </script>
 
 <template>

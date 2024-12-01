@@ -1,4 +1,5 @@
 import fs from 'node:fs'
+import { Buffer } from 'node:buffer'
 import { src, dest, series, parallel, watch as gulpWatch } from 'gulp'
 import replace from 'gulp-replace'
 import stylus from 'gulp-stylus'
@@ -7,23 +8,10 @@ import changed from 'gulp-changed'
 const getData = () => {
   const data = JSON.parse(fs.readFileSync('./src/server/db/data.json'))
 
-  data.sort((a, b) => {
-    const nameA = a.name.toLowerCase()
-    const nameB = b.name.toLowerCase()
-
-    if (nameA < nameB) {
-      return -1
-    }
-    if (nameA > nameB) {
-      return 1
-    }
-    return 0
-  })
-
   const allGenres = data
     .map((elem) => {
-      if (process.env.NODE_ENV !== 'production') {
-        elem.genres || console.warn(`${elem.name} is missing the genre.`)
+      if (process.env.NODE_ENV !== 'production' && !elem.genres) {
+        console.warn(`${elem.name} is missing the genre.`)
       }
 
       return elem.genres
@@ -38,8 +26,8 @@ const getData = () => {
 
   const allOrigins = data
     .map((elem) => {
-      if (process.env.NODE_ENV !== 'production') {
-        elem.origins || console.warn(`${elem.name} is missing the origin.`)
+      if (process.env.NODE_ENV !== 'production' && !elem.origins) {
+        console.warn(`${elem.name} is missing the origin.`)
       }
 
       return elem.origins
@@ -111,8 +99,7 @@ const generateData = () => {
   return src(paths.logos + '**/*.json')
     .pipe(
       jsonConcat('data.json', function (data) {
-        // do any work on data here
-        return new Buffer(JSON.stringify(data))
+        return Buffer.from(JSON.stringify(data))
       }),
     )
     .pipe(dest(paths.db))

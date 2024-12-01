@@ -1,13 +1,14 @@
 <script setup lang="ts">
 const { params } = useRoute()
-const { data, pending, error, refresh } = await useFetch(
-  `/api/artist/${params.artist}`,
-)
+const { data } = await useFetch(`/api/artist/${params.artist}`)
 </script>
 
 <template>
-  <NuxtLink to="/"> Back </NuxtLink>
+  <div>
+    <NuxtLink to="/"> Back </NuxtLink>
 
-  <div>Artist</div>
-  {{ data }}
+    <div>Artist</div>
+
+    {{ data }}
+  </div>
 </template>

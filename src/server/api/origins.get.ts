@@ -5,9 +5,8 @@ export default defineEventHandler(async () => {
     ...new Set(
       data
         .map((artist) => {
-          if (process.env.NODE_ENV !== 'production') {
-            artist.origins ||
-              console.warn(`${artist.name} is missing the origin.`)
+          if (process.env.NODE_ENV !== 'production' && artist.origins) {
+            console.warn(`${artist.name} is missing the origin.`)
           }
 
           return artist.origins

@@ -1,4 +1,5 @@
-import { data, Logo, Artists } from '../db'
+import type { Logo, Artists } from '../db/schema'
+import { data } from '../db'
 
 interface LogoByArtist extends Omit<Artists, 'logos'> {
   logo: Logo
@@ -6,7 +7,6 @@ interface LogoByArtist extends Omit<Artists, 'logos'> {
 
 export default defineEventHandler(async () => {
   const splittedLogos: LogoByArtist[] = []
-  data.sort((a, b) => a.name.localeCompare(b.name))
 
   data.forEach(({ logos, ...restParams }) => {
     logos.forEach((logo) => {
@@ -25,5 +25,8 @@ export default defineEventHandler(async () => {
     })
   })
 
-  return { logos: splittedLogos, length: splittedLogos.length }
+  return {
+    logos: splittedLogos.sort((a, b) => a.name.localeCompare(b.name)),
+    length: splittedLogos.length,
+  }
 })

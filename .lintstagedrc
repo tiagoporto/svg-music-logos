@@ -1,4 +1,0 @@
-{
-  "*": "prettier --check --ignore-unknown --write",
-  "*.md": "remark --frail"
-}

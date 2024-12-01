@@ -5,6 +5,7 @@ import * as prettier from 'prettier'
 import prettierPluginHtml from 'prettier/plugins/html'
 import CountryFlag from 'vue-country-flag-next'
 import flagIso from './FlagIso.json'
+import type { Logo, Origins } from '../../server/db/schema'
 import './Card.styl'
 
 interface CardProps {
@@ -12,8 +13,8 @@ interface CardProps {
   titleTemplate?: string
   link: string
   genres?: string[]
-  origins: string[]
-  logo: {}
+  origins: Origins[]
+  logo: Logo
 }
 
 const props = defineProps<CardProps>()
@@ -61,7 +62,7 @@ const saveFile = (content: string, filename: string) => {
   // }
 }
 
-const handleClick = async ({ title, logo }) => {
+const handleClick = async ({ logo }: { logo: Logo }) => {
   const logoSplit = logo.svg.split('/')
   const filename = logoSplit[logoSplit.length - 1]
   let svg = null
@@ -109,17 +110,19 @@ const { title, link, genres, origins, logo, titleTemplate } = props
 
 <template>
   <div class="card" :class="{ 'card--inverse': logo.inverse }">
+    <!-- eslint-disable vue/attribute-hyphenation -->
     <svg-to-inline
       :key="logo.title"
+      :className="logo.className"
       class="logo"
       loading="loading"
       :path="logo.svg"
-      :className="logo.className"
       lazy
     >
     </svg-to-inline>
 
     <div class="card__content">
+      <!-- eslint-disable-next-line vue/no-v-html -->
       <h2 v-if="titleTemplate" class="card__title" v-html="titleTemplate"></h2>
 
       <h2 v-else class="card__title">
@@ -138,7 +141,7 @@ const { title, link, genres, origins, logo, titleTemplate } = props
 
       <p>
         Origin:
-        <template v-for="(origin, index) in origins">
+        <template v-for="(origin, index) in origins" :key="index">
           <CountryFlag :country="flagIso[origin]" />
           {{ origin }}
           <template v-if="index < origins.length - 1">/</template>
@@ -148,7 +151,7 @@ const { title, link, genres, origins, logo, titleTemplate } = props
     </div>
 
     <div class="card__footer">
-      <button class="card__button" @click="handleClick({ title, logo })">
+      <button class="card__button" @click="handleClick({ logo })">
         Download SVG
       </button>
     </div>

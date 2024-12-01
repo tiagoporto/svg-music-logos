@@ -1,11 +1,11 @@
 <script setup lang="ts">
-const { data, pending, error, refresh } = useFetch('/api/logos')
+const { data } = useFetch('/api/logos')
 </script>
 
 <template>
   <main class="card-container">
     <Card
-      v-for="logo in data.logos"
+      v-for="logo in data?.logos"
       :key="logo.id"
       :title="logo.name"
       :title-template="logo.nameTemplate"
