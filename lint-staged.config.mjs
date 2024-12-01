@@ -1,6 +1,6 @@
 export default {
   '*': 'prettier --check --ignore-unknown --write',
   '*.md': 'remark --frail',
-  '*.{ts,tsx, vue}': () => 'tsc --project tsconfig.json',
+  '*.{ts,tsx, vue}': () => 'vue-tsc --project tsconfig.json',
   '*.{js,jsx,ts,tsx,vue}': ['eslint --max-warnings 0'],
 }

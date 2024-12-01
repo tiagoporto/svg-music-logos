@@ -10,7 +10,7 @@ import pluginPromise from 'eslint-plugin-promise'
 export default withNuxt([
   {
     name: 'app/files-to-lint',
-    files: ['**/*.{ts,mts,tsx,vue}'],
+    files: ['**/*.{js,ts,mts,tsx,vue}'],
   },
 
   {
@@ -28,6 +28,8 @@ export default withNuxt([
     rules: {
       'vue/multi-word-component-names': 'off',
       'vue/no-multiple-template-root': 'off',
+      'no-console': ['error', { allow: ['warn', 'error'] }],
+      'no-nested-ternary': 'error',
     },
   },
 ])
