@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-import 'svg-to-inline'
+import 'svg-to-inline/svg-to-inline.js'
+
 import FileSaver from 'file-saver'
 import * as prettier from 'prettier'
 import prettierPluginHtml from 'prettier/plugins/html'
@@ -113,8 +114,8 @@ const { title, link, genres, origins, logo, titleTemplate } = props
     <!-- eslint-disable vue/attribute-hyphenation -->
     <svg-to-inline
       :key="logo.title"
-      :className="logo.className"
       class="logo"
+      :className="logo.className"
       loading="loading"
       :path="logo.svg"
       lazy
