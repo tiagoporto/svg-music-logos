@@ -29,7 +29,7 @@
     "express": "^4.21.1",
     "express-graphql": "^0.9.0",
     "graphql": "^15.1.0",
-    "graphql-tools": "^6.0.9"
+    "graphql-tools": "^6.2.6"
   },
   "devDependencies": {
     "mysql2": "^3.11.5",
