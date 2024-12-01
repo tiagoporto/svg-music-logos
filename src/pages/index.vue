@@ -6,7 +6,7 @@ const { data } = useFetch('/api/logos')
   <main class="card-container">
     <Card
       v-for="logo in data?.logos"
-      :key="logo.id"
+      :key="logo.name"
       :title="logo.name"
       :title-template="logo.nameTemplate"
       :link="logo.link"

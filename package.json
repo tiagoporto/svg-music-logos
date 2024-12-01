@@ -39,6 +39,8 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
+    "@nuxt/scripts": "^0.9.5",
+    "change-case": "^5.4.4",
     "file-saver": "^2.0.5",
     "normalize.css": "^8.0.1",
     "nuxt": "^3.11.1",

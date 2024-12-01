@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import 'svg-to-inline/svg-to-inline.js'
-
+import * as changeCase from 'change-case'
 import FileSaver from 'file-saver'
 import * as prettier from 'prettier'
 import prettierPluginHtml from 'prettier/plugins/html'
@@ -8,6 +8,7 @@ import CountryFlag from 'vue-country-flag-next'
 import flagIso from './FlagIso.json'
 import type { Logo, Origins } from '../../server/db/schema'
 import './Card.styl'
+const { dataLayer } = useScriptGoogleTagManager()
 
 interface CardProps {
   title: string
@@ -51,21 +52,20 @@ const injectClassName = (svgString: string, classNamesToAdd: string) => {
 }
 
 const saveFile = (content: string, filename: string) => {
-  const file = new Blob([content], { type: 'text/plain' })
+  const file = new Blob([content], { type: 'image/svg+xml' })
   FileSaver.saveAs(file, filename)
 
-  // if (process.env.NODE_ENV === 'production') {
-  //   this.$ga.event({
-  //     eventCategory: 'download',
-  //     eventAction: 'click',
-  //     eventLabel: filename,
-  //   })
-  // }
+  if (process.env.NODE_ENV === 'production') {
+    dataLayer.push({
+      event: 'click',
+      category: 'download',
+      value: filename,
+    })
+  }
 }
 
-const handleClick = async ({ logo }: { logo: Logo }) => {
-  const logoSplit = logo.svg.split('/')
-  const filename = logoSplit[logoSplit.length - 1]
+const handleClick = async ({ logo, title }: { logo: Logo; title: string }) => {
+  const filename = `${changeCase.kebabCase(title)}_${changeCase.kebabCase(logo.title)}.svg`
   let svg = null
 
   try {
@@ -152,7 +152,7 @@ const { title, link, genres, origins, logo, titleTemplate } = props
     </div>
 
     <div class="card__footer">
-      <button class="card__button" @click="handleClick({ logo })">
+      <button class="card__button" @click="handleClick({ title, logo })">
         Download SVG
       </button>
     </div>

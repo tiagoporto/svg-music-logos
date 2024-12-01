@@ -4,7 +4,7 @@ import './AppHeader.styl'
 import './Jumbotron.styl'
 import { debounce } from 'throttle-debounce'
 
-const jumbotron = ref(null)
+const jumbotron = ref<HTMLElement | null>(null)
 
 const { data: artists } = useFetch('/api/artists')
 const { data: logos } = useFetch('/api/logos')
@@ -12,14 +12,16 @@ const { data: logos } = useFetch('/api/logos')
 const setJumbotronHeight = () => {
   const element = window
 
-  if (element.innerWidth > 768) {
-    if (element.scrollY > 20) {
-      jumbotron.value.style.height = '100%'
+  if (jumbotron.value) {
+    if (element.innerWidth > 768) {
+      if (element.scrollY > 20) {
+        jumbotron.value.style.height = '100%'
+      } else {
+        jumbotron.value.style.height = '450px'
+      }
     } else {
-      jumbotron.value.style.height = '450px'
+      jumbotron.value.style.height = '100%'
     }
-  } else {
-    jumbotron.value.style.height = '100%'
   }
 }
 
@@ -49,7 +51,7 @@ onUnmounted(() => {
           <img src="./logo.svg" alt="SVG Music Logos" width="300" />
         </a>
         <span class="header__subtitle"
-          >{{ artists.length }} artists • {{ logos.length }} logos</span
+          >{{ artists?.length }} artists • {{ logos?.length }} logos</span
         >
       </h1>
 

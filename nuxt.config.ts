@@ -11,5 +11,23 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/eslint'],
+  scripts: {
+    registry: {
+      googleTagManager: true,
+    },
+  },
+  runtimeConfig: {
+    public: {
+      scripts: {
+        googleTagManager: {
+          // .env
+          // NUXT_PUBLIC_SCRIPTS_GOOGLE_TAG_MANAGER_ID=<your-id>
+          id: '',
+        },
+      },
+    },
+  },
+
+  modules: ['@nuxt/eslint', '@nuxt/scripts'],
+  compatibilityDate: '2024-12-01',
 })
