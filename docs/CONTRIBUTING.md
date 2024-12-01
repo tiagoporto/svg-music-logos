@@ -2,6 +2,8 @@
 
 1.  Fork it!
 
+1.  Use [BEM — Block Element Modifier](https://bem.info) for SVG naming classes
+
 1.  Create the SVG file.
 
     1.  SVG Tutorial: [How to work with SVG icons](http://fvsch.com/code/svg-icons/how-to/).
