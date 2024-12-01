@@ -19,6 +19,12 @@ jobs:
       - name: Install Dependencies
         run: npm ci --ignore-scripts
 
+      - name: Prepare nuxt dependencies
+        run: npx nuxi prepare
+
+      - name: Generate data.json
+        run: npm run generate-data
+
       - name: Check Formatting
         run: npm run check-formatting
 
