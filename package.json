@@ -15,7 +15,7 @@
     "url": "git+https://github.com/tiagoporto/svg-music-logos.git"
   },
   "engines": {
-    "node": ">= 20",
+    "node": ">= 22",
     "npm": ">= 10"
   },
   "scripts": {
