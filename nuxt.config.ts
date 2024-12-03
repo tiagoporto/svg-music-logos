@@ -11,9 +11,10 @@ export default defineNuxtConfig({
     },
   },
   googleFonts: {
+    preconnect: true,
     display: 'swap',
     families: {
-      Lato: [100, 300, 400, 700],
+      Lato: [300, 400, 700],
     },
   },
   scripts: {

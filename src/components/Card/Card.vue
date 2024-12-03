@@ -8,7 +8,6 @@ import CountryFlag from 'vue-country-flag-next'
 import flagIso from './FlagIso.json'
 import type { Logo, Origins } from '../../server/db/schema'
 import './Card.styl'
-const { dataLayer } = useScriptGoogleTagManager()
 
 interface CardProps {
   title: string
@@ -19,6 +18,7 @@ interface CardProps {
   logo: Logo
 }
 
+const gtm = useGtm()
 const props = defineProps<CardProps>()
 
 const injectClassName = (svgString: string, classNamesToAdd: string) => {
@@ -56,9 +56,11 @@ const saveFile = (content: string, filename: string) => {
   FileSaver.saveAs(file, filename)
 
   if (process.env.NODE_ENV === 'production') {
-    dataLayer.push({
-      event: 'click',
+    gtm.trackEvent({
+      event: 'Download Logo',
       category: 'download',
+      action: 'click',
+      label: 'Download Button',
       value: filename,
     })
   }
