@@ -1,17 +1,11 @@
 {
   "framework": "nuxtjs",
-  "installCommand": "npm ci --ignore-scripts && npx nuxi prepare",
+  "installCommand": "npm ci --ignore-scripts && nuxt prepare",
   "cleanUrls": true,
   "trailingSlash": false,
   "git": {
     "deploymentEnabled": {
       "main": false
     }
-  },
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
-    }
-  ]
+  }
 }

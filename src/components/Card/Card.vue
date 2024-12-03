@@ -18,7 +18,7 @@ interface CardProps {
   logo: Logo
 }
 
-const gtm = useGtm()
+const { dataLayer } = useScriptGoogleTagManager()
 const props = defineProps<CardProps>()
 
 const injectClassName = (svgString: string, classNamesToAdd: string) => {
@@ -56,7 +56,7 @@ const saveFile = (content: string, filename: string) => {
   FileSaver.saveAs(file, filename)
 
   if (process.env.NODE_ENV === 'production') {
-    gtm.trackEvent({
+    dataLayer.push({
       event: 'Download Logo',
       category: 'download',
       action: 'click',
