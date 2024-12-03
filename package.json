@@ -20,6 +20,7 @@
   },
   "scripts": {
     "prepare": "husky",
+    "start": "nuxt start",
     "postinstall": "nuxt prepare",
     "dev": "nuxt dev",
     "prebuild": "npm run generate-styles && npm run generate-data",
