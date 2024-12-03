@@ -1,4 +1,8 @@
 {
+  "framework": "nuxtjs",
+  "installCommand": "npm ci --ignore-scripts && npm run postinstall",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "git": {
     "deploymentEnabled": {
       "main": false
