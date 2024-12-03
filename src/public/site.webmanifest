@@ -30,6 +30,6 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://tiagoporto.github.io/svg-music-logos/",
+  "start_url": "https://svg-music-logos.vercel.app/",
   "display": "standalone"
 }
