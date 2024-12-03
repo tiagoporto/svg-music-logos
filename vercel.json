@@ -1,4 +1,8 @@
 {
+  "framework": "nuxtjs",
+  "installCommand": "npm ci --ignore-scripts && npx nuxi prepare",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "git": {
     "deploymentEnabled": {
       "main": false
