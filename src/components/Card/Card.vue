@@ -55,7 +55,9 @@ const saveFile = (content: string, filename: string) => {
   const file = new Blob([content], { type: 'image/svg+xml' })
   FileSaver.saveAs(file, filename)
 
+  console.warn('process.env.NODE_ENV: ', process.env.NODE_ENV)
   if (process.env.NODE_ENV === 'production') {
+    console.warn('entrou')
     dataLayer.push({
       event: 'Download Logo',
       category: 'download',
