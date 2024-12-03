@@ -22,18 +22,9 @@ export default defineNuxtConfig({
       googleTagManager: true,
     },
   },
-  runtimeConfig: {
-    public: {
-      scripts: {
-        googleTagManager: {
-          // .env
-          // NUXT_PUBLIC_SCRIPTS_GOOGLE_TAG_MANAGER_ID=<your-id>
-          id: '',
-        },
-      },
-    },
+  gtm: {
+    id: process.env.NUXT_PUBLIC_SCRIPTS_GOOGLE_TAG_MANAGER_ID,
   },
-
   modules: ['@nuxt/eslint', '@nuxt/scripts', '@nuxtjs/google-fonts'],
   compatibilityDate: '2024-12-01',
 })
