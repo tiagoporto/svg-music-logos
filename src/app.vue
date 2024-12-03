@@ -65,13 +65,6 @@ useHead({
       <Meta name="twitter:title" :content="title" />
       <Meta name="twitter:description" :content="description" />
       <!-- <Meta name="twitter:image" content="https://example.com/image.jpg"> -->
-
-      <Link rel="preconnect" href="https://fonts.googleapis.com" />
-      <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <Link
-        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
-        rel="stylesheet"
-      />
     </Head>
 
     <NuxtLoadingIndicator />

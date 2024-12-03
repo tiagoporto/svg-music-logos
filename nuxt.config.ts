@@ -10,7 +10,12 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => tag.includes('-'),
     },
   },
-
+  googleFonts: {
+    display: 'swap',
+    families: {
+      Lato: [100, 300, 400, 700],
+    },
+  },
   scripts: {
     registry: {
       googleTagManager: true,
@@ -28,6 +33,6 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/eslint', '@nuxt/scripts'],
+  modules: ['@nuxt/eslint', '@nuxt/scripts', '@nuxtjs/google-fonts'],
   compatibilityDate: '2024-12-01',
 })
