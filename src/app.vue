@@ -2,7 +2,10 @@
 import 'normalize.css/normalize.css'
 import './svg-music-logos.styl'
 
-const title = 'SVG Music Logos'
+const title =
+  process.env.NODE_ENV === 'production'
+    ? 'SVG Music Logos'
+    : 'SVG Music Logos Testing'
 const description = `A collection of bands' and musicians' logos in SVG.`
 useHead({
   htmlAttrs: {
