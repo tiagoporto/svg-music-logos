@@ -4,7 +4,9 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: 'src/',
-
+  app: {
+    baseURL: '/svg-music-logos/',
+  },
   vue: {
     compilerOptions: {
       isCustomElement: (tag) => tag.includes('-'),
@@ -19,21 +21,18 @@ export default defineNuxtConfig({
   },
   scripts: {
     registry: {
-      googleTagManager: true,
+      googleAnalytics: true,
     },
   },
   runtimeConfig: {
     public: {
       scripts: {
-        googleTagManager: {
-          // .env
-          // NUXT_PUBLIC_SCRIPTS_GOOGLE_TAG_MANAGER_ID=<your-id>
+        googleAnalytics: {
           id: '',
         },
       },
     },
   },
-
   modules: ['@nuxt/eslint', '@nuxt/scripts', '@nuxtjs/google-fonts'],
   compatibilityDate: '2024-12-01',
 })

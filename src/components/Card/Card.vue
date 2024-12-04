@@ -8,7 +8,6 @@ import CountryFlag from 'vue-country-flag-next'
 import flagIso from './FlagIso.json'
 import type { Logo, Origins } from '../../server/db/schema'
 import './Card.styl'
-const { dataLayer } = useScriptGoogleTagManager()
 
 interface CardProps {
   title: string
@@ -20,6 +19,7 @@ interface CardProps {
 }
 
 const props = defineProps<CardProps>()
+const { proxy } = useScriptGoogleAnalytics()
 
 const injectClassName = (svgString: string, classNamesToAdd: string) => {
   const searchClassAttributeRegex = /class="(.*?)"/
@@ -56,9 +56,10 @@ const saveFile = (content: string, filename: string) => {
   FileSaver.saveAs(file, filename)
 
   if (process.env.NODE_ENV === 'production') {
-    dataLayer.push({
-      event: 'click',
-      category: 'download',
+    // @ts-expect-error: broken types form module
+    proxy.gtag('event', 'click', {
+      event_category: 'download',
+      event_label: 'Download SVG',
       value: filename,
     })
   }
