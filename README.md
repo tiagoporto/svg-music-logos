@@ -40,7 +40,6 @@ A collection of logos and symbols from bands, musicians and related in SVG.
 ![Prettier](https://img.shields.io/badge/Prettier-1A2B34.svg?style=for-the-badge\&logo=prettier)
 ![Husky](https://img.shields.io/badge/Husky-%23161618.svg?style=for-the-badge)
 ![Lint Staged](https://img.shields.io/badge/Lint%20Staged-%23FFF.svg?style=for-the-badge)
-![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-%23FE5196.svg?style=for-the-badge\&logo=conventionalcommits\&logoColor=white)
 ![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300c58e?style=for-the-badge\&logo=nuxt.js\&logoColor=white)
 ![vue.js](https://img.shields.io/badge/vue.js-%234FC08D?style=for-the-badge\&logo=vue.js\&logoColor=white)
 ![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
