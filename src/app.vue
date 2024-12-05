@@ -77,26 +77,6 @@ useHead({
   </NuxtLayout>
 </template>
 
-<style>
-/*!
-*
-* Box model reset
-* http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
-*
-*/
-html {
-  box-sizing: border-box;
-  font-family:
-    'Lato',
-    -apple-system,
-    BlinkMacSystemFont,
-    system-ui,
-    sans-serif;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+<style lang="scss">
+@use './global';
 </style>

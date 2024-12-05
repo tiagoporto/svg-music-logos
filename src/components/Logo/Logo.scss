@@ -1,0 +1,14 @@
+svg-to-inline {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  svg {
+    position: relative;
+    margin: auto;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+  }
+}
