@@ -7,7 +7,6 @@ import prettierPluginHtml from 'prettier/plugins/html'
 import CountryFlag from 'vue-country-flag-next'
 import flagIso from './FlagIso.json'
 import type { Logo, Origins } from '../../server/db/schema'
-import './Card.styl'
 
 interface CardProps {
   title: string
@@ -18,7 +17,8 @@ interface CardProps {
   logo: Logo
 }
 
-const props = defineProps<CardProps>()
+const { title, link, genres, origins, logo, titleTemplate } =
+  defineProps<CardProps>()
 const { proxy } = useScriptGoogleAnalytics()
 
 const injectClassName = (svgString: string, classNamesToAdd: string) => {
@@ -106,22 +106,11 @@ const handleClick = async ({ logo, title }: { logo: Logo; title: string }) => {
     window.alert(`error: ${error}`)
   }
 }
-
-const { title, link, genres, origins, logo, titleTemplate } = props
 </script>
 
 <template>
   <div class="card" :class="{ 'card--inverse': logo.inverse }">
-    <!-- eslint-disable vue/attribute-hyphenation -->
-    <svg-to-inline
-      :key="logo.title"
-      class="logo"
-      :className="logo.className"
-      loading="loading"
-      :path="logo.svg"
-      lazy
-    >
-    </svg-to-inline>
+    <Logo :logo="logo" />
 
     <div class="card__content">
       <!-- eslint-disable-next-line vue/no-v-html -->
@@ -159,3 +148,7 @@ const { title, link, genres, origins, logo, titleTemplate } = props
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@use './Card';
+</style>

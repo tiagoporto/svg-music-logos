@@ -1,7 +1,7 @@
 {
   "name": "svg-music-logos",
   "version": "0.0.0-development",
-  "description": "A collection of bands' and musicians' logos in SVG.",
+  "description": "Music-related logos and symbols collection in SVG.",
   "homepage": "https://tiagoporto.github.io/svg-music-logos/",
   "type": "module",
   "private": true,

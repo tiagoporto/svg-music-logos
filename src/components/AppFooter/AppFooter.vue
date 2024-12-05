@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import './AppFooter.styl'
-
 const year = new Date().getFullYear()
 </script>
 
@@ -10,3 +8,7 @@ const year = new Date().getFullYear()
     <p>Tiago Porto</p>
   </footer>
 </template>
+
+<style lang="scss" scoped>
+@use './AppFooter';
+</style>

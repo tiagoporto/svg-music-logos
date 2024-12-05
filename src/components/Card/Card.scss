@@ -1,0 +1,66 @@
+@use 'sass:color';
+
+.card {
+  box-shadow:
+    0 2px 2px 0 rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%),
+    0 3px 1px -2px rgb(0 0 0 / 20%);
+  padding: 20px;
+  background: rgb(255 255 255 / 80%);
+  z-index: 1;
+  flex-basis: 100%;
+  transition: flex-basis 0.5s;
+
+  @media only screen and (width >= 550px) {
+    flex-basis: calc((100% - 40px) / 2);
+  }
+
+  @media only screen and (width >= 800px) {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+
+  &--inverse {
+    background: rgb(0 0 0 / 82%);
+    color: #fff;
+  }
+
+  &__content {
+    p {
+      margin: 0.4rem 0;
+      line-height: 1rem;
+    }
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    color: grey;
+    font-weight: normal;
+    margin: 0.1rem 0;
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  &__footer {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  &__button {
+    background: none;
+    box-shadow: 100 100 100 #000;
+    border: 2px solid color.complement(#1fc8db);
+    color: color.complement(#1fc8db);
+    padding: 0.5rem 0.6rem;
+    border-radius: 3px;
+    transition: all 1s ease;
+    cursor: pointer;
+
+    &:hover {
+      background: color.complement(#1fc8db);
+      color: #fff;
+    }
+  }
+}
