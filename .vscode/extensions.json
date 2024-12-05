@@ -2,10 +2,11 @@
 // for the documentation about the extensions.json format
 {
   "recommendations": [
+    "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
-    "unifiedjs.vscode-remark",
-    "dbaeumer.vscode-eslint"
+    "stylelint.vscode-stylelint",
+    "unifiedjs.vscode-remark"
   ],
   "unwantedRecommendations": []
 }

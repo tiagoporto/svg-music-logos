@@ -34,5 +34,8 @@ jobs:
       - name: Typechecking
         run: npm run typecheck
 
+      - name: Lint Styles
+        run: npm run lint:styles
+
       - name: Lint
         run: npm run lint

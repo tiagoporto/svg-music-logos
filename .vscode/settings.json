@@ -3,5 +3,9 @@
     "editor.defaultFormatter": "unifiedjs.vscode-remark",
     "editor.formatOnSave": true
   },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "always"
+  },
+  "stylelint.validate": ["scss", "vue"],
   "typescript.tsdk": "node_modules/typescript/lib"
 }

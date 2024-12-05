@@ -12,6 +12,15 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => tag.includes('-'),
     },
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern',
+        },
+      },
+    },
+  },
   googleFonts: {
     preconnect: true,
     display: 'swap',
