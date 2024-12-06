@@ -15,20 +15,24 @@
 
 <!-- replace end -->
 
-[![YouTube Music](https://img.shields.io/badge/youtube%20music-playlist-555?style=for-the-badge\&logo=youtube-music\&labelColor=FF0000)](https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6\&feature=share)
-
-A collection of logos and symbols from bands, musicians and related in SVG.
+🎧 Music-related logos and symbols collection in SVG.
 
 </div>
 
-## Project 🎧
+Listen on:
+
+[![YouTube Music](https://img.shields.io/badge/youtube%20music-playlist-555?style=flat-square\&logo=youtube-music\&labelColor=FF0000)](https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6\&feature=share)
+
+<!-- [![Spotify](https://img.shields.io/badge/spotify-playlist-555?style=flat-square\&logo=spotify\&labelColor=1DB954\&logoColor=fff)](##) -->
+
+## Project 💻
 
 <https://tiagoporto.github.io/svg-music-logos>
 
 ## Status ✅
 
-![Website](https://img.shields.io/website/https/tiagoporto.github.io/svg-music-logos.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)
-![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://tiagoporto.github.io/svg-music-logos)
+[![Website](https://img.shields.io/website/https/tiagoporto.github.io/svg-music-logos.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)](https://tiagoporto.github.io/svg-music-logos)
+[![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://tiagoporto.github.io/svg-music-logos)](https://validator.nu/?doc=https%3A%2F%2Ftiagoporto.github.io%2Fsvg-music-logos)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/ci.yml?label=checks\&style=flat-square)](https://github.com/tiagoporto/svg-music-logos/actions/workflows/ci.yml)
 [![Page links](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?branch=main\&style=flat-square\&label=page%20links)](https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yml)
 
@@ -52,6 +56,29 @@ A collection of logos and symbols from bands, musicians and related in SVG.
 <!-- ![PostCSS](https://img.shields.io/badge/PostCSS-%23DD3A0A.svg?style=for-the-badge&logo=postcss&logoColor=white)
 ![Browserslist](https://img.shields.io/badge/Browserslist-%23FED538.svg?style=for-the-badge&color=%231D1D1D)
 ![jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) -->
+
+## Folder structure 📂
+
+```text
+.
+├── docs //documentation
+├── src
+│   ├── components // Shared components
+│   ├── layout // base layout component
+│   ├── pages // Nuxt routes
+│   ├── public // public assets
+│   │   └── logos
+│   │       └── [artist folder]
+│   │           ├── Styles files
+│   │           ├── JSON files
+│   │           └── SVG files
+│   └── server
+│       ├── api // Nuxt endpoints
+│       └── db // Nuxt database and schema
+├── // config files
+├── package.json
+└── README.md
+```
 
 ## Architecture 🏗
 
@@ -185,7 +212,13 @@ nvm install
 npm install
 ```
 
-> TODO
+### Dev server
+
+```bash
+npm run dev
+```
+
+Happy coding!
 
 ## 🤝 Contributing
 
