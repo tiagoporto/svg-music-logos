@@ -13,10 +13,7 @@ const { data: logos } = useFetch('/api/logos')
 
     <div class="header__main">
       <h1 class="header__title">
-        <a
-          href="http://tiagoporto.github.io/svg-music-logos"
-          class="header__link-title"
-        >
+        <NuxtLink to="/" class="header__link-title">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="325"
@@ -92,7 +89,7 @@ const { data: logos } = useFetch('/api/logos')
               />
             </g>
           </svg>
-        </a>
+        </NuxtLink>
 
         <span class="header__subtitle"
           >{{ artists?.length }} artists • {{ logos?.length }} logos</span
@@ -109,6 +106,19 @@ const { data: logos } = useFetch('/api/logos')
           they refer.
         </p>
       </div>
+
+      <!-- <ClientOnly fallback-tag="span" fallback="Loading comments...">
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/playlist/20XHrsLWAJkgBBagZiURM5?utm_source=generator"
+          width="100%"
+          height="152"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </ClientOnly> -->
 
       <!-- Request a new logo -->
 
