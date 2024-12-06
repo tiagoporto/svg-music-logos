@@ -1,0 +1,31 @@
+name: 'Lighthouse Badges'
+
+on: workflow_dispatch
+
+jobs:
+  lighthouse-badger-easy:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 8
+    env:
+      URLS: 'https://tiagoporto.github.io/svg-music-logos'
+      TOKEN_NAME: # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
+      REPO_BRANCH: '${{ github.repository }} badge'
+    steps:
+      - name: Preparatory Tasks
+        run: |
+          REPOSITORY=`expr "${{ env.REPO_BRANCH }}" : "\([^ ]*\)"`
+          BRANCH=`expr "${{ env.REPO_BRANCH }}" : ".* \([^ ]*\)"`
+          echo "REPOSITORY=$REPOSITORY" >> $GITHUB_ENV
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.REPO_BRANCH }}
+          token: ${{ secrets[env.TOKEN_NAME] }}
+          ref: ${{ env.REPO_BRANCH }}
+      - uses: actions/checkout@v4
+        with:
+          repository: 'myactionway/lighthouse-badges'
+          path: temp_lighthouse_badges_nested
+      - uses: myactionway/lighthouse-badger-action@v2.2
+        with:
+          urls: ${{ env.URLS }}
