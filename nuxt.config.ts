@@ -4,9 +4,6 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: 'src/',
-  app: {
-    baseURL: '/svg-music-logos/',
-  },
   vue: {
     compilerOptions: {
       isCustomElement: (tag) => tag.includes('-'),
