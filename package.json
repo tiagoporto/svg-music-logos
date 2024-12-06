@@ -20,8 +20,8 @@
   },
   "scripts": {
     "prepare": "husky",
-    "postinstall": "nuxt prepare",
-    "dev": "nuxt dev",
+    "postinstall": "nuxt prepare && npm run generate-styles && npm run generate-data",
+    "dev": "concurrently -k \"npm run gulp\" \"nuxt dev\"",
     "prebuild": "npm run generate-styles && npm run generate-data",
     "build": "nuxt build",
     "generate": "nuxt generate",
@@ -61,6 +61,7 @@
     "@types/throttle-debounce": "^5.0.2",
     "@vue/eslint-config-prettier": "^10.1.0",
     "@vue/eslint-config-typescript": "^14.1.3",
+    "concurrently": "^9.1.0",
     "eslint": "^9.16.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-n": "^16.6.2",
