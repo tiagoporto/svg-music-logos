@@ -1,5 +1,13 @@
 {
   "plugins": [
-    "@tiagoporto/remark-config"
+    "@tiagoporto/remark-config",
+    [
+      "remark-lint-no-dead-urls",
+      {
+        "skipUrlPatterns": [
+          "https://open.spotify.com/playlist/20XHrsLWAJkgBBagZiURM5"
+        ]
+      }
+    ]
   ]
 }
