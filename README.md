@@ -189,7 +189,7 @@ npm install
 
 ## 🤝 Contributing
 
-Haven't found the logo you were looking for?
+Haven’t found the logo you were looking for?
 
 [Check how to contribute](docs/CONTRIBUTING.md).
 
