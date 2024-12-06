@@ -4,11 +4,18 @@ const { data } = await useFetch(`/api/artist/${params.artist}`)
 </script>
 
 <template>
-  <div>
-    <NuxtLink to="/"> Back </NuxtLink>
+  <template v-if="data?.artist">
+    <Card
+      v-for="logo in data?.artist?.logos"
+      :key="logo?.title"
+      :title="data.artist.name"
+      :title-template="data?.artist?.nameTemplate"
+      :link="data?.artist?.link"
+      :genres="data?.artist?.genres"
+      :origins="data?.artist?.origins"
+      :logo="logo"
+    />
+  </template>
 
-    <div>Artist</div>
-
-    {{ data }}
-  </div>
+  <template v-else> No results </template>
 </template>

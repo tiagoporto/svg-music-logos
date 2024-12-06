@@ -1,3 +1,5 @@
+import type { Logo } from '../../db/schema'
+
 import { data } from '../../db'
 
 export default defineEventHandler(async (event) => {
@@ -17,7 +19,24 @@ export default defineEventHandler(async (event) => {
     )
   })
 
-  return new Promise((resolve) => {
-    resolve(artist)
+  if (!artist) {
+    return null
+  }
+
+  const splittedLogos: Logo[] = []
+
+  artist?.logos.forEach((logo) => {
+    const path = `/logos/${logo.svg.split('.')[0].split('_')[0]}`
+    splittedLogos.push({
+      ...logo,
+      ...Object.assign(
+        { svg: `${path}/${logo.svg}` },
+        logo?.css && { css: `${path}/${logo.css}` },
+      ),
+    })
   })
+
+  return {
+    artist: { ...artist, logos: splittedLogos },
+  }
 })
