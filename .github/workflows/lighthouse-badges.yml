@@ -1,0 +1,36 @@
+name: 'Lighthouse Badges'
+
+on: workflow_call
+
+jobs:
+  lighthouse-badger-easy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          ref: ${{ github.head_ref }}
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install Dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Generate badges
+        run: npm run lighthouse-badge
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes"
+          else
+            git add docs/pagespeed.svg
+            git commit -m "Update pagespeed badge"
+            git push
+          fi
