@@ -2,7 +2,7 @@
   SVG Music Logos
   50 Cent v1.0.0
   https://github.com/tiagoporto/svg-music-logos
-  Copyright (c) 2016-2018 Tiago Porto (http://tiagoporto.com)
+  Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 200" class="fifth-cent">
   <path class="fifth-cent__background" d="M160.126 10.176C155.876 5.052 149.99 2 143.448 2H105.294c-6.54 0-12.427 3.052-16.678 8.176-.327.327-.546.654-.873 1.09V3.743H5.877v123.29c0 6.426 2.266 12.412 6.165 17.036-.89.553-1.722 1.193-2.46 1.93-2.506 2.617-4.14 6.105-4.14 9.92v28.235c0 3.815 1.634 7.303 4.14 9.81 2.51 2.508 5.997 4.034 9.812 4.034h23.983c1.417 0 2.943-.22 4.25-.656V198h110.32v-33.14h8.284v-22.892h-3.81c2.578-4.286 4.138-9.44 4.138-14.935V28.27c0-6.975-2.507-13.408-6.432-18.094z"/>
