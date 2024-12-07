@@ -1,11 +1,11 @@
-name: 'Lighthouse Badges'
+name: 'Update Readme'
 
 on:
   - workflow_call
   - workflow_dispatch
 
 jobs:
-  lighthouse-badger-easy:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,15 +23,15 @@ jobs:
         run: npm ci --ignore-scripts
 
       - name: Generate badges
-        run: npm run lighthouse-badge
+        run: npm run update-readme
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           if ! git diff --cached --quiet; then
-            git add docs/pagespeed.svg
-            git commit -m "Update pagespeed badge"
+            git add README.md
+            git commit -m "Update logo badges count"
             git push
           else
             echo "No changes"
