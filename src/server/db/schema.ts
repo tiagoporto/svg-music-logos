@@ -23,8 +23,6 @@ export type Origins =
 export interface Logo {
   title: string
   svg: string
-  css?: string
-  className?: string
   inverse?: boolean
 }
 

@@ -108,8 +108,6 @@ Endpoints are defined in `server/api` directory.
         {
           "title": "string",
           "svg": "string",
-          "css": "string", // optional
-          "className": "string", // optional
           "inverse": "boolean", // optional
         }
       ],
@@ -136,8 +134,6 @@ Endpoints are defined in `server/api` directory.
       {
         "title": "string",
         "svg": "string",
-        "css": "string", // optional
-        "className": "string", // optional
         "inverse": "boolean", // optional
       }
     ],
@@ -162,8 +158,6 @@ Endpoints are defined in `server/api` directory.
       "logo": {
           "title": "string",
           "svg": "string",
-          "css": "string", // optional
-          "className": "string", // optional
           "inverse": "boolean", // optional
       }
     }

@@ -1,9 +1,5 @@
 <script lang="ts" setup>
 import 'svg-to-inline/svg-to-inline.js'
-import * as changeCase from 'change-case'
-import FileSaver from 'file-saver'
-import * as prettier from 'prettier'
-import prettierPluginHtml from 'prettier/plugins/html'
 import CountryFlag from 'vue-country-flag-next'
 import flagIso from './FlagIso.json'
 import type { Logo, Origins } from '../../server/db/schema'
@@ -21,39 +17,14 @@ const { title, link, genres, origins, logo, titleTemplate } =
   defineProps<CardProps>()
 const { proxy } = useScriptGoogleAnalytics()
 
-const injectClassName = (svgString: string, classNamesToAdd: string) => {
-  const searchClassAttributeRegex = /class="(.*?)"/
-  const extractSVGTagRegex = /(<svg[^>]+)/
-  const extractSVGUntilClassAttributeRegex = /(<svg[^>]+) class="(.*?)"/
+const handleClick = async (path: string) => {
+  const filePath = path.split('/')
+  const filename = filePath[filePath.length - 1]
 
-  // Extract SVG classes
-  const svgClassNames = svgString.match(searchClassAttributeRegex)?.[1]
-  const newClassNames = svgClassNames
-    ? `${svgClassNames} ${classNamesToAdd}`
-    : classNamesToAdd
-  const uniqueClassNames = newClassNames
-    .split(' ')
-    .filter((className) => className)
-    .filter((className, index, self) => self.indexOf(className) === index)
-    .join(' ')
-
-  // If SVG doesn't already have a class attribute add it
-  if (!svgString.match(searchClassAttributeRegex)) {
-    return svgString.replace(
-      extractSVGTagRegex,
-      `$1 class="${uniqueClassNames}"`,
-    )
-  }
-
-  return svgString.replace(
-    extractSVGUntilClassAttributeRegex,
-    `$1 class="${uniqueClassNames}"`,
-  )
-}
-
-const saveFile = (content: string, filename: string) => {
-  const file = new Blob([content], { type: 'image/svg+xml' })
-  FileSaver.saveAs(file, filename)
+  const link = document.createElement('a')
+  link.href = path
+  link.download = filename
+  link.click()
 
   if (process.env.NODE_ENV === 'production') {
     // @ts-expect-error: broken types form module
@@ -62,48 +33,6 @@ const saveFile = (content: string, filename: string) => {
       event_label: 'Download SVG',
       value: filename,
     })
-  }
-}
-
-const handleClick = async ({ logo, title }: { logo: Logo; title: string }) => {
-  const filename = `${changeCase.kebabCase(title)}_${changeCase.kebabCase(logo.title)}.svg`
-  let svg = null
-
-  try {
-    const response = await fetch(logo.svg)
-    const svgContent = await response.text()
-
-    if (response.status >= 200 && response.status < 300) {
-      svg = svgContent
-
-      if (logo.className) {
-        svg = injectClassName(svg, logo.className)
-      }
-
-      if (logo.css) {
-        const response = await fetch(logo.css)
-        const cssContent = await response.text()
-        if (response.status >= 200 && response.status < 300) {
-          const styles = `<style>\r\n${cssContent}\r</style>`
-          const extractSVGTagRegex = /(<svg[^>]+>)/
-          svg = svg.replace(extractSVGTagRegex, `$1\r\n${styles}`)
-        } else {
-          throw new Error(`Fetch failed with status code: ${response.status}`)
-        }
-      }
-
-      svg = await prettier.format(svg, {
-        printWidth: 1000,
-        parser: 'html',
-        plugins: [prettierPluginHtml],
-      })
-
-      saveFile(svg, filename)
-    } else {
-      throw new Error(`Fetch failed with status code: ${response.status}`)
-    }
-  } catch (error) {
-    window.alert(`error: ${error}`)
   }
 }
 </script>
@@ -142,7 +71,7 @@ const handleClick = async ({ logo, title }: { logo: Logo; title: string }) => {
     </div>
 
     <div class="card__footer">
-      <button class="card__button" @click="handleClick({ title, logo })">
+      <button class="card__button" @click="handleClick(logo.svg)">
         Download SVG
       </button>
     </div>

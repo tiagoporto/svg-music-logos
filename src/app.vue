@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import 'normalize.css/normalize.css'
-import './svg-music-logos.styl'
 
 const title =
   process.env.NODE_ENV === 'production'
@@ -70,10 +69,7 @@ useHead({
       <!-- <Meta name="twitter:image" content="https://example.com/image.jpg"> -->
     </Head>
 
-    <NuxtLoadingIndicator />
     <NuxtPage />
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.10/webcomponents-bundle.js"></script> -->
   </NuxtLayout>
 </template>
 

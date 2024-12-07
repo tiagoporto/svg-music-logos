@@ -10,13 +10,7 @@ const { logo } = defineProps<LogoProps>()
 
 <template>
   <!-- eslint-disable vue/attribute-hyphenation -->
-  <svg-to-inline
-    :key="logo.title"
-    :className="logo.className"
-    loading="loading"
-    :path="logo.svg"
-    lazy
-  >
+  <svg-to-inline :key="logo.title" loading="loading" :path="logo.svg" lazy>
   </svg-to-inline>
 </template>
 
