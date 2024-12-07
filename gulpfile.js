@@ -65,7 +65,7 @@ const getData = () => {
 
 const paths = {
   db: 'src/server/db',
-  logos: 'src/public/',
+  logos: 'src/logos/',
 }
 
 const styles = () => {
