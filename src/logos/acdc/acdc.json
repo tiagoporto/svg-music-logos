@@ -7,11 +7,11 @@
   "logos": [
     {
       "title": "Let There Be Rock",
-      "svg": "acdc_classical.svg",
-      "css": "acdc_classical.css"
+      "svg": "acdc_let-there-be-rock.svg",
+      "css": "acdc_let-there-be-rock.css"
     },
     {
-      "title": "Let There Be Rock",
+      "title": "Let There Be Rock - Plain",
       "svg": "acdc.svg"
     },
     {
@@ -22,7 +22,7 @@
       "title": "Back in Black",
       "svg": "acdc.svg",
       "className": "acdc--back-in-black",
-      "css": "acdc.css"
+      "css": "acdc_back-in-black.css"
     }
   ]
 }
