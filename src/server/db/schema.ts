@@ -29,7 +29,7 @@ export interface Logo {
 }
 
 export interface Artists {
-  // id: number
+  id: string
   name: string
   nameTemplate?: string
   origins: Origins[]
