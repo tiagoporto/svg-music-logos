@@ -1,6 +1,6 @@
-import type { Logo } from '../../db/schema'
-
 import { data } from '../../db'
+import type { Logo } from '../../db/schema'
+import * as changeCase from 'change-case'
 
 export default defineEventHandler(async (event) => {
   let artistName = getRouterParam(event, 'artist') || ''
@@ -26,13 +26,13 @@ export default defineEventHandler(async (event) => {
   const splittedLogos: Logo[] = []
 
   artist?.logos.forEach((logo) => {
-    const path = `/logos/${logo.svg.split('.')[0].split('_')[0]}`
+    const filename = `${artist.id}_${changeCase.kebabCase(logo.title)}.svg`
+    const path = `/logos/${artist.id}/${filename}`
+
     splittedLogos.push({
-      ...logo,
-      ...Object.assign(
-        { svg: `${path}/${logo.svg}` },
-        logo?.css && { css: `${path}/${logo.css}` },
-      ),
+      title: logo.title,
+      inverse: logo.inverse,
+      svg: path,
     })
   })
 
