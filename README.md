@@ -64,16 +64,16 @@ Listen on:
 ```text
 .
 ├── docs //documentation
+├── public // public assets
 ├── src
 │   ├── components // Shared components
 │   ├── layout // base layout component
+│   ├── logos
+│   │   └── [artist folder]
+│   │       ├── Styles files
+│   │       ├── JSON files
+│   │       └── SVG files
 │   ├── pages // Nuxt routes
-│   ├── public // public assets
-│   │   └── logos
-│   │       └── [artist folder]
-│   │           ├── Styles files
-│   │           ├── JSON files
-│   │           └── SVG files
 │   └── server
 │       ├── api // Nuxt endpoints
 │       └── db // Nuxt database and schema

@@ -26,4 +26,4 @@ logs
 
 src/server/db/data.json
 src/logos/**/*.css
-src/public/logos/
+public/logos/
