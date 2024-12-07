@@ -29,6 +29,12 @@ Listen on:
 
 <https://tiagoporto.github.io/svg-music-logos>
 
+## Motivation 🔥
+
+I play electric guitar, and music has been part of my life since I was a teenager. Then, I graduated in Graphic Design, and after that, I moved into front-end development.
+
+To further develop my skills and stay up-to-date with the latest technologies, I’ve made it a point to explore new tools and innovations outside of my daily routine. By combining my passions, this was the outcome.
+
 ## Status ✅
 
 ![Pagespeed insights](./docs/pagespeed.svg)
@@ -46,6 +52,7 @@ Listen on:
 ![sass](https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge\&logo=sass\&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge\&logo=visual-studio-code\&logoColor=white)
 ![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge\&logo=node.js\&logoColor=white)
+![gulp](https://img.shields.io/badge/gulp-%23CF4647?style=for-the-badge\&logo=gulp\&logoColor=white)
 ![EditorConfig](https://img.shields.io/badge/EditorConfig-%23E0EFEF.svg?style=for-the-badge\&logo=editorconfig\&logoColor=black)
 ![Prettier](https://img.shields.io/badge/Prettier-1A2B34.svg?style=for-the-badge\&logo=prettier)
 ![Husky](https://img.shields.io/badge/Husky-%23161618.svg?style=for-the-badge)
@@ -54,6 +61,7 @@ Listen on:
 ![Stylelint](https://img.shields.io/badge/Stylelint-%231B3A4B.svg?style=for-the-badge\&logo=stylelint\&logoColor=white)
 ![Remark](https://img.shields.io/badge/Remark-%230A0E0F.svg?style=for-the-badge\&logo=remark\&logoColor=d80303)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge\&logo=githubactions\&logoColor=white)
+![vercel](https://img.shields.io/badge/vercel-%23000000?style=for-the-badge\&logo=vercel\&logoColor=white)
 
 <!-- ![PostCSS](https://img.shields.io/badge/PostCSS-%23DD3A0A.svg?style=for-the-badge&logo=postcss&logoColor=white)
 ![Browserslist](https://img.shields.io/badge/Browserslist-%23FED538.svg?style=for-the-badge&color=%231D1D1D)
