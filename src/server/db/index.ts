@@ -1,4 +1,4 @@
 import jsonData from './data.json'
-import type { Artists } from './schema'
+import type { Artist } from './schema'
 
-export const data = jsonData as Artists[]
+export const data = jsonData as Artist[]

@@ -13,13 +13,10 @@ import Vinyl from 'vinyl'
 import path from 'path'
 import zip from 'gulp-zip'
 import * as changeCase from 'change-case'
-import {
-  filterGenres,
-  filterLogos,
-  filterOrigins,
-  injectCSSinSVG,
-  injectClassName,
-} from './utils/index.js'
+import { injectCSSinSVG, injectClassName } from './utils/index.js'
+import { filterGenres } from './src/server/utils/filterGenres.js'
+import { filterLogos } from './src/server/utils/filterLogos.js'
+import { filterOrigins } from './src/server/utils/filterOrigins.js'
 
 const sass = gulpSass(dartSass)
 const paths = {

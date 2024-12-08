@@ -26,7 +26,7 @@ export interface Logo {
   inverse?: boolean
 }
 
-export interface Artists {
+export interface Artist {
   id: string
   name: string
   nameTemplate?: string
