@@ -1,7 +1,3 @@
-<p align="right">
-👍 ? <a href="https://github.com/tiagoporto/svg-music-logos/stargazers">⭐</a> : <a href="https://github.com/tiagoporto/svg-music-logos/issues">😞</a>
-</p>
-
 <div align="center">
 
 [![SVG Music Logos](./docs/logo.svg)][project]
@@ -17,13 +13,14 @@
 
 🎧 Music-related logos and symbols collection in SVG.
 
-</div>
+++++++++++++++++++
 
-Listen on:
+Listen on
 
 [![YouTube Music](https://img.shields.io/badge/youtube%20music-playlist-555?style=flat-square\&logo=youtube-music\&labelColor=FF0000)][youtube-music-playlist]
-
 [![Spotify](https://img.shields.io/badge/spotify-playlist-555?style=flat-square\&logo=spotify\&labelColor=1DB954\&logoColor=fff)][spotify-playlist]
+
+</div>
 
 ## Project 💻
 
@@ -48,8 +45,10 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 ![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300c58e?style=for-the-badge\&logo=nuxt.js\&logoColor=white)
 ![vue.js](https://img.shields.io/badge/vue.js-%234FC08D?style=for-the-badge\&logo=vue.js\&logoColor=white)
+![javascript](https://img.shields.io/badge/javascript-%23333?style=for-the-badge\&logo=javascript)
 ![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
 ![sass](https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge\&logo=sass\&logoColor=white)
+![SVG](https://img.shields.io/badge/svg-%23462b01?style=for-the-badge\&logo=svg)
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge\&logo=visual-studio-code\&logoColor=white)
 ![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge\&logo=node.js\&logoColor=white)
 ![gulp](https://img.shields.io/badge/gulp-%23CF4647?style=for-the-badge\&logo=gulp\&logoColor=white)
@@ -210,19 +209,21 @@ Endpoints are defined in `server/api` directory.
 nvm install
 ```
 
-### Install dependencies
+### Install dependencies and run prepare scripts
 
 ```bash
 npm install
 ```
 
-### Dev server
+### Running dev server
 
 ```bash
 npm run dev
 ```
 
-Happy coding!
+### Adding new logos
+
+\[TODO]
 
 ## 🤝 Contributing
 
