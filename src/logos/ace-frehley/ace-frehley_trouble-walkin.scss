@@ -1,0 +1,35 @@
+.ace-frehley {
+  &__first-stop {
+    stop-color: #ff6;
+  }
+
+  &__second-stop {
+    stop-color: #fefb64;
+  }
+
+  &__third-stop {
+    stop-color: #fcef5f;
+  }
+
+  &__fourth-stop {
+    stop-color: #f9db56;
+  }
+
+  &__fifth-stop {
+    stop-color: #f4c049;
+  }
+
+  &__sixth-stop {
+    stop-color: #ed9c39;
+  }
+
+  &__seventh-stop {
+    stop-color: #e87e2b;
+  }
+
+  &--trouble-walkin & {
+    &__lettering {
+      fill: url('#ace-frehley__gradient');
+    }
+  }
+}

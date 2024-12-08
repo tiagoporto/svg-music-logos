@@ -1,0 +1,21 @@
+.detonator {
+  &--metal-cinco-estrelas & {
+    &__stars,
+    &__details {
+      fill: #009640;
+    }
+
+    &__background,
+    &__letter-background {
+      fill: #004388;
+    }
+
+    &__foreground {
+      fill: #ffde00;
+    }
+
+    &__letter-foreground {
+      fill: #fff;
+    }
+  }
+}

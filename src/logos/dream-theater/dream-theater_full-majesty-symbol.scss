@@ -1,0 +1,17 @@
+.dream-theater {
+  &--full-majesty-symbol & {
+    &__background {
+      fill: #fff;
+      stroke: #000;
+      stroke-width: 3.5;
+    }
+
+    &__foreground {
+      fill: #e32130;
+    }
+
+    &__symbol {
+      fill: #fff;
+    }
+  }
+}

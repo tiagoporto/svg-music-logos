@@ -1,0 +1,24 @@
+.sepultura {
+  &--coat-of-arms & {
+    &__title,
+    &__year,
+    &__gores {
+      fill: #f37220;
+    }
+
+    &__background-shield {
+      stroke: #f37220;
+      stroke-width: 1.7204;
+      stroke-miterlimit: 10;
+    }
+
+    &__shield {
+      fill: #c42026;
+    }
+
+    &__symbol__front,
+    &__hands__light {
+      fill: #fff;
+    }
+  }
+}

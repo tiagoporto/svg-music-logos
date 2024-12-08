@@ -1,0 +1,15 @@
+.mixhell {
+  &--highly-explicit & {
+    &__lettering {
+      fill: #fff;
+    }
+
+    &__lines {
+      fill: #f00;
+    }
+
+    &__square {
+      display: none;
+    }
+  }
+}

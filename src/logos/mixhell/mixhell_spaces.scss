@@ -1,0 +1,15 @@
+.mixhell {
+  &--spaces & {
+    &__lettering {
+      fill: #fff;
+    }
+
+    &__lines {
+      display: none;
+    }
+
+    &__outer-square {
+      fill: #f01c2e;
+    }
+  }
+}

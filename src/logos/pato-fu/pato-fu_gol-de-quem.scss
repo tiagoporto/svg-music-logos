@@ -1,0 +1,19 @@
+.pato-fu {
+  &__first-stop {
+    stop-color: #fff;
+  }
+
+  &__second-stop {
+    stop-color: #9191c4;
+  }
+
+  &__third-stop {
+    stop-color: #1b4a98;
+  }
+
+  &--gol-de-quem & {
+    &__circle {
+      fill: url('#pato-fu__gradient');
+    }
+  }
+}
