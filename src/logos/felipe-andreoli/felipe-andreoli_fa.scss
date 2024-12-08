@@ -1,0 +1,17 @@
+.felipe-andreoli {
+  &__border {
+    fill: #aaa;
+  }
+
+  &__foreground {
+    fill: url('#felipe-andreoli__foreground-gradient');
+  }
+
+  &__first-color {
+    stop-color: #ff0;
+  }
+
+  &__second-color {
+    stop-color: #cf0000;
+  }
+}

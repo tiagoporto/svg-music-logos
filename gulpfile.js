@@ -3,7 +3,8 @@ import * as prettier from 'prettier'
 import { Buffer } from 'node:buffer'
 import { src, dest, series, parallel, watch as gulpWatch } from 'gulp'
 import replace from 'gulp-replace'
-import stylus from 'gulp-stylus'
+import * as dartSass from 'sass'
+import gulpSass from 'gulp-sass'
 import jsonConcat from 'gulp-concat-json-to-array'
 import changed from 'gulp-changed'
 import through from 'through2'
@@ -20,6 +21,7 @@ import {
   injectClassName,
 } from './utils/index.js'
 
+const sass = gulpSass(dartSass)
 const paths = {
   public: 'public/',
   db: 'src/server/db/',
@@ -76,9 +78,9 @@ const generateData = () => {
 }
 
 const styles = () => {
-  return src(paths.logos + '**/*.styl')
+  return src(paths.logos + '**/*.scss')
     .pipe(changed(paths.logos, { extension: '.css' }))
-    .pipe(stylus())
+    .pipe(sass().on('error', sass.logError))
     .pipe(dest(paths.logos))
 }
 

@@ -1,0 +1,11 @@
+.enforcer {
+  &--evil-attacker & {
+    &__outer {
+      fill: #fff;
+    }
+
+    &__letters {
+      fill: red;
+    }
+  }
+}

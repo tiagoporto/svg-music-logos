@@ -1,0 +1,15 @@
+.bartucada {
+  &__shadow {
+    fill: #fff;
+  }
+
+  &__letter-decoration,
+  &__left-face {
+    fill: #e30613;
+  }
+
+  &__sunbeams,
+  &__right-face {
+    fill: #ffed00;
+  }
+}

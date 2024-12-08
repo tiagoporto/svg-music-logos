@@ -1,0 +1,15 @@
+.derek-riggs {
+  &--signature & {
+    &__background,
+    &__foreground {
+      display: none;
+    }
+  }
+
+  &--badge & {
+    &__signature,
+    &__foreground {
+      fill: #fcfc00;
+    }
+  }
+}

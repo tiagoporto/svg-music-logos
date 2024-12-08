@@ -1,0 +1,11 @@
+.bad-religion {
+  &--crossbuster & {
+    &__border {
+      fill: #fff;
+    }
+
+    &__cross {
+      fill: #f00;
+    }
+  }
+}

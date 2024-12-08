@@ -1,0 +1,26 @@
+.diamond-head {
+  &--lightning-to-the-nations & {
+    &__text {
+      fill: #fff;
+    }
+
+    &__star {
+      fill: #fff;
+    }
+
+    &__diamond-crown {
+      fill: url('#diamond-head__diamond-crown-gradient');
+    }
+
+    &__diamond-facets {
+      fill: url('#diamond-head__diamond-facets-gradient');
+      stroke: #fff;
+      stroke-width: 3;
+      stroke-miterlimit: 10;
+    }
+
+    &__diamond-pavillion {
+      fill: url('#diamond-head__diamond-pavillion-gradient');
+    }
+  }
+}

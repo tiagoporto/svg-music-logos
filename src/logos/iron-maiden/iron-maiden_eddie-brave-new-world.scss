@@ -1,0 +1,13 @@
+.iron-maiden {
+  &--eddie-brave-new-world {
+    &__circle {
+      fill: #fff;
+      stroke: #000;
+      stroke-width: 1;
+    }
+
+    &__face {
+      fill: #ff0;
+    }
+  }
+}
