@@ -43,17 +43,18 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 ## Stack 🧰
 
-![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300c58e?style=for-the-badge\&logo=nuxt.js\&logoColor=white)
+![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300DC82?style=for-the-badge\&logo=nuxt.js\&logoColor=white)
 ![vue.js](https://img.shields.io/badge/vue.js-%234FC08D?style=for-the-badge\&logo=vue.js\&logoColor=white)
 ![javascript](https://img.shields.io/badge/javascript-%23333?style=for-the-badge\&logo=javascript)
 ![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
 ![sass](https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge\&logo=sass\&logoColor=white)
 ![SVG](https://img.shields.io/badge/svg-%23462b01?style=for-the-badge\&logo=svg)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge\&logo=visual-studio-code\&logoColor=white)
 ![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge\&logo=node.js\&logoColor=white)
 ![gulp](https://img.shields.io/badge/gulp-%23CF4647?style=for-the-badge\&logo=gulp\&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge\&logo=visual-studio-code\&logoColor=white)
 ![EditorConfig](https://img.shields.io/badge/EditorConfig-%23E0EFEF.svg?style=for-the-badge\&logo=editorconfig\&logoColor=black)
 ![Prettier](https://img.shields.io/badge/Prettier-1A2B34.svg?style=for-the-badge\&logo=prettier)
+![Commitlint](https://img.shields.io/badge/Commitlint-%23000.svg?style=for-the-badge\&logo=commitlint\&logoColor=white)
 ![Husky](https://img.shields.io/badge/Husky-%23161618.svg?style=for-the-badge)
 ![Lint Staged](https://img.shields.io/badge/Lint%20Staged-%23FFF.svg?style=for-the-badge)
 ![ESLint](https://img.shields.io/badge/ESLint-%234B32C3.svg?style=for-the-badge\&logo=eslint\&logoColor=white)
