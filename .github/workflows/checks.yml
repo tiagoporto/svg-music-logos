@@ -22,9 +22,6 @@ jobs:
       - name: Prepare nuxt dependencies
         run: npm run postinstall
 
-      - name: Generate data.json
-        run: npm run generate-data
-
       - name: Check Formatting
         run: npm run check-formatting
 
