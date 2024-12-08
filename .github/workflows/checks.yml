@@ -1,6 +1,11 @@
 name: Checks
 
-on: [workflow_call]
+on:
+  workflow_call:
+  push:
+    branches: [main]
+  pull_request:
+    types: [synchronize, opened, reopened, ready_for_review, converted_to_draft]
 
 jobs:
   checks:

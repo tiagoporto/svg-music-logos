@@ -1,6 +1,7 @@
 name: Check Dead Links
 
 on:
+  workflow_dispatch:
   schedule:
     # Run on the 1st and 15th of each month @ 00:00AM UTC-3
     - cron: '0 3 1,15 * *'
