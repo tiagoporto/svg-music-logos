@@ -46,7 +46,12 @@ const handleClick = async (path: string) => {
       <h2 v-if="titleTemplate" class="card__title" v-html="titleTemplate"></h2>
 
       <h2 v-else class="card__title">
-        <a class="card__link" :href="link" :title="`${title}'s website`">
+        <a
+          class="card__link"
+          :href="link"
+          :title="`${title}'s website`"
+          target="_blank"
+        >
           {{ title }}
         </a>
       </h2>
