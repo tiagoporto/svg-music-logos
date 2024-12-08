@@ -6,6 +6,7 @@ import vueTsEslintConfig from '@vue/eslint-config-typescript'
 import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
 import nodePlugin from 'eslint-plugin-n'
 import pluginPromise from 'eslint-plugin-promise'
+import pluginJest from 'eslint-plugin-jest'
 
 export default withNuxt([
   {
@@ -30,6 +31,18 @@ export default withNuxt([
       'vue/no-multiple-template-root': 'off',
       'no-console': ['error', { allow: ['warn', 'error'] }],
       'no-nested-ternary': 'error',
+    },
+  },
+  {
+    files: ['**/*.spec.{js,ts}', '**/*.test.{js,ts}'],
+    plugins: { jest: pluginJest },
+    languageOptions: {
+      globals: pluginJest.environments.globals.globals,
+    },
+    rules: {
+      ...pluginJest.configs['flat/all'].rules,
+
+      'jest/unbound-method': 'off',
     },
   },
 ])
