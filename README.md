@@ -1,7 +1,3 @@
-<p align="right">
-👍 ? <a href="https://github.com/tiagoporto/svg-music-logos/stargazers">⭐</a> : <a href="https://github.com/tiagoporto/svg-music-logos/issues">😞</a>
-</p>
-
 <div align="center">
 
 [![SVG Music Logos](./docs/logo.svg)][project]
@@ -17,7 +13,7 @@
 
 🎧 Music-related logos and symbols collection in SVG.
 
-++++++++++++++++++
+\-------
 
 Listen on
 
