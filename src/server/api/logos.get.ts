@@ -1,11 +1,8 @@
-import { createLogoPathAndSort } from '../utils/createLogoPathAndSort'
+import { filterLogos } from '../utils'
 import { data } from '../db'
 
 export default defineEventHandler(async () => {
-  const logos = createLogoPathAndSort(data)
+  const logosData = filterLogos(data)
 
-  return {
-    logos,
-    length: logos.length,
-  }
+  return logosData
 })

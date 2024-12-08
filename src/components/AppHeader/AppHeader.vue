@@ -92,7 +92,7 @@ const { data: logos } = useFetch('/api/logos')
         </NuxtLink>
 
         <span class="header__subtitle"
-          >{{ artists?.length }} artists • {{ logos?.length }} logos</span
+          >{{ artists?.count }} artists • {{ logos?.count }} logos</span
         >
       </h1>
 

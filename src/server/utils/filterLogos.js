@@ -1,12 +1,11 @@
-import * as changeCase from 'change-case'
+import { createSVGPath } from './createSVGPath.js'
 
 export const filterLogos = (data) => {
   const logos = []
 
   data.forEach(({ logos: dataLogo, ...restParams }) => {
     dataLogo.forEach((logo) => {
-      const filename = `${restParams.id}_${changeCase.kebabCase(logo.title)}.svg`
-      const path = `/logos/${restParams.id}/${filename}`
+      const path = createSVGPath({ id: restParams.id, title: logo.title })
 
       logos.push({
         ...restParams,

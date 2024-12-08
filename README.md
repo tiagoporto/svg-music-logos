@@ -121,7 +121,7 @@ Endpoints are defined in `server/api` directory.
       ],
     }
   ],
-  "length": "number",
+  "count": "number",
 }
 ```
 
@@ -170,7 +170,7 @@ Endpoints are defined in `server/api` directory.
       }
     }
   ],
-  "length": "number",
+  "count": "number",
 }
 ```
 
@@ -181,7 +181,7 @@ Endpoints are defined in `server/api` directory.
 ```json
 {
   "genres": ["string"],
-  "length": "number",
+  "count": "number",
 }
 
 ```
@@ -193,7 +193,7 @@ Endpoints are defined in `server/api` directory.
 ```json
 {
   "origins": ["string"],
-  "length": "number",
+  "count": "number",
 }
 ```
 

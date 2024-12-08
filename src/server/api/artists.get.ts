@@ -1,7 +1,9 @@
+import { filterArtists } from '../utils'
 import { data } from '../db'
+import type { Artist } from '../db/schema'
+
 export default defineEventHandler(async () => {
-  return {
-    artists: data.sort((a, b) => a.name.localeCompare(b.name)),
-    length: data.length,
-  }
+  const artistsData: { artists: Artist[]; count: number } = filterArtists(data)
+
+  return artistsData
 })
