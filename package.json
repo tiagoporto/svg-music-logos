@@ -28,6 +28,7 @@
     "preview": "nuxt preview",
     "lighthouse-badge": "lighthouse-badges --url https://tiagoporto.github.io/svg-music-logos/ --output-path docs --badge-style pagespeed",
     "copy-svgs": "gulp copy-svgs",
+    "preupdate-readme": "npm run generate-data",
     "update-readme": "gulp update-readme",
     "generate-data": "gulp generate-data",
     "generate-styles": "gulp generate-styles",
