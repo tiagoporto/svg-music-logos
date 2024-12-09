@@ -51,6 +51,7 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 ![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
 ![sass](https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge\&logo=sass\&logoColor=white)
 ![SVG](https://img.shields.io/badge/svg-%23462b01?style=for-the-badge\&logo=svg)
+![pwa](https://img.shields.io/badge/pwa-%235A0FC8?style=for-the-badge\&logo=pwa\&logoColor=white)
 ![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge\&logo=node.js\&logoColor=white)
 ![gulp](https://img.shields.io/badge/gulp-%23CF4647?style=for-the-badge\&logo=gulp\&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge\&logo=visual-studio-code\&logoColor=white)

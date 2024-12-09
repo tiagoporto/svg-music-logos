@@ -7,8 +7,4 @@
   top: 0;
   transition: height 0.8s cubic-bezier(0.25, 0, 0.37, 1);
   pointer-events: none;
-
-  @media only screen and (width >= 768px) {
-    height: 450px;
-  }
 }

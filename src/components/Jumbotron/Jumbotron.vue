@@ -9,8 +9,8 @@ const setJumbotronHeight = () => {
   const element = window
 
   if (jumbotron.value) {
-    // only if is not mobile and is not in the top
     if (element.innerWidth > 768) {
+      // only if is not mobile and is not in the top
       if (element.scrollY > 20) {
         jumbotron.value.style.height = '100%'
       } else {
@@ -25,14 +25,16 @@ const setJumbotronHeight = () => {
 const setJumbotronHeightDebounced = debounce(8, setJumbotronHeight)
 
 onMounted(() => {
+  const element = window
+  if (element.innerWidth > 768) {
+    element.document.body.style.backgroundColor = '#fff'
+  }
   setJumbotronHeight()
   window.addEventListener('scroll', setJumbotronHeightDebounced)
-  // window.addEventListener('touchmove', setJumbotronHeightDebounced)
 })
 
 onUnmounted(() => {
   window.removeEventListener('scroll', setJumbotronHeightDebounced)
-  // window.removeEventListener('touchmove', setJumbotronHeightDebounced)
 })
 </script>
 

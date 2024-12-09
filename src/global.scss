@@ -19,3 +19,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  // Interaction with Jumbotron
+  background-color: #1fc8db;
+  transition: background-color 1s;
+}

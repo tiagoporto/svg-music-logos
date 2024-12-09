@@ -1,11 +1,7 @@
 <script lang="ts" setup>
+import { TITLE, DESCRIPTION, URL } from './constants/site'
 import 'normalize.css/normalize.css'
 
-const title =
-  process.env.NODE_ENV === 'production'
-    ? 'SVG Music Logos'
-    : 'SVG Music Logos Testing'
-const description = `A collection of bands' and musicians' logos in SVG.`
 useHead({
   htmlAttrs: {
     lang: 'en',
@@ -16,24 +12,48 @@ useHead({
 <template>
   <NuxtLayout>
     <Head>
-      <Title>{{ title }}</Title>
-      <Meta name="description" :content="description" />
-      <Meta name="robots" content="index" />
+      <Title>{{ TITLE }}</Title>
+      <Meta name="description" :content="DESCRIPTION" />
       <Link rel="author" href="humans.txt" />
       <Link rel="manifest" href="site.webmanifest" />
-      <Link
-        rel="canonical"
-        href="https://tiagoporto.github.io/svg-music-logos/"
+
+      <!--  Open graphs -->
+      <Meta property="og:title" :content="TITLE" />
+      <Meta property="og:description" :content="DESCRIPTION" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:url" :content="URL" />
+      <Meta
+        property="og:image"
+        content="https://socialify.git.ci/tiagoporto/svg-music-logos/png?description=1&language=1&owner=1&pattern=Solid"
       />
+      <Meta
+        property="og:image:alt"
+        content="SVG Music logos headphone logo plus vue logo"
+      />
+
+      <!-- Twitter Meta Tags -->
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="twitter:title" :content="TITLE" />
+      <Meta name="twitter:description" :content="DESCRIPTION" />
+      <Meta
+        name="twitter:image"
+        content="https://socialify.git.ci/tiagoporto/svg-music-logos/png?description=1&language=1&owner=1&pattern=Solid"
+      />
+
+      <Link rel="icon" href="favicon.ico" sizes="48x48" />
+
+      <!-- For browsers that don't support .svg favicons (pretty much just Safari right now): -->
+      <Link rel="icon" href="favicon.png" type="image/png" />
+
+      <!-- For browsers that DO support SVG favicons (most of them now): -->
+      <Link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+      <!-- A special SVG for Safari -->
+      <Link rel="mask-icon" href="safari-mask-icon.svg" color="#2BB5E5" />
 
       <!-- Add to homescreen for Chrome on Android -->
       <Meta name="theme-color" content="#2BB5E5" />
       <Meta name="mobile-web-app-capable" content="yes" />
-      <Link
-        rel="icon"
-        sizes="192x192"
-        href="img/touch/chrome-touch-icon-192x192.png"
-      />
 
       <!-- Add to homescreen for Safari on iOS -->
       <Meta name="apple-mobile-web-app-capable" content="yes" />
@@ -42,31 +62,23 @@ useHead({
         content="black-translucent"
       />
       <Meta name="apple-mobile-web-app-title" content="SVG Music Logos" />
-      <Link rel="apple-touch-icon" href="img/touch/apple-touch-icon.png" />
+      <Link
+        rel="apple-touch-icon"
+        href="apple-touch-icon.png"
+        sizes="180x180"
+      />
 
-      <Meta property="og:type" content="website" />
-      <Meta
-        property="og:url"
-        content="http://tiagoporto.github.io/svg-music-logos"
+      <!-- Tile icon for Win8 -->
+      <!-- Windows 8 IE 10-->
+      <Meta name="application-name" :content="TITLE" />
+      <meta name="msapplication-TileColor" content="#2BB5E5" />
+      <meta
+        name="msapplication-TileImage"
+        content="img/touch/mstile-150x150.png"
       />
-      <Meta property="og:title" content="Music Logos" />
-      <!-- <Meta property="og:image" content="https://example.com/image.jpg"> -->
-      <Meta
-        property="og:description"
-        content="A collection of bands&#39; and musicians&#39; logos in SVG."
-      />
-      <Meta property="og:site_name" :content="title" />
-      <Meta property="og:locale" content="en" />
 
-      <Meta name="twitter:card" content="summary" />
-      <Meta name="twitter:creator" content="@_tiagoporto" />
-      <Meta
-        name="twitter:url"
-        content="http://tiagoporto.github.io/svg-music-logos"
-      />
-      <Meta name="twitter:title" :content="title" />
-      <Meta name="twitter:description" :content="description" />
-      <!-- <Meta name="twitter:image" content="https://example.com/image.jpg"> -->
+      <!-- Windows 8.1 + IE11 and above -->
+      <meta name="msapplication-config" content="browserconfig.xml" />
     </Head>
 
     <NuxtPage />

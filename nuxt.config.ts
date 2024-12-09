@@ -12,6 +12,11 @@ export default defineNuxtConfig({
       isCustomElement: (tag) => tag.includes('-'),
     },
   },
+  nitro: {
+    prerender: {
+      routes: ['/'],
+    },
+  },
   vite: {
     css: {
       preprocessorOptions: {
@@ -33,6 +38,28 @@ export default defineNuxtConfig({
       googleAnalytics: true,
     },
   },
+  pwa: {
+    strategies: 'injectManifest',
+    injectRegister: 'auto',
+    manifest: false,
+    registerType: 'prompt',
+    includeAssets: ['fonts/*.woff2'],
+    injectManifest: {
+      globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+    },
+    registerWebManifestInRouteRules: true,
+    client: {
+      periodicSyncForUpdates: 3600,
+      installPrompt: false,
+    },
+    devOptions: {
+      enabled: false,
+      suppressWarnings: true,
+      navigateFallback: '/',
+      navigateFallbackAllowlist: [/^\/$/],
+      type: 'module',
+    },
+  },
   runtimeConfig: {
     public: {
       scripts: {
@@ -47,6 +74,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxtjs/google-fonts',
     '@nuxt/test-utils/module',
+    '@vite-pwa/nuxt',
   ],
   compatibilityDate: '2024-12-01',
 })
