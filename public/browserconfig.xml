@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Please read: https://msdn.microsoft.com/en-us/library/ie/dn455106.aspx -->
 <browserconfig>
-    <msapplication>
-        <tile>
-            <TileImage src="img/touch/ms-touch-icon-144x144-precomposed.png"/>
-            <TileColor>#5486f7</TileColor>
-        </tile>
-    </msapplication>
+  <msapplication>
+    <tile>
+      <square150x150logo src="touch/mstile-150x150.png"/>
+      <wide310x150logo src="touch/mstile-310x150.png"/>
+      <TileColor>#5486f7</TileColor>
+    </tile>
+  </msapplication>
 </browserconfig>
+
+
+
+
