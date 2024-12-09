@@ -42,6 +42,11 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@nuxt/eslint', '@nuxt/scripts', '@nuxtjs/google-fonts'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/scripts',
+    '@nuxtjs/google-fonts',
+    '@nuxt/test-utils/module',
+  ],
   compatibilityDate: '2024-12-01',
 })

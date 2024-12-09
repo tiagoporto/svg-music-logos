@@ -6,6 +6,7 @@ import vueTsEslintConfig from '@vue/eslint-config-typescript'
 import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
 import nodePlugin from 'eslint-plugin-n'
 import pluginPromise from 'eslint-plugin-promise'
+import vitest from '@vitest/eslint-plugin'
 
 export default withNuxt([
   {
@@ -30,6 +31,15 @@ export default withNuxt([
       'vue/no-multiple-template-root': 'off',
       'no-console': ['error', { allow: ['warn', 'error'] }],
       'no-nested-ternary': 'error',
+    },
+  },
+  {
+    files: ['**/*.spec.js', '**/*.test.js'],
+    plugins: {
+      vitest,
+    },
+    rules: {
+      ...vitest.configs.all.rules,
     },
   },
 ])

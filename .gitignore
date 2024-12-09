@@ -27,3 +27,4 @@ logs
 src/server/db/data.json
 src/logos/**/*.css
 public/logos/
+coverage/

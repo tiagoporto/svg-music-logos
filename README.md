@@ -38,8 +38,10 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 [![Website](https://img.shields.io/website/https/tiagoporto.github.io/svg-music-logos.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)][project]
 [![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://tiagoporto.github.io/svg-music-logos)][w3c]
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks\&style=flat-square)][cchecks-workflow]
-[![Artists links](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?branch=main\&style=flat-square\&label=artists%20links)][dead-links-workflow]
+[![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks\&style=flat-square)][checks-workflow]
+[![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/tests.yml?label=tests\&style=flat-square)][tests-workflow]
+[![Coverage](https://img.shields.io/coverallsCoverage/github/tiagoporto/svg-music-logos?style=flat-square)][coverage]
+[![Artists links check](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?branch=main\&style=flat-square\&label=artists%20links)][dead-links-workflow]
 
 ## Stack 🧰
 
@@ -54,12 +56,15 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge\&logo=visual-studio-code\&logoColor=white)
 ![EditorConfig](https://img.shields.io/badge/EditorConfig-%23E0EFEF.svg?style=for-the-badge\&logo=editorconfig\&logoColor=black)
 ![Prettier](https://img.shields.io/badge/Prettier-1A2B34.svg?style=for-the-badge\&logo=prettier)
-![Commitlint](https://img.shields.io/badge/Commitlint-%23000.svg?style=for-the-badge\&logo=commitlint\&logoColor=white)
-![Husky](https://img.shields.io/badge/Husky-%23161618.svg?style=for-the-badge)
-![Lint Staged](https://img.shields.io/badge/Lint%20Staged-%23FFF.svg?style=for-the-badge)
 ![ESLint](https://img.shields.io/badge/ESLint-%234B32C3.svg?style=for-the-badge\&logo=eslint\&logoColor=white)
 ![Stylelint](https://img.shields.io/badge/Stylelint-%231B3A4B.svg?style=for-the-badge\&logo=stylelint\&logoColor=white)
 ![Remark](https://img.shields.io/badge/Remark-%230A0E0F.svg?style=for-the-badge\&logo=remark\&logoColor=d80303)
+![Commitlint](https://img.shields.io/badge/Commitlint-%23000.svg?style=for-the-badge\&logo=commitlint\&logoColor=white)
+![Husky](https://img.shields.io/badge/Husky-%23161618.svg?style=for-the-badge)
+![Lint Staged](https://img.shields.io/badge/Lint%20Staged-%23FFF.svg?style=for-the-badge)
+![vitest](https://img.shields.io/badge/vitest-%23000?style=for-the-badge\&logo=vitest\&logoColor=yellow)
+![coveralls](https://img.shields.io/badge/coveralls-%233F5767?style=for-the-badge\&logo=coveralls)
+![Dependabot](https://img.shields.io/badge/dependabot-%23025E8C?style=for-the-badge\&logo=dependabot\&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge\&logo=githubactions\&logoColor=white)
 ![vercel](https://img.shields.io/badge/vercel-%23000000?style=for-the-badge\&logo=vercel\&logoColor=white)
 
@@ -256,7 +261,11 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 
 [w3c]: https://validator.nu/?doc=https%3A%2F%2Ftiagoporto.github.io%2Fsvg-music-logos
 
-[cchecks-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/checks.yml
+[checks-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/checks.yml
+
+[tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/tests.yml
+
+[coverage]: https://coveralls.io/github/tiagoporto/svg-music-logos
 
 [dead-links-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yml
 
