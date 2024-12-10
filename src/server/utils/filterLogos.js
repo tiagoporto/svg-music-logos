@@ -1,6 +1,9 @@
 import { createSVGPath } from './createSVGPath.js'
 
 export const filterLogos = (data) => {
+  if (!data) {
+    return { logos: [], count: 0 }
+  }
   const logos = []
 
   data.forEach(({ logos: dataLogo, ...restParams }) => {

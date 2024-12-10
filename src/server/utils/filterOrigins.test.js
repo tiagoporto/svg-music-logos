@@ -9,6 +9,7 @@ const data = [
   { id: 'samael', origins: ['Switzerland'] },
   { id: 'jimmy-page-and-the-black-crowes', origins: ['England', 'USA'] },
   { id: 'korzus', origins: ['Brazil'] },
+  { id: 'unknown' },
 ]
 
 describe('filterOrigins', () => {

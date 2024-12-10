@@ -8,6 +8,7 @@ const data = [
   },
   { id: 'samael', genres: ['Black Metal', 'Industrial Metal'] },
   { id: 'deep-purple', genres: ['Hard Rock'] },
+  { id: 'unknown' },
 ]
 
 describe('filterGenres', () => {

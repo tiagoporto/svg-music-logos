@@ -13,7 +13,7 @@ export const filterOrigins = (data) => {
     })
     .flat()
 
-  const origins = [...new Set(allOrigins)].sort()
+  const origins = [...new Set(allOrigins)].filter(Boolean).sort()
 
   return { origins, count: origins.length }
 }
