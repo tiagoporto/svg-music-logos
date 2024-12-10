@@ -1,4 +1,8 @@
 export const filterOrigins = (data) => {
+  if (!data) {
+    return { origins: [], count: 0 }
+  }
+
   const allOrigins = data
     .map((artist) => {
       if (process.env.NODE_ENV !== 'production' && !artist.origins) {

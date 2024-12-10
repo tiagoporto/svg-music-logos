@@ -1,4 +1,8 @@
 export const filterGenres = (data) => {
+  if (!data) {
+    return { genres: [], count: 0 }
+  }
+
   const allGenres = data
     .map((artist) => {
       if (process.env.NODE_ENV !== 'production' && !artist.genres) {

@@ -1,5 +1,9 @@
 import { createSVGPath } from './createSVGPath.js'
 export const filterArtists = (data) => {
+  if (!data) {
+    return { artists: [], count: 0 }
+  }
+
   const artists = []
 
   data.forEach(({ logos, id, ...rest }) => {
@@ -14,6 +18,7 @@ export const filterArtists = (data) => {
     })
 
     artists.push({
+      id,
       ...rest,
       logos: newLogos,
     })
