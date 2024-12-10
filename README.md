@@ -1,6 +1,6 @@
 <div align="center">
 
-[![SVG Music Logos](./docs/logo.svg)][project]
+![SVG Music Logos](./docs/logo.svg)
 
 <!-- replace start -->
 
@@ -11,9 +11,9 @@
 
 <!-- replace end -->
 
-🎧 Music-related logos and symbols collection in SVG.
+🎧  Music-related logos and symbols collection in SVG.
 
-++++++++++++++++++
+\---------------------------------------
 
 Listen on
 
@@ -24,7 +24,7 @@ Listen on
 
 ## Project 💻
 
-<https://tiagoporto.github.io/svg-music-logos>
+<https://svg-music-logos.tiagoporto.com>
 
 ## Motivation 🔥
 
@@ -36,8 +36,8 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 ![Pagespeed insights](./docs/pagespeed.svg)
 
-[![Website](https://img.shields.io/website/https/tiagoporto.github.io/svg-music-logos.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)][project]
-[![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://tiagoporto.github.io/svg-music-logos)][w3c]
+[![Website](https://img.shields.io/website/https/svg-music-logos.tiagoporto.com.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)][project]
+[![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://svg-music-logos.tiagoporto.com)][w3c]
 [![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks\&style=flat-square)][checks-workflow]
 [![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/tests.yml?label=tests\&style=flat-square)][tests-workflow]
 [![Coverage](https://img.shields.io/coverallsCoverage/github/tiagoporto/svg-music-logos?style=flat-square)][coverage]
@@ -254,13 +254,13 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 
 <!-- Links -->
 
-[project]: https://tiagoporto.github.io/svg-music-logos
+[project]: https://svg-music-logos.tiagoporto.com
 
 [youtube-music-playlist]: https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6&feature=share
 
 [spotify-playlist]: https://open.spotify.com/playlist/20XHrsLWAJkgBBagZiURM5
 
-[w3c]: https://validator.nu/?doc=https%3A%2F%2Ftiagoporto.github.io%2Fsvg-music-logos
+[w3c]: https://validator.nu/?doc=https%3A%2F%2Fsvg-music-logos.tiagoporto.com
 
 [checks-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/checks.yml
 
