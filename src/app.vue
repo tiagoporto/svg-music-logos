@@ -71,14 +71,14 @@ useHead({
       <!-- Tile icon for Win8 -->
       <!-- Windows 8 IE 10-->
       <Meta name="application-name" :content="TITLE" />
-      <meta name="msapplication-TileColor" content="#2BB5E5" />
-      <meta
+      <Meta name="msapplication-TileColor" content="#2BB5E5" />
+      <Meta
         name="msapplication-TileImage"
         content="img/touch/mstile-150x150.png"
       />
 
       <!-- Windows 8.1 + IE11 and above -->
-      <meta name="msapplication-config" content="browserconfig.xml" />
+      <Meta name="msapplication-config" content="browserconfig.xml" />
     </Head>
 
     <NuxtPage />
