@@ -41,10 +41,13 @@ export default defineNuxtConfig({
   pwa: {
     strategies: 'injectManifest',
     injectRegister: 'auto',
+    srcDir: 'service-worker',
+    filename: 'sw.ts',
     manifest: false,
     registerType: 'prompt',
     includeAssets: ['fonts/*.woff2'],
     injectManifest: {
+      maximumFileSizeToCacheInBytes: 3000000,
       globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
     },
     registerWebManifestInRouteRules: true,
