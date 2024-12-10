@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-
 import { debounce } from 'throttle-debounce'
 
 const jumbotron = ref<HTMLElement | null>(null)

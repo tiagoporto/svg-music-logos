@@ -25,6 +25,12 @@
     top: 0;
   }
 
+  &.top {
+    &::before {
+      position: fixed;
+    }
+  }
+
   &__disclaimer {
     font-weight: 300;
     font-size: 0.9rem;

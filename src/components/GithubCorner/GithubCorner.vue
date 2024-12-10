@@ -1,13 +1,42 @@
 <script setup lang="ts">
+import { debounce } from 'throttle-debounce'
+
 interface GithubCornerProps {
   repo: string
 }
 
 const { repo } = defineProps<GithubCornerProps>()
+const corner = ref<HTMLElement | null>(null)
+
+const setPosition = debounce(5, () => {
+  const element = window
+
+  if (corner.value) {
+    if (element.scrollY === 0) {
+      corner.value.style.position = 'fixed'
+    } else {
+      corner.value.style.position = 'absolute'
+    }
+  }
+})
+
+onMounted(() => {
+  window.addEventListener('wheel', setPosition)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('wheel', setPosition)
+})
 </script>
 
 <template>
-  <svg width="80" height="80" viewBox="0 0 250 250" class="github-corner">
+  <svg
+    ref="corner"
+    width="80"
+    height="80"
+    viewBox="0 0 250 250"
+    class="github-corner"
+  >
     <a
       :href="repo"
       class="github-corner-link"

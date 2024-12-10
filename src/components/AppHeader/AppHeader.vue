@@ -1,12 +1,36 @@
 <script setup lang="ts">
+import { debounce } from 'throttle-debounce'
 const { data: artists } = useFetch('/api/artists')
 const { data: logos } = useFetch('/api/logos')
+
+const header = ref<HTMLElement | null>(null)
+const className = ref('header')
+
+const setPosition = debounce(5, () => {
+  const element = window
+
+  if (header.value) {
+    if (element.scrollY < 5) {
+      return (className.value = 'header top')
+    }
+
+    className.value = 'header'
+  }
+})
+
+onMounted(() => {
+  window.addEventListener('wheel', setPosition)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('wheel', setPosition)
+})
 </script>
 
 <template>
   <Jumbotron />
 
-  <header class="header">
+  <header ref="header" :class="className">
     <GithubCorner
       repo="https://github.com/tiagoporto/svg-music-logos"
     ></GithubCorner>
