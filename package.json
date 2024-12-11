@@ -90,7 +90,6 @@
     "stylelint-config-recommended-scss": "^14.1.0",
     "stylelint-config-recommended-vue": "^1.5.0",
     "stylelint-config-standard-scss": "^14.0.0",
-    "svg-to-inline": "1.0.0-beta.4",
     "throttle-debounce": "^5.0.2",
     "through2": "^4.0.2",
     "typescript": "^5.6.2",

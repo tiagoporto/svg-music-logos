@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import 'svg-to-inline/svg-to-inline.js'
 // @ts-expect-error: missing type
 import CountryFlag from '@dzangolab/vue-country-flag-icon'
 import '@dzangolab/vue-country-flag-icon/dist/CountryFlag.css' // import stylesheet
@@ -43,7 +42,7 @@ const handleClick = async (path: string) => {
 <template>
   <div class="card" :class="{ 'card--inverse': logo.inverse }">
     <div class="card__content">
-      <Logo :logo="logo" />
+      <Logo :logo="logo" :artist="title" />
       <!-- eslint-disable-next-line vue/no-v-html -->
       <h2 v-if="titleTemplate" class="card__title" v-html="titleTemplate"></h2>
 

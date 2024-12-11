@@ -1,14 +1,11 @@
-svg-to-inline {
+.logo {
   height: 160px;
   display: flex;
   align-items: center;
   position: relative;
 
-  svg {
-    position: relative;
+  img {
     margin: auto;
     max-height: 100%;
-    width: 100%;
-    display: flex;
   }
 }
