@@ -9,7 +9,7 @@ jobs:
     secrets: inherit
 
   tests:
-    uses: ./.github/workflows/tests.yml
+    uses: ./.github/workflows/unit-tests.yml
     secrets: inherit
 
   deploy:

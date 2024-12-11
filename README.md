@@ -39,7 +39,7 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 [![Website](https://img.shields.io/website/https/svg-music-logos.tiagoporto.com.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)][project]
 [![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://svg-music-logos.tiagoporto.com)][w3c]
 [![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks\&style=flat-square)][checks-workflow]
-[![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/tests.yml?label=tests\&style=flat-square)][tests-workflow]
+[![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/unit-tests.yml?label=unit%20tests\&style=flat-square)][unit-tests-workflow]
 [![Coverage](https://img.shields.io/coverallsCoverage/github/tiagoporto/svg-music-logos?style=flat-square)][coverage]
 [![Artists links check](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?branch=main\&style=flat-square\&label=artists%20links)][dead-links-workflow]
 
@@ -264,7 +264,7 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 
 [checks-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/checks.yml
 
-[tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/tests.yml
+[unit-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/unit-tests.yml
 
 [coverage]: https://coveralls.io/github/tiagoporto/svg-music-logos
 
