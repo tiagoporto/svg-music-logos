@@ -93,16 +93,19 @@
     {
       "title": "Beer Trooper",
       "svg": "iron-maiden_trooper.svg",
+      "css": "iron-maiden_trooper.css",
       "inverse": true
     },
     {
       "title": "Beer Trooper NEW Label",
       "className": "trooper--new",
+      "css": "iron-maiden_trooper-new-label.css",
       "svg": "iron-maiden_trooper.svg"
     },
     {
       "title": "Beer Trooper Red ‘N’ Black",
       "className": "trooper--red-n-black",
+      "css": "iron-maiden_trooper-red-n-black.css",
       "svg": "iron-maiden_trooper.svg"
     },
     {

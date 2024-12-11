@@ -1,0 +1,11 @@
+.trooper {
+  &--red-n-black & {
+    &__inner-shadow {
+      fill: black;
+    }
+
+    &__outer-shadow {
+      opacity: 0;
+    }
+  }
+}
