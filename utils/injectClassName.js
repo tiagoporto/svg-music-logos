@@ -1,5 +1,5 @@
 export const injectClassName = (svg, className) => {
-  const searchClassAttributeRegex = /class="(.*?)"/
+  const searchClassAttributeRegex = /<svg[^>]+class="(.*?)"/
   const extractSVGTagRegex = /(<svg[^>]+)/
   const extractSVGUntilClassAttributeRegex = /(<svg[^>]+) class="(.*?)"/
 
