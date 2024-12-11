@@ -45,17 +45,6 @@
     text-align: center;
   }
 
-  &__link {
-    color: inherit;
-    text-decoration: none;
-    margin: 5px 0;
-    display: block;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
   &__button {
     position: relative;
     bottom: 0;
@@ -73,4 +62,16 @@
       background: color.adjust(#2cb5e8, $lightness: -20%);
     }
   }
+}
+
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, selector-class-pattern */
+:global(.card__link) {
+  color: inherit;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown, selector-class-pattern */
+:global(.card__link:hover) {
+  text-decoration: underline;
 }
