@@ -49,6 +49,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
+    "@dzangolab/vue-country-flag-icon": "^0.3.0",
     "@emazzotta/lighthouse-badges": "github:sitdisch/lighthouse-badges",
     "@nuxt/eslint": "^0.7.2",
     "@nuxt/scripts": "^0.9.5",
@@ -95,7 +96,6 @@
     "typescript": "^5.6.2",
     "vitest": "^2.1.8",
     "vue": "^3.4.21",
-    "vue-country-flag-next": "^2.3.2",
     "vue-router": "^4.3.0",
     "vue-tsc": "^2.1.10"
   },

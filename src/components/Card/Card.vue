@@ -1,6 +1,9 @@
 <script lang="ts" setup>
 import 'svg-to-inline/svg-to-inline.js'
-import CountryFlag from 'vue-country-flag-next'
+// @ts-expect-error: missing type
+import CountryFlag from '@dzangolab/vue-country-flag-icon'
+import '@dzangolab/vue-country-flag-icon/dist/CountryFlag.css' // import stylesheet
+
 import flagIso from './FlagIso.json'
 import type { Logo, Origins } from '../../server/db/schema'
 
@@ -39,9 +42,8 @@ const handleClick = async (path: string) => {
 
 <template>
   <div class="card" :class="{ 'card--inverse': logo.inverse }">
-    <Logo :logo="logo" />
-
     <div class="card__content">
+      <Logo :logo="logo" />
       <!-- eslint-disable-next-line vue/no-v-html -->
       <h2 v-if="titleTemplate" class="card__title" v-html="titleTemplate"></h2>
 
@@ -51,13 +53,13 @@ const handleClick = async (path: string) => {
           :href="link"
           :title="`${title}'s website`"
           target="_blank"
+          rel="noopener"
         >
           {{ title }}
         </a>
       </h2>
 
       <p v-if="genres">
-        Genre:
         <template v-for="(genre, index) in genres">
           {{ genre }}
           <template v-if="index < genres.length - 1">•</template>
@@ -65,21 +67,19 @@ const handleClick = async (path: string) => {
       </p>
 
       <p>
-        Origin:
         <template v-for="(origin, index) in origins" :key="index">
-          <CountryFlag :country="flagIso[origin]" />
+          <CountryFlag :iso="flagIso[origin]" :title="origin" />
           {{ origin }}
           <template v-if="index < origins.length - 1">/</template>
         </template>
       </p>
-      <p>Reference: {{ logo.title }}</p>
+
+      <p>{{ logo.title }}</p>
     </div>
 
-    <div class="card__footer">
-      <button class="card__button" @click="handleClick(logo.svg)">
-        Download SVG
-      </button>
-    </div>
+    <button class="card__button" @click="handleClick(logo.svg)">
+      Download SVG
+    </button>
   </div>
 </template>
 

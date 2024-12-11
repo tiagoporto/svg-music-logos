@@ -41,6 +41,8 @@ onUnmounted(() => {
       :href="repo"
       class="github-corner-link"
       aria-label="View source on Github"
+      target="_blank"
+      rel="noopener"
     >
       <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
       <path
