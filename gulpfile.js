@@ -8,7 +8,7 @@ import gulpSass from 'gulp-sass'
 import jsonConcat from 'gulp-concat-json-to-array'
 import changed from 'gulp-changed'
 import through from 'through2'
-import { readFile } from 'fs/promises'
+import { readFileSync } from 'fs'
 import Vinyl from 'vinyl'
 import path from 'path'
 import zip from 'gulp-zip'
@@ -86,12 +86,12 @@ const transformCopySVGs = () => {
     .pipe(
       (() => {
         let newFile
-        const transform = function (file, encoding, callback) {
+        const transform = async function (file, encoding, callback) {
           const { logos, id } = JSON.parse(file.contents.toString())
           const directoryPath = path.dirname(file.path)
 
           logos.forEach(async (logo) => {
-            let svg = await readFile(
+            let svg = readFileSync(
               `${process.cwd()}/src/logos/${id}/${logo.svg}`,
               'utf8',
             )
@@ -101,7 +101,7 @@ const transformCopySVGs = () => {
             }
 
             if (logo.css) {
-              const css = await readFile(
+              const css = readFileSync(
                 `${process.cwd()}/src/logos/${id}/${logo.css}`,
                 'utf8',
               )
@@ -113,15 +113,11 @@ const transformCopySVGs = () => {
             }
 
             const filename = `${id}_${changeCase.kebabCase(logo.title)}.svg`
-            const svgFormatted = await prettier.format(svg, {
-              printWidth: 1000,
-              parser: 'html',
-            })
 
             newFile = new Vinyl({
               base: file.base,
               path: `${directoryPath}/${filename}`,
-              contents: Buffer.from(svgFormatted),
+              contents: Buffer.from(svg),
             })
 
             this.push(newFile)
@@ -131,6 +127,24 @@ const transformCopySVGs = () => {
         }
 
         return through.obj(transform)
+      })(),
+    )
+    .pipe(
+      (() => {
+        return through.obj(async function (file, encoding, callback) {
+          console.warn(
+            `\x1b[33mFile saved: ${path.relative(file.base, file.path)}!\x1b[0m`,
+          )
+
+          const unformattedCode = file.contents.toString('utf8')
+          const svgFormatted = await prettier.format(unformattedCode, {
+            printWidth: 1000,
+            parser: 'html',
+          })
+          file.contents = Buffer.from(svgFormatted)
+
+          callback(null, file)
+        })
       })(),
     )
     .pipe(dest(paths.public + 'logos'))
