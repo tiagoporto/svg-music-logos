@@ -168,7 +168,7 @@ export { transformCopySVGs as 'copy-svgs' }
 
 export const build = series(parallel(styles, generateData), transformCopySVGs)
 export const watch = () => {
-  gulpWatch(paths.logos + '**/*.styl', styles)
+  gulpWatch(paths.logos + '**/*.{scss,json}', styles)
   gulpWatch(paths.logos + '**/*.json', generateData)
-  gulpWatch(paths.logos + '**/*.json', transformCopySVGs)
+  gulpWatch(paths.logos + '**/*.{scss,json}', transformCopySVGs)
 }
