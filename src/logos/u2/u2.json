@@ -7,12 +7,6 @@
   "logos": [
     {
       "title": "The Joshua Tree",
-      "svg": "u2_the-joshua-tree.svg",
-      "css": "u2_the-joshua-tree.css",
-      "className": "u2--the-joshua-tree"
-    },
-    {
-      "title": "The Joshua Tree",
       "css": "u2_the-joshua-tree-text.css",
       "svg": "u2_the-joshua-tree.svg",
       "className": "u2--the-joshua-tree-text"

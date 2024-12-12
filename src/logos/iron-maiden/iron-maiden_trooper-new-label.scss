@@ -1,7 +1,13 @@
 .trooper {
-  &--new & {
-    &__outer-shadow {
-      opacity: 1;
-    }
+  &__lettering {
+    fill: red;
+  }
+
+  &__inner-shadow {
+    fill: white;
+  }
+
+  &__outer-shadow {
+    opacity: 1;
   }
 }

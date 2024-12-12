@@ -10,15 +10,16 @@
       "svg": "dream-theater_images-and-words.svg"
     },
     {
-      "title": "The majesty symbol",
+      "title": "The Majesty Symbol",
       "svg": "dream-theater_majesty-symbol.svg",
       "css": "dream-theater_majesty-symbol.css",
       "className": "dream-theater--majesty-symbol"
     },
     {
-      "title": "The majesty symbol",
+      "title": "The Majesty Seal",
       "svg": "dream-theater_majesty-symbol.svg",
-      "className": "dream-theater--full-majesty-symbol"
+      "css": "dream-theater_majesty-seal.css",
+      "className": "dream-theater--majesty-seal"
     }
   ]
 }

@@ -1,8 +1,6 @@
 .dream-theater {
-  &--majesty-symbol & {
-    &__background,
-    &__foreground {
-      display: none;
-    }
+  &__background,
+  &__foreground {
+    display: none;
   }
 }

@@ -89,6 +89,7 @@ const transformCopySVGs = () => {
         const transform = async function (file, encoding, callback) {
           const { logos, id } = JSON.parse(file.contents.toString())
           const directoryPath = path.dirname(file.path)
+          const logoName = []
 
           logos.forEach(async (logo) => {
             let svg = readFileSync(
@@ -114,6 +115,16 @@ const transformCopySVGs = () => {
 
             const filename = `${id}_${changeCase.kebabCase(logo.title)}.svg`
 
+            // check if string already exists in array
+            logoName.forEach((name) => {
+              if (name === filename) {
+                console.error(
+                  `Duplicated logo title: \x1b[31m${filename}\x1b[0m`,
+                )
+              }
+            })
+
+            logoName.push(filename)
             newFile = new Vinyl({
               base: file.base,
               path: `${directoryPath}/${filename}`,
