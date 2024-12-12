@@ -48,7 +48,7 @@ export default defineNuxtConfig({
     includeAssets: ['fonts/*.woff2'],
     injectManifest: {
       maximumFileSizeToCacheInBytes: 3000000,
-      globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+      globPatterns: ['**/*.{js,css,html,png,ico}'],
     },
     registerWebManifestInRouteRules: true,
     client: {
