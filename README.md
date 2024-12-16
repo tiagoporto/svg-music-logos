@@ -108,7 +108,7 @@ Endpoints are defined in `server/api` directory.
 
 **Response:**
 
-```json
+```jsonc
 {
   "artists": [
     {
@@ -135,7 +135,7 @@ Endpoints are defined in `server/api` directory.
 
 **Response:**
 
-```json
+```jsonc
 {
   "artist": {
     "id": "number",
@@ -159,7 +159,7 @@ Endpoints are defined in `server/api` directory.
 
 **Response:**
 
-```json
+```jsonc
 {
   "logos": [
     {
