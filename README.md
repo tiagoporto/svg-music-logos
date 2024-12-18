@@ -11,7 +11,7 @@
 
 <!-- replace end -->
 
-🎧  Music-related logos and symbols collection in SVG.
+Music-related logos and symbols collection in SVG.
 
 \---------------------------------------
 
@@ -108,26 +108,26 @@ Endpoints are defined in `server/api` directory.
 
 **Response:**
 
-```jsonc
+```json5
 {
-  "artists": [
+  artists: [
     {
-      "id": "number",
-      "name": "string",
-      "nameTemplate": "string",  // optional
-      "origins": ["string"],
-      "genres": ["string"] | null,
-      "link": "string",
-      "logos": [
+      id: string,
+      name: string,
+      nameTemplate?: string,
+      origins: string[],
+      genres: string[] | null,
+      link: string,
+      logos: [
         {
-          "title": "string",
-          "svg": "string",
-          "inverse": "boolean", // optional
+          title: string,
+          svg: string,
+          inverse?: boolean,
         }
       ],
     }
   ],
-  "count": "number",
+  count: number,
 }
 ```
 
@@ -135,20 +135,20 @@ Endpoints are defined in `server/api` directory.
 
 **Response:**
 
-```jsonc
+```json5
 {
-  "artist": {
-    "id": "number",
-    "name": "string",
-    "nameTemplate": "string",  // optional
-    "origins": ["string"],
-    "genres": ["string"] | null,
-    "link": "string",
-    "logos": [
+  artist: {
+    id: string,
+    name: string,
+    nameTemplate?: string,
+    origins: string[],
+    genres: string[] | null,
+    link: string,
+    logos: [
       {
-        "title": "string",
-        "svg": "string",
-        "inverse": "boolean", // optional
+        title: string,
+        svg: string,
+        inverse?: boolean,
       }
     ],
   }
@@ -159,24 +159,24 @@ Endpoints are defined in `server/api` directory.
 
 **Response:**
 
-```jsonc
+```json5
 {
-  "logos": [
+  logos: [
     {
-      "id": "number",
-      "name": "string",
-      "nameTemplate": "string",  // optional
-      "origins": ["string"],
-      "genres": ["string"] | null,
-      "link": "string",
-      "logo": {
-          "title": "string",
-          "svg": "string",
-          "inverse": "boolean", // optional
+      id: string,
+      name: string,
+      nameTemplate?: string,
+      origins: string[],
+      genres: string[] | null,
+      link: string,
+      logo: {
+          title: string,
+          svg: string,
+          inverse?: boolean,
       }
     }
   ],
-  "count": "number",
+  count: number,
 }
 ```
 
@@ -184,10 +184,10 @@ Endpoints are defined in `server/api` directory.
 
 **Response:**
 
-```json
+```json5
 {
-  "genres": ["string"],
-  "count": "number",
+  genres: string[],
+  count: number,
 }
 
 ```
@@ -196,10 +196,10 @@ Endpoints are defined in `server/api` directory.
 
 **Response:**
 
-```json
+```json5
 {
-  "origins": ["string"],
-  "count": "number",
+  origins: string[],
+  count: number,
 }
 ```
 
@@ -229,6 +229,8 @@ npm run dev
 ```
 
 ### Adding new logos
+
+<!-- TODO: Complete doc   -->
 
 \[TODO]
 
