@@ -1,5 +1,5 @@
 {
-  "display": "standalone",
+  "display": "browser",
   "name": "SVG Music Logos",
   "short_name": "Music Logos",
   "description": "Music-related logos and symbols collection in SVG.",
