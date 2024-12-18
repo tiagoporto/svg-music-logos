@@ -5,7 +5,8 @@
   "trailingSlash": false,
   "git": {
     "deploymentEnabled": {
-      "main": false
+      "main": false,
+      "to-convert": false
     }
   }
 }
