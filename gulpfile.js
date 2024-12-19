@@ -115,11 +115,11 @@ const transformCopySVGs = () => {
 
             const filename = `${id}_${changeCase.kebabCase(logo.title)}.svg`
 
-            // check if string already exists in array
+            // check if logo name is duplicated
             logoName.forEach((name) => {
               if (name === filename) {
                 console.error(
-                  `Duplicated logo title: \x1b[31m${filename}\x1b[0m`,
+                  `\x1b[31mDuplicated logo title: ${filename}\x1b[0m`,
                 )
               }
             })
@@ -144,7 +144,7 @@ const transformCopySVGs = () => {
       (() => {
         return through.obj(async function (file, encoding, callback) {
           console.warn(
-            `\x1b[33mFile saved: ${path.relative(file.base, file.path)}!\x1b[0m`,
+            `\x1b[33mFile saved: ${path.relative(file.base, file.path)}\x1b[0m`,
           )
 
           const unformattedCode = file.contents.toString('utf8')
