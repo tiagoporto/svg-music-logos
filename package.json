@@ -21,7 +21,7 @@
   "scripts": {
     "prepare": "husky",
     "postinstall": "nuxt prepare && npm run prebuild",
-    "dev": "concurrently -k \"gulp watch\" \"nuxt dev\"",
+    "dev": "open http://localhost:3000 && concurrently -k \"gulp watch\" \"nuxt dev\"",
     "prebuild": "gulp build",
     "build": "nuxt build",
     "generate": "nuxt generate",
