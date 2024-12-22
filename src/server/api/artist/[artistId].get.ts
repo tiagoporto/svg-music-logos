@@ -3,20 +3,10 @@ import type { Logo } from '../../db/schema'
 import { createSVGPath } from '../../utils/createSVGPath'
 
 export default defineEventHandler(async (event) => {
-  let artistName = getRouterParam(event, 'artist') || ''
-  artistName = artistName
-    .replace(/-/g, ' ')
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+  const artistId = getRouterParam(event, 'artistId') || ''
 
   const artist = data.find((artist) => {
-    return (
-      artist.name
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '') === artistName
-    )
+    return artist.id === artistId
   })
 
   if (!artist) {

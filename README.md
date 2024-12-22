@@ -106,7 +106,7 @@ Endpoints are defined in `server/api` directory.
 
 #### GET /api/artists
 
-**Response:**
+**Response**
 
 ```json5
 {
@@ -133,7 +133,7 @@ Endpoints are defined in `server/api` directory.
 
 #### GET /api/artists/{id}
 
-**Response:**
+**Response**
 
 ```json5
 {
@@ -157,7 +157,14 @@ Endpoints are defined in `server/api` directory.
 
 #### GET /api/logos
 
-**Response:**
+**Parameters**
+
+| name         | type     | description   | example      |
+| ------------ | -------- | ------------- | ------------ |
+| query.genre  | *string* | Artist genre  | "Doom Metal" |
+| query.origin | *string* | Artist origin | "Denmark"    |
+
+**Response**
 
 ```json5
 {
@@ -182,7 +189,7 @@ Endpoints are defined in `server/api` directory.
 
 #### GET /api/genres
 
-**Response:**
+**Response**
 
 ```json5
 {
@@ -194,7 +201,7 @@ Endpoints are defined in `server/api` directory.
 
 #### GET /api/origins
 
-**Response:**
+**Response**
 
 ```json5
 {

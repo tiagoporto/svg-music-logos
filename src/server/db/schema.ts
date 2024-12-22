@@ -35,3 +35,7 @@ export interface Artist {
   link: string
   logos: Logo[]
 }
+
+export type Logos = Omit<Artist, 'logos'> & {
+  logo: Logo
+}

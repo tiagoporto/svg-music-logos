@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const { data } = useFetch('/api/logos')
+const { query } = useRoute()
+
+const { data } = useFetch('/api/logos', { query })
 </script>
 
 <template>

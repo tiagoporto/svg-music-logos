@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { params } = useRoute()
-const { data } = await useFetch(`/api/artist/${params.artist}`)
+const { params, query } = useRoute()
+const { data } = await useFetch(`/api/artist/${params.artistId}`, { query })
 </script>
 
 <template>

@@ -31,31 +31,22 @@
     }
   }
 
-  &__disclaimer {
-    font-weight: 300;
-    font-size: 0.9rem;
-  }
-
   &__main {
     max-width: 1000px;
     z-index: 1;
     position: relative;
     margin: auto;
-    padding: 0 20px;
-
-    @media only screen and (width >= 1000px) {
-      padding: 0;
-    }
+    padding: 20px 20px 0;
   }
 
-  &__link-title {
-    display: inline-block;
+  &__count {
+    font-size: 1.1rem;
+    margin: 0.9em;
   }
 
-  &__subtitle {
-    display: block;
-    font-size: 1.2rem;
-    color: #fff;
-    font-weight: normal;
+  &__disclaimer {
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 1em;
   }
 }

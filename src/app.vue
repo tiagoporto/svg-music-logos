@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { TITLE, DESCRIPTION, URL } from './constants/site'
-import 'normalize.css/normalize.css'
 
 useHead({
   htmlAttrs: {

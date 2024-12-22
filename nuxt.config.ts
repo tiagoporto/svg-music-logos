@@ -7,11 +7,6 @@ export default defineNuxtConfig({
     public: '../public',
   },
   srcDir: 'src/',
-  vue: {
-    compilerOptions: {
-      isCustomElement: (tag) => tag.includes('-'),
-    },
-  },
   nitro: {
     prerender: {
       routes: ['/'],
@@ -78,6 +73,7 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/test-utils/module',
     '@vite-pwa/nuxt',
+    'vuetify-nuxt-module',
   ],
   compatibilityDate: '2024-12-01',
 })
