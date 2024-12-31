@@ -241,13 +241,13 @@ npm run dev
 
 \[TODO]
 
-## 🤝 Contributing
+## Contributing 🤝
 
 Haven’t found the logo you were looking for?
 
 [Check how to contribute](docs/CONTRIBUTING.md).
 
-## 🤜🤛 Donating
+## Donating 🤜🤛
 
 This project is developed on my free time, any donation is welcome.
 
