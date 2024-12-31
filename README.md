@@ -45,7 +45,7 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 ## Stack 🧰
 
-![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300DC82?style=for-the-badge\&logo=nuxt.js\&logoColor=white)
+![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300DC82?style=for-the-badge\&logo=nuxt\&logoColor=white)
 ![vue.js](https://img.shields.io/badge/vue.js-%234FC08D?style=for-the-badge\&logo=vue.js\&logoColor=white)
 ![javascript](https://img.shields.io/badge/javascript-%23333?style=for-the-badge\&logo=javascript)
 ![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
@@ -61,8 +61,8 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 ![Stylelint](https://img.shields.io/badge/Stylelint-%231B3A4B.svg?style=for-the-badge\&logo=stylelint\&logoColor=white)
 ![Remark](https://img.shields.io/badge/Remark-%230A0E0F.svg?style=for-the-badge\&logo=remark\&logoColor=d80303)
 ![Commitlint](https://img.shields.io/badge/Commitlint-%23000.svg?style=for-the-badge\&logo=commitlint\&logoColor=white)
-![Husky](https://img.shields.io/badge/Husky-%23161618.svg?style=for-the-badge)
-![Lint Staged](https://img.shields.io/badge/Lint%20Staged-%23FFF.svg?style=for-the-badge)
+![Husky](https://img.shields.io/badge/🐶%20Husky-%23161618.svg?style=for-the-badge&logo=%F0%9F%90%B6)
+![Lint Staged](https://img.shields.io/badge/🚫%20Lint%20Staged-%23FFF.svg?style=for-the-badge)
 ![vitest](https://img.shields.io/badge/vitest-%23000?style=for-the-badge\&logo=vitest\&logoColor=yellow)
 ![coveralls](https://img.shields.io/badge/coveralls-%233F5767?style=for-the-badge\&logo=coveralls)
 ![Dependabot](https://img.shields.io/badge/dependabot-%23025E8C?style=for-the-badge\&logo=dependabot\&logoColor=white)
