@@ -1,7 +1,9 @@
-name: Checks
+name: Check Docs
 
 on:
-  workflow_call:
+  schedule:
+    # Run on the 1st of February, April, June, August, October, and December @ 00:00AM UTC-3
+    - cron: '0 3 1 FEB,APR,JUN,AUG,OCT,DEC *'
   push:
     branches: [main]
   pull_request:
@@ -12,8 +14,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  checks:
-    name: Run Checks
+  check_docs:
+    name: Check Docs
     runs-on: ubuntu-latest
 
     steps:
@@ -29,17 +31,5 @@ jobs:
       - name: Install Dependencies
         run: npm ci --ignore-scripts
 
-      - name: Prepare nuxt dependencies
-        run: npm run postinstall
-
-      - name: Check Formatting
-        run: npm run check-formatting
-
-      - name: Typechecking
-        run: npm run typecheck
-
-      - name: Lint Styles
-        run: npm run lint:styles
-
-      - name: Lint
-        run: npm run lint
+      - name: Check Docs
+        run: npm run check-docs
