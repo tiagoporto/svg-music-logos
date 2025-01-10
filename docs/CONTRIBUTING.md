@@ -6,7 +6,7 @@
 
 1.  Create the SVG file.
 
-    1.  SVG Tutorial: [How to work with SVG icons](http://fvsch.com/code/svg-icons/how-to/).
+    1.  SVG Tutorial: [How to work with SVG icons](https://fvsch.com/svg-icons).
 
     1.  Use [SVGOMG](https://jakearchibald.github.io/svgomg/) to minify the
         SVG file.

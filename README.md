@@ -17,8 +17,8 @@ Music-related logos and symbols collection in SVG.
 
 Listen on
 
-[![YouTube Music](https://img.shields.io/badge/youtube%20music-playlist-555?style=flat-square\&logo=youtube-music\&labelColor=FF0000)][youtube-music-playlist]
-[![Spotify](https://img.shields.io/badge/spotify-playlist-555?style=flat-square\&logo=spotify\&labelColor=1DB954\&logoColor=fff)][spotify-playlist]
+[![YouTube Music](https://img.shields.io/badge/youtube%20music-playlist-555?style=flat-square&logo=youtube-music&labelColor=FF0000)][youtube-music-playlist]
+[![Spotify](https://img.shields.io/badge/spotify-playlist-555?style=flat-square&logo=spotify&labelColor=1DB954&logoColor=fff)][spotify-playlist]
 
 </div>
 
@@ -36,38 +36,38 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 ![Pagespeed insights](./docs/pagespeed.svg)
 
-[![Website](https://img.shields.io/website/https/svg-music-logos.tiagoporto.com.svg?down_color=lightgrey\&down_message=offline\&style=flat-square\&up_message=online)][project]
-[![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square\&targetUrl=https://svg-music-logos.tiagoporto.com)][w3c]
-[![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks\&style=flat-square)][checks-workflow]
-[![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/unit-tests.yml?label=unit%20tests\&style=flat-square)][unit-tests-workflow]
+[![Website](https://img.shields.io/website.svg?down_color=lightgrey&down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fsvg-music-logos.tiagoporto.com)][project]
+[![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square&targetUrl=https://svg-music-logos.tiagoporto.com)][w3c]
+[![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks&style=flat-square)][checks-workflow]
+[![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/unit-tests.yml?label=unit%20tests&style=flat-square)][unit-tests-workflow]
 [![Coverage](https://img.shields.io/coverallsCoverage/github/tiagoporto/svg-music-logos?style=flat-square)][coverage]
-[![Artists links check](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?branch=main\&style=flat-square\&label=artists%20links)][dead-links-workflow]
+[![Artists links check](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?branch=main&style=flat-square&label=artists%20links)][dead-links-workflow]
 
 ## Stack 🧰
 
-![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300DC82?style=for-the-badge\&logo=nuxt\&logoColor=white)
-![vue.js](https://img.shields.io/badge/vue.js-%234FC08D?style=for-the-badge\&logo=vue.js\&logoColor=white)
-![javascript](https://img.shields.io/badge/javascript-%23333?style=for-the-badge\&logo=javascript)
-![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
-![sass](https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge\&logo=sass\&logoColor=white)
-![SVG](https://img.shields.io/badge/svg-%23462b01?style=for-the-badge\&logo=svg)
-![pwa](https://img.shields.io/badge/pwa-%235A0FC8?style=for-the-badge\&logo=pwa\&logoColor=white)
-![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge\&logo=node.js\&logoColor=white)
-![gulp](https://img.shields.io/badge/gulp-%23CF4647?style=for-the-badge\&logo=gulp\&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge\&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIzLjE1IDIuNTg3IDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg==)
-![EditorConfig](https://img.shields.io/badge/EditorConfig-%23E0EFEF.svg?style=for-the-badge\&logo=editorconfig\&logoColor=black)
-![Prettier](https://img.shields.io/badge/Prettier-1A2B34.svg?style=for-the-badge\&logo=prettier)
-![ESLint](https://img.shields.io/badge/ESLint-%234B32C3.svg?style=for-the-badge\&logo=eslint\&logoColor=white)
-![Stylelint](https://img.shields.io/badge/Stylelint-%231B3A4B.svg?style=for-the-badge\&logo=stylelint\&logoColor=white)
-![Remark](https://img.shields.io/badge/Remark-%230A0E0F.svg?style=for-the-badge\&logo=remark\&logoColor=d80303)
-![Commitlint](https://img.shields.io/badge/Commitlint-%23000.svg?style=for-the-badge\&logo=commitlint\&logoColor=white)
+![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300DC82?style=for-the-badge&logo=nuxt&logoColor=white)
+![vue.js](https://img.shields.io/badge/vue.js-%234FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![javascript](https://img.shields.io/badge/javascript-%23333?style=for-the-badge&logo=javascript)
+![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![sass](https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![SVG](https://img.shields.io/badge/svg-%23462b01?style=for-the-badge&logo=svg)
+![pwa](https://img.shields.io/badge/pwa-%235A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
+![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![gulp](https://img.shields.io/badge/gulp-%23CF4647?style=for-the-badge&logo=gulp&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIzLjE1IDIuNTg3IDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg==)
+![EditorConfig](https://img.shields.io/badge/EditorConfig-%23E0EFEF.svg?style=for-the-badge&logo=editorconfig&logoColor=black)
+![Prettier](https://img.shields.io/badge/Prettier-1A2B34.svg?style=for-the-badge&logo=prettier)
+![ESLint](https://img.shields.io/badge/ESLint-%234B32C3.svg?style=for-the-badge&logo=eslint&logoColor=white)
+![Stylelint](https://img.shields.io/badge/Stylelint-%231B3A4B.svg?style=for-the-badge&logo=stylelint&logoColor=white)
+![Remark](https://img.shields.io/badge/Remark-%230A0E0F.svg?style=for-the-badge&logo=remark&logoColor=d80303)
+![Commitlint](https://img.shields.io/badge/Commitlint-%23000.svg?style=for-the-badge&logo=commitlint&logoColor=white)
 ![Husky](https://img.shields.io/badge/%F0%9F%90%B6%20Husky-%23161618.svg?style=for-the-badge)
 ![Lint Staged](https://img.shields.io/badge/%F0%9F%9A%AB%20Lint%20Staged-%23fef9f9.svg?style=for-the-badge)
-![vitest](https://img.shields.io/badge/vitest-%23000?style=for-the-badge\&logo=vitest\&logoColor=yellow)
-![coveralls](https://img.shields.io/badge/coveralls-%233F5767?style=for-the-badge\&logo=coveralls)
-![Dependabot](https://img.shields.io/badge/dependabot-%23025E8C?style=for-the-badge\&logo=dependabot\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge\&logo=githubactions\&logoColor=white)
-![vercel](https://img.shields.io/badge/vercel-%23000000?style=for-the-badge\&logo=vercel\&logoColor=white)
+![vitest](https://img.shields.io/badge/vitest-%23000?style=for-the-badge&logo=vitest&logoColor=yellow)
+![coveralls](https://img.shields.io/badge/coveralls-%233F5767?style=for-the-badge&logo=coveralls)
+![Dependabot](https://img.shields.io/badge/dependabot-%23025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![vercel](https://img.shields.io/badge/vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 <!-- ![PostCSS](https://img.shields.io/badge/PostCSS-%23DD3A0A.svg?style=for-the-badge&logo=postcss&logoColor=white)
 ![Browserslist](https://img.shields.io/badge/Browserslist-%23FED538.svg?style=for-the-badge&color=%231D1D1D)
@@ -161,8 +161,8 @@ Endpoints are defined in `server/api` directory.
 
 | name         | type     | description   | example      |
 | ------------ | -------- | ------------- | ------------ |
-| query.genre  | *string* | Artist genre  | "Doom Metal" |
-| query.origin | *string* | Artist origin | "Denmark"    |
+| query.genre  | _string_ | Artist genre  | "Doom Metal" |
+| query.origin | _string_ | Artist origin | "Denmark"    |
 
 **Response**
 
@@ -264,21 +264,12 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 <!-- Links -->
 
 [project]: https://svg-music-logos.tiagoporto.com
-
 [youtube-music-playlist]: https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6&feature=share
-
 [spotify-playlist]: https://open.spotify.com/playlist/20XHrsLWAJkgBBagZiURM5
-
 [w3c]: https://validator.nu/?doc=https%3A%2F%2Fsvg-music-logos.tiagoporto.com
-
 [checks-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/checks.yml
-
 [unit-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/unit-tests.yml
-
 [coverage]: https://coveralls.io/github/tiagoporto/svg-music-logos
-
 [dead-links-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yml
-
 [gh-sponsor]: https://github.com/sponsors/tiagoporto
-
 [paypal-sponsor]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YTDUQ8RZ2G4Q8&lc=US&item_name=tiagoporto&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
