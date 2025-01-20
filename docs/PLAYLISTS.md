@@ -19,3 +19,14 @@ Missing artists:
 - James Hetfield
 - Rigs
 - The big four
+
+## Deezer
+
+<https://deezer.page.link/QFrmJ2UzBNdybEbN7>
+
+Missing artists:
+
+- Derek Riggs (Painter)
+- James Hetfield
+- Rigs
+- The big four
