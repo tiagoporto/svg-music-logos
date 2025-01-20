@@ -8,12 +8,11 @@ on:
     types: [synchronize, opened, reopened, ready_for_review, converted_to_draft]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: unit-tests_${{ github.workflow }}_${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
-  tests:
-    name: Run Tests
+  unit_tests:
     runs-on: ubuntu-latest
 
     steps:

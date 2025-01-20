@@ -7,7 +7,7 @@ on:
     - cron: '0 3 1,15 * *'
 
 jobs:
-  dead-links:
+  dead_links:
     name: Check broken links
     runs-on: ubuntu-latest
 

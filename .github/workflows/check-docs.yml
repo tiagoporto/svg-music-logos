@@ -10,12 +10,11 @@ on:
     types: [synchronize, opened, reopened, ready_for_review, converted_to_draft]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: check-docs_${{ github.workflow }}_${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
   check_docs:
-    name: Check Docs
     runs-on: ubuntu-latest
 
     steps:
