@@ -37,6 +37,7 @@
     position: relative;
     margin: auto;
     padding: 20px 20px 0;
+    pointer-events: none;
   }
 
   &__count {
