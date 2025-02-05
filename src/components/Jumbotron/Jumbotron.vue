@@ -4,6 +4,13 @@ import { debounce } from 'throttle-debounce'
 
 const jumbotron = ref<HTMLElement | null>(null)
 
+const setBgColor = () => {
+  const element = window
+  if (element.innerWidth > 768) {
+    element.document.body.style.backgroundColor = '#fff'
+  }
+}
+
 const setJumbotronHeight = () => {
   const element = window
 
@@ -21,18 +28,18 @@ const setJumbotronHeight = () => {
   }
 }
 
+const setBgColorDebounced = debounce(8, setBgColor)
 const setJumbotronHeightDebounced = debounce(8, setJumbotronHeight)
 
 onMounted(() => {
-  const element = window
-  if (element.innerWidth > 768) {
-    element.document.body.style.backgroundColor = '#fff'
-  }
+  setBgColor()
   setJumbotronHeight()
+  window.addEventListener('resize', setBgColorDebounced)
   window.addEventListener('scroll', setJumbotronHeightDebounced)
 })
 
 onUnmounted(() => {
+  window.removeEventListener('resize', setBgColorDebounced)
   window.removeEventListener('scroll', setJumbotronHeightDebounced)
 })
 </script>

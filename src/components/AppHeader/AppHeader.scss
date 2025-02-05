@@ -21,7 +21,7 @@
     height: 6px;
     display: block;
     position: relative;
-    z-index: 1;
+    z-index: 3;
     top: 0;
   }
 
@@ -37,7 +37,6 @@
     position: relative;
     margin: auto;
     padding: 20px 20px 0;
-    pointer-events: none;
   }
 
   &__count {
