@@ -48,10 +48,10 @@ useHead({
       <Link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
       <!-- A special SVG for Safari -->
-      <Link rel="mask-icon" href="safari-mask-icon.svg" color="#2BB5E5" />
+      <Link rel="mask-icon" href="safari-mask-icon.svg" color="#28a7d6" />
 
       <!-- Add to homescreen for Chrome on Android -->
-      <Meta name="theme-color" content="#2BB5E5" />
+      <Meta name="theme-color" content="#28a7d6" />
       <Meta name="mobile-web-app-capable" content="yes" />
 
       <!-- Add to homescreen for Safari on iOS -->
@@ -70,7 +70,7 @@ useHead({
       <!-- Tile icon for Win8 -->
       <!-- Windows 8 IE 10-->
       <Meta name="application-name" :content="TITLE" />
-      <Meta name="msapplication-TileColor" content="#2BB5E5" />
+      <Meta name="msapplication-TileColor" content="#28a7d6" />
       <Meta
         name="msapplication-TileImage"
         content="img/touch/mstile-150x150.png"

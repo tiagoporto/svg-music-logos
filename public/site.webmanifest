@@ -4,8 +4,8 @@
   "short_name": "Music Logos",
   "description": "Music-related logos and symbols collection in SVG.",
   "start_url": "/",
-  "theme_color": "#2BB5E5",
-  "background_color": "#1fc8db",
+  "theme_color": "#28a7d6",
+  "background_color": "#28a7d6",
   "icons": [
     {
       "src": "img/touch/chrome-touch-icon-192x192.png",
