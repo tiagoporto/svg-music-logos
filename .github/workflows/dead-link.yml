@@ -6,6 +6,9 @@ on:
     # Run on the 1st and 15th of each month @ 00:00AM UTC-3
     - cron: '0 3 1,15 * *'
 
+permissions:
+  contents: read
+
 jobs:
   dead_links:
     name: Check broken links
@@ -15,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby@d781c1b4ed31764801bfae177617bb0446f5ef8d
         with:
           ruby-version: '3.3'
 

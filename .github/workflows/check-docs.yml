@@ -13,6 +13,9 @@ concurrency:
   group: check-docs_${{ github.workflow }}_${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 jobs:
   check_docs:
     runs-on: ubuntu-latest

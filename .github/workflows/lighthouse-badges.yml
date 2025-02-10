@@ -4,6 +4,9 @@ on:
   - workflow_call
   - workflow_dispatch
 
+permissions:
+  contents: read
+
 jobs:
   lighthouse-badger-easy:
     runs-on: ubuntu-latest
