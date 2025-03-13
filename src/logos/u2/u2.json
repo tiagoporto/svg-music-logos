@@ -7,15 +7,13 @@
   "logos": [
     {
       "title": "The Joshua Tree",
-      "css": "u2_the-joshua-tree-text.css",
+      "css": "u2_the-joshua-tree.css",
       "svg": "u2_the-joshua-tree.svg",
-      "className": "u2--the-joshua-tree-text"
+      "className": "u2--the-joshua-tree"
     },
     {
       "title": "Joshua Tree",
-      "svg": "u2_the-joshua-tree.svg",
-      "css": "u2_joshua-tree.css",
-      "className": "u2--joshua-tree"
+      "svg": "u2_joshua-tree.svg"
     },
     {
       "title": "How To Dismantle An Atomic Bomb",
