@@ -11,8 +11,7 @@
     },
     {
       "title": "Live In Japan Symbol",
-      "svg": "hibria_symbol.svg",
-      "css": "hibria_symbol.css"
+      "svg": "hibria_symbol.svg"
     },
     {
       "title": "Hibria",
@@ -21,7 +20,8 @@
     {
       "title": "Symbol",
       "className": "hibria--symbol",
-      "svg": "hibria_symbol.svg"
+      "svg": "hibria_symbol.svg",
+      "css": "hibria_symbol.css"
     }
   ]
 }
