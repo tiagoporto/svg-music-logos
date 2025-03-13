@@ -1,0 +1,13 @@
+{
+  "id": "pentagram",
+  "name": "Pentagram",
+  "origins": ["USA"],
+  "genres": ["Doom Metal"],
+  "link": "http://www.pentagramusa.com/",
+  "logos": [
+    {
+      "title": "Day of Reckoning",
+      "svg": "pentagram_day-of-reckoning.svg"
+    }
+  ]
+}
