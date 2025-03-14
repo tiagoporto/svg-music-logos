@@ -7,11 +7,6 @@ export default defineNuxtConfig({
     public: '../public',
   },
   srcDir: 'src/',
-  nitro: {
-    prerender: {
-      routes: ['/'],
-    },
-  },
   vite: {
     css: {
       preprocessorOptions: {
