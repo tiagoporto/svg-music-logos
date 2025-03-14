@@ -1,0 +1,13 @@
+{
+  "id": "saxon",
+  "name": "Saxon",
+  "origins": ["England"],
+  "genres": ["Heavy Metal"],
+  "link": "https://www.saxon747.com",
+  "logos": [
+    {
+      "title": "The Eagle Has Landed - Eagle",
+      "svg": "saxon_the-eagle-has-landed-eagle.svg"
+    }
+  ]
+}
