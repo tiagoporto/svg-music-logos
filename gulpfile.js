@@ -181,5 +181,5 @@ export const build = series(parallel(styles, generateData), transformCopySVGs)
 export const watch = () => {
   gulpWatch(paths.logos + '**/*.{scss,json}', styles)
   gulpWatch(paths.logos + '**/*.json', generateData)
-  gulpWatch(paths.logos + '**/*.{scss,json}', transformCopySVGs)
+  gulpWatch(paths.logos + '**/*.{scss,json,svg}', transformCopySVGs)
 }
