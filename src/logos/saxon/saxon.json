@@ -6,6 +6,22 @@
   "link": "https://www.saxon747.com",
   "logos": [
     {
+      "title": "Saxon",
+      "svg": "saxon_saxon.svg",
+      "className": "saxon--saxon",
+      "css": "saxon_saxon.css"
+    },
+    {
+      "title": "Wheels of Steel",
+      "svg": "saxon_wheels-of-steel.svg"
+    },
+    {
+      "title": "Strong Arm of the Law",
+      "svg": "saxon_saxon.svg",
+      "className": "saxon--strong-arm-of-the-law",
+      "css": "saxon_strong-arm-of-the-law.css"
+    },
+    {
       "title": "The Eagle Has Landed - Eagle",
       "svg": "saxon_the-eagle-has-landed-eagle.svg"
     }
