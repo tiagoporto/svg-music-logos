@@ -26,5 +26,6 @@ logs
 
 src/server/db/data.json
 src/logos/**/*.css
-public/logos/
+public/logos/**/*.svg
+public/logos/**/*.zip
 coverage/

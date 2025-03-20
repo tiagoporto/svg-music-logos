@@ -22,6 +22,12 @@ useHead({
       <Meta property="og:type" content="website" />
       <Meta property="og:url" :content="URL" />
       <Meta
+        v-if="$route.params.artistId"
+        property="og:image"
+        :content="`/logos/${$route.params.artistId}/og.png`"
+      />
+      <Meta
+        v-else
         property="og:image"
         content="https://socialify.git.ci/tiagoporto/svg-music-logos/png?description=1&language=1&owner=1&pattern=Solid"
       />
@@ -35,6 +41,12 @@ useHead({
       <Meta name="twitter:title" :content="TITLE" />
       <Meta name="twitter:description" :content="DESCRIPTION" />
       <Meta
+        v-if="$route.params.artistId"
+        name="twitter:image"
+        :content="`/logos/${$route.params.artistId}/og.png`"
+      />
+      <Meta
+        v-else
         name="twitter:image"
         content="https://socialify.git.ci/tiagoporto/svg-music-logos/png?description=1&language=1&owner=1&pattern=Solid"
       />
