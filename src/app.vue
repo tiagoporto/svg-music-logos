@@ -21,6 +21,7 @@ useHead({
       <Meta property="og:description" :content="DESCRIPTION" />
       <Meta property="og:type" content="website" />
       <Meta property="og:url" :content="URL" />
+      <Meta property="og:logo" content="apple-touch-icon.png" />
       <Meta
         v-if="$route.params.artistId"
         property="og:image"
