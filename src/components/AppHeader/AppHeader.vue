@@ -92,9 +92,41 @@ onUnmounted(() => {
         they refer.
       </p>
 
+      <v-btn
+        color="light-blue-darken-3"
+        append-icon="mdi-menu-down"
+        size="x-large"
+        tile
+        class="mb-5"
+      >
+        Listen On
+
+        <v-menu activator="parent">
+          <v-list tile>
+            <v-list-item
+              href="https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6&feature=share"
+              target="_blank"
+            >
+              <v-list-item-title>
+                <v-icon icon="mdi-youtube" />
+                YT Music</v-list-item-title
+              >
+            </v-list-item>
+
+            <v-list-item
+              href="https://open.spotify.com/playlist/20XHrsLWAJkgBBagZiURM5"
+              target="_blank"
+            >
+              <v-list-item-title
+                ><v-icon icon="mdi-spotify" /> Spotify</v-list-item-title
+              >
+            </v-list-item>
+          </v-list>
+        </v-menu>
+      </v-btn>
+
       <v-autocomplete
         clearable
-        auto-select-first
         variant="solo"
         placeholder="Search Artist"
         :items="artists?.artists"

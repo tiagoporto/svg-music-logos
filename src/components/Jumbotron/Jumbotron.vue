@@ -20,7 +20,7 @@ const setJumbotronHeight = () => {
       if (element.scrollY > 20) {
         jumbotron.value.style.height = '100%'
       } else {
-        jumbotron.value.style.height = '450px'
+        jumbotron.value.style.height = '500px'
       }
     } else {
       jumbotron.value.style.height = '200%'
