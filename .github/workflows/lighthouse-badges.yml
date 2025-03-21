@@ -38,5 +38,6 @@ jobs:
           else
             git add docs/pagespeed.svg
             git commit -m "Update pagespeed badge"
+            git pull --rebase
             git push
           fi

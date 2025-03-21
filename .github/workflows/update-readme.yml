@@ -38,5 +38,6 @@ jobs:
           else
             git add README.md
             git commit -m "Update logo badges count"
+            git pull --rebase
             git push
           fi
