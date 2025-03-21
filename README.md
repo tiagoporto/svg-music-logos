@@ -19,7 +19,6 @@ Listen on
 
 [![YouTube Music](https://img.shields.io/badge/youtube%20music-playlist-555?style=flat-square&logo=youtube-music&labelColor=FF0000)][youtube-music-playlist]
 [![Spotify](https://img.shields.io/badge/spotify-playlist-555?style=flat-square&logo=spotify&labelColor=1DB954&logoColor=fff)][spotify-playlist]
-[![Deezer](https://img.shields.io/badge/deezer-playlist-555?style=flat-square&labelColor=a238ff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgPHBhdGggZD0iTTIwLjEgMy43Yy4yLTEuMy41LTIuMS45LTIuMS43IDAgMS4yIDIuOCAxLjIgNi4zcy0uNSA2LjMtMS4yIDYuMy0uNS0uNS0uNy0xLjNjLS4zIDIuOS0xIDQuOS0xLjggNC45cy0xLjEtMS4yLTEuNS0zLjFjLS4yIDMuNi0uOSA2LjItMS42IDYuMnMtLjktMS0xLjItMi43QzEzLjggMjEuNiAxMyAyNCAxMiAyNHMtMS45LTIuNC0yLjItNS44Yy0uMyAxLjctLjcgMi43LTEuMiAyLjctLjcgMC0xLjQtMi42LTEuNi02LjItLjQgMS45LS45IDMuMS0xLjUgMy4xcy0xLjUtMi0xLjgtNC45Yy0uMi44LS41IDEuMy0uNyAxLjMtLjcgMC0xLjItMi44LTEuMi02LjNTMi4zIDEuNiAzIDEuNnMuNy44LjkgMi4xQzQuMiAxLjUgNC44IDAgNS41IDBTNyAyIDcuMyA1Yy4zLTIuMi44LTMuNSAxLjMtMy41UzEwIDQuMiAxMC4yIDhjLjQtMS45IDEuMS0zLjEgMS44LTMuMXMxLjQgMS4yIDEuOCAzLjFjLjItMy44LjktNi41IDEuNi02LjVzMSAxLjQgMS4zIDMuNWMuNC0yLjkgMS01IDEuOC01czEuMiAxLjQgMS42IDMuN1pNLjcgMTBDLjMgMTAgMCA4LjcgMCA3LjJzLjMtMi44LjctMi44LjcgMS4yLjcgMi44UzEuMSAxMCAuNyAxMFptMjIuNiAwYy0uNCAwLS43LTEuMy0uNy0yLjhzLjMtMi44LjctMi44LjcgMS4yLjcgMi44LS4zIDIuOC0uNyAyLjhaIiBzdHlsZT0iZmlsbDojZmZmIi8+Cjwvc3ZnPg==)][deezer-playlist]
 
 </div>
 
@@ -267,7 +266,6 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 [project]: https://svg-music-logos.tiagoporto.com
 [youtube-music-playlist]: https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6&feature=share
 [spotify-playlist]: https://open.spotify.com/playlist/20XHrsLWAJkgBBagZiURM5
-[deezer-playlist]: https://deezer.page.link/QFrmJ2UzBNdybEbN7
 [w3c]: https://validator.nu/?doc=https%3A%2F%2Fsvg-music-logos.tiagoporto.com
 [checks-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/checks.yml
 [unit-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/unit-tests.yml
