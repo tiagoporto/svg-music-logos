@@ -6,6 +6,7 @@ const { data: artists } = useFetch('/api/artists')
 // const { data: origin } = useFetch('/api/origins')
 const { data: logos } = useFetch('/api/logos')
 
+const { gtag } = useGtag()
 const header = ref<HTMLElement | null>(null)
 const className = ref('header')
 const router = useRouter()
@@ -22,6 +23,15 @@ const changeRoute = (value: string) => {
   }
 
   return router.push({ name: 'index', query })
+}
+
+const handleClick = (audioStreaming: 'YT Music' | 'Spotify') => {
+  if (process.env.NODE_ENV === 'production') {
+    gtag('event', 'svg-music-logos', {
+      event_category: 'Listen On',
+      event_label: audioStreaming,
+    })
+  }
 }
 
 // const changeGenre = (value: string | null) => {
@@ -106,6 +116,7 @@ onUnmounted(() => {
             <v-list-item
               href="https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6&feature=share"
               target="_blank"
+              @click="handleClick('YT Music')"
             >
               <v-list-item-title>
                 <v-icon icon="mdi-youtube" />
@@ -116,6 +127,7 @@ onUnmounted(() => {
             <v-list-item
               href="https://open.spotify.com/playlist/20XHrsLWAJkgBBagZiURM5"
               target="_blank"
+              @click="handleClick('Spotify')"
             >
               <v-list-item-title
                 ><v-icon icon="mdi-spotify" /> Spotify</v-list-item-title

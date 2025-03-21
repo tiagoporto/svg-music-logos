@@ -3,6 +3,9 @@ import { defineNuxtConfig } from 'nuxt/config'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  app: {
+    baseURL: '/svg-music-logos/',
+  },
   dir: {
     public: '../public',
   },
@@ -16,16 +19,15 @@ export default defineNuxtConfig({
       },
     },
   },
+  gtag: {
+    enabled: process.env.NODE_ENV === 'production',
+    id: '',
+  },
   googleFonts: {
     preconnect: true,
     display: 'swap',
     families: {
       Lato: [300, 400, 700],
-    },
-  },
-  scripts: {
-    registry: {
-      googleAnalytics: true,
     },
   },
   pwa: {
@@ -53,15 +55,6 @@ export default defineNuxtConfig({
       type: 'module',
     },
   },
-  runtimeConfig: {
-    public: {
-      scripts: {
-        googleAnalytics: {
-          id: '',
-        },
-      },
-    },
-  },
   modules: [
     '@nuxt/eslint',
     '@nuxt/scripts',
@@ -69,6 +62,7 @@ export default defineNuxtConfig({
     '@nuxt/test-utils/module',
     '@vite-pwa/nuxt',
     'vuetify-nuxt-module',
+    'nuxt-gtag',
   ],
   compatibilityDate: '2024-12-01',
 })

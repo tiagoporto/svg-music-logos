@@ -5,6 +5,7 @@ interface GithubCornerProps {
   repo: string
 }
 
+const { gtag } = useGtag()
 const { repo } = defineProps<GithubCornerProps>()
 const corner = ref<HTMLElement | null>(null)
 
@@ -19,6 +20,14 @@ const setPosition = debounce(5, () => {
     }
   }
 })
+
+const handleClick = () => {
+  if (process.env.NODE_ENV === 'production') {
+    gtag('event', 'svg-music-logos', {
+      event_label: 'Open Github Project Page',
+    })
+  }
+}
 
 onMounted(() => {
   window.addEventListener('wheel', setPosition)
@@ -43,6 +52,7 @@ onUnmounted(() => {
       aria-label="View source on Github"
       target="_blank"
       rel="noopener"
+      @click="handleClick"
     >
       <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
       <path

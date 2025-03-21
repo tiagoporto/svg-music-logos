@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 // @ts-expect-error: missing type
 import CountryFlag from '@dzangolab/vue-country-flag-icon'
-import '@dzangolab/vue-country-flag-icon/dist/CountryFlag.css' // import stylesheet
+import '@dzangolab/vue-country-flag-icon/dist/CountryFlag.css'
 
 import flagIso from './FlagIso.json'
 import type { Logo, Origins } from '../../server/db/schema'
@@ -15,9 +15,9 @@ interface CardProps {
   logo: Logo
 }
 
+const { gtag } = useGtag()
 const { title, link, genres, origins, logo, titleTemplate } =
   defineProps<CardProps>()
-const { proxy } = useScriptGoogleAnalytics()
 
 const handleClick = async (path: string) => {
   const filePath = path.split('/')
@@ -29,11 +29,9 @@ const handleClick = async (path: string) => {
   link.click()
 
   if (process.env.NODE_ENV === 'production') {
-    // @ts-expect-error: broken types form module
-    proxy.gtag('event', 'click', {
-      event_category: 'download',
-      event_label: 'Download SVG',
-      value: filename,
+    gtag('event', 'svg-music-logos', {
+      event_category: 'Download SVG',
+      event_label: filename,
     })
   }
 }
