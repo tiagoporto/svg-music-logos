@@ -12,6 +12,7 @@ const query = computed(() => {
 const { data } = useFetch('/api/logos', { query })
 
 const changePage = (page: number) => {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
   router.push({ query: { page } })
   currentPage.value = page
 }
@@ -33,6 +34,7 @@ const changePage = (page: number) => {
     :model-value="Number(currentPage)"
     :length="data?.pagination.totalPages"
     color="light-blue-darken-3"
+    total-visible="5"
     @update:model-value="changePage($event)"
   ></v-pagination>
 </template>
