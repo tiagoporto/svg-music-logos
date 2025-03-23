@@ -12,17 +12,14 @@ const className = ref('header')
 const router = useRouter()
 
 const changeRoute = (value: string) => {
-  const { query } = useRoute()
-
   if (value) {
     return router.push({
       name: 'artist-artistId',
       params: { artistId: value },
-      query,
     })
   }
 
-  return router.push({ name: 'index', query })
+  return router.push({ name: 'index' })
 }
 
 const handleClick = (audioStreaming: 'YT Music' | 'Spotify') => {

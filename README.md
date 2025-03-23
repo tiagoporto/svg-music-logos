@@ -163,6 +163,7 @@ Endpoints are defined in `server/api` directory.
 | ------------ | -------- | ------------- | ------------ |
 | query.genre  | _string_ | Artist genre  | "Doom Metal" |
 | query.origin | _string_ | Artist origin | "Denmark"    |
+| query.page   | _number_ | Current Page  | 2            |
 
 **Response**
 
@@ -177,13 +178,18 @@ Endpoints are defined in `server/api` directory.
       genres: string[] | null,
       link: string,
       logo: {
-          title: string,
-          svg: string,
-          inverse?: boolean,
+        title: string,
+        svg: string,
+        inverse?: boolean,
       }
     }
   ],
   count: number,
+  pagination: {
+    totalRecords: number,
+    currentPage: number,
+    totalPages: number,
+  },
 }
 ```
 
