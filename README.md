@@ -34,8 +34,6 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 ## Status ✅
 
-![Pagespeed insights](./docs/pagespeed.svg)
-
 [![Website](https://img.shields.io/website.svg?down_color=lightgrey&down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fsvg-music-logos.tiagoporto.com)][project]
 [![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square&targetUrl=https://svg-music-logos.tiagoporto.com)][w3c]
 [![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks&style=flat-square)][checks-workflow]
