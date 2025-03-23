@@ -5,8 +5,6 @@
     <slot />
   </main>
 
-  <BackTop />
-
   <AppFooter />
 </template>
 
