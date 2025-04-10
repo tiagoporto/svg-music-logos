@@ -1,0 +1,14 @@
+{
+  "id": "alexi-laiho",
+  "name": "Alexi Laiho",
+  "origins": ["Finland"],
+  "genres": ["Melodic Death Metal", "Power Metal"],
+  "link": "https://www.instagram.com/alexilaiho.official",
+  "logos": [
+    {
+      "title": "Greeny Skull",
+      "svg": "alexi-laiho_greeny-skull.svg",
+      "inverse": true
+    }
+  ]
+}
