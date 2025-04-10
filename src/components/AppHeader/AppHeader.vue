@@ -1,15 +1,25 @@
 <script setup lang="ts">
 import { TITLE } from '../../constants/site'
+import type { Artist } from '../../server/db/schema'
 import { debounce } from 'throttle-debounce'
-const { data: artists, status } = useFetch('/api/artists')
+const { params } = useRoute()
+const { data: artists, status } = await useFetch('/api/artists')
 // const { data: genres } = useFetch('/api/genres')
 // const { data: origin } = useFetch('/api/origins')
 const { data: logos } = useFetch('/api/logos')
 
 const { gtag } = useGtag()
+const router = useRouter()
 const header = ref<HTMLElement | null>(null)
 const className = ref('header')
-const router = useRouter()
+const selectedArtist = ref<Artist | null>(null)
+
+if (params.artistId) {
+  const selected = artists.value?.artists.find(
+    (artist) => artist.id === params.artistId,
+  )
+  selectedArtist.value = toRaw(selected) || null
+}
 
 const changeRoute = (value: string) => {
   if (value) {
@@ -135,6 +145,8 @@ onUnmounted(() => {
       </v-btn>
 
       <v-autocomplete
+        v-model="selectedArtist"
+        :ssr="false"
         clearable
         variant="solo"
         placeholder="Search Artist"
@@ -142,7 +154,7 @@ onUnmounted(() => {
         item-title="name"
         item-value="id"
         :disabled="status !== 'success'"
-        @update:model-value="changeRoute"
+        @update:model-value="(value) => changeRoute(value as unknown as string)"
       ></v-autocomplete>
 
       <!-- <v-select
