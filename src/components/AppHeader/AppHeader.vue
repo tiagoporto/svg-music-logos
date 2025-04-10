@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { TITLE } from '../../constants/site'
 import { debounce } from 'throttle-debounce'
-const { data: artists } = useFetch('/api/artists')
+const { data: artists, status } = useFetch('/api/artists')
 // const { data: genres } = useFetch('/api/genres')
 // const { data: origin } = useFetch('/api/origins')
 const { data: logos } = useFetch('/api/logos')
@@ -138,9 +138,10 @@ onUnmounted(() => {
         clearable
         variant="solo"
         placeholder="Search Artist"
-        :items="artists?.artists"
+        :items="artists?.artists || []"
         item-title="name"
         item-value="id"
+        :disabled="status !== 'success'"
         @update:model-value="changeRoute"
       ></v-autocomplete>
 
