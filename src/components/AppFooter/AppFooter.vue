@@ -4,8 +4,7 @@ const year = new Date().getFullYear()
 
 <template>
   <footer class="footer">
-    <p>©Copyright 2016-{{ year }}</p>
-    <p>Tiago Porto</p>
+    <p>© 2016-{{ year }} Tiago Porto</p>
   </footer>
 </template>
 
