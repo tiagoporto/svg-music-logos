@@ -146,7 +146,6 @@ onUnmounted(() => {
 
       <v-autocomplete
         v-model="selectedArtist"
-        :ssr="false"
         clearable
         variant="solo"
         placeholder="Search Artist"
