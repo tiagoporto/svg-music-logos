@@ -6,7 +6,7 @@ const { params } = useRoute()
 const { data: artists, status } = await useFetch('/api/artists')
 // const { data: genres } = useFetch('/api/genres')
 // const { data: origin } = useFetch('/api/origins')
-const { data: logos } = useFetch('/api/logos')
+const { data: logos } = await useFetch('/api/logos')
 
 const { gtag } = useGtag()
 const router = useRouter()
