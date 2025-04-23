@@ -48,7 +48,9 @@ const changePage = (page: number) => {
     <v-pagination
       :model-value="Number(currentPage)"
       :length="data?.pagination.totalPages"
-      color="light-blue-darken-3"
+      color="white"
+      total-visible="4"
+      variant="tonal"
       @update:model-value="changePage($event)"
     ></v-pagination>
   </template>
