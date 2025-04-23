@@ -3,7 +3,7 @@ import * as prettier from 'prettier'
 import { Buffer } from 'node:buffer'
 import { src, dest, series, parallel, watch as gulpWatch } from 'gulp'
 import replace from 'gulp-replace'
-import * as dartSass from 'sass'
+import * as sassEmbedded from 'sass-embedded'
 import gulpSass from 'gulp-sass'
 import jsonConcat from 'gulp-concat-json-to-array'
 import changed from 'gulp-changed'
@@ -18,7 +18,7 @@ import { filterGenres } from './src/server/utils/filterGenres.js'
 import { filterLogos } from './src/server/utils/filterLogos.js'
 import { filterOrigins } from './src/server/utils/filterOrigins.js'
 
-const sass = gulpSass(dartSass)
+const sass = gulpSass(sassEmbedded)
 const paths = {
   public: 'public/',
   db: 'src/server/db/',
