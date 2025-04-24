@@ -1,7 +1,8 @@
 import { injectCSSinSVG } from './'
 import { describe, expect, it } from 'vitest'
 
-describe('injectCSSinSVG', () => {
+// eslint-disable-next-line vitest/valid-title
+describe(injectCSSinSVG, () => {
   it(`don't do anything if svg parameter is missing`, () => {
     expect.assertions(1)
 

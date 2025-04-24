@@ -1,7 +1,8 @@
 import { injectClassName } from './'
 import { describe, expect, it } from 'vitest'
 
-describe('injectClassName', () => {
+// eslint-disable-next-line vitest/valid-title
+describe(injectClassName, () => {
   describe('simple cases', () => {
     it('add class when already has a class attribute', () => {
       expect.assertions(1)

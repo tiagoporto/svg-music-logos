@@ -12,7 +12,8 @@ const data = [
   { id: 'unknown' },
 ]
 
-describe('filterOrigins', () => {
+// eslint-disable-next-line vitest/valid-title
+describe(filterOrigins, () => {
   it('return sorted origins data', () => {
     expect.hasAssertions()
 
