@@ -29,3 +29,9 @@ src/logos/**/*.css
 public/logos/**/*.svg
 public/logos/**/*.zip
 coverage/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

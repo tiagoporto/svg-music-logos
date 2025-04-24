@@ -1,0 +1,49 @@
+name: E2E Tests
+
+on:
+  workflow_call:
+  push:
+    branches: main
+  pull_request:
+    types:
+      - synchronize # PR was updated
+      - opened # PR was open
+      - reopened # PR was closed and is now open again
+      - ready_for_review # PR was converted from draft to open
+
+concurrency:
+  group: e2e-tests_${{ github.workflow }}_${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  visual_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install Dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Prepare nuxt dependencies
+        run: npm run postinstall
+
+      - name: Build app
+        run: npm run build
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright tests with Happo
+        env:
+          HAPPO_API_KEY: ${{ secrets.HAPPO_API_KEY }}
+          HAPPO_API_SECRET: ${{ secrets.HAPPO_API_SECRET }}
+        run: npx happo-e2e -- npm run test:e2e

@@ -3,6 +3,7 @@ import { defineVitestConfig } from '@nuxt/test-utils/config'
 export default defineVitestConfig({
   root: './',
   test: {
+    include: ['**/*.test.?(c|m)[jt]s?(x)'],
     coverage: {
       provider: 'v8',
       reportsDirectory: 'coverage',
