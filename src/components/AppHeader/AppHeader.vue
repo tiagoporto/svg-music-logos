@@ -3,10 +3,10 @@ import { TITLE } from '../../constants/site'
 import type { Artist } from '../../server/db/schema'
 import { debounce } from 'throttle-debounce'
 const { params } = useRoute()
-const { data: artists, status } = await useFetch('/api/artists')
+const { data: artists, status: artistsStatus } = await useFetch('/api/artists')
 // const { data: genres } = useFetch('/api/genres')
 // const { data: origin } = useFetch('/api/origins')
-const { data: logos } = await useFetch('/api/logos')
+const { data: logos, status: logosStatus } = useFetch('/api/logos')
 
 const { gtag } = useGtag()
 const router = useRouter()
@@ -98,7 +98,10 @@ onUnmounted(() => {
 
       <p>Music-related logos and symbols collection in SVG.</p>
 
-      <p class="header__count">
+      <p
+        v-if="artistsStatus === 'success' && logosStatus === 'success'"
+        class="header__count"
+      >
         {{ artists?.count }} artists • {{ logos?.count }} logos
       </p>
 
@@ -152,7 +155,7 @@ onUnmounted(() => {
         :items="artists?.artists || []"
         item-title="name"
         item-value="id"
-        :disabled="status !== 'success'"
+        :disabled="artistsStatus !== 'success'"
         @update:model-value="(value) => changeRoute(value as unknown as string)"
       ></v-autocomplete>
 
