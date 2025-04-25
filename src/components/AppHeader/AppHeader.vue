@@ -2,7 +2,7 @@
 import { TITLE } from '../../constants/site'
 import type { Artist } from '../../server/db/schema'
 import { debounce } from 'throttle-debounce'
-const { params } = useRoute()
+const route = useRoute()
 const { data: artists, status: artistsStatus } = await useFetch('/api/artists')
 // const { data: genres } = useFetch('/api/genres')
 // const { data: origin } = useFetch('/api/origins')
@@ -14,12 +14,22 @@ const header = ref<HTMLElement | null>(null)
 const className = ref('header')
 const selectedArtist = ref<Artist | null>(null)
 
-if (params.artistId) {
+const setSelectedArtist = (artistToSet: string) => {
   const selected = artists.value?.artists.find(
-    (artist) => artist.id === params.artistId,
+    (artist) => artist.id === artistToSet,
   )
   selectedArtist.value = toRaw(selected) || null
 }
+
+setSelectedArtist(route.params.artistId as string)
+
+watch(route, (newRoute) => {
+  if (newRoute.params.artistId) {
+    setSelectedArtist(newRoute.params.artistId as string)
+  } else {
+    selectedArtist.value = null
+  }
+})
 
 const changeRoute = (value: string) => {
   if (value) {
