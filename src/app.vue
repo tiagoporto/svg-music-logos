@@ -17,16 +17,10 @@ useHead({
 
     <Meta property="og:title" :content="TITLE" />
     <Meta property="og:description" :content="DESCRIPTION" />
-    <Meta property="og:type" content="website" />
     <Meta property="og:url" :content="URL" />
-    <Meta property="og:logo" content="/apple-touch-icon.png" />
+    <Meta property="og:type" content="website" />
+    <Meta property="og:logo" :content="`${URL}/apple-touch-icon.png`" />
     <Meta
-      v-if="$route.params.artistId"
-      property="og:image"
-      :content="`/logos/${$route.params.artistId}/og.png`"
-    />
-    <Meta
-      v-else
       property="og:image"
       content="https://socialify.git.ci/tiagoporto/svg-music-logos/png?description=1&language=1&owner=1&pattern=Solid"
     />
@@ -39,22 +33,13 @@ useHead({
     <Meta name="twitter:title" :content="TITLE" />
     <Meta name="twitter:description" :content="DESCRIPTION" />
     <Meta
-      v-if="$route.params.artistId"
-      name="twitter:image"
-      :content="`/logos/${$route.params.artistId}/og.png`"
-    />
-    <Meta
-      v-else
       name="twitter:image"
       content="https://socialify.git.ci/tiagoporto/svg-music-logos/png?description=1&language=1&owner=1&pattern=Solid"
     />
 
     <Link rel="icon" href="/favicon.ico" sizes="48x48" />
-
     <Link rel="icon" href="/favicon.png" type="image/png" />
-
     <Link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-
     <Link rel="mask-icon" href="/safari-mask-icon.svg" color="#28a7d6" />
 
     <Meta name="theme-color" content="#28a7d6" />

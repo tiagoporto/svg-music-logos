@@ -1,9 +1,34 @@
 <script setup lang="ts">
+import { TITLE, URL } from '../../constants/site'
+
 const { params, query } = useRoute()
 const { data } = await useFetch(`/api/artist/${params.artistId}`, { query })
+
+const pageTitle = `${TITLE} | ${data.value?.artist.name} Logos`
 </script>
 
 <template>
+  <Head>
+    <Title>{{ pageTitle }}</Title>
+
+    <Meta property="og:title" :content="pageTitle" />
+    <Meta
+      property="og:url"
+      :content="`${URL}/artist/${$route.params.artistId}`"
+    />
+    <Meta
+      property="og:image"
+      :content="`${URL}/logos/${$route.params.artistId}/og.png`"
+    />
+
+    <Meta name="twitter:title" :content="pageTitle" />
+
+    <Meta
+      name="twitter:image"
+      :content="`${URL}/logos/${$route.params.artistId}/og.png`"
+    />
+  </Head>
+
   <template v-if="data?.artist">
     <Card
       v-for="logo in data?.artist?.logos"

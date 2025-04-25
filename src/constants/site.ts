@@ -5,4 +5,4 @@ export const TITLE =
 
 export const DESCRIPTION = `Music-related logos and symbols collection in SVG.`
 
-export const URL = `https://svg-music-logos.tiagoporto.com/`
+export const URL = `https://svg-music-logos.tiagoporto.com`
