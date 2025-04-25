@@ -20,10 +20,7 @@ useHead({
     <Meta property="og:url" :content="URL" />
     <Meta property="og:type" content="website" />
     <Meta property="og:logo" :content="`${URL}/apple-touch-icon.png`" />
-    <Meta
-      property="og:image"
-      content="https://socialify.git.ci/tiagoporto/svg-music-logos/png?description=1&language=1&owner=1&pattern=Solid"
-    />
+    <Meta property="og:image" :content="`${URL}/og.png`" />
     <Meta
       property="og:image:alt"
       content="SVG Music logos headphone logo plus vue logo"
@@ -32,10 +29,7 @@ useHead({
     <Meta name="twitter:card" content="summary_large_image" />
     <Meta name="twitter:title" :content="TITLE" />
     <Meta name="twitter:description" :content="DESCRIPTION" />
-    <Meta
-      name="twitter:image"
-      content="https://socialify.git.ci/tiagoporto/svg-music-logos/png?description=1&language=1&owner=1&pattern=Solid"
-    />
+    <Meta name="twitter:image" :content="`${URL}/og.png`" />
 
     <Link rel="icon" href="/favicon.ico" sizes="48x48" />
     <Link rel="icon" href="/favicon.png" type="image/png" />
