@@ -102,7 +102,7 @@ onUnmounted(() => {
     <div class="header__main">
       <h1 class="header__title">
         <NuxtLink to="/">
-          <img :alt="TITLE" src="/favicon.svg" />
+          <NuxtImg width="350" :alt="TITLE" src="/favicon.svg" />
         </NuxtLink>
       </h1>
 

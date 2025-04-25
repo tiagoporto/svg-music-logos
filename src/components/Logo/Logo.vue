@@ -11,7 +11,7 @@ const { logo, artist } = defineProps<LogoProps>()
 
 <template>
   <div class="logo">
-    <img
+    <NuxtImg
       v-if="logo.svg"
       :src="logo.svg"
       :alt="`${logo.title} logo from ${artist}`"

@@ -60,6 +60,7 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     'vuetify-nuxt-module',
     'nuxt-gtag',
+    '@nuxt/image',
   ],
   compatibilityDate: '2024-12-01',
 })
