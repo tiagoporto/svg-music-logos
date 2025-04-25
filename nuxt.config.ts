@@ -40,10 +40,10 @@ export default defineNuxtConfig({
     },
   },
   pwa: {
-    strategies: 'injectManifest',
+    strategies: 'generateSW',
     injectRegister: 'auto',
-    srcDir: 'service-worker',
-    filename: 'sw.ts',
+    // srcDir: 'service-worker',
+    // filename: 'sw.ts',
     manifest: false,
     registerType: 'prompt',
     includeAssets: ['fonts/*.woff2'],
