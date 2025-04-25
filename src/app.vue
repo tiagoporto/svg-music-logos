@@ -57,6 +57,8 @@ useHead({
     <Meta name="msapplication-config" content="/browserconfig.xml" />
   </Head>
 
+  <AppHeader v-once></AppHeader>
+
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>

@@ -1,11 +1,9 @@
 <template>
-  <AppHeader v-once></AppHeader>
-
   <main class="card-container">
     <slot />
   </main>
 
-  <AppFooter />
+  <AppFooter v-once />
 </template>
 
 <style lang="scss" scoped>
