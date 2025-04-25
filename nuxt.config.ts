@@ -15,9 +15,6 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
-  app: {
-    baseURL: '/svg-music-logos/',
-  },
   dir: {
     public: '../public',
   },

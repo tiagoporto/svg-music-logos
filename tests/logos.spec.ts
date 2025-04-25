@@ -1,7 +1,7 @@
 import { test } from 'happo-playwright'
 
 test('start page', async ({ page, happoScreenshot }) => {
-  await page.goto('http://localhost:3000/svg-music-logos/')
+  await page.goto('http://localhost:3000/')
   const body = page.locator('body')
   const nextButton = await page.getByRole('button', { name: 'Next page' })
   let currentPage = 1
