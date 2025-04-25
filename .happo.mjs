@@ -10,7 +10,7 @@ module.exports = {
     'chrome-large': new RemoteBrowserTarget('chrome', {
       viewport: '1024x768',
       prefersReducedMotion: true,
-      freezeAnimations: 'last-frame',
+      // freezeAnimations: 'last-frame',
       maxHeight: 10000,
     }),
 
