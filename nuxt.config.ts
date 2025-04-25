@@ -2,18 +2,6 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  vuetify: {
-    moduleOptions: {
-      ssrClientHints: {
-        reloadOnFirstRequest: false,
-        viewportSize: true,
-        prefersColorScheme: true,
-      },
-    },
-    vuetifyOptions: {
-      /* vuetify options */
-    },
-  },
   devtools: { enabled: true },
   dir: {
     public: '../public',
