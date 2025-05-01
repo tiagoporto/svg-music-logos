@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@bbda85882f33075a3727c01e3c8d0de0be6146ce
+      - uses: ruby/setup-ruby@f41e084df884422b269f4c01c3748a9df4431a75
         with:
           ruby-version: '3.3'
 
