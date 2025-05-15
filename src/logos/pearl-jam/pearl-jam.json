@@ -1,0 +1,13 @@
+{
+  "id": "pearl-jam",
+  "name": "Pearl Jam",
+  "origins": ["USA"],
+  "genres": ["Grunge"],
+  "link": "https://pearljam.com",
+  "logos": [
+    {
+      "title": "Pearl Jam",
+      "svg": "pearl-jam.svg"
+    }
+  ]
+}
