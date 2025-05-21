@@ -1,0 +1,18 @@
+<!--
+  SVG Music Logos
+  Pearl Jam - Immagine in Cornice v1.0.0
+  https://github.com/tiagoporto/svg-music-logos
+  Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 634 872">
+  <rect width="634" height="872"/>
+  <g fill="#fdce01">
+    <rect x="36" y="36" width="167.7597" height="800"/>
+    <rect x="227.6155" y="36" width="370.3845" height="350.7778"/>
+  </g>
+  <rect fill="#fff" x="227.6155" y="410.6198" width="182.381" height="259.0284"/>
+  <g fill="#0397d0">
+    <rect x="433.8522" y="410.6198" width="164.1478" height="425.3802"/>
+    <rect x="227.6155" y="693.4902" width="182.381" height="142.5098"/>
+  </g>
+</svg>

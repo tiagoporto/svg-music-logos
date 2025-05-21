@@ -6,8 +6,20 @@
   "link": "https://pearljam.com",
   "logos": [
     {
+      "title": "Ten",
+      "svg": "pearl-jam_ten.svg"
+    },
+    {
       "title": "Pearl Jam",
-      "svg": "pearl-jam.svg"
+      "svg": "pearl-jam_pearl-jam.svg"
+    },
+    {
+      "title": "2006 bootlegs",
+      "svg": "pearl-jam_2006-bootlegs.svg"
+    },
+    {
+      "title": "Immagine in Cornice - PJ",
+      "svg": "pear-jam_pj-immagine-in-cornice.svg"
     }
   ]
 }
