@@ -108,7 +108,7 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 ### APIs
 
-APIs are provided by [Nuxt](https://nuxt.com/docs/getting-started/server).
+APIs are provided by [Nuxt](https://nuxt.com/docs/4.x/getting-started/server).
 
 Endpoints are defined in `server/api` directory.
 
