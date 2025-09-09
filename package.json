@@ -20,6 +20,8 @@
   },
   "packageManager": "^npm@10.9.2",
   "scripts": {
+    "new-artist": "node scripts/new-artist.mjs",
+    "new-logo": "node scripts/new-logo.mjs",
     "prepare": "husky",
     "postinstall": "nuxt prepare && npm run prebuild",
     "dev": "open http://localhost:3000 && concurrently -k \"gulp watch\" \"nuxt dev\"",
@@ -89,6 +91,7 @@
     "happo-playwright": "^4.0.3",
     "happo.io": "^12.0.2",
     "husky": "^9.0.11",
+    "inquirer": "^12.9.4",
     "lighthouse-badges": "^1.3.7",
     "lint-staged": "^15.2.2",
     "nuxt-gtag": "^3.0.2",
