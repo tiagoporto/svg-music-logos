@@ -9,7 +9,7 @@ export default defineVitestConfig({
       reportsDirectory: 'coverage',
       reporter: ['lcov', 'text'],
       extension: ['.js', '.cjs', '.mjs', '.ts', '.mts', '.tsx', '.jsx'],
-      exclude: ['.nuxt', 'dump', '*.config.*', 'gulpfile.js'],
+      exclude: ['.nuxt', '*.config.*', 'gulpfile.js'],
     },
   },
 })

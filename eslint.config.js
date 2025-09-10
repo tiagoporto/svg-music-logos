@@ -16,7 +16,7 @@ export default withNuxt([
 
   {
     name: 'app/files-to-ignore',
-    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**', '**/dump/**'],
+    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**'],
   },
   { plugins: { n: nodePlugin } },
   pluginPromise.configs['flat/recommended'],
