@@ -1,21 +1,6 @@
 import inquirer from 'inquirer'
-import fs from 'fs'
-import path from 'path'
-
-const createFile = ({ id, fileName, fileContent = '' }) => {
-  try {
-    const filePath = path.join(process.cwd(), 'src/logos', id)
-    const completeFilePath = path.join(filePath, fileName)
-
-    fs.mkdirSync(filePath, { recursive: true })
-
-    fs.writeFileSync(completeFilePath, fileContent)
-
-    console.info(completeFilePath + ' file saved!!')
-  } catch (error) {
-    console.error(error)
-  }
-}
+import { SVGHeader } from './utils/svg-header.mjs'
+import { createFile } from './utils/create-file.mjs'
 
 const filterComma = (input) => {
   return input.split(',').map((item) => item.trim())
@@ -65,12 +50,8 @@ inquirer
     },
   ])
   .then((answers) => {
-    const name = answers.name
+    const { origins, genres, link, name, logo } = answers
     const id = name.toLowerCase().trim().replace(/\s+/g, '-')
-    const origins = answers.origins
-    const genres = answers.genres
-    const link = answers.link
-    const logo = answers.logo
     const logoHash = logo.toLowerCase().trim().replace(/\s+/g, '-')
 
     // create json
@@ -100,12 +81,7 @@ inquirer
     createFile({
       id,
       fileName: `${id}_${logoHash}.svg`,
-      fileContent: `<!--
-  SVG Music Logos
-  ${name} - ${logo} v1.0.0
-  https://github.com/tiagoporto/svg-music-logos
-  Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
--->`,
+      fileContent: SVGHeader({ artist: name, logo }),
     })
 
     return answers

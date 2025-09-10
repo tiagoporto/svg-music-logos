@@ -1,23 +1,10 @@
 import inquirer from 'inquirer'
 import fs from 'fs'
 import path from 'path'
+import { SVGHeader } from './utils/svg-header.mjs'
+import { createFile } from './utils/create-file.mjs'
 
 let artist
-
-const createFile = ({ id, fileName, fileContent = '' }) => {
-  try {
-    const filePath = path.join(process.cwd(), 'src/logos', id)
-    const completeFilePath = path.join(filePath, fileName)
-
-    fs.mkdirSync(filePath, { recursive: true })
-
-    fs.writeFileSync(completeFilePath, fileContent)
-
-    console.info(completeFilePath + ' file saved!!')
-  } catch (error) {
-    console.error(error)
-  }
-}
 
 const validateFolder = (input) => {
   try {
@@ -50,8 +37,7 @@ inquirer
     },
   ])
   .then((answers) => {
-    const id = answers.id
-    const logo = answers.logo
+    const { id, logo } = answers
     const logoHash = logo.toLowerCase().trim().replace(/\s+/g, '-')
 
     artist.logos.push({
@@ -70,13 +56,7 @@ inquirer
     createFile({
       id,
       fileName: `${id}_${logoHash}.svg`,
-      fileContent: `<!--
-  SVG Music Logos
-  ${artist.name} - ${logo} v1.0.0
-  https://github.com/tiagoporto/svg-music-logos
-  Copyright (c) 2016 Tiago Porto (http://tiagoporto.com)
--->
-`,
+      fileContent: SVGHeader({ artist: artist.name, logo }),
     })
 
     return answers
