@@ -3,7 +3,7 @@ name: E2E Tests
 on:
   workflow_call:
   push:
-    branches: main
+    branches: [main]
   pull_request:
     types:
       - synchronize # PR was updated
@@ -14,6 +14,9 @@ on:
 concurrency:
   group: e2e-tests_${{ github.workflow }}_${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
   visual_tests:
