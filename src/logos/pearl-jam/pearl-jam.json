@@ -6,6 +6,10 @@
   "link": "https://pearljam.com",
   "logos": [
     {
+      "title": "Stickman",
+      "svg": "pearl-jam_stickman.svg"
+    },
+    {
       "title": "Ten",
       "svg": "pearl-jam_ten.svg"
     },
