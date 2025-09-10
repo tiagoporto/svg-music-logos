@@ -168,7 +168,7 @@ const transformCopySVGs = () => {
 // Update README with artists, logos, origins and genre count
 export { updateReadme as 'update-readme' }
 
-// Unify all "src/logos/**/*.json" into "src/server/db/data.json"
+// Merge all "src/logos/**/*.json" into "src/server/db/data.json"
 export { generateData as 'generate-data' }
 
 // Compile all "src/logos/**/*.styl"
