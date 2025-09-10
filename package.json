@@ -24,6 +24,7 @@
     "new-logo": "node scripts/new-logo.mjs",
     "prepare": "husky",
     "postinstall": "nuxt prepare && npm run prebuild",
+    "predev": "gulp build",
     "dev": "open http://localhost:3000 && concurrently -k \"gulp watch\" \"nuxt dev\"",
     "prebuild": "gulp build",
     "build": "nuxt build",
