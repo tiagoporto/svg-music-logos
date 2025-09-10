@@ -283,7 +283,7 @@ Can't find the logo you were looking for? Please either open an issue or contrib
 ### Guide to open a pull request
 
 1. Fork it!
-1. Create your feature branch: git checkout -b new-artist-logo
+1. Create your feature branch: `git checkout -b new-{artist}-logo`
 1. Add [new logo](#adding-new-logos) or [new artist](#adding-new-artists)
 1. Create the SVG file.
    - **TIPS**
