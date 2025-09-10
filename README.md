@@ -28,9 +28,9 @@ Listen on
 
 ## Motivation 🔥
 
-I play electric guitar, and music has been part of my life since I was a teenager. Then, I graduated in Graphic Design, and after that, I moved into front-end development.
+I've been playing electric guitar since I was a teenager, and music has always been a significant part of my life. I went on to graduate with a degree in graphic design, which eventually led me to front-end development.
 
-To further develop my skills and stay up-to-date with the latest technologies, I’ve made it a point to explore new tools and innovations outside of my daily routine. By combining my passions, this was the outcome.
+To continue growing my skills and stay current with the latest technologies, I actively explore new tools and innovations in my free time. The result of combining my passion for music with my professional skills is this project.
 
 ## Status ✅
 
@@ -43,7 +43,7 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 [![E2E Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/e2e-tests.yml?label=e2e%20tests&style=flat-square&branch=main)][e2e-tests-workflow]
 [![Coverage](https://img.shields.io/coverallsCoverage/github/tiagoporto/svg-music-logos?style=flat-square)][coverage]
 
-## Stack 🧰
+## Tech Stack 🧰
 
 ![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![nvm](https://img.shields.io/badge/nvm-%23333?style=for-the-badge&logo=nvm)
@@ -53,8 +53,9 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 ![nuxt.js](https://img.shields.io/badge/nuxt.js-%2300DC82?style=for-the-badge&logo=nuxt&logoColor=white)
 ![vue.js](https://img.shields.io/badge/vue.js-%234FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![gulp](https://img.shields.io/badge/gulp-%23CF4647?style=for-the-badge&logo=gulp&logoColor=white)
-![javascript](https://img.shields.io/badge/javascript-%23333?style=for-the-badge&logo=javascript)
+![Inquirer](https://img.shields.io/badge/inquirer-%23F0DB4F?style=for-the-badge&logo=inquirer&logoColor=000)
 ![typescript](https://img.shields.io/badge/typescript-%23007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![javascript](https://img.shields.io/badge/javascript-%23333?style=for-the-badge&logo=javascript)
 ![sass](https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![SVG](https://img.shields.io/badge/svg-%23462b01?style=for-the-badge&logo=svg)
 ![pwa](https://img.shields.io/badge/pwa-%235A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
@@ -85,23 +86,29 @@ To further develop my skills and stay up-to-date with the latest technologies, I
 
 ```text
 .
-├── docs //documentation
-├── public // public assets
+├── docs
+├── public // Public assets
+├── scripts // NPM scripts
 ├── src
 │   ├── components // Shared components
-│   ├── layout // base layout component
+│   ├── layouts // Base layout components
 │   ├── logos
-│   │   └── [artist folder]
+│   │   └── {artist} // Artist folder
 │   │       ├── Styles files
-│   │       ├── JSON files
-│   │       └── SVG files
+│   │       ├── SVG files
+│   │       └── {artist}.json // Artist data
 │   ├── pages // Nuxt routes
-│   └── server
-│       ├── api // Nuxt endpoints
-│       └── db // Nuxt database and schema
-├── // config files
+│   ├── server
+│   │   ├── api // Nuxt endpoints
+│   │   └── db // Nuxt database and schema
+│   └── app.vue // Nuxt root component
+├── test // E2E tests
+├── utils // Logic to manipulate SVG used by Gulp tasks
+├── gulpfile.js // Gulp tasks
+├── LICENSE
 ├── package.json
-└── README.md
+├── README.md
+└── // config files
 ```
 
 ## Architecture 🏗
@@ -249,21 +256,59 @@ npm install
 npm run dev
 ```
 
+### Adding new artists
+
+For adding new artists, you can use the `new-artist` script.
+
+The script will create a new folder with a JSON and a SVG.
+
+```bash
+npm run new-artist
+```
+
 ### Adding new logos
 
-<!-- TODO: Complete doc   -->
+For adding new logos for a specific artist, you can use the `new-logo` script.
 
-\[TODO]
+The script will add a new SVG to the artist folder and to JSON.
+
+```bash
+npm run new-logo
+```
 
 ## Contributing 🤝
 
-Haven’t found the logo you were looking for?
+Can't find the logo you were looking for? Please either open an issue or contribute by adding it to the project!
 
-[Check how to contribute](docs/CONTRIBUTING.md).
+### Guide to open a pull request
+
+1. Fork it!
+1. Create your feature branch: git checkout -b new-artist-logo
+1. Add [new logo](#adding-new-logos) or [new artist](#adding-new-artists)
+1. Create the SVG file.
+   - **TIPS**
+     - SVG Tutorial: [How to work with SVG icons](https://fvsch.com/svg-icons).
+     - Use at least 3 decimal places to improve precision.
+     - Let the SVG scale, avoid using `width` and `height`.
+       ```diff
+       <svg
+       - width="200"
+       - height="40">
+       + viewBox="0 0 200 40"
+       >
+       ```
+     - Do not use `<image/>`
+     - Do not use `<text/>`
+     - Use [SVGOMG](https://jakearchibald.github.io/svgomg/) to clean up the SVG removing unncessary attributes and prettify.
+1. Run the project locally and check if it works as expected. [Check the steps](#development-).
+1. Commit your changes: `git commit -am 'Add {Artist} Logo'`
+1. Push to the branch: `git push origin new-{artist}-logo`
+1. Submit a pull request :D
+1. Thanks for your contribution! ❤️
 
 ## Donating 🤜🤛
 
-This project is developed on my free time, any donation is welcome.
+This project was developed in my free time. Any donations are greatly appreciated.
 
 [![GITHUB Sponsor](https://img.shields.io/badge/-github-black?logo=github)][gh-sponsor]
 [![Paypal donate](https://img.shields.io/badge/-PayPal-blue?logo=paypal)][paypal-sponsor]
