@@ -1,11 +1,11 @@
 .logo {
-  height: 160px;
-  display: flex;
-  align-items: center;
   position: relative;
+  display: flex;
+  height: 160px;
+  align-items: center;
 
   img {
-    margin: auto;
     max-height: 100%;
+    margin: auto;
   }
 }

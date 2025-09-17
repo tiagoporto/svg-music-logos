@@ -2,14 +2,14 @@
 
 .card {
   display: flex;
+  flex-basis: 100%;
   flex-direction: column;
+  justify-content: space-between;
+  background: rgb(255 255 255 / 80%);
   box-shadow:
     0 2px 2px 0 rgb(0 0 0 / 14%),
     0 1px 5px 0 rgb(0 0 0 / 12%),
     0 3px 1px -2px rgb(0 0 0 / 20%);
-  justify-content: space-between;
-  background: rgb(255 255 255 / 80%);
-  flex-basis: 100%;
   transition: flex-basis 0.5s;
 
   @media only screen and (width >= 550px) {
@@ -31,31 +31,31 @@
     p {
       margin: 0.4rem 0;
       line-height: 1.2rem;
-      vertical-align: middle;
       text-align: center;
+      vertical-align: middle;
     }
   }
 
   &__title {
-    font-size: 1.25rem;
-    color: grey;
-    font-weight: 700;
     margin: 1.5rem 0 0.5em;
+    color: grey;
+    font-size: 1.25rem;
+    font-weight: 700;
     text-align: center;
   }
 
   &__button {
     position: relative;
     bottom: 0;
-    border: none;
-    text-align: center;
-    height: 50px;
     width: 100%;
+    height: 50px;
     padding: 10px 0;
-    transition: all 0.5s ease;
-    color: #fff;
+    border: none;
     background: color.adjust(#2cb5e8, $lightness: -25%);
+    color: #fff;
     cursor: pointer;
+    text-align: center;
+    transition: all 0.5s ease;
 
     &:hover {
       background: color.adjust(#2cb5e8, $lightness: -20%);
@@ -65,9 +65,9 @@
 
 /* stylelint-disable-next-line selector-pseudo-class-no-unknown, selector-class-pattern */
 :global(.card__link) {
+  margin: 5px 0;
   color: inherit;
   text-decoration: none;
-  margin: 5px 0;
 }
 
 /* stylelint-disable-next-line selector-pseudo-class-no-unknown, selector-class-pattern */
