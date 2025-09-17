@@ -45,6 +45,8 @@ To continue growing my skills and stay current with the latest technologies, I a
 
 ## Tech Stack 🧰
 
+![Git](https://img.shields.io/badge/git-%23F05032?style=for-the-badge&logo=git&logoColor=white)
+![Git LFS](https://img.shields.io/badge/git%20lfs-%23F64935?style=for-the-badge&logo=gitlfs&logoColor=white)
 ![Node](https://img.shields.io/badge/Nodejs-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)
 ![nvm](https://img.shields.io/badge/nvm-%23333?style=for-the-badge&logo=nvm)
 ![NPM](https://img.shields.io/badge/npm-%23CB3837.svg?style=for-the-badge&logo=npm)
