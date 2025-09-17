@@ -21,7 +21,7 @@
   "packageManager": "^npm@10.9.2",
   "scripts": {
     "prepare": "husky",
-    "postinstall": "nuxt prepare && npm run prebuild && ($CI = true || dependabot-config)",
+    "postinstall": "nuxt prepare && npm run prebuild && ($CI = true || (dependabot-config && editor-config))",
     "new-artist": "node scripts/new-artist.mjs",
     "new-logo": "node scripts/new-logo.mjs",
     "predev": "gulp build",
@@ -64,7 +64,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@playwright/test": "^1.52.0",
     "@tiagoporto/dependabot-config": "^2.0.0",
-    "@tiagoporto/editor-config": "^1.3.0",
+    "@tiagoporto/editor-config": "^2.0.0",
     "@tiagoporto/prettier-config": "^2.0.0",
     "@tiagoporto/remark-config": "^1.6.0",
     "@types/node": "^22.14.1",
