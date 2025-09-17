@@ -35,7 +35,7 @@ jobs:
         run: npm run postinstall
 
       - name: Check Formatting
-        run: npm run check-formatting
+        run: npm run format:check
 
       - name: Typechecking
         run: npm run typecheck
