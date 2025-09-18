@@ -31,8 +31,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci --ignore-scripts
 
-      - name: Prepare nuxt dependencies
-        run: npm run postinstall
+      - name: Nuxt Prepare
+        run: npm run nuxt-prepare
+
+      - name: Generate data
+        run: npm run generate-data
 
       - name: Check Formatting
         run: npm run format:check

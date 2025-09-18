@@ -21,7 +21,8 @@
   "packageManager": "npm@11.6.0+sha512.77f3fb0dbbd881835d7bd1217deabdf7ed77fc4ec4f363df64fc3cb986404abf6c437661041080f5c5d225103508e7c9ea30cb2742b7e942675d05a10af2d7b9",
   "scripts": {
     "prepare": "husky",
-    "postinstall": "nuxt prepare && ($CI = true || (dependabot-config && editor-config))",
+    "nuxt-prepare": "nuxt prepare",
+    "postinstall": "$CI = true || (dependabot-config && editor-config)",
     "new-artist": "node scripts/new-artist.mjs",
     "new-logo": "node scripts/new-logo.mjs",
     "predev": "npm run prebuild",
@@ -31,9 +32,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "lighthouse-badge": "lighthouse-badges --url https://svg-music-logos.tiagoporto.com/ --output-path docs --badge-style pagespeed",
-    "copy-svgs": "gulp copy-svgs",
     "preupdate-readme": "npm run generate-data",
     "update-readme": "gulp update-readme",
+    "copy-svgs": "gulp copy-svgs",
     "generate-data": "gulp generate-data",
     "generate-styles": "gulp generate-styles",
     "checks": "npm run format:check && npm run typecheck && npm run lint && npm run lint:styles",
@@ -45,10 +46,10 @@
     "lint:fix": "npm run lint -- --fix",
     "lint:styles": "stylelint \"**/*.{scss,vue}\"",
     "lint:styles:fix": "stylelint \"**/*.{scss,vue}\" --fix",
+    "coverage": "vitest run --coverage",
     "test": "vitest",
     "test:e2e": "start-server-and-test preview http://localhost:3000 'playwright test'",
-    "test:e2e:dev": "start-server-and-test dev http-get://localhost:3000 'playwright test --ui'",
-    "coverage": "vitest run --coverage"
+    "test:e2e:dev": "start-server-and-test dev http-get://localhost:3000 'playwright test --ui'"
   },
   "dependencies": {
     "nuxt": "^3.16.2"
