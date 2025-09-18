@@ -16,8 +16,14 @@ interface CardProps {
 }
 
 const { gtag } = useGtag()
-const { title, link, genres, origins, logo, titleTemplate } =
-  defineProps<CardProps>()
+const {
+  title,
+  link,
+  genres = undefined,
+  origins,
+  logo,
+  titleTemplate = undefined,
+} = defineProps<CardProps>()
 
 const handleClick = async (path: string) => {
   const filePath = path.split('/')
