@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { filterLogos } from './filterLogos'
+import { filterLogos } from './filter-logos'
 
 const artists = {
   blur: {

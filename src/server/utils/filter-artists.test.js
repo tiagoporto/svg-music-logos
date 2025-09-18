@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { filterArtists } from './filterArtists'
+import { filterArtists } from './filter-artists'
 
 const data = [
   {

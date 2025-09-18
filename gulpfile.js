@@ -14,9 +14,9 @@ import path from 'path'
 import zip from 'gulp-zip'
 import * as changeCase from 'change-case'
 import { injectCSSinSVG, injectClassName } from './utils/index.js'
-import { filterGenres } from './src/server/utils/filterGenres.js'
-import { filterLogos } from './src/server/utils/filterLogos.js'
-import { filterOrigins } from './src/server/utils/filterOrigins.js'
+import { filterGenres } from './src/server/utils/filter-genres.js'
+import { filterLogos } from './src/server/utils/filter-logos.js'
+import { filterOrigins } from './src/server/utils/filter-origins.js'
 
 const sass = gulpSass(sassEmbedded)
 const paths = {

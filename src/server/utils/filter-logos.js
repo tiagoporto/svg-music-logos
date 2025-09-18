@@ -1,4 +1,4 @@
-import { createSVGPath } from './createSVGPath.js'
+import { createSVGPath } from './create-svg-path.js'
 
 export const filterLogos = (data) => {
   if (!data) {

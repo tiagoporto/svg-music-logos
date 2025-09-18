@@ -1,6 +1,6 @@
 import { data } from '../../db'
 import type { Logo } from '../../db/schema'
-import { createSVGPath } from '../../utils/createSVGPath'
+import { createSVGPath } from '../../utils/create-svg-path'
 
 export default defineEventHandler(async (event) => {
   const artistId = getRouterParam(event, 'artistId') || ''

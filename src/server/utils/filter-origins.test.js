@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { filterOrigins } from './filterOrigins'
+import { filterOrigins } from './filter-origins'
 
 const data = [
   {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { filterGenres } from './filterGenres'
+import { filterGenres } from './filter-genres'
 
 const data = [
   {
