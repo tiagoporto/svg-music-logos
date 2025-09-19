@@ -36,11 +36,11 @@ To continue growing my skills and stay current with the latest technologies, I a
 
 [![Website](https://img.shields.io/website.svg?down_color=lightgrey&down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fsvg-music-logos.tiagoporto.com)][project]
 ![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square&targetUrl=https://svg-music-logos.tiagoporto.com)
-[![WCAG](https://img.shields.io/badge/wcag-F1FBF5?style=flat-square)](https://www.accessibilitychecker.org/audit/?website=https%3A%2F%2Fsvg-music-logos.tiagoporto.com%2F&flag=us)
-[![Pagespeed](https://img.shields.io/badge/pagespeed-066AFE?style=flat-square)](https://pagespeed.web.dev/analysis/https-svg-music-logos-tiagoporto-com/nfake1ylwm?hl=pt-BR&form_factor=mobile)
+[![WCAG](https://img.shields.io/badge/wcag-F1FBF5?style=flat-square)][a11y]
+[![Pagespeed](https://img.shields.io/badge/pagespeed-066AFE?style=flat-square)][pagespeed]
 [![Artists links check](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?label=artists%20links&style=flat-square&branch=main)][dead-links-workflow]
 
-[![Docs GA Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/check-docs.yml?branch=main&label=docs&logo=githubactions&logoColor=white&style=flat-square)](https://github.com/tiagoporto/svg-music-logos/actions/workflows/check-docs.yml?query=branch%3Amain)
+[![Docs GA Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/check-docs.yml?branch=main&label=docs&logo=githubactions&logoColor=white&style=flat-square)][docs-workflow]
 [![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks&style=flat-square&branch=main)][checks-workflow]
 [![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/unit-tests.yml?label=unit%20tests&style=flat-square&branch=main)][unit-tests-workflow]
 [![E2E Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/e2e-tests.yml?label=e2e%20tests&style=flat-square&branch=main)][e2e-tests-workflow]
@@ -346,6 +346,9 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 [project]: https://svg-music-logos.tiagoporto.com
 [youtube-music-playlist]: https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6&feature=share
 [spotify-playlist]: https://open.spotify.com/playlist/20XHrsLWAJkgBBagZiURM5
+[a11y]: https://www.accessibilitychecker.org/audit/?website=https%3A%2F%2Fsvg-music-logos.tiagoporto.com%2F&flag=us
+[pagespeed]: https://pagespeed.web.dev/analysis/https-svg-music-logos-tiagoporto-com/nfake1ylwm?hl=pt-BR&form_factor=mobile
+[docs-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/check-docs.yml?query=branch%3Amain
 [checks-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/checks.yml?query=branch%3Amain
 [unit-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/unit-tests.yml?query=branch%3Amain
 [e2e-tests-workflow]: https://github.com/tiagoporto/gerador-validador-cpf/actions/workflows/e2e-tests.yml?query=branch%3Amain
