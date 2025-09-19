@@ -14,9 +14,4 @@ test('start page', async ({ page, happoScreenshot }) => {
 
   await nextButton.click()
   await expect(page.locator('[data-test="card"]').last()).toBeVisible()
-
-  await happoScreenshot(body, {
-    component: 'Homepage',
-    variant: 'Page 2',
-  })
 })
