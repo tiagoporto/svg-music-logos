@@ -52,7 +52,7 @@
     "test:e2e:dev": "start-server-and-test dev http-get://localhost:3000 'playwright test --ui'"
   },
   "dependencies": {
-    "nuxt": "^3.16.2"
+    "nuxt": "^3.19.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",

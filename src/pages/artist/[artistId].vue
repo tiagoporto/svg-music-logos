@@ -12,20 +12,17 @@ const pageTitle = `${TITLE} | ${data.value?.artist.name} Logos`
     <Title>{{ pageTitle }}</Title>
 
     <Meta property="og:title" :content="pageTitle" />
-    <Meta
-      property="og:url"
-      :content="`${URL}/artist/${$route.params.artistId}`"
-    />
+    <Meta property="og:url" :content="`${URL}/artist/${params.artistId}`" />
     <Meta
       property="og:image"
-      :content="`${URL}/logos/${$route.params.artistId}/og.png`"
+      :content="`${URL}/logos/${params.artistId}/og.png`"
     />
 
     <Meta name="twitter:title" :content="pageTitle" />
 
     <Meta
       name="twitter:image"
-      :content="`${URL}/logos/${$route.params.artistId}/og.png`"
+      :content="`${URL}/logos/${params.artistId}/og.png`"
     />
   </Head>
 
