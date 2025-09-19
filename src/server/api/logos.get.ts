@@ -27,7 +27,7 @@ export default defineEventHandler(async (event) => {
     })
   }
 
-  const pageSize = 48
+  const pageSize = 30
   const pages = []
 
   for (let i = 0; i < logosData.logos.length; i += pageSize) {
