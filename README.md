@@ -36,6 +36,8 @@ To continue growing my skills and stay current with the latest technologies, I a
 
 [![Website](https://img.shields.io/website.svg?down_color=lightgrey&down_message=offline&style=flat-square&up_message=online&url=https%3A%2F%2Fsvg-music-logos.tiagoporto.com)][project]
 ![W3C Validation](https://img.shields.io/w3c-validation/html.svg?style=flat-square&targetUrl=https://svg-music-logos.tiagoporto.com)
+[![WCAG](https://img.shields.io/badge/wcag-F1FBF5?style=flat-square)](https://www.accessibilitychecker.org/audit/?website=https%3A%2F%2Fsvg-music-logos.tiagoporto.com%2F&flag=us)
+[![Pagespeed](https://img.shields.io/badge/pagespeed-066AFE?style=flat-square)](https://pagespeed.web.dev/analysis/https-svg-music-logos-tiagoporto-com/nfake1ylwm?hl=pt-BR&form_factor=mobile)
 [![Artists links check](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?label=artists%20links&style=flat-square&branch=main)][dead-links-workflow]
 
 [![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks&style=flat-square&branch=main)][checks-workflow]
