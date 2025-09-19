@@ -11,7 +11,8 @@
     },
     {
       "title": "Ten",
-      "svg": "pearl-jam_ten.svg"
+      "svg": "pearl-jam_ten.svg",
+      "inverse": true
     },
     {
       "title": "Pearl Jam",
