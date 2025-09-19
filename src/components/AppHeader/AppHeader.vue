@@ -166,6 +166,7 @@ onUnmounted(() => {
         item-title="name"
         item-value="id"
         :disabled="artistsStatus !== 'success'"
+        data-testid="artist-autocomplete"
         @update:model-value="(value) => changeRoute(value as unknown as string)"
       ></v-autocomplete>
 
