@@ -1,7 +1,7 @@
 import { RemoteBrowserTarget } from 'happo.io'
 
 // https://docs.happo.io/docs/configuration
-module.exports = {
+export default {
   apiKey: process.env.HAPPO_API_KEY,
   apiSecret: process.env.HAPPO_API_SECRET,
 

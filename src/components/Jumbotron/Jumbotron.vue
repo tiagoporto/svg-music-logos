@@ -45,7 +45,8 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div ref="jumbotron" class="jumbotron"></div>
+  <div class="jumbotron-back" data-happo></div>
+  <div ref="jumbotron" class="jumbotron" data-happo-hide></div>
 </template>
 
 <style lang="scss" scoped>
