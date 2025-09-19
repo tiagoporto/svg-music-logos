@@ -31,7 +31,6 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "lighthouse-badge": "lighthouse-badges --url https://svg-music-logos.tiagoporto.com/ --output-path docs --badge-style pagespeed",
     "preupdate-readme": "npm run generate-data",
     "update-readme": "gulp update-readme",
     "copy-svgs": "gulp copy-svgs",
@@ -57,7 +56,6 @@
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
     "@dzangolab/vue-country-flag-icon": "^0.3.0",
-    "@emazzotta/lighthouse-badges": "github:sitdisch/lighthouse-badges",
     "@nuxt/eslint": "^1.9.0",
     "@nuxt/image": "^1.10.0",
     "@nuxt/scripts": "^0.11.6",
@@ -92,7 +90,6 @@
     "happo.io": "^12.0.2",
     "husky": "^9.0.11",
     "inquirer": "^12.9.4",
-    "lighthouse-badges": "^1.3.7",
     "lint-staged": "^15.2.2",
     "nuxt-gtag": "^3.0.2",
     "postcss-html": "^1.8.0",

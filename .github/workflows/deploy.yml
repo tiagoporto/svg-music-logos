@@ -53,8 +53,3 @@ jobs:
     needs: [deploy]
     uses: ./.github/workflows/update-readme.yml
     secrets: inherit
-
-  # update-lighthouse-badges:
-  #   needs: [deploy]
-  #   uses: ./.github/workflows/lighthouse-badges.yml
-  #   secrets: inherit
