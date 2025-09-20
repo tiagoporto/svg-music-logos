@@ -3,10 +3,13 @@ import { defineNuxtConfig } from 'nuxt/config'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   dir: {
     public: '../public',
   },
+
   srcDir: 'src/',
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -16,10 +19,12 @@ export default defineNuxtConfig({
       },
     },
   },
+
   gtag: {
     enabled: process.env.NODE_ENV === 'production',
     id: '',
   },
+
   googleFonts: {
     preconnect: true,
     display: 'swap',
@@ -27,6 +32,7 @@ export default defineNuxtConfig({
       Lato: [300, 400, 700],
     },
   },
+
   pwa: {
     strategies: 'generateSW',
     injectRegister: 'auto',
@@ -52,6 +58,7 @@ export default defineNuxtConfig({
       type: 'module',
     },
   },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/scripts',
@@ -61,6 +68,21 @@ export default defineNuxtConfig({
     'vuetify-nuxt-module',
     'nuxt-gtag',
     '@nuxt/image',
+    '@sentry/nuxt/module',
   ],
+
   compatibilityDate: '2024-12-01',
+
+  sentry: {
+    sourceMapsUploadOptions: {
+      org: 'tiago-porto',
+      project: 'svg-music-logos',
+    },
+
+    autoInjectServerSentry: 'top-level-import',
+  },
+
+  sourcemap: {
+    client: 'hidden',
+  },
 })

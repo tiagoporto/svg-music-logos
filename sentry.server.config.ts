@@ -1,0 +1,15 @@
+import * as Sentry from '@sentry/nuxt'
+
+Sentry.init({
+  dsn: 'https://8d436e4e4b5ce3cec95de6334ed29c64@o4509352125136896.ingest.us.sentry.io/4510050072199168',
+
+  // We recommend adjusting this value in production, or using tracesSampler
+  // for finer control
+  tracesSampleRate: 1.0,
+
+  // Enable logs to be sent to Sentry
+  enableLogs: true,
+
+  // Setting this option to true will print useful information to the console while you're setting up Sentry.
+  debug: false,
+})

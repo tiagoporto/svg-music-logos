@@ -79,6 +79,7 @@ To continue growing my skills and stay current with the latest technologies, I a
 ![happo](https://img.shields.io/badge/happo-%2314aa8c?style=for-the-badge&logo=data:image/svg+xml;base64,IDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgOTguMjQgODQuNzkiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCI+CiA8cGF0aCBkPSJNNDQuNjcgMjAuNTFDMzMgMTkuODcgMzUgOS43NyA0MSA4LjIyYzUuNTYtMS40NSA4LjM1IDUuODUgOC4zNSA1Ljg1QzUwLjM5IDEyLjYgNTYgNS40OSA1OCA4LjQxYzEuOSAyLjcxIDQuNDUgNC4yMyA1LjE5IDQuMjVDNzUuOS40NiA4MC4wOC0xLjE0IDg0LjkuNTdjMTMuODcgNC45NCAxNyAyMS41MiA5IDMwLjE0LTUuNjkgNi4xMi0yMS42MiAzLjU3LTIxLjYyIDMuNTdsOCA2LjA5Yy01LjExIDcuMjYtMTYuODkgNC45NC0xNi44OSA0Ljk0IDEwLjIxIDIyLTUuMyAzOS40OC01LjMgMzkuNDhoLTE1YzAgLjEyIDIuMjItMTEuMjItOS42OS0xMS4wNy0xMCAuMTMtOC4zMyAxMS4wNy04LjMzIDExLjA3SDkuMzZjLTEuNDItMy4wNy0xOC0yNC40Ni0zLjM0LTQ2IDEzLjgxLTIwLjI1IDM1Ljc5LTE0LjEgMzUuNzktMTQuMXptMTIuNzktMy42OWEzLjE0IDMuMTQgMCAxIDAgMy4yMyAzIDMuMTQgMy4xNCAwIDAgMC0zLjIzLTN6IiBmaWxsPSIjZmZmIj48L3BhdGg+CiA8L3N2Zz4K)
 ![coveralls](https://img.shields.io/badge/coveralls-%233F5767?style=for-the-badge&logo=coveralls)
 
+![Sentry](https://img.shields.io/badge/sentry-%23362D59?style=for-the-badge&logo=sentry&logoColor=white)
 ![Dependabot](https://img.shields.io/badge/dependabot-%23025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![vercel](https://img.shields.io/badge/vercel-%23000000?style=for-the-badge&logo=vercel&logoColor=white)
