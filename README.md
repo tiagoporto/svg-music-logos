@@ -4,8 +4,8 @@
 
 <!-- replace start -->
 
-![Total Artists](https://img.shields.io/badge/artists-195-blue.svg?style=flat-square)
-![Total Logos](https://img.shields.io/badge/logos-348-blue.svg?style=flat-square)
+![Total Artists](https://img.shields.io/badge/artists-196-blue.svg?style=flat-square)
+![Total Logos](https://img.shields.io/badge/logos-355-blue.svg?style=flat-square)
 ![Total Origins](https://img.shields.io/badge/origins-20-blue.svg?style=flat-square)
 ![Total Genres](https://img.shields.io/badge/genres-59-blue.svg?style=flat-square)
 
