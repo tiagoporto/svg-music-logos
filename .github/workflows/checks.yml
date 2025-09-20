@@ -37,14 +37,25 @@ jobs:
       - name: Generate data
         run: npm run generate-data
 
-      - name: Check Formatting
+      - name: Formatting Check
         run: npm run format:check
 
-      - name: Typechecking
+      - name: Typecheck
+        if: success() || failure()
         run: npm run typecheck
 
       - name: Lint Styles
+        if: success() || failure()
         run: npm run lint:styles
 
       - name: Lint
+        if: success() || failure()
         run: npm run lint
+
+      - name: Audit Packages
+        if: success() || failure()
+        run: corepack npm audit signatures
+
+      - name: Build Site
+        if: success() || failure()
+        run: npm run build --ignore-scripts

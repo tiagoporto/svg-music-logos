@@ -34,9 +34,6 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Audit Packages
-        run: corepack npm audit signatures
-
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
 
