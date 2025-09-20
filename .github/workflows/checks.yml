@@ -57,5 +57,5 @@ jobs:
         run: corepack npm audit signatures
 
       - name: Build Site
-        if: success() || failure()
+        if: github.event_name != 'workflow_dispatch' && (success() || failure())
         run: npm run build --ignore-scripts

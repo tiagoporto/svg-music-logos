@@ -42,8 +42,13 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
+      - name: Run Playwright tests
+        if: github.event_name == 'workflow_dispatch'
+        run: npm run test:e2e
+
       - name: Run Playwright tests with Happo
         env:
           HAPPO_API_KEY: ${{ secrets.HAPPO_API_KEY }}
           HAPPO_API_SECRET: ${{ secrets.HAPPO_API_SECRET }}
+        if: github.event_name != 'workflow_dispatch'
         run: npx happo-e2e -- npm run test:e2e

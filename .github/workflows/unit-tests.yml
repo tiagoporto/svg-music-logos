@@ -32,7 +32,13 @@ jobs:
         run: npm ci --ignore-scripts
 
       - name: Run tests
+        if: github.event_name == 'workflow_dispatch'
+        run: npm run test
+
+      - name: Run tests coverage
+        if: github.event_name != 'workflow_dispatch'
         run: npm run coverage
 
       - name: Coveralls
+        if: github.event_name != 'workflow_dispatch'
         uses: coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b
