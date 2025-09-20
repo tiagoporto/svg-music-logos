@@ -78,6 +78,7 @@
     "change-case": "^5.4.4",
     "concurrently": "^9.1.0",
     "eslint": "^9.25.1",
+    "eslint-plugin-playwright": "^2.2.2",
     "eslint-plugin-vue": "^10.4.0",
     "gulp": "^5.0.0",
     "gulp-changed": "^5.0.2",

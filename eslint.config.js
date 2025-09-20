@@ -7,6 +7,7 @@ import {
 } from '@vue/eslint-config-typescript'
 import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
 import vitest from '@vitest/eslint-plugin'
+import playwright from 'eslint-plugin-playwright'
 
 export default withNuxt(
   defineConfigWithVueTs([
@@ -33,12 +34,19 @@ export default withNuxt(
       },
     },
     {
-      files: ['**/*.spec.js', '**/*.test.js'],
+      files: ['**/*.test.js'],
       plugins: {
         vitest,
       },
       rules: {
         ...vitest.configs.all.rules,
+      },
+    },
+    {
+      ...playwright.configs['flat/recommended'],
+      files: ['tests/**'],
+      rules: {
+        ...playwright.configs['flat/recommended'].rules,
       },
     },
   ]),

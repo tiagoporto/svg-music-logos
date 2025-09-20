@@ -4,7 +4,7 @@ import { expect } from '@playwright/test'
 test('start page', async ({ page, happoScreenshot }) => {
   await page.goto('/')
   const body = page.locator('body')
-  const nextButton = await page.getByRole('button', { name: 'Next page' })
+  const nextButton = page.getByRole('button', { name: 'Next page' })
   await expect(page.locator('[data-test="card"]').last()).toBeVisible()
 
   await happoScreenshot(body, {
