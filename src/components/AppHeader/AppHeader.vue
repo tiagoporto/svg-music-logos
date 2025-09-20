@@ -111,6 +111,7 @@ onUnmounted(() => {
       <p
         v-if="artistsStatus === 'success' && logosStatus === 'success'"
         class="header__count"
+        data-happo-hide
       >
         {{ artists?.count }} artists • {{ logos?.count }} logos
       </p>
