@@ -190,11 +190,12 @@ Endpoints are defined in `server/api` directory.
 
 **Parameters**
 
-| name         | type     | description   | example      |
-| ------------ | -------- | ------------- | ------------ |
-| query.genre  | _string_ | Artist genre  | "Doom Metal" |
-| query.origin | _string_ | Artist origin | "Denmark"    |
-| query.page   | _number_ | Current Page  | 2            |
+| name               | type     | description           | default | example      |
+| ------------------ | -------- | --------------------- | ------- | ------------ |
+| query.genre        | _string_ | Artist genre          |         | "Doom Metal" |
+| query.origin       | _string_ | Artist country origin |         | "Denmark"    |
+| query.page         | _number_ | Current Page          | 1       | 2            |
+| query.itemsPerPage | _number_ | Total items per page  | 30      | 90           |
 
 **Response**
 

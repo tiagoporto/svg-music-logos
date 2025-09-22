@@ -5,11 +5,17 @@ import type { Logos, Origins } from '../db/schema'
 export default defineEventHandler(async (event) => {
   const logosData: { logos: Logos[]; count: number } = filterLogos(data)
 
-  const query: { genre: string; origin: Origins; page: number } =
-    getQuery(event)
-  const { genre, origin, page } = query
+  const query: {
+    genre: string
+    origin: Origins
+    page?: string
+    itemsPerPage?: string
+  } = getQuery(event)
+  const { genre, origin, page, itemsPerPage } = query
+  const currentPage = Number(page) || 1
+  const itemsPerPageNum = Number(itemsPerPage) || 30
 
-  if (Object.keys(query).length) {
+  if (origin || genre) {
     logosData.logos = logosData.logos.filter((artist) => {
       if (genre && origin) {
         return (
@@ -27,20 +33,23 @@ export default defineEventHandler(async (event) => {
     })
   }
 
-  const pageSize = 30
-  const pages = []
-
-  for (let i = 0; i < logosData.logos.length; i += pageSize) {
-    pages.push(logosData.logos.slice(i, i + pageSize))
+  if (logosData.logos.length === 0) {
+    return null
   }
 
-  logosData.logos = pages[page - 1]
+  const pages = []
+
+  for (let i = 0; i < logosData.logos.length; i += itemsPerPageNum) {
+    pages.push(logosData.logos.slice(i, i + itemsPerPageNum))
+  }
+
+  logosData.logos = pages[currentPage - 1]
 
   return {
     ...logosData,
     pagination: {
       totalRecords: logosData.count,
-      currentPage: Number(page),
+      currentPage: currentPage,
       totalPages: pages.length,
     },
   }
