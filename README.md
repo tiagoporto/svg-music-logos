@@ -164,6 +164,13 @@ Endpoints are defined in `server/api` directory.
 
 #### GET /api/artists/{id}
 
+**Parameters**
+
+| name               | type     | description          | default |
+| ------------------ | -------- | -------------------- | ------- |
+| query.page         | _number_ | Current Page         | 1       |
+| query.itemsPerPage | _number_ | Total items per page | 30      |
+
 **Response**
 
 ```json5
@@ -182,7 +189,12 @@ Endpoints are defined in `server/api` directory.
         inverse?: boolean,
       }
     ],
-  }
+  },
+  pagination: {
+    totalRecords: number,
+    currentPage: number,
+    totalPages: number,
+  },
 }
 ```
 

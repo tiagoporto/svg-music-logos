@@ -3,6 +3,13 @@ import type { Logo } from '../../db/schema'
 import { createSVGPath } from '../../utils/create-svg-path'
 
 export default defineEventHandler(async (event) => {
+  const query: {
+    page?: string
+    itemsPerPage?: string
+  } = getQuery(event)
+  const { page, itemsPerPage } = query
+  const currentPage = Number(page) || 1
+  const itemsPerPageNum = Number(itemsPerPage) || 30
   const artistId = getRouterParam(event, 'artistId') || ''
 
   const artist = data.find((artist) => {
@@ -25,7 +32,18 @@ export default defineEventHandler(async (event) => {
     })
   })
 
+  const pages = []
+
+  for (let i = 0; i < processedLogos.length; i += itemsPerPageNum) {
+    pages.push(processedLogos.slice(i, i + itemsPerPageNum))
+  }
+
   return {
-    artist: { ...artist, logos: processedLogos },
+    artist: { ...artist, logos: pages[currentPage - 1] },
+    pagination: {
+      totalRecords: processedLogos.length,
+      currentPage: currentPage,
+      totalPages: pages.length,
+    },
   }
 })
