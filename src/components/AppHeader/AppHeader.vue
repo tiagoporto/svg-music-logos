@@ -60,7 +60,7 @@ const changeRoute = (value: string) => {
 //   }
 // }
 
-const setPosition = debounce(5, () => {
+const fixTopLine = debounce(5, () => {
   const element = window
 
   if (header.value) {
@@ -73,11 +73,11 @@ const setPosition = debounce(5, () => {
 })
 
 onMounted(() => {
-  window.addEventListener('wheel', setPosition)
+  window.addEventListener('wheel', fixTopLine)
 })
 
 onUnmounted(() => {
-  window.removeEventListener('wheel', setPosition)
+  window.removeEventListener('wheel', fixTopLine)
 })
 </script>
 
