@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const router = useRouter()
 const { page } = useRoute().query
 
 const currentPage = ref(page || 1)
@@ -9,51 +8,22 @@ const query = computed(() => {
   }
 })
 
-const { data, status } = useFetch('/api/logos', { query })
-
-const changePage = (page: number) => {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
-  router.push({ query: { page } })
-  currentPage.value = page
-}
+const { data } = useFetch('/api/logos', { query })
 </script>
 
 <template>
-  <template v-if="status !== 'success'">
-    <v-skeleton-loader
-      width="100%"
-      class="card"
-      :elevation="12"
-      type="card"
-    ></v-skeleton-loader>
-    <v-skeleton-loader
-      class="card"
-      :elevation="12"
-      type="card"
-    ></v-skeleton-loader>
-  </template>
+  <Card
+    v-for="logo in data?.logos"
+    :key="`${logo.name}-${logo.logo.title}`"
+    :title="logo.name"
+    :title-template="logo.nameTemplate"
+    :link="logo.link"
+    :genres="logo.genres"
+    :origins="logo.origins"
+    :logo="logo.logo"
+  />
 
-  <template v-if="status === 'success'">
-    <Card
-      v-for="logo in data?.logos"
-      :key="`${logo.name}-${logo.logo.title}`"
-      :title="logo.name"
-      :title-template="logo.nameTemplate"
-      :link="logo.link"
-      :genres="logo.genres"
-      :origins="logo.origins"
-      :logo="logo.logo"
-    />
-
-    <v-pagination
-      :model-value="Number(currentPage)"
-      :length="data?.pagination.totalPages"
-      color="white"
-      total-visible="4"
-      variant="tonal"
-      @update:model-value="changePage($event)"
-    ></v-pagination>
-  </template>
+  <Pagination :total-pages="data?.pagination.totalPages" />
 </template>
 
 <style lang="scss" scoped>
