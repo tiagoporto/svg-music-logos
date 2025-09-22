@@ -4,8 +4,13 @@ import type { Artist } from '../../server/db/schema'
 interface SearchProps {
   artists?: Artist[]
   artistsStatus: string
+  selectedFilterBy: string | null
 }
-const { artists = [], artistsStatus } = defineProps<SearchProps>()
+const {
+  artists = [],
+  artistsStatus,
+  selectedFilterBy,
+} = defineProps<SearchProps>()
 
 const route = useRoute()
 
@@ -21,6 +26,8 @@ const changeArtist = (value: string) => {
       query: {
         ...route.query,
         page: undefined,
+        origin: undefined,
+        genre: undefined,
       },
     })
 
@@ -49,6 +56,7 @@ const changeArtist = (value: string) => {
     item-title="name"
     item-value="id"
     :items="artists"
+    :disabled="!!selectedFilterBy"
     :loading="artistsStatus !== 'success'"
     @update:model-value="changeArtist"
   ></v-autocomplete>

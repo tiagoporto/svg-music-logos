@@ -1,10 +1,23 @@
 <script setup lang="ts">
 import { TITLE, URL } from '../../constants/site'
 
-const { params, query } = useRoute()
-const { data } = await useFetch(`/api/artist/${params.artistId}`, { query })
+const route = useRoute()
+const query = computed(() => route.query)
+const { data } = await useFetch(`/api/artist/${route.params.artistId}`, {
+  query,
+  key: `/api/artist/${route.params.artistId}`,
+})
 
 const pageTitle = `${TITLE} | ${data.value?.artist.name} Logos`
+
+watchEffect(() => {
+  if (data.value === undefined) {
+    navigateTo({
+      name: 'index',
+      query: { ...route.query },
+    })
+  }
+})
 </script>
 
 <template>
@@ -12,21 +25,24 @@ const pageTitle = `${TITLE} | ${data.value?.artist.name} Logos`
     <Title>{{ pageTitle }}</Title>
 
     <Meta property="og:title" :content="pageTitle" />
-    <Meta property="og:url" :content="`${URL}/artist/${params.artistId}`" />
+    <Meta
+      property="og:url"
+      :content="`${URL}/artist/${route.params.artistId}`"
+    />
     <Meta
       property="og:image"
-      :content="`${URL}/logos/${params.artistId}/og.png`"
+      :content="`${URL}/logos/${route.params.artistId}/og.png`"
     />
 
     <Meta name="twitter:title" :content="pageTitle" />
 
     <Meta
       name="twitter:image"
-      :content="`${URL}/logos/${params.artistId}/og.png`"
+      :content="`${URL}/logos/${route.params.artistId}/og.png`"
     />
   </Head>
 
-  <template v-if="data?.artist">
+  <template v-if="data?.artist?.logos">
     <Card
       v-for="logo in data?.artist?.logos"
       :key="logo?.title"
@@ -37,7 +53,7 @@ const pageTitle = `${TITLE} | ${data.value?.artist.name} Logos`
       :origins="data?.artist?.origins"
       :logo="logo"
     />
-  </template>
 
-  <template v-else> No results </template>
+    <Pagination :total-pages="data?.pagination.totalPages" />
+  </template>
 </template>

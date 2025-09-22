@@ -3,32 +3,16 @@ import { TITLE } from '../../constants/site'
 import { debounce } from 'throttle-debounce'
 
 const { data: artists, status: artistsStatus } = await useFetch('/api/artists')
-// const { data: genres } = useFetch('/api/genres')
-// const { data: origin } = useFetch('/api/origins')
 const { data: logos, status: logosStatus } = useFetch('/api/logos')
+const route = useRoute()
+const selectedFilterBy = computed(
+  () =>
+    (typeof route.query.origin === 'string' ? route.query.origin : null) ||
+    (typeof route.query.genre === 'string' ? route.query.genre : null),
+)
 
 const header = ref<HTMLElement | null>(null)
 const className = ref('header')
-
-// const changeGenre = (value: string | null) => {
-//   const { query } = useRoute()
-//   if (value) {
-//     router.push({ path: '/', query: { ...query, genre: value }, replace: true })
-//   }
-// }
-
-// const changeOrigin = (value: string | null) => {
-//   const { query } = useRoute()
-
-//   if (value) {
-//     router.push({
-//       path: '/',
-//       query: { ...query, origin: value },
-//       replace: true,
-//     })
-//   }
-// }
-
 const fixTopLine = debounce(5, () => {
   const element = window
 
@@ -82,28 +66,14 @@ onUnmounted(() => {
         they refer.
       </p>
 
-      <!-- <v-select
-        clearable
-        auto-select-first
-        variant="outlined"
-        placeholder="Genres"
-        :items="genres?.genres"
-        @update:model-value="changeGenre"
-      >
-      </v-select>
-
-      <v-select
-        clearable
-        auto-select-first
-        variant="outlined"
-        placeholder="Origins"
-        :items="origin?.origins"
-        @update:model-value="changeOrigin"
-      >
-      </v-select> -->
       <ListenOnButton />
 
-      <Search :artists="artists?.artists" :artists-status="artistsStatus" />
+      <Search
+        :artists="artists?.artists"
+        :artists-status="artistsStatus"
+        :selected-filter-by="selectedFilterBy"
+      />
+      <Filters :selected-filter-by="selectedFilterBy" />
     </div>
   </header>
 </template>
