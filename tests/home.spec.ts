@@ -2,16 +2,22 @@ import { test } from 'happo-playwright'
 import { expect } from '@playwright/test'
 
 test('start page', async ({ page, happoScreenshot }) => {
-  await page.goto('/')
+  await page.goto('/?itemsPerPage=60')
   const body = page.locator('body')
   const nextButton = page.getByRole('button', { name: 'Next page' })
-  await expect(page.locator('[data-test="card"]').last()).toBeVisible()
+  let currentPage = 1
 
-  await happoScreenshot(body, {
-    component: 'Homepage',
-    variant: 'Page 1',
-  })
+  do {
+    await expect(page.locator('[data-test="card"]').last()).toBeVisible()
+    await happoScreenshot(body, {
+      component: 'Homepage',
+      variant: `Page ${currentPage}`,
+    })
 
-  await nextButton.click()
-  await expect(page.locator('[data-test="card"]').last()).toBeVisible()
+    // eslint-disable-next-line playwright/no-conditional-in-test
+    if (await nextButton.isEnabled()) {
+      currentPage++
+      await nextButton.click()
+    }
+  } while (await nextButton.isEnabled())
 })
