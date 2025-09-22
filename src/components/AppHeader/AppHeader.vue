@@ -1,45 +1,14 @@
 <script setup lang="ts">
 import { TITLE } from '../../constants/site'
-import type { Artist } from '../../server/db/schema'
 import { debounce } from 'throttle-debounce'
-const route = useRoute()
+
 const { data: artists, status: artistsStatus } = await useFetch('/api/artists')
 // const { data: genres } = useFetch('/api/genres')
 // const { data: origin } = useFetch('/api/origins')
 const { data: logos, status: logosStatus } = useFetch('/api/logos')
 
-const router = useRouter()
 const header = ref<HTMLElement | null>(null)
 const className = ref('header')
-const selectedArtist = ref<Artist | null>(null)
-
-const setSelectedArtist = (artistToSet: string) => {
-  const selected = artists.value?.artists.find(
-    (artist) => artist.id === artistToSet,
-  )
-  selectedArtist.value = toRaw(selected) || null
-}
-
-setSelectedArtist(route.params.artistId as string)
-
-watch(route, (newRoute) => {
-  if (newRoute.params.artistId) {
-    setSelectedArtist(newRoute.params.artistId as string)
-  } else {
-    selectedArtist.value = null
-  }
-})
-
-const changeRoute = (value: string) => {
-  if (value) {
-    return router.push({
-      name: 'artist-artistId',
-      params: { artistId: value },
-    })
-  }
-
-  return router.push({ name: 'index' })
-}
 
 // const changeGenre = (value: string | null) => {
 //   const { query } = useRoute()
@@ -113,19 +82,6 @@ onUnmounted(() => {
         they refer.
       </p>
 
-      <v-autocomplete
-        v-model="selectedArtist"
-        clearable
-        variant="solo"
-        placeholder="Search Artist"
-        :items="artists?.artists || []"
-        item-title="name"
-        item-value="id"
-        :disabled="artistsStatus !== 'success'"
-        data-testid="artist-autocomplete"
-        @update:model-value="(value) => changeRoute(value as unknown as string)"
-      ></v-autocomplete>
-
       <!-- <v-select
         clearable
         auto-select-first
@@ -146,6 +102,8 @@ onUnmounted(() => {
       >
       </v-select> -->
       <ListenOnButton />
+
+      <Search :artists="artists?.artists" :artists-status="artistsStatus" />
     </div>
   </header>
 </template>
