@@ -45,7 +45,12 @@ onUnmounted(() => {
     <div class="header__main">
       <h1 class="header__title">
         <NuxtLink to="/">
-          <NuxtImg width="350" :alt="TITLE" src="/favicon.svg" />
+          <NuxtImg
+            width="350"
+            :alt="TITLE"
+            src="/favicon.svg"
+            :style="{ 'max-width': '100%' }"
+          />
         </NuxtLink>
       </h1>
 

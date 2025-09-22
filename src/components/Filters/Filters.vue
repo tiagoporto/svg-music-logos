@@ -71,7 +71,7 @@ const changeItemsPerPage = (value: number) => {
 
 <template>
   <v-row>
-    <v-col cols="12" sm="10">
+    <v-col cols="12" sm="9" class="pb-0">
       <v-select
         v-model="selectedFilterByRef"
         clearable
@@ -94,7 +94,7 @@ const changeItemsPerPage = (value: number) => {
       </v-select>
     </v-col>
 
-    <v-col cols="12" sm="2">
+    <v-col cols="12" sm="3">
       <v-select
         v-model="initialItemsPerPage"
         label="Items per page"

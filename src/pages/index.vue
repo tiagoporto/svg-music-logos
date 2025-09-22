@@ -30,17 +30,3 @@ watchEffect(() => {
 
   <Pagination :total-pages="data?.pagination.totalPages" />
 </template>
-
-<style lang="scss" scoped>
-.card {
-  flex-basis: 100%;
-
-  @media only screen and (width >= 550px) {
-    flex-basis: calc((100% - 40px) / 2);
-  }
-
-  @media only screen and (width >= 800px) {
-    flex-basis: calc((100% - 40px) / 3);
-  }
-}
-</style>

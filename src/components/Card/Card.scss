@@ -13,10 +13,10 @@
   transition: flex-basis 0.5s;
 
   @media only screen and (width >= 550px) {
-    flex-basis: calc((100% - 40px) / 2);
+    flex-basis: calc((100% - 20px) / 2);
   }
 
-  @media only screen and (width >= 800px) {
+  @media only screen and (width >= 850px) {
     flex-basis: calc((100% - 40px) / 3);
   }
 
