@@ -8,7 +8,6 @@ const { data: artists, status: artistsStatus } = await useFetch('/api/artists')
 // const { data: origin } = useFetch('/api/origins')
 const { data: logos, status: logosStatus } = useFetch('/api/logos')
 
-const { gtag } = useGtag()
 const router = useRouter()
 const header = ref<HTMLElement | null>(null)
 const className = ref('header')
@@ -40,15 +39,6 @@ const changeRoute = (value: string) => {
   }
 
   return router.push({ name: 'index' })
-}
-
-const handleClick = (audioStreaming: 'YT Music' | 'Spotify') => {
-  if (process.env.NODE_ENV === 'production') {
-    gtag('event', 'svg-music-logos', {
-      event_category: 'Listen On',
-      event_label: audioStreaming,
-    })
-  }
 }
 
 // const changeGenre = (value: string | null) => {
@@ -123,41 +113,6 @@ onUnmounted(() => {
         they refer.
       </p>
 
-      <v-btn
-        color="light-blue-darken-3"
-        append-icon="mdi-menu-down"
-        size="x-large"
-        tile
-        class="mb-5"
-      >
-        Listen On
-
-        <v-menu activator="parent">
-          <v-list tile>
-            <v-list-item
-              href="https://music.youtube.com/playlist?list=PLKtV93YW2_X-Iu_iNpyMG03bWx8YTTAx6&feature=share"
-              target="_blank"
-              @click="handleClick('YT Music')"
-            >
-              <v-list-item-title>
-                <v-icon icon="mdi-youtube" />
-                YT Music</v-list-item-title
-              >
-            </v-list-item>
-
-            <v-list-item
-              href="https://open.spotify.com/playlist/20XHrsLWAJkgBBagZiURM5"
-              target="_blank"
-              @click="handleClick('Spotify')"
-            >
-              <v-list-item-title
-                ><v-icon icon="mdi-spotify" /> Spotify</v-list-item-title
-              >
-            </v-list-item>
-          </v-list>
-        </v-menu>
-      </v-btn>
-
       <v-autocomplete
         v-model="selectedArtist"
         clearable
@@ -190,6 +145,7 @@ onUnmounted(() => {
         @update:model-value="changeOrigin"
       >
       </v-select> -->
+      <ListenOnButton />
     </div>
   </header>
 </template>
