@@ -13,7 +13,7 @@ export const injectClassName = (svg, className) => {
   const uniqueClassName = [...new Set(classNameArray)].filter(Boolean).join(' ')
 
   // If SVG doesn't already have a class attribute add it
-  if (!svg.match(searchClassAttributeRegex)) {
+  if (!searchClassAttributeRegex.test(svg)) {
     return svg.replace(extractSVGTagRegex, `$1 class="${uniqueClassName}"`)
   }
 

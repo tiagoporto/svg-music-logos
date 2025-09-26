@@ -28,7 +28,7 @@ export default defineEventHandler(async (event) => {
     processedLogos.push({
       title: logo.title,
       svg: path,
-      ...(logo.inverse !== undefined ? { inverse: logo.inverse } : {}),
+      ...(logo.inverse === undefined ? {} : { inverse: logo.inverse }),
     })
   })
 

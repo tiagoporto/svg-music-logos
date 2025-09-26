@@ -39,7 +39,7 @@ inquirer
   ])
   .then((answers) => {
     const { id, logo } = answers
-    const logoHash = logo.toLowerCase().trim().replace(/\s+/g, '-')
+    const logoHash = logo.toLowerCase().trim().replaceAll(/\s/g, '-')
 
     artist.logos.push({
       title: logo,

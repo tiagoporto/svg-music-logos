@@ -9,9 +9,9 @@ import {
 import playwright from 'eslint-plugin-playwright'
 import pluginVue from 'eslint-plugin-vue'
 
-import withNuxt from './.nuxt/eslint.config.mjs'
+import eslintWithNuxt from './.nuxt/eslint.config.mjs'
 
-export default withNuxt(
+export default eslintWithNuxt(
   defineConfigWithVueTs([
     {
       name: 'app/files-to-lint',
@@ -41,6 +41,7 @@ export default withNuxt(
     ...tpConfig.configs.base,
     {
       rules: {
+        'no-unused-vars': ['error', { args: 'after-used' }],
         'vue/multi-word-component-names': 'off',
         'vue/no-multiple-template-root': 'off',
         'no-console': ['error', { allow: ['warn', 'error', 'info'] }],

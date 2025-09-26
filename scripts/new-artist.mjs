@@ -52,8 +52,8 @@ inquirer
   ])
   .then((answers) => {
     const { origins, genres, link, name, logo } = answers
-    const id = name.toLowerCase().trim().replace(/\s+/g, '-')
-    const logoHash = logo.toLowerCase().trim().replace(/\s+/g, '-')
+    const id = name.toLowerCase().trim().replaceAll(/\s/g, '-')
+    const logoHash = logo.toLowerCase().trim().replaceAll(/\s/g, '-')
 
     // create json
     createFile({

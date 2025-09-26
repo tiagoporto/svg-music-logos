@@ -15,7 +15,7 @@ export const filterLogos = (data) => {
         logo: {
           title: logo.title,
           svg: path,
-          ...(logo.inverse !== undefined ? { inverse: logo.inverse } : {}),
+          ...(logo.inverse === undefined ? {} : { inverse: logo.inverse }),
         },
       })
     })

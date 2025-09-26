@@ -8,7 +8,7 @@ import zip from 'gulp-zip'
 import { Buffer } from 'node:buffer'
 import { readFileSync } from 'node:fs'
 import path from 'node:path'
-import * as prettier from 'prettier'
+import { format as prettierFormat } from 'prettier'
 import * as sassEmbedded from 'sass-embedded'
 import through from 'through2'
 import Vinyl from 'vinyl'
@@ -59,7 +59,7 @@ const generateData = () => {
       (() => {
         const transform = async function (file, encoding, callback) {
           const json = file.contents.toString('utf8')
-          const formattedJson = await prettier.format(json, {
+          const formattedJson = await prettierFormat(json, {
             parser: 'json',
           })
 
@@ -119,7 +119,7 @@ const transformCopySVGs = () => {
             logoName.forEach((name) => {
               if (name === filename) {
                 console.error(
-                  `\x1b[31mDuplicated logo title: ${filename}\x1b[0m`,
+                  `\u001B[31mDuplicated logo title: ${filename}\u001B[0m`,
                 )
               }
             })
@@ -144,11 +144,11 @@ const transformCopySVGs = () => {
       (() => {
         return through.obj(async function (file, encoding, callback) {
           console.warn(
-            `\x1b[33mFile saved: ${path.relative(file.base, file.path)}\x1b[0m`,
+            `\u001B[33mFile saved: ${path.relative(file.base, file.path)}\u001B[0m`,
           )
 
           const unformattedCode = file.contents.toString('utf8')
-          const svgFormatted = await prettier.format(unformattedCode, {
+          const svgFormatted = await prettierFormat(unformattedCode, {
             printWidth: 1000,
             parser: 'html',
           })

@@ -7,7 +7,7 @@ Sentry.init({
 
   // We recommend adjusting this value in production, or using tracesSampler
   // for finer control
-  tracesSampleRate: 1.0,
+  tracesSampleRate: 1,
 
   // This sets the sample rate to be 10%. You may want this to be 100% while
   // in development and sample at a lower rate in production
@@ -15,7 +15,7 @@ Sentry.init({
 
   // If the entire session is not sampled, use the below sample rate to sample
   // sessions when an error occurs.
-  replaysOnErrorSampleRate: 1.0,
+  replaysOnErrorSampleRate: 1,
 
   // If you don't want to use Session Replay, just remove the line below:
   integrations: [Sentry.replayIntegration()],
