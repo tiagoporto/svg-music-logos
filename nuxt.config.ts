@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     registerType: 'prompt',
     includeAssets: ['fonts/*.woff2'],
     injectManifest: {
-      maximumFileSizeToCacheInBytes: 3000000,
+      maximumFileSizeToCacheInBytes: 3_000_000,
       globPatterns: ['**/*.{js,css,html,png,ico}'],
     },
     registerWebManifestInRouteRules: true,

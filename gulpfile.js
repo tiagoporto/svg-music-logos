@@ -1,22 +1,22 @@
-import fs from 'node:fs'
-import * as prettier from 'prettier'
-import { Buffer } from 'node:buffer'
-import { src, dest, series, parallel, watch as gulpWatch } from 'gulp'
-import replace from 'gulp-replace'
-import * as sassEmbedded from 'sass-embedded'
-import gulpSass from 'gulp-sass'
-import jsonConcat from 'gulp-concat-json-to-array'
-import changed from 'gulp-changed'
-import through from 'through2'
-import { readFileSync } from 'fs'
-import Vinyl from 'vinyl'
-import path from 'path'
-import zip from 'gulp-zip'
 import * as changeCase from 'change-case'
-import { injectCSSinSVG, injectClassName } from './utils/index.js'
+import { src, dest, series, parallel, watch as gulpWatch } from 'gulp'
+import changed from 'gulp-changed'
+import jsonConcat from 'gulp-concat-json-to-array'
+import replace from 'gulp-replace'
+import gulpSass from 'gulp-sass'
+import zip from 'gulp-zip'
+import { Buffer } from 'node:buffer'
+import { readFileSync } from 'node:fs'
+import path from 'node:path'
+import * as prettier from 'prettier'
+import * as sassEmbedded from 'sass-embedded'
+import through from 'through2'
+import Vinyl from 'vinyl'
+
 import { filterGenres } from './src/server/utils/filter-genres.js'
 import { filterLogos } from './src/server/utils/filter-logos.js'
 import { filterOrigins } from './src/server/utils/filter-origins.js'
+import { injectCSSinSVG, injectClassName } from './utils/index.js'
 
 const sass = gulpSass(sassEmbedded)
 const paths = {
@@ -26,7 +26,7 @@ const paths = {
 }
 
 const updateReadme = () => {
-  const data = JSON.parse(fs.readFileSync('./src/server/db/data.json'))
+  const data = JSON.parse(readFileSync('./src/server/db/data.json'))
   const { count: genresCount } = filterGenres(data)
   const { count: originsCount } = filterOrigins(data)
   const { count: logosCount } = filterLogos(data)

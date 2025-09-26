@@ -1,6 +1,6 @@
-import { filterLogos } from '../utils'
 import { data } from '../db'
 import type { Logos, Origins } from '../db/schema'
+import { filterLogos } from '../utils'
 
 export default defineEventHandler(async (event) => {
   const logosData: { logos: Logos[]; count: number } = filterLogos(data)
@@ -13,7 +13,7 @@ export default defineEventHandler(async (event) => {
   } = getQuery(event)
   const { genre, origin, page, itemsPerPage } = query
   const currentPage = Number(page) || 1
-  const itemsPerPageNum = Number(itemsPerPage) || 30
+  const itemsPerPageNumber = Number(itemsPerPage) || 30
 
   if (origin || genre) {
     logosData.logos = logosData.logos.filter((artist) => {
@@ -39,8 +39,8 @@ export default defineEventHandler(async (event) => {
 
   const pages = []
 
-  for (let i = 0; i < logosData.logos.length; i += itemsPerPageNum) {
-    pages.push(logosData.logos.slice(i, i + itemsPerPageNum))
+  for (let i = 0; i < logosData.logos.length; i += itemsPerPageNumber) {
+    pages.push(logosData.logos.slice(i, i + itemsPerPageNumber))
   }
 
   logosData.logos = pages[currentPage - 1]
@@ -48,8 +48,8 @@ export default defineEventHandler(async (event) => {
   return {
     ...logosData,
     pagination: {
+      currentPage,
       totalRecords: logosData.count,
-      currentPage: currentPage,
       totalPages: pages.length,
     },
   }

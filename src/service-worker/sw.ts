@@ -18,7 +18,6 @@ precacheAndRoute(self.__WB_MANIFEST)
 // clean old assets
 cleanupOutdatedCaches()
 
-/** @type {RegExp[] | undefined} */
 let allowlist
 // in dev mode, we disable precaching to avoid caching issues
 if (import.meta.dev) allowlist = [/^\/$/]

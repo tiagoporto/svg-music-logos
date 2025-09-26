@@ -1,6 +1,7 @@
 import inquirer from 'inquirer'
-import { SVGHeader } from './utils/svg-header.mjs'
+
 import { createFile } from './utils/create-file.mjs'
+import { SVGHeader } from './utils/svg-header.mjs'
 
 const filterComma = (input) => {
   return input.split(',').map((item) => item.trim())
@@ -87,5 +88,5 @@ inquirer
     return answers
   })
   .catch((error) => {
-    console.error('error: ', error)
+    console.error('error:', error)
   })

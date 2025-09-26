@@ -1,14 +1,15 @@
 import js from '@eslint/js'
-import withNuxt from './.nuxt/eslint.config.mjs'
-import pluginVue from 'eslint-plugin-vue'
+import tpConfig from '@tiagoporto/eslint-config'
+import vitest from '@vitest/eslint-plugin'
+import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
 import {
   defineConfigWithVueTs,
   vueTsConfigs,
 } from '@vue/eslint-config-typescript'
-import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
-import vitest from '@vitest/eslint-plugin'
-import tpConfig from '@tiagoporto/eslint-config'
 import playwright from 'eslint-plugin-playwright'
+import pluginVue from 'eslint-plugin-vue'
+
+import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(
   defineConfigWithVueTs([
@@ -38,12 +39,6 @@ export default withNuxt(
     vueTsConfigs.recommended,
     skipFormatting,
     ...tpConfig.configs.base,
-    {
-      rules: {
-        'import-x/order': 'off',
-        'import-x/no-named-as-default': 'off',
-      },
-    },
     {
       rules: {
         'vue/multi-word-component-names': 'off',

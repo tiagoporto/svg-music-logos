@@ -1,8 +1,9 @@
 import inquirer from 'inquirer'
-import fs from 'fs'
-import path from 'path'
-import { SVGHeader } from './utils/svg-header.mjs'
+import fs from 'node:fs'
+import path from 'node:path'
+
 import { createFile } from './utils/create-file.mjs'
+import { SVGHeader } from './utils/svg-header.mjs'
 
 let artist
 
@@ -10,7 +11,7 @@ const validateFolder = (input) => {
   try {
     const fileContent = fs.readFileSync(
       path.join(process.cwd(), `src/logos/${input}/${input}.json`),
-      'utf-8',
+      'utf8',
     )
 
     artist = JSON.parse(fileContent)
@@ -62,5 +63,5 @@ inquirer
     return answers
   })
   .catch((error) => {
-    console.error('error: ', error)
+    console.error('error:', error)
   })

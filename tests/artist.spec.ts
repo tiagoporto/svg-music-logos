@@ -1,5 +1,5 @@
-import { readFileSync } from 'fs'
 import { expect, test } from '@playwright/test'
+import { readFileSync } from 'node:fs'
 
 const data = JSON.parse(readFileSync('./src/server/db/data.json').toString())
 

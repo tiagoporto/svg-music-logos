@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+
 import { filterLogos } from './filter-logos'
 
 const artists = {

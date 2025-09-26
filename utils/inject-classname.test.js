@@ -1,5 +1,6 @@
-import { injectClassName } from './'
 import { describe, expect, it } from 'vitest'
+
+import { injectClassName } from './'
 
 // eslint-disable-next-line vitest/valid-title
 describe(injectClassName, () => {

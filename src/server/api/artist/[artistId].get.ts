@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
   } = getQuery(event)
   const { page, itemsPerPage } = query
   const currentPage = Number(page) || 1
-  const itemsPerPageNum = Number(itemsPerPage) || 30
+  const itemsPerPageNumber = Number(itemsPerPage) || 30
   const artistId = getRouterParam(event, 'artistId') || ''
 
   const artist = data.find((artist) => {
@@ -34,15 +34,15 @@ export default defineEventHandler(async (event) => {
 
   const pages = []
 
-  for (let i = 0; i < processedLogos.length; i += itemsPerPageNum) {
-    pages.push(processedLogos.slice(i, i + itemsPerPageNum))
+  for (let i = 0; i < processedLogos.length; i += itemsPerPageNumber) {
+    pages.push(processedLogos.slice(i, i + itemsPerPageNumber))
   }
 
   return {
     artist: { ...artist, logos: pages[currentPage - 1] },
     pagination: {
+      currentPage,
       totalRecords: processedLogos.length,
-      currentPage: currentPage,
       totalPages: pages.length,
     },
   }

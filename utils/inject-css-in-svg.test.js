@@ -1,5 +1,6 @@
-import { injectCSSinSVG } from '.'
 import { describe, expect, it } from 'vitest'
+
+import { injectCSSinSVG } from '.'
 
 // eslint-disable-next-line vitest/valid-title
 describe(injectCSSinSVG, () => {
