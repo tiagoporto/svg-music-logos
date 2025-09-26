@@ -24,12 +24,8 @@ export default eslintWithNuxt(
         '**/dist/**',
         '**/dist-ssr/**',
         '**/coverage/**',
-        '**/*.svg',
         '**/*.md',
         '**/*.json',
-        '**/*.yml',
-        '**/*.yaml',
-        'package-lock.json',
       ],
     },
 
