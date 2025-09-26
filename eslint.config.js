@@ -40,8 +40,6 @@ export default eslintWithNuxt(
         'no-unused-vars': ['error', { args: 'after-used' }],
         'vue/multi-word-component-names': 'off',
         'vue/no-multiple-template-root': 'off',
-        'no-console': ['error', { allow: ['warn', 'error', 'info'] }],
-        'no-nested-ternary': 'error',
         'unicorn/no-null': 'off',
         'unicorn/filename-case': 'off',
         'unicorn/no-array-for-each': 'off',
