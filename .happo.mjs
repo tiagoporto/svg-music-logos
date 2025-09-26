@@ -11,7 +11,7 @@ export default {
       viewport: '1024x768',
       prefersReducedMotion: true,
       freezeAnimations: 'last-frame',
-      maxHeight: 60_000,
+      maxHeight: 10000,
     }),
 
     // 'chrome-small': new RemoteBrowserTarget('chrome', {
