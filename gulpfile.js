@@ -1,3 +1,4 @@
+/*eslint no-unused-vars: ["error", { "args": "after-used" }]*/
 import * as changeCase from 'change-case'
 import { src, dest, series, parallel, watch as gulpWatch } from 'gulp'
 import changed from 'gulp-changed'

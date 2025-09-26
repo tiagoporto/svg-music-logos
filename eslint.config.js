@@ -1,4 +1,3 @@
-import js from '@eslint/js'
 import tpConfig from '@tiagoporto/eslint-config'
 import vitest from '@vitest/eslint-plugin'
 import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
@@ -29,7 +28,6 @@ export default eslintWithNuxt(
       ],
     },
 
-    js.configs.recommended,
     ...pluginVue.configs['flat/recommended'],
     pluginVue.configs['flat/essential'],
     vueTsConfigs.recommended,
@@ -37,7 +35,6 @@ export default eslintWithNuxt(
     ...tpConfig.configs.base,
     {
       rules: {
-        'no-unused-vars': ['error', { args: 'after-used' }],
         'vue/multi-word-component-names': 'off',
         'vue/no-multiple-template-root': 'off',
         'unicorn/no-null': 'off',
