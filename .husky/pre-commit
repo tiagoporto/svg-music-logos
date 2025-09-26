@@ -1,2 +1,3 @@
+echo 'Running checks in staged files...'
 npx --no -- lint-staged
 
