@@ -40,7 +40,7 @@ To continue growing my skills and stay current with the latest technologies, I a
 [![Pagespeed](https://img.shields.io/badge/pagespeed-066AFE?style=flat-square)][pagespeed]
 [![Artists links check](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/dead-link.yml?label=artists%20links&style=flat-square&branch=main)][dead-links-workflow]
 
-[![Docs GA Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/check-docs.yml?branch=main&label=docs&logo=githubactions&logoColor=white&style=flat-square)][docs-workflow]
+[![Docs GA Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/check-docs.yml?branch=main&label=docs&style=flat-square)][docs-workflow]
 [![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks&style=flat-square&branch=main)][checks-workflow]
 [![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/unit-tests.yml?label=unit%20tests&style=flat-square&branch=main)][unit-tests-workflow]
 [![E2E Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/e2e-tests.yml?label=e2e%20tests&style=flat-square&branch=main)][e2e-tests-workflow]
