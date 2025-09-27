@@ -73,7 +73,7 @@ inquirer
             },
           ],
         },
-        null,
+        undefined,
         2,
       ),
     })
@@ -87,6 +87,7 @@ inquirer
 
     return answers
   })
+  // eslint-disable-next-line unicorn/prefer-top-level-await
   .catch((error) => {
     console.error('error:', error)
   })

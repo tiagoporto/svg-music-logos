@@ -39,13 +39,8 @@ export default eslintWithNuxt(
         'vue/no-multiple-template-root': 'off',
         'unicorn/no-null': 'off',
         'unicorn/filename-case': 'off',
-        'unicorn/no-array-for-each': 'off',
-        'unicorn/prefer-top-level-await': 'off',
-        'no-secrets/no-secrets': 'off',
-        'no-unsafe-optional-chaining': 'warn',
       },
     },
-
     {
       files: ['**/*.test.js'],
       plugins: { vitest },

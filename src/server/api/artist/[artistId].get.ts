@@ -17,12 +17,13 @@ export default defineEventHandler(async (event) => {
   })
 
   if (!artist) {
-    return null
+    return
   }
 
   const processedLogos: Logo[] = []
+  const { logos } = artist
 
-  artist?.logos.forEach((logo) => {
+  for (const logo of logos) {
     const path = createSVGPath({ id: artist.id, title: logo.title })
 
     processedLogos.push({
@@ -30,7 +31,7 @@ export default defineEventHandler(async (event) => {
       svg: path,
       ...(logo.inverse === undefined ? {} : { inverse: logo.inverse }),
     })
-  })
+  }
 
   const pages = []
 

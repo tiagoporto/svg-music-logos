@@ -92,7 +92,7 @@ const transformCopySVGs = () => {
           const directoryPath = path.dirname(file.path)
           const logoName = []
 
-          logos.forEach(async (logo) => {
+          for (const logo of logos) {
             let svg = readFileSync(
               `${process.cwd()}/src/logos/${id}/${logo.svg}`,
               'utf8',
@@ -117,13 +117,13 @@ const transformCopySVGs = () => {
             const filename = `${id}_${changeCase.kebabCase(logo.title)}.svg`
 
             // check if logo name is duplicated
-            logoName.forEach((name) => {
+            for (const name of logoName) {
               if (name === filename) {
                 console.error(
                   `\u001B[31mDuplicated logo title: ${filename}\u001B[0m`,
                 )
               }
-            })
+            }
 
             logoName.push(filename)
             newFile = new Vinyl({
@@ -133,7 +133,7 @@ const transformCopySVGs = () => {
             })
 
             this.push(newFile)
-          })
+          }
 
           callback()
         }

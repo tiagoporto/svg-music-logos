@@ -6,7 +6,7 @@ export const filterArtists = (data) => {
 
   const artists = []
 
-  data.forEach(({ logos, id, ...rest }) => {
+  for (const { logos, id, ...rest } of data) {
     const newLogos = logos.map((logo) => {
       const path = createSVGPath({ id, title: logo.title })
 
@@ -22,7 +22,7 @@ export const filterArtists = (data) => {
       ...rest,
       logos: newLogos,
     })
-  })
+  }
 
   return {
     artists: artists.sort((a, b) => a.name.localeCompare(b.name)),

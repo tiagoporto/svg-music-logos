@@ -6,8 +6,8 @@ export const filterLogos = (data) => {
   }
   const logos = []
 
-  data.forEach(({ logos: dataLogo, ...restParams }) => {
-    dataLogo.forEach((logo) => {
+  for (const { logos: dataLogo, ...restParams } of data) {
+    for (const logo of dataLogo) {
       const path = createSVGPath({ id: restParams.id, title: logo.title })
 
       logos.push({
@@ -18,8 +18,8 @@ export const filterLogos = (data) => {
           ...(logo.inverse === undefined ? {} : { inverse: logo.inverse }),
         },
       })
-    })
-  })
+    }
+  }
 
   return {
     logos: logos.sort((a, b) => a.name.localeCompare(b.name)),

@@ -50,7 +50,7 @@ inquirer
     createFile({
       id,
       fileName: `${id}.json`,
-      fileContent: JSON.stringify(artist, null, 2),
+      fileContent: JSON.stringify(artist, undefined, 2),
     })
 
     // create svg
@@ -62,6 +62,7 @@ inquirer
 
     return answers
   })
+  // eslint-disable-next-line unicorn/prefer-top-level-await
   .catch((error) => {
     console.error('error:', error)
   })

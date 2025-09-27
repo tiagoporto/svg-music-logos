@@ -26,6 +26,7 @@ describe(injectClassName, () => {
     it('add class when already has a class attribute', () => {
       expect.assertions(1)
 
+      /* eslint-disable no-secrets/no-secrets */
       const svg = injectClassName(
         '<svg class="svg-class1 svg-class2   svg-class3 test-class"><path class="path-class" d="8623iurkgjbfnkjh"/></svg>',
         'svg-class2 test-class',
@@ -34,11 +35,13 @@ describe(injectClassName, () => {
       expect(svg).toBe(
         '<svg class="svg-class1 svg-class2 svg-class3 test-class"><path class="path-class" d="8623iurkgjbfnkjh"/></svg>',
       )
+      /* eslint-enable no-secrets/no-secrets */
     })
 
     it("add class when doesn't have a class attribute", () => {
       expect.assertions(1)
 
+      /* eslint-disable no-secrets/no-secrets */
       const svg = injectClassName(
         '<svg><path class="path-class" d="8623iurkgjbfnkjh"/></svg>',
         'test-class',
@@ -47,6 +50,7 @@ describe(injectClassName, () => {
       expect(svg).toBe(
         '<svg class="test-class"><path class="path-class" d="8623iurkgjbfnkjh"/></svg>',
       )
+      /* eslint-enable no-secrets/no-secrets */
     })
   })
 

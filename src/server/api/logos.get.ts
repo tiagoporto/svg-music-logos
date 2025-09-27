@@ -34,7 +34,7 @@ export default defineEventHandler(async (event) => {
   }
 
   if (logosData.logos.length === 0) {
-    return null
+    return
   }
 
   const pages = []
