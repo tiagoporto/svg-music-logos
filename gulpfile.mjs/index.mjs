@@ -14,10 +14,10 @@ import * as sassEmbedded from 'sass-embedded'
 import through from 'through2'
 import Vinyl from 'vinyl'
 
-import { filterGenres } from './server/utils/filter-genres.js'
-import { filterLogos } from './server/utils/filter-logos.js'
-import { filterOrigins } from './server/utils/filter-origins.js'
 import { injectCSSinSVG, injectClassName } from './utils/index.js'
+import { filterGenres } from '../server/utils/filter-genres.js'
+import { filterLogos } from '../server/utils/filter-logos.js'
+import { filterOrigins } from '../server/utils/filter-origins.js'
 
 const sass = gulpSass(sassEmbedded)
 const paths = {

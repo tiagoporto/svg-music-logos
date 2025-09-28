@@ -109,9 +109,7 @@ To continue growing my skills and stay current with the latest technologies, I a
 │   ├── api // Nuxt endpoints
 │   └── db // Nuxt database and schema
 ├── test // E2E tests
-├── utils // Logic to manipulate SVG used by Gulp tasks
-├── gulpfile.js // Gulp tasks
-├── LICENSE
+│
 ├── package.json
 ├── README.md
 └── // config files
