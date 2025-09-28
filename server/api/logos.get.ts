@@ -37,16 +37,15 @@ export default defineEventHandler(async (event) => {
     return
   }
 
-  const pages = []
+  const pages: Logos[][] = []
 
   for (let i = 0; i < logosData.logos.length; i += itemsPerPageNumber) {
     pages.push(logosData.logos.slice(i, i + itemsPerPageNumber))
   }
 
-  logosData.logos = pages[currentPage - 1]
-
   return {
-    ...logosData,
+    logos: pages[currentPage - 1],
+    count: logosData.count,
     pagination: {
       currentPage,
       totalRecords: logosData.count,

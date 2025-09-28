@@ -23,11 +23,13 @@ logs
 .env.*
 !.env.example
 
-
-src/server/db/data.json
-src/logos/**/*.css
+# SVG Music Logos
 public/logos/**/*.svg
 public/logos/**/*.zip
+server/db/data.json
+logos/**/*.css
+
+# Vitest
 coverage/
 
 # Playwright

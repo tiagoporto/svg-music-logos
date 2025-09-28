@@ -1,13 +1,13 @@
 <script setup lang="ts">
 const route = useRoute()
 const query = computed(() => route.query)
-const { data } = useFetch('/api/logos', {
+const { data, status } = useFetch('/api/logos', {
   query,
   key: '/api/logos',
 })
 
 watchEffect(() => {
-  if (data.value === undefined) {
+  if (data.value === undefined && status.value === 'success') {
     navigateTo({
       name: 'index',
       query: { ...route.query, origin: undefined, genre: undefined },

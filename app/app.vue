@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { useHead } from 'nuxt/app'
 import { TITLE, DESCRIPTION, URL } from './constants/site'
 
 useHead({

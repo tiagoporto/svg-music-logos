@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test'
 import { readFileSync } from 'node:fs'
 
-const data = JSON.parse(readFileSync('./src/server/db/data.json').toString())
+const data = JSON.parse(readFileSync('./server/db/data.json').toString())
 
 test('artist page', async ({ page }) => {
   test.slow()

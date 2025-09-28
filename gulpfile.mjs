@@ -14,20 +14,20 @@ import * as sassEmbedded from 'sass-embedded'
 import through from 'through2'
 import Vinyl from 'vinyl'
 
-import { filterGenres } from './src/server/utils/filter-genres.js'
-import { filterLogos } from './src/server/utils/filter-logos.js'
-import { filterOrigins } from './src/server/utils/filter-origins.js'
+import { filterGenres } from './server/utils/filter-genres.js'
+import { filterLogos } from './server/utils/filter-logos.js'
+import { filterOrigins } from './server/utils/filter-origins.js'
 import { injectCSSinSVG, injectClassName } from './utils/index.js'
 
 const sass = gulpSass(sassEmbedded)
 const paths = {
   public: 'public/',
-  db: 'src/server/db/',
-  logos: 'src/logos/',
+  db: 'server/db/',
+  logos: 'logos/',
 }
 
 const updateReadme = () => {
-  const data = JSON.parse(readFileSync('./src/server/db/data.json'))
+  const data = JSON.parse(readFileSync('./server/db/data.json'))
   const { count: genresCount } = filterGenres(data)
   const { count: originsCount } = filterOrigins(data)
   const { count: logosCount } = filterLogos(data)
@@ -94,7 +94,7 @@ const transformCopySVGs = () => {
 
           for (const logo of logos) {
             let svg = readFileSync(
-              `${process.cwd()}/src/logos/${id}/${logo.svg}`,
+              `${process.cwd()}/${paths.logos}${id}/${logo.svg}`,
               'utf8',
             )
 
@@ -104,7 +104,7 @@ const transformCopySVGs = () => {
 
             if (logo.css) {
               const css = readFileSync(
-                `${process.cwd()}/src/logos/${id}/${logo.css}`,
+                `${process.cwd()}/${paths.logos}${id}/${logo.css}`,
                 'utf8',
               )
 
@@ -169,13 +169,13 @@ const transformCopySVGs = () => {
 // Update README with artists, logos, origins and genre count
 export { updateReadme as 'update-readme' }
 
-// Merge all "src/logos/**/*.json" into "src/server/db/data.json"
+// Merge all "logos/**/*.json" into "server/db/data.json"
 export { generateData as 'generate-data' }
 
-// Compile all "src/logos/**/*.styl"
+// Compile all "logos/**/*.styl"
 export { styles as 'generate-styles' }
 
-// Extract SVGs from "src/logos/**/*.json" inject related css and copy in "public/logos/[artist]"
+// Extract SVGs from "logos/**/*.json" inject related css and copy in "public/logos/[artist]"
 export { transformCopySVGs as 'copy-svgs' }
 
 export const build = series(parallel(styles, generateData), transformCopySVGs)

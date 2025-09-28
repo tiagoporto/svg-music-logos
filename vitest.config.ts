@@ -3,7 +3,13 @@ import { defineVitestConfig } from '@nuxt/test-utils/config'
 export default defineVitestConfig({
   root: './',
   test: {
-    include: ['**/*.test.?(c|m)[jt]s?(x)'],
+    projects: [
+      {
+        test: {
+          include: ['**/*.test.?(c|m)[jt]s?(x)'],
+        },
+      },
+    ],
     coverage: {
       provider: 'v8',
       reportsDirectory: 'coverage',
@@ -18,8 +24,6 @@ export default defineVitestConfig({
         'gulpfile.js',
         'scripts',
         'tests',
-        'src/constants/',
-        'src/service-worker/',
       ],
     },
   },

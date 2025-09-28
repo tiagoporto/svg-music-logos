@@ -3,7 +3,7 @@ import path from 'node:path'
 
 export const createFile = ({ id, fileName, fileContent = '' }) => {
   try {
-    const filePath = path.join(process.cwd(), 'src/logos', id)
+    const filePath = path.join(process.cwd(), 'logos', id)
     const completeFilePath = path.join(filePath, fileName)
 
     fs.mkdirSync(filePath, { recursive: true })

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Artist } from '../../server/db/schema'
+import type { Artist } from '../../../server/db/schema'
 
 interface SearchProps {
   artists?: Artist[]

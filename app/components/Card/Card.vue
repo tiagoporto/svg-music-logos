@@ -4,7 +4,7 @@ import CountryFlag from '@dzangolab/vue-country-flag-icon'
 import '@dzangolab/vue-country-flag-icon/dist/CountryFlag.css'
 
 import flagIso from './FlagIso.json'
-import type { Logo, Origins } from '../../server/db/schema'
+import type { Logo, Origins } from '../../../server/db/schema'
 
 interface CardProps {
   title: string
@@ -31,7 +31,9 @@ const handleClick = async (path: string) => {
 
   const link = document.createElement('a')
   link.href = path
-  link.download = filename
+  if (filename) {
+    link.download = filename
+  }
   link.click()
 
   if (process.env.NODE_ENV === 'production') {

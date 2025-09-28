@@ -10,7 +10,7 @@ let artist
 const validateFolder = (input) => {
   try {
     const fileContent = fs.readFileSync(
-      path.join(process.cwd(), `src/logos/${input}/${input}.json`),
+      path.join(process.cwd(), `logos/${input}/${input}.json`),
       'utf8',
     )
 
@@ -27,7 +27,7 @@ inquirer
     {
       type: 'input',
       name: 'id',
-      message: 'What is the artist id? (folder name: ./src/logos/<id>)',
+      message: 'What is the artist id? (folder name: ./logos/<id>)',
       validate: validateFolder,
     },
     {
