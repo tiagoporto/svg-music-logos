@@ -26,7 +26,10 @@ const filterByOptions = computed(() => [
 ])
 
 watchEffect(() => {
-  if (!Number(route.query.itemsPerPage)) {
+  if (
+    route.query.itemsPerPage !== undefined &&
+    !Number(route.query.itemsPerPage)
+  ) {
     navigateTo({
       query: {
         ...route.query,
