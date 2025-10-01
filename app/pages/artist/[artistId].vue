@@ -3,10 +3,13 @@ import { TITLE, URL } from '../../constants/site'
 
 const route = useRoute()
 const query = computed(() => route.query)
-const { data } = await useFetch(`/api/artist/${route.params.artistId}`, {
-  query,
-  key: `/api/artist/${route.params.artistId}`,
-})
+const { data, status } = await useFetch(
+  `/api/artist/${route.params.artistId}`,
+  {
+    query,
+    key: `/api/artist/${route.params.artistId}`,
+  },
+)
 
 const pageTitle = `${TITLE} | ${data.value?.artist.name} Logos`
 
@@ -42,6 +45,20 @@ watchEffect(() => {
     />
   </Head>
 
+  <template v-if="status !== 'success'">
+    <v-skeleton-loader
+      class="card"
+      :elevation="12"
+      type="card"
+    ></v-skeleton-loader>
+
+    <v-skeleton-loader
+      class="card"
+      :elevation="12"
+      type="card"
+    ></v-skeleton-loader>
+  </template>
+
   <template v-if="data?.artist?.logos">
     <Card
       v-for="logo in data?.artist?.logos"
@@ -57,3 +74,18 @@ watchEffect(() => {
     <Pagination :total-pages="data?.pagination.totalPages" />
   </template>
 </template>
+
+<style lang="scss" scoped>
+/* loading card */
+.card {
+  flex-basis: 100%;
+
+  @media only screen and (width >= 550px) {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+
+  @media only screen and (width >= 850px) {
+    flex-basis: calc((100% - 40px) / 3);
+  }
+}
+</style>
