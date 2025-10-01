@@ -29,7 +29,7 @@ jobs:
     needs: [checks, unit_tests, e2e_tests]
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           persist-credentials: false
           fetch-depth: 0
