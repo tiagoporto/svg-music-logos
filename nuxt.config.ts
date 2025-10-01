@@ -53,9 +53,12 @@ export default defineNuxtConfig({
     devOptions: {
       enabled: false,
       suppressWarnings: true,
-      navigateFallback: '/',
+      navigateFallback: undefined,
       navigateFallbackAllowlist: [/^\/$/],
       type: 'module',
+    },
+    workbox: {
+      navigateFallback: undefined,
     },
   },
 
