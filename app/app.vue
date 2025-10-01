@@ -7,6 +7,21 @@ useHead({
     lang: 'en',
   },
 })
+
+onMounted(() => {
+  console.info(`\x1b[34m
+            ██████████
+         ████████████████
+       ████            ████
+   ██████               ██████
+ ███████                  ███████     SVG MUSIC LOGOS
+████████                  ████████
+████████                  ████████    Grab all the logos in one go!
+████████                  ████████    ${window.location.origin}/download
+ ███████                  ███████
+  ██████                  ██████
+\x1b[0m`)
+})
 </script>
 
 <template>
