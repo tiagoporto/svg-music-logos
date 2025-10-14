@@ -2,6 +2,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "always"
   },
+  "editor.formatOnSave": true,
   "stylelint.validate": ["scss", "vue"],
   "typescript.tsdk": "node_modules/typescript/lib"
 }
