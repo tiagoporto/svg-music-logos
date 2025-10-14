@@ -32,7 +32,7 @@ jobs:
         run: npm ci --ignore-scripts
 
       - name: Nuxt Prepare
-        run: npm run nuxt-prepare
+        run: npm exec nuxt prepare
 
       - name: Generate data
         run: npm run generate-data
