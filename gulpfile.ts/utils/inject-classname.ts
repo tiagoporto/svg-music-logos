@@ -1,4 +1,4 @@
-export const injectClassName = (svg, className) => {
+export const injectClassName = (svg: string, className: string) => {
   if (!svg || !className) {
     return svg
   }

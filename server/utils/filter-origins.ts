@@ -1,4 +1,6 @@
-export const filterOrigins = (data) => {
+import type { Artist } from '../db/schema'
+
+export const filterOrigins = (data: Artist[]) => {
   if (!data) {
     return { origins: [], count: 0 }
   }

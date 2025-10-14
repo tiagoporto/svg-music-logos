@@ -1,4 +1,6 @@
-export const filterGenres = (data) => {
+import type { Artist } from '../db/schema'
+
+export const filterGenres = (data: Artist[]) => {
   if (!data) {
     return { genres: [], count: 0 }
   }
@@ -10,7 +12,12 @@ export const filterGenres = (data) => {
 
     return artist.genres
   })
-  const genres = [...new Set(allGenres)].filter(Boolean).sort()
+
+  const filteredGenres = allGenres
+    .filter((genre: string | undefined) => genre !== undefined)
+    .sort()
+
+  const genres = [...new Set(filteredGenres)]
 
   return {
     genres,

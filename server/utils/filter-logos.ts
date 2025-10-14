@@ -1,6 +1,7 @@
-import { createSVGPath } from './create-svg-path.js'
+import { createSVGPath } from './create-svg-path.ts'
+import type { Artist } from '../db/schema'
 
-export const filterLogos = (data) => {
+export const filterLogos = (data: Artist[]) => {
   if (!data) {
     return { logos: [], count: 0 }
   }

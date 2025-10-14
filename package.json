@@ -69,6 +69,7 @@
     "@tiagoporto/prettier-config": "^2.1.0",
     "@tiagoporto/remark-config": "^1.11.0",
     "@tiagoporto/stylelint-config": "^1.2.0",
+    "@types/gulp": "^4.0.17",
     "@types/node": "^22.14.1",
     "@types/throttle-debounce": "^5.0.2",
     "@vite-pwa/nuxt": "^1.0.4",

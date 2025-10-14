@@ -42,7 +42,7 @@ export default eslintWithNuxt(
       },
     },
     {
-      files: ['**/*.test.js'],
+      files: ['**/*.test.{js,ts}'],
       plugins: { vitest },
       rules: { ...vitest.configs.all.rules },
     },

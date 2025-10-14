@@ -1,6 +1,5 @@
-/*eslint no-unused-vars: ["error", { "args": "after-used" }]*/
 import * as changeCase from 'change-case'
-import { src, dest, series, parallel, watch as gulpWatch } from 'gulp'
+import { src, dest } from 'gulp'
 import changed from 'gulp-changed'
 import jsonConcat from 'gulp-concat-json-to-array'
 import replace from 'gulp-replace'
@@ -14,19 +13,21 @@ import * as sassEmbedded from 'sass-embedded'
 import through from 'through2'
 import Vinyl from 'vinyl'
 
-import { injectCSSinSVG, injectClassName } from './utils/index.js'
-import { filterGenres } from '../server/utils/filter-genres.js'
-import { filterLogos } from '../server/utils/filter-logos.js'
-import { filterOrigins } from '../server/utils/filter-origins.js'
+import { injectCSSinSVG, injectClassName } from './utils/index.ts'
+import {
+  filterGenres,
+  filterLogos,
+  filterOrigins,
+} from '../server/utils/index.ts'
 
 const sass = gulpSass(sassEmbedded)
-const paths = {
+export const paths = {
   public: 'public/',
   db: 'server/db/',
   logos: 'logos/',
 }
 
-const updateReadme = () => {
+export const updateReadme = () => {
   const data = JSON.parse(readFileSync('./server/db/data.json'))
   const { count: genresCount } = filterGenres(data)
   const { count: originsCount } = filterOrigins(data)
@@ -49,7 +50,7 @@ const updateReadme = () => {
     .pipe(dest('./'))
 }
 
-const generateData = () => {
+export const generateData = () => {
   return src(paths.logos + '**/*.json')
     .pipe(
       jsonConcat('data.json', (data) => {
@@ -75,14 +76,14 @@ const generateData = () => {
     .pipe(dest(paths.db))
 }
 
-const styles = () => {
+export const styles = () => {
   return src(paths.logos + '**/*.scss')
     .pipe(changed(paths.logos, { extension: '.css' }))
     .pipe(sass().on('error', sass.logError))
     .pipe(dest(paths.logos))
 }
 
-const transformCopySVGs = () => {
+export const transformCopySVGs = () => {
   return src(paths.logos + '**/*.json')
     .pipe(
       (() => {
@@ -162,25 +163,4 @@ const transformCopySVGs = () => {
     .pipe(dest(paths.public + 'logos'))
     .pipe(zip('svg-music-logos.zip'))
     .pipe(dest(paths.public + 'logos/'))
-}
-
-// ***************************** Tasks ******************************* //
-
-// Update README with artists, logos, origins and genre count
-export { updateReadme as 'update-readme' }
-
-// Merge all "logos/**/*.json" into "server/db/data.json"
-export { generateData as 'generate-data' }
-
-// Compile all "logos/**/*.styl"
-export { styles as 'generate-styles' }
-
-// Extract SVGs from "logos/**/*.json" inject related css and copy in "public/logos/[artist]"
-export { transformCopySVGs as 'copy-svgs' }
-
-export const build = series(parallel(styles, generateData), transformCopySVGs)
-export const watch = () => {
-  gulpWatch(paths.logos + '**/*.scss', styles)
-  gulpWatch(paths.logos + '**/*.json', generateData)
-  gulpWatch(paths.logos + '**/*.svg', transformCopySVGs)
 }
