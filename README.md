@@ -365,6 +365,6 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 [unit-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/unit-tests.yml?query=branch%3Amain
 [e2e-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/e2e-tests.yml?query=branch%3Amain
 [dead-links-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yml?query=branch%3Amain
-[coverage]: https://app.codecov.io/gh/tiagoporto/svg-music-logos/new
+[coverage]: https://app.codecov.io/gh/tiagoporto/svg-music-logos/tree/main
 [gh-sponsor]: https://github.com/sponsors/tiagoporto
 [paypal-sponsor]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YTDUQ8RZ2G4Q8&lc=US&item_name=tiagoporto&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
