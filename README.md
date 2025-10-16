@@ -44,7 +44,7 @@ To continue growing my skills and stay current with the latest technologies, I a
 [![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks&style=flat-square&branch=main)][checks-workflow]
 [![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/unit-tests.yml?label=unit%20tests&style=flat-square&branch=main)][unit-tests-workflow]
 [![E2E Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/e2e-tests.yml?label=e2e%20tests&style=flat-square&branch=main)][e2e-tests-workflow]
-[![Coverage](https://img.shields.io/coverallsCoverage/github/tiagoporto/svg-music-logos?style=flat-square)][coverage]
+[![Coverage](https://img.shields.io/codecov/c/github/tiagoporto/svg-music-logos/main?style=flat-square)][coverage]
 
 ## Tech Stack 🧰
 
@@ -77,7 +77,7 @@ To continue growing my skills and stay current with the latest technologies, I a
 ![vitest](https://img.shields.io/badge/vitest-%23000?style=for-the-badge&logo=vitest&logoColor=yellow)
 ![Playwright](https://img.shields.io/badge/Playwright-%23242526?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDM2OSAyNjciPgogIDxwYXRoIGZpbGw9IiMyZWFkMzMiIGQ9Ik0xNTEuNywxOTIuM3YtMjIuNGwtNjIuMywxNy43czQuNi0yNi44LDM3LjEtMzZjOS45LTIuOCwxOC4zLTIuOCwyNS4yLTEuNFY1OC4xaDMxLjJjLTMuNC0xMC41LTYuNy0xOC42LTkuNC0yNC4yLTQuNi05LjMtOS4yLTMuMS0xOS45LDUuOC03LjUsNi4zLTI2LjQsMTkuNi01NC45LDI3LjMtMjguNSw3LjctNTEuNSw1LjYtNjEuMSw0LTEzLjYtMi4zLTIwLjctNS4zLTIwLjEsNSwuNiw5LjEsMi44LDIzLjMsNy43LDQyLDEwLjgsNDAuNSw0Ni40LDExOC42LDExMy44LDEwMC40LDE3LjYtNC43LDMwLTE0LjEsMzguNi0yNi4xaC0yNlpNNTEuMSwxMTguNWw0Ny45LTEyLjZzLTEuNCwxOC40LTE5LjMsMjMuMWMtMTcuOSw0LjctMjguNS0xMC41LTI4LjUtMTAuNVoiLz4KICA8cGF0aCBmaWxsPSIjZTI1NzRjIiBkPSJNMzMxLjgsNTkuMmMtMTIuNCwyLjItNDIuMyw0LjktNzkuMi01LTM2LjktOS45LTYxLjQtMjcuMi03MS4xLTM1LjMtMTMuNy0xMS41LTE5LjgtMTkuNS0yNS43LTcuNC01LjMsMTAuNy0xMiwyOC4xLTE4LjUsNTIuNC0xNC4xLDUyLjctMjQuNywxNjMuOCw2Mi42LDE4Ny4yLDg3LjIsMjMuNCwxMzMuNy03OC4yLDE0Ny44LTEzMC45LDYuNS0yNC4zLDkuNC00Mi43LDEwLjItNTQuNi45LTEzLjUtOC4zLTkuNS0yNi02LjVaTTE1Ni41LDEwMi44czEzLjctMjEuNCwzNy4xLTE0LjhjMjMuMyw2LjYsMjUuMSwzMi40LDI1LjEsMzIuNGwtNjIuMi0xNy43Wk0yMTMuNCwxOTguN2MtNDEtMTItNDcuMy00NC43LTQ3LjMtNDQuN2wxMTAuMiwzMC44cy0yMi4yLDI1LjgtNjIuOCwxMy45Wk0yNTIuNCwxMzEuNXMxMy43LTIxLjQsMzctMTQuN2MyMy4zLDYuNiwyNS4xLDMyLjQsMjUuMSwzMi40bC02Mi4yLTE3LjdaIi8+Cjwvc3ZnPg==)
 ![happo](https://img.shields.io/badge/happo-%2314aa8c?style=for-the-badge&logo=data:image/svg+xml;base64,IDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgOTguMjQgODQuNzkiIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOCI+CiA8cGF0aCBkPSJNNDQuNjcgMjAuNTFDMzMgMTkuODcgMzUgOS43NyA0MSA4LjIyYzUuNTYtMS40NSA4LjM1IDUuODUgOC4zNSA1Ljg1QzUwLjM5IDEyLjYgNTYgNS40OSA1OCA4LjQxYzEuOSAyLjcxIDQuNDUgNC4yMyA1LjE5IDQuMjVDNzUuOS40NiA4MC4wOC0xLjE0IDg0LjkuNTdjMTMuODcgNC45NCAxNyAyMS41MiA5IDMwLjE0LTUuNjkgNi4xMi0yMS42MiAzLjU3LTIxLjYyIDMuNTdsOCA2LjA5Yy01LjExIDcuMjYtMTYuODkgNC45NC0xNi44OSA0Ljk0IDEwLjIxIDIyLTUuMyAzOS40OC01LjMgMzkuNDhoLTE1YzAgLjEyIDIuMjItMTEuMjItOS42OS0xMS4wNy0xMCAuMTMtOC4zMyAxMS4wNy04LjMzIDExLjA3SDkuMzZjLTEuNDItMy4wNy0xOC0yNC40Ni0zLjM0LTQ2IDEzLjgxLTIwLjI1IDM1Ljc5LTE0LjEgMzUuNzktMTQuMXptMTIuNzktMy42OWEzLjE0IDMuMTQgMCAxIDAgMy4yMyAzIDMuMTQgMy4xNCAwIDAgMC0zLjIzLTN6IiBmaWxsPSIjZmZmIj48L3BhdGg+CiA8L3N2Zz4K)
-![coveralls](https://img.shields.io/badge/coveralls-%233F5767?style=for-the-badge&logo=coveralls)
+![codecov](https://img.shields.io/badge/codecov-%231C1E24?style=for-the-badge&logo=codecov)
 
 ![Sentry](https://img.shields.io/badge/sentry-%23362D59?style=for-the-badge&logo=sentry&logoColor=white)
 ![Dependabot](https://img.shields.io/badge/dependabot-%23025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
@@ -365,6 +365,6 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 [unit-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/unit-tests.yml?query=branch%3Amain
 [e2e-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/e2e-tests.yml?query=branch%3Amain
 [dead-links-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yml?query=branch%3Amain
-[coverage]: https://coveralls.io/github/tiagoporto/svg-music-logos
+[coverage]: https://app.codecov.io/gh/tiagoporto/svg-music-logos/new
 [gh-sponsor]: https://github.com/sponsors/tiagoporto
 [paypal-sponsor]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YTDUQ8RZ2G4Q8&lc=US&item_name=tiagoporto&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
