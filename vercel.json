@@ -1,6 +1,7 @@
 {
   "framework": "nuxtjs",
   "installCommand": "npm ci --ignore-scripts",
+  "buildCommand": "next build"
   "cleanUrls": true,
   "trailingSlash": false,
   "git": {
