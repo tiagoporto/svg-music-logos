@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 48 48">
     <style>
     .background {
-      fill: #5486f7;
+      fill: #0A0021;
     }
     .phone {
       fill: #fff;
@@ -9,10 +9,10 @@
 
     @media (prefers-color-scheme: dark) {
       .background {
-        fill: #fff;
+        fill: #EF293D;
       }
       .phone {
-       fill: #5486f7;
+        fill: #0A0021;
       }
     }
   </style>

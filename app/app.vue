@@ -2,14 +2,45 @@
 import { useHead } from 'nuxt/app'
 import { TITLE, DESCRIPTION, URL } from './constants/site'
 
+let favicon: HTMLLinkElement | null = null
+let count = 0
+const favicons = [
+  '/favicon.svg',
+  '/favicon2.svg',
+  '/favicon3.svg',
+  '/favicon4.svg',
+]
+
 useHead({
   htmlAttrs: {
     lang: 'en',
   },
 })
 
+const randomizeFavicon = () => {
+  const interval = setInterval(() => {
+    if (favicon && favicon.href && count < 30) {
+      favicon.href = favicons[
+        Math.floor(Math.random() * favicons.length)
+      ] as string
+      count++
+    } else {
+      clearInterval(interval)
+    }
+  }, 150)
+
+  setTimeout(() => {
+    count = 0
+    randomizeFavicon()
+  }, 60000)
+}
+
 onMounted(() => {
-  console.info(`\x1b[34m
+  favicon = document.getElementById('favicon') as HTMLLinkElement
+  randomizeFavicon()
+
+  if (process.env.NODE_ENV === 'production') {
+    console.info(`\x1b[34m
             ██████████
          ████████████████
        ████            ████
@@ -21,6 +52,7 @@ onMounted(() => {
  ███████                  ███████
   ██████                  ██████
 \x1b[0m`)
+  }
 })
 </script>
 
@@ -49,7 +81,7 @@ onMounted(() => {
 
     <Link rel="icon" href="/favicon.ico" sizes="48x48" />
     <Link rel="icon" href="/favicon.png" type="image/png" />
-    <Link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <Link id="favicon" rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <Link rel="mask-icon" href="/safari-mask-icon.svg" color="#28a7d6" />
 
     <Meta name="theme-color" content="#28a7d6" />

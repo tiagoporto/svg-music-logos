@@ -48,7 +48,7 @@ onUnmounted(() => {
           <NuxtImg
             width="350"
             :alt="TITLE"
-            src="/favicon.svg"
+            src="/logo.svg"
             :style="{ 'max-width': '100%' }"
           />
         </NuxtLink>
