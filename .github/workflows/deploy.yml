@@ -34,6 +34,12 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
 
