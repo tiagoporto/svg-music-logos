@@ -1,6 +1,7 @@
 import inquirer from 'inquirer'
 import fs from 'node:fs'
 import path from 'node:path'
+import process from 'node:process'
 
 import { createFile } from './utils/create-file.mjs'
 import { SVGHeader } from './utils/svg-header.mjs'

@@ -1,9 +1,10 @@
 import { RemoteBrowserTarget } from 'happo.io'
+import { env } from 'node:process'
 
 // https://docs.happo.io/docs/configuration
 export default {
-  apiKey: process.env.HAPPO_API_KEY,
-  apiSecret: process.env.HAPPO_API_SECRET,
+  apiKey: env.HAPPO_API_KEY,
+  apiSecret: env.HAPPO_API_SECRET,
 
   // https://docs.happo.io/docs/configuration#targets
   targets: {
