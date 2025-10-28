@@ -141,22 +141,22 @@ Endpoints are defined in `server/api` directory.
 {
   artists: [
     {
-      id: string,
-      name: string,
-      nameTemplate?: string,
-      origins: string[],
-      genres: string[] | null,
-      link: string,
+      id: 'string',
+      name: 'string',
+      nameTemplate: 'string ! undefined',
+      origins: 'string[]',
+      genres: 'string[] | null',
+      link: 'string',
       logos: [
         {
-          title: string,
-          svg: string,
-          inverse?: boolean,
+          title: 'string',
+          svg: 'string',
+          inverse: 'boolean | undefined'
         }
-      ],
+      ]
     }
   ],
-  count: number,
+  count: 'number'
 }
 ```
 
@@ -174,25 +174,25 @@ Endpoints are defined in `server/api` directory.
 ```json5
 {
   artist: {
-    id: string,
-    name: string,
-    nameTemplate?: string,
-    origins: string[],
-    genres: string[] | null,
-    link: string,
+    id: 'string',
+    name: 'string',
+    nameTemplate: 'string | undefined',
+    origins: 'string[]',
+    genres: 'string[] | null',
+    link: 'string',
     logos: [
       {
-        title: string,
-        svg: string,
-        inverse?: boolean,
+        title: 'string',
+        svg: 'string',
+        inverse: 'boolean | undefined'
       }
-    ],
+    ]
   },
   pagination: {
-    totalRecords: number,
-    currentPage: number,
-    totalPages: number,
-  },
+    totalRecords: 'number',
+    currentPage: 'number',
+    totalPages: 'number'
+  }
 }
 ```
 
@@ -213,25 +213,25 @@ Endpoints are defined in `server/api` directory.
 {
   logos: [
     {
-      id: string,
-      name: string,
-      nameTemplate?: string,
-      origins: string[],
-      genres: string[] | null,
-      link: string,
+      id: 'string',
+      name: 'string',
+      nameTemplate: 'string | undefined',
+      origins: 'string[]',
+      genres: 'string[] | null',
+      link: 'string',
       logo: {
-        title: string,
-        svg: string,
-        inverse?: boolean,
+        title: 'string',
+        svg: 'string',
+        inverse: 'boolean | undefined'
       }
     }
   ],
-  count: number,
+  count: 'number',
   pagination: {
-    totalRecords: number,
-    currentPage: number,
-    totalPages: number,
-  },
+    totalRecords: 'number',
+    currentPage: 'number',
+    totalPages: 'number'
+  }
 }
 ```
 
@@ -241,10 +241,9 @@ Endpoints are defined in `server/api` directory.
 
 ```json5
 {
-  genres: string[],
-  count: number,
+  genres: 'string[]',
+  count: 'number'
 }
-
 ```
 
 #### GET /api/origins
@@ -253,8 +252,8 @@ Endpoints are defined in `server/api` directory.
 
 ```json5
 {
-  origins: string[],
-  count: number,
+  origins: 'string[]',
+  count: 'number'
 }
 ```
 

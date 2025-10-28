@@ -1,27 +1,23 @@
 <script lang="ts" setup>
-import { ref, onMounted, onUnmounted } from 'vue'
 import { debounce } from 'throttle-debounce'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const jumbotron = ref<HTMLElement | null>(null)
 
 const setBgColor = () => {
-  const element = window
+  const element = globalThis
   if (element.innerWidth > 768) {
     element.document.body.style.backgroundColor = '#fff'
   }
 }
 
 const setJumbotronHeight = () => {
-  const element = window
+  const element = globalThis
 
   if (jumbotron.value) {
     if (element.innerWidth > 768) {
       // only if is not mobile and is not in the top
-      if (element.scrollY > 20) {
-        jumbotron.value.style.height = '100%'
-      } else {
-        jumbotron.value.style.height = '560px'
-      }
+      jumbotron.value.style.height = element.scrollY > 20 ? '100%' : '560px'
     } else {
       jumbotron.value.style.height = '200%'
     }
@@ -45,8 +41,8 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="jumbotron-back" data-happo></div>
-  <div ref="jumbotron" class="jumbotron" data-happo-hide></div>
+  <div class="jumbotron-back" data-happo />
+  <div ref="jumbotron" class="jumbotron" data-happo-hide />
 </template>
 
 <style lang="scss" scoped>

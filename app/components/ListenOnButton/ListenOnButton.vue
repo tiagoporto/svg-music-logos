@@ -30,8 +30,8 @@ const handleClick = (audioStreaming: 'YT Music' | 'Spotify') => {
         >
           <v-list-item-title>
             <v-icon icon="mdi-youtube" />
-            YT Music</v-list-item-title
-          >
+            YT Music
+          </v-list-item-title>
         </v-list-item>
 
         <v-list-item
@@ -39,9 +39,9 @@ const handleClick = (audioStreaming: 'YT Music' | 'Spotify') => {
           target="_blank"
           @click="handleClick('Spotify')"
         >
-          <v-list-item-title
-            ><v-icon icon="mdi-spotify" /> Spotify</v-list-item-title
-          >
+          <v-list-item-title>
+            <v-icon icon="mdi-spotify" /> Spotify
+          </v-list-item-title>
         </v-list-item>
       </v-list>
     </v-menu>

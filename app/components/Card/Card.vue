@@ -19,15 +19,15 @@ const { gtag } = useGtag()
 const {
   title,
   link,
-  genres = undefined,
+  genres,
   origins,
   logo,
-  titleTemplate = undefined,
+  titleTemplate,
 } = defineProps<CardProps>()
 
 const handleClick = async (path: string) => {
   const filePath = path.split('/')
-  const filename = filePath[filePath.length - 1]
+  const filename = filePath.at(-1)
 
   const link = document.createElement('a')
   link.href = path
@@ -50,7 +50,7 @@ const handleClick = async (path: string) => {
     <div class="card__content">
       <Logo :logo="logo" :artist="title" />
       <!-- eslint-disable-next-line vue/no-v-html -->
-      <h2 v-if="titleTemplate" class="card__title" v-html="titleTemplate"></h2>
+      <h2 v-if="titleTemplate" class="card__title" v-html="titleTemplate" />
 
       <h2 v-else class="card__title">
         <a
@@ -67,7 +67,9 @@ const handleClick = async (path: string) => {
       <p v-if="genres">
         <template v-for="(genre, index) in genres">
           {{ genre }}
-          <template v-if="index < genres.length - 1">•</template>
+          <template v-if="index < genres.length - 1">
+            •
+          </template>
         </template>
       </p>
 
@@ -75,7 +77,9 @@ const handleClick = async (path: string) => {
         <template v-for="(origin, index) in origins" :key="index">
           <CountryFlag :iso="flagIso[origin]" :title="origin" />
           {{ origin }}
-          <template v-if="index < origins.length - 1">/</template>
+          <template v-if="index < origins.length - 1">
+            /
+          </template>
         </template>
       </p>
 

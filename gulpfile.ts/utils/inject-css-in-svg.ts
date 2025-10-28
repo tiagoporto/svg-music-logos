@@ -1,7 +1,7 @@
 export const injectCSSinSVG = ({
   svg,
   css,
-}: { svg?: string; css?: string } = {}) => {
+}: { svg?: string, css?: string } = {}) => {
   if (!svg || !css) {
     return svg
   }

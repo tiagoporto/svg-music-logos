@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { Origins } from '../../../server/db/schema'
+
 interface SearchProps {
   selectedFilterBy: string | null
 }
@@ -6,7 +8,7 @@ const { selectedFilterBy } = defineProps<SearchProps>()
 
 const { data: genres, status: genresStatus } = useFetch('/api/genres')
 const { data: origin, status: originStatus } = useFetch('/api/origins')
-const selectedFilterByRef = ref(selectedFilterBy)
+const selectedFilterByReference = ref(selectedFilterBy)
 const route = useRoute()
 
 const itemsPerPageOptions = shallowRef([30, 60, 90, 120])
@@ -39,9 +41,9 @@ watchEffect(() => {
   }
 })
 
-const changeFilterBy = (value: string): void => {
-  const isOrigin = origin.value?.origins.some(
-    (origin: string) => origin === value,
+const changeFilterBy = (value: string) => {
+  const isOrigin = origin.value?.origins.includes(
+    value as Origins,
   )
 
   if (isOrigin) {
@@ -76,7 +78,7 @@ const changeItemsPerPage = (value: number) => {
   <v-row>
     <v-col cols="12" sm="9" class="pb-0">
       <v-select
-        v-model="selectedFilterByRef"
+        v-model="selectedFilterByReference"
         clearable
         label="Filter by"
         density="compact"
@@ -92,7 +94,7 @@ const changeItemsPerPage = (value: number) => {
             v-bind="itemProps"
           />
 
-          <v-list-item v-else v-bind="itemProps"></v-list-item>
+          <v-list-item v-else v-bind="itemProps" />
         </template>
       </v-select>
     </v-col>
@@ -105,8 +107,7 @@ const changeItemsPerPage = (value: number) => {
         density="compact"
         :items="itemsPerPageOptions"
         @update:model-value="changeItemsPerPage"
-      >
-      </v-select>
+      />
     </v-col>
   </v-row>
 </template>

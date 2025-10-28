@@ -35,7 +35,7 @@ inquirer
       type: 'input',
       name: 'logo',
       message: 'What is the logo reference? (where the logo comes from)',
-      filter: (input) => input.trim(),
+      filter: input => input.trim(),
     },
   ])
   .then((answers) => {
@@ -63,7 +63,6 @@ inquirer
 
     return answers
   })
-  // eslint-disable-next-line unicorn/prefer-top-level-await
   .catch((error) => {
     console.error('error:', error)
   })
