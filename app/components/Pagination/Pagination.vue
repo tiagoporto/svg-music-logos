@@ -3,7 +3,7 @@ interface PaginationProps {
   totalPages?: number
 }
 
-const { totalPages = undefined } = defineProps<PaginationProps>()
+const { totalPages } = defineProps<PaginationProps>()
 
 const route = useRoute()
 const currentPage = computed(() => Number(route.query.page) || 1)
@@ -23,6 +23,6 @@ const changePage = (page: number) => {
       total-visible="4"
       variant="tonal"
       @update:model-value="changePage"
-    ></v-pagination>
+    />
   </v-container>
 </template>

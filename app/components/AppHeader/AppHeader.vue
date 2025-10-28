@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { TITLE } from '../../constants/site'
 import { debounce } from 'throttle-debounce'
+
+import { TITLE } from '../../constants/site'
 
 const { data: artists, status: artistsStatus } = await useFetch('/api/artists')
 const { data: logos, status: logosStatus } = useFetch('/api/logos')
@@ -14,7 +15,7 @@ const selectedFilterBy = computed(
 const header = ref<HTMLElement | null>(null)
 const className = ref('header')
 const fixTopLine = debounce(5, () => {
-  const element = window
+  const element = globalThis
 
   if (header.value) {
     if (element.scrollY < 5) {
@@ -40,7 +41,7 @@ onUnmounted(() => {
   <header ref="header" :class="className">
     <GithubCorner
       repo="https://github.com/tiagoporto/svg-music-logos"
-    ></GithubCorner>
+    />
 
     <div class="header__main">
       <h1 class="header__title">
@@ -66,7 +67,7 @@ onUnmounted(() => {
 
       <p class="header__disclaimer">
         *All brands are trademarks of their respective bands or musicians.
-        <br />
+        <br>
         The brands and symbols should only be used to represent which artists
         they refer.
       </p>

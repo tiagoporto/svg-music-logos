@@ -59,5 +59,5 @@ const changeArtist = (value: string) => {
     :disabled="!!selectedFilterBy"
     :loading="artistsStatus !== 'success'"
     @update:model-value="changeArtist"
-  ></v-autocomplete>
+  />
 </template>

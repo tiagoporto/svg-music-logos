@@ -4,7 +4,7 @@ import { createFile } from './utils/create-file.mjs'
 import { SVGHeader } from './utils/svg-header.mjs'
 
 const filterComma = (input) => {
-  return input.split(',').map((item) => item.trim())
+  return input.split(',').map(item => item.trim())
 }
 
 const validateEmptyString = (input) => {
@@ -40,14 +40,14 @@ inquirer
       type: 'input',
       name: 'link',
       message: 'What is the artist link? (e.g. https://rollingstones.com',
-      filter: (input) => input.trim().toLowerCase(),
+      filter: input => input.trim().toLowerCase(),
       validate: validateEmptyString,
     },
     {
       type: 'input',
       name: 'logo',
       message: 'What is the logo reference? (e.g. Flashpoint)',
-      filter: (input) => input.trim(),
+      filter: input => input.trim(),
     },
   ])
   .then((answers) => {
@@ -87,7 +87,6 @@ inquirer
 
     return answers
   })
-  // eslint-disable-next-line unicorn/prefer-top-level-await
   .catch((error) => {
     console.error('error:', error)
   })

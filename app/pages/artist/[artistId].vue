@@ -50,13 +50,13 @@ watchEffect(() => {
       class="card"
       :elevation="12"
       type="card"
-    ></v-skeleton-loader>
+    />
 
     <v-skeleton-loader
       class="card"
       :elevation="12"
       type="card"
-    ></v-skeleton-loader>
+    />
   </template>
 
   <template v-if="data?.artist?.logos">

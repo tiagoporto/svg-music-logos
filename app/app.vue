@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { useHead } from 'nuxt/app'
+
 import { TITLE, DESCRIPTION, URL } from './constants/site'
 
 let favicon: HTMLLinkElement | null = null
@@ -32,15 +33,15 @@ const randomizeFavicon = () => {
   setTimeout(() => {
     count = 0
     randomizeFavicon()
-  }, 60000)
+  }, 60_000)
 }
 
 onMounted(() => {
-  favicon = document.getElementById('favicon') as HTMLLinkElement
+  favicon = document.querySelector('#favicon') as HTMLLinkElement
   randomizeFavicon()
 
   if (process.env.NODE_ENV === 'production') {
-    console.info(`\x1b[34m
+    console.info(`\u001B[34m
             ██████████
          ████████████████
        ████            ████
@@ -48,10 +49,10 @@ onMounted(() => {
  ███████                  ███████     SVG MUSIC LOGOS
 ████████                  ████████
 ████████                  ████████    Grab all the logos in one go!
-████████                  ████████    ${window.location.origin}/download
+████████                  ████████    ${globalThis.location.origin}/download
  ███████                  ███████
   ██████                  ██████
-\x1b[0m`)
+\u001B[0m`)
   }
 })
 </script>
@@ -81,7 +82,12 @@ onMounted(() => {
 
     <Link rel="icon" href="/favicon.ico" sizes="48x48" />
     <Link rel="icon" href="/favicon.png" type="image/png" />
-    <Link id="favicon" rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <Link
+      id="favicon"
+      rel="icon"
+      href="/favicon.svg"
+      type="image/svg+xml"
+    />
     <Link rel="mask-icon" href="/safari-mask-icon.svg" color="#28a7d6" />
 
     <Meta name="theme-color" content="#28a7d6" />
@@ -105,7 +111,7 @@ onMounted(() => {
     <Meta name="msapplication-config" content="/browserconfig.xml" />
   </Head>
 
-  <AppHeader v-once></AppHeader>
+  <AppHeader v-once />
 
   <NuxtLayout>
     <NuxtPage />

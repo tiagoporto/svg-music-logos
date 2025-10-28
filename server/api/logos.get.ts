@@ -3,7 +3,7 @@ import type { Logos, Origins } from '../db/schema'
 import { filterLogos } from '../utils'
 
 export default defineEventHandler(async (event) => {
-  const logosData: { logos: Logos[]; count: number } = filterLogos(data)
+  const logosData: { logos: Logos[], count: number } = filterLogos(data)
 
   const query: {
     genre: string
