@@ -86,7 +86,7 @@
     "gulp-replace": "^1.1.4",
     "gulp-sass": "^6.0.0",
     "gulp-zip": "^6.1.0",
-    "happo-e2e": "^4.1.1",
+    "happo-e2e": "^5.0.0",
     "happo-playwright": "^4.0.3",
     "happo.io": "^12.0.2",
     "inquirer": "^12.9.4",
