@@ -1,0 +1,41 @@
+commit-msg:
+  commands:
+    commitlint:
+      run: npm exec -- commitlint --edit {1}
+
+pre-commit:
+  parallel: true
+  commands:
+    format:
+      glob: '*'
+      run: npm exec -- prettier --write --ignore-unknown {staged_files}
+      stage_fixed: true
+
+    doc-lint:
+      glob: '*.{md,markdown,mdx}'
+      run: npm exec -- remark --frail {staged_files}
+
+    typecheck:
+      glob: '*.{ts,tsx,vue}'
+      # Whole project type check for global errors
+      run: npm exec -- vue-tsc --project tsconfig.json
+
+    markdown-lint:
+      glob: '*.{md,markdown,mdx}'
+      run: npm exec -- eslint --max-warnings 0 --no-warn-ignored {staged_files}
+
+    html-yml-json-lint:
+      glob: '*.{html,yml,yaml,json,jsonc,json5}'
+      run: npm exec -- eslint --max-warnings 0 --no-warn-ignored {staged_files}
+
+    js-ts-eslint:
+      glob: '*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,vue}'
+      run: npm exec -- eslint --max-warnings 0 --no-warn-ignored {staged_files}
+
+    test:
+      glob: '*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,vue}'
+      run: npm exec -- vitest related --run --passWithNoTests {staged_files}
+
+    styles-lint:
+      glob: '*.{scss,vue}'
+      run: npm exec -- stylelint {staged_files}

@@ -20,7 +20,6 @@
   },
   "packageManager": "npm@11.6.0+sha512.77f3fb0dbbd881835d7bd1217deabdf7ed77fc4ec4f363df64fc3cb986404abf6c437661041080f5c5d225103508e7c9ea30cb2742b7e942675d05a10af2d7b9",
   "scripts": {
-    "prepare": "husky",
     "postinstall": "$CI = true || (dependabot-config && editor-config)",
     "new-artist": "node scripts/new-artist.mjs",
     "new-logo": "node scripts/new-logo.mjs",
@@ -90,9 +89,8 @@
     "happo-e2e": "^4.1.1",
     "happo-playwright": "^4.0.3",
     "happo.io": "^12.0.2",
-    "husky": "^9.0.11",
     "inquirer": "^12.9.4",
-    "lint-staged": "^15.2.2",
+    "lefthook": "^2.0.2",
     "nuxt-gtag": "^4.0.0",
     "postcss-html": "^1.8.0",
     "postcss-scss": "^4.0.9",
