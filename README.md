@@ -70,8 +70,7 @@ To continue growing my skills and stay current with the latest technologies, I a
 ![ESLint](https://img.shields.io/badge/ESLint-%234B32C3.svg?style=for-the-badge&logo=eslint&logoColor=white)
 ![Stylelint](https://img.shields.io/badge/Stylelint-%231B3A4B.svg?style=for-the-badge&logo=stylelint&logoColor=white)
 ![Remark](https://img.shields.io/badge/Remark-%230A0E0F.svg?style=for-the-badge&logo=remark&logoColor=d80303)
-![Husky](https://img.shields.io/badge/%F0%9F%90%B6%20Husky-%23161618.svg?style=for-the-badge)
-![Lint Staged](https://img.shields.io/badge/%F0%9F%9A%AB%20Lint%20Staged-%23fef9f9.svg?style=for-the-badge)
+![Lefthook](https://img.shields.io/badge/Lefthook-%23282d3f.svg?style=for-the-badge&logo=lefthook&logoColor=FF1E1E)
 ![Commitlint](https://img.shields.io/badge/Commitlint-%23000.svg?style=for-the-badge&logo=commitlint&logoColor=white)
 
 ![vitest](https://img.shields.io/badge/vitest-%23000?style=for-the-badge&logo=vitest&logoColor=yellow)
