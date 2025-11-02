@@ -91,7 +91,7 @@
     "happo.io": "^12.0.2",
     "inquirer": "^12.9.4",
     "lefthook": "^2.0.2",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "^16.2.6",
     "nuxt-gtag": "^4.0.0",
     "postcss-html": "^1.8.0",
     "postcss-scss": "^4.0.9",
