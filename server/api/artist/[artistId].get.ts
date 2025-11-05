@@ -1,6 +1,6 @@
-import { data } from '#shared/db'
-import type { Logo } from '#shared/db/schema'
+import type { Logo } from '#shared/schema'
 import { createSVGPath } from '#shared/utils/create-svg-path'
+import { data } from '@@/server/db'
 
 export default defineEventHandler(async (event) => {
   const query: {

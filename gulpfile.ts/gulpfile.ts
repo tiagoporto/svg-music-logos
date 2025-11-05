@@ -23,7 +23,7 @@ import {
 const sass = gulpSass(sassEmbedded)
 export const paths = {
   public: 'public/',
-  db: 'shared/db/',
+  db: 'server/db/',
   logos: 'logos/',
 }
 

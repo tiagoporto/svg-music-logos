@@ -26,7 +26,7 @@ logs
 # SVG Music Logos
 public/logos/**/*.svg
 public/logos/**/*.zip
-shared/db/data.json
+server/db/data.json
 logos/**/*.css
 
 # Vitest

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
+import type { Artist } from '../schema'
 import { filterGenres } from './filter-genres'
 
 const data = [
@@ -10,7 +11,7 @@ const data = [
   { id: 'samael', genres: ['Black Metal', 'Industrial Metal'] },
   { id: 'deep-purple', genres: ['Hard Rock'] },
   { id: 'unknown' },
-]
+] as Artist[]
 
 // eslint-disable-next-line vitest/valid-title
 describe(filterGenres, () => {
@@ -30,6 +31,7 @@ describe(filterGenres, () => {
   it('return correct when data is empty', () => {
     expect.hasAssertions()
 
+    // @ts-expect-error testing empty data
     const { genres, count } = filterGenres()
 
     expect(count).toBe(0)

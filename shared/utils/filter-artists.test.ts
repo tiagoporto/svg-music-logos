@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
+import type { Artist } from '../schema'
 import { filterArtists } from './filter-artists'
 
 const data = [
@@ -33,7 +34,7 @@ const data = [
       },
     ],
   },
-]
+] as Artist[]
 
 const returnACDCLogos = [
   { title: 'Powerage', svg: '/logos/acdc/acdc_powerage.svg' },
@@ -65,6 +66,7 @@ describe(filterArtists, () => {
   it('return correct when data is empty', () => {
     expect.hasAssertions()
 
+    // @ts-expect-error testing empty data
     const { artists, count } = filterArtists()
 
     expect(count).toBe(0)

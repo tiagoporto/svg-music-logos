@@ -1,17 +1,19 @@
 import { describe, expect, it } from 'vitest'
 
+import type { Artist } from '../schema'
 import { filterOrigins } from './filter-origins'
 
-const data = [
-  {
-    id: 'yes',
-    origins: ['England'],
-  },
-  { id: 'samael', origins: ['Switzerland'] },
-  { id: 'jimmy-page-and-the-black-crowes', origins: ['England', 'USA'] },
-  { id: 'korzus', origins: ['Brazil'] },
-  { id: 'unknown' },
-]
+const data =
+  [
+    {
+      id: 'yes',
+      origins: ['England'],
+    },
+    { id: 'samael', origins: ['Switzerland'] },
+    { id: 'jimmy-page-and-the-black-crowes', origins: ['England', 'USA'] },
+    { id: 'korzus', origins: ['Brazil'] },
+    { id: 'unknown' },
+  ] as Artist[]
 
 // eslint-disable-next-line vitest/valid-title
 describe(filterOrigins, () => {
@@ -27,6 +29,7 @@ describe(filterOrigins, () => {
   it('return correct when data is empty', () => {
     expect.hasAssertions()
 
+    // @ts-expect-error testing empty data
     const { origins, count } = filterOrigins()
 
     expect(count).toBe(0)

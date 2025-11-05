@@ -1,4 +1,4 @@
-import type { Artist } from '#shared/db/schema.ts'
+import type { Artist } from '#shared/schema.ts'
 
 import { createSVGPath } from './create-svg-path.ts'
 

@@ -105,9 +105,10 @@ To continue growing my skills and stay current with the latest technologies, I a
 ├── public // Public assets
 ├── scripts // NPM scripts
 ├── server
+│   ├── db // Nuxt database
 │   └── api // Nuxt endpoints
 ├── shared
-│   ├── db // Nuxt database and schema
+│   ├── schema
 │   └── utils
 ├── test // E2E tests
 │

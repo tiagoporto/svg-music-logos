@@ -3,7 +3,7 @@
 import CountryFlag from '@dzangolab/vue-country-flag-icon'
 import '@dzangolab/vue-country-flag-icon/dist/CountryFlag.css'
 
-import type { Logo, Origins } from '#shared/db/schema'
+import type { Logo, Origins } from '#shared/schema'
 
 import flagIso from './FlagIso.json'
 

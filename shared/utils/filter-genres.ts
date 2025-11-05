@@ -1,4 +1,4 @@
-import type { Artist } from '#shared/db/schema'
+import type { Artist } from '#shared/schema'
 
 export const filterGenres = (data: Artist[]) => {
   if (!data) {

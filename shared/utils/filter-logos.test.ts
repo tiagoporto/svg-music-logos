@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
+import type { Artist } from '../schema'
 import { filterLogos } from './filter-logos'
 
 const artists = {
@@ -42,7 +43,7 @@ const data = [
       },
     ],
   },
-]
+] as Artist[]
 
 // eslint-disable-next-line vitest/valid-title
 describe(filterLogos, () => {
@@ -75,6 +76,7 @@ describe(filterLogos, () => {
   it('return correct when data is empty', () => {
     expect.hasAssertions()
 
+    // @ts-expect-error testing empty data
     const { logos, count } = filterLogos()
 
     expect(count).toBe(0)
