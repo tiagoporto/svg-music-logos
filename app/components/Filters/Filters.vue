@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Origins } from '../../../server/db/schema'
+import type { Origins } from '#shared/db/schema'
 
 interface SearchProps {
   selectedFilterBy: string | null

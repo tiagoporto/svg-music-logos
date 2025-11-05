@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { Logo } from '../../../server/db/schema'
+import type { Logo } from '#shared/db/schema'
 
 interface LogoProps {
   artist: string

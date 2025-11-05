@@ -1,5 +1,6 @@
-import { data } from '../db'
-import type { Logos, Origins } from '../db/schema'
+import { data } from '#shared/db'
+import type { Logos, Origins } from '#shared/db/schema'
+
 import { filterLogos } from '../utils'
 
 export default defineEventHandler(async (event) => {

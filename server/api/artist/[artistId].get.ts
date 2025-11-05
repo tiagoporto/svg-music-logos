@@ -1,5 +1,6 @@
-import { data } from '../../db'
-import type { Logo } from '../../db/schema'
+import { data } from '#shared/db'
+import type { Logo } from '#shared/db/schema'
+
 import { createSVGPath } from '../../utils/create-svg-path'
 
 export default defineEventHandler(async (event) => {

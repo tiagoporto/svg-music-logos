@@ -1,5 +1,6 @@
+import type { Artist } from '#shared/db/schema.ts'
+
 import { createSVGPath } from './create-svg-path.ts'
-import type { Artist } from '../db/schema'
 
 export const filterArtists = (data: Artist[]) => {
   if (!data) {

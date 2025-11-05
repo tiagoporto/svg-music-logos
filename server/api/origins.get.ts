@@ -1,5 +1,6 @@
-import { data } from '../db'
-import type { Origins } from '../db/schema'
+import { data } from '#shared/db'
+import type { Origins } from '#shared/db/schema'
+
 import { filterOrigins } from '../utils'
 
 export default defineEventHandler(async () => {

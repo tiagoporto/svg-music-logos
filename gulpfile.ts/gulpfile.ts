@@ -23,12 +23,12 @@ import {
 const sass = gulpSass(sassEmbedded)
 export const paths = {
   public: 'public/',
-  db: 'server/db/',
+  db: 'shared/db/',
   logos: 'logos/',
 }
 
 export const updateReadme = () => {
-  const data = JSON.parse(readFileSync('./server/db/data.json'))
+  const data = JSON.parse(readFileSync(paths.db + 'data.json'))
   const { count: genresCount } = filterGenres(data)
   const { count: originsCount } = filterOrigins(data)
   const { count: logosCount } = filterLogos(data)

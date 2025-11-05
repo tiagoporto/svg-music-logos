@@ -1,5 +1,6 @@
-import { data } from '../db'
-import type { Artist } from '../db/schema'
+import { data } from '#shared/db'
+import type { Artist } from '#shared/db/schema'
+
 import { filterArtists } from '../utils'
 
 export default defineEventHandler(async () => {
