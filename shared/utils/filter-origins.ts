@@ -13,6 +13,7 @@ export const filterOrigins = (data: Artist[]) => {
     return artist.origins
   })
 
+  // eslint-disable-next-line unicorn/no-array-sort
   const origins = [...new Set(allOrigins)].filter(Boolean).sort()
 
   return { origins, count: origins.length }

@@ -15,6 +15,7 @@ export const filterGenres = (data: Artist[]) => {
 
   const filteredGenres = allGenres
     .filter((genre: string | undefined) => genre !== undefined)
+    // eslint-disable-next-line unicorn/no-array-sort
     .sort()
 
   const genres = [...new Set(filteredGenres)]

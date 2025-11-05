@@ -28,6 +28,7 @@ export const filterArtists = (data: Artist[]) => {
   }
 
   return {
+    // eslint-disable-next-line unicorn/no-array-sort
     artists: artists.sort((a, b) => a.name.localeCompare(b.name)),
     count: artists.length,
   }

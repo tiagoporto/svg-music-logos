@@ -24,6 +24,7 @@ export const filterLogos = (data: Artist[]) => {
   }
 
   return {
+    // eslint-disable-next-line unicorn/no-array-sort
     logos: logos.sort((a, b) => a.name.localeCompare(b.name)),
     count: logos.length,
   }
