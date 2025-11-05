@@ -30,6 +30,9 @@ export default defineEventHandler(async (event) => {
       title: logo.title,
       svg: path,
       ...(logo.inverse === undefined ? {} : { inverse: logo.inverse }),
+      ...(logo.backgroundColor === undefined
+        ? {}
+        : { backgroundColor: logo.backgroundColor }),
     })
   }
 

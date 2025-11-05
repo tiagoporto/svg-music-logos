@@ -24,6 +24,7 @@ export interface Logo {
   title: string
   svg: string
   inverse?: boolean
+  backgroundColor?: string
 }
 
 export interface Artist {

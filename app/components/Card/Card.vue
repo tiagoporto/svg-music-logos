@@ -47,7 +47,12 @@ const handleClick = async (path: string) => {
 </script>
 
 <template>
-  <div class="card" :class="{ 'card--inverse': logo.inverse }" data-test="card">
+  <div
+    class="card"
+    :class="{ 'card--inverse': logo.inverse }"
+    :style="logo.backgroundColor ? { background: logo.backgroundColor } : {}"
+    data-test="card"
+  >
     <div class="card__content">
       <Logo :logo="logo" :artist="title" />
       <!-- eslint-disable-next-line vue/no-v-html -->

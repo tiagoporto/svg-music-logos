@@ -16,7 +16,7 @@
     {
       "title": "Ten",
       "svg": "pearl-jam_ten.svg",
-      "inverse": true
+      "backgroundColor": "rgba(137,57,82,90%)"
     },
     {
       "title": "Pearl Jam",
