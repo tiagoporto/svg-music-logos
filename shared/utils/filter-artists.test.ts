@@ -49,7 +49,6 @@ const returnBlurLogos = [
   { title: 'Leisure', svg: '/logos/blur/blur_leisure.svg' },
 ]
 
-// eslint-disable-next-line vitest/valid-title
 describe(filterArtists, () => {
   it('return sorted artists data', () => {
     expect.hasAssertions()

@@ -1,0 +1,8 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "allowImportingTsExtensions": true
+  },
+  "include": ["./gulpfile.ts/**/*.ts", "./tests/**/*.ts", "./*.ts"],
+  "exclude": ["nuxt.config.ts"]
+}

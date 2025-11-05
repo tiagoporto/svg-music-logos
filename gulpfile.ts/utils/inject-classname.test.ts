@@ -2,7 +2,6 @@ import { describe, expect, it } from 'vitest'
 
 import { injectClassName } from './'
 
-// eslint-disable-next-line vitest/valid-title
 describe(injectClassName, () => {
   describe('simple cases', () => {
     it('add class when already has a class attribute', () => {
@@ -79,6 +78,7 @@ describe(injectClassName, () => {
   it(`don't do anything if classname parameter is missing`, () => {
     expect.assertions(1)
 
+    // @ts-expect-error: Testing missing parameter
     const svg = injectClassName('<svg></svg>')
 
     expect(svg).toBe('<svg></svg>')
@@ -87,6 +87,7 @@ describe(injectClassName, () => {
   it(`don't do anything if svg parameter is missing`, () => {
     expect.assertions(1)
 
+    // @ts-expect-error: Testing missing parameter
     const svg = injectClassName()
 
     expect(svg).toBeUndefined()

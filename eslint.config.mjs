@@ -32,41 +32,21 @@ const vueConfig = typescriptEslint.config([
   },
 ])
 
-// console.log('vueConfig: ', vueConfig);
 const nuxt = await eslintWithNuxt()
-
-const nuxtConfig = [
-  // .gitignore
-  nuxt[0],
-  // ignore
-  nuxt[1],
-  // nuxt/typescript/setup
-  nuxt[3],
-  // nuxt/typescript/rules
-  nuxt[4],
-  // nuxt/vue/setup
-  nuxt[5],
-  // nuxt/vue/rules
-  nuxt[6],
-  // nuxt/import/rules
-  nuxt[7],
-  // nuxt/setup
-  nuxt[8],
-  // nuxt/vue/single-root
-  nuxt[9],
-  // nuxt/rules
-  nuxt[10],
-  // nuxt/disables/routes
-  nuxt[11],
-  // nuxt/import-globals
-  nuxt[12],
-]
+const nuxtConfig = nuxt.toSpliced(2, 1)
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
     name: 'app/files-to-ignore',
     ignores: ['**/coverage/**'],
+  },
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+      },
+    },
   },
   ...vueConfig,
   ...nuxtConfig,
@@ -108,6 +88,11 @@ export default [
     files: ['**/*.test.{js,ts}'],
     plugins: { vitest },
     rules: { ...vitest.configs.all.rules },
+    settings: {
+      vitest: {
+        typecheck: true,
+      },
+    },
   },
   {
     ...playwright.configs['flat/recommended'],

@@ -15,7 +15,6 @@ const data =
     { id: 'unknown' },
   ] as Artist[]
 
-// eslint-disable-next-line vitest/valid-title
 describe(filterOrigins, () => {
   it('return sorted origins data', () => {
     expect.hasAssertions()

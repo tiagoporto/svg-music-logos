@@ -13,7 +13,6 @@ const data = [
   { id: 'unknown' },
 ] as Artist[]
 
-// eslint-disable-next-line vitest/valid-title
 describe(filterGenres, () => {
   it('return sorted genres data', () => {
     expect.hasAssertions()

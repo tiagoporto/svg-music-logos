@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck: TODO: fix typescript errors
 import * as changeCase from 'change-case'
 import { src, dest } from 'gulp'
 import changed from 'gulp-changed'

@@ -38,7 +38,7 @@
     "check-docs": "remark --frail .",
     "format:check": "prettier --check --ignore-unknown \"**/*\"",
     "format": "npm run format:check -- --write",
-    "typecheck": "vue-tsc",
+    "typecheck": "npx nuxi typecheck",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "npm run lint -- --fix",
     "lint:styles": "stylelint \"**/*.{scss,vue}\"",

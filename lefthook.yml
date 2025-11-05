@@ -18,7 +18,7 @@ pre-commit:
     typecheck:
       glob: '*.{ts,tsx,vue}'
       # Whole project type check for global errors
-      run: npm exec -- vue-tsc --project tsconfig.json
+      run: npm exec --  npx nuxi typecheck
 
     markdown-lint:
       glob: '*.{md,markdown,mdx}'

@@ -45,7 +45,6 @@ const data = [
   },
 ] as Artist[]
 
-// eslint-disable-next-line vitest/valid-title
 describe(filterLogos, () => {
   it('return sorted artists data', () => {
     expect.hasAssertions()
