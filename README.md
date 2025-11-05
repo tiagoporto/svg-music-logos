@@ -107,7 +107,8 @@ To continue growing my skills and stay current with the latest technologies, I a
 ├── server
 │   └── api // Nuxt endpoints
 ├── shared
-│   └── db // Nuxt database and schema
+│   ├── db // Nuxt database and schema
+│   └── utils
 ├── test // E2E tests
 │
 ├── package.json

@@ -18,7 +18,7 @@ import {
   filterGenres,
   filterLogos,
   filterOrigins,
-} from '../server/utils/index.ts'
+} from '../shared/utils/index.ts'
 
 const sass = gulpSass(sassEmbedded)
 export const paths = {

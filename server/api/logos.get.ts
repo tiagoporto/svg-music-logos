@@ -1,7 +1,6 @@
 import { data } from '#shared/db'
 import type { Logos, Origins } from '#shared/db/schema'
-
-import { filterLogos } from '../utils'
+import { filterLogos } from '#shared/utils'
 
 export default defineEventHandler(async (event) => {
   const logosData: { logos: Logos[], count: number } = filterLogos(data)
