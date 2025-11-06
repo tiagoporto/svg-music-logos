@@ -1,29 +1,29 @@
-import { defineVitestConfig } from '@nuxt/test-utils/config'
+import path from 'node:path'
+import { env } from 'node:process'
+import { defineConfig } from 'vitest/config'
 
-export default defineVitestConfig({
+export default defineConfig({
   root: './',
+  resolve: {
+    alias: {
+      '#shared': path.resolve(__dirname, './shared'),
+      '@@': path.resolve(__dirname, './'),
+    },
+  },
   test: {
-    projects: [
-      {
-        test: {
-          include: ['**/*.test.?(c|m)[jt]s?(x)'],
-        },
-      },
-    ],
+    include: ['**/*.test.?(c|m)[jt]s?(x)'],
     coverage: {
       provider: 'v8',
       reportsDirectory: 'coverage',
-      reporter: ['lcov', 'text'],
+      reporter: env.CI ? ['lcov', 'text'] : ['html'],
       extension: ['.js', '.cjs', '.mjs', '.ts', '.mts', '.tsx', '.jsx'],
       exclude: [
-        '.prettierrc.mjs',
-        '.happo.mjs',
-        '.lintstagedrc.mjs',
         '.nuxt',
+        '.happo.mjs',
+        '.prettierrc.mjs',
+        '.stylelintrc.mjs',
         '*.config.*',
-        'gulpfile.js',
-        'scripts',
-        'tests',
+        'test/',
       ],
     },
   },

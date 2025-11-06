@@ -3,6 +3,6 @@
   "compilerOptions": {
     "allowImportingTsExtensions": true
   },
-  "include": ["./gulpfile.ts/**/*.ts", "./tests/**/*.ts", "./*.ts"],
+  "include": ["./gulpfile.ts/**/*.ts", "./test/**/*.ts", "./*.ts"],
   "exclude": ["nuxt.config.ts"]
 }

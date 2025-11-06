@@ -1,4 +1,5 @@
 import tpConfig from '@tiagoporto/eslint-config'
+import { typescriptConfig } from '@tiagoporto/eslint-config/typescript'
 import vitest from '@vitest/eslint-plugin'
 import playwright from 'eslint-plugin-playwright'
 import pluginVue from 'eslint-plugin-vue'
@@ -11,7 +12,7 @@ const vueConfig = typescriptEslint.config([
     files: ['**/*.vue'],
     extends: [
       // TODO: export separated configs
-      tpConfig.configs.base[18],
+      ...typescriptConfig,
       ...pluginVue.configs['flat/recommended'],
     ],
     languageOptions: {
@@ -96,7 +97,7 @@ export default [
   },
   {
     ...playwright.configs['flat/recommended'],
-    files: ['tests/**'],
+    files: ['test/e2e/**/*.spec.{js,ts}'],
     rules: {
       ...playwright.configs['flat/recommended'].rules,
     },

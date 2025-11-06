@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
-import type { Artist } from '../schema'
-import { filterOrigins } from './filter-origins'
+import type { Artist } from '#shared/schema'
+import { filterOrigins } from '@@/shared/utils/filter-origins'
 
 const data =
   [

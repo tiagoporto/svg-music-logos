@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
-import type { Artist } from '../schema'
-import { filterLogos } from './filter-logos'
+import type { Artist } from '#shared/schema'
+import { filterLogos } from '@@/shared/utils/filter-logos'
 
 const artists = {
   blur: {
