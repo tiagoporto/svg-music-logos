@@ -12,6 +12,8 @@ export default defineConfig({
   },
   test: {
     include: ['**/*.test.?(c|m)[jt]s?(x)'],
+    reporters: process.env.CI ? 'junit' : 'default',
+    outputFile: 'test-report.junit.xml',
     coverage: {
       provider: 'v8',
       reportsDirectory: 'coverage',
