@@ -34,6 +34,9 @@ jobs:
       - name: Nuxt Prepare
         run: npm exec nuxt prepare
 
+      - name: Generate data
+        run: npm run generate-data
+
       - name: Run tests
         if: github.event_name == 'workflow_dispatch'
         run: npm run test
