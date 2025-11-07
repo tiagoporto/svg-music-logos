@@ -31,7 +31,7 @@ jobs:
           cache: npm
 
       - name: Install Dependencies
-        run: npm ci --ignore-scripts
+        run: npm ci --force --ignore-scripts
 
       - name: Check Docs
         run: npm run check-docs

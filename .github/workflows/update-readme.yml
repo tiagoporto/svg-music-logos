@@ -24,7 +24,7 @@ jobs:
           cache: npm
 
       - name: Install Dependencies
-        run: npm ci --ignore-scripts
+        run: npm ci --force --ignore-scripts
 
       - name: Generate badges
         run: npm run update-readme

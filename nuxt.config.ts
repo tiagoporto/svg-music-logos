@@ -65,6 +65,14 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     '@nuxt/image',
     '@sentry/nuxt/module',
+    [
+      '@codecov/nuxt-plugin',
+      {
+        enableBundleAnalysis: process.env.CODECOV_TOKEN !== undefined,
+        bundleName: 'svg-music-logos',
+        uploadToken: process.env.CODECOV_TOKEN,
+      },
+    ],
   ],
 
   compatibilityDate: '2024-12-01',
