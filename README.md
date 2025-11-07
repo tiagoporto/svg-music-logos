@@ -44,7 +44,10 @@ To continue growing my skills and stay current with the latest technologies, I a
 [![Checks Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/checks.yml?label=checks&style=flat-square&branch=main)][checks-workflow]
 [![Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/unit-tests.yml?label=unit%20tests&style=flat-square&branch=main)][unit-tests-workflow]
 [![E2E Tests Workflow Status](https://img.shields.io/github/actions/workflow/status/tiagoporto/svg-music-logos/e2e-tests.yml?label=e2e%20tests&style=flat-square&branch=main)][e2e-tests-workflow]
-[![Coverage](https://img.shields.io/codecov/c/github/tiagoporto/svg-music-logos/main?style=flat-square)][coverage]
+
+[![Coverage](https://img.shields.io/codecov/c/github/tiagoporto/svg-music-logos/main?style=flat-square&logo=codecov)][coverage]
+[![Test Analytics](https://img.shields.io/badge/test%20analytics-%23555?style=flat-square&logo=codecov)][test-analytics]
+[![Bundle Analysis](https://img.shields.io/badge/bundle%20analysis-%23555?style=flat-square&logo=codecov)][bundle-analysis]
 
 ## Tech Stack 🧰
 
@@ -367,5 +370,7 @@ SVG Music Logos © 2016 by Tiago Porto is licensed under [CC BY-NC 4.0](LICENSE)
 [e2e-tests-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/e2e-tests.yml?query=branch%3Amain
 [dead-links-workflow]: https://github.com/tiagoporto/svg-music-logos/actions/workflows/dead-link.yml?query=branch%3Amain
 [coverage]: https://app.codecov.io/gh/tiagoporto/svg-music-logos/tree/main
+[test-analytics]: https://app.codecov.io/gh/tiagoporto/svg-music-logos/bundles/main/
+[bundle-analysis]: https://app.codecov.io/gh/tiagoporto/svg-music-logos/tests/main
 [gh-sponsor]: https://github.com/sponsors/tiagoporto
 [paypal-sponsor]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YTDUQ8RZ2G4Q8&lc=US&item_name=tiagoporto&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
