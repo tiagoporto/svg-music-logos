@@ -2,15 +2,17 @@ import type { Logos, Origins } from '#shared/schema'
 import { filterLogos } from '#shared/utils'
 import { data } from '@@/server/db'
 
+interface QueryObject {
+  genre?: string
+  origin?: Origins
+  page?: string
+  itemsPerPage?: string
+}
+
 export default defineEventHandler(async (event) => {
   const logosData: { logos: Logos[], count: number } = filterLogos(data)
 
-  const query: {
-    genre: string
-    origin: Origins
-    page?: string
-    itemsPerPage?: string
-  } = getQuery(event)
+  const query = getQuery<QueryObject>(event) || {}
   const { genre, origin, page, itemsPerPage } = query
   const currentPage = Number(page) || 1
   const itemsPerPageNumber = Number(itemsPerPage) || 30

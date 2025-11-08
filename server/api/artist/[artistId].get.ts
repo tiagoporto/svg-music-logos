@@ -2,11 +2,13 @@ import type { Logo } from '#shared/schema'
 import { createSVGPath } from '#shared/utils/create-svg-path'
 import { data } from '@@/server/db'
 
+interface QueryObject {
+  page?: string
+  itemsPerPage?: string
+}
+
 export default defineEventHandler(async (event) => {
-  const query: {
-    page?: string
-    itemsPerPage?: string
-  } = getQuery(event)
+  const query = getQuery<QueryObject>(event) || {}
   const { page, itemsPerPage } = query
   const currentPage = Number(page) || 1
   const itemsPerPageNumber = Number(itemsPerPage) || 30
