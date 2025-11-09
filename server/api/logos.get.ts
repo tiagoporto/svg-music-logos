@@ -24,6 +24,7 @@ export default defineEventHandler(async (event) => {
           artist.genres?.includes(genre) && artist.origins?.includes(origin)
         )
       }
+
       if (origin) {
         return artist.origins?.includes(origin)
       }
@@ -31,7 +32,6 @@ export default defineEventHandler(async (event) => {
       if (genre) {
         return artist.genres?.includes(genre)
       }
-      return artist
     })
   }
 

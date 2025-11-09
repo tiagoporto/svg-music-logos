@@ -1,5 +1,7 @@
 import { describe, it, expect, vi } from 'vitest'
 
+import type { Artist } from '#shared/schema'
+
 vi.stubGlobal('defineEventHandler', (function_: unknown) => function_)
 vi.stubGlobal('getQuery', (params: unknown) => params)
 vi.stubGlobal('getRouterParam', (event: { params?: Record<string, string> }, parameter: string) => {
@@ -9,6 +11,16 @@ vi.stubGlobal('getRouterParam', (event: { params?: Record<string, string> }, par
 })
 
 describe('get /api/artist/id', () => {
+  it('returns empty data', async () => {
+    expect.hasAssertions()
+
+    const handler = await import('@@/server/api/artist/[artistId].get')
+    // @ts-expect-error: no parameters
+    const data = await handler.default()
+
+    expect(data).toBeUndefined()
+  })
+
   it('returns expected data with default pagination values', async () => {
     expect.hasAssertions()
 
@@ -54,4 +66,31 @@ describe('get /api/artist/id', () => {
       totalRecords: 23,
     })
   })
+
+  it('return backgroundColor in logos', async () => {
+    expect.hasAssertions()
+
+    vi.resetModules()
+
+    vi.doMock(import('@@/server/db'), () => ({
+      data: [
+        {
+          id: 'pearl-jam',
+          name: 'Pearl Jam',
+          logos: [
+            { title: 'Logo 1', backgroundColor: '#FFFFFF', svg: '' },
+          ],
+        } as Artist,
+      ],
+    }))
+
+    const handler = await import('@@/server/api/artist/[artistId].get')
+    // @ts-expect-error: passing parameters
+    const data = await handler.default({ params: { artistId: 'pearl-jam' } })
+    const backgroundColor = data?.artist?.logos?.[0]?.backgroundColor
+
+    expect(backgroundColor).toBe('#FFFFFF')
+  })
+
+  it.todo('returns artists object')
 })

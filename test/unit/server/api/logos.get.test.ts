@@ -51,4 +51,56 @@ describe('get /api/logos', () => {
       totalRecords: 355,
     })
   })
+
+  it('returns no data for unknown origin', async () => {
+    expect.hasAssertions()
+
+    const handler = await import('@@/server/api/logos.get')
+    // @ts-expect-error: passing parameters
+    const data = await handler.default({ origin: 'Test' })
+
+    expect(data).toBeUndefined()
+  })
+
+  it('returns no data for unknown genre', async () => {
+    expect.hasAssertions()
+
+    const handler = await import('@@/server/api/logos.get')
+    // @ts-expect-error: passing parameters
+    const data = await handler.default({ genre: 'Test' })
+
+    expect(data).toBeUndefined()
+  })
+
+  it('returns only filtered genre', async () => {
+    expect.hasAssertions()
+
+    const handler = await import('@@/server/api/logos.get')
+    // @ts-expect-error: passing parameters
+    const data = await handler.default({ genre: 'Heavy Metal' })
+
+    expect(data?.logos?.every(logo => logo.genres?.includes('Heavy Metal'))).toBe(true)
+  })
+
+  it('returns only filtered origin', async () => {
+    expect.hasAssertions()
+
+    const handler = await import('@@/server/api/logos.get')
+    // @ts-expect-error: passing parameters
+    const data = await handler.default({ origin: 'Brazil' })
+
+    expect(data?.logos?.every(logo => logo.origins?.includes('Brazil'))).toBe(true)
+  })
+
+  it('returns only filtered by origin and genre', async () => {
+    expect.hasAssertions()
+
+    const handler = await import('@@/server/api/logos.get')
+    // @ts-expect-error: passing parameters
+    const data = await handler.default({ origin: 'Brazil', genre: 'Heavy Metal' })
+
+    expect(data?.logos?.every(logo => logo.origins?.includes('Brazil') && logo.genres?.includes('Heavy Metal'))).toBe(true)
+  })
+
+  it.todo('returns artists object')
 })
