@@ -29,7 +29,7 @@ test('start page', async ({ page, happoScreenshot }) => {
 
   // run a for loop based in totalPages
   for (let currentPage = 2; currentPage <= totalPages; currentPage++) {
-    await nextButton.click()
+    await nextButton.click({ delay: 600 })
     await expect(page.locator('[data-testid="skeleton"]').last()).toBeHidden()
     await expect(page.locator('[data-testid="card"]').last()).toBeVisible()
     waitForAllImagesLoaded(page)
