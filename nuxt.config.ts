@@ -59,7 +59,6 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/scripts',
     '@nuxtjs/google-fonts',
-    '@nuxt/test-utils/module',
     '@vite-pwa/nuxt',
     'vuetify-nuxt-module',
     'nuxt-gtag',
