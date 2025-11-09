@@ -8,7 +8,7 @@ test('artist page', async ({ page }) => {
 
   for (const artist of data) {
     await page.goto(`/artist/${artist.id}`)
-    const card = page.locator('[data-test="card"]').last()
+    const card = page.locator('[data-testid="card"]').last()
 
     await expect(card).toBeVisible()
   }

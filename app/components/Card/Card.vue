@@ -51,7 +51,7 @@ const handleClick = async (path: string) => {
     class="card"
     :class="{ 'card--inverse': logo.inverse }"
     :style="logo.backgroundColor ? { background: logo.backgroundColor } : {}"
-    data-test="card"
+    data-testid="card"
   >
     <div class="card__content">
       <Logo :logo="logo" :artist="title" />

@@ -17,6 +17,7 @@ const changePage = (page: number) => {
 <template>
   <v-container>
     <v-pagination
+      data-testid="pagination"
       :model-value="currentPage"
       :length="totalPages"
       color="white"

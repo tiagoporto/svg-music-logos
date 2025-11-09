@@ -12,8 +12,13 @@ const { data, status } = await useFetch(
 )
 
 const pageTitle = `${TITLE} | ${data.value?.artist.name} Logos`
+const initialItemsPerPage = computed(() => Number(route.query.itemsPerPage) || 30)
+
+const skeletonsItems = shallowRef(initialItemsPerPage.value)
 
 watchEffect(() => {
+  skeletonsItems.value = data.value?.artist.logos && data.value?.artist.logos?.length < initialItemsPerPage.value ? data.value?.artist.logos?.length : initialItemsPerPage.value
+
   if (data.value === undefined) {
     navigateTo({
       name: 'index',
@@ -47,19 +52,15 @@ watchEffect(() => {
 
   <template v-if="status !== 'success'">
     <v-skeleton-loader
-      class="card"
+      v-for="(i, index) in skeletonsItems"
+      :key="index"
+      class="skeleton"
       :elevation="12"
-      type="card"
-    />
-
-    <v-skeleton-loader
-      class="card"
-      :elevation="12"
-      type="card"
+      type="image, article, heading"
     />
   </template>
 
-  <template v-if="data?.artist?.logos">
+  <template v-if="status === 'success' && data?.artist?.logos">
     <Card
       v-for="logo in data?.artist?.logos"
       :key="logo?.title"
@@ -77,7 +78,8 @@ watchEffect(() => {
 
 <style lang="scss" scoped>
 /* loading card */
-.card {
+.skeleton {
+  min-height: auto;
   flex-basis: 100%;
 
   @media only screen and (width >= 550px) {
