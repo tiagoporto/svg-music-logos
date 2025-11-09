@@ -1,14 +1,5 @@
-import type { Page } from '@playwright/test'
 import { expect } from '@playwright/test'
 import { test } from 'happo-playwright'
-
-async function waitForAllImagesLoaded(page: Page, timeout = 10_000) {
-  await page.waitForFunction(
-    () => [...document.images].every(img => img.complete && img.naturalWidth > 0),
-    undefined,
-    { timeout },
-  )
-}
 
 test('start page', async ({ page, happoScreenshot }) => {
   await page.goto('/?itemsPerPage=30')
@@ -21,18 +12,18 @@ test('start page', async ({ page, happoScreenshot }) => {
 
   // first page
   await expect(page.locator('[data-testid="card"]').last()).toBeVisible()
-  waitForAllImagesLoaded(page)
   await happoScreenshot(body, {
     component: 'Homepage',
     variant: `Page 1`,
   })
 
-  // run a for loop based in totalPages
   for (let currentPage = 2; currentPage <= totalPages; currentPage++) {
-    await nextButton.click({ delay: 600 })
+    await nextButton.click()
+
+    // eslint-disable-next-line playwright/no-wait-for-timeout -- waiting until happo take screenshot
+    await page.waitForTimeout(1000)
     await expect(page.locator('[data-testid="skeleton"]').last()).toBeHidden()
-    await expect(page.locator('[data-testid="card"]').last()).toBeVisible()
-    waitForAllImagesLoaded(page)
+    await expect(page.locator('[data-testid="card"]').last().locator('img')).toBeVisible()
 
     await happoScreenshot(body, {
       component: 'Homepage',
