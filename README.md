@@ -148,9 +148,9 @@ Endpoints are defined in `server/api` directory.
     {
       id: 'string',
       name: 'string',
-      nameTemplate: 'string ! undefined',
+      nameTemplate: 'string | undefined',
       origins: 'string[]',
-      genres: 'string[] | null',
+      genres: 'string[] | undefined',
       link: 'string',
       logos: [
         {
@@ -183,7 +183,7 @@ Endpoints are defined in `server/api` directory.
     name: 'string',
     nameTemplate: 'string | undefined',
     origins: 'string[]',
-    genres: 'string[] | null',
+    genres: 'string[] | undefined',
     link: 'string',
     logos: [
       {
@@ -222,7 +222,7 @@ Endpoints are defined in `server/api` directory.
       name: 'string',
       nameTemplate: 'string | undefined',
       origins: 'string[]',
-      genres: 'string[] | null',
+      genres: 'string[] | undefined',
       link: 'string',
       logo: {
         title: 'string',

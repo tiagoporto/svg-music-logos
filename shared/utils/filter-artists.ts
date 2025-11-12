@@ -1,6 +1,7 @@
 import type { Artist } from '#shared/schema.ts'
 
 import { createSVGPath } from './create-svg-path.ts'
+import { returnBackgroundOrInverse } from './return-background-or-inverse.ts'
 
 export const filterArtists = (data: Artist[]) => {
   if (!data) {
@@ -16,10 +17,7 @@ export const filterArtists = (data: Artist[]) => {
       return {
         title: logo.title,
         svg: path,
-        ...(logo.inverse === undefined ? {} : { inverse: logo.inverse }),
-        ...(logo.backgroundColor === undefined
-          ? {}
-          : { backgroundColor: logo.backgroundColor }),
+        ...returnBackgroundOrInverse(logo.inverse, logo.backgroundColor),
       }
     })
 

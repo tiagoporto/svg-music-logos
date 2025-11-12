@@ -1,5 +1,6 @@
 import type { Logo } from '#shared/schema'
 import { createSVGPath } from '#shared/utils/create-svg-path'
+import { returnBackgroundOrInverse } from '#shared/utils/return-background-or-inverse'
 import { data } from '@@/server/db'
 
 interface QueryObject {
@@ -31,10 +32,7 @@ export default defineEventHandler(async (event) => {
     processedLogos.push({
       title: logo.title,
       svg: path,
-      ...(logo.inverse === undefined ? {} : { inverse: logo.inverse }),
-      ...(logo.backgroundColor === undefined
-        ? {}
-        : { backgroundColor: logo.backgroundColor }),
+      ...returnBackgroundOrInverse(logo.inverse, logo.backgroundColor),
     })
   }
 

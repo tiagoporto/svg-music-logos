@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 
-import type { Artist } from '#shared/schema'
+import { dataMock } from '../../../mock'
 
 vi.stubGlobal('defineEventHandler', (function_: unknown) => function_)
 vi.stubGlobal('getQuery', (params: unknown) => params)
@@ -67,30 +67,35 @@ describe('get /api/artist/id', () => {
     })
   })
 
-  it('return backgroundColor in logos', async () => {
+  it('returns expected artist entity', async () => {
     expect.hasAssertions()
 
     vi.resetModules()
 
-    vi.doMock(import('@@/server/db'), () => ({
-      data: [
-        {
-          id: 'pearl-jam',
-          name: 'Pearl Jam',
-          logos: [
-            { title: 'Logo 1', backgroundColor: '#FFFFFF', svg: '' },
-          ],
-        } as Artist,
-      ],
-    }))
-
+    vi.doMock('@@/server/db', () => ({ data: dataMock }))
     const handler = await import('@@/server/api/artist/[artistId].get')
-    // @ts-expect-error: passing parameters
-    const data = await handler.default({ params: { artistId: 'pearl-jam' } })
-    const backgroundColor = data?.artist?.logos?.[0]?.backgroundColor
 
-    expect(backgroundColor).toBe('#FFFFFF')
+    // @ts-expect-error: no parameters
+    const data = await handler.default({ params: { artistId: 'test-artist' } })
+
+    expect(data?.artist).toStrictEqual({
+      id: 'test-artist',
+      name: 'Test Artist',
+      nameTemplate: '<span>Test Artist</span>',
+      origins: ['Japan', 'Ireland'],
+      genres: ['genre-1', 'genre-2'],
+      link: 'http://test-artist.com',
+      logos: [
+        {
+          inverse: true,
+          svg: '/logos/test-artist/test-artist_test-logo.svg',
+          title: 'Test Logo',
+        },
+        {
+          svg: '/logos/test-artist/test-artist_test-logo-2.svg',
+          title: 'Test Logo 2',
+        },
+      ],
+    })
   })
-
-  it.todo('returns artists object')
 })
