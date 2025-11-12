@@ -86,7 +86,12 @@ export default [
     },
   },
   {
-    files: ['**/*.test.{js,ts}'],
+    files: ['**/*.test.js'],
+    plugins: { vitest },
+    rules: { ...vitest.configs.all.rules },
+  },
+  {
+    files: ['**/*.test.ts'],
     plugins: { vitest },
     rules: { ...vitest.configs.all.rules },
     settings: {
