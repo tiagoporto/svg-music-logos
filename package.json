@@ -60,7 +60,7 @@
     "@nuxt/scripts": "^0.12.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@playwright/test": "^1.56.1",
-    "@sentry/nuxt": "^10.15.0",
+    "@sentry/nuxt": "^10.27.0",
     "@tiagoporto/dependabot-config": "^2.5.0",
     "@tiagoporto/editor-config": "^2.0.0",
     "@tiagoporto/eslint-config": "^6.1.0",
