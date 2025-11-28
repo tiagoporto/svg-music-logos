@@ -34,6 +34,7 @@
     "copy-svgs": "gulp copy-svgs",
     "generate-data": "gulp generate-data",
     "generate-styles": "gulp generate-styles",
+    "check-update": "npx npm-check --update",
     "checks": "npm run check-docs && npm run format:check && npm run typecheck && npm run lint && npm run lint:styles",
     "check-docs": "remark --frail .",
     "format:check": "prettier --check --ignore-unknown \"**/*\"",
