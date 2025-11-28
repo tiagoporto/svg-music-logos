@@ -14,11 +14,19 @@
     "type": "git",
     "url": "git+https://github.com/tiagoporto/svg-music-logos.git"
   },
-  "engines": {
-    "node": ">=22",
-    "npm": ">=10"
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=23",
+      "onFail": "error"
+    },
+    "packageManager": {
+      "name": "npm",
+      "version": ">=10",
+      "onFail": "error"
+    }
   },
-  "packageManager": "npm@11.6.0+sha512.77f3fb0dbbd881835d7bd1217deabdf7ed77fc4ec4f363df64fc3cb986404abf6c437661041080f5c5d225103508e7c9ea30cb2742b7e942675d05a10af2d7b9",
+  "packageManager": "npm@10.9.2",
   "scripts": {
     "postinstall": "$CI = true || (dependabot-config && editor-config)",
     "new-artist": "node scripts/new-artist.mjs",
