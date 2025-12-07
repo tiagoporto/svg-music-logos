@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: "SVG Music Logos"
+message: 'If you use this software, please cite it as below.'
+date-released: 2016-02-23
+type: software
+authors:
+  - given-names: Tiago
+    family-names: Porto
+    email: tiago@tiagoporto.com
+repository-code: 'https://github.com/tiagoporto/svg-music-logos'
+url: "https://tiagoporto.github.io/svg-music-logos"
+license: MIT
