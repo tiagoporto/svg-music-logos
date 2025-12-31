@@ -18,7 +18,11 @@ Sentry.init({
   replaysOnErrorSampleRate: 1,
 
   // If you don't want to use Session Replay, just remove the line below:
-  integrations: [Sentry.replayIntegration()],
+  integrations: [Sentry.replayIntegration({
+    maskAllText: false,
+    maskAllInputs: false,
+    blockAllMedia: false,
+  })],
 
   // Enable logs to be sent to Sentry
   enableLogs: true,
