@@ -118,7 +118,7 @@
     "vue": "^3.5.22",
     "vue-router": "^4.5.0",
     "vue-tsc": "^3.1.2",
-    "vuetify-nuxt-module": "^0.18.7"
+    "vuetify-nuxt-module": "^0.19.3"
   },
   "overrides": {
     "@dzangolab/vue-country-flag-icon": {
