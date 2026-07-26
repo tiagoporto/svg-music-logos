@@ -61,7 +61,7 @@
     "nuxt": "^4.2.1"
   },
   "devDependencies": {
-    "@codecov/nuxt-plugin": "^1.9.1",
+    "@codecov/nuxt-plugin": "^2.0.1",
     "@commitlint/cli": "^19.6.0",
     "@dzangolab/vue-country-flag-icon": "^0.3.0",
     "@nuxt/eslint": "^1.10.0",
