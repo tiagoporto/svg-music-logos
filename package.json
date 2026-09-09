@@ -65,7 +65,7 @@
     "@commitlint/cli": "^19.6.0",
     "@dzangolab/vue-country-flag-icon": "^0.3.0",
     "@nuxt/eslint": "^1.10.0",
-    "@nuxt/image": "^1.11.0",
+    "@nuxt/image": "^2.1.0",
     "@nuxt/scripts": "^0.12.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@playwright/test": "^1.56.1",
