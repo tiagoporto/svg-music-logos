@@ -58,10 +58,10 @@
     "test:e2e:dev": "start-server-and-test dev http-get://localhost:3000 'playwright test --ui'"
   },
   "dependencies": {
-    "nuxt": "^4.2.1"
+    "nuxt": "^4.6.4"
   },
   "devDependencies": {
-    "@codecov/nuxt-plugin": "^1.9.1",
+    "@codecov/nuxt-plugin": "^2.0.1",
     "@commitlint/cli": "^19.6.0",
     "@dzangolab/vue-country-flag-icon": "^0.3.0",
     "@nuxt/eslint": "^1.10.0",
